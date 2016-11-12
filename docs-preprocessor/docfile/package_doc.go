@@ -49,7 +49,7 @@ func (d *PackageDoc) getRelOutputPath() (string, error) {
 	submatches := regex.FindAllStringSubmatch(d.relPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != IS_PACKAGE_DOC_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsFound{ docTypeName: "PackageDoc", path: d.relPath, regEx: IS_PACKAGE_DOC_REGEX })
+		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsFoundInPathRegEx{ docTypeName: "PackageDoc", path: d.relPath, regEx: IS_PACKAGE_DOC_REGEX })
 	}
 
 	// If we were parsing d.relPath = packages/package-vpc/modules/_docs/doc-name.md...

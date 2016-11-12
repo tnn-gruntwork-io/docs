@@ -4,6 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
+	"github.com/gruntwork-io/docs/docs-preprocessor/globs"
 )
 
 const GENERATOR_TESTS_FIXTURES_PATH = "test-fixtures/generator-tests"
@@ -30,7 +31,7 @@ func TestShouldSkipPath(t *testing.T) {
 	}
 
 	for _, testCase := range testCases {
-		globs, err := ToGlobs(testCase.excludes)
+		globs, err := globs.ToGlobs(testCase.excludes)
 		assert.Nil(t, err, "Failed to compile glob patterns: %s", testCase.excludes)
 
 		actual := shouldSkipPath(testCase.path, &Opts{InputPath: testCase.inputPath, Excludes: globs})

@@ -34,12 +34,31 @@ func (d *ModuleOverviewDoc) Copy(outputPathRoot string) error {
 	outAbsPath := fmt.Sprintf("%s/%s", outputPathRoot, outRelPath)
 
 	logger.Logger.Printf("Copying MODULE-OVERVIEW-DOC file %s to %s\n", d.absPath, outAbsPath)
-	err = file.CopyFile(d.absPath, outAbsPath)
+
+	body, err := d.getSanitizedFileBody()
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
+	err = file.WriteFile(body, outAbsPath)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
 
 	return nil
+}
+
+func (d *ModuleOverviewDoc) getSanitizedFileBody() (string, error) {
+	var sanitizedBody string
+
+	body, err := file.ReadFile(d.absPath)
+	if err != nil {
+		return sanitizedBody, errors.WithStackTrace(err)
+	}
+
+	sanitizedBody = sanitizeRelativeFilePaths(d.relPath, body)
+
+	return sanitizedBody, nil
 }
 
 func (d *ModuleOverviewDoc) getRelOutputPath() (string, error) {
@@ -49,7 +68,7 @@ func (d *ModuleOverviewDoc) getRelOutputPath() (string, error) {
 	submatches := regex.FindAllStringSubmatch(d.relPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != IS_MODULE_OVERVIEW_DOC_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsFound{ docTypeName: "ModuleOverviewDoc", path: d.relPath, regEx: IS_MODULE_OVERVIEW_DOC_REGEX })
+		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsFoundInPathRegEx{ docTypeName: "ModuleOverviewDoc", path: d.relPath, regEx: IS_MODULE_OVERVIEW_DOC_REGEX })
 	}
 
 	// If we were parsing d.relPath = packages/module-vpc/modules/vpc-app/README.md...

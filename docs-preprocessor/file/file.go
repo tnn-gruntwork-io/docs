@@ -105,6 +105,38 @@ func CopyFile(srcPath, dstPath string) error {
 	return nil
 }
 
+// Read the body of the file at the given path
+func ReadFile(srcPath string) (string, error) {
+	bytes, err := ioutil.ReadFile(srcPath)
+	if err != nil {
+		return "", errors.WithStackTrace(err)
+	}
+
+	return string(bytes[:]), nil
+}
+
+// Write the given file. If a file already exists at dstPath, return an error.
+func WriteFile(body string, dstPath string) error {
+	containingDir := getContainingDirectory(dstPath)
+
+	err := CreateDir(containingDir)
+	if err != nil {
+		return errors.WithStackTrace(fmt.Errorf("Error while making directory %s", containingDir))
+	}
+
+	if isFileExist(dstPath) {
+		return errors.WithStackTrace(fmt.Errorf("A file already exists at the path %s. Overwriting existing files is not permiitted. Most likely, another file with a conflicting name was already written to this location.\n", dstPath))
+	}
+
+	bodyAsBytes := []byte(body)
+	err = ioutil.WriteFile(dstPath, bodyAsBytes, os.ModePerm)
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
+	return nil
+}
+
 // Return true if the file at the given path exists
 func isFileExist(path string) bool {
 	_, err := os.Stat(path)

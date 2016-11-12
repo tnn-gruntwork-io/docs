@@ -49,7 +49,7 @@ func (d *ModuleImageDoc) getRelOutputPath() (string, error) {
 	submatches := regex.FindAllStringSubmatch(d.relPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != IS_MODULE_IMAGE_DOC_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsFound{ docTypeName: "ModuleImageDoc", path: d.relPath, regEx: IS_MODULE_IMAGE_DOC_REGEX })
+		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsFoundInPathRegEx{ docTypeName: "ModuleImageDoc", path: d.relPath, regEx: IS_MODULE_IMAGE_DOC_REGEX })
 	}
 
 	// If we were parsing d.relPath = packages/package-vpc/modules/_images/sample.jpg...

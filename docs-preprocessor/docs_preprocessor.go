@@ -11,8 +11,6 @@ import (
 	"github.com/gruntwork-io/docs/docs-preprocessor/globs"
 )
 
-
-
 // This function will walk all the files specified in opt.InputPath and relocate them to their desired folder location
 func PreprocessDocs(opts *Opts) error {
 	return filepath.Walk(opts.InputPath, func(path string, info os.FileInfo, err error) error {
