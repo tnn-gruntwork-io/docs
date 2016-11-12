@@ -7,7 +7,8 @@ import (
 	"path/filepath"
 )
 
-const RELATIVE_FILE_PATHS_REGEX = `([A-Za-z0-9_/.-]+/)([A-Za-z0-9_.-]*)`
+//const RELATIVE_FILE_PATHS_REGEX = `([A-Za-z0-9_/.-]+/)([A-Za-z0-9_.-]*)`
+const RELATIVE_FILE_PATHS_REGEX = `(?:http:/|https:/)?(/[A-Za-z0-9_/.-]+)|([A-Za-z0-9_/.-]+/[A-Za-z0-9_.-]*)`
 const NON_PACKAGE_PORTION_OF_URL_REGEX = `^packages/[\w -]+/(.*)$`
 const PACKAGE_ABSOLUTE_URL = "https://github.com/gruntwork-io/module-vpc/tree/master"
 
@@ -43,25 +44,42 @@ func checkRegex(relPath string, regexStr string) bool {
 	return regex.MatchString(relPath)
 }
 
-func sanitizeRelativeFilePaths(rootPath string, body string) string {
-	sanitizedBody := body
+func convertRelativePathsToUrls(rootPath string, body string) string {
+	newBody := body
+
+	relPaths := getAllRelativePaths(body)
+
+	for _, relPath := range relPaths {
+		rootPath := stripPackageInfoFromPath(rootPath)
+		normalizedRelPath := getNormalizedRelPath(rootPath, relPath)
+		absUrl := PACKAGE_ABSOLUTE_URL + "/" + normalizedRelPath
+		newBody = strings.Replace(newBody, relPath, absUrl, -1)
+	}
+
+	return newBody
+}
+
+func getAllRelativePaths(body string) []string {
+	var relPaths []string
 
 	regex := regexp.MustCompile(RELATIVE_FILE_PATHS_REGEX)
 	submatches := regex.FindAllStringSubmatch(body, -1)
 
-	if len(submatches) > 0  {
-		for _, submatch := range submatches {
-			// If the URI found is ../vpc-mgmt, then...
-			relPath := submatch[0] // = ../vpc-mgmt
+	if len(submatches) == 0 {
+		return relPaths
+	}
 
-			rootPath := stripPackageInfoFromPath(rootPath)
-			normalizedRelPath := getNormalizedRelPath(rootPath, relPath)
-			absUrl := PACKAGE_ABSOLUTE_URL + "/" + normalizedRelPath
-			sanitizedBody = strings.Replace(sanitizedBody, relPath, absUrl, -1)
+	fmt.Printf("relPaths = %v\n", relPaths)
+	for _, submatch := range submatches {
+		relPath := submatch[0]
+
+		// Cowardly use string search because Golang regular expressions don't support positive lookahead.
+		if ! strings.Contains(relPath, "http://") && ! strings.Contains(relPath, "https://") {
+			relPaths = append(relPaths, relPath)
 		}
 	}
 
-	return sanitizedBody
+	return relPaths
 }
 
 // Given packages/foo/bar, return foo/bar

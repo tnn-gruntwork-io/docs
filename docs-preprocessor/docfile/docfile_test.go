@@ -10,29 +10,77 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestGetRelativeFilePaths(t *testing.T) {
+//func TestGetRelativeFilePaths(t *testing.T) {
+//	t.Parallel()
+//
+//	testCases := []struct {
+//		path string
+//		body string
+//		expected string
+//	}{
+//		{	"packages/module-vpc/modules/vpc-app/README.md",
+//			`# VPC-App Terraform Module
+//
+//			This Terraform Module launches a single VPC meant to house applications. By contrast, DevOps-related services such as
+//			Jenkins or InfluxDB should be in a "mgmt" VPC. (See the [vpc-mgmt](../vpc-mgmt) module.)`,
+//			`# VPC-App Terraform Module
+//
+//			This Terraform Module launches a single VPC meant to house applications. By contrast, DevOps-related services such as
+//			Jenkins or InfluxDB should be in a "mgmt" VPC. (See the [vpc-mgmt](https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-mgmt) module.)`,
+//		},
+//	}
+//
+//	for _, testCase := range testCases {
+//		actual := sanitizeRelativeFilePaths(testCase.path, testCase.body)
+//		assert.Equal(t, testCase.expected, actual, testCase.body)
+//	}
+//}
+
+func TestGetAllRelativePaths(t *testing.T) {
 	t.Parallel()
 
 	testCases := []struct {
-		path string
 		body string
-		expected string
+		expected []string
 	}{
-		{	"packages/module-vpc/modules/vpc-app/README.md",
+		{
 			`# VPC-App Terraform Module
-
 			This Terraform Module launches a single VPC meant to house applications. By contrast, DevOps-related services such as
 			Jenkins or InfluxDB should be in a "mgmt" VPC. (See the [vpc-mgmt](../vpc-mgmt) module.)`,
-			`# VPC-App Terraform Module
-
-			This Terraform Module launches a single VPC meant to house applications. By contrast, DevOps-related services such as
-			Jenkins or InfluxDB should be in a "mgmt" VPC. (See the [vpc-mgmt](https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-mgmt) module.)`,
+			[]string{ "../vpc-mgmt" },
+		},
+		{
+			`## How do you use this module?
+			Check out the [examples folder](/examples)`,
+			[]string{ "/examples" },
+		},
+		{
+			`A [VPC](https://aws.amazon.com/vpc/) or Virtual Private Cloud is a logically isolated section of your AWS cloud. Each
+			VPC defines a virtual network within which you run your AWS resources, as well as rules for what can go in and out of
+			that network. This includes subnets, route tables that tell those subnets how to route inbound and outbound traffic,
+			security groups, firewalls for the subnet (known as "Network ACLs"), and any other network components such as VPN connections.`,
+			[]string(nil),
+		},
+		{
+			`A [VPC](https://aws.amazon.com/vpc/) or Virtual Private Cloud is a logically isolated section of your AWS cloud. Each
+			VPC defines a virtual network within which you run your [AWS resources](../resources), as well as rules for what can go in and out of
+			that network. This includes subnets, route tables that tell those subnets how to route inbound and outbound traffic,
+			security groups, firewalls for the subnet (known as "Network ACLs"), and any other network components such as VPN connections.`,
+			[]string{"../resources"},
+		},
+		{
+			`A [VPC](https://aws.amazon.com/vpc/) or [Virtual Private Cloud](../../vpc/) is something special.`,
+			[]string{"../../vpc/"},
+		},
+		{
+			`A [VPC](https://aws.amazon.com/vpc/) or [Virtual Private Cloud](../../vpc/) is [something](/something) special.`,
+			[]string{"../../vpc/", "/something"},
 		},
 	}
 
 	for _, testCase := range testCases {
-		actual := sanitizeRelativeFilePaths(testCase.path, testCase.body)
-		assert.Equal(t, testCase.expected, actual, testCase.body)
+		actual := getAllRelativePaths(testCase.body)
+		assert.Equal(t, testCase.expected, actual, "Test case used the following body:\n%s", testCase.body)
 	}
 }
 
