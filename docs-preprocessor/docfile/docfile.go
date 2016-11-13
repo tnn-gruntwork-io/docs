@@ -8,8 +8,8 @@ import (
 )
 
 //const RELATIVE_FILE_PATHS_REGEX = `([A-Za-z0-9_/.-]+/)([A-Za-z0-9_.-]*)`
-const RELATIVE_FILE_PATHS_REGEX = `(?:http:/|https:/)?(/[A-Za-z0-9_/.-]+)|([A-Za-z0-9_/.-]+/[A-Za-z0-9_.-]*)`
-const NON_PACKAGE_PORTION_OF_URL_REGEX = `^packages/[\w -]+/(.*)$`
+const FILE_PATHS_REGEX = `(?:http:/|https:/)?(/[A-Za-z0-9_/.-]+)|([A-Za-z0-9_/.-]+/[A-Za-z0-9_.-]*)`
+const NON_PACKAGE_PORTION_OF_URL_REGEX = `^(packages/[\w -]+)/(.*)$`
 const PACKAGE_ABSOLUTE_URL = "https://github.com/gruntwork-io/module-vpc/tree/master"
 
 // The DocFile interface represents a Gruntwork documentation file
@@ -44,32 +44,34 @@ func checkRegex(relPath string, regexStr string) bool {
 	return regex.MatchString(relPath)
 }
 
-func convertRelativePathsToUrls(rootPath string, body string) string {
+// Given a doc file at the given filePath with the given body, convert all paths in the body (e.g. "/foo" or "../bar")
+// to fully qualified URLs.
+func convertPathsToUrls(filePath string, body string) string {
 	newBody := body
 
-	relPaths := getAllRelativePaths(body)
+	linkPaths := getAllLinkPaths(body)
 
-	for _, relPath := range relPaths {
-		rootPath := stripPackageInfoFromPath(rootPath)
-		normalizedRelPath := getNormalizedRelPath(rootPath, relPath)
-		absUrl := PACKAGE_ABSOLUTE_URL + "/" + normalizedRelPath
-		newBody = strings.Replace(newBody, relPath, absUrl, -1)
+	for _, linkPath := range linkPaths {
+		packageFilePath, nonPackageFilePath := extractPackageInfoFromFilePath(filePath)
+		normalizedLinkPath := getNormalizedLinkPath(packageFilePath, nonPackageFilePath, linkPath)
+		absUrl := PACKAGE_ABSOLUTE_URL + "/" + normalizedLinkPath
+		newBody = strings.Replace(newBody, linkPath, absUrl, -1)
 	}
 
 	return newBody
 }
 
-func getAllRelativePaths(body string) []string {
+// Given a body of text find all instances of link paths (e.g. /foo or ../bar)
+func getAllLinkPaths(body string) []string {
 	var relPaths []string
 
-	regex := regexp.MustCompile(RELATIVE_FILE_PATHS_REGEX)
+	regex := regexp.MustCompile(FILE_PATHS_REGEX)
 	submatches := regex.FindAllStringSubmatch(body, -1)
 
 	if len(submatches) == 0 {
 		return relPaths
 	}
 
-	fmt.Printf("relPaths = %v\n", relPaths)
 	for _, submatch := range submatches {
 		relPath := submatch[0]
 
@@ -82,21 +84,33 @@ func getAllRelativePaths(body string) []string {
 	return relPaths
 }
 
-// Given packages/foo/bar, return foo/bar
-func stripPackageInfoFromPath(rootPath string) string {
-	var updatedPath string
+// Given a filePath like packages/modules/foo/bar, return the package portion (packages/modules) and non-package portion (foo/bar)
+func extractPackageInfoFromFilePath(filePath string) (string, string) {
+	var packagePath string
+	var nonPackagePath string
 
 	regex := regexp.MustCompile(NON_PACKAGE_PORTION_OF_URL_REGEX)
-	submatches := regex.FindAllStringSubmatch(rootPath, -1)
+	submatches := regex.FindAllStringSubmatch(filePath, -1)
 
-	updatedPath = submatches[0][1]
-	return updatedPath
+	packagePath = submatches[0][1]
+	nonPackagePath = submatches[0][2]
+	return packagePath, nonPackagePath
 }
 
-// Convert all instances of "../" in a path into the corresponding absolute path.
-// Example: Given /a/b/c and ../d, yield /a/b/d
-func getNormalizedRelPath(rootPath, relPath string) string {
-	return filepath.Join(rootPath, "../" + relPath)
+// Given a filePath (the package portion such as /packages/package-vpc, and the non-package portion such as /foo/bar)
+// and a linkPath, get a normalized version of the linkPath.
+// Example: linkPath = /x/y ==> x/y
+// Example: packageFilePath = packages/package-vpc, nonPackageFilePath = /foo/bar, linkPath = ../p/q ==> packages/package-vpc/foo/p/q
+func getNormalizedLinkPath(packageFilePath, nonPackageFilePath, linkPath string) string {
+	if strings.HasPrefix(linkPath, "/") {
+		return strings.Replace(linkPath, "/", "", 1)
+	}
+
+	if strings.HasPrefix(linkPath, "../") {
+		return filepath.Join(nonPackageFilePath, "../", linkPath)
+	}
+
+	return ""
 }
 
 // Custom errors

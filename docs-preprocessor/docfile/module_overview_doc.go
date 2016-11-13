@@ -56,7 +56,7 @@ func (d *ModuleOverviewDoc) getSanitizedFileBody() (string, error) {
 		return sanitizedBody, errors.WithStackTrace(err)
 	}
 
-	sanitizedBody = convertRelativePathsToUrls(d.relPath, body)
+	sanitizedBody = convertPathsToUrls(d.relPath, body)
 
 	return sanitizedBody, nil
 }

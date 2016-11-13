@@ -1,58 +1,55 @@
 package docfile
 
 import (
-	//"testing"
-	//
-	//"github.com/stretchr/testify/assert"
-)
-import (
 	"testing"
 	"github.com/stretchr/testify/assert"
 )
 
-//func TestGetRelativeFilePaths(t *testing.T) {
-//	t.Parallel()
-//
-//	testCases := []struct {
-//		path string
-//		body string
-//		expected string
-//	}{
-//		{	"packages/module-vpc/modules/vpc-app/README.md",
-//			`# VPC-App Terraform Module
-//
-//			This Terraform Module launches a single VPC meant to house applications. By contrast, DevOps-related services such as
-//			Jenkins or InfluxDB should be in a "mgmt" VPC. (See the [vpc-mgmt](../vpc-mgmt) module.)`,
-//			`# VPC-App Terraform Module
-//
-//			This Terraform Module launches a single VPC meant to house applications. By contrast, DevOps-related services such as
-//			Jenkins or InfluxDB should be in a "mgmt" VPC. (See the [vpc-mgmt](https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-mgmt) module.)`,
-//		},
-//	}
-//
-//	for _, testCase := range testCases {
-//		actual := sanitizeRelativeFilePaths(testCase.path, testCase.body)
-//		assert.Equal(t, testCase.expected, actual, testCase.body)
-//	}
-//}
+func TestConvertPathsToUrls(t *testing.T) {
+	t.Parallel()
+
+	testCases := []struct {
+		path string
+		body string
+		expected string
+	}{
+		{	"packages/module-vpc/modules/vpc-app/README.md",
+			`Check out the [examples folder](/examples).`,
+			`Check out the [examples folder](https://github.com/gruntwork-io/module-vpc/tree/master/examples).`,
+		},
+		{	"packages/module-vpc/modules/vpc-app/README.md",
+			`# VPC-App Terraform Module
+			This Terraform Module launches a single VPC meant to house applications. By contrast, DevOps-related services such as
+			Jenkins or InfluxDB should be in a "mgmt" VPC. (See the [vpc-mgmt](../vpc-mgmt) module.)`,
+			`# VPC-App Terraform Module
+			This Terraform Module launches a single VPC meant to house applications. By contrast, DevOps-related services such as
+			Jenkins or InfluxDB should be in a "mgmt" VPC. (See the [vpc-mgmt](https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-mgmt) module.)`,
+		},
+	}
+
+	for _, testCase := range testCases {
+		actual := convertPathsToUrls(testCase.path, testCase.body)
+		assert.Equal(t, testCase.expected, actual, testCase.body)
+	}
+}
 
 func TestGetAllRelativePaths(t *testing.T) {
 	t.Parallel()
 
 	testCases := []struct {
-		body string
+		body     string
 		expected []string
 	}{
 		{
 			`# VPC-App Terraform Module
 			This Terraform Module launches a single VPC meant to house applications. By contrast, DevOps-related services such as
 			Jenkins or InfluxDB should be in a "mgmt" VPC. (See the [vpc-mgmt](../vpc-mgmt) module.)`,
-			[]string{ "../vpc-mgmt" },
+			[]string{"../vpc-mgmt" },
 		},
 		{
 			`## How do you use this module?
 			Check out the [examples folder](/examples)`,
-			[]string{ "/examples" },
+			[]string{"/examples" },
 		},
 		{
 			`A [VPC](https://aws.amazon.com/vpc/) or Virtual Private Cloud is a logically isolated section of your AWS cloud. Each
@@ -79,41 +76,46 @@ func TestGetAllRelativePaths(t *testing.T) {
 	}
 
 	for _, testCase := range testCases {
-		actual := getAllRelativePaths(testCase.body)
+		actual := getAllLinkPaths(testCase.body)
 		assert.Equal(t, testCase.expected, actual, "Test case used the following body:\n%s", testCase.body)
 	}
 }
 
-func TestStripPackageInfoFromPath(t *testing.T) {
+func TestExtractPackageInfoFromPath(t *testing.T) {
 	t.Parallel()
 
 	testCases := []struct {
-		rootPath string
-		expected string
+		rootPath               string
+		expectedPackagePath    string
+		expectedNonPackagePath string
 	}{
-		{ "packages/module-vpc/modules/vpc-app/README.md", "modules/vpc-app/README.md" },
+		{"packages/module-vpc/modules/vpc-app/README.md", "packages/module-vpc", "modules/vpc-app/README.md" },
 	}
 
 	for _, testCase := range testCases {
-		actual := stripPackageInfoFromPath(testCase.rootPath)
-		assert.Equal(t, testCase.expected, actual, "rootPath = %s\n", testCase.rootPath)
+		actualPackagePath, actualNonPackagePath := extractPackageInfoFromFilePath(testCase.rootPath)
+		assert.Equal(t, testCase.expectedPackagePath, actualPackagePath, "rootPath = %s\n", testCase.rootPath)
+		assert.Equal(t, testCase.expectedNonPackagePath, actualNonPackagePath, "rootPath = %s\n", testCase.rootPath)
 	}
 }
 
-func TestNormalizeRelPaths(t *testing.T) {
+func TestGetNormalizedLinkPaths(t *testing.T) {
 	t.Parallel()
 
 	testCases := []struct {
-		rootPath string
-		relPath string
-		expected string
+		packageFilePath    string
+		nonPackageFilePath string
+		linkPath           string
+		expected           string
 	}{
-		{ "packages/module-vpc/modules/vpc-app/README.md", "../vpc-mgmt", "packages/module-vpc/modules/vpc-mgmt" },
+		{"packages/module-vpc/", "modules/vpc-app/README.md", "../vpc-mgmt", "modules/vpc-mgmt" },
+		{"packages/package-vpc", "", "/examples", "examples" },
+		{"packages/package-vpc", "/foo/bar", "../p/q", "/p/q" },
 	}
 
 	for _, testCase := range testCases {
-		actual := getNormalizedRelPath(testCase.rootPath, testCase.relPath)
-		assert.Equal(t, testCase.expected, actual, "rootPath = %s\nrelPath = %s\n", testCase.rootPath, testCase.relPath)
+		actual := getNormalizedLinkPath(testCase.packageFilePath, testCase.nonPackageFilePath, testCase.linkPath)
+		assert.Equal(t, testCase.expected, actual, "packagesPath = %s\nnonPackagesPath = %s\nrelPath = %s\n", testCase.packageFilePath, testCase.nonPackageFilePath, testCase.linkPath)
 	}
 }
 
