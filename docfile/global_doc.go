@@ -1,11 +1,12 @@
 package docfile
 
 import (
-	"strings"
-	"github.com/gruntwork-io/docs/docs-preprocessor/logger"
-	"github.com/gruntwork-io/docs/docs-preprocessor/file"
 	"fmt"
-	"github.com/gruntwork-io/docs/docs-preprocessor/errors"
+	"strings"
+
+	"github.com/gruntwork-io/docs/logger"
+	"github.com/gruntwork-io/docs/file"
+	"github.com/gruntwork-io/docs/errors"
 )
 
 const IS_GLOBAL_DOC_REGEX = `^global/(.*\.md)$`

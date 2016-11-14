@@ -6,9 +6,9 @@ import (
 
 	"github.com/gobwas/glob"
 	"github.com/urfave/cli"
-	"github.com/gruntwork-io/docs/docs-preprocessor/errors"
-	"github.com/gruntwork-io/docs/docs-preprocessor/logger"
-	"github.com/gruntwork-io/docs/docs-preprocessor/globs"
+	"github.com/gruntwork-io/docs/errors"
+	"github.com/gruntwork-io/docs/logger"
+	"github.com/gruntwork-io/docs/globs"
 )
 
 // Customize the --help text for the app so we don't show extraneous info

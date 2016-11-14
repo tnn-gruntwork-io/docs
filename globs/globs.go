@@ -2,7 +2,7 @@ package globs
 
 import (
 	"github.com/gobwas/glob"
-	"github.com/gruntwork-io/docs/docs-preprocessor/errors"
+	"github.com/gruntwork-io/docs/errors"
 )
 
 func MatchesGlobs(path string, globs []glob.Glob) bool {

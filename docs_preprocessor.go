@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"github.com/gruntwork-io/docs/docs-preprocessor/docfile"
-	"github.com/gruntwork-io/docs/docs-preprocessor/file"
-	"github.com/gruntwork-io/docs/docs-preprocessor/errors"
-	"github.com/gruntwork-io/docs/docs-preprocessor/logger"
-	"github.com/gruntwork-io/docs/docs-preprocessor/globs"
+	"github.com/gruntwork-io/docs/docfile"
+	"github.com/gruntwork-io/docs/file"
+	"github.com/gruntwork-io/docs/errors"
+	"github.com/gruntwork-io/docs/logger"
+	"github.com/gruntwork-io/docs/globs"
 )
 
 // This function will walk all the files specified in opt.InputPath and relocate them to their desired folder location

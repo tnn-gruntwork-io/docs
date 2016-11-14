@@ -2,8 +2,8 @@ package main
 
 import (
 	"os"
-	"github.com/gruntwork-io/docs/docs-preprocessor/errors"
-	"github.com/gruntwork-io/docs/docs-preprocessor/logger"
+	"github.com/gruntwork-io/docs/errors"
+	"github.com/gruntwork-io/docs/logger"
 )
 
 // This variable is set at build time using -ldflags parameters. For more info, see:

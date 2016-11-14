@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"fmt"
 	"net/http"
-	"github.com/gruntwork-io/docs/docs-preprocessor/errors"
+	"github.com/gruntwork-io/docs/errors"
 	"io/ioutil"
 )
 

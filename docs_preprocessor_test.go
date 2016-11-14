@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/gruntwork-io/docs/docs-preprocessor/globs"
+	"github.com/gruntwork-io/docs/globs"
 )
 
 const GENERATOR_TESTS_FIXTURES_PATH = "test-fixtures/generator-tests"

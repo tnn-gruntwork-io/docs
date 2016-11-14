@@ -3,9 +3,10 @@ package docfile
 import (
 	"fmt"
 	"regexp"
-	"github.com/gruntwork-io/docs/docs-preprocessor/errors"
-	"github.com/gruntwork-io/docs/docs-preprocessor/file"
-	"github.com/gruntwork-io/docs/docs-preprocessor/logger"
+
+	"github.com/gruntwork-io/docs/errors"
+	"github.com/gruntwork-io/docs/file"
+	"github.com/gruntwork-io/docs/logger"
 )
 
 const IS_GLOBAL_IMAGE_DOC_REGEX = `^global/([\w -/]*_images)/([\w -]+\.(jpg|jpeg|gif|png|svg))$`

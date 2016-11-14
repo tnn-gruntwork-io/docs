@@ -3,9 +3,9 @@ package docfile
 import (
 	"fmt"
 	"regexp"
-	"github.com/gruntwork-io/docs/docs-preprocessor/errors"
-	"github.com/gruntwork-io/docs/docs-preprocessor/logger"
-	"github.com/gruntwork-io/docs/docs-preprocessor/file"
+	"github.com/gruntwork-io/docs/errors"
+	"github.com/gruntwork-io/docs/logger"
+	"github.com/gruntwork-io/docs/file"
 )
 
 const IS_MODULE_IMAGE_DOC_REGEX = `^packages/([\w -]+)/modules/_images/([\w -]+\.(jpg|jpeg|gif|png|svg))$`

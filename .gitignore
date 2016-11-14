@@ -1,5 +1,5 @@
-output
-output2
+_input/
+_output/
 .idea
 docs.iml
 docs-preprocessor/docs-preprocessor

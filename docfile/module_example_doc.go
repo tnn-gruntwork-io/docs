@@ -3,9 +3,9 @@ package docfile
 import (
 	"fmt"
 	"regexp"
-	"github.com/gruntwork-io/docs/docs-preprocessor/errors"
-	"github.com/gruntwork-io/docs/docs-preprocessor/logger"
-	"github.com/gruntwork-io/docs/docs-preprocessor/file"
+	"github.com/gruntwork-io/docs/errors"
+	"github.com/gruntwork-io/docs/logger"
+	"github.com/gruntwork-io/docs/file"
 )
 
 const IS_MODULE_EXAMPLE_DOC_REGEX = `^packages/([\s\w- ]+)/examples/([\s\w -]+)/(.*[^README].md)$`

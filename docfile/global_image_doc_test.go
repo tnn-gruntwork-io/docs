@@ -1,8 +1,8 @@
 package docfile
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestIsGlobalImageRegEx(t *testing.T) {
@@ -36,9 +36,9 @@ func TestGetGlobalImageRelOutputPath(t *testing.T) {
 		globalImageDoc *GlobalImageDoc
 		expected       string
 	}{
-		{ &GlobalImageDoc{ relPath: "global/help/_images/sample.jpg" }, "help/_images/sample.jpg" },
-		{ &GlobalImageDoc{ relPath: "global/subfolder/_images/hello.png" }, "subfolder/_images/hello.png" },
-		{ &GlobalImageDoc{ relPath: "global/_images/hello.png" }, "_images/hello.png" },
+		{&GlobalImageDoc{relPath: "global/help/_images/sample.jpg" }, "help/_images/sample.jpg" },
+		{&GlobalImageDoc{relPath: "global/subfolder/_images/hello.png" }, "subfolder/_images/hello.png" },
+		{&GlobalImageDoc{relPath: "global/_images/hello.png" }, "_images/hello.png" },
 	}
 
 	for _, testCase := range testCases {
