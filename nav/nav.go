@@ -1,7 +1,5 @@
 package nav
 
-import "fmt"
-
 type Page struct {
 	path         string  // the path where this page will exist when finally output
 	title        string  // the title of the page
@@ -19,14 +17,39 @@ type Folder struct {
 	isRoot       bool      // true if this is the topmost folder
 }
 
-func (f *Folder) AddFolder(folder *Folder) error {
-	fmt.Printf("Adding %s folder to %s\n", folder.name, f.name)
-	return nil
+func (f *Folder) AddFolder(childFolder *Folder) {
+	f.childFolders = append(f.childFolders, childFolder)
+	childFolder.parentFolder = f
 }
 
-func (f *Folder) AddPage(page *Page) error {
-	fmt.Printf("Adding %s page to %s\n", page.title, f.name)
-	return nil
+func (f *Folder) AddPage(childPage *Page) {
+	f.childPages = append(f.childPages, childPage)
+	childPage.parentFolder = f
+}
+
+func (f *Folder) AddToFolder(parentFolder *Folder) {
+	f.parentFolder = parentFolder
+	parentFolder.childFolders = append(parentFolder.childFolders, f)
+}
+
+// Returns true if this folder is the folderName, or any of its recursive children
+func (f *Folder) ContainsFolder(folderName string) bool {
+	if f.name == folderName {
+		return true
+	}
+
+	for _, folder := range f.childFolders {
+		if folder.ContainsFolder(folderName) {
+			return true
+		}
+	}
+
+	return false
+}
+
+func (p *Page) AddToFolder(parentFolder *Folder) {
+	p.parentFolder = parentFolder
+	parentFolder.childPages = append(parentFolder.childPages, p)
 }
 
 func NewRootFolder() *Folder {
@@ -50,29 +73,4 @@ func NewPage(path, title, htmlBody, githubUrl string) *Page {
 		htmlBody: htmlBody,
 		githubUrl: githubUrl,
 	}
-}
-
-// Sample function only. Actual pages and folders will be added automatically by the docs-processor.
-func SetupNav() {
-	root := NewRootFolder()
-	intro := NewFolder("", "Introduction")
-	overview := NewPage("", "Overview", "", "")
-	tools := NewPage("", "Tools", "", "")
-
-	packages := NewFolder("", "Packages")
-	networkTopology := NewFolder("", "Network Topology")
-	networkTopologyOverview := NewPage("", "Overview", "", "")
-	vpcApp := NewFolder("", "vpc-app")
-	vpcAppOverview := NewPage("", "Overview", "", "")
-
-
-	root.AddFolder(intro)
-	intro.AddPage(overview)
-	intro.AddPage(tools)
-
-	root.AddFolder(packages)
-	packages.AddFolder(networkTopology)
-	networkTopology.AddPage(networkTopologyOverview)
-	networkTopology.AddFolder(vpcApp)
-	vpcApp.AddPage(vpcAppOverview)
 }
