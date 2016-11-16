@@ -52,9 +52,8 @@ func (d *PackageDoc) getRelOutputPath() (string, error) {
 		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsFoundInPathRegEx{ docTypeName: "PackageDoc", path: d.relPath, regEx: IS_PACKAGE_DOC_REGEX })
 	}
 
-	// If we were parsing d.relPath = packages/package-vpc/modules/_docs/doc-name.md...
+	// If we were parsing d.relPath = packages/package-vpc/README.md...
 	packageName := submatches[0][1] // = package-vpc
-	docName := submatches[0][2] 	// = doc-name.md
 
-	return fmt.Sprintf("packages/%s/%s", packageName, docName), nil
+	return fmt.Sprintf("packages/%s/overview.md", packageName), nil
 }

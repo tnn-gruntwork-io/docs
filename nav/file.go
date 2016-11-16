@@ -2,6 +2,7 @@ package nav
 
 import "regexp"
 
+// A File represents a non-markdown generic file on the file system. Examples includes images, txt files, PDFs, etc.
 type File struct {
 	InputPath      string  // the original path of the file (relative to root input folder)
 	OutputPath     string  // the path where this page will exist when finally output
@@ -11,9 +12,11 @@ type File struct {
 	isPage         bool    // true if this file matches a "page" RegEx
 }
 
+// The type signature for a function that takes an inputPath and returns an outputPath
 type getOutputPathFuncType func(string) string
 
-// Look up all RegExes, attempt to get a match, generate the corresponding outputPath, and populate it
+// Populate the OutputPath property by looking up the appropriate RegEx.
+// Store the results of our search in a private property (isFile or isPage) to avoid duplicating the RegEx check in other functions.
 func (f *File) PopulateOutputPath() error {
 	for regexStr, getOutputPathFunc := range getFileRegExes() {
 		regex := regexp.MustCompile(regexStr)
@@ -66,12 +69,4 @@ func NewFile(inputPath string) *File {
 	return &File{
 		InputPath: inputPath,
 	}
-}
-
-func getFileRegExes() map[string]getOutputPathFuncType {
-	fileRegExes := map[string]getOutputPathFuncType{
-		IS_GLOBAL_IMAGE_FILE_REGEX: GetOutputPathOfGlobalImageFile,
-	}
-
-	return fileRegExes
 }

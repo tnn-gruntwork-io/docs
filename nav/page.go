@@ -30,11 +30,6 @@ func (p *Page) WriteToOutputPathAsHtml() error {
 //	}
 //}
 
-func GetPageRegExes() map[string]int {
-	//map[string]outputFunction
-	return nil
-}
-
 const regex1 = ""
 const regex2 = ""
 
