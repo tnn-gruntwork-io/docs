@@ -16,7 +16,7 @@ func (f *Folder) AddFolder(childFolder *Folder) {
 
 func (f *Folder) AddPage(childPage *Page) {
 	f.childPages = append(f.childPages, childPage)
-	childPage.parentFolder = f
+	childPage.ParentFolder = f
 }
 
 func (f *Folder) AddToFolder(parentFolder *Folder) {

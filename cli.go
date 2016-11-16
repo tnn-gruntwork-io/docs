@@ -103,8 +103,8 @@ func runApp(cliContext *cli.Context) error {
 		return err
 	}
 
-	logger.Logger.Printf("* * * Starting to pre-process %s into %s * * *", opts.InputPath, opts.OutputPath)
-	if err := LoadDocsIntoNavTree(opts); err != nil {
+	logger.Logger.Printf("* * * Starting to process %s into %s * * *", opts.InputPath, opts.OutputPath)
+	if err := ProcessFiles(opts); err != nil {
 		return err
 	}
 	logger.Logger.Printf("* * * Pre-processing step complete! * * *")

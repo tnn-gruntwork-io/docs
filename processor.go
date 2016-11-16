@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"github.com/gruntwork-io/docs/docfile"
 	"github.com/gruntwork-io/docs/file"
 	"github.com/gruntwork-io/docs/errors"
 	"github.com/gruntwork-io/docs/logger"
@@ -16,32 +15,44 @@ func ProcessFiles(opts *Opts) error {
 	rootNavFolder := nav.NewRootFolder()
 
 	// Walk all files, copy non-markdown files ("files") and load all markdown files ("pages") into a nav tree
-	return filepath.Walk(opts.InputPath, func(inputPath string, info os.FileInfo, fileErr error) error {
-		file := nav.NewFile(inputPath)
-		err := file.PopulateOutputPath()
+	return filepath.Walk(opts.InputPath, func(absInputPath string, info os.FileInfo, fileErr error) error {
+		relInputPath, err := file.GetPathRelativeTo(absInputPath, opts.InputPath)
 		if err != nil {
-			// TODO
-			// No RegEx at all matched, log warning
-		}
-
-		if file.IsFile() {
-			if err = file.WriteToOutputPath(); err != nil {
-				return errors.WithStackTrace(err)
+			return err
+		} else if shouldSkipPath(relInputPath, opts) {
+			logger.Logger.Printf("Skipping path %s\n", relInputPath)
+			return nil
+		} else {
+			file := nav.NewFile(relInputPath)
+			err := file.PopulateOutputPath()
+			if err != nil {
+				// TODO: Neither the Type Assertion nor the error return works as expected here.
+				//if noMatchErr, ok := err.(nav.FileInputPathDidNotMatchAnyRegEx); ok {
+				//	logger.Logger.Printf("WARNING: File %s did not match any RegEx while processing.\nFull Error: %s\n", absInputPath, noMatchErr)
+				//} else {
+				//	return err
+				//}
 			}
-		}
 
-		if file.IsPage() {
-			page := file.GetAsPage()
-			if err = page.PopulateAllProperties(); err != nil {
-				return errors.WithStackTrace(err)
+			if file.IsFile() {
+				if err = file.WriteToOutputPath(opts.InputPath, opts.OutputPath); err != nil {
+					return errors.WithStackTrace(err)
+				}
 			}
 
-			if err = page.AddToNavTree(rootNavFolder); err != nil {
-				return errors.WithStackTrace(err)
-			}
-		}
+			//if file.IsPage() {
+			//	page := file.GetAsPage()
+			//	if err = page.PopulateAllProperties(); err != nil {
+			//		return errors.WithStackTrace(err)
+			//	}
+			//
+			//	if err = page.AddToNavTree(rootNavFolder); err != nil {
+			//		return errors.WithStackTrace(err)
+			//	}
+			//}
 
-		return nil
+			return nil
+		}
 	})
 
 	// Generate HTML from the NavTree files
@@ -53,53 +64,47 @@ func ProcessFiles(opts *Opts) error {
 	return nil
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// This function will walk all the files specified in opt.InputPath and load them into the desired NavTree
-func LoadDocsIntoNavTree(opts *Opts) error {
-	return filepath.Walk(opts.InputPath, func(path string, info os.FileInfo, err error) error {
-		relPath, err := file.GetPathRelativeTo(path, opts.InputPath)
-		if err != nil {
-			return err
-		} else if shouldSkipPath(relPath, opts) {
-			fmt.Printf("Skipping path %s\n", relPath)
-			return nil
-		} else {
-			allDocFileTypes := docfile.CreateAllDocFileTypes(path, relPath)
-
-			for _, docFile := range allDocFileTypes {
-				if docFile.IsMatch() {
-
-
-					if err = docFile.Copy(opts.OutputPath); err != nil {
-						return errors.WithStackTrace(err)
-					}
-					return nil
-				}
-			}
-
-			// No DocFile could be created from the given relPath
-			logger.Logger.Printf("Ignoring %s", relPath)
-			return nil
-		}
-	})
-}
-
 // Return true if this is a file or folder we should skip completely in the processing step.
 func shouldSkipPath(path string, opts *Opts) bool {
 	return path == opts.InputPath || globs.MatchesGlobs(path, opts.Excludes)
 }
+
+
+
+
+
+
+
+
+//// This function will walk all the files specified in opt.InputPath and load them into the desired NavTree
+//func LoadDocsIntoNavTree(opts *Opts) error {
+//	return filepath.Walk(opts.InputPath, func(path string, info os.FileInfo, err error) error {
+//		relPath, err := file.GetPathRelativeTo(path, opts.InputPath)
+//		if err != nil {
+//			return err
+//		} else if shouldSkipPath(relPath, opts) {
+//			fmt.Printf("Skipping path %s\n", relPath)
+//			return nil
+//		} else {
+//			allDocFileTypes := docfile.CreateAllDocFileTypes(path, relPath)
+//
+//			for _, docFile := range allDocFileTypes {
+//				if docFile.IsMatch() {
+//
+//
+//					if err = docFile.Copy(opts.OutputPath); err != nil {
+//						return errors.WithStackTrace(err)
+//					}
+//					return nil
+//				}
+//			}
+//
+//			// No DocFile could be created from the given relPath
+//			logger.Logger.Printf("Ignoring %s", relPath)
+//			return nil
+//		}
+//	})
+//}
 
 //
 //// Check whether the given path matches the given RegEx. We panic if there's an error (versus returning a bool and an

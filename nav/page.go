@@ -1,5 +1,6 @@
 package nav
 
+// A Page represents a page of documentation, usually formatted as a markdown file.
 type Page struct {
 	File
 	Title        string  // the title of the page
@@ -23,16 +24,8 @@ func (p *Page) WriteToOutputPathAsHtml() error {
 	return nil
 }
 
-//func NewPage(file *File, pathRegEx string) *Page {
-//	return &Page{
-//		file,
-//		pathRegEx: pathRegEx,
-//	}
-//}
-
-const regex1 = ""
-const regex2 = ""
-
-func getRegEx1Output() {
-
+func NewPage(file *File) *Page {
+	return &Page{
+		File: *file,
+	}
 }
