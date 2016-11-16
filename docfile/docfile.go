@@ -5,6 +5,7 @@ import (
 	"regexp"
 	"strings"
 	"path/filepath"
+	"github.com/gruntwork-io/docs/nav"
 )
 
 //const RELATIVE_FILE_PATHS_REGEX = `([A-Za-z0-9_/.-]+/)([A-Za-z0-9_.-]*)`
@@ -14,11 +15,14 @@ const PACKAGE_ABSOLUTE_URL = "https://github.com/gruntwork-io/module-vpc/tree/ma
 
 // The DocFile interface represents a Gruntwork documentation file
 type DocFile interface {
-	// IsMatch returns true if the DocFile's properties make it a valid instance of the given DocFile type.
-	IsMatch() bool
+	// Add this document file to the given nav tree
+	AddToNavTree(rootFolder *nav.Folder) error
 
 	// Copy writes a document file to the appropriate location relative to the outputPathRoot on the local filesystem.
 	Copy(outputPathRoot string) error
+
+	// IsMatch returns true if the DocFile's properties make it a valid instance of the given DocFile type.
+	IsMatch() bool
 }
 
 func CreateAllDocFileTypes(absPath string, relPath string) []DocFile {

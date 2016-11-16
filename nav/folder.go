@@ -1,13 +1,5 @@
 package nav
 
-type Page struct {
-	path         string  // the path where this page will exist when finally output
-	title        string  // the title of the page
-	htmlBody     string  // the body of the page as HTML (does not include surrounding HTML)
-	githubUrl    string  // the Gruntwork Repo GitHub URL to which this page corresponds
-	parentFolder *Folder // the folder in which this page resides
-}
-
 type Folder struct {
 	path         string    // the path where this folder will exist when finally output
 	name         string    // the name of the folder
@@ -47,9 +39,24 @@ func (f *Folder) ContainsFolder(folderName string) bool {
 	return false
 }
 
-func (p *Page) AddToFolder(parentFolder *Folder) {
-	p.parentFolder = parentFolder
-	parentFolder.childPages = append(parentFolder.childPages, p)
+// Returns the given folder if it exists in the current folder or any recursive child folder. Otherwise returns nil.
+func (f *Folder) GetFolder(folderName string) *Folder {
+	if f.name == folderName {
+		return f
+	}
+
+	for _, folder := range f.childFolders {
+		if folder.GetFolder(folderName) != nil {
+			return folder
+		}
+	}
+
+	return nil
+}
+
+// TODO
+func (f *Folder) OutputAllFilesAsHtml() error {
+	return nil
 }
 
 func NewRootFolder() *Folder {
@@ -66,11 +73,3 @@ func NewFolder(path, name string) *Folder {
 	}
 }
 
-func NewPage(path, title, htmlBody, githubUrl string) *Page {
-	return &Page{
-		path: path,
-		title: title,
-		htmlBody: htmlBody,
-		githubUrl: githubUrl,
-	}
-}

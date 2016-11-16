@@ -7,6 +7,7 @@ import (
 	"github.com/gruntwork-io/docs/logger"
 	"github.com/gruntwork-io/docs/file"
 	"github.com/gruntwork-io/docs/errors"
+	"github.com/gruntwork-io/docs/nav"
 )
 
 const IS_GLOBAL_DOC_REGEX = `^global/(.*\.md)$`
@@ -25,6 +26,30 @@ func (d *GlobalDoc) IsMatch() bool {
 	return checkRegex(d.relPath, IS_GLOBAL_DOC_REGEX)
 }
 
+func (d *GlobalDoc) AddToNavTree(rootFolder *nav.Folder) error {
+
+	// Create the page corresponding to this document
+	page := nav.NewPage(d.absPath, d.getTitle(), )
+
+	// ...
+	folderName := d.getFolderName()
+
+	// Make into a function addFolderIfNotExist(folderName)
+	if ! rootFolder.ContainsFolder(folderName) {
+		folderPath := d.getFolderPath()
+		globalSection := nav.NewFolder(folderPath, folderName)
+		rootFolder.AddFolder(globalSection)
+	}
+
+	containingFolder := rootFolder.GetFolder(folderName)
+
+	containingFolder.AddFolder()
+
+
+
+	return nil
+}
+
 func (d *GlobalDoc) Copy(outputPathRoot string) error {
 	outRelPath := d.getRelOutputPath()
 	outAbsPath := fmt.Sprintf("%s/%s", outputPathRoot, outRelPath)
@@ -40,4 +65,20 @@ func (d *GlobalDoc) Copy(outputPathRoot string) error {
 
 func (d *GlobalDoc) getRelOutputPath() string {
 	return strings.Replace(d.relPath, "global/", "", -1)
+}
+
+func (d *GlobalDoc) getFolderName() string {
+	return "intro"
+}
+
+func (d *GlobalDoc) getFolderPath() string {
+	return "global/intro"
+}
+
+func (d *GlobalDoc) getTitle() string {
+	return "something"
+}
+
+func (d *GlobalDoc) getHtmlBody() string {
+	return ""
 }

@@ -9,10 +9,65 @@ import (
 	"github.com/gruntwork-io/docs/errors"
 	"github.com/gruntwork-io/docs/logger"
 	"github.com/gruntwork-io/docs/globs"
+	"github.com/gruntwork-io/docs/nav"
 )
 
-// This function will walk all the files specified in opt.InputPath and relocate them to their desired folder location
-func PreprocessDocs(opts *Opts) error {
+func ProcessFiles(opts *Opts) error {
+	rootNavFolder := nav.NewRootFolder()
+
+	// Walk all files, copy non-markdown files ("files") and load all markdown files ("pages") into a nav tree
+	return filepath.Walk(opts.InputPath, func(inputPath string, info os.FileInfo, fileErr error) error {
+		file := nav.NewFile(inputPath)
+		err := file.PopulateOutputPath()
+		if err != nil {
+			// TODO
+			// No RegEx at all matched, log warning
+		}
+
+		if file.IsFile() {
+			if err = file.WriteToOutputPath(); err != nil {
+				return errors.WithStackTrace(err)
+			}
+		}
+
+		if file.IsPage() {
+			page := file.GetAsPage()
+			if err = page.PopulateAllProperties(); err != nil {
+				return errors.WithStackTrace(err)
+			}
+
+			if err = page.AddToNavTree(rootNavFolder); err != nil {
+				return errors.WithStackTrace(err)
+			}
+		}
+
+		return nil
+	})
+
+	// Generate HTML from the NavTree files
+	err := rootNavFolder.OutputAllFilesAsHtml()
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
+	return nil
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// This function will walk all the files specified in opt.InputPath and load them into the desired NavTree
+func LoadDocsIntoNavTree(opts *Opts) error {
 	return filepath.Walk(opts.InputPath, func(path string, info os.FileInfo, err error) error {
 		relPath, err := file.GetPathRelativeTo(path, opts.InputPath)
 		if err != nil {
@@ -25,6 +80,8 @@ func PreprocessDocs(opts *Opts) error {
 
 			for _, docFile := range allDocFileTypes {
 				if docFile.IsMatch() {
+
+
 					if err = docFile.Copy(opts.OutputPath); err != nil {
 						return errors.WithStackTrace(err)
 					}
