@@ -40,16 +40,16 @@ func ProcessFiles(opts *Opts) error {
 				}
 			}
 
-			//if file.IsPage() {
-			//	page := file.GetAsPage()
-			//	if err = page.PopulateAllProperties(); err != nil {
-			//		return errors.WithStackTrace(err)
-			//	}
-			//
-			//	if err = page.AddToNavTree(rootNavFolder); err != nil {
-			//		return errors.WithStackTrace(err)
-			//	}
-			//}
+			if file.IsPage() {
+				page := file.GetAsPage()
+				if err = page.PopulateAllProperties(); err != nil {
+					return errors.WithStackTrace(err)
+				}
+
+				if err = page.AddToNavTree(rootNavFolder); err != nil {
+					return errors.WithStackTrace(err)
+				}
+			}
 
 			return nil
 		}
