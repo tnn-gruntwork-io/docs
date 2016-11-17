@@ -70,7 +70,7 @@ func (p *Page) getTitle() string {
 func (p *Page) getSanitizedMarkdownBody() (string, error) {
 	var body string
 
-	body, err := file.ReadFile(p.InputPath)
+	body, err := file.ReadFile(p.FullInputPath)
 	if err != nil {
 		return body, errors.WithStackTrace(err)
 	}

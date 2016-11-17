@@ -15,15 +15,15 @@ func ProcessFiles(opts *Opts) error {
 	rootNavFolder := nav.NewRootFolder()
 
 	// Walk all files, copy non-markdown files ("files") and load all markdown files ("pages") into a nav tree
-	return filepath.Walk(opts.InputPath, func(absInputPath string, info os.FileInfo, fileErr error) error {
-		relInputPath, err := file.GetPathRelativeTo(absInputPath, opts.InputPath)
+	return filepath.Walk(opts.InputPath, func(fullInputPath string, info os.FileInfo, fileErr error) error {
+		relInputPath, err := file.GetPathRelativeTo(fullInputPath, opts.InputPath)
 		if err != nil {
 			return err
 		} else if shouldSkipPath(relInputPath, opts) {
 			logger.Logger.Printf("Skipping path %s\n", relInputPath)
 			return nil
 		} else {
-			file := nav.NewFile(relInputPath)
+			file := nav.NewFile(relInputPath, fullInputPath)
 			err := file.PopulateOutputPath()
 			if err != nil {
 				// TODO: Neither the Type Assertion nor the error return works as expected here.

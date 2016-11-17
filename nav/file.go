@@ -11,12 +11,13 @@ import (
 
 // A File represents a non-markdown generic file on the file system. Examples includes images, txt files, PDFs, etc.
 type File struct {
-	InputPath      string  // the original path of the file (relative to root input folder)
-	OutputPath     string  // the path where this page will exist when finally output
+	FullInputPath  string // the original input path of the file, relative to the OS directory where this program was launched
+	InputPath      string // the original input path of the file, relative to the user-specified input folder
+	OutputPath     string // the path where this page will exist when finally output
 
-	inputPathRegEx string  // the RegEx used to interpret the type of file this is based on its inputPath
-	isFile         bool    // true if this file matches a "file" RegEx
-	isPage         bool    // true if this file matches a "page" RegEx
+	inputPathRegEx string // the RegEx used to interpret the type of file this is based on its inputPath
+	isFile         bool   // true if this file matches a "file" RegEx
+	isPage         bool   // true if this file matches a "page" RegEx
 }
 
 // The type signature for a function that takes an inputPath and returns an outputPath
@@ -107,8 +108,9 @@ func (f *File) WriteToOutputPath(rootInputPath, rootOutputPath string) error {
 }
 
 // Return a new instance of a File
-func NewFile(inputPath string) *File {
+func NewFile(inputPath, fullInputPath string) *File {
 	return &File{
+		FullInputPath: fullInputPath,
 		InputPath: inputPath,
 	}
 }
@@ -116,6 +118,7 @@ func NewFile(inputPath string) *File {
 // Custom errors
 
 type FileInputPathDidNotMatchAnyRegEx string
+
 func (inputPath FileInputPathDidNotMatchAnyRegEx) Error() string {
 	return fmt.Sprintf("The path %s did not match any RegEx.\n", inputPath)
 }
