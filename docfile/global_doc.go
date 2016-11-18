@@ -35,7 +35,7 @@ func (d *GlobalDoc) AddToNavTree(rootFolder *nav.Folder) error {
 	folderName := d.getFolderName()
 
 	// Make into a function addFolderIfNotExist(folderName)
-	if ! rootFolder.ContainsFolder(folderName) {
+	if ! rootFolder.ContainsFolderRecursive(folderName) {
 		folderPath := d.getFolderPath()
 		globalSection := nav.NewFolder(folderPath, folderName)
 		rootFolder.AddFolder(globalSection)

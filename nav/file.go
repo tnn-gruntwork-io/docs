@@ -9,7 +9,7 @@ import (
 	"github.com/gruntwork-io/docs/file"
 )
 
-// A File represents a non-markdown generic file on the file system. Examples includes images, txt files, PDFs, etc.
+// A File represents a generic file on the file system. Examples include markdown files, images, txt files, PDFs, etc.
 type File struct {
 	FullInputPath  string // the original input path of the file, relative to the OS directory where this program was launched
 	InputPath      string // the original input path of the file, relative to the user-specified input folder
@@ -37,6 +37,8 @@ func (f *File) PopulateOutputPath() error {
 			if err != nil {
 				return errors.WithStackTrace(err)
 			}
+
+			return nil
 		}
 	}
 
@@ -49,6 +51,8 @@ func (f *File) PopulateOutputPath() error {
 			if err != nil {
 				return errors.WithStackTrace(err)
 			}
+
+			return nil
 		}
 	}
 
@@ -118,7 +122,6 @@ func NewFile(inputPath, fullInputPath string) *File {
 // Custom errors
 
 type FileInputPathDidNotMatchAnyRegEx string
-
 func (inputPath FileInputPathDidNotMatchAnyRegEx) Error() string {
 	return fmt.Sprintf("The path %s did not match any RegEx.\n", inputPath)
 }

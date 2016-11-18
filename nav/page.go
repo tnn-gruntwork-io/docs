@@ -4,7 +4,6 @@ import (
 	"path/filepath"
 	"regexp"
 	"strings"
-	//"github.com/gruntwork-io/docs/file"
 	"github.com/gruntwork-io/docs/errors"
 	"github.com/gruntwork-io/docs/file"
 )
@@ -44,7 +43,22 @@ func (p *Page) PopulateAllProperties() error {
 
 // TODO
 func (p *Page) AddToNavTree(rootFolder *Folder) error {
+	//containingFolderPath := getContainingFolder(p.OutputPath)
+	//
+	//if ! rootFolder.ContainsFolder(containingFolderPath) {
+	//	rootFolder.CreateFolderIfNotExist()
+	//}
+
+	// - what folder in the navTree should this page go in?
+	//   - for each such folder that doesn't exist, create it
+	//   - now get the reference to the containing folder
+	//     - add this page to said folder
+
 	return nil
+}
+
+func getContainingFolder(path string) string {
+	return filepath.Dir(path)
 }
 
 // TODO

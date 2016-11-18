@@ -9,3 +9,8 @@ func StrSliceContains(slice []string, strToFind string) bool {
 	}
 	return false
 }
+
+// Given [x y z] return the [y z], the tail.
+func GetStrSliceTail(slice []string) []string {
+	return slice[1:]
+}

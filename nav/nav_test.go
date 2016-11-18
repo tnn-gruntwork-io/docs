@@ -31,10 +31,10 @@ func TestContainsFolder1(t *testing.T) {
 	root.AddFolder(f)
 		f.AddFolder(g)
 
-	actual := root.ContainsFolder("d")
+	actual := root.ContainsFolderRecursive("d")
 	assert.True(t, actual, "The given folder should have been found in NavTree %s but was not.", "#1")
 
-	actual = a.ContainsFolder("g")
+	actual = a.ContainsFolderRecursive("g")
 	assert.False(t, actual, "The given folder should NOT have been found in NavTree %s but was.", "#1")
 
 	// NavTree #2
@@ -45,7 +45,7 @@ func TestContainsFolder1(t *testing.T) {
 	root.AddFolder(c)
 	root.AddFolder(d)
 
-	actual = root.ContainsFolder("e")
+	actual = root.ContainsFolderRecursive("e")
 	assert.False(t, actual, "The given folder should NOT have been found in NavTree %s but was.", "#2")
 
 	// NavTree #3
@@ -60,13 +60,13 @@ func TestContainsFolder1(t *testing.T) {
 			f.AddFolder(g)
 			f.AddFolder(h)
 
-	actual = root.ContainsFolder("h")
+	actual = root.ContainsFolderRecursive("h")
 	assert.True(t, actual, "The given folder should have been found in NavTree %s but was not.", "#3")
 
-	actual = f.ContainsFolder("h")
+	actual = f.ContainsFolderRecursive("h")
 	assert.True(t, actual, "The given folder should have been found in NavTree %s but was not.", "#3")
 
-	actual = b.ContainsFolder("e")
+	actual = b.ContainsFolderRecursive("e")
 	assert.False(t, actual, "The given folder should NOT have been found in NavTree %s but was.", "#3")
 }
 

@@ -205,13 +205,13 @@ func TestConvertMarkdownLinksToUrls(t *testing.T) {
 }
 
 func NewPageWithOutputPath(outputPath string) *Page {
-	page := NewFile("")
+	page := NewFile("", "")
 	page.OutputPath = outputPath
 	return NewPage(page)
 }
 
 func NewPageWithInputPath(inputPath string) *Page {
-	page := NewFile("")
+	page := NewFile("", "")
 	page.InputPath = inputPath
 	return NewPage(page)
 }

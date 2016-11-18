@@ -30,3 +30,21 @@ func TestStrSliceContains(t *testing.T) {
 		assert.Equal(t, testCase.expected, actual, "Expected %t but got %t when evaluating whether %s contains %v", testCase.expected, actual, testCase.slice, testCase.strToFind)
 	}
 }
+
+func TestGetSliceTail(t *testing.T) {
+	t.Parallel()
+
+	testCases := []struct {
+		slice     []string
+		expected  []string
+	}{
+		{[]string{"a"}, []string{}},
+		{[]string{"a", "b"}, []string{"b"}},
+		{[]string{"a", "b", "c"}, []string{"b", "c"}},
+	}
+
+	for _, testCase := range testCases {
+		actual := GetStrSliceTail(testCase.slice)
+		assert.Equal(t, testCase.expected, actual, "slice = %v\n", testCase.slice)
+	}
+}
