@@ -239,6 +239,29 @@ func TestConvertMarkdownLinksToUrls(t *testing.T) {
 	}
 }
 
+func TestPage_ReplaceMdFileExtensionWithHtmlFileExtension(t *testing.T) {
+	t.Parallel()
+
+	testCases := []struct {
+		path     string
+		expected string
+	}{
+		{path: "packages/package-vpc/vpc-app/overview.md", expected: "packages/package-vpc/vpc-app/overview.html" },
+		{path: "packages/package-vpc/vpc-app/overview.md.md", expected: "packages/package-vpc/vpc-app/overview.md.html" },
+		{path: "packages/package-vpc/vpc-app/.md.overview.md.md", expected: "packages/package-vpc/vpc-app/.md.overview.md.html" },
+		{path: "packages/package-vpc.md/vpc-app/overview.md", expected: "packages/package-vpc.md/vpc-app/overview.html" },
+	}
+
+	for _, testCase := range testCases {
+		actual, err := replaceMdFileExtensionWithHtmlFileExtension(testCase.path)
+		if err != nil {
+			t.Fatal(err)
+		}
+
+		assert.Equal(t, testCase.expected, actual, "path = %s\n", testCase.path)
+	}
+}
+
 func NewPageWithOutputPath(outputPath string) *Page {
 	page := NewFile("", "")
 	page.OutputPath = outputPath

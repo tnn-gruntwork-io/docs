@@ -155,7 +155,6 @@ func getStandardizedPath(path string) string {
 // Out this folder and all its descendants as HTML
 func (f *Folder) OutputAllFilesAsHtml(rootOutputPath string) error {
 	for _, page := range f.ChildPages {
-		fmt.Printf("Outputting %s to %s\n", page.InputPath, page.OutputPath)
 		err := page.OutputBodyAsHtml(rootOutputPath)
 		if err != nil {
 			return errors.WithStackTrace(err)

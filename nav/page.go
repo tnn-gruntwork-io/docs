@@ -7,12 +7,15 @@ import (
 	"github.com/gruntwork-io/docs/errors"
 	"github.com/gruntwork-io/docs/file"
 	"fmt"
+	"github.com/russross/blackfriday"
 )
 
 const FILE_PATHS_REGEX = `(?:http:/|https:/)?(/[A-Za-z0-9_/.-]+)|([A-Za-z0-9_/.-]+/[A-Za-z0-9_.-]*)`
 const PACKAGE_GITHUB_REPO_URL_PREFIX = "https://github.com/gruntwork-io/<package-name>/tree/master"
 const PACKAGE_FILE_REGEX = `^packages/([\w -]+)(/.*)$`
 const PACKAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 2
+const MARKDOWN_FILE_PATH_REGEX = `^.*/(.*)\.md$`
+const MARKDOWN_FILE_PATH_REGEX_NUM_CAPTURE_GROUPS = 1
 
 // A Page represents a page of documentation, usually formatted as a markdown file.
 type Page struct {
@@ -58,12 +61,17 @@ func getContainingFolder(path string) string {
 
 // Sanitize the markdown body and output it as HTML
 func (p *Page) OutputBodyAsHtml(rootOutputPath string) error {
-	bodyHtml := p.BodyMarkdown
-	//bodyHtml := getHtmlFromMarkdown(bodyMarkdown)
+	bodyHtml := getHtmlFromMarkdown(p.BodyMarkdown)
 
 	absOutputPath := filepath.Join(rootOutputPath, p.OutputPath)
+	absOutputPathDotHtml, err := replaceMdFileExtensionWithHtmlFileExtension(absOutputPath)
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
 
-	err := file.WriteFile(bodyHtml, absOutputPath)
+	fmt.Printf("Outputting %s to %s\n", p.InputPath, absOutputPathDotHtml)
+
+	err = file.WriteFile(bodyHtml, absOutputPathDotHtml)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -235,3 +243,30 @@ func getPathRelativeToPackageRoot(inputPath string) (string, error) {
 
 	return subpath, nil
 }
+
+// Given a markdown body return an HTML body
+func getHtmlFromMarkdown(markdown string) string {
+	bytesInput := []byte(markdown)
+	bytesOutput := blackfriday.MarkdownCommon(bytesInput)
+	return string(bytesOutput)
+}
+
+func replaceMdFileExtensionWithHtmlFileExtension(path string) (string, error) {
+	var updatedPath string
+
+	regex := regexp.MustCompile(MARKDOWN_FILE_PATH_REGEX)
+	submatches := regex.FindAllStringSubmatch(path, -1)
+
+	if len(submatches) == 0 || len(submatches[0]) != MARKDOWN_FILE_PATH_REGEX_NUM_CAPTURE_GROUPS + 1 {
+		return updatedPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ inputPath: path, regExName: "MARKDOWN_FILE_PATH_REGEX", regEx: MARKDOWN_FILE_PATH_REGEX })
+	}
+
+	filename := submatches[0][1]
+	filenameDotMd := fmt.Sprintf("%s.%s", filename, "md")
+	filenameDotHtml := fmt.Sprintf("%s.%s", filename, "html")
+
+	updatedPath = strings.Replace(path, filenameDotMd, filenameDotHtml, -1)
+
+	return updatedPath, nil
+}
+
