@@ -41,18 +41,12 @@ func (p *Page) PopulateAllProperties() error {
 	return nil
 }
 
-// TODO
+// Add this page to the NavTree that starts at the rootFolder, creating any necessary folders along the way.
 func (p *Page) AddToNavTree(rootFolder *Folder) error {
-	//containingFolderPath := getContainingFolder(p.OutputPath)
-	//
-	//if ! rootFolder.ContainsFolder(containingFolderPath) {
-	//	rootFolder.CreateFolderIfNotExist()
-	//}
+	containingFolderPath := getContainingFolder(p.OutputPath)
+	containingFolder := rootFolder.CreateFolderIfNotExist(containingFolderPath)
 
-	// - what folder in the navTree should this page go in?
-	//   - for each such folder that doesn't exist, create it
-	//   - now get the reference to the containing folder
-	//     - add this page to said folder
+	containingFolder.AddPage(p)
 
 	return nil
 }

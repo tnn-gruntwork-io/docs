@@ -12,10 +12,12 @@ import (
 )
 
 func ProcessFiles(opts *Opts) error {
+	var err error
+
 	rootNavFolder := nav.NewRootFolder()
 
 	// Walk all files, copy non-markdown files ("files") and load all markdown files ("pages") into a nav tree
-	return filepath.Walk(opts.InputPath, func(fullInputPath string, info os.FileInfo, fileErr error) error {
+	err = filepath.Walk(opts.InputPath, func(fullInputPath string, info os.FileInfo, fileErr error) error {
 		relInputPath, err := file.GetPathRelativeTo(fullInputPath, opts.InputPath)
 		if err != nil {
 			return err
@@ -54,9 +56,13 @@ func ProcessFiles(opts *Opts) error {
 			return nil
 		}
 	})
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
 
 	// Generate HTML from the NavTree files
-	err := rootNavFolder.OutputAllFilesAsHtml()
+	rootNavFolder.PrintFolderTree()
+	err = rootNavFolder.OutputAllFilesAsHtml()
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}

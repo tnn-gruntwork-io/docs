@@ -156,6 +156,61 @@ func (f *Folder) OutputAllFilesAsHtml() error {
 	return nil
 }
 
+// Print the entire tree of a given folder
+func (f *Folder) PrintFolderTree() {
+	f.printFolderTreeAux(0)
+}
+
+// Helper function for printing a complete tree
+func (f *Folder) printFolderTreeAux(folderDepth int) {
+	fmt.Printf("%s", strings.Repeat("- ", folderDepth))
+	fmt.Printf("FOLDER: %s\n", f.name)
+
+	for _, folder := range f.childFolders {
+		folder.printFolderTreeAux(folderDepth + 1)
+	}
+
+	for _, page := range f.childPages {
+		fmt.Printf("%s", strings.Repeat("- ", folderDepth + 1))
+		fmt.Printf("%s\n", page.Title)
+	}
+}
+
+// Print a nicely formatted string of the folder
+func (f *Folder) PrintFolder() {
+	var parentFolderName string
+	var childFolders string
+	var childPages string
+
+	if f.parentFolder != nil {
+		parentFolderName = f.parentFolder.name
+	}
+
+	if f.childFolders != nil {
+		childFolderNames := []string{}
+		for _, childFolder := range f.childFolders {
+			childFolderNames = append(childFolderNames, childFolder.name)
+		}
+		childFolders = fmt.Sprintf("%v", childFolderNames)
+	}
+
+	if f.childPages != nil {
+		childPageNames := []string{}
+		for _, childPage := range f.childPages {
+			childPageNames = append(childPageNames, childPage.Title)
+		}
+		childPages = fmt.Sprintf("%v", childPageNames)
+	}
+
+	fmt.Printf("[ name=%s, path=%s, parentFolder=%s, childFolders=%s, childPages=%s ]\n",
+		f.name,
+		f.path,
+		parentFolderName,
+		childFolders,
+		childPages,
+	)
+}
+
 func NewRootFolder() *Folder {
 	return &Folder{
 		name: "ROOT-FOLDER",
