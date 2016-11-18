@@ -8,36 +8,36 @@ import (
 )
 
 type Folder struct {
-	path         string    // the path where this folder will exist when finally output
-	name         string    // the name of the folder
-	childPages   []*Page   // the list of pages contained in this folder
-	childFolders []*Folder // the list of folders containers in this folder
-	parentFolder *Folder   // the folder in which this folder resides
-	isRoot       bool      // true if this is the topmost folder
+	OutputPath   string    // the path where this folder will exist when finally output
+	Name         string    // the name of the folder
+	ChildPages   []*Page   // the list of pages contained in this folder
+	ChildFolders []*Folder // the list of folders containers in this folder
+	ParentFolder *Folder   // the folder in which this folder resides
+	IsRoot       bool      // true if this is the topmost folder
 }
 
 func (f *Folder) AddFolder(childFolder *Folder) {
-	f.childFolders = append(f.childFolders, childFolder)
-	childFolder.parentFolder = f
+	f.ChildFolders = append(f.ChildFolders, childFolder)
+	childFolder.ParentFolder = f
 }
 
 func (f *Folder) AddPage(childPage *Page) {
-	f.childPages = append(f.childPages, childPage)
+	f.ChildPages = append(f.ChildPages, childPage)
 	childPage.ParentFolder = f
 }
 
 func (f *Folder) AddToFolder(parentFolder *Folder) {
-	f.parentFolder = parentFolder
-	parentFolder.childFolders = append(parentFolder.childFolders, f)
+	f.ParentFolder = parentFolder
+	parentFolder.ChildFolders = append(parentFolder.ChildFolders, f)
 }
 
 // Returns true if this folder or any of its recursive children have the given folderName
 func (f *Folder) ContainsFolderRecursive(folderName string) bool {
-	if f.name == folderName {
+	if f.Name == folderName {
 		return true
 	}
 
-	for _, folder := range f.childFolders {
+	for _, folder := range f.ChildFolders {
 		if folder.ContainsFolderRecursive(folderName) {
 			return true
 		}
@@ -48,8 +48,8 @@ func (f *Folder) ContainsFolderRecursive(folderName string) bool {
 
 // Returns true if this folder or any of its direct children (but no further descendants) have the given folderName
 func (f *Folder) HasChildFolder(folderName string) bool {
-	for _, folder := range f.childFolders {
-		if folder.name == folderName {
+	for _, folder := range f.ChildFolders {
+		if folder.Name == folderName {
 			return true
 		}
 	}
@@ -59,8 +59,8 @@ func (f *Folder) HasChildFolder(folderName string) bool {
 
 // Returns the direct child folder of the given name, or nil if not found
 func (f *Folder) GetChildFolder(folderName string) *Folder {
-	for _, folder := range f.childFolders {
-		if folder.name == folderName {
+	for _, folder := range f.ChildFolders {
+		if folder.Name == folderName {
 			return folder
 		}
 	}
@@ -70,11 +70,11 @@ func (f *Folder) GetChildFolder(folderName string) *Folder {
 
 // Returns the given folder if it exists in the current folder or any recursive child folder. Otherwise returns nil.
 func (f *Folder) GetFolder(folderName string) *Folder {
-	if f.name == folderName {
+	if f.Name == folderName {
 		return f
 	}
 
-	for _, folder := range f.childFolders {
+	for _, folder := range f.ChildFolders {
 		if folder.GetFolder(folderName) != nil {
 			return folder
 		}
@@ -93,7 +93,7 @@ func (f *Folder) CreateFolderIfNotExist(folderPath string) *Folder {
 		if f.HasChildFolder(folderNameToCreate) {
 			return f.GetChildFolder(folderNameToCreate)
 		} else {
-			newChildFolderPath := filepath.Join(f.path, folderNameToCreate)
+			newChildFolderPath := filepath.Join(f.OutputPath, folderNameToCreate)
 			childFolder := NewFolder(newChildFolderPath, folderNameToCreate)
 			f.AddFolder(childFolder)
 
@@ -107,7 +107,7 @@ func (f *Folder) CreateFolderIfNotExist(folderPath string) *Folder {
 	if f.HasChildFolder(folderNameToCreate) {
 		childFolder = f.GetChildFolder(folderNameToCreate)
 	} else {
-		newChildFolderPath := filepath.Join(f.path, folderNameToCreate)
+		newChildFolderPath := filepath.Join(f.OutputPath, folderNameToCreate)
 		childFolder = NewFolder(newChildFolderPath, folderNameToCreate)
 		f.AddFolder(childFolder)
 	}
@@ -151,8 +151,17 @@ func getStandardizedPath(path string) string {
 	return path
 }
 
-// TODO
+// Out this folder and all its descendants as HTML
 func (f *Folder) OutputAllFilesAsHtml() error {
+	for _, page := range f.ChildPages {
+		fmt.Printf("Outputting %s to %s", page.InputPath, page.OutputPath)
+
+	}
+
+	for _, folder := range f.ChildFolders {
+		folder.printFolderTreeAux(folderDepth + 1)
+	}
+
 	return nil
 }
 
@@ -164,13 +173,13 @@ func (f *Folder) PrintFolderTree() {
 // Helper function for printing a complete tree
 func (f *Folder) printFolderTreeAux(folderDepth int) {
 	fmt.Printf("%s", strings.Repeat("- ", folderDepth))
-	fmt.Printf("FOLDER: %s\n", f.name)
+	fmt.Printf("FOLDER: %s\n", f.Name)
 
-	for _, folder := range f.childFolders {
+	for _, folder := range f.ChildFolders {
 		folder.printFolderTreeAux(folderDepth + 1)
 	}
 
-	for _, page := range f.childPages {
+	for _, page := range f.ChildPages {
 		fmt.Printf("%s", strings.Repeat("- ", folderDepth + 1))
 		fmt.Printf("%s\n", page.Title)
 	}
@@ -182,29 +191,29 @@ func (f *Folder) PrintFolder() {
 	var childFolders string
 	var childPages string
 
-	if f.parentFolder != nil {
-		parentFolderName = f.parentFolder.name
+	if f.ParentFolder != nil {
+		parentFolderName = f.ParentFolder.Name
 	}
 
-	if f.childFolders != nil {
+	if f.ChildFolders != nil {
 		childFolderNames := []string{}
-		for _, childFolder := range f.childFolders {
-			childFolderNames = append(childFolderNames, childFolder.name)
+		for _, childFolder := range f.ChildFolders {
+			childFolderNames = append(childFolderNames, childFolder.Name)
 		}
 		childFolders = fmt.Sprintf("%v", childFolderNames)
 	}
 
-	if f.childPages != nil {
+	if f.ChildPages != nil {
 		childPageNames := []string{}
-		for _, childPage := range f.childPages {
+		for _, childPage := range f.ChildPages {
 			childPageNames = append(childPageNames, childPage.Title)
 		}
 		childPages = fmt.Sprintf("%v", childPageNames)
 	}
 
 	fmt.Printf("[ name=%s, path=%s, parentFolder=%s, childFolders=%s, childPages=%s ]\n",
-		f.name,
-		f.path,
+		f.Name,
+		f.OutputPath,
 		parentFolderName,
 		childFolders,
 		childPages,
@@ -213,15 +222,15 @@ func (f *Folder) PrintFolder() {
 
 func NewRootFolder() *Folder {
 	return &Folder{
-		name: "ROOT-FOLDER",
-		isRoot: true,
+		Name: "ROOT-FOLDER",
+		IsRoot: true,
 	}
 }
 
 func NewFolder(path, name string) *Folder {
 	return &Folder{
-		path: path,
-		name: name,
+		OutputPath: path,
+		Name: name,
 	}
 }
 

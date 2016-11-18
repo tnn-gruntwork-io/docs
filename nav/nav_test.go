@@ -72,8 +72,8 @@ func TestContainsFolder1(t *testing.T) {
 
 func resetFolders(folders []*Folder) {
 	for _, folder := range folders {
-		folder.parentFolder = nil
-		folder.childFolders = nil
-		folder.childPages = nil
+		folder.ParentFolder = nil
+		folder.ChildFolders = nil
+		folder.ChildPages = nil
 	}
 }

@@ -114,11 +114,11 @@ func TestFolder_CreateFolderIfNotExist1(t *testing.T) {
 	expectedFolderPath := "a/b/c/d"
 	expectedParentFolder := c
 
-	assert.Equal(t, expectedFolderName, d.name, "%v\n", d)
-	assert.Equal(t, expectedFolderPath, d.path, "%v\n", d)
-	assert.Equal(t, expectedParentFolder, d.parentFolder, "%v\n", d)
-	assert.Equal(t, 1, len(c.childFolders), "%v\n", d)
-	assert.Equal(t, d, c.childFolders[0], "%v\n", d)
+	assert.Equal(t, expectedFolderName, d.Name, "%v\n", d)
+	assert.Equal(t, expectedFolderPath, d.OutputPath, "%v\n", d)
+	assert.Equal(t, expectedParentFolder, d.ParentFolder, "%v\n", d)
+	assert.Equal(t, 1, len(c.ChildFolders), "%v\n", d)
+	assert.Equal(t, d, c.ChildFolders[0], "%v\n", d)
 }
 
 func TestFolder_CreateFolderIfNotExist2(t *testing.T) {
@@ -134,10 +134,10 @@ func TestFolder_CreateFolderIfNotExist2(t *testing.T) {
 	expectedFolderPath := "a/b/c/d"
 	expectedParentFolderName := "c"
 
-	assert.Equal(t, expectedFolderName, d.name, "%v\n", d)
-	assert.Equal(t, expectedFolderPath, d.path, "%v\n", d)
-	assert.Equal(t, expectedParentFolderName, d.parentFolder.name, "%v\n", d)
-	assert.Equal(t, 1, len(rootFolder.childFolders), "%v\n", d)
+	assert.Equal(t, expectedFolderName, d.Name, "%v\n", d)
+	assert.Equal(t, expectedFolderPath, d.OutputPath, "%v\n", d)
+	assert.Equal(t, expectedParentFolderName, d.ParentFolder.Name, "%v\n", d)
+	assert.Equal(t, 1, len(rootFolder.ChildFolders), "%v\n", d)
 }
 
 func TestFolder_CreateFolderIfNotExist3(t *testing.T) {
@@ -160,8 +160,8 @@ func TestFolder_CreateFolderIfNotExist3(t *testing.T) {
 	expectedFolderPath := "hello/josh/jim"
 	expectedParentFolderName := "josh"
 
-	assert.Equal(t, expectedFolderName, jim.name, "%v\n", jim)
-	assert.Equal(t, expectedFolderPath, jim.path, "%v\n", jim)
-	assert.Equal(t, expectedParentFolderName, jim.parentFolder.name, "%v\n", jim)
-	assert.Equal(t, 2, len(hello.childFolders), "%v\n", hello)
+	assert.Equal(t, expectedFolderName, jim.Name, "%v\n", jim)
+	assert.Equal(t, expectedFolderPath, jim.OutputPath, "%v\n", jim)
+	assert.Equal(t, expectedParentFolderName, jim.ParentFolder.Name, "%v\n", jim)
+	assert.Equal(t, 2, len(hello.ChildFolders), "%v\n", hello)
 }
