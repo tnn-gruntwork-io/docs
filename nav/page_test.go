@@ -3,7 +3,12 @@ package nav
 import (
 	"testing"
 	"github.com/stretchr/testify/assert"
+	"github.com/gruntwork-io/docs/file"
+	"path/filepath"
 )
+
+const TEST_FIXTURE_INPUT_FILES_PATH = "test-fixtures/inputs"
+const TEST_FIXTURE_OUTPUT_FILES_PATH = "test-fixtures/outputs"
 
 func TestPage_PopulateTitle(t *testing.T) {
 	t.Parallel()
@@ -175,6 +180,12 @@ func TestPage_getAllLinkPaths(t *testing.T) {
 func TestConvertMarkdownLinksToUrls(t *testing.T) {
 	t.Parallel()
 
+	bodyFixture1Path := filepath.Join(TEST_FIXTURE_INPUT_FILES_PATH, "vpc-app-example.md")
+	expectedBodyFixture1Path := filepath.Join(TEST_FIXTURE_OUTPUT_FILES_PATH, "vpc-app-example.md")
+
+	bodyFixture1 := readFile(t, bodyFixture1Path)
+	expectedBodyFixture1 := readFile(t, expectedBodyFixture1Path)
+
 	testCases := []struct {
 		inputPath string
 		body string
@@ -191,6 +202,30 @@ func TestConvertMarkdownLinksToUrls(t *testing.T) {
 			`# VPC-App Terraform Module
 			This Terraform Module launches a single VPC meant to house applications. By contrast, DevOps-related services such as
 			Jenkins or InfluxDB should be in a "mgmt" VPC. (See the [vpc-mgmt](https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-mgmt) module.)`,
+		},
+		{
+			"packages/module-vpc/examples/vpc-app/README.md",
+			`# App VPC Example
+
+			This shows an example of how to use the [vpc-app](/modules/vpc-app) module to launch a VPC that can be used as a
+			production or staging environment for your apps.
+
+			For more information on the core concepts behind the VPC, see the [vpc-app](/modules/vpc-app) module. For common
+			usage-patterns with vpc-app, such as running multiple VPCs, launching EC2 instances in a VPC, setting up Network ACLs,
+			and more, see the [vpc-network-acls](../vpc-network-acls) and [vpc-peering](../vpc-peering) examples.`,
+			`# App VPC Example
+
+			This shows an example of how to use the [vpc-app](https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app) module to launch a VPC that can be used as a
+			production or staging environment for your apps.
+
+			For more information on the core concepts behind the VPC, see the [vpc-app](https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app) module. For common
+			usage-patterns with vpc-app, such as running multiple VPCs, launching EC2 instances in a VPC, setting up Network ACLs,
+			and more, see the [vpc-network-acls](https://github.com/gruntwork-io/module-vpc/tree/master/examples/vpc-network-acls) and [vpc-peering](https://github.com/gruntwork-io/module-vpc/tree/master/examples/vpc-peering) examples.`,
+		},
+		{
+			"packages/module-vpc/examples/vpc-app/README.md",
+			bodyFixture1,
+			expectedBodyFixture1,
 		},
 	}
 
@@ -214,4 +249,13 @@ func NewPageWithInputPath(inputPath string) *Page {
 	page := NewFile("", "")
 	page.InputPath = inputPath
 	return NewPage(page)
+}
+
+func readFile(t *testing.T, srcPath string) string {
+	body, err := file.ReadFile(srcPath)
+	if err != nil {
+		t.Fatalf("Error while reading file at %s: %s\n", srcPath, err.Error())
+	}
+
+	return body
 }

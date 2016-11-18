@@ -6,6 +6,7 @@ import (
 	"strings"
 	"github.com/gruntwork-io/docs/errors"
 	"github.com/gruntwork-io/docs/file"
+	"fmt"
 )
 
 const FILE_PATHS_REGEX = `(?:http:/|https:/)?(/[A-Za-z0-9_/.-]+)|([A-Za-z0-9_/.-]+/[A-Za-z0-9_.-]*)`
@@ -17,7 +18,7 @@ const PACKAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 2
 type Page struct {
 	File
 	Title        string  // the title of the page
-	MarkdownBody string  // the body of the page as HTML (does not include surrounding HTML)
+	BodyMarkdown string  // the body of the page as HTML (does not include surrounding HTML)
 	GithubUrl    string  // the Gruntwork Repo GitHub URL to which this page corresponds
 	ParentFolder *Folder // the nav folder in which this page resides
 }
@@ -28,7 +29,7 @@ func (p *Page) PopulateAllProperties() error {
 
 	p.Title = p.getTitle()
 
-	p.MarkdownBody, err = p.getSanitizedMarkdownBody()
+	p.BodyMarkdown, err = p.getSanitizedMarkdownBody()
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -55,8 +56,18 @@ func getContainingFolder(path string) string {
 	return filepath.Dir(path)
 }
 
-// TODO
-func (p *Page) WriteToOutputPathAsHtml() error {
+// Sanitize the markdown body and output it as HTML
+func (p *Page) OutputBodyAsHtml(rootOutputPath string) error {
+	bodyHtml := p.BodyMarkdown
+	//bodyHtml := getHtmlFromMarkdown(bodyMarkdown)
+
+	absOutputPath := filepath.Join(rootOutputPath, p.OutputPath)
+
+	err := file.WriteFile(bodyHtml, absOutputPath)
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
 	return nil
 }
 
@@ -83,7 +94,7 @@ func (p *Page) getSanitizedMarkdownBody() (string, error) {
 		return body, errors.WithStackTrace(err)
 	}
 
-	body, err = convertMarkdownLinksToUrls(body, p.InputPath)
+	body, err = convertMarkdownLinksToUrls(p.InputPath, body)
 	if err != nil {
 		return body, errors.WithStackTrace(err)
 	}
@@ -105,7 +116,18 @@ func convertMarkdownLinksToUrls(inputPath, body string) (string, error) {
 			return newBody, errors.WithStackTrace(err)
 		}
 
-		newBody = strings.Replace(newBody, linkPath, url, -1)
+		// If we blindly replace all instances of our linkPath, some of them will be found in existing URLs!
+		// So we wrap them in parentheses (to support markdown-formatted links)...
+		linkPathWithParens := fmt.Sprintf("(%s)", linkPath)
+		urlWithParens := fmt.Sprintf("(%s)", url)
+
+		newBody = strings.Replace(newBody, linkPathWithParens, urlWithParens, -1)
+
+		// ... and spaces (to support standalone links).
+		linkPathWithSpaces := fmt.Sprintf(" %s ", linkPath)
+		urlWithSpaces := fmt.Sprintf(" %s ", url)
+
+		newBody = strings.Replace(newBody, linkPathWithSpaces, urlWithSpaces, -1)
 	}
 
 	return newBody, nil
@@ -134,7 +156,7 @@ func getAllLinkPaths(body string) []string {
 	return relPaths
 }
 
-// Convert a link to another Package page to a fully qualified URL. For non-Package links, just return the original link
+// Convert a link that directs to another Package page to a fully qualified URL. For non-Package links, just return the original link
 func convertPackageLinkToUrl(inputPath, linkPath string) (string, error) {
 	var url string
 
@@ -172,6 +194,7 @@ func convertPackageLinkToUrl(inputPath, linkPath string) (string, error) {
 		return url, nil
 	}
 
+	// If this isn't a Package Page, just output the linkPath unmodified
 	return linkPath, nil
 }
 

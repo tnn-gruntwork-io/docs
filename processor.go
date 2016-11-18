@@ -69,7 +69,7 @@ func ProcessFiles(opts *Opts) error {
 	}
 
 	// Generate HTML from the NavTree files
-	err = rootNavFolder.OutputAllFilesAsHtml()
+	err = rootNavFolder.OutputAllFilesAsHtml(opts.OutputPath)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}

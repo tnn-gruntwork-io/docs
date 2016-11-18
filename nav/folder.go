@@ -5,6 +5,7 @@ import (
 	"github.com/gruntwork-io/docs/util"
 	"path/filepath"
 	"fmt"
+	"github.com/gruntwork-io/terragrunt/errors"
 )
 
 type Folder struct {
@@ -152,14 +153,17 @@ func getStandardizedPath(path string) string {
 }
 
 // Out this folder and all its descendants as HTML
-func (f *Folder) OutputAllFilesAsHtml() error {
+func (f *Folder) OutputAllFilesAsHtml(rootOutputPath string) error {
 	for _, page := range f.ChildPages {
-		fmt.Printf("Outputting %s to %s", page.InputPath, page.OutputPath)
-
+		fmt.Printf("Outputting %s to %s\n", page.InputPath, page.OutputPath)
+		err := page.OutputBodyAsHtml(rootOutputPath)
+		if err != nil {
+			return errors.WithStackTrace(err)
+		}
 	}
 
 	for _, folder := range f.ChildFolders {
-		folder.printFolderTreeAux(folderDepth + 1)
+		folder.OutputAllFilesAsHtml(rootOutputPath)
 	}
 
 	return nil
