@@ -6,6 +6,7 @@ import (
 	"path/filepath"
 	"fmt"
 	"github.com/gruntwork-io/terragrunt/errors"
+	"html/template"
 )
 
 type Folder struct {
@@ -17,16 +18,19 @@ type Folder struct {
 	IsRoot       bool      // true if this is the topmost folder
 }
 
+// Add a childFolder to f
 func (f *Folder) AddFolder(childFolder *Folder) {
 	f.ChildFolders = append(f.ChildFolders, childFolder)
 	childFolder.ParentFolder = f
 }
 
+// Add a childPage to f
 func (f *Folder) AddPage(childPage *Page) {
 	f.ChildPages = append(f.ChildPages, childPage)
 	childPage.ParentFolder = f
 }
 
+// Add f to the given parentFolder
 func (f *Folder) AddToFolder(parentFolder *Folder) {
 	f.ParentFolder = parentFolder
 	parentFolder.ChildFolders = append(parentFolder.ChildFolders, f)
@@ -118,51 +122,17 @@ func (f *Folder) CreateFolderIfNotExist(folderPath string) *Folder {
 	return childFolder.CreateFolderIfNotExist(folderPathTail)
 }
 
-// Given a folderPath such as /x/y/z or ./x/y/z, return the top folder name
-func getTopFolderNameInPath(folderPath string) (string, int) {
-	folderPath = getStandardizedPath(folderPath)
-
-	folderNames := strings.Split(folderPath, "/")
-	numRemainingFolders := len(folderNames) - 1
-
-	return folderNames[0], numRemainingFolders
-}
-
-// Given a folderPath such as /x/y/z or ./x/y/z, return the top folder name
-func getFolderPathTail(folderPath string) string {
-	folderPath = getStandardizedPath(folderPath)
-
-	folderNames := strings.Split(folderPath, "/")
-	folderNamesTail := util.GetStrSliceTail(folderNames)
-	folderNamesTailStr := strings.Join(folderNamesTail, "/")
-
-	return folderNamesTailStr
-}
-
-// Convert a path of the form ./x/y/z, /x/y/z, or x/y/z to the form x/y/z
-func getStandardizedPath(path string) string {
-	if strings.HasPrefix(path, "/") {
-		path = strings.Replace(path, "/", "", 1)
-	}
-
-	if strings.HasPrefix(path, "./") {
-		path = strings.Replace(path, "./", "", 1)
-	}
-
-	return path
-}
-
-// Out this folder and all its descendants as HTML
-func (f *Folder) OutputAllFilesAsHtml(rootOutputPath string) error {
+// Output this folder and all its descendants as HTML
+func (f *Folder) WriteChildrenHtmlToOutputhPath(rootFolder *Folder, rootOutputPath string) error {
 	for _, page := range f.ChildPages {
-		err := page.OutputFullHtml(rootOutputPath)
+		err := page.WriteFullPageHtmlToOutputPath(rootFolder, rootOutputPath)
 		if err != nil {
 			return errors.WithStackTrace(err)
 		}
 	}
 
 	for _, folder := range f.ChildFolders {
-		err := folder.OutputAllFilesAsHtml(rootOutputPath)
+		err := folder.WriteChildrenHtmlToOutputhPath(rootFolder, rootOutputPath)
 		if err != nil {
 			return errors.WithStackTrace(err)
 		}
@@ -226,6 +196,70 @@ func (f *Folder) PrintFolder() {
 	)
 }
 
+func (f *Folder) GetAsNavTreeHtml(activePage *Page) template.HTML {
+	return template.HTML(f.getAsNavTreeHtmlAux(activePage))
+}
+
+func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
+	var htmlOutput string
+
+	htmlOutput += "<ul>"
+	for _, childFolder := range f.ChildFolders {
+		htmlOutput += fmt.Sprintf("<li>%s</li>", childFolder.Name)
+
+		htmlOutput += childFolder.getAsNavTreeHtmlAux(activePage)
+
+		htmlOutput += "<ul>"
+		for _, childPage := range childFolder.ChildPages {
+			if childPage == activePage {
+				htmlOutput += fmt.Sprintf("<li class='active'>%s</li>", childPage.Title)
+			} else {
+				htmlOutput += fmt.Sprintf("<li>%s</li>", childPage.Title)
+			}
+		}
+		htmlOutput += "</ul>"
+	}
+	htmlOutput += "</ul>"
+
+	return htmlOutput
+}
+
+
+// Given a folderPath such as /x/y/z or ./x/y/z, return the top folder name
+func getTopFolderNameInPath(folderPath string) (string, int) {
+	folderPath = getStandardizedPath(folderPath)
+
+	folderNames := strings.Split(folderPath, "/")
+	numRemainingFolders := len(folderNames) - 1
+
+	return folderNames[0], numRemainingFolders
+}
+
+// Given a folderPath such as /x/y/z or ./x/y/z, return the top folder name
+func getFolderPathTail(folderPath string) string {
+	folderPath = getStandardizedPath(folderPath)
+
+	folderNames := strings.Split(folderPath, "/")
+	folderNamesTail := util.GetStrSliceTail(folderNames)
+	folderNamesTailStr := strings.Join(folderNamesTail, "/")
+
+	return folderNamesTailStr
+}
+
+// Convert a path of the form ./x/y/z, /x/y/z, or x/y/z to the form x/y/z
+func getStandardizedPath(path string) string {
+	if strings.HasPrefix(path, "/") {
+		path = strings.Replace(path, "/", "", 1)
+	}
+
+	if strings.HasPrefix(path, "./") {
+		path = strings.Replace(path, "./", "", 1)
+	}
+
+	return path
+}
+
+// Return a new root folder
 func NewRootFolder() *Folder {
 	return &Folder{
 		Name: "ROOT-FOLDER",
@@ -233,6 +267,7 @@ func NewRootFolder() *Folder {
 	}
 }
 
+// Return a generic new folder
 func NewFolder(path, name string) *Folder {
 	return &Folder{
 		OutputPath: path,

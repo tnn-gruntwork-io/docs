@@ -69,9 +69,11 @@ func getContainingFolder(path string) string {
 }
 
 // Output the full HTML body of this page
-func (p *Page) OutputFullHtml(rootOutputPath string) error {
-	bodyHtml := template.HTML(p.BodyHtml)
-	fullHtml, err := getFullHtml(bodyHtml, p.Title)
+func (p *Page) WriteFullPageHtmlToOutputPath(rootFolder *Folder, rootOutputPath string) error {
+	bodyHtml := p.getBodyHtml()
+	navTreeHtml := p.getNavTreeHtml(rootFolder)
+
+	fullHtml, err := getFullHtml(bodyHtml, navTreeHtml, p.Title)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -90,6 +92,16 @@ func (p *Page) OutputFullHtml(rootOutputPath string) error {
 	}
 
 	return nil
+}
+
+// Get the NavTree of the given Root Folder with the current page as the "active" page as HTML
+func (p *Page) getNavTreeHtml(rootFolder *Folder) template.HTML {
+	return rootFolder.GetAsNavTreeHtml(p)
+}
+
+// Get the NavTree of the givn Root Folder with the current page as the "active" page as HTML
+func (p *Page) getBodyHtml() template.HTML {
+	return template.HTML(p.BodyHtml)
 }
 
 // Return a NewPage
@@ -286,12 +298,13 @@ func replaceMdFileExtensionWithHtmlFileExtension(path string) (string, error) {
 }
 
 // Return the full HTML rendering of this page
-func getFullHtml(pageBodyHtml template.HTML, pageTitle string) (string, error) {
+func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitle string) (string, error) {
 	var templateOutput string
 
 	type htmlTemplateProperties struct {
 		PageTitle string
-		PageBody template.HTML
+		PageBody  template.HTML
+		NavTree   template.HTML
 	}
 
 	htmlTemplatePath := filepath.Join(HTML_TEMPLATE_REL_PATH)
@@ -309,6 +322,7 @@ func getFullHtml(pageBodyHtml template.HTML, pageTitle string) (string, error) {
 	htmlTemplate.Execute(buf, &htmlTemplateProperties{
 		PageTitle: pageTitle,
 		PageBody: pageBodyHtml,
+		NavTree: navTreeHtml,
 	})
 
 	templateOutput = buf.String()
