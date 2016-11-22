@@ -155,14 +155,17 @@ func getStandardizedPath(path string) string {
 // Out this folder and all its descendants as HTML
 func (f *Folder) OutputAllFilesAsHtml(rootOutputPath string) error {
 	for _, page := range f.ChildPages {
-		err := page.OutputBodyAsHtml(rootOutputPath)
+		err := page.OutputFullHtml(rootOutputPath)
 		if err != nil {
 			return errors.WithStackTrace(err)
 		}
 	}
 
 	for _, folder := range f.ChildFolders {
-		folder.OutputAllFilesAsHtml(rootOutputPath)
+		err := folder.OutputAllFilesAsHtml(rootOutputPath)
+		if err != nil {
+			return errors.WithStackTrace(err)
+		}
 	}
 
 	return nil

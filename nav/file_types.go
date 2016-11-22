@@ -40,7 +40,7 @@ func GetOutputPathOfGlobalImageFile(inputPath string) (string, error) {
 	return outputPath, nil
 }
 
-const IS_GLOBAL_NONIMAGE_FILE_REGEX = `^global/([\w -/]*_files)/([\w -]+\.(txt|pdf|doc|docx|xls|xlsx|rtf|csv|json|xml|yml|yaml|key|ppt|pptx))$`
+const IS_GLOBAL_NONIMAGE_FILE_REGEX = `^global/([\w -/]*_files)/([\w -]+\.(css|js|txt|pdf|doc|docx|xls|xlsx|rtf|csv|json|xml|yml|yaml|key|ppt|pptx))$`
 const IS_GLOBAL_NONIMAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 3
 
 func GetOutputPathOfGlobalNonimageFile(inputPath string) (string, error) {
@@ -84,7 +84,7 @@ func GetOutputPathOfModuleImageFile(inputPath string) (string, error) {
 	return outputPath, nil
 }
 
-const IS_MODULE_NONIMAGE_FILE_REGEX = `^packages/([\w -]+)/modules/_files/([\w -]+\.(txt|pdf|doc|docx|xls|xlsx|rtf|csv|json|xml|yml|yaml|key|ppt|pptx))$`
+const IS_MODULE_NONIMAGE_FILE_REGEX = `^packages/([\w -]+)/modules/_files/([\w -]+\.(css|js|txt|pdf|doc|docx|xls|xlsx|rtf|csv|json|xml|yml|yaml|key|ppt|pptx))$`
 const IS_MODULE_NONIMAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 3
 
 func GetOutputPathOfModuleNonimageFile(inputPath string) (string, error) {

@@ -6,8 +6,10 @@ import (
 	"strings"
 	"github.com/gruntwork-io/docs/errors"
 	"github.com/gruntwork-io/docs/file"
+	"bytes"
 	"fmt"
-	"github.com/russross/blackfriday"
+	"github.com/shurcooL/github_flavored_markdown"
+	"html/template"
 )
 
 const FILE_PATHS_REGEX = `(?:http:/|https:/)?(/[A-Za-z0-9_/.-]+)|([A-Za-z0-9_/.-]+/[A-Za-z0-9_.-]*)`
@@ -17,11 +19,15 @@ const PACKAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 2
 const MARKDOWN_FILE_PATH_REGEX = `^.*/(.*)\.md$`
 const MARKDOWN_FILE_PATH_REGEX_NUM_CAPTURE_GROUPS = 1
 
+// TODO: Figure out better way to reference this file
+const HTML_TEMPLATE_REL_PATH = "_html/doc_template.html"
+
 // A Page represents a page of documentation, usually formatted as a markdown file.
 type Page struct {
 	File
 	Title        string  // the title of the page
-	BodyMarkdown string  // the body of the page as HTML (does not include surrounding HTML)
+	BodyMarkdown string  // the body of the page as Markdown
+	BodyHtml     string  // the body of the page as HTML (does not include surrounding HTML)
 	GithubUrl    string  // the Gruntwork Repo GitHub URL to which this page corresponds
 	ParentFolder *Folder // the nav folder in which this page resides
 }
@@ -36,6 +42,8 @@ func (p *Page) PopulateAllProperties() error {
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
+
+	p.BodyHtml = getHtmlFromMarkdown(p.BodyMarkdown)
 
 	p.GithubUrl, err = convertPackageLinkToUrl(p.InputPath, "./")
 	if err != nil {
@@ -55,13 +63,18 @@ func (p *Page) AddToNavTree(rootFolder *Folder) error {
 	return nil
 }
 
+// Get the folder that contains the file specified in the given path
 func getContainingFolder(path string) string {
 	return filepath.Dir(path)
 }
 
-// Sanitize the markdown body and output it as HTML
-func (p *Page) OutputBodyAsHtml(rootOutputPath string) error {
-	bodyHtml := getHtmlFromMarkdown(p.BodyMarkdown)
+// Output the full HTML body of this page
+func (p *Page) OutputFullHtml(rootOutputPath string) error {
+	bodyHtml := template.HTML(p.BodyHtml)
+	fullHtml, err := getFullHtml(bodyHtml, p.Title)
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
 
 	absOutputPath := filepath.Join(rootOutputPath, p.OutputPath)
 	absOutputPathDotHtml, err := replaceMdFileExtensionWithHtmlFileExtension(absOutputPath)
@@ -71,7 +84,7 @@ func (p *Page) OutputBodyAsHtml(rootOutputPath string) error {
 
 	fmt.Printf("Outputting %s to %s\n", p.InputPath, absOutputPathDotHtml)
 
-	err = file.WriteFile(bodyHtml, absOutputPathDotHtml)
+	err = file.WriteFile(fullHtml, absOutputPathDotHtml)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -79,6 +92,7 @@ func (p *Page) OutputBodyAsHtml(rootOutputPath string) error {
 	return nil
 }
 
+// Return a NewPage
 func NewPage(file *File) *Page {
 	return &Page{
 		File: *file,
@@ -220,7 +234,7 @@ func getPackageName(inputPath string) (string, error) {
 	submatches := regex.FindAllStringSubmatch(inputPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != PACKAGE_FILE_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return subpath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ inputPath: inputPath, regExName: "PACKAGE_FILE_REGEX", regEx: PACKAGE_FILE_REGEX })
+		return subpath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{inputPath: inputPath, regExName: "PACKAGE_FILE_REGEX", regEx: PACKAGE_FILE_REGEX })
 	}
 
 	subpath = submatches[0][1]
@@ -236,7 +250,7 @@ func getPathRelativeToPackageRoot(inputPath string) (string, error) {
 	submatches := regex.FindAllStringSubmatch(inputPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != PACKAGE_FILE_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return subpath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ inputPath: inputPath, regExName: "PACKAGE_FILE_REGEX", regEx: PACKAGE_FILE_REGEX })
+		return subpath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{inputPath: inputPath, regExName: "PACKAGE_FILE_REGEX", regEx: PACKAGE_FILE_REGEX })
 	}
 
 	subpath = submatches[0][2]
@@ -247,10 +261,11 @@ func getPathRelativeToPackageRoot(inputPath string) (string, error) {
 // Given a markdown body return an HTML body
 func getHtmlFromMarkdown(markdown string) string {
 	bytesInput := []byte(markdown)
-	bytesOutput := blackfriday.MarkdownCommon(bytesInput)
+	bytesOutput := github_flavored_markdown.Markdown(bytesInput)
 	return string(bytesOutput)
 }
 
+// Given a path like /foo/bar.md, return /foo/bar.html
 func replaceMdFileExtensionWithHtmlFileExtension(path string) (string, error) {
 	var updatedPath string
 
@@ -258,7 +273,7 @@ func replaceMdFileExtensionWithHtmlFileExtension(path string) (string, error) {
 	submatches := regex.FindAllStringSubmatch(path, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != MARKDOWN_FILE_PATH_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return updatedPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ inputPath: path, regExName: "MARKDOWN_FILE_PATH_REGEX", regEx: MARKDOWN_FILE_PATH_REGEX })
+		return updatedPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{inputPath: path, regExName: "MARKDOWN_FILE_PATH_REGEX", regEx: MARKDOWN_FILE_PATH_REGEX })
 	}
 
 	filename := submatches[0][1]
@@ -270,3 +285,33 @@ func replaceMdFileExtensionWithHtmlFileExtension(path string) (string, error) {
 	return updatedPath, nil
 }
 
+// Return the full HTML rendering of this page
+func getFullHtml(pageBodyHtml template.HTML, pageTitle string) (string, error) {
+	var templateOutput string
+
+	type htmlTemplateProperties struct {
+		PageTitle string
+		PageBody template.HTML
+	}
+
+	htmlTemplatePath := filepath.Join(HTML_TEMPLATE_REL_PATH)
+	htmlTemplateBody, err := file.ReadFile(htmlTemplatePath)
+	if err != nil {
+		return templateOutput, errors.WithStackTrace(err)
+	}
+
+	htmlTemplate, err := template.New(pageTitle).Parse(htmlTemplateBody)
+	if err != nil {
+		return templateOutput, errors.WithStackTrace(err)
+	}
+
+	buf := new(bytes.Buffer)
+	htmlTemplate.Execute(buf, &htmlTemplateProperties{
+		PageTitle: pageTitle,
+		PageBody: pageBodyHtml,
+	})
+
+	templateOutput = buf.String()
+
+	return templateOutput, nil
+}
