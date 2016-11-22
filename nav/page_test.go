@@ -188,14 +188,14 @@ func TestConvertMarkdownLinksToUrls(t *testing.T) {
 
 	testCases := []struct {
 		inputPath string
-		body string
-		expected string
+		body      string
+		expected  string
 	}{
-		{	"packages/module-vpc/modules/vpc-app/README.md",
+		{"packages/module-vpc/modules/vpc-app/README.md",
 			`Check out the [examples folder](/examples).`,
 			`Check out the [examples folder](https://github.com/gruntwork-io/module-vpc/tree/master/examples).`,
 		},
-		{	"packages/module-vpc/modules/vpc-app/README.md",
+		{"packages/module-vpc/modules/vpc-app/README.md",
 			`# VPC-App Terraform Module
 			This Terraform Module launches a single VPC meant to house applications. By contrast, DevOps-related services such as
 			Jenkins or InfluxDB should be in a "mgmt" VPC. (See the [vpc-mgmt](../vpc-mgmt) module.)`,
@@ -262,6 +262,28 @@ func TestPage_ReplaceMdFileExtensionWithHtmlFileExtension(t *testing.T) {
 	}
 }
 
+func TestPage_GetRelPathToFolder(t *testing.T) {
+	t.Parallel()
+
+	testCases := []struct {
+		pageOutputPath   string
+		folderOutputPath string
+		expected         string
+	}{
+		{pageOutputPath: "packages/module-vpc/network-acl-outbound/overview.html", folderOutputPath: "packages/module-vpc/network-acl-outbound", expected: ".." },
+		{pageOutputPath: "packages/module-vpc/vpc-peering/examples.html", folderOutputPath: "introduction/overview.html", expected: "../../../introduction/overview.html" },
+	}
+
+	for _, testCase := range testCases {
+		page := NewPageWithOutputPath(testCase.pageOutputPath)
+		folder := NewFolderWithOutputPath(testCase.folderOutputPath)
+
+		actual := page.GetRelPathToFolder(folder)
+
+		assert.Equal(t, testCase.expected, actual, "pageOutputPath = %s\nfolderOutputPath = %s\n", testCase.pageOutputPath, testCase.folderOutputPath)
+	}
+}
+
 func NewPageWithOutputPath(outputPath string) *Page {
 	page := NewFile("", "")
 	page.OutputPath = outputPath
@@ -272,6 +294,12 @@ func NewPageWithInputPath(inputPath string) *Page {
 	page := NewFile("", "")
 	page.InputPath = inputPath
 	return NewPage(page)
+}
+
+func NewFolderWithOutputPath(outputPath string) *Folder {
+	folder := NewFolder("", "")
+	folder.OutputPath = outputPath
+	return folder
 }
 
 func readFile(t *testing.T, srcPath string) string {

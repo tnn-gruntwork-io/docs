@@ -63,6 +63,37 @@ func (p *Page) AddToNavTree(rootFolder *Folder) error {
 	return nil
 }
 
+// Return the relative path between this page and the given folder
+func (p *Page) GetRelPathToFolder(folder *Folder) string {
+	relPath, err := filepath.Rel(p.OutputPath, folder.OutputPath)
+	if err != nil {
+		panic(fmt.Sprintf("Fatal error while computing the relative path between %s and %s", p.OutputPath, folder.OutputPath))
+	}
+
+	// Golang's filepath.Rel() function treats all parts of the path as a directory, even the ending file, so we remove an extraneous ../
+	relPath = strings.Replace(relPath, "../", "", 1)
+
+	return relPath
+}
+
+// Return the relative path between this page and the given page
+func (p *Page) GetRelPathToPage(page *Page) string {
+	relPath, err := filepath.Rel(p.OutputPath, page.OutputPath)
+	if err != nil {
+		panic(fmt.Sprintf("Fatal error while computing the relative path between %s and %s", p.OutputPath, page.OutputPath))
+	}
+
+	relPath, err = replaceMdFileExtensionWithHtmlFileExtension(relPath)
+	if err != nil {
+		panic(fmt.Sprintf("Failed while calling page.replaceMdFileExtensionWithHtmlFileExtension(%s)", relPath))
+	}
+
+	// Golang's filepath.Rel() function treats all parts of the path as a directory, even the ending file, so we remove an extraneous ../
+	relPath = strings.Replace(relPath, "../", "", 1)
+
+	return relPath
+}
+
 // Get the folder that contains the file specified in the given path
 func getContainingFolder(path string) string {
 	return filepath.Dir(path)
