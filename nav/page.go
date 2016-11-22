@@ -336,15 +336,14 @@ func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitl
 		PageTitle string
 		PageBody  template.HTML
 		NavTree   template.HTML
+		CssStyles template.CSS
 	}
 
-	htmlTemplatePath := filepath.Join(HTML_TEMPLATE_REL_PATH)
-	htmlTemplateBody, err := file.ReadFile(htmlTemplatePath)
+	cssTemplate, err := getCssTemplate(CSS_TEMPLATE_REL_PATH)
 	if err != nil {
 		return templateOutput, errors.WithStackTrace(err)
 	}
 
-	htmlTemplate, err := template.New(pageTitle).Parse(htmlTemplateBody)
 	if err != nil {
 		return templateOutput, errors.WithStackTrace(err)
 	}
@@ -354,9 +353,25 @@ func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitl
 		PageTitle: pageTitle,
 		PageBody: pageBodyHtml,
 		NavTree: navTreeHtml,
+		CssStyles: cssTemplate,
 	})
 
 	templateOutput = buf.String()
 
 	return templateOutput, nil
 }
+
+// Get the CSS file at the given path as a template.CSS
+func getCssTemplate(path string) (template.CSS, error) {
+	var cssTemplate template.CSS
+
+	cssTemplateBody, err := file.ReadFile(path)
+	if err != nil {
+		return cssTemplate, errors.WithStackTrace(err)
+	}
+
+	cssTemplate = template.CSS(cssTemplateBody)
+
+	return cssTemplate, nil
+}
+

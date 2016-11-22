@@ -6,21 +6,51 @@
     <link href="https://s3-us-west-1.amazonaws.com/gruntwork-tmp/github.css" type="text/css" rel="stylesheet" media="all">
     <link href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.1.2/octicons.css" media="all" rel="stylesheet" type="text/css" />
     <style>
-        .active {
-            font-weight:bold;
-        }
+
+        {{ .CssStyles }}
+
     </style>
 </head>
 <body>
-<nav>
 
-    {{ .NavTree }}
+<div id="docs">
 
-</nav>
-<article class="markdown-body entry-content" style="padding: 30px;">
+    <div id="sidebar">
+        <div class="logo">
+            <a class="site" href="/" title="Gruntwork"></a>
+        </div>
+        <div class="nav-border"></div>
 
-    {{ .PageBody }}
+        <nav>
+        {{ .NavTree }}
+        </nav>
+    </div>
 
-</article>
+    <div id="content-wrapper" tabindex="0">
+        <header id="main-header">
+            <nav>
+                <ul class="external">
+                    <li><a href="http://gruntwork.io">Gruntwork.io</a></li>
+
+                    <li class="button">
+                        <a href="http://gruntwork.io">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <article id="content" class="markdown-body entry-content" style="padding: 30px;">
+            {{ .PageBody }}
+
+            <footer>
+                <h2>Need Help?</h2>
+                <p><strong>Current Gruntwork Customers:</strong> Just email us at <a href="mailto:support@gruntwork.io">support@gruntwork.io</a>.</p>
+                <p><strong>New Gruntwork Customers:</strong> <a href="http://gruntwork.io">Contact Us</a> to see if we're a good fit for each other.</p>
+            </footer>
+        </article>
+    </div>
+
+</div>
+
 </body>
 </html>

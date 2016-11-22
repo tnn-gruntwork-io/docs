@@ -196,10 +196,12 @@ func (f *Folder) PrintFolder() {
 	)
 }
 
+// Get a template.HTML of this Folder's childFolders and childPages
 func (f *Folder) GetAsNavTreeHtml(activePage *Page) template.HTML {
 	return template.HTML(f.getAsNavTreeHtmlAux(activePage))
 }
 
+// A helper function for GetAsNavTreeHtml
 func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 	var htmlOutput string
 
@@ -208,9 +210,7 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 	}
 
 	for _, childFolder := range f.ChildFolders {
-		htmlOutput += fmt.Sprintf("<li><a href='%s'>%s</a></li>", activePage.GetRelPathToFolder(childFolder), childFolder.Name)
-
-		htmlOutput += childFolder.getAsNavTreeHtmlAux(activePage)
+		htmlOutput += fmt.Sprintf("<li><a class='folder' href='%s'>%s</a></li>", activePage.GetRelPathToFolder(childFolder), childFolder.Name)
 
 		if len(childFolder.ChildPages) > 0 {
 			htmlOutput += "<ul>"
@@ -218,15 +218,17 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 
 		for _, childPage := range childFolder.ChildPages {
 			if childPage == activePage {
-				htmlOutput += fmt.Sprintf("<li><a class='active' href='%s'>%s</a> (%s)</li>", ".", childPage.Title, childPage.OutputPath)
+				htmlOutput += fmt.Sprintf("<li><a class='active page' href='.'>%s</a></li>", childPage.Title)
 			} else {
-				htmlOutput += fmt.Sprintf("<li><a href='%s'>%s</a></li>", activePage.GetRelPathToPage(childPage), childPage.Title)
+				htmlOutput += fmt.Sprintf("<li><a class='page' href='%s'>%s</a></li>", activePage.GetRelPathToPage(childPage), childPage.Title)
 			}
 		}
 
 		if len(childFolder.ChildPages) > 0 {
 			htmlOutput += "</ul>"
 		}
+
+		htmlOutput += childFolder.getAsNavTreeHtmlAux(activePage)
 	}
 
 	if len(f.ChildFolders) > 0 {
@@ -235,7 +237,6 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 
 	return htmlOutput
 }
-
 
 // Given a folderPath such as /x/y/z or ./x/y/z, return the top folder name
 func getTopFolderNameInPath(folderPath string) (string, int) {
