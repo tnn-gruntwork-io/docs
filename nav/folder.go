@@ -210,17 +210,19 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 	}
 
 	for _, childFolder := range f.ChildFolders {
-		htmlOutput += fmt.Sprintf("<li><a class='folder' href='%s'>%s</a></li>", activePage.GetRelPathToFolder(childFolder), childFolder.Name)
+		childFolderName := convertDashesToSpacesAndCapitalize(childFolder.Name)
+		htmlOutput += fmt.Sprintf("<li><a class='folder' href='#'>%s</a></li>", childFolderName)
 
 		if len(childFolder.ChildPages) > 0 {
 			htmlOutput += "<ul>"
 		}
 
 		for _, childPage := range childFolder.ChildPages {
+			childPageTitle := convertDashesToSpacesAndCapitalize(childPage.Title)
 			if childPage == activePage {
-				htmlOutput += fmt.Sprintf("<li><a class='active page' href='.'>%s</a></li>", childPage.Title)
+				htmlOutput += fmt.Sprintf("<li><a class='active page' href='.'>%s</a></li>", childPageTitle)
 			} else {
-				htmlOutput += fmt.Sprintf("<li><a class='page' href='%s'>%s</a></li>", activePage.GetRelPathToPage(childPage), childPage.Title)
+				htmlOutput += fmt.Sprintf("<li><a class='page' href='%s'>%s</a></li>", activePage.GetRelPathToPage(childPage), childPageTitle)
 			}
 		}
 

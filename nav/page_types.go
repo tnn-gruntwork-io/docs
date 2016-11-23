@@ -46,6 +46,8 @@ func GetOutputPathOfModuleDoc(inputPath string) (string, error) {
 	moduleName := submatches[0][2] 	// = vpc-app
 	docName := submatches[0][3] 	// = module-doc.md
 
+	packageName = getOutputPackageFolderNameFromInputPackageFolderName(packageName)
+
 	outputPath = fmt.Sprintf("packages/%s/%s/%s", packageName, moduleName, docName)
 
 	return outputPath, nil
@@ -68,7 +70,9 @@ func GetOutputPathOfModuleOverviewDoc(inputPath string) (string, error) {
 	packageName := submatches[0][1] // = module-vpc
 	moduleName := submatches[0][2] 	// = vpc-app
 
-	outputPath = fmt.Sprintf("packages/%s/modules/%s/index.md", packageName, moduleName)
+	packageName = getOutputPackageFolderNameFromInputPackageFolderName(packageName)
+
+	outputPath = fmt.Sprintf("packages/%s/modules/%s/overview.md", packageName, moduleName)
 
 	return outputPath, nil
 }
@@ -90,6 +94,8 @@ func GetOutputPathOfModuleExampleDoc(inputPath string) (string, error) {
 	packageName := submatches[0][1] // = module-vpc
 	moduleName := submatches[0][2] 	// = vpc-app
 	docName := submatches[0][3] 	// = example-doc.md
+
+	packageName = getOutputPackageFolderNameFromInputPackageFolderName(packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/modules/%s/%s", packageName, moduleName, docName)
 
@@ -113,6 +119,8 @@ func GetOutputPathOfModuleExampleOverviewDoc(inputPath string) (string, error) {
 	packageName := submatches[0][1] // = module-vpc
 	moduleName := submatches[0][2] 	// = vpc-app
 
+	packageName = getOutputPackageFolderNameFromInputPackageFolderName(packageName)
+
 	outputPath = fmt.Sprintf("packages/%s/modules/%s/examples.md", packageName, moduleName)
 
 	return outputPath, nil
@@ -135,6 +143,8 @@ func GetOutputPathOfPackageDoc(inputPath string) (string, error) {
 	packageName := submatches[0][1] // = package-vpc
 	docName := submatches[0][2] 	// = doc-name.md
 
+	packageName = getOutputPackageFolderNameFromInputPackageFolderName(packageName)
+
 	outputPath = fmt.Sprintf("packages/%s/%s", packageName, docName)
 
 	return outputPath, nil
@@ -156,7 +166,9 @@ func GetOutputPathOfPackageOverviewDoc(inputPath string) (string, error) {
 	// If we were parsing inputPath = packages/package-vpc/README.md...
 	packageName := submatches[0][1] // = package-vpc
 
-	outputPath = fmt.Sprintf("packages/%s/index.md", packageName)
+	packageName = getOutputPackageFolderNameFromInputPackageFolderName(packageName)
+
+	outputPath = fmt.Sprintf("packages/%s/overview.md", packageName)
 
 	return outputPath, nil
 }
