@@ -8,6 +8,7 @@ import (
 	"github.com/gruntwork-io/terragrunt/errors"
 	"html/template"
 	"regexp"
+	"sort"
 )
 
 type Folder struct {
@@ -210,6 +211,10 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 
 	if f.IsRoot {
 		f.ChildFolders = reorderFoldersToMatchTopLevelFolderOrdering(f.ChildFolders)
+		sortPages(f.ChildPages)
+	} else {
+		sortFolders(f.ChildFolders)
+		sortPages(f.ChildPages)
 	}
 
 	// Hide all subfolders under a package folder
@@ -330,3 +335,49 @@ func NewFolder(path, name string) *Folder {
 	return folder
 }
 
+// Implement the Golang sort.interface on []*Folders so that we can sort folders alphabetically
+type Folders []*Folder
+
+func (folders Folders) Len() int {
+	return len(folders)
+}
+
+func (folders Folders) Less(i, j int) bool {
+	return folders[i].Name < folders[j].Name
+}
+
+func (folders Folders) Swap(i, j int) {
+	folders[i], folders[j] = folders[j], folders[i]
+}
+
+// Sort the given slice of Folders
+func sortFolders(folders Folders) {
+	sort.Sort(folders)
+}
+
+// Implement the Golang sort.interface on []*Pages so that we can sort pages alphabetically
+type Pages []*Page
+
+func (pages Pages) Len() int {
+	return len(pages)
+}
+
+// Always put "Overview" at the front of the list. Otherwise, sort by page Title.
+func (pages Pages) Less(i, j int) bool {
+	if pages[i].Title == "Overview" {
+		return true
+	} else if pages[j].Title == "Overview" {
+		return false
+	} else {
+		return pages[i].Title < pages[j].Title
+	}
+}
+
+func (pages Pages) Swap(i, j int) {
+	pages[i], pages[j] = pages[j], pages[i]
+}
+
+// Sort the given slice of Pages
+func sortPages(pages Pages) {
+	sort.Sort(pages)
+}
