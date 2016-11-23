@@ -392,7 +392,14 @@ article footer p:not(:first-child) {
 }
 
 /* Nav Styles ------------------------- */
-/*#sidebar ul li.top_level_folder > ul {*/
+
+/* By default, hide all pages immediately below the top-level folders */
+/*#sidebar ul li.top_level_folder > ul > li.page {*/
+    /*display:none;*/
+/*}*/
+
+/*!* By default, hide all pages immediately below the top-level folders *!*/
+/*#sidebar ul li.package_folder > ul {*/
     /*display:none;*/
 /*}*/
 
