@@ -238,13 +238,9 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 
 		htmlOutput += fmt.Sprintf("<li class='folder%s'><a href='#'>%s</a>", cssClasses, childFolderName)
 
-		// Hide all pages under top level folders and package folders
-		if len(childFolder.ChildPages) > 0 && childFolder.ParentFolder.IsRoot {
+		// Hide all pages
+		if len(childFolder.ChildPages) > 0 {
 			htmlOutput += "<ul class='hidden'>"
-		} else if len(childFolder.ChildPages) > 0 && childFolder.IsPackageFolder {
-			htmlOutput += "<ul class='hidden'>"
-		} else if len(childFolder.ChildPages) > 0 {
-			htmlOutput += "<ul>"
 		}
 
 		for _, childPage := range childFolder.ChildPages {
