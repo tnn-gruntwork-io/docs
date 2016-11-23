@@ -7,15 +7,18 @@ import (
 	"fmt"
 	"github.com/gruntwork-io/terragrunt/errors"
 	"html/template"
+	"regexp"
 )
 
 type Folder struct {
-	OutputPath   string    // the path where this folder will exist when finally output
-	Name         string    // the name of the folder
-	ChildPages   []*Page   // the list of pages contained in this folder
-	ChildFolders []*Folder // the list of folders containers in this folder
-	ParentFolder *Folder   // the folder in which this folder resides
-	IsRoot       bool      // true if this is the topmost folder
+	OutputPath      string    // the path where this folder will exist when finally output
+	Name            string    // the name of the folder
+	ChildPages      []*Page   // the list of pages contained in this folder
+	ChildFolders    []*Folder // the list of folders containers in this folder
+	ParentFolder    *Folder   // the folder in which this folder resides
+	IsRoot          bool      // true if this is the topmost folder
+	IsPackageFolder bool      // true if this folder contains a Gruntwork Package
+	IsModuleFolder  bool      // true if this folder contains a Gruntwork Module within a Gruntwork Package
 }
 
 // Add a childFolder to f
@@ -215,7 +218,19 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 
 	for _, childFolder := range f.ChildFolders {
 		childFolderName := convertDashesToSpacesAndCapitalize(childFolder.Name)
-		htmlOutput += fmt.Sprintf("<li><a class='folder' href='#'>%s</a></li>", childFolderName)
+
+		cssClasses := ""
+		if f.IsRoot {
+			cssClasses = " top_level_folder"
+		}
+		if childFolder.IsPackageFolder {
+			cssClasses = " package_folder"
+		}
+		if childFolder.IsModuleFolder {
+			cssClasses = " module_folder"
+		}
+
+		htmlOutput += fmt.Sprintf("<li><a class='folder %s' href='#'>%s</a></li>", cssClasses, childFolderName)
 
 		if len(childFolder.ChildPages) > 0 {
 			htmlOutput += "<ul>"
@@ -288,9 +303,21 @@ func NewRootFolder() *Folder {
 
 // Return a generic new folder
 func NewFolder(path, name string) *Folder {
-	return &Folder{
+	folder := &Folder{
 		OutputPath: path,
 		Name: name,
 	}
+
+	regex := regexp.MustCompile(OUTPUT_PATH_IS_PACKAGE_FOLDER_REGEX)
+	if regex.MatchString(path) {
+		folder.IsPackageFolder = true
+	}
+
+	regex = regexp.MustCompile(OUTPUT_PATH_IS_MODULE_FOLDER_REGEX)
+	if regex.MatchString(path) {
+		folder.IsModuleFolder = true
+	}
+
+	return folder
 }
 

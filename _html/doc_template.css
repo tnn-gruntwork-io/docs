@@ -392,6 +392,16 @@ article footer p:not(:first-child) {
 }
 
 /* Nav Styles ------------------------- */
-nav li a.folder {
+#sidebar ul li a.folder {
     text-transform: capitalize;
+}
+
+#sidebar ul li a.active {
+    font-weight: bold;
+    color: #2B91AF;
+}
+
+#sidebar ul li a.top_level_folder {
+    font-weight: bold;
+    font-size:100%;
 }
