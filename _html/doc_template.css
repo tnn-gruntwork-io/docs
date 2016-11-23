@@ -392,16 +392,30 @@ article footer p:not(:first-child) {
 }
 
 /* Nav Styles ------------------------- */
-#sidebar ul li a.folder {
+/*#sidebar ul li.top_level_folder > ul {*/
+    /*display:none;*/
+/*}*/
+
+#sidebar ul li.folder {
     text-transform: capitalize;
+}
+
+#sidebar ul li.folder.module_folder > a {
+    text-transform: lowercase;
+    font-family: Monaco, Menlo, Consolas, monospace;
+    font-size:13px;
+}
+
+#sidebar ul li.folder.module_folder > a:hover {
+    font-weight:bold;
+}
+
+#sidebar ul li.top_level_folder > a {
+    font-weight: bold;
+    font-size:100%;
 }
 
 #sidebar ul li a.active {
     font-weight: bold;
     color: #2B91AF;
-}
-
-#sidebar ul li a.top_level_folder {
-    font-weight: bold;
-    font-size:100%;
 }

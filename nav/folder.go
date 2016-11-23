@@ -217,7 +217,10 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 	}
 
 	for _, childFolder := range f.ChildFolders {
-		childFolderName := convertDashesToSpacesAndCapitalize(childFolder.Name)
+		childFolderName := childFolder.Name
+		if ! childFolder.IsModuleFolder {
+			childFolderName = convertDashesToSpacesAndCapitalize(childFolderName)
+		}
 
 		cssClasses := ""
 		if f.IsRoot {
@@ -230,7 +233,7 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 			cssClasses = " module_folder"
 		}
 
-		htmlOutput += fmt.Sprintf("<li><a class='folder %s' href='#'>%s</a></li>", cssClasses, childFolderName)
+		htmlOutput += fmt.Sprintf("<li class='folder%s'><a href='#'>%s</a>", cssClasses, childFolderName)
 
 		if len(childFolder.ChildPages) > 0 {
 			htmlOutput += "<ul>"
@@ -239,9 +242,9 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 		for _, childPage := range childFolder.ChildPages {
 			childPageTitle := convertDashesToSpacesAndCapitalize(childPage.Title)
 			if childPage == activePage {
-				htmlOutput += fmt.Sprintf("<li><a class='active page' href='#'>%s</a></li>", childPageTitle)
+				htmlOutput += fmt.Sprintf("<li class='page'><a class='active' href='#'>%s</a></li>", childPageTitle)
 			} else {
-				htmlOutput += fmt.Sprintf("<li><a class='page' href='%s'>%s</a></li>", activePage.GetRelPathToPage(childPage), childPageTitle)
+				htmlOutput += fmt.Sprintf("<li class='page'><a href='%s'>%s</a></li>", activePage.GetRelPathToPage(childPage), childPageTitle)
 			}
 		}
 
@@ -250,6 +253,8 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 		}
 
 		htmlOutput += childFolder.getAsNavTreeHtmlAux(activePage)
+
+		htmlOutput += "</li>"
 	}
 
 	if len(f.ChildFolders) > 0 {
