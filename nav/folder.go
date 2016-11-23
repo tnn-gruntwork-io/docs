@@ -205,6 +205,10 @@ func (f *Folder) GetAsNavTreeHtml(activePage *Page) template.HTML {
 func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 	var htmlOutput string
 
+	if f.IsRoot {
+		f.ChildFolders = reorderFoldersToMatchTopLevelFolderOrdering(f.ChildFolders)
+	}
+
 	if len(f.ChildFolders) > 0 {
 		htmlOutput += "<ul>"
 	}
@@ -220,7 +224,7 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 		for _, childPage := range childFolder.ChildPages {
 			childPageTitle := convertDashesToSpacesAndCapitalize(childPage.Title)
 			if childPage == activePage {
-				htmlOutput += fmt.Sprintf("<li><a class='active page' href='.'>%s</a></li>", childPageTitle)
+				htmlOutput += fmt.Sprintf("<li><a class='active page' href='#'>%s</a></li>", childPageTitle)
 			} else {
 				htmlOutput += fmt.Sprintf("<li><a class='page' href='%s'>%s</a></li>", activePage.GetRelPathToPage(childPage), childPageTitle)
 			}
