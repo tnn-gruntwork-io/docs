@@ -47,7 +47,7 @@ body {
     -webkit-user-select: none;
     user-select: none;
     width: calc((100% - 994px) / 2 + 226px);
-    min-width: 252px;
+    min-width: 275px;
     /* padding-left: calc((100% - 994px) / 2) */
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
 }
@@ -87,8 +87,8 @@ body {
     position: absolute;
     transform: translateZ(0);
     z-index: 10;
-    top: 10px;
-    right: 0;
+    top: 17px;
+    right: 30px;
     width: 226px;
     margin: 0 0 0 -1px
 }
@@ -96,10 +96,12 @@ body {
 #sidebar .logo a.site {
     display: inline-block;
     position: relative;
-    width: 62px;
-    height: 25px;
-    background-image: url(/_web/img/gruntwork-logo.png);
-    top: 1px
+    width: 226px;
+    height: 50px;
+    background-image: url(https://s3-us-west-2.amazonaws.com/docs.gruntwork.io/gruntwork_docs_logo.png);
+    background-size:226px 50px;
+    top: 1px;
+    border: 1px solid darkgray;
 }
 
 #sidebar .logo a.extension {
@@ -165,7 +167,7 @@ body {
 
 #content,
 header#main-header {
-    margin-left: calc((100% - 994px) / 2 + 226px);
+    margin-left: calc((100% - 966px) / 2 + 226px);
     width: 770px;
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
 }
@@ -382,26 +384,12 @@ header#main-header a:hover {
     margin-bottom: 0
 }
 
-/*#sidebar ul ul li a {*/
-    /*padding-left: 18px*/
-/*}*/
-
 /* New Styles Tweaks ------------------------- */
 article footer p:not(:first-child) {
     padding-top:0;
 }
 
 /* Nav Styles ------------------------- */
-
-/* By default, hide all pages immediately below the top-level folders */
-/*#sidebar ul li.top_level_folder > ul > li.page {*/
-    /*display:none;*/
-/*}*/
-
-/*!* By default, hide all pages immediately below the top-level folders *!*/
-/*#sidebar ul li.package_folder > ul {*/
-    /*display:none;*/
-/*}*/
 
 #sidebar ul li.folder {
     text-transform: capitalize;
