@@ -55,9 +55,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript">
     $( document ).ready(function() {
+        // Highlight the nav path to the current page
+        $(".active").parents("ul").removeClass("hidden");
+
+        // Toggle hidden on all folders except the "Packages" folder.
         $(".top_level_folder a").click( function() {
             if ($(this).text() != "Packages") {
-                $(this).siblings("ul").toggleClass("hidden")
+                $(this).siblings("ul").toggleClass("hidden");
             }
         });
     })
