@@ -160,7 +160,7 @@ body {
     position: relative;
     padding-top: 33px;
     padding-left: 32px;
-    margin: 0 25px 0 0;
+    margin: 0 25px 35px 0;
     border-top: 1px solid rgba(120, 134, 156, .08);
     overflow-x: hidden
 }
@@ -384,8 +384,20 @@ header#main-header a:hover {
     margin-bottom: 0
 }
 
-/* New Styles Tweaks ------------------------- */
-article footer p:not(:first-child) {
+/* Footer Styles ------------------------- */
+article#content footer {
+    border: 1px solid lightgray;
+    padding: 5px 15px;
+    color: #4c555a;
+    background-color: #efefef;
+}
+
+article#content footer h4 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+article#content footer p:not(:first-child) {
     padding-top:0;
 }
 
@@ -413,4 +425,22 @@ article footer p:not(:first-child) {
 #sidebar ul li a.active {
     font-weight: bold;
     color: #2B91AF;
+}
+
+/* Bottom Footer */
+
+footer#bottom_footer {
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+    color:lightgray;
+    font-size:80%;
+    margin-left: calc((100% - 966px) / 2 + 226px);
+    width: 770px;
+    position: relative;
+    padding-top: 33px;
+    padding-left: 32px;
+    margin-top: 0;
+    margin-bottom:50px;
+    margin-right: 25px;
+    border-top: 1px solid rgba(120, 134, 156, .08);
+    overflow-x: hidden
 }
