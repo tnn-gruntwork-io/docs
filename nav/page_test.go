@@ -378,31 +378,28 @@ func TestPage_GetPackageNameFromGithubUrl(t *testing.T) {
 	}
 }
 
-//func TestPage_GetModuleNameFromGithubUrl(t *testing.T) {
-//	t.Parallel()
-//
-//	testCases := []struct {
-//		url      string
-//		expected string
-//	}{
-//		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app", expected: "vpc-app" },
-//		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app/README.md", expected: "vpc-app" },
-//		{ url: "https://github.com/gruntwork-io/module-vpc", expected: "" },
-//		{ url: "https://github.com/gruntwork-io/module-vpc/", expected: "" },
-//		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/network-acl-inbound", expected: "network-acl-inbound" },
-//		{ url: "https://github.com/gruntwork-io/module-vpc/blob/master/modules/network-acl-inbound/README.md", expected: "network-acl-inbound" },
-//		{ url: "https://github.com/gruntwork-io/module-vpc/blob/master/README.md", expected: "" },
-//	}
-//
-//	for _, testCase := range testCases {
-//		actual, err := getModuleNameFromGithubUrl(testCase.url)
-//		if err != nil {
-//			t.Fatal(err)
-//		}
-//
-//		assert.Equal(t, testCase.expected, actual, "url = %s\n", testCase.url)
-//	}
-//}
+func TestPage_GetModuleNameFromGithubUrl(t *testing.T) {
+	t.Parallel()
+
+	testCases := []struct {
+		url      string
+		expected string
+	}{
+		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app", expected: "vpc-app" },
+		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app/README.md", expected: "vpc-app" },
+		{ url: "https://github.com/gruntwork-io/module-vpc", expected: "" },
+		{ url: "https://github.com/gruntwork-io/module-vpc/", expected: "" },
+		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/network-acl-inbound", expected: "network-acl-inbound" },
+		{ url: "https://github.com/gruntwork-io/module-vpc/blob/master/modules/network-acl-inbound/README.md", expected: "network-acl-inbound" },
+		{ url: "https://github.com/gruntwork-io/module-vpc/blob/master/README.md", expected: "" },
+	}
+
+	for _, testCase := range testCases {
+		actual := getModuleNameFromGithubUrl(testCase.url)
+
+		assert.Equal(t, testCase.expected, actual, "url = %s\n", testCase.url)
+	}
+}
 
 func TestPage_ConvertGruntworkGithubUrlToInternalLink(t *testing.T) {
 	t.Parallel()

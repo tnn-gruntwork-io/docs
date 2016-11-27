@@ -16,6 +16,7 @@ const LINK_PATHS_REGEX = `(?:http:/|https:/)?(/[A-Za-z0-9_/.-]+)|([A-Za-z0-9_/.-
 //const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/tree/master|/blob/master)?(/modules)?(/)?([A-Za-z0-9_.-]+)?([/A-Za-z0-9_.-]*)`
 //const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/(<package-name>)(/tree/master|/blob/master)?(/modules/<modules-name>/<path>|<path>)`
 const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/[A-Za-z0-9_.-]+)*`
+const GRUNTWORK_GITHUB_URL_MODULE_DOC_REGEX = `http[s]?://github.com/gruntwork-io/[A-Za-z0-9_.-]+/(?:tree/master|blob/master)/modules/([A-Za-z0-9_.-]+)(/[A-Za-z0-9_.-]+)*`
 const GRUNTWORK_GITHUB_URL_TREE_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/tree/master|/blob/master)?(/modules/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-/]*|/[A-Za-z0-9_.-/]*)?`
 const GRUNTWORK_GITHUB_URL_BLOB_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/tree/master|/blob/master)?(/modules/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-/]*|/[A-Za-z0-9_.-/]*)?`
 const PACKAGE_GITHUB_REPO_URL_PREFIX = "https://github.com/gruntwork-io/<package-name>/tree/master"
@@ -298,19 +299,19 @@ func getPackageNameFromGithubUrl(githubUrl string) (string, error) {
 }
 
 // Extract the module name from the given github URL
-func getModuleNameFromGithubUrl(githubUrl string) (string, error) {
+func getModuleNameFromGithubUrl(githubUrl string) string {
 	var moduleName string
 
-	regex := regexp.MustCompile(GRUNTWORK_GITHUB_URL_REGEX)
+	regex := regexp.MustCompile(GRUNTWORK_GITHUB_URL_MODULE_DOC_REGEX)
 	submatches := regex.FindAllStringSubmatch(githubUrl, -1)
 
 	if len(submatches) == 0 {
-		return moduleName, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{string: githubUrl, regExName: "GRUNTWORK_GITHUB_URL_REGEX", regEx: GRUNTWORK_GITHUB_URL_REGEX })
+		return moduleName
 	}
 
-	moduleName = submatches[0][2]
+	moduleName = submatches[0][1]
 
-	return moduleName, nil
+	return moduleName
 }
 
 // Convert a link that directs to another Package page to a fully qualified URL. For non-Package links, just return the original link
