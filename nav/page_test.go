@@ -354,29 +354,29 @@ func TestPage_GetAllGruntworkGithubUrls(t *testing.T) {
 	}
 }
 
-//func TestPage_GetPackageNameFromGithubUrl(t *testing.T) {
-//	t.Parallel()
-//
-//	testCases := []struct {
-//		url      string
-//		expected string
-//	}{
-//		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app", expected: "module-vpc" },
-//		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app/README.md", expected: "module-vpc" },
-//		{ url: "https://github.com/gruntwork-io/module-vpc", expected: "module-vpc" },
-//		{ url: "https://github.com/gruntwork-io/module-vpc/", expected: "module-vpc" },
-//		{ url: "https://github.com/gruntwork-io/module-vpc/README.md", expected: "module-vpc" },
-//	}
-//
-//	for _, testCase := range testCases {
-//		actual, err := getPackageNameFromGithubUrl(testCase.url)
-//		if err != nil {
-//			t.Fatal(err)
-//		}
-//
-//		assert.Equal(t, testCase.expected, actual, "url = %s\n", testCase.url)
-//	}
-//}
+func TestPage_GetPackageNameFromGithubUrl(t *testing.T) {
+	t.Parallel()
+
+	testCases := []struct {
+		url      string
+		expected string
+	}{
+		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app", expected: "module-vpc" },
+		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app/README.md", expected: "module-vpc" },
+		{ url: "https://github.com/gruntwork-io/module-vpc", expected: "module-vpc" },
+		{ url: "https://github.com/gruntwork-io/module-vpc/", expected: "module-vpc" },
+		{ url: "https://github.com/gruntwork-io/module-vpc/README.md", expected: "module-vpc" },
+	}
+
+	for _, testCase := range testCases {
+		actual, err := getPackageNameFromGithubUrl(testCase.url)
+		if err != nil {
+			t.Fatal(err)
+		}
+
+		assert.Equal(t, testCase.expected, actual, "url = %s\n", testCase.url)
+	}
+}
 
 //func TestPage_GetModuleNameFromGithubUrl(t *testing.T) {
 //	t.Parallel()

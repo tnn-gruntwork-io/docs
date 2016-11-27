@@ -15,7 +15,7 @@ import (
 const LINK_PATHS_REGEX = `(?:http:/|https:/)?(/[A-Za-z0-9_/.-]+)|([A-Za-z0-9_/.-]+/[A-Za-z0-9_.-]*)`
 //const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/tree/master|/blob/master)?(/modules)?(/)?([A-Za-z0-9_.-]+)?([/A-Za-z0-9_.-]*)`
 //const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/(<package-name>)(/tree/master|/blob/master)?(/modules/<modules-name>/<path>|<path>)`
-const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/[A-Za-z0-9_/.-]+/[A-Za-z0-9_.-]*`
+const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/[A-Za-z0-9_.-]+)*`
 const GRUNTWORK_GITHUB_URL_TREE_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/tree/master|/blob/master)?(/modules/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-/]*|/[A-Za-z0-9_.-/]*)?`
 const GRUNTWORK_GITHUB_URL_BLOB_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/tree/master|/blob/master)?(/modules/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-/]*|/[A-Za-z0-9_.-/]*)?`
 const PACKAGE_GITHUB_REPO_URL_PREFIX = "https://github.com/gruntwork-io/<package-name>/tree/master"
