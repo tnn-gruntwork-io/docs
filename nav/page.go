@@ -17,8 +17,6 @@ const LINK_PATHS_REGEX = `(?:http:/|https:/)?(/[A-Za-z0-9_/.-]+)|([A-Za-z0-9_/.-
 //const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/(<package-name>)(/tree/master|/blob/master)?(/modules/<modules-name>/<path>|<path>)`
 const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/[A-Za-z0-9_.-]+)*`
 const GRUNTWORK_GITHUB_URL_MODULE_DOC_REGEX = `http[s]?://github.com/gruntwork-io/[A-Za-z0-9_.-]+/(?:tree/master|blob/master)/modules/([A-Za-z0-9_.-]+)(/[A-Za-z0-9_.-]+)*`
-const GRUNTWORK_GITHUB_URL_TREE_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/tree/master|/blob/master)?(/modules/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-/]*|/[A-Za-z0-9_.-/]*)?`
-const GRUNTWORK_GITHUB_URL_BLOB_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/tree/master|/blob/master)?(/modules/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-/]*|/[A-Za-z0-9_.-/]*)?`
 const PACKAGE_GITHUB_REPO_URL_PREFIX = "https://github.com/gruntwork-io/<package-name>/tree/master"
 const PACKAGE_FILE_REGEX = `^packages/([\w -]+)(/.*)$`
 const PACKAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 2
@@ -266,52 +264,9 @@ func getAllGruntworkGithubUrls(body string) []string {
 func convertGruntworkGithubUrlToInternalLink(githubUrl string) (string, error) {
 	var link string
 
-	packageName, err := getPackageNameFromGithubUrl(githubUrl)
-	if err != nil {
-		return link, errors.WithStackTrace(err)
-	}
+	// Search all NavTree pages for the given GitHub URL. If we find a match, return the corresponding output path.
 
-	//moduleName
-
-	// - strip off the relevant portion of the github URL
-	//   - tree/master vs. top-level
-	// - compute relative path
-
-	//link = fmt.Sprintf("/packages/%s/modules/%s/%s.html", packageName, moduleName, pageFilename)
-
-	return packageName, nil
-}
-
-// Extract the package name from the given github URL
-func getPackageNameFromGithubUrl(githubUrl string) (string, error) {
-	var packageName string
-
-	regex := regexp.MustCompile(GRUNTWORK_GITHUB_URL_REGEX)
-	submatches := regex.FindAllStringSubmatch(githubUrl, -1)
-
-	if len(submatches) == 0 {
-		return packageName, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{string: githubUrl, regExName: "GRUNTWORK_GITHUB_URL_REGEX", regEx: GRUNTWORK_GITHUB_URL_REGEX })
-	}
-
-	packageName = submatches[0][1]
-
-	return packageName, nil
-}
-
-// Extract the module name from the given github URL
-func getModuleNameFromGithubUrl(githubUrl string) string {
-	var moduleName string
-
-	regex := regexp.MustCompile(GRUNTWORK_GITHUB_URL_MODULE_DOC_REGEX)
-	submatches := regex.FindAllStringSubmatch(githubUrl, -1)
-
-	if len(submatches) == 0 {
-		return moduleName
-	}
-
-	moduleName = submatches[0][1]
-
-	return moduleName
+	return link, nil
 }
 
 // Convert a link that directs to another Package page to a fully qualified URL. For non-Package links, just return the original link
