@@ -14,7 +14,7 @@ func TestFile_PopulateOutputPath(t *testing.T) {
 	}{
 		{ inputPath: "global/_files/hello.txt", expected: "_files/hello.txt" },
 		{ inputPath: "global/help/support.md", expected: "help/support.md" },
-		{ inputPath: "packages/package-vpc/modules/vpc-app/README.md", expected: "packages/package-vpc/vpc-app/overview.md" },
+		{ inputPath: "packages/package-vpc/modules/vpc-app/README.md", expected: "packages/package-vpc/modules/vpc-app/overview.md" },
 	}
 
 	for _, testCase := range testCases {

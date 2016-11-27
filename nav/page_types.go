@@ -38,7 +38,7 @@ func GetOutputPathOfModuleDoc(inputPath string) (string, error) {
 	submatches := regex.FindAllStringSubmatch(inputPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != IS_MODULE_DOC_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ inputPath: inputPath, regExName: "IS_MODULE_DOC_REGEX", regEx: IS_MODULE_DOC_REGEX })
+		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ string: inputPath, regExName: "IS_MODULE_DOC_REGEX", regEx: IS_MODULE_DOC_REGEX })
 	}
 
 	// If we were parsing inputPath = packages/module-vpc/modules/vpc-app/module-doc.md...
@@ -63,7 +63,7 @@ func GetOutputPathOfModuleOverviewDoc(inputPath string) (string, error) {
 	submatches := regex.FindAllStringSubmatch(inputPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != IS_MODULE_OVERVIEW_DOC_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ inputPath: inputPath, regExName: "IS_MODULE_OVERVIEW_DOC_REGEX", regEx: IS_MODULE_OVERVIEW_DOC_REGEX })
+		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ string: inputPath, regExName: "IS_MODULE_OVERVIEW_DOC_REGEX", regEx: IS_MODULE_OVERVIEW_DOC_REGEX })
 	}
 
 	// If we were parsing inputPath = packages/module-vpc/modules/vpc-app/README.md...
@@ -87,7 +87,7 @@ func GetOutputPathOfModuleExampleDoc(inputPath string) (string, error) {
 	submatches := regex.FindAllStringSubmatch(inputPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != IS_MODULE_EXAMPLE_DOC_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ inputPath: inputPath, regExName: "IS_MODULE_EXAMPLE_DOC_REGEX", regEx: IS_MODULE_EXAMPLE_DOC_REGEX })
+		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ string: inputPath, regExName: "IS_MODULE_EXAMPLE_DOC_REGEX", regEx: IS_MODULE_EXAMPLE_DOC_REGEX })
 	}
 
 	// If we were parsing inputPath = packages/module-vpc/examples/vpc-app/example-doc.md...
@@ -112,7 +112,7 @@ func GetOutputPathOfModuleExampleOverviewDoc(inputPath string) (string, error) {
 	submatches := regex.FindAllStringSubmatch(inputPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != IS_MODULE_EXAMPLE_OVERVIEW_DOC_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ inputPath: inputPath, regExName: "IS_MODULE_EXAMPLE_OVERVIEW_DOC_REGEX", regEx: IS_MODULE_EXAMPLE_OVERVIEW_DOC_REGEX })
+		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ string: inputPath, regExName: "IS_MODULE_EXAMPLE_OVERVIEW_DOC_REGEX", regEx: IS_MODULE_EXAMPLE_OVERVIEW_DOC_REGEX })
 	}
 
 	// If we were parsing inputPath = packages/module-vpc/examples/vpc-app/README.md...
@@ -136,7 +136,7 @@ func GetOutputPathOfPackageDoc(inputPath string) (string, error) {
 	submatches := regex.FindAllStringSubmatch(inputPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != IS_PACKAGE_DOC_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ inputPath: inputPath, regExName: "IS_PACKAGE_DOC_REGEX", regEx: IS_PACKAGE_DOC_REGEX })
+		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ string: inputPath, regExName: "IS_PACKAGE_DOC_REGEX", regEx: IS_PACKAGE_DOC_REGEX })
 	}
 
 	// If we were parsing inputPath = packages/package-vpc/modules/_docs/doc-name.md...
@@ -160,7 +160,7 @@ func GetOutputPathOfPackageOverviewDoc(inputPath string) (string, error) {
 	submatches := regex.FindAllStringSubmatch(inputPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != IS_PACKAGE_OVERVIEW_DOC_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ inputPath: inputPath, regExName: "IS_PACKAGE_OVERVIEW_DOC_REGEX", regEx: IS_PACKAGE_OVERVIEW_DOC_REGEX })
+		return outputPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{ string: inputPath, regExName: "IS_PACKAGE_OVERVIEW_DOC_REGEX", regEx: IS_PACKAGE_OVERVIEW_DOC_REGEX })
 	}
 
 	// If we were parsing inputPath = packages/package-vpc/README.md...
@@ -176,10 +176,10 @@ func GetOutputPathOfPackageOverviewDoc(inputPath string) (string, error) {
 // Custom errors
 
 type WrongNumberOfCaptureGroupsReturnedFromPageRegEx struct {
-	inputPath string
+	string    string
 	regExName string
 	regEx     string
 }
 func (err WrongNumberOfCaptureGroupsReturnedFromPageRegEx) Error() string {
-	return fmt.Sprintf("The wrong number of capture groups was found. This may be because the path did not match the RegEx.\ninputPath = %s\nregExName = %s\nregEx = %s\n", err.inputPath, err.regExName, err.regEx)
+	return fmt.Sprintf("The wrong number of capture groups was found. This may be because the path did not match the RegEx.\nstring = %s\nregExName = %s\nregEx = %s\n", err.string, err.regExName, err.regEx)
 }

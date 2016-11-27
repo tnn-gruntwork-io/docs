@@ -12,7 +12,12 @@ import (
 	"html/template"
 )
 
-const FILE_PATHS_REGEX = `(?:http:/|https:/)?(/[A-Za-z0-9_/.-]+)|([A-Za-z0-9_/.-]+/[A-Za-z0-9_.-]*)`
+const LINK_PATHS_REGEX = `(?:http:/|https:/)?(/[A-Za-z0-9_/.-]+)|([A-Za-z0-9_/.-]+/[A-Za-z0-9_.-]*)`
+//const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/tree/master|/blob/master)?(/modules)?(/)?([A-Za-z0-9_.-]+)?([/A-Za-z0-9_.-]*)`
+//const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/(<package-name>)(/tree/master|/blob/master)?(/modules/<modules-name>/<path>|<path>)`
+const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/[A-Za-z0-9_/.-]+/[A-Za-z0-9_.-]*`
+const GRUNTWORK_GITHUB_URL_TREE_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/tree/master|/blob/master)?(/modules/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-/]*|/[A-Za-z0-9_.-/]*)?`
+const GRUNTWORK_GITHUB_URL_BLOB_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/tree/master|/blob/master)?(/modules/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-/]*|/[A-Za-z0-9_.-/]*)?`
 const PACKAGE_GITHUB_REPO_URL_PREFIX = "https://github.com/gruntwork-io/<package-name>/tree/master"
 const PACKAGE_FILE_REGEX = `^packages/([\w -]+)(/.*)$`
 const PACKAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 2
@@ -105,7 +110,7 @@ func (p *Page) WriteFullPageHtmlToOutputPath(rootFolder *Folder, rootOutputPath 
 	bodyHtml := p.getBodyHtml()
 	navTreeHtml := p.getNavTreeHtml(rootFolder)
 
-	fullHtml, err := getFullHtml(bodyHtml, navTreeHtml, p.Title)
+	fullHtml, err := getFullHtml(bodyHtml, navTreeHtml, p.Title, p.GithubUrl)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -168,8 +173,7 @@ func (p *Page) getSanitizedMarkdownBody() (string, error) {
 	return body, nil
 }
 
-// Given a doc file with the given body at the given inputPath, convert all paths in the body (e.g. "/foo" or "../bar")
-// to fully qualified URLs.
+// Given a body and its inputPath, convert all paths in the body (e.g. "/foo" or "../bar") to fully qualified URLs.
 func convertMarkdownLinksToUrls(inputPath, body string) (string, error) {
 	var newBody string
 
@@ -199,11 +203,27 @@ func convertMarkdownLinksToUrls(inputPath, body string) (string, error) {
 	return newBody, nil
 }
 
+// Given a body and its inputPath, convert all Gruntwork GitHub URL links to internal links if possible
+//func convertExternalGruntworkGithubUrlsToInternalLinks(inputPath, body string) (string, error) {
+//	var newBody string
+//
+//	newBody = body
+//	urls := getAllGruntworkGithubUrls(body)
+//
+//	for _, url := range urls {
+//		internalLink := convertGruntworkGithubUrlToInternalLink(url)
+//
+//		newBody = strings.Replace(newBody, url, internalLink, 1)
+//	}
+//
+//	return newBody, nil
+//}
+
 // Given a body of text find all instances of link paths (e.g. /foo or ../bar)
 func getAllLinkPaths(body string) []string {
 	var relPaths []string
 
-	regex := regexp.MustCompile(FILE_PATHS_REGEX)
+	regex := regexp.MustCompile(LINK_PATHS_REGEX)
 	submatches := regex.FindAllStringSubmatch(body, -1)
 
 	if len(submatches) == 0 {
@@ -220,6 +240,77 @@ func getAllLinkPaths(body string) []string {
 	}
 
 	return relPaths
+}
+
+// Given a body of text find all instances of Github URLs to other Gruntwork repos
+func getAllGruntworkGithubUrls(body string) []string {
+	var urls []string
+
+	regex := regexp.MustCompile(GRUNTWORK_GITHUB_URL_REGEX)
+	submatches := regex.FindAllStringSubmatch(body, -1)
+
+	if len(submatches) == 0 {
+		return urls
+	}
+
+	for _, submatch := range submatches {
+		url := submatch[0]
+		urls = append(urls, url)
+	}
+
+	return urls
+}
+
+// Given a github URL like https://github.com/gruntwork-io/..., convert it to the corresponding internal link (e.g. /foo/bar)
+func convertGruntworkGithubUrlToInternalLink(githubUrl string) (string, error) {
+	var link string
+
+	packageName, err := getPackageNameFromGithubUrl(githubUrl)
+	if err != nil {
+		return link, errors.WithStackTrace(err)
+	}
+
+	//moduleName
+
+	// - strip off the relevant portion of the github URL
+	//   - tree/master vs. top-level
+	// - compute relative path
+
+	//link = fmt.Sprintf("/packages/%s/modules/%s/%s.html", packageName, moduleName, pageFilename)
+
+	return packageName, nil
+}
+
+// Extract the package name from the given github URL
+func getPackageNameFromGithubUrl(githubUrl string) (string, error) {
+	var packageName string
+
+	regex := regexp.MustCompile(GRUNTWORK_GITHUB_URL_REGEX)
+	submatches := regex.FindAllStringSubmatch(githubUrl, -1)
+
+	if len(submatches) == 0 {
+		return packageName, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{string: githubUrl, regExName: "GRUNTWORK_GITHUB_URL_REGEX", regEx: GRUNTWORK_GITHUB_URL_REGEX })
+	}
+
+	packageName = submatches[0][1]
+
+	return packageName, nil
+}
+
+// Extract the module name from the given github URL
+func getModuleNameFromGithubUrl(githubUrl string) (string, error) {
+	var moduleName string
+
+	regex := regexp.MustCompile(GRUNTWORK_GITHUB_URL_REGEX)
+	submatches := regex.FindAllStringSubmatch(githubUrl, -1)
+
+	if len(submatches) == 0 {
+		return moduleName, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{string: githubUrl, regExName: "GRUNTWORK_GITHUB_URL_REGEX", regEx: GRUNTWORK_GITHUB_URL_REGEX })
+	}
+
+	moduleName = submatches[0][2]
+
+	return moduleName, nil
 }
 
 // Convert a link that directs to another Package page to a fully qualified URL. For non-Package links, just return the original link
@@ -278,7 +369,7 @@ func getPackageName(inputPath string) (string, error) {
 	submatches := regex.FindAllStringSubmatch(inputPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != PACKAGE_FILE_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return subpath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{inputPath: inputPath, regExName: "PACKAGE_FILE_REGEX", regEx: PACKAGE_FILE_REGEX })
+		return subpath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{string: inputPath, regExName: "PACKAGE_FILE_REGEX", regEx: PACKAGE_FILE_REGEX })
 	}
 
 	subpath = submatches[0][1]
@@ -294,7 +385,7 @@ func getPathRelativeToPackageRoot(inputPath string) (string, error) {
 	submatches := regex.FindAllStringSubmatch(inputPath, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != PACKAGE_FILE_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return subpath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{inputPath: inputPath, regExName: "PACKAGE_FILE_REGEX", regEx: PACKAGE_FILE_REGEX })
+		return subpath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{string: inputPath, regExName: "PACKAGE_FILE_REGEX", regEx: PACKAGE_FILE_REGEX })
 	}
 
 	subpath = submatches[0][2]
@@ -317,7 +408,7 @@ func replaceMdFileExtensionWithHtmlFileExtension(path string) (string, error) {
 	submatches := regex.FindAllStringSubmatch(path, -1)
 
 	if len(submatches) == 0 || len(submatches[0]) != MARKDOWN_FILE_PATH_REGEX_NUM_CAPTURE_GROUPS + 1 {
-		return updatedPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{inputPath: path, regExName: "MARKDOWN_FILE_PATH_REGEX", regEx: MARKDOWN_FILE_PATH_REGEX })
+		return updatedPath, errors.WithStackTrace(&WrongNumberOfCaptureGroupsReturnedFromPageRegEx{string: path, regExName: "MARKDOWN_FILE_PATH_REGEX", regEx: MARKDOWN_FILE_PATH_REGEX })
 	}
 
 	filename := submatches[0][1]
@@ -330,7 +421,7 @@ func replaceMdFileExtensionWithHtmlFileExtension(path string) (string, error) {
 }
 
 // Return the full HTML rendering of this page
-func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitle string) (string, error) {
+func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitle string, githubUrl string) (string, error) {
 	var templateOutput string
 
 	type htmlTemplateProperties struct {
@@ -338,6 +429,7 @@ func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitl
 		PageBody  template.HTML
 		NavTree   template.HTML
 		CssStyles template.CSS
+		GithubUrl string
 	}
 
 	cssTemplate, err := getCssTemplate(CSS_TEMPLATE_REL_PATH)
@@ -356,6 +448,7 @@ func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitl
 		PageBody: pageBodyHtml,
 		NavTree: navTreeHtml,
 		CssStyles: cssTemplate,
+		GithubUrl: githubUrl,
 	})
 
 	templateOutput = buf.String()
@@ -392,4 +485,11 @@ func getTemplate(path string, templateTitle string) (*template.Template, error) 
 	}
 
 	return templateRef, nil
+}
+
+func replaceGithubLinksWithInternalLinks(htmlBody string, rootNavFolder *Folder) {
+
+	// - get all links on page matching github regex
+	// - for each link
+	//   - if that link can be found in any rootNavFolder children, replace it with the corresponding outputPath of that page
 }

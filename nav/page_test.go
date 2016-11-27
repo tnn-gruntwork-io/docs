@@ -284,6 +284,150 @@ func TestPage_GetRelPathToFolder(t *testing.T) {
 	}
 }
 
+func TestPage_GetAllGruntworkGithubUrls(t *testing.T) {
+	t.Parallel()
+
+	testCases := []struct {
+		body     string
+		expected []string
+	}{
+		{
+			body: `
+			<div id="docs">
+
+			    <div id="sidebar">
+				<div class="logo">
+				    <a class="site" href="/" title="Gruntwork"></a>
+				</div>
+				<div class="nav-border"></div>
+
+				<nav>
+				    <ul><li class='folder top_level_folder'><a href='#'>Introduction</a><ul class='hidden'><li class='page'><a href='../../introduction/overview.html'>Overview</a></li><li class='page'><a href='../../introduction/tools.html'>Tools</a></li></ul></li><li class='folder top_level_folder'><a href='#'>Help</a><ul class='hidden'><li class='page'><a href='../../help/support.html'>Support</a></li></ul></li><li class='folder top_level_folder'><a href='#'>Packages</a><ul><li class='folder package_folder'><a href='#'>Network Topology</a><ul class='hidden'><li class='page'><a class='active' href='#'>Overview</a></li><li class='page'><a href='core-concepts.html'>Core Concepts</a></li></ul><ul class='hidden'><li class='folder'><a href='#'>Modules</a><ul><li class='folder module_folder'><a href='#'>network-acl-inbound</a><ul class='hidden'><li class='page'><a href='modules/network-acl-inbound/overview.html'>Overview</a></li></ul></li><li class='folder module_folder'><a href='#'>network-acl-outbound</a><ul class='hidden'><li class='page'><a href='modules/network-acl-outbound/overview.html'>Overview</a></li></ul></li><li class='folder module_folder'><a href='#'>vpc-app</a><ul class='hidden'><li class='page'><a href='modules/vpc-app/overview.html'>Overview</a></li><li class='page'><a href='modules/vpc-app/examples.html'>Examples</a></li></ul></li><li class='folder module_folder'><a href='#'>vpc-app-network-acls</a><ul class='hidden'><li class='page'><a href='modules/vpc-app-network-acls/overview.html'>Overview</a></li></ul></li><li class='folder module_folder'><a href='#'>vpc-mgmt</a><ul class='hidden'><li class='page'><a href='modules/vpc-mgmt/overview.html'>Overview</a></li><li class='page'><a href='modules/vpc-mgmt/examples.html'>Examples</a></li></ul></li><li class='folder module_folder'><a href='#'>vpc-mgmt-network-acls</a><ul class='hidden'><li class='page'><a href='modules/vpc-mgmt-network-acls/overview.html'>Overview</a></li></ul></li><li class='folder module_folder'><a href='#'>vpc-network-acls</a><ul class='hidden'><li class='page'><a href='modules/vpc-network-acls/examples.html'>Examples</a></li></ul></li><li class='folder module_folder'><a href='#'>vpc-peering</a><ul class='hidden'><li class='page'><a href='modules/vpc-peering/overview.html'>Overview</a></li><li class='page'><a href='modules/vpc-peering/examples.html'>Examples</a></li></ul></li><li class='folder module_folder'><a href='#'>vpc-peering-external</a><ul class='hidden'><li class='page'><a href='modules/vpc-peering-external/overview.html'>Overview</a></li><li class='page'><a href='modules/vpc-peering-external/examples.html'>Examples</a></li></ul></li></ul></li></ul></li></ul></li></ul>
+				</nav>
+			    </div>
+
+			    <div id="content-wrapper" tabindex="0">
+				<header id="main-header">
+				    <nav>
+					<ul class="external">
+					    <li><a href="http://gruntwork.io">Gruntwork.io</a></li>
+
+					    <li class="button">
+						<a href="http://www.gruntwork.io/#get-in-touch">Contact Us</a>
+					    </li>
+					</ul>
+				    </nav>
+				    <p>https://github.com/gruntwork-io/module-vpc/tree/master/README.md</p>
+				</header>
+
+				<article id="content" class="markdown-body entry-content" >
+				    <h1><a name="vpc-modules" class="anchor" href="#vpc-modules" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>VPC Modules</h1>
+
+				<p>This repo contains modules for creating best-practices Virtual Private Clouds (VPCs) on AWS.</p>
+				<h4><a name="main-modules" class="anchor" href="#main-modules" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+				Main Modules</h4>
+
+				<p>The two main modules are:</p>
+
+				<ul>
+				<li><a href="https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app" rel="nofollow">vpc-app</a>: Launch a VPC meant to house applications. The VPC includes 3 &#34;tiers&#34; of subnets
+				(public, private app, private persistence), routing rules, security groups, network ACLs, and NAT gateways.</li>
+				<li><a href="https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-mgmt" rel="nofollow">vpc-mgmt</a>: Launch a VPC meant to house DevOps and other management services. The VPC includes
+				2 &#34;tiers&#34; of subnets (public, private), routing rules, security groups, network ACLs, and NAT gateways.</li>
+				</ul>
+				<h4><a name="supporting-modules" class="anchor" href="#supporting-modules" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+				Supporting Modules</h4>
+			</div>
+			`,
+			expected: []string{
+				"https://github.com/gruntwork-io/module-vpc/tree/master/README.md",
+				"https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app",
+				"https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-mgmt",
+			},
+		},
+	}
+
+	for index, testCase := range testCases {
+		actual := getAllGruntworkGithubUrls(testCase.body)
+
+		assert.Equal(t, testCase.expected, actual, "See body #%d (zero-indexed) in the test source code.", index)
+	}
+}
+
+//func TestPage_GetPackageNameFromGithubUrl(t *testing.T) {
+//	t.Parallel()
+//
+//	testCases := []struct {
+//		url      string
+//		expected string
+//	}{
+//		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app", expected: "module-vpc" },
+//		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app/README.md", expected: "module-vpc" },
+//		{ url: "https://github.com/gruntwork-io/module-vpc", expected: "module-vpc" },
+//		{ url: "https://github.com/gruntwork-io/module-vpc/", expected: "module-vpc" },
+//		{ url: "https://github.com/gruntwork-io/module-vpc/README.md", expected: "module-vpc" },
+//	}
+//
+//	for _, testCase := range testCases {
+//		actual, err := getPackageNameFromGithubUrl(testCase.url)
+//		if err != nil {
+//			t.Fatal(err)
+//		}
+//
+//		assert.Equal(t, testCase.expected, actual, "url = %s\n", testCase.url)
+//	}
+//}
+
+//func TestPage_GetModuleNameFromGithubUrl(t *testing.T) {
+//	t.Parallel()
+//
+//	testCases := []struct {
+//		url      string
+//		expected string
+//	}{
+//		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app", expected: "vpc-app" },
+//		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app/README.md", expected: "vpc-app" },
+//		{ url: "https://github.com/gruntwork-io/module-vpc", expected: "" },
+//		{ url: "https://github.com/gruntwork-io/module-vpc/", expected: "" },
+//		{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/network-acl-inbound", expected: "network-acl-inbound" },
+//		{ url: "https://github.com/gruntwork-io/module-vpc/blob/master/modules/network-acl-inbound/README.md", expected: "network-acl-inbound" },
+//		{ url: "https://github.com/gruntwork-io/module-vpc/blob/master/README.md", expected: "" },
+//	}
+//
+//	for _, testCase := range testCases {
+//		actual, err := getModuleNameFromGithubUrl(testCase.url)
+//		if err != nil {
+//			t.Fatal(err)
+//		}
+//
+//		assert.Equal(t, testCase.expected, actual, "url = %s\n", testCase.url)
+//	}
+//}
+
+func TestPage_ConvertGruntworkGithubUrlToInternalLink(t *testing.T) {
+	t.Parallel()
+
+	testCases := []struct {
+		url      string
+		expected string
+	}{
+		//{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app", expected: "/packages/network-topology/modules/vpc-app/overview.html" },
+		//{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app/README.md", expected: "/packages/network-topology/modules/vpc-app/overview.html" },
+		//{ url: "https://github.com/gruntwork-io/module-vpc", expected: "/packages/network-topology/overview.html" },
+		//{ url: "https://github.com/gruntwork-io/module-vpc/", expected: "/packages/network-topology/overview.html" },
+		//{ url: "https://github.com/gruntwork-io/module-vpc/README.md", expected: "/packages/network-topology/overview.html" },
+	}
+
+	for _, testCase := range testCases {
+		actual, err := convertGruntworkGithubUrlToInternalLink(testCase.url)
+		if err != nil {
+			t.Fatal(err)
+		}
+
+		assert.Equal(t, testCase.expected, actual, "url = %s\n", testCase.url)
+	}
+}
+
 func NewPageWithOutputPath(outputPath string) *Page {
 	page := NewFile("", "")
 	page.OutputPath = outputPath
