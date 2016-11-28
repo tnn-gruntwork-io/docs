@@ -119,7 +119,7 @@ func (p *Page) WriteFullPageHtmlToOutputPath(rootFolder *Folder, rootOutputPath 
 	bodyHtml := p.getBodyHtml()
 	navTreeHtml := p.getNavTreeHtml(rootFolder)
 
-	fullHtml, err := getFullHtml(bodyHtml, navTreeHtml, p.Title)
+	fullHtml, err := getFullHtml(bodyHtml, navTreeHtml, p.Title, p.GithubUrl)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -426,7 +426,7 @@ func replaceMdFileExtensionWithHtmlFileExtension(path string) (string, error) {
 }
 
 // Return the full HTML rendering of this page
-func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitle string) (string, error) {
+func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitle string, githubUrl string) (string, error) {
 	var templateOutput string
 
 	type htmlTemplateProperties struct {
@@ -453,6 +453,7 @@ func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitl
 		PageBody: pageBodyHtml,
 		NavTree: navTreeHtml,
 		CssStyles: cssTemplate,
+		GithubUrl: githubUrl,
 	})
 
 	templateOutput = buf.String()

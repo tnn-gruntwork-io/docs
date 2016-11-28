@@ -28,7 +28,10 @@
 
     <div id="content-wrapper" tabindex="0">
         <header id="main-header">
-            <nav>
+            <nav id="left">
+                <a href="{{ .GithubUrl }}">View this Page in GitHub</a>
+            </nav>
+            <nav id="right">
                 <ul class="external">
                     <li><a href="http://gruntwork.io">Gruntwork.io</a></li>
 
@@ -37,7 +40,6 @@
                     </li>
                 </ul>
             </nav>
-            <p>{{ .GithubUrl }}</p>
         </header>
 
         <article id="content" class="markdown-body entry-content" >
@@ -46,7 +48,7 @@
             <footer>
                 <h4>Need Help?</h4>
                 <p>If you're a current Gruntwork customer, just email us at <a href="mailto:support@gruntwork.io">support@gruntwork.io</a>.<br>
-                    If you're new to Gruntwork, <a href="http://www.gruntwork.io/#get-in-touch">contact us</a> to see if we can make DevOps 10x easier for you.</p>
+                    If you're new to Gruntwork, <a href="http://www.gruntwork.io/#get-in-touch">contact us</a> to see if we can make DevOps a whole lot easier for you.</p>
             </footer>
         </article>
 

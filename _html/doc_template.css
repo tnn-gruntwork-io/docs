@@ -352,7 +352,6 @@ header#main-header a:hover {
     right: 14px;
     width: 16px;
     height: 12px;
-    background-image: url(/img/documentation/icon-external-link.svg);
     background-size: 100% 48px;
     background-position: 0 0;
     background-repeat: no-repeat
@@ -390,6 +389,7 @@ article#content footer {
     padding: 5px 15px;
     color: #4c555a;
     background-color: #efefef;
+    margin-top: 34px
 }
 
 article#content footer h4 {
@@ -425,6 +425,18 @@ article#content footer p:not(:first-child) {
 #sidebar ul li a.active {
     font-weight: bold;
     color: #2B91AF;
+}
+
+header#main-header nav#left {
+    float:left
+}
+
+header#main-header nav#left a {
+    color:#aea8b1;
+}
+
+header#main-header nav#left a:hover {
+    color:gray;
 }
 
 /* Bottom Footer */
