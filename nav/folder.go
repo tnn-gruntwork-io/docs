@@ -145,6 +145,25 @@ func (f *Folder) WriteChildrenHtmlToOutputhPath(rootFolder *Folder, rootOutputPa
 	return nil
 }
 
+// Populate all page body properties in this folder's child pages, and the recursive children of its child folders
+func (f *Folder) PopulateChildrenPageBodyProperties(rootOutputPath string) error {
+	var err error
+
+	for _, page := range f.ChildPages {
+		if err = page.PopulateBodyProperties(rootOutputPath); err != nil {
+			return errors.WithStackTrace(err)
+		}
+	}
+
+	for _, folder := range f.ChildFolders {
+		if err = folder.PopulateChildrenPageBodyProperties(rootOutputPath); err != nil {
+			return errors.WithStackTrace(err)
+		}
+	}
+
+	return nil
+}
+
 // Print the entire tree of a given folder
 func (f *Folder) PrintFolderTree() {
 	f.printFolderTreeAux(0)

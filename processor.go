@@ -51,12 +51,12 @@ func ProcessFiles(opts *Opts) error {
 			}
 
 			if file.IsPage() {
-				page := file.GetAsPage()
-				if err = page.PopulateAllProperties(); err != nil {
+				page := file.GetAsPage(rootNavFolder)
+				if err = page.PopulateProperties(); err != nil {
 					return errors.WithStackTrace(err)
 				}
 
-				if err = page.AddToNavTree(rootNavFolder); err != nil {
+				if err = page.AddToNavTree(); err != nil {
 					return errors.WithStackTrace(err)
 				}
 			}
@@ -64,6 +64,12 @@ func ProcessFiles(opts *Opts) error {
 			return nil
 		}
 	})
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
+	// Now that our nav tree is constructed, populate the page bodies
+	err = rootNavFolder.PopulateChildrenPageBodyProperties(opts.OutputPath)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}

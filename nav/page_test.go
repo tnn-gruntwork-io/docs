@@ -85,6 +85,7 @@ func TestPage_isPackageInputPath(t *testing.T) {
 		expected  bool
 	}{
 		{inputPath: "packages/package-vpc/modules/vpc-app/README.md", expected: true },
+		{inputPath: "packages/module-vpc/modules/vpc-mgmt-network-acls/README.md", expected: true },
 		{inputPath: "packages/package-vpc/README.md", expected: true },
 		{inputPath: "package/package-vpc/README.md", expected: false },
 		{inputPath: "global/introduction", expected: false },
@@ -348,46 +349,16 @@ func TestPage_GetAllGruntworkGithubUrls(t *testing.T) {
 	}
 
 	for index, testCase := range testCases {
-		actual := getAllGruntworkGithubUrls(testCase.body)
+		actual := getGruntworkGithubUrls(testCase.body)
 
 		assert.Equal(t, testCase.expected, actual, "See body #%d (zero-indexed) in the test source code.", index)
-	}
-}
-
-func TestPage_ConvertGruntworkGithubUrlToInternalLink(t *testing.T) {
-	t.Parallel()
-
-	testCases := []struct {
-		url      string
-		expected string
-	}{
-		//{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app", expected: "/packages/network-topology/modules/vpc-app/overview.html" },
-		//{ url: "https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app/README.md", expected: "/packages/network-topology/modules/vpc-app/overview.html" },
-		//{ url: "https://github.com/gruntwork-io/module-vpc", expected: "/packages/network-topology/overview.html" },
-		//{ url: "https://github.com/gruntwork-io/module-vpc/", expected: "/packages/network-topology/overview.html" },
-		//{ url: "https://github.com/gruntwork-io/module-vpc/README.md", expected: "/packages/network-topology/overview.html" },
-	}
-
-	for _, testCase := range testCases {
-		actual, err := convertGruntworkGithubUrlToInternalLink(testCase.url)
-		if err != nil {
-			t.Fatal(err)
-		}
-
-		assert.Equal(t, testCase.expected, actual, "url = %s\n", testCase.url)
 	}
 }
 
 func NewPageWithOutputPath(outputPath string) *Page {
 	page := NewFile("", "")
 	page.OutputPath = outputPath
-	return NewPage(page)
-}
-
-func NewPageWithInputPath(inputPath string) *Page {
-	page := NewFile("", "")
-	page.InputPath = inputPath
-	return NewPage(page)
+	return NewPage(page, nil)
 }
 
 func NewFolderWithOutputPath(outputPath string) *Folder {

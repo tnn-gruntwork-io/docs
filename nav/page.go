@@ -35,20 +35,15 @@ type Page struct {
 	BodyHtml     string  // the body of the page as HTML (does not include surrounding HTML)
 	GithubUrl    string  // the Gruntwork Repo GitHub URL to which this page corresponds
 	ParentFolder *Folder // the nav folder in which this page resides
+	RootFolder   *Folder // the root folder in which this page exists
 }
 
-// Populate all the remaining properties of this Page instance
-func (p *Page) PopulateAllProperties() error {
+// Populate the remaining properties of this Page instance.
+// Note that we cannot populate the body properties here because those depend on the p.RootFolder being fully built out.
+func (p *Page) PopulateProperties() error {
 	var err error
 
 	p.Title = p.getTitle()
-
-	p.BodyMarkdown, err = p.getSanitizedMarkdownBody()
-	if err != nil {
-		return errors.WithStackTrace(err)
-	}
-
-	p.BodyHtml = getHtmlFromMarkdown(p.BodyMarkdown)
 
 	p.GithubUrl, err = convertPackageLinkToUrl(p.InputPath, "./")
 	if err != nil {
@@ -58,10 +53,25 @@ func (p *Page) PopulateAllProperties() error {
 	return nil
 }
 
+// Populate the body-related properties.
+// Note that this must be done AFTER the NavTree at p.RootFolder is fully built out.
+func (p *Page) PopulateBodyProperties(rootOutputPath string) error {
+	var err error
+
+	p.BodyMarkdown, err = p.getSanitizedMarkdownBody(rootOutputPath)
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
+	p.BodyHtml = getHtmlFromMarkdown(p.BodyMarkdown)
+
+	return nil
+}
+
 // Add this page to the NavTree that starts at the rootFolder, creating any necessary folders along the way.
-func (p *Page) AddToNavTree(rootFolder *Folder) error {
+func (p *Page) AddToNavTree() error {
 	containingFolderPath := getContainingFolder(p.OutputPath)
-	containingFolder := rootFolder.CreateFolderIfNotExist(containingFolderPath)
+	containingFolder := p.RootFolder.CreateFolderIfNotExist(containingFolderPath)
 
 	containingFolder.AddPage(p)
 
@@ -109,7 +119,7 @@ func (p *Page) WriteFullPageHtmlToOutputPath(rootFolder *Folder, rootOutputPath 
 	bodyHtml := p.getBodyHtml()
 	navTreeHtml := p.getNavTreeHtml(rootFolder)
 
-	fullHtml, err := getFullHtml(bodyHtml, navTreeHtml, p.Title, p.GithubUrl)
+	fullHtml, err := getFullHtml(bodyHtml, navTreeHtml, p.Title)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -141,9 +151,10 @@ func (p *Page) getBodyHtml() template.HTML {
 }
 
 // Return a NewPage
-func NewPage(file *File) *Page {
+func NewPage(file *File, rootNavFolder *Folder) *Page {
 	return &Page{
 		File: *file,
+		RootFolder: rootNavFolder,
 	}
 }
 
@@ -156,7 +167,7 @@ func (p *Page) getTitle() string {
 }
 
 // Get the Page's markdown body, sanitized for public HTML output (i.e. convert inline links to fully qualified URLs)
-func (p *Page) getSanitizedMarkdownBody() (string, error) {
+func (p *Page) getSanitizedMarkdownBody(rootOutputPath string) (string, error) {
 	var body string
 
 	body, err := file.ReadFile(p.FullInputPath)
@@ -165,6 +176,11 @@ func (p *Page) getSanitizedMarkdownBody() (string, error) {
 	}
 
 	body, err = convertMarkdownLinksToUrls(p.InputPath, body)
+	if err != nil {
+		return body, errors.WithStackTrace(err)
+	}
+
+	body, err = convertExternalGruntworkGithubUrlsToInternalLinks(body, p.RootFolder, rootOutputPath)
 	if err != nil {
 		return body, errors.WithStackTrace(err)
 	}
@@ -202,21 +218,24 @@ func convertMarkdownLinksToUrls(inputPath, body string) (string, error) {
 	return newBody, nil
 }
 
-// Given a body and its inputPath, convert all Gruntwork GitHub URL links to internal links if possible
-//func convertExternalGruntworkGithubUrlsToInternalLinks(inputPath, body string) (string, error) {
-//	var newBody string
-//
-//	newBody = body
-//	urls := getAllGruntworkGithubUrls(body)
-//
-//	for _, url := range urls {
-//		internalLink := convertGruntworkGithubUrlToInternalLink(url)
-//
-//		newBody = strings.Replace(newBody, url, internalLink, 1)
-//	}
-//
-//	return newBody, nil
-//}
+// Given a body and its inputPath, convert all Gruntwork GitHub URL links to internal links where possible
+func convertExternalGruntworkGithubUrlsToInternalLinks(body string, rootNavFolder *Folder, rootOutputPath string) (string, error) {
+	var newBody string
+
+	newBody = body
+	urls := getGruntworkGithubUrls(body)
+
+	for _, url := range urls {
+		internalLink, err := convertGruntworkGithubUrlToInternalLink(url, rootNavFolder, rootOutputPath)
+		if err != nil {
+			return newBody, errors.WithStackTrace(err)
+		}
+
+		newBody = strings.Replace(newBody, url, internalLink, 1)
+	}
+
+	return newBody, nil
+}
 
 // Given a body of text find all instances of link paths (e.g. /foo or ../bar)
 func getAllLinkPaths(body string) []string {
@@ -242,7 +261,7 @@ func getAllLinkPaths(body string) []string {
 }
 
 // Given a body of text find all instances of Github URLs to other Gruntwork repos
-func getAllGruntworkGithubUrls(body string) []string {
+func getGruntworkGithubUrls(body string) []string {
 	var urls []string
 
 	regex := regexp.MustCompile(GRUNTWORK_GITHUB_URL_REGEX)
@@ -261,15 +280,44 @@ func getAllGruntworkGithubUrls(body string) []string {
 }
 
 // Given a github URL like https://github.com/gruntwork-io/..., convert it to the corresponding internal link (e.g. /foo/bar)
-func convertGruntworkGithubUrlToInternalLink(githubUrl string) (string, error) {
-	var link string
+func convertGruntworkGithubUrlToInternalLink(githubUrl string, rootNavFolder *Folder, rootOutputPath string) (string, error) {
+	linkPath := convertGruntworkGithubUrlToInternalLinkAux("", githubUrl, rootNavFolder)
 
-	// Search all NavTree pages for the given GitHub URL. If we find a match, return the corresponding output path.
+	if linkPath == "" {
+		return githubUrl, nil
+	}
 
-	return link, nil
+	linkPath, err := replaceMdFileExtensionWithHtmlFileExtension(linkPath)
+	if err != nil {
+		return linkPath, errors.WithStackTrace(err)
+	}
+
+	linkPath = "/" + linkPath
+
+	return linkPath, nil
 }
 
-// Convert a link that directs to another Package page to a fully qualified URL. For non-Package links, just return the original link
+// Helper function for convertGruntworkGithubUrlToInternalLink() that recursively scans all pages for a match
+func convertGruntworkGithubUrlToInternalLinkAux(linkPath string, githubUrl string, folder *Folder) string {
+	if linkPath != "" {
+		return linkPath
+	}
+
+	for _, page := range folder.ChildPages {
+		if page.GithubUrl == githubUrl || page.GithubUrl == githubUrl + "README.md" || page.GithubUrl == githubUrl + "/README.md" {
+			linkPath = page.OutputPath
+			return linkPath
+		}
+	}
+
+	for _, childFolder := range folder.ChildFolders {
+		linkPath = convertGruntworkGithubUrlToInternalLinkAux(linkPath, githubUrl, childFolder)
+	}
+
+	return linkPath
+}
+
+// Convert a linkPath (e.g. /foo/bar) that directs to another Package page to a fully qualified URL. For non-Package links, just return the original link
 func convertPackageLinkToUrl(inputPath, linkPath string) (string, error) {
 	var url string
 
@@ -377,7 +425,7 @@ func replaceMdFileExtensionWithHtmlFileExtension(path string) (string, error) {
 }
 
 // Return the full HTML rendering of this page
-func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitle string, githubUrl string) (string, error) {
+func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitle string) (string, error) {
 	var templateOutput string
 
 	type htmlTemplateProperties struct {
@@ -404,7 +452,6 @@ func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitl
 		PageBody: pageBodyHtml,
 		NavTree: navTreeHtml,
 		CssStyles: cssTemplate,
-		GithubUrl: githubUrl,
 	})
 
 	templateOutput = buf.String()

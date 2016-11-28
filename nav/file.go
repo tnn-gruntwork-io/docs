@@ -92,8 +92,8 @@ func (f *File) IsPage() bool {
 }
 
 // Get a struct of type Page based on this File
-func (f *File) GetAsPage() *Page {
-	return NewPage(f)
+func (f *File) GetAsPage(rootNavFolder *Folder) *Page {
+	return NewPage(f, rootNavFolder)
 }
 
 // Write the file to rootOutputPath/file.outputPath
