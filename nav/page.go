@@ -163,6 +163,7 @@ func (p *Page) getTitle() string {
 	fileNameFull := filepath.Base(p.OutputPath)
 	fileNameComponents := strings.Split(fileNameFull, ".")
 	title := fileNameComponents[0]
+	title = convertDashesToSpacesAndCapitalize(title)
 	return strings.Title(title)
 }
 
