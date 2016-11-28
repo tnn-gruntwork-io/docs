@@ -12,11 +12,8 @@ import (
 	"html/template"
 )
 
-const LINK_PATHS_REGEX = `(?:http:/|https:/)?(/[A-Za-z0-9_/.-]+)|([A-Za-z0-9_/.-]+/[A-Za-z0-9_.-]*)`
-//const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/tree/master|/blob/master)?(/modules)?(/)?([A-Za-z0-9_.-]+)?([/A-Za-z0-9_.-]*)`
-//const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/(<package-name>)(/tree/master|/blob/master)?(/modules/<modules-name>/<path>|<path>)`
+const MARKDOWN_LINKS_REGEX = `\]\(([\w-\./]+)\)`
 const GRUNTWORK_GITHUB_URL_REGEX = `http[s]?://github.com/gruntwork-io/([A-Za-z0-9_.-]+)(/[A-Za-z0-9_.-]+)*`
-const GRUNTWORK_GITHUB_URL_MODULE_DOC_REGEX = `http[s]?://github.com/gruntwork-io/[A-Za-z0-9_.-]+/(?:tree/master|blob/master)/modules/([A-Za-z0-9_.-]+)(/[A-Za-z0-9_.-]+)*`
 const PACKAGE_GITHUB_REPO_URL_PREFIX = "https://github.com/gruntwork-io/<package-name>/tree/master"
 const PACKAGE_FILE_REGEX = `^packages/([\w -]+)(/.*)$`
 const PACKAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 2
@@ -242,7 +239,7 @@ func convertExternalGruntworkGithubUrlsToInternalLinks(body string, rootNavFolde
 func getAllLinkPaths(body string) []string {
 	var relPaths []string
 
-	regex := regexp.MustCompile(LINK_PATHS_REGEX)
+	regex := regexp.MustCompile(MARKDOWN_LINKS_REGEX)
 	submatches := regex.FindAllStringSubmatch(body, -1)
 
 	if len(submatches) == 0 {
@@ -250,12 +247,8 @@ func getAllLinkPaths(body string) []string {
 	}
 
 	for _, submatch := range submatches {
-		relPath := submatch[0]
-
-		// Cowardly use string search because Golang regular expressions don't support positive lookahead.
-		if ! strings.Contains(relPath, "http://") && ! strings.Contains(relPath, "https://") {
-			relPaths = append(relPaths, relPath)
-		}
+		relPath := submatch[1]
+		relPaths = append(relPaths, relPath)
 	}
 
 	return relPaths
@@ -332,18 +325,23 @@ func convertPackageLinkToUrl(inputPath, linkPath string) (string, error) {
 
 		if strings.HasPrefix(linkPath, "/") {
 			url = urlPrefix + linkPath
-		}
-
-		if strings.HasPrefix(linkPath, "./") {
+		} else if strings.HasPrefix(linkPath, "./") {
 			relPath, err := getPathRelativeToPackageRoot(inputPath)
 			if err != nil {
 				return url, errors.WithStackTrace(err)
 			}
 
 			url = urlPrefix + relPath
-		}
+		} else if strings.HasPrefix(linkPath, "../") {
+			relPath, err := getPathRelativeToPackageRoot(inputPath)
+			if err != nil {
+				return url, errors.WithStackTrace(err)
+			}
 
-		if strings.HasPrefix(linkPath, "../") {
+			relPath = filepath.Join(relPath, "../", linkPath)
+			url = urlPrefix + relPath
+		} else {
+			// linkPath has no / in its first few characters; assume it's a link like "vars.tf"
 			relPath, err := getPathRelativeToPackageRoot(inputPath)
 			if err != nil {
 				return url, errors.WithStackTrace(err)

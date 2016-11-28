@@ -228,6 +228,11 @@ func TestConvertMarkdownLinksToUrls(t *testing.T) {
 			bodyFixture1,
 			expectedBodyFixture1,
 		},
+		{
+			"packages/module-vpc/modules/network-acl-outbound/README.md",
+			"Check out [vars.tf](vars.tf) for all the configuration options available.",
+			"Check out [vars.tf](https://github.com/gruntwork-io/module-vpc/tree/master/modules/network-acl-outbound/vars.tf) for all the configuration options available.",
+		},
 	}
 
 	for _, testCase := range testCases {
