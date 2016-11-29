@@ -456,3 +456,33 @@ footer#bottom_footer {
     border-top: 1px solid rgba(120, 134, 156, .08);
     overflow-x: hidden
 }
+
+/* Content/Article Styles ------------------------- */
+article#content ul {
+    list-style: disc;
+}
+
+article#content ul li {
+    margin-bottom: 5px;
+}
+
+/* Override GitHub Styles --- */
+.markdown-body .anchor {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    padding-right: 6px;
+    padding-left: 30px;
+    margin-left: -30px;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+    color: gray;
+}
