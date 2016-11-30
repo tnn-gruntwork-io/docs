@@ -1,39 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0
-}
+/* CSS reset */
+* { margin: 0; padding: 0; border: 0; }
+ul { list-style: none; }
+html { height: 100%; }
+body, html { overflow: hidden; }
+body { min-height: 100%; }
 
-ul {
-    list-style: none
-}
-
-html {
-    height: 100%
-}
-
-body,
-html {
-    overflow: hidden
-}
-
-body {
-    min-height: 100%
-}
-
+/* Page layout setup */
 #docs {
     left: 0;
     width: 100%;
     height: 100%;
     overflow-x: auto;
     overflow-y: hidden;
-    -webkit-overflow-scrolling: touch
+    -webkit-overflow-scrolling: touch;
 }
 
-#docs,
-#sidebar {
+#docs, #sidebar {
     position: absolute;
-    top: 0
+    top: 0;
 }
 
 #sidebar {
@@ -48,7 +32,6 @@ body {
     user-select: none;
     width: calc((100% - 994px) / 2 + 226px);
     min-width: 275px;
-    /* padding-left: calc((100% - 994px) / 2) */
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
 }
 
@@ -142,6 +125,28 @@ body {
     background: rgba(18, 60, 83, .05)
 }
 
+#loading-bar {
+    background: #0099e5;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    width: 100%;
+    transition: opacity .25s ease-in-out, width .4s ease-in-out;
+    width: 0;
+    transform-origin: 0 0;
+    will-change: opacity, width
+}
+
+#loading-bar.hidden {
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    pointer-events: none
+}
+
+/* Content styles */
+
 #content-wrapper {
     position: absolute;
     top: 0;
@@ -191,25 +196,21 @@ header#main-header a:hover {
     color: #32325d
 }
 
-#loading-bar {
-    background: #0099e5;
-    height: 3px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2000;
-    width: 100%;
-    transition: opacity .25s ease-in-out, width .4s ease-in-out;
-    width: 0;
-    transform-origin: 0 0;
-    will-change: opacity, width
+/* Nav styles */
+
+header#main-header nav#left {
+    float:left
 }
 
-#loading-bar.hidden {
-    opacity: 0;
-    transition: opacity .25s ease-in-out;
-    pointer-events: none
+header#main-header nav#left a {
+    color:#aea8b1;
 }
+
+header#main-header nav#left a:hover {
+    color:gray;
+}
+
+/* Sidebar styles */
 
 #sidebar h1,
 #sidebar h1 a {
@@ -242,50 +243,6 @@ header#main-header a:hover {
     margin-top: 8px;
     padding-top: 5px;
     border-top: 1px solid rgba(120, 134, 156, .08)
-}
-
-#sidebar h1.home a {
-    background-image: url(/img/documentation/navigation/icon-home.svg)
-}
-
-#sidebar h1.home a.selected {
-    background-image: url(/img/documentation/navigation/icon-home-selected.svg)
-}
-
-#sidebar h1.payments a {
-    background-image: url(/img/documentation/navigation/icon-payments.svg)
-}
-
-#sidebar h1.account a {
-    background-image: url(/img/documentation/navigation/icon-account.svg)
-}
-
-#sidebar h1.references a {
-    background-image: url(/img/documentation/navigation/icon-references.svg)
-}
-
-#sidebar h1.api a {
-    background-image: url(/img/documentation/navigation/icon-development.svg)
-}
-
-#sidebar h1.subscriptions a {
-    background-image: url(/img/documentation/navigation/icon-subscriptions.svg)
-}
-
-#sidebar h1.relay a {
-    background-image: url(/img/documentation/navigation/icon-relay.svg)
-}
-
-#sidebar h1.connect a {
-    background-image: url(/img/documentation/navigation/icon-connect.svg)
-}
-
-#sidebar h1.radar a {
-    background-image: url(/img/documentation/navigation/icon-radar.svg)
-}
-
-#sidebar h1.legal {
-    background-image: url(/img/documentation/navigation/icon-references.svg)
 }
 
 #sidebar ul {
@@ -383,26 +340,6 @@ header#main-header a:hover {
     margin-bottom: 0
 }
 
-/* Footer Styles ------------------------- */
-article#content footer {
-    border: 1px solid lightgray;
-    padding: 5px 15px;
-    color: #4c555a;
-    background-color: #efefef;
-    margin-top: 34px
-}
-
-article#content footer h4 {
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
-}
-
-article#content footer p:not(:first-child) {
-    padding-top:0;
-}
-
-/* Nav Styles ------------------------- */
-
 #sidebar ul li.folder {
     text-transform: capitalize;
 }
@@ -427,19 +364,25 @@ article#content footer p:not(:first-child) {
     color: #2B91AF;
 }
 
-header#main-header nav#left {
-    float:left
+/* Footer styles ------------------------- */
+article#content footer {
+    border: 1px solid lightgray;
+    padding: 5px 15px;
+    color: #4c555a;
+    background-color: #efefef;
+    margin-top: 34px
 }
 
-header#main-header nav#left a {
-    color:#aea8b1;
+article#content footer h4 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
-header#main-header nav#left a:hover {
-    color:gray;
+article#content footer p:not(:first-child) {
+    padding-top:0;
 }
 
-/* Bottom Footer */
+/* Bottom footer styles */
 
 footer#bottom_footer {
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
@@ -457,7 +400,8 @@ footer#bottom_footer {
     overflow-x: hidden
 }
 
-/* Content/Article Styles ------------------------- */
+/* Content/Article styles */
+
 article#content ul {
     list-style: disc;
 }
@@ -466,7 +410,7 @@ article#content ul li {
     margin-bottom: 5px;
 }
 
-/* Override GitHub Styles --- */
+/* Override GitHub styles */
 .markdown-body .anchor {
     position: absolute;
     top: 0;
