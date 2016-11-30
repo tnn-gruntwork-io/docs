@@ -34,6 +34,7 @@ COPYRIGHT:
    {{end}}
 `
 
+const OPT_HTML_PATH = "html-path"
 const OPT_INPUT_PATH = "input-path"
 const OPT_OUTPUT_PATH = "output-path"
 const OPT_DOC_PATTERN = "doc-pattern"
@@ -43,6 +44,7 @@ var DEFAULT_DOC_PATTERNS = []string{"*.md", "*.txt", "*.jpg", "*.png", "*.gif"}
 var DEFAULT_EXCLUDES = []string{".git*", "vendor", "vendor/*", "test/vendor", "test/vendor/*"}
 
 type Opts struct {
+	HtmlPath    string
 	InputPath   string
 	OutputPath  string
 	DocPatterns []glob.Glob
@@ -64,6 +66,10 @@ func CreateCli(version string) *cli.App {
 	app.Action = runApp
 
 	app.Flags = []cli.Flag{
+		cli.StringFlag{
+			Name:  OPT_HTML_PATH,
+			Usage: "Use the HTML, CSS, and JS files in `PATH` to generate the final website.",
+		},
 		cli.StringFlag{
 			Name:  OPT_INPUT_PATH,
 			Usage: "Generate documentation from the files and folders in `PATH`.",
@@ -109,12 +115,15 @@ func runApp(cliContext *cli.Context) error {
 	}
 	logger.Logger.Printf("* * * Pre-processing step complete! * * *")
 
-
-
 	return nil
 }
 
 func parseOpts(cliContext *cli.Context) (*Opts, error) {
+	htmlPath := cliContext.String(OPT_HTML_PATH)
+	if htmlPath == "" {
+		return nil, errors.WithStackTrace(MissingParam(OPT_HTML_PATH))
+	}
+
 	inputPath := cliContext.String(OPT_INPUT_PATH)
 	if inputPath == "" {
 		return nil, errors.WithStackTrace(MissingParam(OPT_INPUT_PATH))
@@ -144,6 +153,7 @@ func parseOpts(cliContext *cli.Context) (*Opts, error) {
 	}
 
 	return &Opts{
+		HtmlPath:    htmlPath,
 		InputPath:   inputPath,
 		OutputPath:  outputPath,
 		DocPatterns: docGlobs,

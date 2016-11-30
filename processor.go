@@ -11,6 +11,8 @@ import (
 	"github.com/gruntwork-io/docs/nav"
 )
 
+// TODO: Copy _content files into tmp _input folder
+
 func ProcessFiles(opts *Opts) error {
 	var err error
 
@@ -80,6 +82,17 @@ func ProcessFiles(opts *Opts) error {
 		return errors.WithStackTrace(err)
 	}
 
+	// Copy HTML assets into the output directory
+	err = file.CopyFiles(opts.HtmlPath + "/css", opts.OutputPath + "/_assets/css")
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
+	file.CopyFiles(opts.HtmlPath + "/favicons", opts.OutputPath + "/")
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
 	return nil
 }
 
@@ -87,9 +100,6 @@ func ProcessFiles(opts *Opts) error {
 func shouldSkipPath(path string, opts *Opts) bool {
 	return path == opts.InputPath || globs.MatchesGlobs(path, opts.Excludes)
 }
-
-
-
 
 
 

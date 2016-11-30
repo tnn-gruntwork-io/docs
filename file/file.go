@@ -10,6 +10,7 @@ import (
 	"net/http"
 	"github.com/gruntwork-io/docs/errors"
 	"io/ioutil"
+	"github.com/gruntwork-io/docs/logger"
 )
 
 // Convert the given path into a path relative to basePath
@@ -49,7 +50,12 @@ func GetFileSize(path string) (int64, error) {
 
 // Create a directory and all the parent directories at the given path
 func CreateDir(path string) error {
-	return errors.WithStackTrace(os.MkdirAll(path, os.ModePerm))
+	err := os.MkdirAll(path, os.ModePerm)
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
+	return nil
 }
 
 // There is no way to know for sure if a file is text or binary. The best we can do is use various heuristics to guess.
@@ -106,6 +112,39 @@ func CopyFile(srcPath, dstPath string) error {
 	return nil
 }
 
+// Copy all files from the given srcPath to the given dstPath
+func CopyFiles(srcPath, dstPath string) error {
+	if ! IsDir(srcPath) {
+		return errors.WithStackTrace(NotADirectory(srcPath))
+	}
+
+	// If the dstPath dir doesn't exist, create it
+	err := CreateDir(dstPath)
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
+	// Copy all files in srcPath into dstPath
+	return filepath.Walk(srcPath, func(path string, info os.FileInfo, fileErr error) error {
+		relPath, err := GetPathRelativeTo(path, srcPath)
+		if err != nil {
+			return errors.WithStackTrace(err)
+		}
+
+		fileSrcPath := filepath.Join(srcPath, relPath)
+		fileDstPath := filepath.Join(dstPath, relPath)
+
+		if ! IsDir(fileSrcPath) {
+			err = CopyFile(fileSrcPath, fileDstPath)
+			if err != nil {
+				return errors.WithStackTrace(err)
+			}
+		}
+
+		return nil
+	})
+}
+
 // Read the body of the file at the given path
 func ReadFile(srcPath string) (string, error) {
 	bytes, err := ioutil.ReadFile(srcPath)
@@ -137,6 +176,17 @@ func WriteFile(body string, dstPath string) error {
 	}
 
 	return nil
+}
+
+// Return true if the given path is a directory. We panic versus returning an error because this error is unlikely to occur
+// and it's painful to take four lines just to call an IsDir() function.
+func IsDir(path string) bool {
+	fileInfo, err := os.Stat(path)
+	if err != nil {
+		logger.Logger.Panicf("ERROR: IsDir() failed while attempting to read %s\n", path)
+	}
+
+	return fileInfo.IsDir()
 }
 
 // Return true if the file at the given path exists
@@ -216,4 +266,9 @@ func CommandInstalled(command string) bool {
 type NoSuchFile string
 func (path NoSuchFile) Error() string {
 	return fmt.Sprintf("File %s does not exist", string(path))
+}
+
+type NotADirectory string
+func (dir NotADirectory) Error() string {
+	return fmt.Sprintf("The path %s is not a directory.\n", string(dir))
 }

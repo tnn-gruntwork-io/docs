@@ -21,8 +21,7 @@ const MARKDOWN_FILE_PATH_REGEX = `^.*/(.*)\.md$`
 const MARKDOWN_FILE_PATH_REGEX_NUM_CAPTURE_GROUPS = 1
 
 // TODO: Figure out better way to reference this file
-const HTML_TEMPLATE_REL_PATH = "_html/doc_template.html"
-const CSS_TEMPLATE_REL_PATH = "_html/doc_template.css"
+const HTML_TEMPLATE_REL_PATH = "_html/index.template.html"
 
 // A Page represents a page of documentation, usually formatted as a markdown file.
 type Page struct {
@@ -431,13 +430,7 @@ func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitl
 		PageTitle string
 		PageBody  template.HTML
 		NavTree   template.HTML
-		CssStyles template.CSS
 		GithubUrl string
-	}
-
-	cssTemplate, err := getCssTemplate(CSS_TEMPLATE_REL_PATH)
-	if err != nil {
-		return templateOutput, errors.WithStackTrace(err)
 	}
 
 	htmlTemplate, err := getTemplate(HTML_TEMPLATE_REL_PATH, pageTitle)
@@ -446,31 +439,19 @@ func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitl
 	}
 
 	buf := new(bytes.Buffer)
-	htmlTemplate.Execute(buf, &htmlTemplateProperties{
+	err = htmlTemplate.Execute(buf, &htmlTemplateProperties{
 		PageTitle: pageTitle,
 		PageBody: pageBodyHtml,
 		NavTree: navTreeHtml,
-		CssStyles: cssTemplate,
 		GithubUrl: githubUrl,
 	})
+	if err != nil {
+		return templateOutput, errors.WithStackTrace(err)
+	}
 
 	templateOutput = buf.String()
 
 	return templateOutput, nil
-}
-
-// Get the CSS file at the given path as a template.CSS
-func getCssTemplate(path string) (template.CSS, error) {
-	var cssTemplate template.CSS
-
-	cssTemplateBody, err := file.ReadFile(path)
-	if err != nil {
-		return cssTemplate, errors.WithStackTrace(err)
-	}
-
-	cssTemplate = template.CSS(cssTemplateBody)
-
-	return cssTemplate, nil
 }
 
 // Get the file at the given path as a *template.Template
