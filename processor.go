@@ -88,7 +88,12 @@ func ProcessFiles(opts *Opts) error {
 		return errors.WithStackTrace(err)
 	}
 
-	file.CopyFiles(opts.HtmlPath + "/favicons", opts.OutputPath + "/")
+	err = file.CopyFiles(opts.HtmlPath + "/img", opts.OutputPath + "/_assets/img")
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
+		file.CopyFiles(opts.HtmlPath + "/favicons", opts.OutputPath + "/")
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
