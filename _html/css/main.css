@@ -81,7 +81,7 @@ body { min-height: 100%; }
     position: relative;
     width: 226px;
     height: 50px;
-    background-image: url(https://s3-us-west-2.amazonaws.com/docs.gruntwork.io/gruntwork_docs_logo.png);
+    background-image: url(/_assets/img/gruntwork_docs_logo.png);
     background-size:226px 50px;
     top: 1px;
     border: 1px solid darkgray;
@@ -401,13 +401,112 @@ footer#bottom_footer {
 }
 
 /* Content/Article styles */
-
 article#content ul {
     list-style: disc;
 }
 
 article#content ul li {
     margin-bottom: 5px;
+}
+
+/* Button styles. Auto-generated with http://css3buttongenerator.com */
+.btn-primary {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.btn-link {
+    color: #3396d6;
+    font-size:16px;
+}
+
+/* Html Form Styles */
+p.checkbox {
+    position:relative;
+}
+
+p.checkbox input[type=checkbox] {
+    margin-right:7px;
+    position:relative;
+    top:-1px;
+}
+
+/* Private GitHub Link Modal styles */
+#private-link-modal {
+    padding:15px 15px;
+}
+
+#private-link-modal .content {
+    display:flex;
+    margin-top:10px;
+}
+
+#private-link-modal header h2 {
+    font-size:20px;
+}
+
+#private-link-modal .content img {
+    width:89px;
+    height:92px;
+    margin-right:15px;
+}
+
+#private-link-modal .content article {
+    flex:1;
+}
+
+#private-link-modal .content p {
+    line-height:23px;
+}
+
+#private-link-modal .content p:first-child {
+    margin-bottom:27px;
+}
+
+#private-link-modal .content a.btn-link {
+    margin-left:15px;
+}
+
+#private-link-modal .content p.checkbox {
+    margin-top:25px;
+    font-size:14px;
+}
+
+#private-link-modal footer {
+    border-top:1px solid #cbcbcb;
+    margin-top:12px;
+    padding-top:12px;
+}
+
+#private-link-modal footer p {
+    color:#a2a2a2;
+    font-size:14px;
+    text-align: center;
+}
+
+#private-link-modal footer a {
+    color:#a2a2a2;
 }
 
 /* Override GitHub styles */
@@ -429,4 +528,13 @@ article#content ul li {
 .markdown-body h5 .octicon-link,
 .markdown-body h6 .octicon-link {
     color: gray;
+}
+
+/* Override jQuery modal styles */
+.blocker {
+    z-index: 50;
+}
+
+.modal {
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
 }

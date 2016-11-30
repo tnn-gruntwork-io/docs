@@ -15,9 +15,28 @@
     <!-- Load CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.1.2/octicons.css" media="all" rel="stylesheet" type="text/css" />
     <link href="/_assets/css/github_markdown.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.css" />
     <link href="/_assets/css/main.css" type="text/css" rel="stylesheet" media="all" />
 </head>
 <body>
+
+<div id="private-link-modal" class="private-link-modal" style="display:none;">
+    <header>
+        <h2>You're about to visit a private GitHub repo.</h2>
+    </header>
+    <div class="content">
+        <img src="/_assets/img/github_private_logo.png" alt="">
+        <article>
+            <p>These docs were auto-generated from a private GitHub repo available to Gruntwork customers who have purchased this Infrastructure Package.</p>
+            <a class="btn-primary" href="{{ .GithubUrl }}">Continue to GitHub</a>
+            <a class="btn-link" href="#" rel="modal:close">Go Back</a>
+            <p class="checkbox"><input type="checkbox">Skip this window the next time I click a private link.</p>
+        </article>
+    </div>
+    <footer>
+        <p>Questions about this Infrastructure Package? <a href="http://www.gruntwork.io">Visit Gruntwork</a>.</p>
+    </footer>
+</div>
 
 <div id="docs">
 
@@ -35,7 +54,7 @@
     <div id="content-wrapper" tabindex="0">
         <header id="main-header">
             <nav id="left">
-                <a href="{{ .GithubUrl }}">View this Page in GitHub</a>
+                <a href="#private-link-modal" rel="modal:open">View this Page in GitHub</a>
             </nav>
             <nav id="right">
                 <ul class="external">
@@ -50,6 +69,8 @@
 
         <article id="content" class="markdown-body entry-content" >
             {{ .PageBody }}
+
+            <p><a href="#private-link-modal" rel="modal:open">Open Modal</a></p>
 
             <footer>
                 <h4>Need Help?</h4>
@@ -66,6 +87,7 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js"></script>
 <script type="text/javascript">
     $( document ).ready(function() {
         // Highlight the nav path to the current page
