@@ -488,9 +488,20 @@ p.checkbox input[type=checkbox] {
     margin-left:15px;
 }
 
-#private-link-modal .content p.checkbox {
-    margin-top:25px;
+#private-link-modal .content .checkbox {
+    margin-top:9px;
+    position:relative;
+}
+
+#private-link-modal .content .checkbox input[type=checkbox] {
+    position:relative;
+    top:18px;
+}
+
+#private-link-modal .content .checkbox p {
     font-size:14px;
+    margin-left:19px;
+    cursor:default;
 }
 
 #private-link-modal footer {
@@ -506,6 +517,47 @@ p.checkbox input[type=checkbox] {
 }
 
 #private-link-modal footer a {
+    color:#a2a2a2;
+}
+
+/* About these docs modal */
+#about-docs-modal {
+    padding:15px 15px;
+}
+
+#about-docs-modal .content {
+    display:flex;
+    margin-top:20px;
+}
+
+#about-docs-modal header h2 {
+    font-size:20px;
+}
+
+#about-docs-modal .content img {
+    width:89px;
+    height:92px;
+    margin-right:15px;
+}
+
+#about-docs-modal .content p {
+    line-height:23px;
+    margin-bottom:15px;
+}
+
+#about-docs-modal footer {
+    border-top:1px solid #cbcbcb;
+    margin-top:12px;
+    padding-top:12px;
+}
+
+#about-docs-modal footer p {
+    color:#a2a2a2;
+    font-size:14px;
+    text-align: center;
+}
+
+#about-docs-modal footer a {
     color:#a2a2a2;
 }
 

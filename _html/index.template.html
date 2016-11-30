@@ -30,7 +30,29 @@
             <p>These docs were auto-generated from a private GitHub repo available to Gruntwork customers who have purchased this Infrastructure Package.</p>
             <a class="btn-primary" href="{{ .GithubUrl }}">Continue to GitHub</a>
             <a class="btn-link" href="#" rel="modal:close">Go Back</a>
-            <p class="checkbox"><input type="checkbox">Skip this window the next time I click a private link.</p>
+            <div class="checkbox">
+                <input type="checkbox">
+                <p>Skip this window the next time I click a private link.</p>
+            </div>
+        </article>
+    </div>
+    <footer>
+        <p>Questions about this Infrastructure Package? <a href="http://www.gruntwork.io">Visit Gruntwork</a>.</p>
+    </footer>
+</div>
+
+<div id="about-docs-modal" class="about-docs-modal" style="display:none;">
+    <header>
+        <h2>You are viewing the docs for the Gruntwork Infrastructure Packages.</h2>
+    </header>
+    <div class="content">
+        <img src="/_assets/img/grunty_purple_background.png" alt="">
+        <article>
+            <p>These docs were auto-generated from a private GitHub repo available to Gruntwork customers who have
+                purchased this Infrastructure Package</a>.</p>
+            <p>The source code for an Infrastructure Package is private, but we publish the docs as a useful reference
+                on the concepts underlying the most common components in AWS.</p>
+            <p>We hope you enjoy them!</p>
         </article>
     </div>
     <footer>
@@ -55,6 +77,7 @@
         <header id="main-header">
             <nav id="left">
                 <a href="#private-link-modal" rel="modal:open">View this Page in GitHub</a>
+                <a href="#about-docs-modal" rel="modal:open">About These Docs</a>
             </nav>
             <nav id="right">
                 <ul class="external">
@@ -106,6 +129,16 @@
         if ($("#current_year").text() != currentYear) {
             $("#current_year").text("2016 - " + currentYear)
         }
+
+        // Make the checkbox clickable by selecting the entire p tag
+        $(".checkbox p").click(function() {
+            inputBox = $(this).siblings("input[type=checkbox]");
+            if (! inputBox.prop("checked")) {
+                inputBox.prop("checked", true)
+            } else {
+                inputBox.prop("checked", false)
+            }
+        })
     })
 </script>
 <script>
