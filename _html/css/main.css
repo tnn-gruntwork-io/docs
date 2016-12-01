@@ -163,7 +163,7 @@ body { min-height: 100%; }
 
 #content {
     position: relative;
-    padding-top: 33px;
+    padding-top: 17px;
     padding-left: 32px;
     margin: 0 25px 35px 0;
     border-top: 1px solid rgba(120, 134, 156, .08);
