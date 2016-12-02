@@ -52,7 +52,7 @@ func ProcessFiles(opts *Opts) error {
 			return nil
 		} else {
 			file := nav.NewFile(relInputPath, fullInputPath)
-			err := file.PopulateOutputPath()
+			err := file.PopulateOutputPath(packages)
 			if err != nil {
 				// TODO: Neither the Type Assertion nor the error return works as expected here. Error:
 				// runtime: goroutine stack exceeds 1000000000-byte limit

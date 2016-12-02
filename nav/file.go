@@ -7,6 +7,7 @@ import (
 	"github.com/gruntwork-io/docs/logger"
 	"path/filepath"
 	"github.com/gruntwork-io/docs/file"
+	"github.com/gruntwork-io/docs/gruntwork_package"
 )
 
 // A File represents a generic file on the file system. Examples include markdown files, images, txt files, PDFs, etc.
@@ -21,11 +22,11 @@ type File struct {
 }
 
 // The type signature for a function that takes an inputPath and returns an outputPath
-type getOutputPathFuncType func(string) (string, error)
+type getOutputPathFuncType func(string, []gruntwork_package.GruntworkPackage) (string, error)
 
 // Populate the OutputPath property by looking up the appropriate RegEx.
 // Store the results of our search in a private property (isFile or isPage) to avoid duplicating the RegEx check in other functions.
-func (f *File) PopulateOutputPath() error {
+func (f *File) PopulateOutputPath(gruntworkPackages []gruntwork_package.GruntworkPackage) error {
 	var err error
 
 	for regexStr, getOutputPathFunc := range getFileRegExes() {
@@ -33,7 +34,7 @@ func (f *File) PopulateOutputPath() error {
 		if regex.MatchString(f.InputPath) {
 			f.inputPathRegEx = regexStr
 			f.isFile = true
-			f.OutputPath, err = getOutputPathFunc(f.InputPath)
+			f.OutputPath, err = getOutputPathFunc(f.InputPath, gruntworkPackages)
 			if err != nil {
 				return errors.WithStackTrace(err)
 			}
@@ -47,7 +48,7 @@ func (f *File) PopulateOutputPath() error {
 		if regex.MatchString(f.InputPath) {
 			f.inputPathRegEx = regexStr
 			f.isPage = true
-			f.OutputPath, err = getOutputPathFunc(f.InputPath)
+			f.OutputPath, err = getOutputPathFunc(f.InputPath, gruntworkPackages)
 			if err != nil {
 				return errors.WithStackTrace(err)
 			}

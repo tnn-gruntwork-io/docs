@@ -1,22 +1,32 @@
 package nav
 
-import "strings"
+import (
+	"strings"
+	"github.com/gruntwork-io/docs/gruntwork_package"
+)
 
 // Given a Package Folder Name (e.g. "module-vpc") return the corresponding Package Name (e.g. "Network Topology")
-func getOutputPackageFolderNameFromInputPackageFolderName(packageFolderName string) string {
-	folderNameToPackageNameMap := getFolderNameToPackageNameMap()
-
-	if packageName, ok := folderNameToPackageNameMap[packageFolderName]; ok {
-		return packageName
-	} else {
-		return packageFolderName
+func getOutputPackageFolderNameFromInputPackageFolderName(packages []gruntwork_package.GruntworkPackage, packageFolderName string) string {
+	for _, gPackage := range packages {
+		if gPackage.Alias == packageFolderName {
+			return convertSpacesToDashesAndLowerCase(gPackage.Name)
+		}
 	}
+
+	return packageFolderName
 }
 
 // Convert "network-topology" into "Network Topology"
 func convertDashesToSpacesAndCapitalize(str string) string {
 	str = strings.Replace(str, "-", " ", -1)
 	str = strings.Title(str)
+	return str
+}
+
+// Convert "Network Topology" into "network-topology"
+func convertSpacesToDashesAndLowerCase(str string) string {
+	str = strings.Replace(str, " ", "-", -1)
+	str = strings.ToLower(str)
 	return str
 }
 
