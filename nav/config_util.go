@@ -2,11 +2,11 @@ package nav
 
 import (
 	"strings"
-	"github.com/gruntwork-io/docs/gruntwork_package"
+	"github.com/gruntwork-io/docs/config"
 )
 
 // Given a Package Folder Name (e.g. "module-vpc") return the corresponding Package Name (e.g. "Network Topology")
-func getOutputPackageFolderNameFromInputPackageFolderName(packages []gruntwork_package.GruntworkPackage, packageFolderName string) string {
+func getOutputPackageFolderNameFromInputPackageFolderName(packages []config.GruntworkPackage, packageFolderName string) string {
 	for _, gPackage := range packages {
 		if gPackage.Alias == packageFolderName {
 			return convertSpacesToDashesAndLowerCase(gPackage.Name)

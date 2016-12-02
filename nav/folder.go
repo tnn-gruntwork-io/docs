@@ -9,7 +9,7 @@ import (
 	"html/template"
 	"regexp"
 	"sort"
-	"github.com/gruntwork-io/docs/gruntwork_package"
+	"github.com/gruntwork-io/docs/config"
 )
 
 type Folder struct {
@@ -155,7 +155,7 @@ func (f *Folder) WriteChildrenHtmlToOutputhPath(htmlFilesPath string, rootFolder
 }
 
 // Populate all page body properties in this folder's child pages, and the recursive children of its child folders
-func (f *Folder) PopulateChildrenPageBodyProperties(rootOutputPath string, packages []gruntwork_package.GruntworkPackage) error {
+func (f *Folder) PopulateChildrenPageBodyProperties(rootOutputPath string, packages []config.GruntworkPackage) error {
 	var err error
 
 	for _, page := range f.ChildPages {

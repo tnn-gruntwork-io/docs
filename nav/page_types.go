@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"fmt"
 	"github.com/gruntwork-io/docs/errors"
-	"github.com/gruntwork-io/docs/gruntwork_package"
+	"github.com/gruntwork-io/docs/config"
 )
 
 // Get a map of all RegExes that match an inputPath that represents a Page (versus representing a File)
@@ -25,14 +25,14 @@ func getPageRegExes() map[string]getOutputPathFuncType {
 
 const IS_GLOBAL_DOC_REGEX = `^global/(.*\.md)$`
 
-func GetOutputPathOfGlobalDoc(inputPath string, packages []gruntwork_package.GruntworkPackage) (string, error) {
+func GetOutputPathOfGlobalDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
 	return strings.Replace(inputPath, "global/", "", -1), nil
 }
 
 const IS_MODULE_DOC_REGEX = `^packages/([\w -]+)/modules/([\w -]+)/_docs/([\w -]+\.md)$`
 const IS_MODULE_DOC_REGEX_NUM_CAPTURE_GROUPS = 3
 
-func GetOutputPathOfModuleDoc(inputPath string, packages []gruntwork_package.GruntworkPackage) (string, error) {
+func GetOutputPathOfModuleDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_MODULE_DOC_REGEX)
@@ -57,7 +57,7 @@ func GetOutputPathOfModuleDoc(inputPath string, packages []gruntwork_package.Gru
 const IS_MODULE_OVERVIEW_DOC_REGEX = `^packages/([\w -]+)/modules/([\w -]+)/README.md$`
 const IS_MODULE_OVERVIEW_DOC_REGEX_NUM_CAPTURE_GROUPS = 2
 
-func GetOutputPathOfModuleOverviewDoc(inputPath string, packages []gruntwork_package.GruntworkPackage) (string, error) {
+func GetOutputPathOfModuleOverviewDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_MODULE_OVERVIEW_DOC_REGEX)
@@ -81,7 +81,7 @@ func GetOutputPathOfModuleOverviewDoc(inputPath string, packages []gruntwork_pac
 const IS_MODULE_EXAMPLE_DOC_REGEX = `^packages/([\s\w- ]+)/examples/([\s\w -]+)/(.*[^README].md)$`
 const IS_MODULE_EXAMPLE_DOC_REGEX_NUM_CAPTURE_GROUPS = 3
 
-func GetOutputPathOfModuleExampleDoc(inputPath string, packages []gruntwork_package.GruntworkPackage) (string, error) {
+func GetOutputPathOfModuleExampleDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_MODULE_EXAMPLE_DOC_REGEX)
@@ -106,7 +106,7 @@ func GetOutputPathOfModuleExampleDoc(inputPath string, packages []gruntwork_pack
 const IS_MODULE_EXAMPLE_OVERVIEW_DOC_REGEX = `^packages/([\s\w -]+)/examples/([\s\w -]+)/README.md$`
 const IS_MODULE_EXAMPLE_OVERVIEW_DOC_REGEX_NUM_CAPTURE_GROUPS = 2
 
-func GetOutputPathOfModuleExampleOverviewDoc(inputPath string, packages []gruntwork_package.GruntworkPackage) (string, error) {
+func GetOutputPathOfModuleExampleOverviewDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_MODULE_EXAMPLE_OVERVIEW_DOC_REGEX)
@@ -130,7 +130,7 @@ func GetOutputPathOfModuleExampleOverviewDoc(inputPath string, packages []gruntw
 const IS_PACKAGE_DOC_REGEX = `^packages/([\w -]+)/modules/_docs/([\w -/]+\.md)$`
 const IS_PACKAGE_DOC_REGEX_NUM_CAPTURE_GROUPS = 2
 
-func GetOutputPathOfPackageDoc(inputPath string, packages []gruntwork_package.GruntworkPackage) (string, error) {
+func GetOutputPathOfPackageDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_PACKAGE_DOC_REGEX)
@@ -154,7 +154,7 @@ func GetOutputPathOfPackageDoc(inputPath string, packages []gruntwork_package.Gr
 const IS_PACKAGE_OVERVIEW_DOC_REGEX = `^packages/([\s\w -]+)/README.md$`
 const IS_PACKAGE_OVERVIEW_DOC_REGEX_NUM_CAPTURE_GROUPS = 1
 
-func GetOutputPathOfPackageOverviewDoc(inputPath string, packages []gruntwork_package.GruntworkPackage) (string, error) {
+func GetOutputPathOfPackageOverviewDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_PACKAGE_OVERVIEW_DOC_REGEX)

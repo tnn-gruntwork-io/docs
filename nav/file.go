@@ -7,7 +7,7 @@ import (
 	"github.com/gruntwork-io/docs/logger"
 	"path/filepath"
 	"github.com/gruntwork-io/docs/file"
-	"github.com/gruntwork-io/docs/gruntwork_package"
+	"github.com/gruntwork-io/docs/config"
 )
 
 // A File represents a generic file on the file system. Examples include markdown files, images, txt files, PDFs, etc.
@@ -22,11 +22,11 @@ type File struct {
 }
 
 // The type signature for a function that takes an inputPath and returns an outputPath
-type getOutputPathFuncType func(string, []gruntwork_package.GruntworkPackage) (string, error)
+type getOutputPathFuncType func(string, []config.GruntworkPackage) (string, error)
 
 // Populate the OutputPath property by looking up the appropriate RegEx.
 // Store the results of our search in a private property (isFile or isPage) to avoid duplicating the RegEx check in other functions.
-func (f *File) PopulateOutputPath(gruntworkPackages []gruntwork_package.GruntworkPackage) error {
+func (f *File) PopulateOutputPath(gruntworkPackages []config.GruntworkPackage) error {
 	var err error
 
 	for regexStr, getOutputPathFunc := range getFileRegExes() {

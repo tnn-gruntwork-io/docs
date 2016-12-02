@@ -12,5 +12,10 @@
       "github_url": "https://github.com/gruntwork-io/module-aws-monitoring-public",
       "git_ref": "c15a7224466a73b6b87f5ffba8f0253afe0b81a1"
     }
+  ],
+  "top_level_folder_ordering": [
+    "introduction",
+    "help",
+    "packages"
   ]
 }

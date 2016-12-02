@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"github.com/shurcooL/github_flavored_markdown"
 	"html/template"
-	"github.com/gruntwork-io/docs/gruntwork_package"
+	"github.com/gruntwork-io/docs/config"
 )
 
 const MARKDOWN_LINKS_REGEX = `\]\(([\w-\./]+)\)`
@@ -56,7 +56,7 @@ func (p *Page) PopulateProperties() error {
 
 // Populate the body-related properties.
 // Note that this must be done AFTER the NavTree at p.RootFolder is fully built out.
-func (p *Page) PopulateBodyProperties(rootOutputPath string, packages []gruntwork_package.GruntworkPackage) error {
+func (p *Page) PopulateBodyProperties(rootOutputPath string, packages []config.GruntworkPackage) error {
 	var err error
 
 	p.BodyMarkdown, err = p.getSanitizedMarkdownBody(rootOutputPath)
@@ -269,7 +269,7 @@ func convertExternalGruntworkGithubUrlsToInternalLinks(body string, rootNavFolde
 
 // For each of the given GruntworkPackages, search the HTML body for URLs that point to that repo and add the given cssClass.
 // This is important because we want to show a popup window on private links, and we identify such links by their CSS class.
-func addCssClassToPrivateGitHubUrls(body string, cssClass string, packages []gruntwork_package.GruntworkPackage) (string, error) {
+func addCssClassToPrivateGitHubUrls(body string, cssClass string, packages []config.GruntworkPackage) (string, error) {
 	var newBody string
 
 	newBody = body

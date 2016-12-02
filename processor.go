@@ -9,7 +9,7 @@ import (
 	"github.com/gruntwork-io/docs/logger"
 	"github.com/gruntwork-io/docs/globs"
 	"github.com/gruntwork-io/docs/nav"
-	"github.com/gruntwork-io/docs/gruntwork_package"
+	"github.com/gruntwork-io/docs/config"
 )
 
 // TODO: Copy _content files into tmp _input folder
@@ -136,15 +136,15 @@ func shouldSkipPath(path string, opts *Opts) bool {
 }
 
 // Given a filepath, return a slice of GruntworkPackages
-func getGruntworkPackagesSlice(packagesFilePath string) ([]gruntwork_package.GruntworkPackage, error) {
-	var packages []gruntwork_package.GruntworkPackage
+func getGruntworkPackagesSlice(packagesFilePath string) ([]config.GruntworkPackage, error) {
+	var packages []config.GruntworkPackage
 
 	jsonString, err := file.ReadFile(packagesFilePath)
 	if err != nil {
 		return packages, errors.WithStackTrace(err)
 	}
 
-	packages, err = gruntwork_package.GetSliceFromJson(jsonString)
+	packages, err = config.GetPackagesFromJson(jsonString)
 	if err != nil {
 		return packages, errors.WithStackTrace(err)
 	}

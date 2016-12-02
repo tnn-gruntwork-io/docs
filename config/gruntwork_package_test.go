@@ -1,4 +1,4 @@
-package gruntwork_package
+package config
 
 import (
 	"testing"
@@ -48,7 +48,7 @@ func TestGetSliceFromJson(t *testing.T) {
 	}
 
 	for _, testCase := range testCases {
-		actualSlice, err := GetSliceFromJson(testCase.jsonString)
+		actualSlice, err := GetPackagesFromJson(testCase.jsonString)
 		if ! assert.Nil(t, err, "Unexpected error") {
 			assert.Equal(t, testCase.expectedSlice, actualSlice, "jsonString = %s\n", testCase.jsonString)
 		}

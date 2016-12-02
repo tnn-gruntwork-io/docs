@@ -35,7 +35,7 @@ COPYRIGHT:
 `
 
 const OPT_HTML_FILES_PATH = "html-files-path"
-const OPT_REPO_MANIFEST_PATH = "repo-manifest-path"
+const OPT_CONFIG_FILE_PATH = "config-file-path"
 const OPT_INPUT_PATH = "input-path"
 const OPT_OUTPUT_PATH = "output-path"
 const OPT_DOC_PATTERN = "doc-pattern"
@@ -73,8 +73,8 @@ func CreateCli(version string) *cli.App {
 			Usage: "Use the HTML, CSS, and JS files in `PATH` to generate the final website.",
 		},
 		cli.StringFlag{
-			Name:  OPT_REPO_MANIFEST_PATH,
-			Usage: "Use the JSON file at the given `PATH` to identify the Gruntwork Packages for which docs should be generated.",
+			Name:  OPT_CONFIG_FILE_PATH,
+			Usage: "Use the JSON file at the given `PATH` to identify the Gruntwork Packages for which docs should be generated, plus other config.",
 		},
 		cli.StringFlag{
 			Name:  OPT_INPUT_PATH,
@@ -130,9 +130,9 @@ func parseOpts(cliContext *cli.Context) (*Opts, error) {
 		return nil, errors.WithStackTrace(MissingParam(OPT_HTML_FILES_PATH))
 	}
 
-	repoManifestPath := cliContext.String(OPT_REPO_MANIFEST_PATH)
+	repoManifestPath := cliContext.String(OPT_CONFIG_FILE_PATH)
 	if repoManifestPath == "" {
-		return nil, errors.WithStackTrace(MissingParam(OPT_REPO_MANIFEST_PATH))
+		return nil, errors.WithStackTrace(MissingParam(OPT_CONFIG_FILE_PATH))
 	}
 
 	inputPath := cliContext.String(OPT_INPUT_PATH)
