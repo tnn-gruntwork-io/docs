@@ -10,6 +10,7 @@ import (
 	"fmt"
 	"github.com/shurcooL/github_flavored_markdown"
 	"html/template"
+	"github.com/gruntwork-io/docs/gruntwork_package"
 )
 
 const MARKDOWN_LINKS_REGEX = `\]\(([\w-\./]+)\)`
@@ -19,6 +20,8 @@ const PACKAGE_FILE_REGEX = `^packages/([\w -]+)(/.*)$`
 const PACKAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 2
 const MARKDOWN_FILE_PATH_REGEX = `^.*/(.*)\.md$`
 const MARKDOWN_FILE_PATH_REGEX_NUM_CAPTURE_GROUPS = 1
+
+const CSS_CLASS_NAME_FOR_PRIVATE_GITHUB_URLS = "private-link-modal-link"
 
 // TODO: Figure out better way to reference this file
 const HTML_TEMPLATE_REL_PATH = "_html/index.template.html"
@@ -51,7 +54,7 @@ func (p *Page) PopulateProperties() error {
 
 // Populate the body-related properties.
 // Note that this must be done AFTER the NavTree at p.RootFolder is fully built out.
-func (p *Page) PopulateBodyProperties(rootOutputPath string) error {
+func (p *Page) PopulateBodyProperties(rootOutputPath string, packages []gruntwork_package.GruntworkPackage) error {
 	var err error
 
 	p.BodyMarkdown, err = p.getSanitizedMarkdownBody(rootOutputPath)
@@ -60,6 +63,11 @@ func (p *Page) PopulateBodyProperties(rootOutputPath string) error {
 	}
 
 	p.BodyHtml = getHtmlFromMarkdown(p.BodyMarkdown)
+
+	p.BodyHtml, err = addCssClassToPrivateGitHubUrls(p.BodyHtml, CSS_CLASS_NAME_FOR_PRIVATE_GITHUB_URLS, packages)
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
 
 	return nil
 }
@@ -229,6 +237,35 @@ func convertExternalGruntworkGithubUrlsToInternalLinks(body string, rootNavFolde
 		}
 
 		newBody = strings.Replace(newBody, url, internalLink, 1)
+	}
+
+	return newBody, nil
+}
+
+// For each of the given GruntworkPackages, search the HTML body for URLs that point to that repo and add the given cssClass.
+// This is important because we want to show a popup window on private links, and we identify such links by their CSS class.
+func addCssClassToPrivateGitHubUrls(body string, cssClass string, packages []gruntwork_package.GruntworkPackage) (string, error) {
+	var newBody string
+
+	newBody = body
+
+	for _, gPackage := range packages {
+		regexStr := fmt.Sprintf(`<a.*href="%s.*".*>`, gPackage.GithubUrl)
+		regex, err := regexp.Compile(regexStr)
+		if err != nil {
+			return newBody, errors.WithStackTrace(err)
+		}
+
+		matches := regex.FindAllStringSubmatch(newBody, -1)
+
+		for _, match := range matches {
+			oldATag := match[0]
+			newATag := strings.Replace(oldATag, "<a ", fmt.Sprintf(`<a class="%s"`, cssClass), -1)
+
+			fmt.Printf("oldTag = %s, newTag = %s\n", oldATag, newATag)
+
+			newBody = strings.Replace(newBody, oldATag, newATag, -1)
+		}
 	}
 
 	return newBody, nil
@@ -422,7 +459,7 @@ func replaceMdFileExtensionWithHtmlFileExtension(path string) (string, error) {
 	return updatedPath, nil
 }
 
-// Return the full HTML rendering of this page
+// Return the full HTML rendering of this page within the given HTML template
 func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitle string, githubUrl string) (string, error) {
 	var templateOutput string
 

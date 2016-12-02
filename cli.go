@@ -35,6 +35,7 @@ COPYRIGHT:
 `
 
 const OPT_HTML_PATH = "html-path"
+const OPT_REPO_MANIFEST_PATH = "repo-manifest-path"
 const OPT_INPUT_PATH = "input-path"
 const OPT_OUTPUT_PATH = "output-path"
 const OPT_DOC_PATTERN = "doc-pattern"
@@ -44,11 +45,12 @@ var DEFAULT_DOC_PATTERNS = []string{"*.md", "*.txt", "*.jpg", "*.png", "*.gif"}
 var DEFAULT_EXCLUDES = []string{".git*", "vendor", "vendor/*", "test/vendor", "test/vendor/*"}
 
 type Opts struct {
-	HtmlPath    string
-	InputPath   string
-	OutputPath  string
-	DocPatterns []glob.Glob
-	Excludes    []glob.Glob
+	HtmlPath         string
+	RepoManifestPath string
+	InputPath        string
+	OutputPath       string
+	DocPatterns      []glob.Glob
+	Excludes         []glob.Glob
 }
 
 func CreateCli(version string) *cli.App {
@@ -69,6 +71,10 @@ func CreateCli(version string) *cli.App {
 		cli.StringFlag{
 			Name:  OPT_HTML_PATH,
 			Usage: "Use the HTML, CSS, and JS files in `PATH` to generate the final website.",
+		},
+		cli.StringFlag{
+			Name:  OPT_REPO_MANIFEST_PATH,
+			Usage: "Use the JSON file at the given `PATH` to identify the Gruntwork Packages for which docs should be generated.",
 		},
 		cli.StringFlag{
 			Name:  OPT_INPUT_PATH,
@@ -124,6 +130,11 @@ func parseOpts(cliContext *cli.Context) (*Opts, error) {
 		return nil, errors.WithStackTrace(MissingParam(OPT_HTML_PATH))
 	}
 
+	repoManifestPath := cliContext.String(OPT_REPO_MANIFEST_PATH)
+	if repoManifestPath == "" {
+		return nil, errors.WithStackTrace(MissingParam(OPT_REPO_MANIFEST_PATH))
+	}
+
 	inputPath := cliContext.String(OPT_INPUT_PATH)
 	if inputPath == "" {
 		return nil, errors.WithStackTrace(MissingParam(OPT_INPUT_PATH))
@@ -153,11 +164,12 @@ func parseOpts(cliContext *cli.Context) (*Opts, error) {
 	}
 
 	return &Opts{
-		HtmlPath:    htmlPath,
-		InputPath:   inputPath,
-		OutputPath:  outputPath,
+		HtmlPath: htmlPath,
+		RepoManifestPath: repoManifestPath,
+		InputPath: inputPath,
+		OutputPath: outputPath,
 		DocPatterns: docGlobs,
-		Excludes:    excludeGlobs,
+		Excludes: excludeGlobs,
 	}, nil
 }
 

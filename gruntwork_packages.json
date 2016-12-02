@@ -1,0 +1,16 @@
+{
+  "packages": [
+    {
+      "name": "Network Topology",
+      "alias": "module-vpc",
+      "github_url": "https://github.com/gruntwork-io/module-vpc",
+      "git_ref": "0846eaef79c7853d5cab6ae9c47f8a43cf25c70a"
+    },
+    {
+      "name": "Monitoring & Alerting",
+      "alias": "module-aws-monitoring-public",
+      "github_url": "https://github.com/gruntwork-io/module-aws-monitoring-public",
+      "git_ref": "c15a7224466a73b6b87f5ffba8f0253afe0b81a1"
+    }
+  ]
+}

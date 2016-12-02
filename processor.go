@@ -9,12 +9,18 @@ import (
 	"github.com/gruntwork-io/docs/logger"
 	"github.com/gruntwork-io/docs/globs"
 	"github.com/gruntwork-io/docs/nav"
+	"github.com/gruntwork-io/docs/gruntwork_package"
 )
 
 // TODO: Copy _content files into tmp _input folder
 
 func ProcessFiles(opts *Opts) error {
 	var err error
+
+	packages, err := getGruntworkPackagesSlice(opts.RepoManifestPath)
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
 
 	rootNavFolder := nav.NewRootFolder()
 
@@ -71,7 +77,7 @@ func ProcessFiles(opts *Opts) error {
 	}
 
 	// Now that our nav tree is constructed, populate the page bodies
-	err = rootNavFolder.PopulateChildrenPageBodyProperties(opts.OutputPath)
+	err = rootNavFolder.PopulateChildrenPageBodyProperties(opts.OutputPath, packages)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -93,7 +99,7 @@ func ProcessFiles(opts *Opts) error {
 		return errors.WithStackTrace(err)
 	}
 
-		file.CopyFiles(opts.HtmlPath + "/favicons", opts.OutputPath + "/")
+	err = file.CopyFiles(opts.HtmlPath + "/favicons", opts.OutputPath + "/")
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -106,7 +112,22 @@ func shouldSkipPath(path string, opts *Opts) bool {
 	return path == opts.InputPath || globs.MatchesGlobs(path, opts.Excludes)
 }
 
+// Given a filepath, return a slice of GruntworkPackages
+func getGruntworkPackagesSlice(packagesFilePath string) ([]gruntwork_package.GruntworkPackage, error) {
+	var packages []gruntwork_package.GruntworkPackage
 
+	jsonString, err := file.ReadFile(packagesFilePath)
+	if err != nil {
+		return packages, errors.WithStackTrace(err)
+	}
+
+	packages, err = gruntwork_package.GetSliceFromJson(jsonString)
+	if err != nil {
+		return packages, errors.WithStackTrace(err)
+	}
+
+	return packages, nil
+}
 
 
 

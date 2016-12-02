@@ -28,7 +28,7 @@
         <img src="/_assets/img/github_private_logo.png" alt="">
         <article>
             <p>These docs were auto-generated from a private GitHub repo available only to Gruntwork customers. If you're not yet a customer of Gruntwork, you'll receive a 404 Not Found if you continue.</p>
-            <a class="btn-primary" href="{{ .GithubUrl }}">Continue to GitHub</a>
+            <a class="btn-primary">Continue to GitHub</a>
             <a class="btn-link" href="#" rel="modal:close">Go Back</a>
             <div class="checkbox">
                 <input type="checkbox">
@@ -79,7 +79,7 @@
     <div id="content-wrapper" tabindex="0">
         <header id="main-header">
             <nav id="left">
-                <a class="private-link-modal-link" href="#" data-href="{{ .GithubUrl }}">View this Page in GitHub</a>
+                <a class="private-link-modal-link" href="{{ .GithubUrl }}">View this Page in GitHub</a>
                 <a href="#about-docs-modal" rel="modal:open">About These Docs</a>
             </nav>
             <nav id="right">
@@ -147,10 +147,18 @@
         // If the cookie value is set, bypass the private-link modal
         $(".private-link-modal-link").click(function() {
            if (Cookies.get('private-link-modal-skip') == 'true') {
-               window.location.href = $(this).data("href");
+               window.location.href = $(this).prop("href");
            } else {
                // open the modal
                $("#private-link-modal").modal();
+
+               // populate the href tag in the modal
+               href = $(this).attr("href");
+               console.log("href = " + href);
+               $("#private-link-modal").find("a.btn-primary").prop("href", href);
+
+               // disable the default action of clicking on the original <a> link
+               return false;
            }
         });
 
