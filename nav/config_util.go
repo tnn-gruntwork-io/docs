@@ -31,10 +31,10 @@ func convertSpacesToDashesAndLowerCase(str string) string {
 }
 
 // Reorder the given set of folders to match the "TopLevelFolderOrdering"
-func reorderFoldersToMatchTopLevelFolderOrdering(folders []*Folder) []*Folder {
+func reorderFoldersToMatchTopLevelFolderOrdering(folders []*Folder, config config.Config) []*Folder {
 	var newFolders []*Folder
 
-	orderedFolderNames := getTopLevelFolderOrdering()
+	orderedFolderNames := config.TopLevelFolderOrdering
 
 	for _, folderName := range orderedFolderNames {
 		for _, folder := range folders {

@@ -45,12 +45,12 @@ var DEFAULT_DOC_PATTERNS = []string{"*.md", "*.txt", "*.jpg", "*.png", "*.gif"}
 var DEFAULT_EXCLUDES = []string{".git*", "vendor", "vendor/*", "test/vendor", "test/vendor/*"}
 
 type Opts struct {
-	HtmlFilesPath    string
-	RepoManifestPath string
-	InputPath        string
-	OutputPath       string
-	DocPatterns      []glob.Glob
-	Excludes         []glob.Glob
+	HtmlFilesPath  string
+	ConfigFilePath string
+	InputPath      string
+	OutputPath     string
+	DocPatterns    []glob.Glob
+	Excludes       []glob.Glob
 }
 
 func CreateCli(version string) *cli.App {
@@ -165,7 +165,7 @@ func parseOpts(cliContext *cli.Context) (*Opts, error) {
 
 	return &Opts{
 		HtmlFilesPath: htmlPath,
-		RepoManifestPath: repoManifestPath,
+		ConfigFilePath: repoManifestPath,
 		InputPath: inputPath,
 		OutputPath: outputPath,
 		DocPatterns: docGlobs,

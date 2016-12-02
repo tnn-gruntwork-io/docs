@@ -121,9 +121,9 @@ func getContainingFolder(path string) string {
 }
 
 // Output the full HTML body of this page
-func (p *Page) WriteFullPageHtmlToOutputPath(htmlFilesPath string, rootFolder *Folder, rootOutputPath string) error {
+func (p *Page) WriteFullPageHtmlToOutputPath(htmlFilesPath string, rootFolder *Folder, rootOutputPath string, config config.Config) error {
 	bodyHtml := p.getBodyHtml()
-	navTreeHtml := getNavTreeHtml(rootFolder, p)
+	navTreeHtml := getNavTreeHtml(rootFolder, p, config)
 
 	mainHtmlTemplatePath := filepath.Join(htmlFilesPath, "/", HTML_TEMPLATE_MAIN_FILENAME)
 	fullHtml, err := getFullHtml(mainHtmlTemplatePath, bodyHtml, navTreeHtml, p.Title, p.GithubUrl, p.InputPath)
@@ -147,9 +147,9 @@ func (p *Page) WriteFullPageHtmlToOutputPath(htmlFilesPath string, rootFolder *F
 	return nil
 }
 
-func Write404PageToOutputPath(htmlFilesPath string, rootFolder *Folder, rootOutputPath string) error {
+func Write404PageToOutputPath(htmlFilesPath string, rootFolder *Folder, rootOutputPath string, config config.Config) error {
 	bodyHtml := template.HTML("")
-	navTreeHtml := getNavTreeHtml(rootFolder, nil)
+	navTreeHtml := getNavTreeHtml(rootFolder, nil, config)
 
 	notFoundHtmlTemplatePath := filepath.Join(htmlFilesPath, "/", HTML_TEMPLATE_404_FILENAME)
 	fullHtml, err := getFullHtml(notFoundHtmlTemplatePath, bodyHtml, navTreeHtml, "Gruntwork Doc Not Found", "", "")
@@ -170,8 +170,8 @@ func Write404PageToOutputPath(htmlFilesPath string, rootFolder *Folder, rootOutp
 }
 
 // Get the NavTree of the given Root Folder with the current page as the "active" page as HTML
-func getNavTreeHtml(rootFolder *Folder, activePage *Page) template.HTML {
-	return rootFolder.GetAsNavTreeHtml(activePage)
+func getNavTreeHtml(rootFolder *Folder, activePage *Page, config config.Config) template.HTML {
+	return rootFolder.GetAsNavTreeHtml(activePage, config)
 }
 
 // Get the NavTree of the givn Root Folder with the current page as the "active" page as HTML

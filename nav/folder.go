@@ -128,16 +128,16 @@ func (f *Folder) CreateFolderIfNotExist(folderPath string) *Folder {
 }
 
 // Output this folder and all its descendants as HTML
-func (f *Folder) WriteChildrenHtmlToOutputhPath(htmlFilesPath string, rootFolder *Folder, rootOutputPath string) error {
+func (f *Folder) WriteChildrenHtmlToOutputhPath(htmlFilesPath string, rootFolder *Folder, rootOutputPath string, config config.Config) error {
 	for _, page := range f.ChildPages {
-		err := page.WriteFullPageHtmlToOutputPath(htmlFilesPath, rootFolder, rootOutputPath)
+		err := page.WriteFullPageHtmlToOutputPath(htmlFilesPath, rootFolder, rootOutputPath, config)
 		if err != nil {
 			return errors.WithStackTrace(err)
 		}
 	}
 
 	for _, folder := range f.ChildFolders {
-		err := folder.WriteChildrenHtmlToOutputhPath(htmlFilesPath, rootFolder, rootOutputPath)
+		err := folder.WriteChildrenHtmlToOutputhPath(htmlFilesPath, rootFolder, rootOutputPath, config)
 		if err != nil {
 			return errors.WithStackTrace(err)
 		}
@@ -145,7 +145,7 @@ func (f *Folder) WriteChildrenHtmlToOutputhPath(htmlFilesPath string, rootFolder
 
 	// Since this is a recursive function, make sure we only generate the 404 page once, not on every recursive call.
 	if f.IsRoot {
-		err := Write404PageToOutputPath(htmlFilesPath, rootFolder, rootOutputPath)
+		err := Write404PageToOutputPath(htmlFilesPath, rootFolder, rootOutputPath, config)
 		if err != nil {
 			return errors.WithStackTrace(err)
 		}
@@ -229,16 +229,16 @@ func (f *Folder) PrintFolder() {
 }
 
 // Get a template.HTML of this Folder's childFolders and childPages
-func (f *Folder) GetAsNavTreeHtml(activePage *Page) template.HTML {
-	return template.HTML(f.getAsNavTreeHtmlAux(activePage))
+func (f *Folder) GetAsNavTreeHtml(activePage *Page, config config.Config) template.HTML {
+	return template.HTML(f.getAsNavTreeHtmlAux(activePage, config))
 }
 
 // A helper function for GetAsNavTreeHtml
-func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
+func (f *Folder) getAsNavTreeHtmlAux(activePage *Page, config config.Config) string {
 	var htmlOutput string
 
 	if f.IsRoot {
-		f.ChildFolders = reorderFoldersToMatchTopLevelFolderOrdering(f.ChildFolders)
+		f.ChildFolders = reorderFoldersToMatchTopLevelFolderOrdering(f.ChildFolders, config)
 		sortPages(f.ChildPages)
 	} else {
 		sortFolders(f.ChildFolders)
@@ -291,7 +291,7 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 			htmlOutput += "</ul>"
 		}
 
-		htmlOutput += childFolder.getAsNavTreeHtmlAux(activePage)
+		htmlOutput += childFolder.getAsNavTreeHtmlAux(activePage, config)
 
 		htmlOutput += "</li>"
 	}

@@ -35,10 +35,12 @@ import (
 func ProcessFiles(opts *Opts) error {
 	var err error
 
-	packages, err := getGruntworkPackagesSlice(opts.RepoManifestPath)
+	config, err := config.GetConfigFromJsonFile(opts.ConfigFilePath)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
+
+	packages := config.Packages
 
 	rootNavFolder := nav.NewRootFolder()
 
@@ -101,7 +103,7 @@ func ProcessFiles(opts *Opts) error {
 	}
 
 	// Generate HTML from the NavTree files
-	err = rootNavFolder.WriteChildrenHtmlToOutputhPath(opts.HtmlFilesPath, rootNavFolder, opts.OutputPath)
+	err = rootNavFolder.WriteChildrenHtmlToOutputhPath(opts.HtmlFilesPath, rootNavFolder, opts.OutputPath, config)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -133,23 +135,6 @@ func ProcessFiles(opts *Opts) error {
 // Return true if this is a file or folder we should skip completely in the processing step.
 func shouldSkipPath(path string, opts *Opts) bool {
 	return path == opts.InputPath || globs.MatchesGlobs(path, opts.Excludes)
-}
-
-// Given a filepath, return a slice of GruntworkPackages
-func getGruntworkPackagesSlice(packagesFilePath string) ([]config.GruntworkPackage, error) {
-	var packages []config.GruntworkPackage
-
-	jsonString, err := file.ReadFile(packagesFilePath)
-	if err != nil {
-		return packages, errors.WithStackTrace(err)
-	}
-
-	packages, err = config.GetPackagesFromJson(jsonString)
-	if err != nil {
-		return packages, errors.WithStackTrace(err)
-	}
-
-	return packages, nil
 }
 
 //func fetchPackageRepoFiles
