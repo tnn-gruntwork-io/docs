@@ -22,7 +22,7 @@ func getFileRegExes() map[string]getOutputPathFuncType {
 const IS_GLOBAL_IMAGE_FILE_REGEX = `^global/([\w -/]*_images)/([\w -]+\.(jpg|jpeg|gif|png|svg))$`
 const IS_GLOBAL_IMAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 3
 
-func GetOutputPathOfGlobalImageFile(inputPath string, packages []config.GruntworkPackage) (string, error) {
+func GetOutputPathOfGlobalImageFile(inputPath string, config config.Config) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_GLOBAL_IMAGE_FILE_REGEX)
@@ -44,7 +44,7 @@ func GetOutputPathOfGlobalImageFile(inputPath string, packages []config.Gruntwor
 const IS_GLOBAL_NONIMAGE_FILE_REGEX = `^global/([\w -/]*_files)/([\w -]+\.(css|js|txt|pdf|doc|docx|xls|xlsx|rtf|csv|json|xml|yml|yaml|key|ppt|pptx))$`
 const IS_GLOBAL_NONIMAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 3
 
-func GetOutputPathOfGlobalNonimageFile(inputPath string, packages []config.GruntworkPackage) (string, error) {
+func GetOutputPathOfGlobalNonimageFile(inputPath string, config config.Config) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_GLOBAL_NONIMAGE_FILE_REGEX)
@@ -66,7 +66,7 @@ func GetOutputPathOfGlobalNonimageFile(inputPath string, packages []config.Grunt
 const IS_MODULE_IMAGE_FILE_REGEX = `^packages/([\w -]+)/modules/_images/([\w -]+\.(jpg|jpeg|gif|png|svg))$`
 const IS_MODULE_IMAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 3
 
-func GetOutputPathOfModuleImageFile(inputPath string, packages []config.GruntworkPackage) (string, error) {
+func GetOutputPathOfModuleImageFile(inputPath string, config config.Config) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_MODULE_IMAGE_FILE_REGEX)
@@ -88,7 +88,7 @@ func GetOutputPathOfModuleImageFile(inputPath string, packages []config.Gruntwor
 const IS_MODULE_NONIMAGE_FILE_REGEX = `^packages/([\w -]+)/modules/_files/([\w -]+\.(css|js|txt|pdf|doc|docx|xls|xlsx|rtf|csv|json|xml|yml|yaml|key|ppt|pptx))$`
 const IS_MODULE_NONIMAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 3
 
-func GetOutputPathOfModuleNonimageFile(inputPath string, packages []config.GruntworkPackage) (string, error) {
+func GetOutputPathOfModuleNonimageFile(inputPath string, config config.Config) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_MODULE_NONIMAGE_FILE_REGEX)

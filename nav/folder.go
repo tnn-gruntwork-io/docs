@@ -155,17 +155,17 @@ func (f *Folder) WriteChildrenHtmlToOutputhPath(htmlFilesPath string, rootFolder
 }
 
 // Populate all page body properties in this folder's child pages, and the recursive children of its child folders
-func (f *Folder) PopulateChildrenPageBodyProperties(rootOutputPath string, packages []config.GruntworkPackage) error {
+func (f *Folder) PopulateChildrenPageBodyProperties(rootOutputPath string, config config.Config) error {
 	var err error
 
 	for _, page := range f.ChildPages {
-		if err = page.PopulateBodyProperties(rootOutputPath, packages); err != nil {
+		if err = page.PopulateBodyProperties(rootOutputPath, config); err != nil {
 			return errors.WithStackTrace(err)
 		}
 	}
 
 	for _, folder := range f.ChildFolders {
-		if err = folder.PopulateChildrenPageBodyProperties(rootOutputPath, packages); err != nil {
+		if err = folder.PopulateChildrenPageBodyProperties(rootOutputPath, config); err != nil {
 			return errors.WithStackTrace(err)
 		}
 	}

@@ -40,8 +40,6 @@ func ProcessFiles(opts *Opts) error {
 		return errors.WithStackTrace(err)
 	}
 
-	packages := config.Packages
-
 	rootNavFolder := nav.NewRootFolder()
 
 	// Walk all files, copy non-markdown files ("files") and load all markdown files ("pages") into a nav tree
@@ -54,7 +52,7 @@ func ProcessFiles(opts *Opts) error {
 			return nil
 		} else {
 			file := nav.NewFile(relInputPath, fullInputPath)
-			err := file.PopulateOutputPath(packages)
+			err := file.PopulateOutputPath(config)
 			if err != nil {
 				// TODO: Neither the Type Assertion nor the error return works as expected here. Error:
 				// runtime: goroutine stack exceeds 1000000000-byte limit
@@ -97,7 +95,7 @@ func ProcessFiles(opts *Opts) error {
 	}
 
 	// Now that our nav tree is constructed, populate the page bodies
-	err = rootNavFolder.PopulateChildrenPageBodyProperties(opts.OutputPath, packages)
+	err = rootNavFolder.PopulateChildrenPageBodyProperties(opts.OutputPath, config)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}

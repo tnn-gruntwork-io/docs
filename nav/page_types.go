@@ -25,14 +25,14 @@ func getPageRegExes() map[string]getOutputPathFuncType {
 
 const IS_GLOBAL_DOC_REGEX = `^global/(.*\.md)$`
 
-func GetOutputPathOfGlobalDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
+func GetOutputPathOfGlobalDoc(inputPath string, config config.Config) (string, error) {
 	return strings.Replace(inputPath, "global/", "", -1), nil
 }
 
 const IS_MODULE_DOC_REGEX = `^packages/([\w -]+)/modules/([\w -]+)/_docs/([\w -]+\.md)$`
 const IS_MODULE_DOC_REGEX_NUM_CAPTURE_GROUPS = 3
 
-func GetOutputPathOfModuleDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
+func GetOutputPathOfModuleDoc(inputPath string, config config.Config) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_MODULE_DOC_REGEX)
@@ -47,7 +47,7 @@ func GetOutputPathOfModuleDoc(inputPath string, packages []config.GruntworkPacka
 	moduleName := submatches[0][2] 	// = vpc-app
 	docName := submatches[0][3] 	// = module-doc.md
 
-	packageName = getOutputPackageFolderNameFromInputPackageFolderName(packages, packageName)
+	packageName = getOutputPackageFolderNameFromInputPackageFolderName(config.Packages, packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/%s/%s", packageName, moduleName, docName)
 
@@ -57,7 +57,7 @@ func GetOutputPathOfModuleDoc(inputPath string, packages []config.GruntworkPacka
 const IS_MODULE_OVERVIEW_DOC_REGEX = `^packages/([\w -]+)/modules/([\w -]+)/README.md$`
 const IS_MODULE_OVERVIEW_DOC_REGEX_NUM_CAPTURE_GROUPS = 2
 
-func GetOutputPathOfModuleOverviewDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
+func GetOutputPathOfModuleOverviewDoc(inputPath string, config config.Config) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_MODULE_OVERVIEW_DOC_REGEX)
@@ -71,7 +71,7 @@ func GetOutputPathOfModuleOverviewDoc(inputPath string, packages []config.Gruntw
 	packageName := submatches[0][1] // = module-vpc
 	moduleName := submatches[0][2] 	// = vpc-app
 
-	packageName = getOutputPackageFolderNameFromInputPackageFolderName(packages, packageName)
+	packageName = getOutputPackageFolderNameFromInputPackageFolderName(config.Packages, packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/modules/%s/overview.md", packageName, moduleName)
 
@@ -81,7 +81,7 @@ func GetOutputPathOfModuleOverviewDoc(inputPath string, packages []config.Gruntw
 const IS_MODULE_EXAMPLE_DOC_REGEX = `^packages/([\s\w- ]+)/examples/([\s\w -]+)/(.*[^README].md)$`
 const IS_MODULE_EXAMPLE_DOC_REGEX_NUM_CAPTURE_GROUPS = 3
 
-func GetOutputPathOfModuleExampleDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
+func GetOutputPathOfModuleExampleDoc(inputPath string, config config.Config) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_MODULE_EXAMPLE_DOC_REGEX)
@@ -96,7 +96,7 @@ func GetOutputPathOfModuleExampleDoc(inputPath string, packages []config.Gruntwo
 	moduleName := submatches[0][2] 	// = vpc-app
 	docName := submatches[0][3] 	// = example-doc.md
 
-	packageName = getOutputPackageFolderNameFromInputPackageFolderName(packages, packageName)
+	packageName = getOutputPackageFolderNameFromInputPackageFolderName(config.Packages, packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/modules/%s/%s", packageName, moduleName, docName)
 
@@ -106,7 +106,7 @@ func GetOutputPathOfModuleExampleDoc(inputPath string, packages []config.Gruntwo
 const IS_MODULE_EXAMPLE_OVERVIEW_DOC_REGEX = `^packages/([\s\w -]+)/examples/([\s\w -]+)/README.md$`
 const IS_MODULE_EXAMPLE_OVERVIEW_DOC_REGEX_NUM_CAPTURE_GROUPS = 2
 
-func GetOutputPathOfModuleExampleOverviewDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
+func GetOutputPathOfModuleExampleOverviewDoc(inputPath string, config config.Config) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_MODULE_EXAMPLE_OVERVIEW_DOC_REGEX)
@@ -120,7 +120,7 @@ func GetOutputPathOfModuleExampleOverviewDoc(inputPath string, packages []config
 	packageName := submatches[0][1] // = module-vpc
 	moduleName := submatches[0][2] 	// = vpc-app
 
-	packageName = getOutputPackageFolderNameFromInputPackageFolderName(packages, packageName)
+	packageName = getOutputPackageFolderNameFromInputPackageFolderName(config.Packages, packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/modules/%s/examples.md", packageName, moduleName)
 
@@ -130,7 +130,7 @@ func GetOutputPathOfModuleExampleOverviewDoc(inputPath string, packages []config
 const IS_PACKAGE_DOC_REGEX = `^packages/([\w -]+)/modules/_docs/([\w -/]+\.md)$`
 const IS_PACKAGE_DOC_REGEX_NUM_CAPTURE_GROUPS = 2
 
-func GetOutputPathOfPackageDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
+func GetOutputPathOfPackageDoc(inputPath string, config config.Config) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_PACKAGE_DOC_REGEX)
@@ -144,7 +144,7 @@ func GetOutputPathOfPackageDoc(inputPath string, packages []config.GruntworkPack
 	packageName := submatches[0][1] // = package-vpc
 	docName := submatches[0][2] 	// = doc-name.md
 
-	packageName = getOutputPackageFolderNameFromInputPackageFolderName(packages, packageName)
+	packageName = getOutputPackageFolderNameFromInputPackageFolderName(config.Packages, packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/%s", packageName, docName)
 
@@ -154,7 +154,7 @@ func GetOutputPathOfPackageDoc(inputPath string, packages []config.GruntworkPack
 const IS_PACKAGE_OVERVIEW_DOC_REGEX = `^packages/([\s\w -]+)/README.md$`
 const IS_PACKAGE_OVERVIEW_DOC_REGEX_NUM_CAPTURE_GROUPS = 1
 
-func GetOutputPathOfPackageOverviewDoc(inputPath string, packages []config.GruntworkPackage) (string, error) {
+func GetOutputPathOfPackageOverviewDoc(inputPath string, config config.Config) (string, error) {
 	var outputPath string
 
 	regex := regexp.MustCompile(IS_PACKAGE_OVERVIEW_DOC_REGEX)
@@ -167,7 +167,7 @@ func GetOutputPathOfPackageOverviewDoc(inputPath string, packages []config.Grunt
 	// If we were parsing inputPath = packages/package-vpc/README.md...
 	packageName := submatches[0][1] // = package-vpc
 
-	packageName = getOutputPackageFolderNameFromInputPackageFolderName(packages, packageName)
+	packageName = getOutputPackageFolderNameFromInputPackageFolderName(config.Packages, packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/overview.md", packageName)
 

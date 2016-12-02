@@ -22,11 +22,11 @@ type File struct {
 }
 
 // The type signature for a function that takes an inputPath and returns an outputPath
-type getOutputPathFuncType func(string, []config.GruntworkPackage) (string, error)
+type getOutputPathFuncType func(string, config.Config) (string, error)
 
 // Populate the OutputPath property by looking up the appropriate RegEx.
 // Store the results of our search in a private property (isFile or isPage) to avoid duplicating the RegEx check in other functions.
-func (f *File) PopulateOutputPath(gruntworkPackages []config.GruntworkPackage) error {
+func (f *File) PopulateOutputPath(config config.Config) error {
 	var err error
 
 	for regexStr, getOutputPathFunc := range getFileRegExes() {
@@ -34,7 +34,7 @@ func (f *File) PopulateOutputPath(gruntworkPackages []config.GruntworkPackage) e
 		if regex.MatchString(f.InputPath) {
 			f.inputPathRegEx = regexStr
 			f.isFile = true
-			f.OutputPath, err = getOutputPathFunc(f.InputPath, gruntworkPackages)
+			f.OutputPath, err = getOutputPathFunc(f.InputPath, config)
 			if err != nil {
 				return errors.WithStackTrace(err)
 			}
@@ -48,7 +48,7 @@ func (f *File) PopulateOutputPath(gruntworkPackages []config.GruntworkPackage) e
 		if regex.MatchString(f.InputPath) {
 			f.inputPathRegEx = regexStr
 			f.isPage = true
-			f.OutputPath, err = getOutputPathFunc(f.InputPath, gruntworkPackages)
+			f.OutputPath, err = getOutputPathFunc(f.InputPath, config)
 			if err != nil {
 				return errors.WithStackTrace(err)
 			}

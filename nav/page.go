@@ -56,7 +56,7 @@ func (p *Page) PopulateProperties() error {
 
 // Populate the body-related properties.
 // Note that this must be done AFTER the NavTree at p.RootFolder is fully built out.
-func (p *Page) PopulateBodyProperties(rootOutputPath string, packages []config.GruntworkPackage) error {
+func (p *Page) PopulateBodyProperties(rootOutputPath string, config config.Config) error {
 	var err error
 
 	p.BodyMarkdown, err = p.getSanitizedMarkdownBody(rootOutputPath)
@@ -66,7 +66,7 @@ func (p *Page) PopulateBodyProperties(rootOutputPath string, packages []config.G
 
 	p.BodyHtml = getHtmlFromMarkdown(p.BodyMarkdown)
 
-	p.BodyHtml, err = addCssClassToPrivateGitHubUrls(p.BodyHtml, CSS_CLASS_NAME_FOR_PRIVATE_GITHUB_URLS, packages)
+	p.BodyHtml, err = addCssClassToPrivateGitHubUrls(p.BodyHtml, CSS_CLASS_NAME_FOR_PRIVATE_GITHUB_URLS, config)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -269,12 +269,12 @@ func convertExternalGruntworkGithubUrlsToInternalLinks(body string, rootNavFolde
 
 // For each of the given GruntworkPackages, search the HTML body for URLs that point to that repo and add the given cssClass.
 // This is important because we want to show a popup window on private links, and we identify such links by their CSS class.
-func addCssClassToPrivateGitHubUrls(body string, cssClass string, packages []config.GruntworkPackage) (string, error) {
+func addCssClassToPrivateGitHubUrls(body string, cssClass string, config config.Config) (string, error) {
 	var newBody string
 
 	newBody = body
 
-	for _, gPackage := range packages {
+	for _, gPackage := range config.Packages {
 		regexStr := fmt.Sprintf(`<a.*href="%s.*".*>`, gPackage.GithubUrl)
 		regex, err := regexp.Compile(regexStr)
 		if err != nil {
