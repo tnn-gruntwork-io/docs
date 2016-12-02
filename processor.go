@@ -101,28 +101,28 @@ func ProcessFiles(opts *Opts) error {
 	}
 
 	// Generate HTML from the NavTree files
-	err = rootNavFolder.WriteChildrenHtmlToOutputhPath(rootNavFolder, opts.OutputPath)
+	err = rootNavFolder.WriteChildrenHtmlToOutputhPath(opts.HtmlFilesPath, rootNavFolder, opts.OutputPath)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
 
 	// Copy HTML assets into the output directory
-	err = file.CopyFile(opts.HtmlPath + "/index.html", opts.OutputPath + "/index.html")
+	err = file.CopyFile(opts.HtmlFilesPath + "/index.html", opts.OutputPath + "/index.html")
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
 
-	err = file.CopyFiles(opts.HtmlPath + "/css", opts.OutputPath + "/_assets/css")
+	err = file.CopyFiles(opts.HtmlFilesPath + "/css", opts.OutputPath + "/_assets/css")
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
 
-	err = file.CopyFiles(opts.HtmlPath + "/img", opts.OutputPath + "/_assets/img")
+	err = file.CopyFiles(opts.HtmlFilesPath + "/img", opts.OutputPath + "/_assets/img")
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
 
-	err = file.CopyFiles(opts.HtmlPath + "/favicons", opts.OutputPath + "/")
+	err = file.CopyFiles(opts.HtmlFilesPath + "/favicons", opts.OutputPath + "/")
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}

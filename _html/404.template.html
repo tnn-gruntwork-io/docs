@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .PageTitle }}</title>
+
+    <!-- Favicon settings for various devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5f4d91">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Load CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.1.2/octicons.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/_assets/css/github_markdown.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.css" />
+    <link href="/_assets/css/main.css" type="text/css" rel="stylesheet" media="all" />
+</head>
+<body>
+
+<div id="about-docs-modal" class="about-docs-modal" style="display:none;">
+    <header>
+        <h2>About These Docs</h2>
+    </header>
+    <div class="content">
+        <img src="/_assets/img/grunty_purple_background.png" alt="">
+        <article>
+            <p>You're viewing documentation for the Gruntwork Infrastructure Packages.</p>
+            <p>An Infrastructure Package is a reusable, best-practices definition
+                of a piece of infrastructure written mostly in Terraform, with some Golang and Bash where needed.</p>
+            <p>The code for an Infrastructure Package is stored in a private GitHub repo made available to Gruntwork clients.
+                These docs were auto-generated from those private GitHub repos.</p>
+            <p>The source code for an Infrastructure Package is private, but the documentation files cover foundational
+                DevOps concepts and AWS best practices that are helpful to many users.</p>
+            <p>We hope you enjoy them!</p>
+        </article>
+    </div>
+    <footer>
+        <p>Questions about our Infrastructure Packages? <a href="http://www.gruntwork.io">Visit Gruntwork</a>.</p>
+    </footer>
+</div>
+
+<div id="docs">
+
+    <div id="sidebar">
+        <div class="logo">
+            <a class="site" href="http://gruntwork.io" title="Gruntwork"></a>
+        </div>
+        <div class="nav-border"></div>
+
+        <nav>
+            {{ .NavTree }}
+        </nav>
+    </div>
+
+    <div id="content-wrapper" tabindex="0">
+        <header id="main-header">
+            <nav id="left">
+                <a href="#about-docs-modal" rel="modal:open">About These Docs</a>
+            </nav>
+            <nav id="right">
+                <ul class="external">
+                    <li><a href="http://gruntwork.io">Gruntwork.io</a></li>
+
+                    <li class="button">
+                        <a href="http://www.gruntwork.io/#get-in-touch">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <article id="content" class="markdown-body entry-content" >
+            <h1>404: That Page Wasn't Found</h1>
+            <p>There doesn't appear to be a page here. Perhaps you'd like to check out the <a href="/introduction/overview.html">Introduction</a>?</p>
+        </article>
+
+        <footer id="bottom_footer">
+            <p>Copyright &copy; Gruntwork, LLC <span id="current_year">2016</span>. This grunt work was a labor of love.</p>
+        </footer>
+    </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.3/js.cookie.min.js"></script>
+<script type="text/javascript">
+    $( document ).ready(function() {
+        // Highlight the nav path to the current page
+        $(".active").parents("ul").removeClass("hidden");
+        $(".active").parents("ul").siblings("ul").removeClass("hidden");
+
+        // Toggle hidden on all folders except the "Packages" folder.
+        $(".top_level_folder a").click( function() {
+            if ($(this).text() != "Packages") {
+                $(this).siblings("ul").toggleClass("hidden");
+            }
+        });
+
+        // Update copyright year to either be 2016 or 2016 - <current-year>
+        currentYear = new Date().getFullYear();
+        if ($("#current_year").text() != currentYear) {
+            $("#current_year").text("2016 - " + currentYear)
+        }
+    })
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-76462621-2', 'auto');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>

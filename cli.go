@@ -34,7 +34,7 @@ COPYRIGHT:
    {{end}}
 `
 
-const OPT_HTML_PATH = "html-path"
+const OPT_HTML_FILES_PATH = "html-files-path"
 const OPT_REPO_MANIFEST_PATH = "repo-manifest-path"
 const OPT_INPUT_PATH = "input-path"
 const OPT_OUTPUT_PATH = "output-path"
@@ -45,7 +45,7 @@ var DEFAULT_DOC_PATTERNS = []string{"*.md", "*.txt", "*.jpg", "*.png", "*.gif"}
 var DEFAULT_EXCLUDES = []string{".git*", "vendor", "vendor/*", "test/vendor", "test/vendor/*"}
 
 type Opts struct {
-	HtmlPath         string
+	HtmlFilesPath    string
 	RepoManifestPath string
 	InputPath        string
 	OutputPath       string
@@ -69,7 +69,7 @@ func CreateCli(version string) *cli.App {
 
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
-			Name:  OPT_HTML_PATH,
+			Name:  OPT_HTML_FILES_PATH,
 			Usage: "Use the HTML, CSS, and JS files in `PATH` to generate the final website.",
 		},
 		cli.StringFlag{
@@ -125,9 +125,9 @@ func runApp(cliContext *cli.Context) error {
 }
 
 func parseOpts(cliContext *cli.Context) (*Opts, error) {
-	htmlPath := cliContext.String(OPT_HTML_PATH)
+	htmlPath := cliContext.String(OPT_HTML_FILES_PATH)
 	if htmlPath == "" {
-		return nil, errors.WithStackTrace(MissingParam(OPT_HTML_PATH))
+		return nil, errors.WithStackTrace(MissingParam(OPT_HTML_FILES_PATH))
 	}
 
 	repoManifestPath := cliContext.String(OPT_REPO_MANIFEST_PATH)
@@ -164,7 +164,7 @@ func parseOpts(cliContext *cli.Context) (*Opts, error) {
 	}
 
 	return &Opts{
-		HtmlPath: htmlPath,
+		HtmlFilesPath: htmlPath,
 		RepoManifestPath: repoManifestPath,
 		InputPath: inputPath,
 		OutputPath: outputPath,

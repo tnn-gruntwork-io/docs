@@ -128,16 +128,24 @@ func (f *Folder) CreateFolderIfNotExist(folderPath string) *Folder {
 }
 
 // Output this folder and all its descendants as HTML
-func (f *Folder) WriteChildrenHtmlToOutputhPath(rootFolder *Folder, rootOutputPath string) error {
+func (f *Folder) WriteChildrenHtmlToOutputhPath(htmlFilesPath string, rootFolder *Folder, rootOutputPath string) error {
 	for _, page := range f.ChildPages {
-		err := page.WriteFullPageHtmlToOutputPath(rootFolder, rootOutputPath)
+		err := page.WriteFullPageHtmlToOutputPath(htmlFilesPath, rootFolder, rootOutputPath)
 		if err != nil {
 			return errors.WithStackTrace(err)
 		}
 	}
 
 	for _, folder := range f.ChildFolders {
-		err := folder.WriteChildrenHtmlToOutputhPath(rootFolder, rootOutputPath)
+		err := folder.WriteChildrenHtmlToOutputhPath(htmlFilesPath, rootFolder, rootOutputPath)
+		if err != nil {
+			return errors.WithStackTrace(err)
+		}
+	}
+
+	// Since this is a recursive function, make sure we only generate the 404 page once, not on every recursive call.
+	if f.IsRoot {
+		err := Write404PageToOutputPath(htmlFilesPath, rootFolder, rootOutputPath)
 		if err != nil {
 			return errors.WithStackTrace(err)
 		}
@@ -272,8 +280,10 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page) string {
 			childPageTitle := convertDashesToSpacesAndCapitalize(childPage.Title)
 			if childPage == activePage {
 				htmlOutput += fmt.Sprintf("<li class='page'><a class='active' href='#'>%s</a></li>", childPageTitle)
-			} else {
+			} else if activePage != nil {
 				htmlOutput += fmt.Sprintf("<li class='page'><a href='%s'>%s</a></li>", activePage.GetRelPathToPage(childPage), childPageTitle)
+			} else {
+				htmlOutput += fmt.Sprintf("<li class='page'><a href='#'>%s</a></li>", childPageTitle)
 			}
 		}
 

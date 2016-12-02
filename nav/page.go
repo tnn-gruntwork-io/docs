@@ -24,7 +24,9 @@ const MARKDOWN_FILE_PATH_REGEX_NUM_CAPTURE_GROUPS = 1
 const CSS_CLASS_NAME_FOR_PRIVATE_GITHUB_URLS = "private-link-modal-link"
 
 // TODO: Figure out better way to reference this file
-const HTML_TEMPLATE_REL_PATH = "_html/main.template.html"
+const HTML_TEMPLATE_MAIN_FILENAME = "main.template.html"
+const HTML_TEMPLATE_404_FILENAME = "404.template.html"
+const HTML_PAGE_404_FILENAME = "404.html"
 
 // A Page represents a page of documentation, usually formatted as a markdown file.
 type Page struct {
@@ -119,11 +121,12 @@ func getContainingFolder(path string) string {
 }
 
 // Output the full HTML body of this page
-func (p *Page) WriteFullPageHtmlToOutputPath(rootFolder *Folder, rootOutputPath string) error {
+func (p *Page) WriteFullPageHtmlToOutputPath(htmlFilesPath string, rootFolder *Folder, rootOutputPath string) error {
 	bodyHtml := p.getBodyHtml()
-	navTreeHtml := p.getNavTreeHtml(rootFolder)
+	navTreeHtml := getNavTreeHtml(rootFolder, p)
 
-	fullHtml, err := getFullHtml(bodyHtml, navTreeHtml, p.Title, p.GithubUrl, p.InputPath)
+	mainHtmlTemplatePath := filepath.Join(htmlFilesPath, "/", HTML_TEMPLATE_MAIN_FILENAME)
+	fullHtml, err := getFullHtml(mainHtmlTemplatePath, bodyHtml, navTreeHtml, p.Title, p.GithubUrl, p.InputPath)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -144,9 +147,31 @@ func (p *Page) WriteFullPageHtmlToOutputPath(rootFolder *Folder, rootOutputPath 
 	return nil
 }
 
+func Write404PageToOutputPath(htmlFilesPath string, rootFolder *Folder, rootOutputPath string) error {
+	bodyHtml := template.HTML("")
+	navTreeHtml := getNavTreeHtml(rootFolder, nil)
+
+	notFoundHtmlTemplatePath := filepath.Join(htmlFilesPath, "/", HTML_TEMPLATE_404_FILENAME)
+	fullHtml, err := getFullHtml(notFoundHtmlTemplatePath, bodyHtml, navTreeHtml, "Gruntwork Doc Not Found", "", "")
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
+	absOutputPath := filepath.Join(rootOutputPath, HTML_PAGE_404_FILENAME)
+
+	fmt.Printf("Outputting %s to %s\n", notFoundHtmlTemplatePath, absOutputPath)
+
+	err = file.WriteFile(fullHtml, absOutputPath)
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
+	return nil
+}
+
 // Get the NavTree of the given Root Folder with the current page as the "active" page as HTML
-func (p *Page) getNavTreeHtml(rootFolder *Folder) template.HTML {
-	return rootFolder.GetAsNavTreeHtml(p)
+func getNavTreeHtml(rootFolder *Folder, activePage *Page) template.HTML {
+	return rootFolder.GetAsNavTreeHtml(activePage)
 }
 
 // Get the NavTree of the givn Root Folder with the current page as the "active" page as HTML
@@ -476,7 +501,7 @@ func replaceMdFileExtensionWithHtmlFileExtension(path string) (string, error) {
 }
 
 // Return the full HTML rendering of this page within the given HTML template
-func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitle string, githubUrl string, pageInputPath string) (string, error) {
+func getFullHtml(htmlTemplatePath string, pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitle string, githubUrl string, pageInputPath string) (string, error) {
 	var templateOutput string
 
 	type htmlTemplateProperties struct {
@@ -487,7 +512,7 @@ func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitl
 		IsPackagePage bool
 	}
 
-	htmlTemplate, err := getTemplate(HTML_TEMPLATE_REL_PATH, pageTitle)
+	htmlTemplate, err := getTemplate(htmlTemplatePath, pageTitle)
 	if err != nil {
 		return templateOutput, errors.WithStackTrace(err)
 	}
