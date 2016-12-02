@@ -121,7 +121,7 @@ func TestPage_ConvertPackageLinkToUrl(t *testing.T) {
 	}
 
 	for _, testCase := range testCases {
-		actual, err := convertPackageLinkToUrl(testCase.inputPath, testCase.linkPath)
+		actual, err := convertPackageLinkPathToUrl(testCase.inputPath, testCase.linkPath)
 		if err != nil {
 			t.Fatal(err)
 		}

@@ -44,7 +44,7 @@ func (p *Page) PopulateProperties() error {
 
 	p.Title = p.getTitle()
 
-	p.GithubUrl, err = convertPackageLinkToUrl(p.InputPath, "./")
+	p.GithubUrl, err = convertPackageLinkPathToGithubUrl(p.InputPath, "./")
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -123,7 +123,7 @@ func (p *Page) WriteFullPageHtmlToOutputPath(rootFolder *Folder, rootOutputPath 
 	bodyHtml := p.getBodyHtml()
 	navTreeHtml := p.getNavTreeHtml(rootFolder)
 
-	fullHtml, err := getFullHtml(bodyHtml, navTreeHtml, p.Title, p.GithubUrl)
+	fullHtml, err := getFullHtml(bodyHtml, navTreeHtml, p.Title, p.GithubUrl, p.InputPath)
 	if err != nil {
 		return errors.WithStackTrace(err)
 	}
@@ -201,7 +201,7 @@ func convertMarkdownLinksToUrls(inputPath, body string) (string, error) {
 	linkPaths := getAllLinkPaths(body)
 
 	for _, linkPath := range linkPaths {
-		url, err := convertPackageLinkToUrl(inputPath, linkPath)
+		url, err := convertPackageLinkPathToUrl(inputPath, linkPath)
 		if err != nil {
 			return newBody, errors.WithStackTrace(err)
 		}
@@ -261,8 +261,6 @@ func addCssClassToPrivateGitHubUrls(body string, cssClass string, packages []gru
 		for _, match := range matches {
 			oldATag := match[0]
 			newATag := strings.Replace(oldATag, "<a ", fmt.Sprintf(`<a class="%s"`, cssClass), -1)
-
-			fmt.Printf("oldTag = %s, newTag = %s\n", oldATag, newATag)
 
 			newBody = strings.Replace(newBody, oldATag, newATag, -1)
 		}
@@ -347,8 +345,26 @@ func convertGruntworkGithubUrlToInternalLinkAux(linkPath string, githubUrl strin
 	return linkPath
 }
 
-// Convert a linkPath (e.g. /foo/bar) that directs to another Package page to a fully qualified URL. For non-Package links, just return the original link
-func convertPackageLinkToUrl(inputPath, linkPath string) (string, error) {
+
+// Convert a linkPath (e.g. /foo/bar) that directs to a Package page to a GitHub URL. If no GitHub URL can be created, return the empty string.
+func convertPackageLinkPathToGithubUrl(inputPath, linkPath string) (string, error) {
+	var url string
+
+	url, err := convertPackageLinkPathToUrl(inputPath, linkPath)
+	if err != nil {
+		return url, errors.WithStackTrace(err)
+	}
+
+	if linkPath == url {
+		url = ""
+		return url, nil
+	}
+
+	return url, nil
+}
+
+// Convert a linkPath (e.g. /foo/bar) that directs to a Package page to a fully qualified URL. For non-Package links, just return the original link
+func convertPackageLinkPathToUrl(inputPath, linkPath string) (string, error) {
 	var url string
 
 	if isPackageInputPath(inputPath) {
@@ -460,14 +476,15 @@ func replaceMdFileExtensionWithHtmlFileExtension(path string) (string, error) {
 }
 
 // Return the full HTML rendering of this page within the given HTML template
-func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitle string, githubUrl string) (string, error) {
+func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitle string, githubUrl string, pageInputPath string) (string, error) {
 	var templateOutput string
 
 	type htmlTemplateProperties struct {
-		PageTitle string
-		PageBody  template.HTML
-		NavTree   template.HTML
-		GithubUrl string
+		PageTitle     string
+		PageBody      template.HTML
+		NavTree       template.HTML
+		GithubUrl     string
+		IsPackagePage bool
 	}
 
 	htmlTemplate, err := getTemplate(HTML_TEMPLATE_REL_PATH, pageTitle)
@@ -481,6 +498,7 @@ func getFullHtml(pageBodyHtml template.HTML, navTreeHtml template.HTML, pageTitl
 		PageBody: pageBodyHtml,
 		NavTree: navTreeHtml,
 		GithubUrl: githubUrl,
+		IsPackagePage: isPackageInputPath(pageInputPath),
 	})
 	if err != nil {
 		return templateOutput, errors.WithStackTrace(err)

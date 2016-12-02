@@ -50,7 +50,7 @@
         <article>
             <p>You're viewing documentation for the Gruntwork Infrastructure Packages.</p>
             <p>An Infrastructure Package is a reusable, best-practices definition
-                of a piece of infrastructure. We write our Infrastructure Packages using mostly Terraform, and sometimes Golang or Bash.</p>
+                of a piece of infrastructure written mostly in Terraform, with some Golang and Bash where needed.</p>
             <p>The code for an Infrastructure Package is stored in a private GitHub repo made available to Gruntwork clients.
                 These docs were auto-generated from those private GitHub repos.</p>
             <p>The source code for an Infrastructure Package is private, but the documentation files cover foundational
@@ -79,7 +79,9 @@
     <div id="content-wrapper" tabindex="0">
         <header id="main-header">
             <nav id="left">
+                {{ if .IsPackagePage }}
                 <a class="private-link-modal-link" href="{{ .GithubUrl }}">View this Page in GitHub</a>
+                {{ end }}
                 <a href="#about-docs-modal" rel="modal:open">About These Docs</a>
             </nav>
             <nav id="right">
