@@ -14,6 +14,24 @@ import (
 
 // TODO: Copy _content files into tmp _input folder
 
+// Fetch all files from each of the package repos
+//func FetchAllPackageRepoFiles(opts *Opts) error {
+//	var err error
+//
+//	packages, err := getGruntworkPackagesSlice(opts.RepoManifestPath)
+//	if err != nil {
+//		return errors.WithStackTrace(err)
+//	}
+//
+//	for _, gPackage := range packages {
+//		fetchPackageRepoFiles(gPackage)
+//	}
+//
+//	return nil
+//}
+
+// Process the HTML files, static content files, and Gruntwork Package repo files into a nicely formatted HTML website
+// which is output at opts.OutputPath
 func ProcessFiles(opts *Opts) error {
 	var err error
 
@@ -89,6 +107,11 @@ func ProcessFiles(opts *Opts) error {
 	}
 
 	// Copy HTML assets into the output directory
+	err = file.CopyFile(opts.HtmlPath + "/index.html", opts.OutputPath + "/index.html")
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
 	err = file.CopyFiles(opts.HtmlPath + "/css", opts.OutputPath + "/_assets/css")
 	if err != nil {
 		return errors.WithStackTrace(err)
@@ -129,6 +152,7 @@ func getGruntworkPackagesSlice(packagesFilePath string) ([]gruntwork_package.Gru
 	return packages, nil
 }
 
+//func fetchPackageRepoFiles
 
 
 //// This function will walk all the files specified in opt.InputPath and load them into the desired NavTree

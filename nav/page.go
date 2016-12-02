@@ -24,7 +24,7 @@ const MARKDOWN_FILE_PATH_REGEX_NUM_CAPTURE_GROUPS = 1
 const CSS_CLASS_NAME_FOR_PRIVATE_GITHUB_URLS = "private-link-modal-link"
 
 // TODO: Figure out better way to reference this file
-const HTML_TEMPLATE_REL_PATH = "_html/index.template.html"
+const HTML_TEMPLATE_REL_PATH = "_html/main.template.html"
 
 // A Page represents a page of documentation, usually formatted as a markdown file.
 type Page struct {
