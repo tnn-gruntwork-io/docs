@@ -41,7 +41,7 @@ func GetOutputPathOfGlobalImageFile(inputPath string, config config.Config) (str
 	return outputPath, nil
 }
 
-const IS_GLOBAL_NONIMAGE_FILE_REGEX = `^global/([\w -/]*_files)/([\w -]+\.(css|js|txt|pdf|doc|docx|xls|xlsx|rtf|csv|json|xml|yml|yaml|key|ppt|pptx))$`
+const 	IS_GLOBAL_NONIMAGE_FILE_REGEX = `^global/([\w -/]*_files)/([\w -]+\.(css|js|txt|pdf|doc|docx|xls|xlsx|rtf|csv|json|xml|yml|yaml|key|ppt|pptx))$`
 const IS_GLOBAL_NONIMAGE_FILE_REGEX_NUM_CAPTURE_GROUPS = 3
 
 func GetOutputPathOfGlobalNonimageFile(inputPath string, config config.Config) (string, error) {

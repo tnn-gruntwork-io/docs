@@ -3,26 +3,29 @@ package nav
 import (
 	"testing"
 	"github.com/stretchr/testify/assert"
-	"github.com/gruntwork-io/docs/gruntwork_package"
+	"github.com/gruntwork-io/docs/config"
 )
 
 func TestFile_PopulateOutputPath(t *testing.T) {
 	t.Parallel()
 
-	packages := []gruntwork_package.GruntworkPackage{
-		{
-			Name: "Network Topology",
-			Alias: "module-vpc",
-			GithubUrl: "https://github.com/gruntwork-io/module-vpc",
-			GitRef: "0846eaef79c7853d5cab6ae9c47f8a43cf25c70a",
-		},
-		{
-			Name: "Network Topology",
-			Alias: "module-vpc",
-			GithubUrl: "https://github.com/gruntwork-io/module-vpc",
-			GitRef: "0846eaef79c7853d5cab6ae9c47f8a43cf25c70a",
-		},
+	config := &config.Config{
+		TopLevelFolderOrdering: nil,
+		Packages: []config.GruntworkPackage{
+			{
+				Name: "Network Topology",
+				Alias: "module-vpc",
+				GithubUrl: "https://github.com/gruntwork-io/module-vpc",
+				GitRef: "0846eaef79c7853d5cab6ae9c47f8a43cf25c70a",
+			},
+			{
+				Name: "Network Topology",
+				Alias: "module-vpc",
+				GithubUrl: "https://github.com/gruntwork-io/module-vpc",
+				GitRef: "0846eaef79c7853d5cab6ae9c47f8a43cf25c70a",
+			},
 
+		},
 	}
 
 	testCases := []struct {
@@ -37,7 +40,7 @@ func TestFile_PopulateOutputPath(t *testing.T) {
 	for _, testCase := range testCases {
 		file := NewFile(testCase.inputPath, "")
 
-		err := file.PopulateOutputPath(packages)
+		err := file.PopulateOutputPath(*config)
 		if err != nil {
 			t.Fatal(err)
 		}
