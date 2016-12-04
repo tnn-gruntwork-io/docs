@@ -7,8 +7,9 @@ import (
 	"github.com/gobwas/glob"
 	"github.com/urfave/cli"
 	"github.com/gruntwork-io/docs/errors"
-	"github.com/gruntwork-io/docs/logger"
 	"github.com/gruntwork-io/docs/globs"
+	"reflect"
+	"os"
 )
 
 // Customize the --help text for the app so we don't show extraneous info
@@ -52,6 +53,12 @@ type Opts struct {
 	DocPatterns    []glob.Glob
 	Excludes       []glob.Glob
 }
+
+type EnvVars struct {
+	GithubOauthToken string `name:"GITHUB_OAUTH_TOKEN"`
+}
+
+const ENV_VARS_STRUCT_TAG_NAME = "name"
 
 func CreateCli(version string) *cli.App {
 	// Override the exiter to do nothing, since we want our own code to handle errors
@@ -115,11 +122,14 @@ func runApp(cliContext *cli.Context) error {
 		return err
 	}
 
-	logger.Logger.Printf("* * * Starting to process %s into %s * * *", opts.InputPath, opts.OutputPath)
-	if err := ProcessFiles(opts); err != nil {
+	envVars, err := getEnvVars()
+	if err != nil {
 		return err
 	}
-	logger.Logger.Printf("* * * Pre-processing step complete! * * *")
+
+	if err := GenerateDocs(opts, envVars); err != nil {
+		return err
+	}
 
 	return nil
 }
@@ -173,9 +183,46 @@ func parseOpts(cliContext *cli.Context) (*Opts, error) {
 	}, nil
 }
 
+// obtain the env vars from the local environment
+func getEnvVars() (*EnvVars, error) {
+	githubOauthTokenEnvVarName, err := getOsEnvVarName("GithubOauthToken")
+	if err != nil {
+		return nil, errors.WithStackTrace(err)
+	}
+
+	githubOauthTokenEnvVarValue := os.Getenv(githubOauthTokenEnvVarName)
+	if githubOauthTokenEnvVarValue == "" {
+		return nil, errors.WithStackTrace(MissingEnvVar(githubOauthTokenEnvVarName))
+	}
+
+	return &EnvVars{
+		GithubOauthToken: githubOauthTokenEnvVarValue,
+	}, nil
+}
+
+// Given a field name of the EnvVars struct, return the corresponding OS Environemnt Variable name
+func getOsEnvVarName(fieldName string) (string, error) {
+	var osEnvVarName string
+
+	envVars := &EnvVars{}
+	field, ok := reflect.TypeOf(envVars).Elem().FieldByName(fieldName)
+	if !ok {
+		return osEnvVarName, fmt.Errorf("The struct field '%s' was not found in the EnvVars struct.\n", fieldName)
+	}
+
+	tag := field.Tag
+	osEnvVarName = tag.Get(ENV_VARS_STRUCT_TAG_NAME)
+
+	return osEnvVarName, nil
+}
+
 // Custom error types
 type MissingParam string
-
 func (paramName MissingParam) Error() string {
 	return fmt.Sprintf("Required parameter --%s cannot be empty", string(paramName))
+}
+
+type MissingEnvVar string
+func (envVarName MissingEnvVar) Error() string {
+	return fmt.Sprintf("Required environment variable %s cannot be empty", string(envVarName))
 }

@@ -10,25 +10,60 @@ import (
 	"github.com/gruntwork-io/docs/globs"
 	"github.com/gruntwork-io/docs/nav"
 	"github.com/gruntwork-io/docs/config"
+	"github.com/gruntwork-io/docs/github"
 )
 
-// TODO: Copy _content files into tmp _input folder
+func GenerateDocs(opts *Opts, envVars *EnvVars) error {
+	var err error
+
+	// Create a tmp folder where repo files will be downloaded
+	tmpFolder := os.TempDir()
+	logger.Logger.Printf("Created temp folder where Gruntwork Packages will be downloaded: %s.\n", tmpFolder)
+
+	logger.Logger.Printf("* * * Fetching all Gruntwork Packages from GitHub into temp folder... * * *")
+	if err = FetchAllPackageRepoFiles(opts, envVars, tmpFolder); err != nil {
+		return errors.WithStackTrace(err)
+	}
+	logger.Logger.Printf("* * * All Gruntwork Packages have been downloaded and extracted! * * *")
+
+	logger.Logger.Printf("* * * Copying global docs into temp folder... * * *")
+	// TODO: Copy _content files into tmp _input folder
+	logger.Logger.Printf("* * * Copying global docs into temp folder... * * *")
+
+	logger.Logger.Printf("* * * Starting to process repo files into HTML. * * * ")
+	// TODO: ProcessFiles should read from temp folder
+	//if err = ProcessFiles(opts); err != nil {
+	//	return errors.WithStackTrace(err)
+	//}
+	logger.Logger.Printf("* * * Repo files successfuly processed! * * * ")
+
+	return nil
+}
 
 // Fetch all files from each of the package repos
-//func FetchAllPackageRepoFiles(opts *Opts) error {
-//	var err error
-//
-//	packages, err := getGruntworkPackagesSlice(opts.RepoManifestPath)
-//	if err != nil {
-//		return errors.WithStackTrace(err)
-//	}
-//
-//	for _, gPackage := range packages {
-//		fetchPackageRepoFiles(gPackage)
-//	}
-//
-//	return nil
-//}
+func FetchAllPackageRepoFiles(opts *Opts, envVars *EnvVars, dstPath string) error {
+	config, err := config.GetConfigFromJsonFile(opts.ConfigFilePath)
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+
+	for _, gPackage := range config.Packages {
+		logger.Logger.Printf("Downloading %s/%s...\n", gPackage.GithubRepoOwner, gPackage.GithubRepoName)
+		githubCommit := &github.GithubCommit{
+			RepoOwner: gPackage.GithubRepoOwner,
+			RepoName: gPackage.GithubRepoName,
+			GitRef: gPackage.GitRef,
+		}
+
+		githubToken := envVars.GithubOauthToken
+		err := githubCommit.Download(dstPath, githubToken)
+		if err != nil {
+			return errors.WithStackTrace(err)
+		}
+	}
+
+	return nil
+}
 
 // Process the HTML files, static content files, and Gruntwork Package repo files into a nicely formatted HTML website
 // which is output at opts.OutputPath
@@ -134,158 +169,6 @@ func ProcessFiles(opts *Opts) error {
 func shouldSkipPath(path string, opts *Opts) bool {
 	return path == opts.InputPath || globs.MatchesGlobs(path, opts.Excludes)
 }
-
-//func fetchPackageRepoFiles
-
-
-//// This function will walk all the files specified in opt.InputPath and load them into the desired NavTree
-//func LoadDocsIntoNavTree(opts *Opts) error {
-//	return filepath.Walk(opts.InputPath, func(path string, info os.FileInfo, err error) error {
-//		relPath, err := file.GetPathRelativeTo(path, opts.InputPath)
-//		if err != nil {
-//			return err
-//		} else if shouldSkipPath(relPath, opts) {
-//			fmt.Printf("Skipping path %s\n", relPath)
-//			return nil
-//		} else {
-//			allDocFileTypes := docfile.CreateAllDocFileTypes(path, relPath)
-//
-//			for _, docFile := range allDocFileTypes {
-//				if docFile.IsMatch() {
-//
-//
-//					if err = docFile.Copy(opts.OutputPath); err != nil {
-//						return errors.WithStackTrace(err)
-//					}
-//					return nil
-//				}
-//			}
-//
-//			// No DocFile could be created from the given relPath
-//			logger.Logger.Printf("Ignoring %s", relPath)
-//			return nil
-//		}
-//	})
-//}
-
-//
-//// Check whether the given path matches the given RegEx. We panic if there's an error (versus returning a bool and an
-//// error) to keep the if-else statement in ProcessDocs simpler.
-//func checkRegex(path string, regexStr string) bool {
-//	regex := regexp.MustCompile(regexStr)
-//	return regex.MatchString(path)
-//}
-//
-//// Return the output path for a GlobalDoc file. See TestGetGlobalDocOutputPath for expected output.
-//func getGlobalDocOutputPath(path string) (string, error) {
-//	var outputPath string
-//
-//	regex := regexp.MustCompile(IS_GLOBAL_DOC_REGEX)
-//	submatches := regex.FindAllStringSubmatch(path, -1)
-//
-//	if len(submatches) != 1 || len(submatches[0]) != 2 {
-//		return outputPath, WithStackTrace(RegExReturnedUnexpectedNumberOfMatches(IS_GLOBAL_DOC_REGEX))
-//	}
-//
-//	outputPath = submatches[0][1]
-//
-//	return outputPath, nil
-//}
-//
-//// Return the output path for a ModuleDoc file. See TestGetModuleDocExampleOutputPath for expected output.
-//func getModuleDocOutputPath(path string) (string, error) {
-//	var outputPath string
-//
-//	regex := regexp.MustCompile(IS_MODULE_DOC_REGEX)
-//	submatches := regex.FindAllStringSubmatch(path, -1)
-//
-//	if len(submatches) != 1 || len(submatches[0]) != 3 {
-//		return outputPath, errors.New("Module documents must exist in the path /packages/<package-name>/modules/<module-name>/_docs/. Any subfolders in /_docs will generate an error.")
-//	}
-//
-//	// Full string: packages/module-vpc/modules/vpc-app/module-doc.md
-//	// This part: packages/module-vpc/modules/vpc-app
-//	modulePath := submatches[0][1]
-//	modulePath = strings.Replace(modulePath, "modules/", "", 1)
-//
-//	// Full string: packages/module-vpc/modules/vpc-app/module-doc.md
-//	// This part: module-doc.md
-//	fileName := submatches[0][2]
-//
-//	return modulePath + "/" + fileName, nil
-//}
-//
-
-// // Generate the documentation output for the given file into opts.OutputPath. If file is a documentation file, this will
-// // copy the file largely unchanged, other than some placeholder text prepended and some URL tweaks. If file is a
-// // non-documentation file, its contents will be replaced completely by placeholder text.
-// func generateDocsForFile(file string, info os.FileInfo, opts *Opts) error {
-// 	var contents []byte
-// 	var err error
-// 	var outPath = path.Join(opts.OutputPath, file)
-
-// 	if MatchesGlobs(file, opts.DocPatterns) {
-// 		Logger.Printf("Copying documentation file %s to %s without changes, except module-XXX URLs will be replaced with module-XXX-public.", file, outPath)
-// 		contents, err = getContentsForDocumentationFile(file, opts)
-// 	} else {
-// 		Logger.Printf("Copying non-documentation file %s to %s and replacing its contents with placeholder text.", file, outPath)
-// 		contents, err = getContentsForNonDocumentationFile(file, opts)
-// 	}
-
-// 	if err != nil {
-// 		return err
-// 	} else {
-// 		return writeFileWithSamePermissions(outPath, contents, info)
-// 	}
-// }
-
-// // Write the given contents to the given file path with the permissions in the given FileInfo
-// func writeFileWithSamePermissions(file string, contents []byte, info os.FileInfo) error {
-// 	return WithStackTrace(ioutil.WriteFile(file, contents, info.Mode()))
-// }
-
-// // Get the contents for a documentation file. These contents should be unchanged from the original, other than:
-// //
-// // 1. We prepend some placeholder text explaining where this file comes from
-// // 2. In Markdown files, we replace any URLs to private module-XXX repos with URLs to the equivalent module-XXX-public
-// //    repos
-// func getContentsForDocumentationFile(file string, opts *Opts) ([]byte, error) {
-// 	fullPath := path.Join(opts.InputPath, file)
-
-// 	bytes, err := ioutil.ReadFile(fullPath)
-// 	if err != nil {
-// 		return []byte{}, WithStackTrace(err)
-// 	}
-
-// 	isText, err := IsTextFile(fullPath)
-// 	if err != nil {
-// 		return []byte{}, WithStackTrace(err)
-// 	}
-
-// 	// Return binaries, such as images, unchanged
-// 	if !isText {
-// 		return bytes, nil
-// 	}
-
-// 	// contents := string(bytes)
-// 	// if path.Ext(file) == ".md" {
-// 	// 	contents = ReplacePrivateGitHubUrlsWithPublicUrlsInMarkdown(contents)
-// 	// }
-
-// 	// text := CreatePlaceholderTextForFile(file, opts)
-// 	// if len(contents) > 0 {
-// 	// 	text = text + "\n\n" + contents
-// 	// }
-
-// 	//return []byte(text), nil
-// 	return bytes, nil
-// }
-
-// // Get the contents for a non-documentation file. We replace the contents of source files entirely with placeholder
-// // text.
-// func getContentsForNonDocumentationFile(file string, opts *Opts) ([]byte, error) {
-// 	return []byte(CreatePlaceholderTextForFile(file, opts)), nil
-// }
 
 // custom error types
 

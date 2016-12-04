@@ -275,7 +275,7 @@ func addCssClassToPrivateGitHubUrls(body string, cssClass string, config config.
 	newBody = body
 
 	for _, gPackage := range config.Packages {
-		regexStr := fmt.Sprintf(`<a.*href="%s.*".*>`, gPackage.GithubUrl)
+		regexStr := fmt.Sprintf(`<a.*href="%s.*".*>`, gPackage.GetGithubUrl())
 		regex, err := regexp.Compile(regexStr)
 		if err != nil {
 			return newBody, errors.WithStackTrace(err)

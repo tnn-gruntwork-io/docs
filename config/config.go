@@ -8,14 +8,15 @@ import (
 
 type Config struct {
 	Packages               []GruntworkPackage `json:"packages"`
-	TopLevelFolderOrdering []string 	  `json:"top_level_folder_ordering"`
+	TopLevelFolderOrdering []string          `json:"top_level_folder_ordering"`
 }
 
 type GruntworkPackage struct {
-	Name      string `json:"name"`
-	Alias     string `json:"alias"`
-	GithubUrl string `json:"github_url"`
-	GitRef    string `json:"git_ref"`
+	Name            string `json:"name"`
+	Alias           string `json:"alias"`
+	GithubRepoOwner string `json:"github_repo_owner"`
+	GithubRepoName  string `json:"github_repo_name"`
+	GitRef          string `json:"git_ref"`
 }
 
 func GetConfigFromJsonFile(path string) (Config, error) {
@@ -32,7 +33,9 @@ func GetConfigFromJsonFile(path string) (Config, error) {
 	}
 
 	return config, nil
-
 }
 
+func (p *GruntworkPackage) GetGithubUrl() string {
+	return fmt.Sprintf("https://github.com/%s/%s", p.GithubRepoOwner, p.GithubRepoName)
+}
 
