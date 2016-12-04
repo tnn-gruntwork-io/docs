@@ -11,24 +11,33 @@ import (
 	"github.com/gruntwork-io/docs/nav"
 	"github.com/gruntwork-io/docs/config"
 	"github.com/gruntwork-io/docs/github"
+	"io/ioutil"
 )
 
 func GenerateDocs(opts *Opts, envVars *EnvVars) error {
-	var err error
-
 	// Create a tmp folder where repo files will be downloaded
-	tmpFolder := os.TempDir()
-	logger.Logger.Printf("Created temp folder where Gruntwork Packages will be downloaded: %s.\n", tmpFolder)
+	tmpFolder, err := ioutil.TempDir("", "gruntwork-docs")
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+	// TODO: Uncomment this when done doing dev
+	//defer deleteAllFiles(tmpFolder)
+
+	logger.Logger.Printf("Created temp folder where Gruntwork Packages will be downloaded\n")
+	logger.Logger.Printf("Temp Folder = %s\n", tmpFolder)
 
 	logger.Logger.Printf("* * * Fetching all Gruntwork Packages from GitHub into temp folder... * * *")
-	if err = FetchAllPackageRepoFiles(opts, envVars, tmpFolder); err != nil {
+	if err = FetchAllPackageRepoFiles(opts, envVars, tmpFolder + "/packages"); err != nil {
 		return errors.WithStackTrace(err)
 	}
 	logger.Logger.Printf("* * * All Gruntwork Packages have been downloaded and extracted! * * *")
 
 	logger.Logger.Printf("* * * Copying global docs into temp folder... * * *")
-	// TODO: Copy _content files into tmp _input folder
-	logger.Logger.Printf("* * * Copying global docs into temp folder... * * *")
+	err = file.CopyFiles(opts.GlobalDocsPath, tmpFolder + "/global")
+	if err != nil {
+		return errors.WithStackTrace(err)
+	}
+	logger.Logger.Printf("* * * Global docs have been copied! * * *")
 
 	logger.Logger.Printf("* * * Starting to process repo files into HTML. * * * ")
 	// TODO: ProcessFiles should read from temp folder
@@ -168,6 +177,10 @@ func ProcessFiles(opts *Opts) error {
 // Return true if this is a file or folder we should skip completely in the processing step.
 func shouldSkipPath(path string, opts *Opts) bool {
 	return path == opts.InputPath || globs.MatchesGlobs(path, opts.Excludes)
+}
+
+func deleteAllFiles(path string) error {
+	return os.RemoveAll(path)
 }
 
 // custom error types

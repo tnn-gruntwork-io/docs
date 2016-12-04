@@ -37,6 +37,7 @@ COPYRIGHT:
 
 const OPT_HTML_FILES_PATH = "html-files-path"
 const OPT_CONFIG_FILE_PATH = "config-file-path"
+const OPT_GLOBAL_DOCS_PATH = "global-docs-path"
 const OPT_INPUT_PATH = "input-path"
 const OPT_OUTPUT_PATH = "output-path"
 const OPT_DOC_PATTERN = "doc-pattern"
@@ -48,6 +49,7 @@ var DEFAULT_EXCLUDES = []string{".git*", "vendor", "vendor/*", "test/vendor", "t
 type Opts struct {
 	HtmlFilesPath  string
 	ConfigFilePath string
+	GlobalDocsPath string
 	InputPath      string
 	OutputPath     string
 	DocPatterns    []glob.Glob
@@ -82,6 +84,10 @@ func CreateCli(version string) *cli.App {
 		cli.StringFlag{
 			Name:  OPT_CONFIG_FILE_PATH,
 			Usage: "Use the JSON file at the given `PATH` to identify the Gruntwork Packages for which docs should be generated, plus other config.",
+		},
+		cli.StringFlag{
+			Name:  OPT_GLOBAL_DOCS_PATH,
+			Usage: "Copy the files at `PATH` to generate documentation files global to all Gruntwork Packages.",
 		},
 		cli.StringFlag{
 			Name:  OPT_INPUT_PATH,
@@ -145,6 +151,11 @@ func parseOpts(cliContext *cli.Context) (*Opts, error) {
 		return nil, errors.WithStackTrace(MissingParam(OPT_CONFIG_FILE_PATH))
 	}
 
+	globalDocsPath := cliContext.String(OPT_GLOBAL_DOCS_PATH)
+	if globalDocsPath == "" {
+		return nil, errors.WithStackTrace(MissingParam(OPT_GLOBAL_DOCS_PATH))
+	}
+
 	inputPath := cliContext.String(OPT_INPUT_PATH)
 	if inputPath == "" {
 		return nil, errors.WithStackTrace(MissingParam(OPT_INPUT_PATH))
@@ -176,6 +187,7 @@ func parseOpts(cliContext *cli.Context) (*Opts, error) {
 	return &Opts{
 		HtmlFilesPath: htmlPath,
 		ConfigFilePath: repoManifestPath,
+		GlobalDocsPath: globalDocsPath,
 		InputPath: inputPath,
 		OutputPath: outputPath,
 		DocPatterns: docGlobs,

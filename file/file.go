@@ -87,6 +87,7 @@ func IsTextFile(path string) (bool, error) {
 
 // Copy the given file. If a file already exists at dstPath, return an error.
 func CopyFile(srcPath, dstPath string) error {
+	logger.Logger.Printf("Copying %s to %s\n", srcPath, dstPath)
 	containingDir := getContainingDirectory(dstPath)
 
 	err := CreateDir(containingDir)
@@ -135,8 +136,10 @@ func CopyFiles(srcPath, dstPath string) error {
 		fileDstPath := filepath.Join(dstPath, relPath)
 
 		if ! IsDir(fileSrcPath) {
+			logger.Logger.Printf("Copying %s to %s\n", fileSrcPath, fileDstPath)
 			err = CopyFile(fileSrcPath, fileDstPath)
 			if err != nil {
+				fmt.Println("G")
 				return errors.WithStackTrace(err)
 			}
 		}
