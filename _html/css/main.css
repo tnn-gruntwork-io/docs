@@ -350,6 +350,10 @@ header#main-header nav#left a:hover {
     font-weight:bold;
 }
 
+#sidebar ul li.folder.package_folder > a {
+    font-weight:bold;
+}
+
 #sidebar ul li.top_level_folder > a {
     font-weight: bold;
     font-size:100%;
