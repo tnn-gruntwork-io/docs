@@ -13,6 +13,62 @@
       "github_repo_owner": "gruntwork-io",
       "github_repo_name": "module-aws-monitoring",
       "git_ref": "c15a7224466a73b6b87f5ffba8f0253afe0b81a1"
+    },
+    {
+      "name": "Docker Cluster",
+      "folder_name": "docker-cluster",
+      "github_repo_owner": "gruntwork-io",
+      "github_repo_name": "module-ecs",
+      "git_ref": "103e495642efb09f9d7ccb653e206c8f09230f75"
+    },
+    {
+      "name": "AMI Cluster",
+      "folder_name": "module-asg",
+      "github_repo_owner": "gruntwork-io",
+      "github_repo_name": "module-asg",
+      "git_ref": "47b753237661a70f782533f6e01c41d087e63eef"
+    },
+    {
+      "name": "Monitoring & Alerting",
+      "folder_name": "monitoring-and-alerting",
+      "github_repo_owner": "gruntwork-io",
+      "github_repo_name": "module-aws-monitoring",
+      "git_ref": "c15a7224466a73b6b87f5ffba8f0253afe0b81a1"
+    },
+    {
+      "name": "Security",
+      "folder_name": "security",
+      "github_repo_owner": "gruntwork-io",
+      "github_repo_name": "module-security",
+      "git_ref": "5dd2c787bca2637d9e05d7513da5100e039b96ee"
+    },
+    {
+      "name": "Continuous Delivery",
+      "folder_name": "continuous-delivery",
+      "github_repo_owner": "gruntwork-io",
+      "github_repo_name": "module-ci",
+      "git_ref": "d266085de81df76b9f1bbda2b5552ac0447a6920"
+    },
+    {
+      "name": "Relational Database",
+      "folder_name": "relational-database",
+      "github_repo_owner": "gruntwork-io",
+      "github_repo_name": "module-data-storage",
+      "git_ref": "d07bcbbfd7686574bc99ab3e8f8d7c823a7fc1b6"
+    },
+    {
+      "name": "Distributed Cache",
+      "folder_name": "distributed-cache",
+      "github_repo_owner": "gruntwork-io",
+      "github_repo_name": "module-cache",
+      "git_ref": "6b272ba0f6d405ac0dc8c927f0904372462a4362"
+    },
+    {
+      "name": "Stateful Server",
+      "folder_name": "stateful-server",
+      "github_repo_owner": "gruntwork-io",
+      "github_repo_name": "module-server",
+      "git_ref": "3812f2fc9f838e472cac5ad1b312f7f191791db8"
     }
   ],
   "top_level_folder_ordering": [
