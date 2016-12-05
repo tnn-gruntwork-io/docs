@@ -47,7 +47,7 @@ func GetOutputPathOfModuleDoc(inputPath string, config config.Config) (string, e
 	moduleName := submatches[0][2] 	// = vpc-app
 	docName := submatches[0][3] 	// = module-doc.md
 
-	packageName = getOutputPackageFolderNameFromInputPackageFolderName(config.Packages, packageName)
+	packageName = GetPackageFolderNameFromPackageRepoName(config.Packages, packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/%s/%s", packageName, moduleName, docName)
 
@@ -71,7 +71,7 @@ func GetOutputPathOfModuleOverviewDoc(inputPath string, config config.Config) (s
 	packageName := submatches[0][1] // = module-vpc
 	moduleName := submatches[0][2] 	// = vpc-app
 
-	packageName = getOutputPackageFolderNameFromInputPackageFolderName(config.Packages, packageName)
+	packageName = GetPackageFolderNameFromPackageRepoName(config.Packages, packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/modules/%s/overview.md", packageName, moduleName)
 
@@ -96,7 +96,7 @@ func GetOutputPathOfModuleExampleDoc(inputPath string, config config.Config) (st
 	moduleName := submatches[0][2] 	// = vpc-app
 	docName := submatches[0][3] 	// = example-doc.md
 
-	packageName = getOutputPackageFolderNameFromInputPackageFolderName(config.Packages, packageName)
+	packageName = GetPackageFolderNameFromPackageRepoName(config.Packages, packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/modules/%s/%s", packageName, moduleName, docName)
 
@@ -120,7 +120,7 @@ func GetOutputPathOfModuleExampleOverviewDoc(inputPath string, config config.Con
 	packageName := submatches[0][1] // = module-vpc
 	moduleName := submatches[0][2] 	// = vpc-app
 
-	packageName = getOutputPackageFolderNameFromInputPackageFolderName(config.Packages, packageName)
+	packageName = GetPackageFolderNameFromPackageRepoName(config.Packages, packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/modules/%s/examples.md", packageName, moduleName)
 
@@ -144,7 +144,7 @@ func GetOutputPathOfPackageDoc(inputPath string, config config.Config) (string, 
 	packageName := submatches[0][1] // = package-vpc
 	docName := submatches[0][2] 	// = doc-name.md
 
-	packageName = getOutputPackageFolderNameFromInputPackageFolderName(config.Packages, packageName)
+	packageName = GetPackageFolderNameFromPackageRepoName(config.Packages, packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/%s", packageName, docName)
 
@@ -167,7 +167,7 @@ func GetOutputPathOfPackageOverviewDoc(inputPath string, config config.Config) (
 	// If we were parsing inputPath = packages/package-vpc/README.md...
 	packageName := submatches[0][1] // = package-vpc
 
-	packageName = getOutputPackageFolderNameFromInputPackageFolderName(config.Packages, packageName)
+	packageName = GetPackageFolderNameFromPackageRepoName(config.Packages, packageName)
 
 	outputPath = fmt.Sprintf("packages/%s/overview.md", packageName)
 

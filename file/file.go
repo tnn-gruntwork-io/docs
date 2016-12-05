@@ -164,10 +164,9 @@ func WriteFile(body string, dstPath string) error {
 		return errors.WithStackTrace(fmt.Errorf("Error while making directory %s", containingDir))
 	}
 
-	// TODO: Uncomment this since it's for dev only.
-	//if isFileExist(dstPath) {
-	//	return errors.WithStackTrace(fmt.Errorf("A file already exists at the path %s. Overwriting existing files is not permitted. Most likely, another file with a conflicting name was already written to this location.\n", dstPath))
-	//}
+	if isFileExist(dstPath) {
+		return errors.WithStackTrace(fmt.Errorf("A file already exists at the path %s. Overwriting existing files is not permitted. Most likely, another file with a conflicting name was already written to this location.\n", dstPath))
+	}
 
 	bodyAsBytes := []byte(body)
 	err = ioutil.WriteFile(dstPath, bodyAsBytes, os.ModePerm)

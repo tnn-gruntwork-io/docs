@@ -6,27 +6,32 @@ import (
 )
 
 // Given a Package Folder Name (e.g. "module-vpc") return the corresponding Package Name (e.g. "Network Topology")
-func getOutputPackageFolderNameFromInputPackageFolderName(packages []config.GruntworkPackage, packageFolderName string) string {
+func GetPackageFriendlyNameFromPackageFolderName(packages []config.GruntworkPackage, packageFolderName string) string {
 	for _, gPackage := range packages {
-		if gPackage.Alias == packageFolderName {
-			return convertSpacesToDashesAndLowerCase(gPackage.Name)
+		if gPackage.FolderName == packageFolderName {
+			return gPackage.Name
 		}
 	}
 
 	return packageFolderName
 }
 
+// Given a Package Folder Name (e.g. "module-vpc") return the corresponding Package Folder Name (e.g. "network-topology")
+func GetPackageFolderNameFromPackageRepoName(packages []config.GruntworkPackage, packageRepoName string) string {
+	for _, gPackage := range packages {
+		if gPackage.GithubRepoName == packageRepoName {
+			return gPackage.FolderName
+		}
+	}
+
+	return packageRepoName
+}
+
 // Convert "network-topology" into "Network Topology"
 func convertDashesToSpacesAndCapitalize(str string) string {
 	str = strings.Replace(str, "-", " ", -1)
 	str = strings.Title(str)
-	return str
-}
 
-// Convert "Network Topology" into "network-topology"
-func convertSpacesToDashesAndLowerCase(str string) string {
-	str = strings.Replace(str, " ", "-", -1)
-	str = strings.ToLower(str)
 	return str
 }
 

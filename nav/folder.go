@@ -2,14 +2,14 @@ package nav
 
 import (
 	"strings"
-	"github.com/gruntwork-io/docs/util"
 	"path/filepath"
 	"fmt"
-	"github.com/gruntwork-io/terragrunt/errors"
 	"html/template"
 	"regexp"
 	"sort"
 	"github.com/gruntwork-io/docs/config"
+	"github.com/gruntwork-io/docs/errors"
+	"github.com/gruntwork-io/docs/util"
 )
 
 type Folder struct {
@@ -254,7 +254,9 @@ func (f *Folder) getAsNavTreeHtmlAux(activePage *Page, config config.Config) str
 
 	for _, childFolder := range f.ChildFolders {
 		childFolderName := childFolder.Name
-		if ! childFolder.IsModuleFolder {
+		if childFolder.IsPackageFolder {
+			childFolderName = GetPackageFriendlyNameFromPackageFolderName(config.Packages, childFolderName)
+		} else if ! childFolder.IsModuleFolder {
 			childFolderName = convertDashesToSpacesAndCapitalize(childFolderName)
 		}
 

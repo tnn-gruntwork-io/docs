@@ -9,6 +9,7 @@ import (
 	"path/filepath"
 	"archive/zip"
 	"os"
+	"strings"
 )
 
 // Represents a specific commit of a GitHub Repo
@@ -26,16 +27,15 @@ func (c *GithubCommit) Download(dstPath string, githubToken string) error {
 	}
 	defer deleteAllFiles(zipFilePath)
 
-	if err = extractZipFile(zipFilePath, dstPath); err != nil {
+	if err = extractZipFile(zipFilePath, dstPath, c.RepoName); err != nil {
 		return errors.WithStackTrace(err)
 	}
 
 	return nil
 }
 
-// Decompress the file at zipFilePath to localPath
-func extractZipFile(zipFilePath, localPath string) error {
-
+// Extract the contents of the zip file at zipFilePath into localPath
+func extractZipFile(zipFilePath, localPath, repoName string) error {
 	// Open the zip file for reading.
 	reader, err := zip.OpenReader(zipFilePath)
 	if err != nil {
@@ -46,9 +46,14 @@ func extractZipFile(zipFilePath, localPath string) error {
 	// Iterate through the files in the archive,
 	// printing some of their contents.
 	for _, f := range reader.File {
+		// Replace the top-level directory name in the zip file with the repo name
+		// By default, GitHub unzips to a top-level directory name like gruntwork-io-module-aws-monitoring-c15a7224466a73b6b87f5ffba8f0253afe0b81a1
+		// so we need to replace this with just "module-aws-monitoring"
+		relFileOutputPath := replaceTopMostDirectory(f.Name, repoName)
+
 		if f.FileInfo().IsDir() {
 			// Create a directory
-			os.MkdirAll(filepath.Join(localPath, f.Name), 0777)
+			os.MkdirAll(filepath.Join(localPath, relFileOutputPath), 0777)
 		} else {
 			// Read the file into a byte array
 			readCloser, err := f.Open()
@@ -62,7 +67,7 @@ func extractZipFile(zipFilePath, localPath string) error {
 			}
 
 			// Write the file
-			err = ioutil.WriteFile(filepath.Join(localPath, f.Name), byteArray, 0644)
+			err = ioutil.WriteFile(filepath.Join(localPath, relFileOutputPath), byteArray, 0644)
 			if err != nil {
 				return fmt.Errorf("Failed to write file: %s", err)
 			}
@@ -133,6 +138,16 @@ func makeGitHubZipFileRequest(commit *GithubCommit, githubToken string) (*http.R
 	}
 
 	return request, nil
+}
+
+func replaceTopMostDirectory(path, newDirName string) string {
+	var newPath string
+
+	pathParts := strings.Split(path, "/")
+	newPath = strings.Join(pathParts[1:], "/")
+	newPath = filepath.Join(newDirName, newPath)
+
+	return newPath
 }
 
 func deleteAllFiles(path string) error {

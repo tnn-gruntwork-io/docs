@@ -34,7 +34,7 @@ func TestShouldSkipPath(t *testing.T) {
 		globs, err := globs.ToGlobs(testCase.excludes)
 		assert.Nil(t, err, "Failed to compile glob patterns: %s", testCase.excludes)
 
-		actual := shouldSkipPath(testCase.path, &Opts{InputPath: testCase.inputPath, Excludes: globs})
+		actual := shouldSkipPath(testCase.path, testCase.inputPath, &Opts{Excludes: globs})
 		assert.Equal(t, testCase.expected, actual, "path = %s, inputPath = %s, excludes = %s", testCase.path, testCase.inputPath, testCase.excludes)
 	}
 }

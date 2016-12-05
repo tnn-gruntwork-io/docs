@@ -14,15 +14,17 @@ func TestFile_PopulateOutputPath(t *testing.T) {
 		Packages: []config.GruntworkPackage{
 			{
 				Name: "Network Topology",
-				Alias: "module-vpc",
-				GithubUrl: "https://github.com/gruntwork-io/module-vpc",
+				FolderName: "network-topology",
+				GithubRepoOwner: "gruntwork-io",
+				GithubRepoName: "module-vpc",
 				GitRef: "0846eaef79c7853d5cab6ae9c47f8a43cf25c70a",
 			},
 			{
-				Name: "Network Topology",
-				Alias: "module-vpc",
-				GithubUrl: "https://github.com/gruntwork-io/module-vpc",
-				GitRef: "0846eaef79c7853d5cab6ae9c47f8a43cf25c70a",
+				Name: "Monitoring & Alerting",
+				FolderName: "monitoring-and-alerting",
+				GithubRepoOwner: "gruntwork-io",
+				GithubRepoName: "module-aws-monitoring",
+				GitRef: "c15a7224466a73b6b87f5ffba8f0253afe0b81a1",
 			},
 
 		},

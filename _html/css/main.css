@@ -340,10 +340,6 @@ header#main-header nav#left a:hover {
     margin-bottom: 0
 }
 
-#sidebar ul li.folder {
-    text-transform: capitalize;
-}
-
 #sidebar ul li.folder.module_folder > a {
     text-transform: lowercase;
     font-family: Monaco, Menlo, Consolas, monospace;
