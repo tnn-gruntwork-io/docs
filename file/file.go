@@ -87,7 +87,7 @@ func IsTextFile(path string) (bool, error) {
 
 // Copy the given file. If a file already exists at dstPath, return an error.
 func CopyFile(srcPath, dstPath string) error {
-	logger.Logger.Printf("Copying %s to %s\n", srcPath, dstPath)
+	logger.Logger.Printf("Copying %s...\n", srcPath)
 	containingDir := getContainingDirectory(dstPath)
 
 	err := CreateDir(containingDir)
@@ -95,10 +95,9 @@ func CopyFile(srcPath, dstPath string) error {
 		return errors.WithStackTrace(fmt.Errorf("Error while making directory %s", containingDir))
 	}
 
-	// TODO: Uncomment this since it's for dev only.
-	//if isFileExist(dstPath) {
-	//	return errors.WithStackTrace(fmt.Errorf("A file already exists at the path %s. Overwriting existing files is not permiitted. Most likely, another file with a conflicting name was already written to this location.\n", dstPath))
-	//}
+	if isFileExist(dstPath) {
+		return errors.WithStackTrace(fmt.Errorf("A file already exists at the path %s. Overwriting existing files is not permitted. Most likely, another file with a conflicting name was already written to this location.\n", dstPath))
+	}
 
 	bytes, err := ioutil.ReadFile(srcPath)
 	if err != nil {
@@ -136,10 +135,8 @@ func CopyFiles(srcPath, dstPath string) error {
 		fileDstPath := filepath.Join(dstPath, relPath)
 
 		if ! IsDir(fileSrcPath) {
-			logger.Logger.Printf("Copying %s to %s\n", fileSrcPath, fileDstPath)
 			err = CopyFile(fileSrcPath, fileDstPath)
 			if err != nil {
-				fmt.Println("G")
 				return errors.WithStackTrace(err)
 			}
 		}
@@ -169,7 +166,7 @@ func WriteFile(body string, dstPath string) error {
 
 	// TODO: Uncomment this since it's for dev only.
 	//if isFileExist(dstPath) {
-	//	return errors.WithStackTrace(fmt.Errorf("A file already exists at the path %s. Overwriting existing files is not permiitted. Most likely, another file with a conflicting name was already written to this location.\n", dstPath))
+	//	return errors.WithStackTrace(fmt.Errorf("A file already exists at the path %s. Overwriting existing files is not permitted. Most likely, another file with a conflicting name was already written to this location.\n", dstPath))
 	//}
 
 	bodyAsBytes := []byte(body)

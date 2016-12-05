@@ -15,7 +15,7 @@ import (
 )
 
 func GenerateDocs(opts *Opts, envVars *EnvVars) error {
-	// Create a tmp folder where repo files will be downloaded
+	// Create a temp folder where repo files will be downloaded
 	tmpFolder, err := ioutil.TempDir("", "gruntwork-docs")
 	if err != nil {
 		return errors.WithStackTrace(err)
@@ -40,10 +40,9 @@ func GenerateDocs(opts *Opts, envVars *EnvVars) error {
 	logger.Logger.Printf("* * * Global docs have been copied! * * *")
 
 	logger.Logger.Printf("* * * Starting to process repo files into HTML. * * * ")
-	// TODO: ProcessFiles should read from temp folder
-	//if err = ProcessFiles(opts); err != nil {
-	//	return errors.WithStackTrace(err)
-	//}
+	if err = ProcessFiles(tmpFolder, opts); err != nil {
+		return errors.WithStackTrace(err)
+	}
 	logger.Logger.Printf("* * * Repo files successfuly processed! * * * ")
 
 	return nil
@@ -76,7 +75,7 @@ func FetchAllPackageRepoFiles(opts *Opts, envVars *EnvVars, dstPath string) erro
 
 // Process the HTML files, static content files, and Gruntwork Package repo files into a nicely formatted HTML website
 // which is output at opts.OutputPath
-func ProcessFiles(opts *Opts) error {
+func ProcessFiles(inputPath string, opts *Opts) error {
 	var err error
 
 	config, err := config.GetConfigFromJsonFile(opts.ConfigFilePath)
@@ -87,11 +86,11 @@ func ProcessFiles(opts *Opts) error {
 	rootNavFolder := nav.NewRootFolder()
 
 	// Walk all files, copy non-markdown files ("files") and load all markdown files ("pages") into a nav tree
-	err = filepath.Walk(opts.InputPath, func(fullInputPath string, info os.FileInfo, fileErr error) error {
-		relInputPath, err := file.GetPathRelativeTo(fullInputPath, opts.InputPath)
+	err = filepath.Walk(inputPath, func(fullInputPath string, info os.FileInfo, fileErr error) error {
+		relInputPath, err := file.GetPathRelativeTo(fullInputPath, inputPath)
 		if err != nil {
 			return err
-		} else if shouldSkipPath(relInputPath, opts) {
+		} else if shouldSkipPath(relInputPath, inputPath, opts) {
 			logger.Logger.Printf("Skipping path %s\n", relInputPath)
 			return nil
 		} else {
@@ -115,7 +114,7 @@ func ProcessFiles(opts *Opts) error {
 			}
 
 			if file.IsFile() {
-				if err = file.WriteToOutputPath(opts.InputPath, opts.OutputPath); err != nil {
+				if err = file.WriteToOutputPath(inputPath, opts.OutputPath); err != nil {
 					return errors.WithStackTrace(err)
 				}
 			}
@@ -175,8 +174,9 @@ func ProcessFiles(opts *Opts) error {
 }
 
 // Return true if this is a file or folder we should skip completely in the processing step.
-func shouldSkipPath(path string, opts *Opts) bool {
-	return path == opts.InputPath || globs.MatchesGlobs(path, opts.Excludes)
+// The "inputPath" refers to the path where all files were originally processed from (most likely a tmp folder)
+func shouldSkipPath(path string, inputPath string, opts *Opts) bool {
+	return path == inputPath || globs.MatchesGlobs(path, opts.Excludes)
 }
 
 func deleteAllFiles(path string) error {
