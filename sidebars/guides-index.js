@@ -15,7 +15,7 @@ const sidebar = [
     id: "guides/build-it-yourself/index",
   },
   {
-    label: "Update Guides",
+    label: "Update Guide",
     type: "doc",
     id: "guides/stay-up-to-date/index",
   },
