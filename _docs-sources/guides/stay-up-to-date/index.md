@@ -87,21 +87,31 @@ through how to update these modules.
 
 Now that you have seen which modules have newer versions available, let's update one of them to the latest version!
 
-### A note on _patching_
+### Patches: going beyond version number bumps
 
 Note that Terragrunt Pro can update not only the version numbers of your modules, but it can also discover and apply
-_patches_ which can automatically update other aspects of your code. This can be especially useful for:
+_patches_ which can automatically update other aspects of your code: e.g., rename a variable, write a new file, etc.
+Under the hood, a patch is a YAML file that defines (a) what module and versions to target, (b) a series of shell
+commands to execute, and (c) a Docker container in which to run those commands.
+
+Any library maintainer can publish a patch for a specific release, and Terragrunt Pro can automatically find these
+patches, show them to you for review, and, with your approval, apply the patches as part of the update process. This is
+useful for:
 
 - **Backwards incompatible releases**: If a module maintainer made a backwards incompatible change in the latest
   release, such as renaming an input variable, that maintainer can create a patch that automatically updates your code
   to use the new input variable name. This makes upgrading across major versions much easier.
 
 - **Rolling out new functionality**: Sometimes, you want to roll out a change across multiple repos, such as updating
-  the copyright year or adding a license file. You can create a patch file to do this.
+  the copyright year, or adding a license file, or enabling a new feature for users of your library. You can create a
+  patch file to automate this process.
+
+For more information on creating patches, check out the <a>patch file format documentation</a>.
 
 ### The update command
 
-To update a module, you can use the `update` command:
+To update a module to the latest version (including discovering and applying any patches for that version), you can use
+the `update` command:
 
 ```
 terragrunt update <ENV> [<MODULE>]
@@ -120,17 +130,18 @@ For example, to update the `eks` module in `dev`, you'd run:
 terragrunt update dev eks
 ```
 
-By default, the `update` command walks you through an interactive process where it:
+By default, the `update` command walks you through an interactive process where it performs the following steps:
 
-- Scans for dependencies.
-- Looks for new versions of the dependencies it found.
-- If new versions are found, prompts you if you want to update to the new versions.
-- If you choose to update to a new version, looks for patches for that new version, and prompts you if you want to
-  apply one of the patches. NOTE: Patches will be executed in a Docker container on your computer, so make sure to read
-  the patch source code carefully to be sure you're comfortable with it!
-- After updating the version and applying patches, runs `terragrunt plan` as a quick check that everything is still
-  working.
-- Runs `git diff` to show you the code changes that resulted from the update.
+1. **Find new versions**: Scan for dependencies and show if new versions are available.
+1. **Prompt to update versions**: Interactively prompt the user whether to update to a new version.
+1. **Find patches**: If yu chose to update to a new version, show any patches available for that version.
+1. **Prompt to apply patches**: Interactively prompt the user whether to apply a patch. You should always review the
+   patch source code before applying to ensure the updates are applicable and safe for your environment.
+1. **Test**: After updating the version and applying patches, run `terragrunt plan` as a quick test that everything is
+   still working.
+
+By default, the `update` command makes changes to the code you have checked out locally, so you'll need to commit those
+changes as descirbed in the next section.
 
 ### Committing the changes
 
@@ -138,7 +149,7 @@ If you're happy with the changes from the `update` command, commit and push them
 
 ```
 git add .
-git commit -m “Update EKS in dev”
+git commit -m "Update EKS in dev"
 git push origin main
 ```
 
@@ -177,15 +188,48 @@ versions and patches and prompting you if you want to update to the new versions
 time:
 
 - You'll go through this process multiple times, once for each dependency in the environment that needs to be updated.
-- At the end, you'll have a PR opened for each dependency that was updated. You'll want to go through each PR, review
-  the changes, and if everything looks good, merge them in.
+- At the end, you'll have a PR opened for each dependency that was updated.
+
+When this `update` command finishes running, it'll print out a list of all the PRs that were opened. You'll want to go
+through each PR, review the changes, and if everything looks good, merge them in.
 
 ## Configure automated upgrades in CI
 
 Now that you've gone through the process of updating a single module and a whole environment using the CLI, you're in a
-great place to learn how to automate it by adding it to your CI / CD pipeline on an automated schedule (similar to a
+great place to learn how to automate it by adding it to your CI / CD pipeline on a regular schedule (similar to a
 cron job). You can still use the CLI on a one-off basis whenever you want, but by running the `update` command on a
-regular schedule, you can ensure that your infrastructure is kept up to date automatically, on a regular cadence.
+regular schedule in CI, you can ensure that your infrastructure is kept up to date automatically, on a regular cadence.
+
+In a CI environment, you will typically run the `update` command with the following flags:
+
+```
+terragrunt update \
+  --pr \
+  --branch-per-dependency \
+  --in-order <ENV1>[,<ENV2>,<ENV3>...] \
+  --non-interactive \
+  --patch-via-comments
+```
+
+Where:
+
+- `--pr` tells the CLI to automatically commit the changes and open a pull request (PR).
+- `--dependency-per-branch` tells the CLI to update each dependency in a separate branch, and therefore, open a
+  separate pull request for each one.
+- `--in-order <ENV1>[,<ENV2>,<ENV3>...]` tells the `update` command to open pull requests for one environment at a time,
+  in the order specified. That is, initially, only open a PR for `ENV1`; only when that PR is merged, open another PR
+  for `ENV2`; only when that PR is merged, opened another PR for `ENV3`; and so on. This allows you to ensure updates
+  are "promoted" from environment to environment in the order you expect.
+- `--non-interactive`: This ensures the CLI does not prompt you for any interactive inputs. When this flag is set, the
+  `update` command, by default, will automatically update modules to the latest versions, but it will NOT apply patches
+  for those new versions automatically. You can instead apply patches in the PR UI—only after reviewing the patch
+  source code—as explained in the next flag.
+- `--patch-via-comments`: Add a comment to each update PR that shows the list of patches available. Next to each patch
+  is a checkbox that, if you check, will automatically apply that patch and update the PR with the results. This allows
+  you to review and apply patches entirely from the GitHub PR UI.
+
+The next several sections show you how to configure the `update` command to run on a regular schedule in various CI
+servers.
 
 ### GitLab instructions
 
@@ -207,30 +251,22 @@ jobs:
       - checkout
       - run: |
           terragrunt update \
-          --in-order <ENV>[,<ENV>...] \     # Open 1 PR per env, in this order
           --pr \                            # Open PRs with updates
           --branch-per-dependency \         # Open 1 PR per dependency
+          --in-order dev,stage,prod \       # Open 1 PR per env, in this order
           --non-interactive \               # Don’t prompt for input
           --patch-via-comments              # Use PR comments to select patches
 ```
 
-You'll notice it's the same `update` command again, with just a handful of new flags:
+:::tip
 
-- `--in-order`: This flags, combined with `--pr`, tells the `update` command to open pull requests for one environment
-  at a time, in the order specified. For example, if you used `--in-order dev,stage,prod`, and a new version of the
-  `eks` module came out, the `update` command would first open a PR to update it in the `dev` environment; only after
-  that PR has been merged, next time you run `update`, it will open a new PR to update `eks` in the `stage` environment;
-  and when that PR has been merged, the next time you run `update`, it will update `eks` in the `prod` environment.
-  This allows you to ensure updates are "promoted" from environment to environment in the order you expect.
-- `--non-interactive`: This ensures the CLI does not prompt you for any interactive inputs. The default behavior is to
-  update the code to any new versions that are available, but NOT to apply patches for those new versions automatically
-  (see the next flag for how patches are handled in a non-interactive setting).
-- `--patch-via-comments`: If a PR is opened to bump to a new version number, and a patch is available for that version,
-  the `update` command will add a comment to the PR with information about that patch, and the ability to click a
-  checkbox in that comment to apply the patch. This allows you to preview patches and apply the ones you want all from
-  the GitHub PR UI.
+Make sure to update the `--in-order` flag with the names of the environments you wish to update!
 
-Now, to use this new `auto-update` job, add an `auto-update` entry under `workflows`:
+:::
+
+
+Next, tell CircleCI to run the `auto-update` job on a regular schedule by adding a new `auto-update` entry under
+`workflows`:
 
 ```yaml
 workflows:
@@ -257,8 +293,14 @@ git commit -m “Configure auto update in CI”
 git push origin main
 ```
 
-That's it! Your CI / CD pipeline will now automatically update your infrastructure. Check your `infrastructure-live`
-repo and inbox periodically for notifications about new PRs, and when things look good, merge them in.
+That's it! Your CI / CD pipeline will now automatically update your infrastructure.
+
+:::tip
+
+Terragrunt will now open PRs automatically when there are new updates. **Remember to periodically check your inbox for
+notifications** of these PRs, and to review and merge these in if the changes look good.
+
+:::
 
 ## Success!
 
