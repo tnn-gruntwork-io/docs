@@ -66,7 +66,7 @@ You should see a table that looks something like this:
 ```
 Module Name   | dev     | stage    | prod    | (latest version)
 vpc           | v1.1.0  | v1.1.0   | v1.1.0  | v1.1.0
-ecs           | v4.1.1* | v4.1.1*  | v4.1.1* | v5.0.0
+eks           | v4.1.1* | v4.1.1*  | v4.1.1* | v5.0.0
 rds           | v0.2.3  | v0.2.2*  | v0.2.2* | v0.2.3
 
 * indicates an update is available
@@ -75,12 +75,12 @@ rds           | v0.2.3  | v0.2.2*  | v0.2.2* | v0.2.3
 This table shows:
 
 - Each of your environments (e.g., dev, stage, prod).
-- The modules deployed (e.g., vpc, ecs, rds).
+- The modules deployed (e.g., vpc, eks, rds).
 - The version of each module deployed in each environment (e.g., v0.2.3, v0.2.2).
 - The latest version available of each module (e.g., v0.2.3).
 
 An asterisk next to any version number indicates a newer version is available and that you may want to update: in the
-example above, you can see that the `ecs` and `rds` modules need an update. The next several sections will walk you
+example above, you can see that the `eks` and `rds` modules need an update. The next several sections will walk you
 through how to update these modules.
 
 ## Update a single module with the CLI
@@ -111,13 +111,13 @@ Where:
 
 - `ENV`: the environment in which to update the module (e.g., dev, stage, prod). This corresponds to a folder name in
   your `infrastructure-live` repo.
-- `MODULE`: the module to update in that environment (e.g., `ecs`, `rds`). The `live list` command shows you all the
+- `MODULE`: the module to update in that environment (e.g., `eks`, `rds`). The `live list` command shows you all the
   module and environment names.
 
-For example, to update the `ecs` module in `dev`, you'd run:
+For example, to update the `eks` module in `dev`, you'd run:
 
 ```
-terragrunt update dev ecs
+terragrunt update dev eks
 ```
 
 By default, the `update` command walks you through an interactive process where it:
@@ -138,7 +138,7 @@ If you're happy with the changes from the `update` command, commit and push them
 
 ```
 git add .
-git commit -m “Update ecs in dev”
+git commit -m “Update EKS in dev”
 git push origin main
 ```
 
@@ -218,9 +218,9 @@ You'll notice it's the same `update` command again, with just a handful of new f
 
 - `--in-order`: This flags, combined with `--pr`, tells the `update` command to open pull requests for one environment
   at a time, in the order specified. For example, if you used `--in-order dev,stage,prod`, and a new version of the
-  `ecs` module came out, the `update` command would first open a PR to update it in the `dev` environment; only after
-  that PR has been merged, next time you run `update`, it will open a new PR to update `ecs` in the `stage` environment;
-  and when that PR has been merged, the next time you run `update`, it will update `ecs` in the `prod` environment.
+  `eks` module came out, the `update` command would first open a PR to update it in the `dev` environment; only after
+  that PR has been merged, next time you run `update`, it will open a new PR to update `eks` in the `stage` environment;
+  and when that PR has been merged, the next time you run `update`, it will update `eks` in the `prod` environment.
   This allows you to ensure updates are "promoted" from environment to environment in the order you expect.
 - `--non-interactive`: This ensures the CLI does not prompt you for any interactive inputs. The default behavior is to
   update the code to any new versions that are available, but NOT to apply patches for those new versions automatically
