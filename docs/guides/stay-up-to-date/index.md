@@ -164,14 +164,14 @@ The recommended way to do this is to run:
 terragrunt update \
   <ENV> \
   --pr \
-  --dependency-per-branch
+  --branch-per-dependency
 ```
 
 Where:
 
 - `ENV` is the name of the environment to update (e.g., dev, stage, prod).
 - `--pr` tells the CLI to automatically commit the changes and open a pull request (PR).
-- `--dependency-per-branch` tells the CLI to update each dependency in a separate branch, and therefore, open a
+- `--branch-per-dependency` tells the CLI to update each dependency in a separate branch, and therefore, open a
   separate pull request for each one.
 
 For example, to update the entire `dev` environment, run:
@@ -180,7 +180,7 @@ For example, to update the entire `dev` environment, run:
 terragrunt update \
   dev \
   --pr \
-  --dependency-per-branch
+  --branch-per-dependency
 ```
 
 This will take you through the same interactive process as the `update` command you ran earlier—scanning for new
@@ -214,7 +214,7 @@ terragrunt update \
 Where:
 
 - `--pr` tells the CLI to automatically commit the changes and open a pull request (PR).
-- `--dependency-per-branch` tells the CLI to update each dependency in a separate branch, and therefore, open a
+- `--branch-per-dependency` tells the CLI to update each dependency in a separate branch, and therefore, open a
   separate pull request for each one.
 - `--in-order <ENV1>[,<ENV2>,<ENV3>...]` tells the `update` command to open pull requests for one environment at a time,
   in the order specified. That is, initially, only open a PR for `ENV1`; only when that PR is merged, open another PR
@@ -310,5 +310,5 @@ You now understand how to keep your infrastructure up to date with Terragrunt Pr
 
 
 <!-- ##DOCS-SOURCER-START
-{"sourcePlugin":"local-copier","hash":"f65dbe41fb5379fd4db157280d47244a"}
+{"sourcePlugin":"local-copier","hash":"7da4ab77026abd8b56fa77a3d8452c75"}
 ##DOCS-SOURCER-END -->
