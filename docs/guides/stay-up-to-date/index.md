@@ -251,11 +251,11 @@ jobs:
       - checkout
       - run: |
           terragrunt update \
-          --pr \                            # Open PRs with updates
-          --branch-per-dependency \         # Open 1 PR per dependency
-          --in-order dev,stage,prod \       # Open 1 PR per env, in this order
-          --non-interactive \               # Don’t prompt for input
-          --patch-via-comments              # Use PR comments to select patches
+            --pr \                            # Open PRs with updates
+            --branch-per-dependency \         # Open 1 PR per dependency
+            --in-order dev,stage,prod \       # Open 1 PR per env, in this order
+            --non-interactive \               # Don’t prompt for input
+            --patch-via-comments              # Use PR comments to select patches
 ```
 
 :::tip
@@ -275,11 +275,11 @@ workflows:
       - auto-update
     triggers:
       - schedule:
-      cron: "*/5 * * * *" # every 5 min
-      filters:
-      branches:
-      only:
-      - main
+        cron: "*/5 * * * *" # every 5 min
+        filters:
+        branches:
+        only:
+          - main
 ```
 
 This configures the `auto-update` job to run every 5 minutes. So, every 5 minutes, Terragrunt will check for updates,
@@ -310,5 +310,5 @@ You now understand how to keep your infrastructure up to date with Terragrunt Pr
 
 
 <!-- ##DOCS-SOURCER-START
-{"sourcePlugin":"local-copier","hash":"7da4ab77026abd8b56fa77a3d8452c75"}
+{"sourcePlugin":"local-copier","hash":"30c2e7cc56dfcbbbf07253c680927d94"}
 ##DOCS-SOURCER-END -->
