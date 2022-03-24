@@ -289,7 +289,7 @@ Save the changes to the `.circleci/config.yml` file, commit and push it:
 
 ```
 git add .
-git commit -m “Configure auto update in CI”
+git commit -m "Configure auto update in CI"
 git push origin main
 ```
 
@@ -310,5 +310,5 @@ You now understand how to keep your infrastructure up to date with Terragrunt Pr
 
 
 <!-- ##DOCS-SOURCER-START
-{"sourcePlugin":"local-copier","hash":"30c2e7cc56dfcbbbf07253c680927d94"}
+{"sourcePlugin":"local-copier","hash":"ef79f101de7447612152ca6d704d7fff"}
 ##DOCS-SOURCER-END -->

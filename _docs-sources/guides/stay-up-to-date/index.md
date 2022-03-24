@@ -289,7 +289,7 @@ Save the changes to the `.circleci/config.yml` file, commit and push it:
 
 ```
 git add .
-git commit -m “Configure auto update in CI”
+git commit -m "Configure auto update in CI"
 git push origin main
 ```
 
