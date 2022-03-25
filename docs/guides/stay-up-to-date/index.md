@@ -237,8 +237,12 @@ time:
 - You'll go through this process multiple times, once for each dependency in the environment that needs to be updated.
 - At the end, you'll have a PR opened for each dependency that was updated.
 
-When this `update` command finishes running, it'll print out a list of all the PRs that were opened. You'll want to go
-through each PR, review the changes, and if everything looks good, merge them in.
+:::tip
+
+When this `update` command finishes running, it'll print out a list of all the PRs that were opened. Remember to go
+through each PR, review the changes, and if everything looks good, merge them in!
+
+:::
 
 ## Configure automated upgrades in CI
 
@@ -365,5 +369,5 @@ You now understand how to keep your infrastructure up to date with Terragrunt!
 
 
 <!-- ##DOCS-SOURCER-START
-{"sourcePlugin":"local-copier","hash":"6905d5b811a8a4fe3e3977f7d66c04ce"}
+{"sourcePlugin":"local-copier","hash":"6fba8043573f4c7ba50d3bea57e348fc"}
 ##DOCS-SOURCER-END -->
