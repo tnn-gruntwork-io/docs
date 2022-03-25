@@ -148,6 +148,14 @@ Where:
 - `MODULE`: the module to update in that environment (e.g., `eks`, `rds`). The `live list` command shows you all the
   module and environment names.
 
+:::tip
+
+By default, the `update` command will solely make modifications to your local code (e.g., your local checkout of the
+`infrastructure-live` repo). It will **not** deploy any changes or commit any changes, and the command is idempotent,
+so it's always safe to run it, and see what an update would do.
+
+:::
+
 For example, to update the `eks` module in `dev`, you'd run:
 
 ```
@@ -164,8 +172,15 @@ By default, the `update` command walks you through an interactive process where 
 1. **Test**: After updating the version and applying patches, run `terragrunt plan` as a quick test that everything is
    still working.
 
+:::tip
+
+After `update` has finished, try running `git status` and `git diff` to see the changes it made! You should see local
+modifications with version numbers being modified, and, if you applied a patch, possibly other code changes.
+
+:::
+
 By default, the `update` command makes changes to the code you have checked out locally, so you'll need to commit those
-changes as descirbed in the next section.
+changes as described in the next section.
 
 ### Committing the changes
 
@@ -197,6 +212,14 @@ Where:
 - `--pr` tells the CLI to automatically commit the changes and open a pull request (PR).
 - `--branch-per-dependency` tells the CLI to update each dependency in a separate branch, and therefore, open a
   separate pull request for each one.
+
+:::tip
+
+With the `--pr` flag, the `update` command will solely make modifications in branches and open PRs with the changes. It
+will **not** deploy any changes or merge those PRs, and the command is idempotent, so it's always safe to run it, and
+see what an update would do.
+
+:::
 
 For example, to update the entire `dev` environment, run:
 
@@ -334,5 +357,5 @@ You now understand how to keep your infrastructure up to date with Terragrunt!
 
 
 <!-- ##DOCS-SOURCER-START
-{"sourcePlugin":"local-copier","hash":"8dd6b60fd282b21356c608d9012edf86"}
+{"sourcePlugin":"local-copier","hash":"ad16504760439082390e8ead116a5c50"}
 ##DOCS-SOURCER-END -->
