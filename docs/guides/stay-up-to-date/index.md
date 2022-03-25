@@ -151,8 +151,8 @@ Where:
 :::tip
 
 By default, the `update` command will solely make modifications to your local code (e.g., your local checkout of the
-`infrastructure-live` repo). It will **not** deploy any changes or commit any changes, and the command is idempotent,
-so it's always safe to run it, and see what an update would do.
+`infrastructure-live` repo). It will **not** deploy any changes, and the command is idempotent, so it's always safe to
+run it, as you'll always have a chance to review the changes before they affect anything.
 
 :::
 
@@ -216,8 +216,8 @@ Where:
 :::tip
 
 With the `--pr` flag, the `update` command will solely make modifications in branches and open PRs with the changes. It
-will **not** deploy any changes or merge those PRs, and the command is idempotent, so it's always safe to run it, and
-see what an update would do.
+will **not** deploy any changes, and the command is idempotent, so it's always safe to run it, as you'll always have a
+chance to review the changes before they affect anything.
 
 :::
 
@@ -274,6 +274,14 @@ Where:
 - `--patch-via-comments`: Add a comment to each update PR that shows the list of patches available. Next to each patch
   is a checkbox that, if you check, will automatically apply that patch and update the PR with the results. This allows
   you to review and apply patches entirely from the GitHub PR UI.
+
+:::tip
+
+With the `--pr` flag, the `update` command will solely make modifications in branches and open PRs with the changes. It
+will **not** deploy any changes, and the command is idempotent, so it's always safe to run it, as you'll always have a
+chance to review the changes before they affect anything.
+
+:::
 
 The next several sections show you how to configure the `update` command to run on a regular schedule in various CI
 servers.
@@ -357,5 +365,5 @@ You now understand how to keep your infrastructure up to date with Terragrunt!
 
 
 <!-- ##DOCS-SOURCER-START
-{"sourcePlugin":"local-copier","hash":"ad16504760439082390e8ead116a5c50"}
+{"sourcePlugin":"local-copier","hash":"6905d5b811a8a4fe3e3977f7d66c04ce"}
 ##DOCS-SOURCER-END -->
