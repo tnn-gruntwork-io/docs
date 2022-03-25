@@ -1,51 +1,58 @@
 # Update Guide
 
-This guide will show you how to use Terragrunt Pro to keep your infrastructure up to date.
+This guide will show you how to use Terragrunt 2.0 to keep your infrastructure up to date.
 
-## Terragrunt Pro
+## Terragrunt 2.0
 
-### About Terragrunt Pro
+Terragrunt 2.0 is the new version of Terragrunt! It's a full-stack framework for Terraform that takes all the
+functionality you loved from Terragrunt 1.0 and adds all the features you need to implement the full Terraform
+lifecycle.
 
-Terragrunt Pro is a full-stack framework for Terraform that ships with all the tools you need to implement the full
-Terraform lifecycle, including creating modules, writing automated tests, managing versions, managing environments,
-automatically updating dependencies, and much more.
+### Terragrunt 2.0 Features
 
-<!--
-Option 1:
-Terragrunt Pro is a CLI tool, but it requires a subscription, similar to desktop tools such as IntelliJ.
--->
+:::info
 
-<!--
-Option 2:
-Terragrunt Pro is a full-stack framework for Terraform that ships with all the tools you need to implement the full
-Terraform lifecycle:
+Terragrunt 2.0 is a CLI tool. Just as with Terragrunt 1.0, most of the features are part of the open source
+**Terragrunt 2.0 Free Edition**, but a few are part of **Terragrunt 2.0 Pro**, which requires a subscription (similar
+to other developer tools, such as IntelliJ Community and IntelliJ Ultimate).
 
-- <a>Create and manage a service catalog</a>
-- <a>Create and manage live environments</a>
-- <a>Write and run automated tests</a>
-- <a>Manage and updating dependencies automatically</a> (this guide)
-- <a>And much more</a>
--->
+:::
 
-### Install Terragrunt Pro
 
-Install Terragrunt using any of the methods at the Terragrunt Installation page.
+| Feature           | Description                               | 1.0 | 2.0 Free | 2.0 Pro |
+|-------------------|-------------------------------------------|-----|----------|---------|
+| `source`          | DRY Terraform modules                     | ✅   | ✅        | ✅       |
+| `remote_state`    | DRY backend configuration                 | ✅   | ✅        | ✅       |
+| `extra_arguments` | DRY CLI arguments                         | ✅   | ✅        | ✅       |
+| `run-all`         | Multi-module commands                     | ✅   | ✅        | ✅       |
+| `dependency`      | Multi-module dependencies                 | ✅   | ✅        | ✅       |
+| `hook`            | Before and after hooks                    | ✅   | ✅        | ✅       |
+| `generate`        | Scaffold repos, modules, and environments | ❌   | ✅        | ✅       |
+| `copy`            | Copy repos, modules, and environments     | ❌   | ✅        | ✅       |
+| `test`            | Run automated tests                       | ❌   | ✅        | ✅       |
+| `live`            | Manage live environments                  | ❌   | ❌        | ✅       |
+| `catalog`         | Manage your module catalog                | ❌   | ❌        | ✅       |
+| `update`          | Automatically update dependencies         | ❌   | ❌        | ✅       |
 
-For macOS users, the most common approach is:
+This guide mostly focuses on the automatic updates functionality in Terragrunt 2.0.
+
+### Install Terragrunt 2.0
+
+For macOS users, the easiest way to install Terragrunt is to use HomeBrew:
 
 ```
 brew install terragrunt
 ```
 
-For Windows users, the most common approach is:
+For Windows users, the easiest option is to use Chocolatey:
 
 ```
 choco install terragrunt
 ```
 
-### Authenticate with Terragrunt Pro
+### Authenticate with Terragrunt
 
-Some features in Terragrunt Pro, such as automatic updates, require authentication to Gruntwork. To authenticate, run:
+Some features in Terragrunt 2.0, such as automatic updates, require authentication to Gruntwork. To authenticate, run:
 
 ```
 terragrunt auth
@@ -106,12 +113,12 @@ Now that you have seen which modules have newer versions available, let's update
 
 ### Patches: going beyond version number bumps
 
-Note that Terragrunt Pro can update not only the version numbers of your modules, but it can also discover and apply
+Note that Terragrunt can update not only the version numbers of your modules, but it can also discover and apply
 _patches_ which can automatically update other aspects of your code: e.g., rename a variable, write a new file, etc.
 Under the hood, a patch is a YAML file that defines (a) what module and versions to target, (b) a series of shell
 commands to execute, and (c) a Docker container in which to run those commands.
 
-Any library maintainer can publish a patch for a specific release, and Terragrunt Pro can automatically find these
+Any library maintainer can publish a patch for a specific release, and Terragrunt can automatically find these
 patches, show them to you for review, and, with your approval, apply the patches as part of the update process. This is
 useful for:
 
@@ -323,4 +330,4 @@ notifications** of these PRs, and to review and merge these in if the changes lo
 
 🎉 Congratulations! 🎉
 
-You now understand how to keep your infrastructure up to date with Terragrunt Pro!
+You now understand how to keep your infrastructure up to date with Terragrunt!
