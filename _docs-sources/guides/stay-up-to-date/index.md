@@ -10,6 +10,23 @@ Terragrunt Pro is a full-stack framework for Terraform that ships with all the t
 Terraform lifecycle, including creating modules, writing automated tests, managing versions, managing environments,
 automatically updating dependencies, and much more.
 
+<!--
+Option 1:
+Terragrunt Pro is a CLI tool, but it requires a subscription, similar to desktop tools such as IntelliJ.
+-->
+
+<!--
+Option 2:
+Terragrunt Pro is a full-stack framework for Terraform that ships with all the tools you need to implement the full
+Terraform lifecycle:
+
+- <a>Create and manage a service catalog</a>
+- <a>Create and manage live environments</a>
+- <a>Write and run automated tests</a>
+- <a>Manage and updating dependencies automatically</a> (this guide)
+- <a>And much more</a>
+-->
+
 ### Install Terragrunt Pro
 
 Install Terragrunt using any of the methods at the Terragrunt Installation page.
@@ -134,7 +151,7 @@ By default, the `update` command walks you through an interactive process where 
 
 1. **Find new versions**: Scan for dependencies and show if new versions are available.
 1. **Prompt to update versions**: Interactively prompt the user whether to update to a new version.
-1. **Find patches**: If yu chose to update to a new version, show any patches available for that version.
+1. **Find patches**: If you chose to update to a new version, show any patches available for that version.
 1. **Prompt to apply patches**: Interactively prompt the user whether to apply a patch. You should always review the
    patch source code before applying to ensure the updates are applicable and safe for your environment.
 1. **Test**: After updating the version and applying patches, run `terragrunt plan` as a quick test that everything is
