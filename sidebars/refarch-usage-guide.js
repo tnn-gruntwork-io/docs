@@ -54,6 +54,7 @@ const sidebar = [
           "guides/reference-architecture/example-usage-guide/adding-a-new-account/create-new-account-in-your-aws-org",
           "guides/reference-architecture/example-usage-guide/adding-a-new-account/update-logs-security-shared-accounts-to-allow-cross-account-access",
           "guides/reference-architecture/example-usage-guide/adding-a-new-account/deploy-the-security-baseline",
+          "guides/reference-architecture/example-usage-guide/adding-a-new-account/configure-r53",
           "guides/reference-architecture/example-usage-guide/adding-a-new-account/deploy-the-ecs-deploy-runner",
         ],
       },

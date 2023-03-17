@@ -11,12 +11,13 @@ need to expand the Reference Architecture with more accounts, like a test or san
 - [Create new Account in your AWS Org](02-create-new-account-in-your-aws-org.md)
 - [Update Logs, Security, and Shared accounts to allow cross account access](03-update-logs-security-shared-accounts-to-allow-cross-account-access.md)
 - [Deploy the security baseline](04-deploy-the-security-baseline.md)
-- [Deploy the ECS Deploy Runner](05-deploy-the-ecs-deploy-runner.md)
+- [Configure Route53](05-configure-r53.md)
+- [Deploy the ECS Deploy Runner](06-deploy-the-ecs-deploy-runner.md)
 
 
 <!-- ##DOCS-SOURCER-START
 {
   "sourcePlugin": "local-copier",
-  "hash": "4642c93de8e8463703cbd58048a53b80"
+  "hash": "d57c02f028451ecc3c29d3c90f90a816"
 }
 ##DOCS-SOURCER-END -->
