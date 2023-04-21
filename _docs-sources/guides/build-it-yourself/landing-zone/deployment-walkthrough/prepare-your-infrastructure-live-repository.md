@@ -2,7 +2,7 @@
 
 :::info Terragrunt not required
 
-This guide uses [Terragrunt](https://github.com/gruntwork-io/terragrunt) and its associated file and folder
+This guide uses [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt) and its associated file and folder
 structure to deploy Terraform modules. Please note that **Terragrunt is NOT required for using Terraform modules from
 the Gruntwork Infrastructure as Code Library.** Check out our [Introduction to Gruntwork](/intro/overview/intro-to-gruntwork)
 for instructions on alternative options, such as
@@ -34,7 +34,7 @@ infrastructure-live
       └ region.hcl
 ```
 
-The Terraform modules in the [Service Catalog](https://github.com/gruntwork-io/terraform-aws-service-catalog/)
+The Terraform modules in the [Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/)
 do not define some blocks that are required for Terraform to operate (e.g., the `provider` and `terraform`
 state backend blocks). This is to allow the modules to be flexibly used in different contexts.
 We’ll define a root `terragrunt.hcl` that injects these these required blocks.

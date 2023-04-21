@@ -45,7 +45,7 @@ export const GitHub: React.FunctionComponent<GitHubProps> = ({ discussion }) => 
     <>
       <div>
         <a
-          href={`https://github.com/gruntwork-io/knowledge-base/discussions/${discussion.number}`}
+          href={`https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/knowledge-base/discussions/${discussion.number}`}
           className="link-button">
           View full discussion in GitHub
         </a>

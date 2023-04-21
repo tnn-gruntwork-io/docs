@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # IAM Users
 
-<a href="https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.65.10" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.10" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This is a Terraform module you can use to create and manage
 [IAM users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html) as code.
@@ -93,7 +93,7 @@ Under the hood, this module uses the [`aws_iam_user` resource](https://registry.
 
     ```hcl
     module "iam_users" {
-      source = "git::git@github.com:gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.53.2"
+      source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.53.2"
 
       users = {
         # Set force_destroy to true on the user you want to delete
@@ -113,7 +113,7 @@ Under the hood, this module uses the [`aws_iam_user` resource](https://registry.
 
     ```hcl
     module "iam_users" {
-      source = "git::git@github.com:gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.53.2"
+      source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.53.2"
 
       users = {
         # Note that example-user-to-delete has been removed
@@ -139,7 +139,7 @@ Under the hood, this module uses the [`aws_iam_user` resource](https://registry.
 
 module "iam_users" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.67.8"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.67.8"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -198,7 +198,7 @@ module "iam_users" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.67.8"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.67.8"
 }
 
 inputs = {
@@ -504,9 +504,9 @@ A map of usernames to that user's AWS SSH Security Credential ID
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "3cf028404dd9b74e23d943d3bcde98f7"

@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Memcached Module
 
-<a href="https://github.com/gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/memcached" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/memcached" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-cache/releases/tag/v0.19.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.19.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This module creates an ElastiCache cluster that runs [Memcached](https://memcached.org/).
 
@@ -47,7 +47,7 @@ For more info, see [Scaling Memcached](http://docs.aws.amazon.com/AmazonElastiCa
 
 module "memcached" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-cache.git//modules/memcached?ref=v0.19.3"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache.git//modules/memcached?ref=v0.19.3"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -131,7 +131,7 @@ module "memcached" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-cache.git//modules/memcached?ref=v0.19.3"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache.git//modules/memcached?ref=v0.19.3"
 }
 
 inputs = {
@@ -380,9 +380,9 @@ A set of tags to set for the ElastiCache Replication Group.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/memcached/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/memcached/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/memcached/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/memcached/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/memcached/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/memcached/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "2d935eedd67166c8c132686bf9b66d43"

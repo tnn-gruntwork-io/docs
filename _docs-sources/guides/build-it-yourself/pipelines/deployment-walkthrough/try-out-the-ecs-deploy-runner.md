@@ -1,12 +1,12 @@
 # Try out the ECS Deploy Runner
 
 At this point, you can see if the ECS Deploy Runner can be used to deploy your infrastructure. To test, use the
-[infrastructure-deployer CLI](https://github.com/gruntwork-io/module-ci/tree/master/modules/infrastructure-deployer).
+[infrastructure-deployer CLI](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/tree/master/modules/infrastructure-deployer).
 
 To use the `infrastructure-deployer` CLI, use `gruntwork-install` to install a pre-compiled version for your system:
 
 ```bash
-gruntwork-install --binary-name "infrastructure-deployer" --repo "https://github.com/gruntwork-io/module-ci" --tag "v0.27.2"
+gruntwork-install --binary-name "infrastructure-deployer" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci" --tag "v0.27.2"
 ```
 
 Then, invoke the `infrastructure-deployer` against the `master` branch of your live infrastructure to run a `plan` on

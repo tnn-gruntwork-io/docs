@@ -36,7 +36,7 @@ our [Introduction to Gruntwork](/intro/overview/intro-to-gruntwork).
 #### Python and Kubergrunt
 
 Some of the Terraform modules used in this guide call out to Python code and/or
-[kubergrunt](https://github.com/gruntwork-io/kubergrunt) to fill in missing features in Terraform. Make sure you have
+[kubergrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt) to fill in missing features in Terraform. Make sure you have
 Python and `kubergrunt` installed on any computer where you will be running Terraform.
 
 #### Docker and Packer

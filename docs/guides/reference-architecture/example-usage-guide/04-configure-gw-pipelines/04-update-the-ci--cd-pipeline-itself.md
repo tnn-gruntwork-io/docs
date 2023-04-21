@@ -1,13 +1,13 @@
 # Update the CI / CD pipeline itself
 
-The CI / CD pipeline uses the Gruntwork [terraform-aws-ci](https://github.com/gruntwork-io/terraform-aws-ci) repo code, so
+The CI / CD pipeline uses the Gruntwork [terraform-aws-ci](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci) repo code, so
 whenever there's a new release, it's a good idea to update your pipeline.
 
 Here are the manual steps for this process:
 
 1. Update the Service Catalog version tag in the
-[`build_deploy_runner_image.sh`](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/shared/us-west-2/_regional/container_images/build_deploy_runner_image.sh) and
-[`build_kaniko_image.sh`](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/shared/us-west-2/_regional/container_images/build_kaniko_image.sh) scripts.
+[`build_deploy_runner_image.sh`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/shared/us-west-2/_regional/container_images/build_deploy_runner_image.sh) and
+[`build_kaniko_image.sh`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/shared/us-west-2/_regional/container_images/build_kaniko_image.sh) scripts.
 
 1. Run each script while authenticating to the `shared` account.
 
@@ -16,9 +16,9 @@ Here are the manual steps for this process:
   aws-vault exec your-shared -- shared/us-west-2/_regional/container_images/build_kaniko_image.sh
   ```
 
-1. Update [`common.hcl`](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/common.hcl) with new tag values for these images. The new tag value will be version of
+1. Update [`common.hcl`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/common.hcl) with new tag values for these images. The new tag value will be version of
 `terraform-aws-ci` that the images use. For example, if your newly created images are using the `v0.38.9` release of
-`terraform-aws-ci`, update [`common.hcl`](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/common.hcl) to:
+`terraform-aws-ci`, update [`common.hcl`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/common.hcl) to:
 
   ```bash
   deploy_runner_container_image_tag = "v0.38.9"
@@ -65,7 +65,7 @@ elif [[ "$updated_folder" =~ ^.+/ecs-deploy-runner(/.+)?$ ]]; then
 echo "No action defined for changes to $updated_folder."
 ```
 
-in [`_ci/scripts/deploy-infra.sh`](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/_ci/scripts/deploy-infra.sh). You can combine this change into the same commit or
+in [`_ci/scripts/deploy-infra.sh`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/_ci/scripts/deploy-infra.sh). You can combine this change into the same commit or
 pull request as your changes to the `ecs-deploy-runner` module configuration.
 
 

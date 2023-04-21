@@ -1,7 +1,7 @@
 # Prepare Your Module
 
 This section will show you how to use Terraform modules from the Gruntwork Infrastructure as Code Library. As an illustrative example,
-we’ll deploy the `vpc-app` Terraform module from [terraform-aws-vpc](https://github.com/gruntwork-io/terraform-aws-vpc).
+we’ll deploy the `vpc-app` Terraform module from [terraform-aws-vpc](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc).
 
 :::caution
 
@@ -126,7 +126,7 @@ Now you can pull in the Terraform modules you want from the Gruntwork Infrastruc
 ```hcl title=infrastructure-modules/networking/vpc-app/main.tf
 module "vpc" {
   # Make sure to replace <VERSION> in this URL with the latest terraform-aws-vpc release
-  source = "git@github.com:gruntwork-io/terraform-aws-vpc.git//modules/vpc-app?ref=<VERSION>"
+  source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-app?ref=<VERSION>"
 
   aws_region       = var.aws_region
   vpc_name         = var.vpc_name
@@ -156,13 +156,13 @@ Infrastructure as Code Library without having to hard-code a password in your Te
 Note the `?ref=<VERSION>` at the end of the `source` URL. This parameter allows you to pull in a specific version of
 each module so that you don’t accidentally pull in (potentially backwards incompatible code) in the future. You
 should replace `<VERSION>` with the latest version from the releases page of the repo you’re using (e.g., here’s
-[the releases page for terraform-aws-vpc](https://github.com/gruntwork-io/terraform-aws-vpc/releases)).
+[the releases page for terraform-aws-vpc](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases)).
 
 #### Module arguments
 
 Below the `source` URL, you’ll need to pass in the module-specific arguments. You can find all the required and
 optional variables defined in `vars.tf` (old name) or `variables.tf` (new name) of the module (e.g.,
-here’s [the variables.tf for vpc-app](https://github.com/gruntwork-io/terraform-aws-vpc/blob/master/modules/vpc-app/variables.tf)).
+here’s [the variables.tf for vpc-app](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/blob/master/modules/vpc-app/variables.tf)).
 The code above sets these to input variables (which you’ll define shortly) so that you can use different values in
 different environments.
 

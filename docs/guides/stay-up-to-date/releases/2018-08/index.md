@@ -24,15 +24,15 @@ Here are the repos that were updated:
 ## boilerplate
 
 
-### [v0.2.23](https://github.com/gruntwork-io/boilerplate/releases/tag/v0.2.23)
+### [v0.2.23](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.23)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/1/2018 | <a href="https://github.com/gruntwork-io/boilerplate/releases/tag/v0.2.23">Release notes</a></small>
+  <small>Published: 8/1/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.23">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/boilerplate/pull/46: The `--disable-shell` and `--disable-hooks` should now work with dependencies too.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/46: The `--disable-shell` and `--disable-hooks` should now work with dependencies too.
 
 </div>
 
@@ -41,23 +41,23 @@ Here are the repos that were updated:
 ## terraform-aws-ci
 
 
-### [v0.13.1](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.1)
+### [v0.13.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/28/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.1">Release notes</a></small>
+  <small>Published: 8/28/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-ci/pull/75: The `git-add-commit-push` script will now retry on &quot;cannot lock ref&quot; errors that seem to come up if two `git push` calls happen simultaneously.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/75: The `git-add-commit-push` script will now retry on &quot;cannot lock ref&quot; errors that seem to come up if two `git push` calls happen simultaneously.
 
 </div>
 
 
-### [v0.13.0](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.0)
+### [v0.13.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/24/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.0">Release notes</a></small>
+  <small>Published: 8/24/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -68,10 +68,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.12.2](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.12.2)
+### [v0.12.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.12.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/7/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.12.2">Release notes</a></small>
+  <small>Published: 8/7/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.12.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -82,15 +82,15 @@ Special thanks to @natefaerber for the contribution!
 </div>
 
 
-### [v0.12.1](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.12.1)
+### [v0.12.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.12.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/3/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.12.1">Release notes</a></small>
+  <small>Published: 8/3/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.12.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-ci/pull/70: You can now set the `--git-user-email` and `--git-user-name` params in `terraform-update-variable` to specify the email and username for the git commit.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/70: You can now set the `--git-user-email` and `--git-user-name` params in `terraform-update-variable` to specify the email and username for the git commit.
 
 </div>
 
@@ -99,10 +99,10 @@ Special thanks to @natefaerber for the contribution!
 ## terraform-aws-data-storage
 
 
-### [v0.6.7](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.7)
+### [v0.6.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/10/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.7">Release notes</a></small>
+  <small>Published: 8/10/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.7">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -116,55 +116,55 @@ Special thanks to @natefaerber for the contribution!
 ## terraform-aws-ecs
 
 
-### [v0.8.3](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.3)
+### [v0.8.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/30/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.3">Release notes</a></small>
+  <small>Published: 8/30/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-ecs/pull/88: You can now configure volumes for the `ecs-service-with-alb` module using the new `volumes` parameter.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/88: You can now configure volumes for the `ecs-service-with-alb` module using the new `volumes` parameter.
 
 </div>
 
 
-### [v0.8.2](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.2)
+### [v0.8.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/28/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.2">Release notes</a></small>
+  <small>Published: 8/28/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-ecs/pull/83: Added a new `ecs-daemon-service` module that you can use to deploy exactly one task on each active container instance that meets all of the task placement constraints specified in your cluster.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/83: Added a new `ecs-daemon-service` module that you can use to deploy exactly one task on each active container instance that meets all of the task placement constraints specified in your cluster.
 
 
 </div>
 
 
-### [v0.8.1](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.1)
+### [v0.8.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/27/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.1">Release notes</a></small>
+  <small>Published: 8/27/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-ecs/pull/86: The `ecs-fargate` module now outputs the IAM Role ID and name via the `fargate_task_execution_iam_role_id` and `fargate_task_execution_iam_role_name` output variables, respectively.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/86: The `ecs-fargate` module now outputs the IAM Role ID and name via the `fargate_task_execution_iam_role_id` and `fargate_task_execution_iam_role_name` output variables, respectively.
 
 </div>
 
 
-### [v0.8.0](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.0)
+### [v0.8.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/15/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.0">Release notes</a></small>
+  <small>Published: 8/15/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-ecs/pull/75: Add module `ecs-with-service-discovery`
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/75: Add module `ecs-with-service-discovery`
 
 This module allows you to deploy an ECS Service with Service discovery in AWS, taking care of registering the discovery service with the ECS service, configuring the network and making a the necessary Route 53 alias for public hostnames. 
 
@@ -182,23 +182,23 @@ Currently our module supports public or private hostnames, examples are provided
 </div>
 
 
-### [v0.7.1](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.7.1)
+### [v0.7.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.7.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/14/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.7.1">Release notes</a></small>
+  <small>Published: 8/14/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.7.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-ecs/pull/80: Fix the `cidr_blocks` parameter in the `ecs-fargate` module to properly handle lists of CIDR blocks.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/80: Fix the `cidr_blocks` parameter in the `ecs-fargate` module to properly handle lists of CIDR blocks.
 
 </div>
 
 
-### [v0.7.0](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.7.0)
+### [v0.7.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.7.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/8/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.7.0">Release notes</a></small>
+  <small>Published: 8/8/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.7.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -215,10 +215,10 @@ Unfortunately, this does constitute a breaking change for the `ecs-service` modu
 ## terraform-aws-elk
 
 
-### [v0.1.0](https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.1.0)
+### [v0.1.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.1.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/7/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.1.0">Release notes</a></small>
+  <small>Published: 8/7/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.1.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -228,10 +228,10 @@ Unfortunately, this does constitute a breaking change for the `ecs-service` modu
 </div>
 
 
-### [v0.0.9](https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.0.9)
+### [v0.0.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/3/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.0.9">Release notes</a></small>
+  <small>Published: 8/3/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.9">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -245,10 +245,10 @@ Unfortunately, this does constitute a breaking change for the `ecs-service` modu
 ## terraform-aws-kafka
 
 
-### [v0.4.1](https://github.com/gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.1)
+### [v0.4.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/7/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.1">Release notes</a></small>
+  <small>Published: 8/7/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -262,10 +262,10 @@ Unfortunately, this does constitute a breaking change for the `ecs-service` modu
 ## terraform-aws-load-balancer
 
 
-### [v0.11.0](https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.11.0)
+### [v0.11.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.11.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/23/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.11.0">Release notes</a></small>
+  <small>Published: 8/23/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.11.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -279,10 +279,10 @@ The only reason for changing the behavior in the module is to address the issue 
 </div>
 
 
-### [v0.10.0](https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.10.0)
+### [v0.10.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.10.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/6/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.10.0">Release notes</a></small>
+  <small>Published: 8/6/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.10.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -300,28 +300,28 @@ The only reason for changing the behavior in the module is to address the issue 
 ## terraform-aws-security
 
 
-### [v0.15.1](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.15.1)
+### [v0.15.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/14/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.15.1">Release notes</a></small>
+  <small>Published: 8/14/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-security/pull/108: The `iam_user_self_mgmt` policy in the `iam-policies` module now includes the `iam:DeleteVirtualMFADevice` permission, which seems to be required now to add an MFA device, but is also useful for deleting one.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/108: The `iam_user_self_mgmt` policy in the `iam-policies` module now includes the `iam:DeleteVirtualMFADevice` permission, which seems to be required now to add an MFA device, but is also useful for deleting one.
 
 </div>
 
 
-### [v0.15.0](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.15.0)
+### [v0.15.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/11/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.15.0">Release notes</a></small>
+  <small>Published: 8/11/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-security/pull/107: 
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/107: 
 
 
 This PR contains a BACKWARDS INCOMPATIBLE CHANGE to the `iam-policies` module. Instead of a `should_require_mfa` parameter, it now takes in two parameters:
@@ -342,10 +342,10 @@ Fix a bug in the `aws-auth` script so that you can now assume an IAM role _and_ 
 ## terraform-aws-zookeeper
 
 
-### [v0.4.7](https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.7)
+### [v0.4.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/17/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.7">Release notes</a></small>
+  <small>Published: 8/17/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.7">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -355,15 +355,15 @@ Fix a bug in the `aws-auth` script so that you can now assume an IAM role _and_ 
 </div>
 
 
-### [v0.4.6](https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.6)
+### [v0.4.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/3/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.6">Release notes</a></small>
+  <small>Published: 8/3/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.6">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/package-zookeeper/pull/29: You can now configure DNS names for your ZooKeeper nodes using the new (optional) input variables `route53_hosted_zone_id`, `dns_name_common_portion`, `dns_names`, `dns_ttl`, and `enable_elastic_ips`.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/29: You can now configure DNS names for your ZooKeeper nodes using the new (optional) input variables `route53_hosted_zone_id`, `dns_name_common_portion`, `dns_names`, `dns_ttl`, and `enable_elastic_ips`.
 
 </div>
 

@@ -2,7 +2,7 @@ import React from "react"
 import { Modal } from "./Modal"
 import styles from "./Modal.module.css"
 
-export const gruntworkGithubOrg = "https://github.com/gruntwork-io/"
+export const gruntworkGithubOrg = "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/"
 
 /** @type {RegExp} Match a link prefixed by the gruntworkGithubOrg and capture the next path reference */
 export const repoNamePattern = new RegExp(`^${gruntworkGithubOrg}(.*?)(\/|$)`)

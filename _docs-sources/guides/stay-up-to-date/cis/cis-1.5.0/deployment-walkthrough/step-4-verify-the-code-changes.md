@@ -90,7 +90,7 @@ If you used Patcher to do the upgrade then start by checking that you completed 
 
 ### If you are updating the modules manually
 
-If you updated the modules manually then check that you completed all the steps in the migration guide for [v0.41.2](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/blob/master/modules/data-stores/rds/CHANGELOG.md#v0412---2022-10-28).
+If you updated the modules manually then check that you completed all the steps in the migration guide for [v0.41.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/master/modules/data-stores/rds/CHANGELOG.md#v0412---2022-10-28).
 
 ## Next step
 
@@ -99,7 +99,7 @@ Before proceeding we recommend that you satisfy yourself that:
 - You understand the changes that will be made
 
 You can now safely commit the changes to your git repo and apply the changes. If you use Gruntwork Pipelines, [we
-recommend you using the `DeployOrder` feature](https://github.com/gruntwork-io/knowledge-base/discussions/112) to handle
+recommend you using the `DeployOrder` feature](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/knowledge-base/discussions/112) to handle
 multiple account updates.
 
 When applying the changes manually, you can run `terragrunt run-all apply` inside each environment folder (dev, logs,

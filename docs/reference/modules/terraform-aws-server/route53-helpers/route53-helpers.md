@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Route 53 Helpers
 
-<a href="https://github.com/gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/route53-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/route53-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.13.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.13.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This folder contains helper scripts for working with Amazon's DNS Service, [Route 53](https://aws.amazon.com/route53/).
 The helpers are:
@@ -23,14 +23,14 @@ The helpers are:
 *   `add-dns-a-record`: A script that can be run on an EC2 instance to add a DNS A record pointing to the instance's IP
     address.
 
-Check out the [route53-helpers example](https://github.com/gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers) for how to use these scripts with Terraform.
+Check out the [route53-helpers example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers) for how to use these scripts with Terraform.
 
 ## Installing the helpers
 
-You can install the helpers using the [Gruntwork Installer](https://github.com/gruntwork-io/gruntwork-installer):
+You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
-gruntwork-install --module-name "route53-helpers" --repo "https://github.com/gruntwork-io/terraform-aws-server" --tag "0.0.3"
+gruntwork-install --module-name "route53-helpers" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server" --tag "0.0.3"
 ```
 
 ## Using the add-dns-a-record helper
@@ -69,15 +69,15 @@ Here is an example of an IAM policy your EC2 instance needs attached to its IAM 
 }
 ```
 
-Check out the [route53-helpers example](https://github.com/gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers) to see what this looks like in action.
+Check out the [route53-helpers example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers) to see what this looks like in action.
 
 
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/route53-helpers/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/route53-helpers/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/route53-helpers/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/route53-helpers/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/route53-helpers/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/route53-helpers/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "7b07e2be98f93ea44c65110230a8b92d"

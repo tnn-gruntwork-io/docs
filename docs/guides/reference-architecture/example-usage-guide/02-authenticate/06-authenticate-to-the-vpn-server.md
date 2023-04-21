@@ -41,7 +41,7 @@ IAM groups.
 To connect to an OpenVPN server, you need an OpenVPN configuration file, which includes a certificate that you can use
 to authenticate. To generate this configuration file, do the following:
 
-1. Install the latest [openvpn-admin binary](https://github.com/gruntwork-io/terraform-aws-openvpn/releases) for your OS.
+1. Install the latest [openvpn-admin binary](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases) for your OS.
 
 1. [Authenticate to AWS via the CLI](04-authenticate-to-aws-via-the-cli.md). You will need to assume an IAM role in the AWS
    account with the OpenVPN server you're trying to connect to. This IAM role must have access to the SQS queues used

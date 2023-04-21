@@ -17,7 +17,7 @@ authenticating:
    one of the other child accounts using the AWS Web Console. For example, authenticate as one of the IAM users in the
    security account, and then assume the `allow-full-access-from-other-accounts` role in the dev account (you can find
    the default list of IAM roles created in each account
-   [here](https://github.com/gruntwork-io/module-security/tree/master/modules/cross-account-iam-roles#resources-created)).
+   [here](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/cross-account-iam-roles#resources-created)).
 
 5. Alternatively, you can use the `aws-vault login xxx` command to login to the AWS Web Console for any profile `xxx`
    that you’ve configured in `aws-vault`. For example, `aws-vault login logs-from-root` will open up your web browser

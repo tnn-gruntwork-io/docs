@@ -1,7 +1,7 @@
 # Configure the control plane
 
 Now that you have the VPC ready, it’s time to configure the EKS control plane using the
-[eks-cluster-control-plane module](https://github.com/gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-control-plane)
+[eks-cluster-control-plane module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-control-plane)
 in `terraform-aws-eks`. Create a new module called `eks-cluster` in \`infrastructure-modules:
 
 ```bash
@@ -47,7 +47,7 @@ Next, use the `eks-cluster-control-plane` module to configure the EKS control pl
 ```hcl title=infrastructure-modules/services/eks-cluster/main.tf
 module "eks_cluster" {
   # Make sure to replace <VERSION> in this URL with the latest terraform-aws-eks release
-  source = "git::git@github.com:gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=<VERSION>"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=<VERSION>"
 
   cluster_name = var.cluster_name
 

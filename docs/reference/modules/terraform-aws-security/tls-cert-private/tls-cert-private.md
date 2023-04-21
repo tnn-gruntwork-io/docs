@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Generate a TLS/SSL Certificate for a Private Service
 
-<a href="https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/tls-cert-private" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/tls-cert-private" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.47.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.47.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This Gruntwork Docker Module generates the public and private keys of a new TLS/SSL certificate, and also returns the
 public and private keys of the Certificate Authority (CA) used to generate the TLS certificate. The private key of the
@@ -35,7 +35,7 @@ using a commercial CA or public, free CA like [Let's Encrypt](https://letsencryp
 1.  Edit the `docker-compose.yml` file and fill in your desired argument values.
 2.  Now run `docker-compose up` and your TLS certs will output to a local `output` directory!
 
-To see documentation on the arguments in `docker-compose.yml`, see the [main.sh](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/tls-cert-private/scripts/main.sh) file.
+To see documentation on the arguments in `docker-compose.yml`, see the [main.sh](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/tls-cert-private/scripts/main.sh) file.
 
 Note that the Docker Compose file mounts the local machine folder `./output` in the Docker container. Mac and Windows
 users sohuld take note that, in some cases, volume mounting may be extremely slow, or even one-way-only if you use an
@@ -137,7 +137,7 @@ So here's our strategy for issuing a TLS Cert for a private service:
     is who they claim to be.
 *   We will be extremely careful with the TLS private key since anyone who obtains it can impersonate our private service!
     For this reason, we recommend immediately encrypting the private key with [AWS KMS](https://aws.amazon.com/kms/) by
-    using [gruntkms](https://github.com/gruntwork-io/gruntkms).
+    using [gruntkms](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms).
 
 1.  **Freely advertise our CA's public key to all internal services.**
 
@@ -177,9 +177,9 @@ TLS certificates for any public services.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/tls-cert-private/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/tls-cert-private/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/tls-cert-private/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/tls-cert-private/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/tls-cert-private/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/tls-cert-private/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "e682ec874015dae1807ade0a27b15ae0"

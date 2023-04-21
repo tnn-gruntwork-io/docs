@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Require Executable Module
 
-<a href="https://github.com/gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/require-executable" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/require-executable" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-utilities/releases/tag/v0.9.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.9.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This is a module that can be used to ensure particular executables is available in the `PATH`. This module will search
 the OS `PATH` for the provided named executables and validate that it exists, as well as making sure the OS user running
@@ -28,7 +28,7 @@ This module uses Python under the hood, so Python must be installed and availabl
 
 ## Example code
 
-See the [require-executable example](https://github.com/gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/require-executable) for working sample code.
+See the [require-executable example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/require-executable) for working sample code.
 
 ## Conditional check
 
@@ -41,7 +41,7 @@ check if `go` is installed based on the condition `validate_go`. You can achieve
 
 ```hcl
 module "require_executables" {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-utilities.git//modules/require-executable?ref=v1.0.8"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/require-executable?ref=v1.0.8"
   required_executables = ["${var.validate_go ? "go" : ""}"]
 }
 ```
@@ -59,7 +59,7 @@ module "require_executables" {
 
 module "require_executable" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-utilities.git//modules/require-executable?ref=v0.9.1"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/require-executable?ref=v0.9.1"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -93,7 +93,7 @@ module "require_executable" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-utilities.git//modules/require-executable?ref=v0.9.1"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/require-executable?ref=v0.9.1"
 }
 
 inputs = {
@@ -170,9 +170,9 @@ A map of the executables to the resolved path where they reside.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/require-executable/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/require-executable/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/require-executable/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/require-executable/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/require-executable/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/require-executable/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "f51a79d245170ae0fb82ebd49779d294"

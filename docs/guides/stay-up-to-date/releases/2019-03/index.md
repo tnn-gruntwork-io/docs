@@ -22,10 +22,10 @@ Here are the repos that were updated:
 ## terraform-aws-ci
 
 
-### [v0.13.11](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.11)
+### [v0.13.11](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.11)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/27/2019 | Modules affected: ec2-backup | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.11">Release notes</a></small>
+  <small>Published: 3/27/2019 | Modules affected: ec2-backup | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.11">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -37,15 +37,15 @@ Here are the repos that were updated:
 * This module has been updated to use node 8.10, as node 6.10 was deprecated in AWS Lambda.
 
 
-* https://github.com/gruntwork-io/module-ci/pull/90
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/90
 
 </div>
 
 
-### [v0.13.10](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.10)
+### [v0.13.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/15/2019 | Modules affected: jenkins-server | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.10">Release notes</a></small>
+  <small>Published: 3/15/2019 | Modules affected: jenkins-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.10">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -57,7 +57,7 @@ Here are the repos that were updated:
 *  Update the version of `server-group` module for Jenkins to `v0.6.25`
 
 
-* https://github.com/gruntwork-io/module-ci/pull/89
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/89
 
 </div>
 
@@ -66,10 +66,10 @@ Here are the repos that were updated:
 ## terraform-aws-ecs
 
 
-### [v0.12.0](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.12.0)
+### [v0.12.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.12.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/18/2019 | Modules affected: ecs-service, ecs-service-with-alb | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.12.0">Release notes</a></small>
+  <small>Published: 3/18/2019 | Modules affected: ecs-service, ecs-service-with-alb | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.12.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -93,8 +93,8 @@ This change is backwards incompatible on certain versions of the AWS provider. S
 Special thanks to @fieldawarepiotr for contributions to help implement the changes in this release.
 
 
-* https://github.com/gruntwork-io/module-ecs/pull/122
-* https://github.com/gruntwork-io/module-ecs/pull/126
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/122
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/126
 
 </div>
 
@@ -103,10 +103,10 @@ Special thanks to @fieldawarepiotr for contributions to help implement the chang
 ## terraform-aws-eks
 
 
-### [v0.2.0](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.2.0)
+### [v0.2.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.2.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/29/2019 | Modules affected: eks-cluster-workers, eks-scripts, eks-k8s-role-mapping | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.2.0">Release notes</a></small>
+  <small>Published: 3/29/2019 | Modules affected: eks-cluster-workers, eks-scripts, eks-k8s-role-mapping | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.2.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -115,7 +115,7 @@ Special thanks to @fieldawarepiotr for contributions to help implement the chang
 
 This release introduces `eks-scripts`, a new module that contains helper scripts for working with EKS. The release ships with the script `map-ec2-tags-to-node-labels`, a python script that can run on the EC2 instance acting as an EKS worker to pull in the tags associated with the EC2 instance and map it to kubernetes node labels. You can then take the output to pass to the bootstrap script to set the labels in kubernetes.
 
-Take a look at [the `eks-cluster-with-supporting-services` example](https://github.com/gruntwork-io/terraform-aws-eks/tree/master/examples/eks-cluster-with-supporting-services) for example usage.
+Take a look at [the `eks-cluster-with-supporting-services` example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/examples/eks-cluster-with-supporting-services) for example usage.
 
 Additionally, this release introduces a few bug fixes for working with multiple ASG worker pools:
 
@@ -126,10 +126,10 @@ Additionally, this release introduces a few bug fixes for working with multiple 
 </div>
 
 
-### [v0.1.5](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.1.5)
+### [v0.1.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.1.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/5/2019 | Modules affected: eks-k8s-role-mapping, eks-cluster-workers, eks-cluster-control-plane | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.1.5">Release notes</a></small>
+  <small>Published: 3/5/2019 | Modules affected: eks-k8s-role-mapping, eks-cluster-workers, eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.1.5">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -153,10 +153,10 @@ This release does not introduce any changes to the underlying module features. I
 ## terraform-aws-kafka
 
 
-### [v0.5.3](https://github.com/gruntwork-io/terraform-aws-kafka/releases/tag/v0.5.3)
+### [v0.5.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.5.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/29/2019 | Modules affected: install-kafka | <a href="https://github.com/gruntwork-io/terraform-aws-kafka/releases/tag/v0.5.3">Release notes</a></small>
+  <small>Published: 3/29/2019 | Modules affected: install-kafka | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.5.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -168,16 +168,16 @@ This release does not introduce any changes to the underlying module features. I
 *  apache has moved certain versions of kafka to the https://archive.apache.org/dist/kafka/ url rather than the https://www-us.apache.org/dist/kafka. This release addresses this by first trying to download the version from the mainline location and if an error occurs, it tries to download from the archive location.
 
 
-* https://github.com/gruntwork-io/package-kafka/pull/56
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/56
 
 
 </div>
 
 
-### [v0.5.2](https://github.com/gruntwork-io/terraform-aws-kafka/releases/tag/v0.5.2)
+### [v0.5.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.5.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/21/2019 | Modules affected: run-kafka | <a href="https://github.com/gruntwork-io/terraform-aws-kafka/releases/tag/v0.5.2">Release notes</a></small>
+  <small>Published: 3/21/2019 | Modules affected: run-kafka | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.5.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -199,10 +199,10 @@ This release does not introduce any changes to the underlying module features. I
 ## terraform-aws-messaging
 
 
-### [v0.1.4](https://github.com/gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.4)
+### [v0.1.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/6/2019 | Modules affected: kinesis | <a href="https://github.com/gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.4">Release notes</a></small>
+  <small>Published: 3/6/2019 | Modules affected: kinesis | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -224,10 +224,10 @@ The `kinesis` module now supports server-side encryption.
 ## terraform-aws-static-assets
 
 
-### [v0.4.2](https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.4.2)
+### [v0.4.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.4.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/8/2019 | Modules affected: s3-cloudfront | <a href="https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.4.2">Release notes</a></small>
+  <small>Published: 3/8/2019 | Modules affected: s3-cloudfront | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.4.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -248,10 +248,10 @@ The `kinesis` module now supports server-side encryption.
 ## terraform-aws-vpc
 
 
-### [v0.5.6](https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.6)
+### [v0.5.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/19/2019 | Modules affected: vpc-app, vpc-peering | <a href="https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.6">Release notes</a></small>
+  <small>Published: 3/19/2019 | Modules affected: vpc-app, vpc-peering | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.6">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -266,10 +266,10 @@ The `kinesis` module now supports server-side encryption.
 * You can now configure the VPC peering connection using the new `allow_remote_vpc_dns_resolution`, `allow_classic_link_to_remote_vpc`, and `allow_vpc_to_remote_classic_link` input variables in the `vpc-peering` module.
 
 
-* https://github.com/gruntwork-io/module-vpc/pull/56
-* https://github.com/gruntwork-io/module-vpc/pull/58
-* https://github.com/gruntwork-io/module-vpc/pull/59
-* https://github.com/gruntwork-io/module-vpc/pull/61
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/pull/56
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/pull/58
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/pull/59
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/pull/61
 
 </div>
 

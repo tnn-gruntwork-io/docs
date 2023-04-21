@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Request AWS Quota Increase
 
-<a href="https://github.com/gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/request-quota-increase" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/request-quota-increase" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-utilities/releases/tag/v0.9.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.9.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This module can be used to request a quota increase for an AWS Resource.
 
@@ -31,16 +31,16 @@ This module can be used to request a quota increase for an AWS Resource.
 
 ### Example code
 
-See the [request-quota-increase example](https://github.com/gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/request-quota-increase) for working sample code.
+See the [request-quota-increase example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/request-quota-increase) for working sample code.
 
 ## Usage
 
 Use the module in your Terraform code, replacing `<VERSION>` with the latest version from the [releases
-page](https://github.com/gruntwork-io/terraform-aws-utilities/releases):
+page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases):
 
 ```hcl
 module "path" {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-utilities.git//modules/quota-increase?ref=<VERSION>"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/quota-increase?ref=<VERSION>"
 
     request_quota_increase = {
       nat_gateway = 40,
@@ -51,7 +51,7 @@ module "path" {
 
 The argument to pass is:
 
-*   `request_quota_increase`: A map with the desired resource and the new quota. The current supported resources are `nat_gateway` and `nacl_rules`. Feel free to contribute to this module to add support for more `quota_code` and `service_code` options in [main.tf](https://github.com/gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/request-quota-increase/main.tf)!
+*   `request_quota_increase`: A map with the desired resource and the new quota. The current supported resources are `nat_gateway` and `nacl_rules`. Feel free to contribute to this module to add support for more `quota_code` and `service_code` options in [main.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/request-quota-increase/main.tf)!
 
 When you run `apply`, the `new_quotas` output variable will confirm to you that a quota request has been made!
 
@@ -137,7 +137,7 @@ values; once they have been increased, they stay that way!
 
 module "request_quota_increase" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-utilities.git//modules/request-quota-increase?ref=v0.9.1"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/request-quota-increase?ref=v0.9.1"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -164,7 +164,7 @@ module "request_quota_increase" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-utilities.git//modules/request-quota-increase?ref=v0.9.1"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/request-quota-increase?ref=v0.9.1"
 }
 
 inputs = {
@@ -233,9 +233,9 @@ A map where the key is the resource and the value is the desired quota. The only
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/request-quota-increase/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/request-quota-increase/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/request-quota-increase/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/request-quota-increase/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/request-quota-increase/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/request-quota-increase/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "7704e4ed57a0999f05e322066671ccb9"

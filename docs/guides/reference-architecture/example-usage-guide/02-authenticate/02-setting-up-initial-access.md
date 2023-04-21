@@ -50,7 +50,7 @@ Thus to get access to the initial admin IAM user, we will use the root user cred
 
 - Login on the AWS Web Console using the root user credentials for the `security` account and use the web console to
   setup the web console password and AWS Access Keys for the IAM user.
-- Use the [gruntwork CLI](https://github.com/gruntwork-io/gruntwork/) to rotate the password using the command:
+- Use the [gruntwork CLI](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/) to rotate the password using the command:
 
 ```bash
 gruntwork aws reset-password --iam-user-name <IAM_username>
@@ -80,7 +80,7 @@ The name of the MFA **must** be named exactly the same as the AWS IAM Username. 
 ### Configure other IAM users
 
 Now that your IAM user is all set up, you can configure IAM users for the rest of your team! All of the IAM users are
-managed as code in the security account, in the [account-baseline-app module](https://github.com/gruntwork-io/terraform-aws-service-catalog/blob/633ae73172c86ac6e5e48985c529fd45cc06f67e/examples/for-production/infrastructure-live/security/_global/account-baseline/users.yml). If
+managed as code in the security account, in the [account-baseline-app module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/blob/633ae73172c86ac6e5e48985c529fd45cc06f67e/examples/for-production/infrastructure-live/security/_global/account-baseline/users.yml). If
 you open the `terragrunt.hcl` file in that repo, you should see the list of users, which will look something like:
 
 ```yml
@@ -122,7 +122,7 @@ A few notes about the code above:
 1. **Groups**. We add each user to a set of IAM groups: for example, we add Alice to IAM groups that give her admin
    access in the dev, stage, and prod accounts, whereas Bob gets read-only access to prod, plus SSH access (with sudo
    permissions) to EC2 instances. For the full list of IAM groups available out of the box, see the
-   [IAM groups module](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/iam-groups#iam-groups).
+   [IAM groups module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/iam-groups#iam-groups).
 
 2. **PGP Keys**. We specify a PGP Key to use to encrypt any secrets for that user. Keys of the form `keybase:<username>`
    are automatically fetched for user `<username>` on [Keybase](https://keybase.io/).

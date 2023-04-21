@@ -41,7 +41,7 @@ const config = {
   url: siteUrl,
   baseUrl: "/",
   favicon: "/favicon.ico",
-  organizationName: "gruntwork-io", // Usually your GitHub org/user name.
+  organizationName: "tnn-tnn-tnn-tnn-tnn-gruntwork-io", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.,
 
   stylesheets: [
@@ -56,7 +56,7 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/gruntwork-io/docs/edit/master/",
+          editUrl: "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/docs/edit/master/",
           beforeDefaultRemarkPlugins: [captionsPlugin],
         },
         blog: false,
@@ -119,7 +119,7 @@ const config = {
           { to: "/tools", label: "Tools", position: "left" },
           { to: "/courses", label: "Courses", position: "left" },
           {
-            href: "https://github.com/gruntwork-io/knowledge-base/discussions",
+            href: "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/knowledge-base/discussions",
             label: "Knowledge Base",
             position: "right",
           },
@@ -140,7 +140,7 @@ const config = {
             id: "more_dropdown",
             items: [
               {
-                href: "https://github.com/gruntwork-io/knowledge-base/discussions",
+                href: "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/knowledge-base/discussions",
                 label: "Knowledge Base",
               },
               {
@@ -184,7 +184,7 @@ const config = {
             items: [
               {
                 label: "Knowledge Base",
-                href: "https://github.com/gruntwork-io/knowledge-base/discussions",
+                href: "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/knowledge-base/discussions",
               },
               {
                 label: "Community Slack",
@@ -192,7 +192,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/gruntwork-io",
+                href: "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io",
               },
               {
                 label: "Twitter",
@@ -209,7 +209,7 @@ const config = {
               },
               {
                 label: "IaC Library on GitHub",
-                href: "https://github.com/gruntwork-io",
+                href: "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io",
               },
               {
                 label: "DevOps Checklist",

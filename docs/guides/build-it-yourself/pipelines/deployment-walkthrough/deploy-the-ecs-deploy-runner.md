@@ -10,9 +10,9 @@ this guide to the latest version. In the meantime, use `v0.27.2` for a stable de
 
 For this guide, we will use
 [Gruntwork’s ECS Deploy
-Runner stack](https://github.com/gruntwork-io/module-ci/blob/master/README-Terraform-Terragrunt-Pipeline.adoc) as our infrastructure deployment CD platform. We will deploy the stack into the private subnet of our
+Runner stack](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/blob/master/README-Terraform-Terragrunt-Pipeline.adoc) as our infrastructure deployment CD platform. We will deploy the stack into the private subnet of our
 mgmt VPC using the [ecs-deploy-runner
-module](https://github.com/gruntwork-io/module-ci/tree/master/modules/ecs-deploy-runner) in `module-ci`.
+module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/tree/master/modules/ecs-deploy-runner) in `module-ci`.
 
 To deploy the ECS Deploy Runner, we will follow four steps:
 
@@ -190,7 +190,7 @@ export ECR_REPO_URL=$(terragrunt output url)
 Once we have the ECR repository to house Docker images, we need to create the Docker image for the infrastructure
 deploy script. This Docker image should contain everything you need to deploy your infrastructure, such as `terraform` and
 `terragrunt`. In addition, the Docker image should include the
-[infrastructure-deploy-script](https://github.com/gruntwork-io/module-ci/tree/master/modules/infrastructure-deploy-script).
+[infrastructure-deploy-script](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/tree/master/modules/infrastructure-deploy-script).
 This is a python script that does the following:
 
 - Clone the repository containing the infrastructure code using git.
@@ -212,27 +212,27 @@ meet the following requirements:
   scripts defined in the trigger directory can be invoked.
 
 - The entrypoint must be set to the `deploy-runner` entrypoint command provided in the
-  [module-ci repository](https://github.com/gruntwork-io/module-ci/tree/master/modules/ecs-deploy-runner/entrypoint).
+  [module-ci repository](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/tree/master/modules/ecs-deploy-runner/entrypoint).
   This is a small go binary that enforces the configured trigger directory of the Docker container by making sure that
   the script requested to invoke actually resides in the trigger directory. See the
   [Dockerfile
-  for the deploy-runner container](https://github.com/gruntwork-io/module-ci/blob/master/modules/ecs-deploy-runner/docker/deploy-runner/Dockerfile) for an example of how to install the entrypoint script.
+  for the deploy-runner container](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/blob/master/modules/ecs-deploy-runner/docker/deploy-runner/Dockerfile) for an example of how to install the entrypoint script.
 
 For convenience, Gruntwork provides a standard deploy runner container and configuration that includes everything you
 need for a typical Infrastructure as Code pipeline: Terraform, Terragrunt, Packer, Docker, etc. You can read more about
 what is included in the standard container
 [in the
-documentation](https://github.com/gruntwork-io/module-ci/blob/master/modules/ecs-deploy-runner/core-concepts.md#deploy-runner).
+documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/blob/master/modules/ecs-deploy-runner/core-concepts.md#deploy-runner).
 
 For this guide, we will deploy the standard deploy runner provided by Gruntwork.
 
 To build the standard deploy runner containers, clone the `module-ci` repository to a temporary directory and build the
 `Dockerfile` in the
-[modules/ecs-deploy-runner/docker/deploy-runner](https://github.com/gruntwork-io/module-ci/tree/master/modules/ecs-deploy-runner/docker/deploy-runner)
+[modules/ecs-deploy-runner/docker/deploy-runner](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/tree/master/modules/ecs-deploy-runner/docker/deploy-runner)
 folder:
 
 ```bash
-git clone git@github.com:gruntwork-io/module-ci.git
+git clone git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci.git
 cd module-ci
 git checkout v0.27.2
 cd modules/ecs-deploy-runner/docker/deploy-runner
@@ -253,7 +253,7 @@ docker push "$ECR_REPO_URL:v1"
 
 Once we have the ECR repo with an available Docker image, it is time to configure the ECS task and Lambda function
 invoker. We will deploy both using the
-[ecs-deploy-runner module](https://github.com/gruntwork-io/module-ci/tree/master/modules/ecs-deploy-runner) in
+[ecs-deploy-runner module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/tree/master/modules/ecs-deploy-runner) in
 `module-ci`.
 
 Create a new module called `ecs-deploy-runner` in `infrastructure-modules`:
@@ -277,7 +277,7 @@ Inside of `main.tf`, configure the ECS Deploy Runner:
 
 ```hcl title="infrastructure-modules/cicd/ecs-deploy-runner/main.tf"
 module "ecs_deploy_runner" {
-  source = "git::git@github.com:gruntwork-io/module-ci.git//modules/ecs-deploy-runner?ref=v0.27.2"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci.git//modules/ecs-deploy-runner?ref=v0.27.2"
 
   name             = var.name
   container_images = module.standard_config.container_images
@@ -287,7 +287,7 @@ module "ecs_deploy_runner" {
 }
 
 module "standard_config" {
-  source = "git::git@github.com:gruntwork-io/module-ci.git//modules/ecs-deploy-runner-standard-configuration?ref=v0.27.2"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci.git//modules/ecs-deploy-runner-standard-configuration?ref=v0.27.2"
 
   terraform_planner = {
     container_image                  = var.terraform_planner_config.container_image
@@ -385,7 +385,7 @@ data "aws_iam_policy_document" "terraform_applier" {
 # ---------------------------------------------------------------------------------------------------------------------
 
 module "invoke_policy" {
-  source = "git::git@github.com:gruntwork-io/module-ci.git//modules/ecs-deploy-runner-invoke-iam-policy?ref=v0.23.4"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci.git//modules/ecs-deploy-runner-invoke-iam-policy?ref=v0.23.4"
 
   name                                      = "invoke-${var.name}"
   deploy_runner_invoker_lambda_function_arn = module.ecs_deploy_runner.invoker_function_arn
@@ -470,7 +470,7 @@ variable "terraform_planner_config" {
 
     # List of git repositories containing infrastructure live configuration (top level terraform or terragrunt
     # configuration to deploy infrastructure) that the deploy runner is allowed to run plan on. These should be the SSH
-    # git URL of the repository (e.g., git@github.com:gruntwork-io/module-ci.git).
+    # git URL of the repository (e.g., git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci.git).
     # NOTE: when only a single repository is provided, this will automatically be included as a hardcoded option.
     infrastructure_live_repositories = list(string)
 
@@ -528,7 +528,7 @@ variable "terraform_applier_config" {
 
     # List of Git repository containing infrastructure live configuration (top level terraform or terragrunt
     # configuration to deploy infrastructure) that the deploy runner is allowed to deploy. These should be the SSH git
-    # URL of the repository (e.g., git@github.com:gruntwork-io/module-ci.git).
+    # URL of the repository (e.g., git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci.git).
     # NOTE: when only a single repository is provided, this will automatically be included as a hardcoded option.
     infrastructure_live_repositories = list(string)
 

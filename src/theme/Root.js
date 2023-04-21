@@ -23,7 +23,7 @@ const publicGruntworkRepoNames = [
   "git-xargs",
   "go-commons",
   "gruntwork-installer",
-  "gruntwork-io.github.io",
+  "tnn-tnn-tnn-tnn-tnn-gruntwork-io.github.io",
   "health-checker",
   "helm-kubernetes-services",
   "helm-charts",
@@ -81,7 +81,7 @@ const listIncludesRepo = (repoNames, url) => {
     return false
   }
 
-  const repoName = repoMatchArray[1] // e.g for a given link https://github.com/gruntwork-io/docs/intro -> `docs`
+  const repoName = repoMatchArray[1] // e.g for a given link https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/docs/intro -> `docs`
 
   // returns boolean
   return repoNames.includes(repoName)
@@ -117,7 +117,7 @@ const isPrivateGruntworkRepo = (url) => {
  * @return {boolean}
  */
 const isGruntworkCisRepo = (url) => {
-  // awsCISRepos is an array of strings, e.g. `gruntwork-io/cis-docs`
+  // awsCISRepos is an array of strings, e.g. `tnn-tnn-tnn-tnn-tnn-gruntwork-io/cis-docs`
   const cisRepoNames = awsCISRepos.map((repo) => repo.split("/")[1])
   return listIncludesRepo(cisRepoNames, url)
 }
@@ -129,7 +129,7 @@ const isGruntworkCisRepo = (url) => {
  * @return {boolean}
  */
 const isGruntworkEnterpriseRepo = (url) => {
-  // enterpriseRepos is an array of strings, e.g. `gruntwork-io/enterprise-docs`
+  // enterpriseRepos is an array of strings, e.g. `tnn-tnn-tnn-tnn-tnn-gruntwork-io/enterprise-docs`
   const enterpriseRepoNames = enterpriseRepos.map((repo) => repo.split("/")[1])
   return listIncludesRepo(enterpriseRepoNames, url)
 }

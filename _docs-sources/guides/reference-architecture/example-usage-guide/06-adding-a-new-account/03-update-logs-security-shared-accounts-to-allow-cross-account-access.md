@@ -12,12 +12,12 @@ If you are sharing encrypted AMIs, then you will also need to ensure the new acc
 encrypts the AMI root device. This is managed in the `shared` account baseline module.
 
 Finally, for the [ECS Deploy
-Runner](https://github.com/gruntwork-io/terraform-aws-ci/tree/master/modules/ecs-deploy-runner) to work, the new account
+Runner](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/master/modules/ecs-deploy-runner) to work, the new account
 needs to be able to access the secrets for accessing the remote repositories and the docker images that back the build
 runners. Both of these are stored in the `shared` account.
 
 In order for this setup to work for each new account that is created, the `logs`, `security`, and `shared` accounts need
-to be made aware of the new account. This is handled through the [accounts.json](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/accounts.json) file in your
+to be made aware of the new account. This is handled through the [accounts.json](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/accounts.json) file in your
 `infrastructure-live` repository.
 
 Once the `accounts.json` file is updated with the new account, you will want to grant the permissions for the new

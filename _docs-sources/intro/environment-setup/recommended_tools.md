@@ -28,11 +28,11 @@ RUN apt-get update && \
   apt-get install -y wget unzip curl git
 
 # Install gruntwork-installer, which is the preferred method for installing Gruntwork binaries and modules
-RUN curl -LsS https://raw.githubusercontent.com/gruntwork-io/gruntwork-installer/v0.0.38/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version v0.0.38 --no-sudo true
+RUN curl -LsS https://raw.githubusercontent.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer/v0.0.38/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version v0.0.38 --no-sudo true
 
 # Install fetch 
 ARG FETCH_VERSION=0.4.5
-RUN gruntwork-install --repo "https://github.com/gruntwork-io/fetch" --binary-name "fetch" --tag v${FETCH_VERSION} --no-sudo true 
+RUN gruntwork-install --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/fetch" --binary-name "fetch" --tag v${FETCH_VERSION} --no-sudo true 
 
 # Packer
 ARG PACKER_VERSION=1.8.2
@@ -43,7 +43,7 @@ RUN wget -q https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraf
 
 # Terragrunt
 ARG TERRAGRUNT_VERSION=0.38.4
-RUN gruntwork-install --repo "https://github.com/gruntwork-io/terragrunt" --binary-name "terragrunt" --tag v${TERRAGRUNT_VERSION} --no-sudo true
+RUN gruntwork-install --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt" --binary-name "terragrunt" --tag v${TERRAGRUNT_VERSION} --no-sudo true
 
 # aws-vault
 ARG AWS_VAULT_VERSION=6.6.0

@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # ECS Deployment Scripts
 
-<a href="https://github.com/gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.35.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.35.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This folder contains scripts that help with ECS deployment:
 
@@ -30,10 +30,10 @@ This folder contains scripts that help with ECS deployment:
 
 ## Installing the scripts
 
-You can install the helpers using the [Gruntwork Installer](https://github.com/gruntwork-io/gruntwork-installer):
+You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
-gruntwork-install --module-name "ecs-deploy" --repo "https://github.com/gruntwork-io/terraform-aws-ecs" --tag "v0.7.0"
+gruntwork-install --module-name "ecs-deploy" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs" --tag "v0.7.0"
 ```
 
 ## Using the run-ecs-task script
@@ -41,14 +41,14 @@ gruntwork-install --module-name "ecs-deploy" --repo "https://github.com/gruntwor
 The `run-ecs-task` script assumes you already have the following:
 
 1.  An ECS Cluster deployed. The easiest way to deploy one is with the [ecs-cluster
-    module](https://github.com/gruntwork-io/terraform-aws-ecs/tree/main/modules/ecs-cluster). You'll need to know the name
+    module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/main/modules/ecs-cluster). You'll need to know the name
     of the cluster and the AWS region in which it is deployed.
 
 2.  An ECS Task Definition defined. The easiest way to create one is with the [aws_ecs_task_definition
     resource](https://www.terraform.io/docs/providers/aws/r/ecs_task_definition.html). You'll need to know the family
     name and revision of the ECS Task Definition you want to run.
 
-Check out the [deploy-ecs-task example](https://github.com/gruntwork-io/terraform-aws-ecs/tree/v0.35.1/examples/deploy-ecs-task) for working sample code of both of the above.
+Check out the [deploy-ecs-task example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/examples/deploy-ecs-task) for working sample code of both of the above.
 
 To run the ECS Task Definition `db-backup` at revision `3` in an ECS Cluster named `ecs-stage` in `us-west-2`, use the
 following command:
@@ -96,9 +96,9 @@ container instead of the command configured in the Task Definition.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "8d93dbca1e97c825fd74e7d1631c3289"

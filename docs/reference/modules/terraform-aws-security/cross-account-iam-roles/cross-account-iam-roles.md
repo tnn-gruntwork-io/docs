@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # A best-practices set of IAM roles for cross-account access
 
-<a href="https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/cross-account-iam-roles" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/cross-account-iam-roles" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.65.9" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.9" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This module can be used to allow IAM users from other AWS accounts to access your AWS accounts (i.e. [cross-account
 access](https://aws.amazon.com/blogs/security/enable-a-new-feature-in-the-aws-management-console-cross-account-access/)).
@@ -34,7 +34,7 @@ This module creates the following IAM roles (all optional):
 These IAM Roles are intended to be assumed by human users (i.e., IAM Users in another AWS account). The default
 maximum session expiration for these roles is 12 hours (configurable via the `var.max_session_duration_human_users`).
 Note that these are the *maximum* session expirations; the actual value for session expiration is specified when
-making API calls to assume the IAM role (see [aws-auth](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth)).
+making API calls to assume the IAM role (see [aws-auth](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth)).
 
 *   **allow-read-only-access-from-other-accounts**: Users from the accounts in
     `var.allow_read_only_access_from_other_account_arns` will get read-only access to all services in this account.
@@ -65,16 +65,16 @@ making API calls to assume the IAM role (see [aws-auth](https://github.com/grunt
 These IAM Roles are intended to be assumed by machine users (i.e., an EC2 Instance in another AWS account). The default
 maximum session expiration for these roles is 1 hour (configurable via the `var.max_session_duration_machine_users`).
 Note that these are the *maximum* session expirations; the actual value for session expiration is specified when
-making API calls to assume the IAM role (see [aws-auth](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth)).
+making API calls to assume the IAM role (see [aws-auth](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth)).
 
 *   **allow-ssh-grunt-access-from-other-accounts**: Users (or more likely, EC2 Instances) from the accounts in
     `var.allow_ssh_grunt_access_from_other_account_arns` will get read access to IAM Groups and public SSH keys. This is
-    useful to allow [ssh-grunt](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) running on EC2 Instances in other AWS accounts to validate SSH
+    useful to allow [ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) running on EC2 Instances in other AWS accounts to validate SSH
     connections against IAM users defined in this AWS account.
 
 *   **allow-ssh-grunt-houston-access-from-other-accounts**: Users (or more likely, EC2 Instances) from the accounts in
     `var.allow_ssh_grunt_houston_access_from_other_account_arns` will get read access to Gruntwork Houston. This is
-    useful to allow [ssh-grunt](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) running on EC2 Instances in other AWS accounts to validate SSH
+    useful to allow [ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) running on EC2 Instances in other AWS accounts to validate SSH
     connections against Gruntwork Houston running in this AWS account.
 
 *   **allow-auto-deploy-access-from-other-accounts**: Users from the accounts in `var.allow_auto_deploy_from_other_account_arns`
@@ -96,12 +96,12 @@ are named `allow_XXX_access_sign_in_url`, where `XXX` is one of `read-only`, `bi
 
 Check out the [AWS Switching to a Role (AWS Command Line Interface)
 documentation](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-cli.html). Note that assuming
-roles with the AWS CLI takes quite a few steps, so use the [aws-auth script](https://github.com/gruntwork-io/terraform-aws-security/tree/main/modules/aws-auth) to reduce it to a one-liner.
+roles with the AWS CLI takes quite a few steps, so use the [aws-auth script](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/main/modules/aws-auth) to reduce it to a one-liner.
 
 ## Background Information
 
 For background information on IAM, IAM users, IAM policies, and more, check out the [background information docs in
-the iam-policies module](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies#background-information).
+the iam-policies module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies#background-information).
 
 ## Sample Usage
 
@@ -116,7 +116,7 @@ the iam-policies module](https://github.com/gruntwork-io/terraform-aws-security/
 
 module "cross_account_iam_roles" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-security.git//modules/cross-account-iam-roles?ref=v0.67.8"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/cross-account-iam-roles?ref=v0.67.8"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -326,7 +326,7 @@ module "cross_account_iam_roles" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-security.git//modules/cross-account-iam-roles?ref=v0.67.8"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/cross-account-iam-roles?ref=v0.67.8"
 }
 
 inputs = {
@@ -577,7 +577,7 @@ object({
     openid_connect_provider_url = string
 
     # Map of github repositories to the list of branches that are allowed to assume the IAM role. The repository should
-    # be encoded as org/repo-name (e.g., gruntwork-io/terrraform-aws-ci).
+    # be encoded as org/repo-name (e.g., tnn-tnn-tnn-tnn-tnn-gruntwork-io/terrraform-aws-ci).
     allowed_sources = map(list(string))
   })
 ```
@@ -594,7 +594,7 @@ object({
      openid_connect_provider_arn = "ARN"
      openid_connect_provider_url = "URL"
      allowed_sources = {
-       "gruntwork-io/terraform-aws-security" = ["main", "dev"]
+       "tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security" = ["main", "dev"]
      }
    }
 
@@ -619,7 +619,7 @@ object({
 ```hcl
 
      Map of github repositories to the list of branches that are allowed to assume the IAM role. The repository should
-     be encoded as org/repo-name (e.g., gruntwork-io/terrraform-aws-ci).
+     be encoded as org/repo-name (e.g., tnn-tnn-tnn-tnn-tnn-gruntwork-io/terrraform-aws-ci).
 
 ```
 </details>
@@ -1253,9 +1253,9 @@ When true, all IAM policies will be managed as dedicated policies rather than in
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/cross-account-iam-roles/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/cross-account-iam-roles/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/cross-account-iam-roles/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/cross-account-iam-roles/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/cross-account-iam-roles/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/cross-account-iam-roles/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "708323379e32741d480b7421845e387e"

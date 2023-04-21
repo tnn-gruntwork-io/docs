@@ -1,7 +1,7 @@
 # Deploy a management VPC
 
 The first step is to deploy a management VPC for DevOps tooling, such as a CI server or a bastion host. To do this, you
-can use the [`vpc-mgmt`](https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-mgmt) module from the
+can use the [`vpc-mgmt`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-mgmt) module from the
 Gruntwork Infrastructure as Code Library.
 
 :::note
@@ -12,7 +12,7 @@ You must be a <span className="js-subscribe-cta">Gruntwork subscriber</span> to 
 
 This module assumes you do not run any data stores in the management VPC, so it solely contains two tiers of subnets,
 public and private-app. If you will be deploying data stores in the management VPC (e.g., a relational database for
-SonarQube), then use [`vpc-app`](https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-app) instead, which has
+SonarQube), then use [`vpc-app`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-app) instead, which has
 a third private-persistence subnet tier.
 
 ## Create a wrapper module
@@ -52,12 +52,12 @@ terraform {
 ```
 
 Next, use the `vpc-mgmt` module from the Gruntwork Infrastructure as Code Library, making sure to replace the `<VERSION>` placeholder
-with the latest version from the [releases page](https://github.com/gruntwork-io/module-vpc/releases):
+with the latest version from the [releases page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/releases):
 
 ```hcl title="infrastructure-modules/networking/vpc-mgmt/main.tf"
 module "vpc" {
   # Make sure to replace <VERSION> in this URL with the latest module-vpc release
-  source = "git@github.com:gruntwork-io/module-vpc.git//modules/vpc-mgmt?ref=<VERSION>"
+  source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-mgmt?ref=<VERSION>"
 
   vpc_name         = var.vpc_name
   aws_region       = var.aws_region
@@ -69,7 +69,7 @@ module "vpc" {
 :::note
 
 All of the parameters should be exposed as input variables in `variables.tf`; see this
-[variables.tf](https://github.com/gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-mgmt/variables.tf)
+[variables.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-mgmt/variables.tf)
 file for reference. This will allow you to set those variables to different values in different environments or AWS
 accounts.
 
@@ -81,7 +81,7 @@ Infrastructure as Code Library:
 ```hcl title="infrastructure-modules/networking/vpc-mgmt/main.tf"
 module "vpc_network_acls" {
   # Make sure to replace <VERSION> in this URL with the latest module-vpc release
-  source = "git@github.com:gruntwork-io/module-vpc.git//modules/vpc-mgmt-network-acls?ref=<VERSION>"
+  source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-mgmt-network-acls?ref=<VERSION>"
 
   vpc_id      = module.vpc.vpc_id
   vpc_name    = module.vpc.vpc_name
@@ -98,7 +98,7 @@ module "vpc_network_acls" {
 
 Finally, expose all of the `vpc-mgmt` module outputs as outputs of your `vpc-mgmt` wrapper module. There are a large
 number of outputs, so see this
-[outputs.tf](https://github.com/gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-mgmt/outputs.tf)
+[outputs.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-mgmt/outputs.tf)
 file for reference.
 
 ## Test your wrapper module
@@ -147,7 +147,7 @@ route table entries, more bastion hosts, and more credentials.
 
 :::info
 
-This guide will use [Terragrunt](https://github.com/gruntwork-io/terragrunt) and its associated file and folder
+This guide will use [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt) and its associated file and folder
 structure to deploy Terraform modules. Please note that **Terragrunt is NOT required for using Terraform modules from
 the Gruntwork Infrastructure as Code Library.** Check out our [Introduction to Gruntwork](/intro/overview/intro-to-gruntwork)
 for instructions on alternative options, such as how to

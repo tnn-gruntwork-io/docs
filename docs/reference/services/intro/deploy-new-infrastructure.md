@@ -12,10 +12,10 @@ There are three ways to use Terraform code from the Service Catalog:
 
 Below are the instructions for using the vanilla `terraform` binary—that is, with no wrappers, extensions, or UI—to
 deploy Terraform code from the Service Catalog. See
-[examples/for-learning-and-testing](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-learning-and-testing) for working sample code.
+[examples/for-learning-and-testing](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-learning-and-testing) for working sample code.
 
 1. **Find a service**. Browse the `modules` folder to find a service you wish to deploy. For this tutorial, we'll use
-   the `vpc` service in [modules/networking/vpc](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc) as an example.
+   the `vpc` service in [modules/networking/vpc](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc) as an example.
 
 1. **Create a Terraform configuration**. Create a Terraform configuration file, such as `main.tf`.
 
@@ -55,8 +55,8 @@ deploy Terraform code from the Service Catalog. See
    ```hcl
    module "vpc" {
      # Make sure to replace <VERSION> in this URL with the latest terraform-aws-service-catalog release from
-     # https://github.com/gruntwork-io/terraform-aws-service-catalog/releases
-     source = "git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=<VERSION>"
+     # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases
+     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=<VERSION>"
 
      # Fill in the arguments for this service
      aws_region       = "eu-west-1"
@@ -81,15 +81,15 @@ deploy Terraform code from the Service Catalog. See
    1. **Versioned URL**. Note the `?ref=<VERSION>` at the end of the `source` URL. This parameter allows you to pull
       in a specific version of each service so that you don’t accidentally pull in potentially backwards incompatible
       code in the future. You should replace `<VERSION>` with the latest version from the [releases
-      page](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases).
+      page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases).
 
    1. **Arguments**. Below the `source` URL, you’ll need to pass in the arguments specific to that service. You can
       find all the required and optional variables defined in `variables.tf` of the service (e.g., check out
-      the [`variables.tf` for `vpc`](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc/variables.tf)).
+      the [`variables.tf` for `vpc`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc/variables.tf)).
 
 1. **Add outputs**. You may wish to add some output variables, perhaps in an `outputs.tf` file, that forward along
    some of the output variables from the service. You can find all the outputs defined in `outputs.tf` for the service
-   (e.g., check out [`outputs.tf` for `vpc`](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc/outputs.tf)).
+   (e.g., check out [`outputs.tf` for `vpc`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc/outputs.tf)).
 
    ```hcl
    output "vpc_name" {
@@ -132,7 +132,7 @@ deploy Terraform code from the Service Catalog. See
 
 [Terragrunt](https://terragrunt.gruntwork.io/) is a thin, open source wrapper for Terraform that helps you keep your
 code [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). Below are the instructions for using the `terragrunt`
-binary to deploy Terraform code from the Service Catalog. See [examples/for-production](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production) for working
+binary to deploy Terraform code from the Service Catalog. See [examples/for-production](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production) for working
 sample code.
 
 First, we need to do some one time setup. One of the ways Terragrunt helps you keep your code DRY is by allowing you to
@@ -198,7 +198,7 @@ Here's how you configure the root `terragrunt.hcl`:
 Now you can create child `terragrunt.hcl` files to deploy services as follows:
 
 1. **Find a service**. Browse the `modules` folder to find a service you wish to deploy. For this tutorial, we'll use
-   the `vpc` service in [modules/networking/vpc](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc) as an example.
+   the `vpc` service in [modules/networking/vpc](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc) as an example.
 
 1. **Create a child Terragrunt configuration**. Create a child Terragrunt configuration file called `terragrunt.hcl`.
 
@@ -216,8 +216,8 @@ Now you can create child `terragrunt.hcl` files to deploy services as follows:
    ```hcl
    terraform {
      # Make sure to replace <VERSION> in this URL with the latest terraform-aws-service-catalog release from
-     # https://github.com/gruntwork-io/terraform-aws-service-catalog/releases
-     source = "git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=<VERSION>"
+     # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases
+     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=<VERSION>"
    }
 
    # Fill in the arguments for this service
@@ -243,11 +243,11 @@ Now you can create child `terragrunt.hcl` files to deploy services as follows:
    1. **Versioned URL**. Note the `?ref=<VERSION>` at the end of the `source` URL. This parameter allows you to pull
       in a specific version of each service so that you don’t accidentally pull in potentially backwards incompatible
       code in the future. You should replace `<VERSION>` with the latest version from the [releases
-      page](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases).
+      page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases).
 
    1. **Arguments**. In the `inputs` block, you’ll need to pass in the arguments specific to that service. You can
       find all the required and optional variables defined in `variables.tf` of the service (e.g., check out
-      the [`variables.tf` for `vpc`](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc/variables.tf)).
+      the [`variables.tf` for `vpc`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc/variables.tf)).
 
 1. **Authenticate**. You will need to authenticate to both AWS and GitHub:
 
@@ -277,8 +277,8 @@ Some of the services in the Gruntwork Service Catalog require you to build an [A
 (AMI)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) to install and configure the software that will
 run on EC2 instances. These services define and manage the AMI as code using [Packer](https://www.packer.io/) templates.
 
-For example, the [`eks-workers`](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/modules/services/eks-workers) service defines an
-[`eks-node-al2.pkr.hcl`](https://github.com/gruntwork-io/terraform-aws-service-catalog/blob/master/modules/services/eks-workers/eks-node-al2.pkr.hcl) Packer template that can be used to create an AMI
+For example, the [`eks-workers`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/services/eks-workers) service defines an
+[`eks-node-al2.pkr.hcl`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/blob/master/modules/services/eks-workers/eks-node-al2.pkr.hcl) Packer template that can be used to create an AMI
 for the Kubernetes worker nodes. This Packer template uses the [EKS optimized
 AMI](https://docs.aws.amazon.com/eks/latest/userguide/eks-optimized-ami.html) as its base, which already has Docker,
 kubelet, and the AWS IAM Authenticator installed, and on top of that, it installs the other common software you'll
@@ -292,16 +292,16 @@ The packer templates are provided as `hcl` files in each service module folder, 
 ```
 
 Below are instructions on how to build an AMI using these Packer templates. We'll be using the
-[`eks-node-al2.pkr.hcl`](https://github.com/gruntwork-io/terraform-aws-service-catalog/blob/master/modules/services/eks-workers/eks-node-al2.pkr.hcl) Packer template as an example.
+[`eks-node-al2.pkr.hcl`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/blob/master/modules/services/eks-workers/eks-node-al2.pkr.hcl) Packer template as an example.
 
-1. **Check out the code**. Run `git clone git@github.com:gruntwork-io/terraform-aws-service-catalog.git` to check out the code
+1. **Check out the code**. Run `git clone git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git` to check out the code
    onto your own computer.
 
 1. **(Optional) Make changes to the Packer template**. If you need to install custom software into your AMI—e.g., extra
    tools for monitoring or other server hardening tools required by your company—copy the Packer template into one of
    your own Git repos, update it accordingly, and make sure to commit the changes. Note that the Packer templates in
    the Gruntwork Service Catalog are designed to capture all the install steps in a single `shell` provisioner that
-   uses the [Gruntwork Installer](https://github.com/gruntwork-io/gruntwork-installer) to install and configure the
+   uses the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer) to install and configure the
    software in just a few lines of code. We intentionally designed the templates this way so you can easily copy the
    Packer template, add all the custom logic you need for your use cases, and only have a few lines of versioned
    Gruntwork code to maintain to pull in all the Service Catalog logic.
@@ -340,7 +340,7 @@ Below are instructions on how to build an AMI using these Packer templates. We'l
    This file defines two variables that are required by almost every Packer template in the Gruntwork Service Catalog:
 
    1. **Service Catalog Version**. You must replace `<VERSION>` with the version of the Service Catalog (from the
-      [releases page](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases)) you wish to use for this build.
+      [releases page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases)) you wish to use for this build.
       Specifying a specific version allows you to know exactly what code you're using and ensures you don’t
       accidentally pull in potentially backwards incompatible code in future builds.
 
@@ -361,10 +361,10 @@ Once you build the AMI, the next step is to deploy it to your infrastructure. Ea
 two configuration inputs for selecting the AMI, and you must pick one:
 
 - `*_ami` (e.g., the [`cluster_instance_ami` input
-  variable](https://github.com/gruntwork-io/terraform-aws-service-catalog/blob/v0.72.0/modules/services/eks-workers/variables.tf#L185-L188)
+  variable](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/blob/v0.72.0/modules/services/eks-workers/variables.tf#L185-L188)
   in the `eks-workers` module)
 - `*_ami_filters` (e.g., the [`cluster_instance_ami_filters` input
-  variable](https://github.com/gruntwork-io/terraform-aws-service-catalog/blob/v0.72.0/modules/services/eks-workers/variables.tf#L190-L204)
+  variable](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/blob/v0.72.0/modules/services/eks-workers/variables.tf#L190-L204)
   in the `eks-workers` module)
 
 The two approaches are mutually exclusive. When specifying both, `*_ami` is always used and the input to

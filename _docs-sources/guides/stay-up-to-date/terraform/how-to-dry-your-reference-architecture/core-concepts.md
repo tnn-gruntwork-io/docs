@@ -1,7 +1,7 @@
 # Core Concepts
 
 Terragrunt
-[v0.32.0](https://github.com/gruntwork-io/terragrunt/releases/tag/v0.32.0)
+[v0.32.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt/releases/tag/v0.32.0)
 introduced the feature of multiple `include` blocks, which allowed you to have
 different tiers of common configuration. Before this change, you were limited to
 only a single set of included configuration, which was typically used for
@@ -28,7 +28,7 @@ component.
 
 Using these features, we can dramatically reduce duplication in the Terragrunt
 code in the Gruntwork Reference Architecture, [cutting down the footprint by
-48.5%](https://github.com/gruntwork-io/terraform-aws-service-catalog/pull/1060).
+48.5%](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/pull/1060).
 
 The best part about these features is that you can take advantage of them with
 changes that will be isolated to Terragrunt configuration files (syntactic

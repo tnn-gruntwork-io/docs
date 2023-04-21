@@ -20,10 +20,10 @@ Here are the repos that were updated:
 ## terraform-aws-ci
 
 
-### [v0.3.12](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.3.12)
+### [v0.3.12](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.12)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/24/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.3.12">Release notes</a></small>
+  <small>Published: 4/24/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.12">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -33,25 +33,25 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.3.11](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.3.11)
+### [v0.3.11](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.11)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/23/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.3.11">Release notes</a></small>
+  <small>Published: 4/23/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.11">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  - NEW MODULE: We&apos;ve added a new module [publish-ami](https://github.com/gruntwork-io/module-ci/tree/e0cbe8ee0a7c6b60a6ff59d6cc198082e7baa5c5/modules/aws-helpers) that will copy the given AMI to the desired AWS regions (or all AWS regions) and make it public. 
+  - NEW MODULE: We&apos;ve added a new module [publish-ami](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/tree/e0cbe8ee0a7c6b60a6ff59d6cc198082e7baa5c5/modules/aws-helpers) that will copy the given AMI to the desired AWS regions (or all AWS regions) and make it public. 
 
   We added this module because Gruntwork will soon be releasing open source modules for Vault, Nomad, and Consul and we needed a way to make AMIs built by those modules globally available and usable by anyone.
 
 </div>
 
 
-### [v0.3.10](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.3.10)
+### [v0.3.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/11/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.3.10">Release notes</a></small>
+  <small>Published: 4/11/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.10">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -61,10 +61,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.3.9](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.3.9)
+### [v0.3.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/6/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.3.9">Release notes</a></small>
+  <small>Published: 4/6/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.9">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -78,17 +78,17 @@ Here are the repos that were updated:
 ## terraform-aws-data-storage
 
 
-### [v0.2.5](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.5)
+### [v0.2.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/27/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.5">Release notes</a></small>
+  <small>Published: 4/27/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.5">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   POTENTIAL DOWNTIME
 
-https://github.com/gruntwork-io/module-data-storage/pull/20: Fix a bug where the RDS and Aurora module would exit with an error if you set `storage_encrypted` to false. 
+https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/20: Fix a bug where the RDS and Aurora module would exit with an error if you set `storage_encrypted` to false. 
 
 **Note**: that if you update to this new version of `module-data-storage` and run `apply`, it will undeploy your old DB and deploy a new one to replace it. That&apos;s because fixing this bug required renaming the DB resources, which Terraform sees as a delete + create. 
 
@@ -127,41 +127,41 @@ terraform state mv module.database.aws_db_instance.replicas module.database.aws_
 </div>
 
 
-### [v0.2.4](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.4)
+### [v0.2.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/1/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.4">Release notes</a></small>
+  <small>Published: 4/1/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-data-storage/pull/18: The lambda snapshot functions now all expose the ID of the lambda IAM role via the output variable `lambda_iam_role_id`.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/18: The lambda snapshot functions now all expose the ID of the lambda IAM role via the output variable `lambda_iam_role_id`.
 
 </div>
 
 
-### [v0.2.3](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.3)
+### [v0.2.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/1/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.3">Release notes</a></small>
+  <small>Published: 4/1/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-data-storage/pull/17: Fix a bug in the `lambda-copy-shared-rds-snapshot` module where it didn&apos;t properly handle `DBSnapshotNotFound` errors.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/17: Fix a bug in the `lambda-copy-shared-rds-snapshot` module where it didn&apos;t properly handle `DBSnapshotNotFound` errors.
 
 </div>
 
 
-### [v0.2.2](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.2)
+### [v0.2.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/1/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.2">Release notes</a></small>
+  <small>Published: 4/1/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-data-storage/pull/16: The `copy-rds-shared-snapshot` module now allows you to specify a KMS key via the optional `kms_key_id` parameter. If specified, this key will be used to encrypt the RDS snapshot copy.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/16: The `copy-rds-shared-snapshot` module now allows you to specify a KMS key via the optional `kms_key_id` parameter. If specified, this key will be used to encrypt the RDS snapshot copy.
 
 </div>
 
@@ -170,15 +170,15 @@ terraform state mv module.database.aws_db_instance.replicas module.database.aws_
 ## terraform-aws-monitoring
 
 
-### [v0.4.3](https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.4.3)
+### [v0.4.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.4.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/24/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.4.3">Release notes</a></small>
+  <small>Published: 4/24/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.4.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-aws-monitoring/pull/25, https://github.com/gruntwork-io/module-aws-monitoring/pull/26: Added a new module called [sns-to-slack](https://github.com/gruntwork-io/module-aws-monitoring/tree/master/modules/alarms/sns-to-slack) that makes it easy to send CloudWatch Alarms to Slack.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/pull/25, https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/pull/26: Added a new module called [sns-to-slack](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/tree/master/modules/alarms/sns-to-slack) that makes it easy to send CloudWatch Alarms to Slack.
 
 </div>
 
@@ -187,106 +187,106 @@ terraform state mv module.database.aws_db_instance.replicas module.database.aws_
 ## terraform-aws-security
 
 
-### [v0.4.16](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.16)
+### [v0.4.16](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.16)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/28/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.16">Release notes</a></small>
+  <small>Published: 4/28/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.16">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-security/pull/31: Enable CGO to fix the `ssh-iam` build so that the `user.Current()` method works. Only build `ssh-iam` for Linux.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/31: Enable CGO to fix the `ssh-iam` build so that the `user.Current()` method works. Only build `ssh-iam` for Linux.
 
 </div>
 
 
-### [v0.4.15](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.15)
+### [v0.4.15](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.15)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/27/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.15">Release notes</a></small>
+  <small>Published: 4/27/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.15">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-security/pull/30: Build the `ssh-iam` binary with Go 1.8.1.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/30: Build the `ssh-iam` binary with Go 1.8.1.
 
 </div>
 
 
-### [v0.4.14](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.14)
+### [v0.4.14](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.14)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/27/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.14">Release notes</a></small>
+  <small>Published: 4/27/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.14">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  - NEW MODULE: We&apos;ve added a module, [iam-user-password-policy](https://github.com/gruntwork-io/module-security/tree/master/modules/iam-user-password-policy) that makes it easy to use Terragrunt to create a password policy for your IAM Users.
+  - NEW MODULE: We&apos;ve added a module, [iam-user-password-policy](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/iam-user-password-policy) that makes it easy to use Terragrunt to create a password policy for your IAM Users.
 
 </div>
 
 
-### [v0.4.13](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.13)
+### [v0.4.13](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.13)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/26/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.13">Release notes</a></small>
+  <small>Published: 4/26/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.13">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-security/pull/27: Try to fix the `ssh-iam` build by upgrading to Go 1.8.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/27: Try to fix the `ssh-iam` build by upgrading to Go 1.8.
 
 </div>
 
 
-### [v0.4.12](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.12)
+### [v0.4.12](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.12)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/26/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.12">Release notes</a></small>
+  <small>Published: 4/26/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.12">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-security/pull/26: Ensure that `ssh-iam` always exits successfully when called from the `AuthorizedKeysCommand`, logs everything to `stderr`, and sends `stderr` to `syslog`.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/26: Ensure that `ssh-iam` always exits successfully when called from the `AuthorizedKeysCommand`, logs everything to `stderr`, and sends `stderr` to `syslog`.
 
 </div>
 
 
-### [v0.4.11](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.11)
+### [v0.4.11](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.11)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/25/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.11">Release notes</a></small>
+  <small>Published: 4/25/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.11">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-security/pull/24: Fix a bug in the auto-update module that would cause it to show an interactive prompt during install. This could cause automated builds to hang forever.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/24: Fix a bug in the auto-update module that would cause it to show an interactive prompt during install. This could cause automated builds to hang forever.
 
 </div>
 
 
-### [v0.4.10](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.10)
+### [v0.4.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/2/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.10">Release notes</a></small>
+  <small>Published: 4/2/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.10">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-security/pull/23: Add support for cross-account CloudTrail.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/23: Add support for cross-account CloudTrail.
 
 </div>
 
 
-### [v0.4.9](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.9)
+### [v0.4.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/1/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.9">Release notes</a></small>
+  <small>Published: 4/1/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.9">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-security/pull/22: In the `kms-master-key` module, KMS key users now get the `CreateGrant` permission. This makes it possible to share RDS snapshots encrypted with this KMS key with another AWS account.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/22: In the `kms-master-key` module, KMS key users now get the `CreateGrant` permission. This makes it possible to share RDS snapshots encrypted with this KMS key with another AWS account.
 
 </div>
 
@@ -295,10 +295,10 @@ terraform state mv module.database.aws_db_instance.replicas module.database.aws_
 ## terraform-aws-static-assets
 
 
-### [v0.0.1](https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.0.1)
+### [v0.0.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.0.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/4/2017 | <a href="https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.0.1">Release notes</a></small>
+  <small>Published: 4/4/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.0.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>

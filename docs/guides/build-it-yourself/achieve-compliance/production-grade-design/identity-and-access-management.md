@@ -291,7 +291,7 @@ AWS Account or Organization.
 
 To achieve this compliance requirement, enable the IAM Access Analyzer service for every AWS region you have enabled in
 every one of your AWS accounts. Alternatively, you could make use of the
-[`iam-access-analyzer-multi-region`](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/iam-access-analyzer-multi-region)
+[`iam-access-analyzer-multi-region`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/iam-access-analyzer-multi-region)
 module available in the Gruntwork Service Catalog, or if you’re following this guide, refer to [Apply the baseline to
 the root
 account](../deployment-walkthrough/deploy-landing-zone-solution/apply-account-baseline-root-to-root-account.md#apply-the-account-baseline-root-baseline-to-the-root-account),
