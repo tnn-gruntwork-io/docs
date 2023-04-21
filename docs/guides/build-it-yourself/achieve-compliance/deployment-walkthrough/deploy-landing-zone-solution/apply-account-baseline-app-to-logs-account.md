@@ -18,12 +18,12 @@ infrastructure-live
         └ terragrunt.hcl
 ```
 
-Point the `source` URL in your `terragrunt.hcl` file to the `account-baseline-app` module in the [terraform-aws-cis-service-catalog](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog)
+Point the `source` URL in your `terragrunt.hcl` file to the `account-baseline-app` module in the [terraform-aws-cis-service-catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog)
 repo, setting the `ref` param to the version you require:
 
 ```hcl title=infrastructure-live/logs/_global/account-baseline/terragrunt.hcl
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-cis-service-catalog.git//modules/landingzone/account-baseline-app?ref=v0.27.0"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/landingzone/account-baseline-app?ref=v0.27.0"
 }
 ```
 

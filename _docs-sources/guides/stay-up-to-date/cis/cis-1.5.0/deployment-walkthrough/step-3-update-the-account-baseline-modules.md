@@ -8,10 +8,10 @@ Next, you will need to update the account baseline (Landing Zone) modules to the
 with v1.5.0 of the CIS AWS Foundations Benchmark.
 
 This guide assumes you are using at least
-[v0.40.0](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.0)
+[v0.40.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.0)
 of the CIS Service Catalog repo, which was released in August 2022.
 
-We strongly recommend upgrading straight to at least [v0.42.9](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.9),
+We strongly recommend upgrading straight to at least [v0.42.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.9),
 instead of each minor version incrementally.
 
 If you are using Patcher, then it will upgrade to the latest available version automatically.
@@ -20,7 +20,7 @@ If you are using Patcher, then it will upgrade to the latest available version a
 The account baseline modules had one breaking change between versions v0.40.0 and v0.42.9. We must manually run
 the migration steps before updating the module versions.
 
-- [v0.42.0](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.0): Added support for new AWS region (me-central-1 UAE) to multiregion modules.
+- [v0.42.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.0): Added support for new AWS region (me-central-1 UAE) to multiregion modules.
 
 ## 3.1 Add `me-central-1` to your `multi_region_common.hcl`
 
@@ -41,7 +41,7 @@ locals {
   # ... other vars omitted for brevity ...
 ```
 
-For Terraform, follow the migration guide in [the migration guide of the release v0.42.0](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.0).
+For Terraform, follow the migration guide in [the migration guide of the release v0.42.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.0).
 
 ## Next step
 

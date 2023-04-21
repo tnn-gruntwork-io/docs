@@ -24,10 +24,10 @@ Here are the repos that were updated:
 ## terraform-aws-asg
 
 
-### [v0.6.17](https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.6.17)
+### [v0.6.17](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.17)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/27/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.6.17">Release notes</a></small>
+  <small>Published: 9/27/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.17">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -37,10 +37,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.6.16](https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.6.16)
+### [v0.6.16](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.16)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/26/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.6.16">Release notes</a></small>
+  <small>Published: 9/26/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.16">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -54,10 +54,10 @@ Here are the repos that were updated:
 ## terraform-aws-ci
 
 
-### [v0.13.2](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.2)
+### [v0.13.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/18/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.2">Release notes</a></small>
+  <small>Published: 9/18/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -71,10 +71,10 @@ Here are the repos that were updated:
 ## terraform-aws-data-storage
 
 
-### [v0.6.8](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.8)
+### [v0.6.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/20/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.8">Release notes</a></small>
+  <small>Published: 9/20/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.8">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -88,28 +88,28 @@ Here are the repos that were updated:
 ## terraform-aws-ecs
 
 
-### [v0.8.5](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.5)
+### [v0.8.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/30/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.5">Release notes</a></small>
+  <small>Published: 9/30/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.5">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-ecs/pull/92: You can now configure volumes for the `ecs-service` module using the new `volumes` parameter.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/92: You can now configure volumes for the `ecs-service` module using the new `volumes` parameter.
 
 </div>
 
 
-### [v0.8.4](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.4)
+### [v0.8.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/20/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.4">Release notes</a></small>
+  <small>Published: 9/20/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.8.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-ecs/pull/91: The `ecs-service-with-discovery` module now outputs the security group ID via the output variable `ecs_task_security_group_id`.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/91: The `ecs-service-with-discovery` module now outputs the security group ID via the output variable `ecs_task_security_group_id`.
 
 </div>
 
@@ -118,10 +118,10 @@ Here are the repos that were updated:
 ## terraform-aws-elk
 
 
-### [v0.2.5](https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.2.5)
+### [v0.2.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/27/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.2.5">Release notes</a></small>
+  <small>Published: 9/27/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.5">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -132,10 +132,10 @@ Also added proper plumbing for `allow_ssh_from_security_group_ids` to be specifi
 </div>
 
 
-### [v0.2.4](https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.2.4)
+### [v0.2.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/25/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.2.4">Release notes</a></small>
+  <small>Published: 9/25/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -145,10 +145,10 @@ Also added proper plumbing for `allow_ssh_from_security_group_ids` to be specifi
 </div>
 
 
-### [v0.2.3](https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.2.3)
+### [v0.2.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/25/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.2.3">Release notes</a></small>
+  <small>Published: 9/25/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -158,10 +158,10 @@ Also added proper plumbing for `allow_ssh_from_security_group_ids` to be specifi
 </div>
 
 
-### [v0.2.2](https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.2.2)
+### [v0.2.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/24/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.2.2">Release notes</a></small>
+  <small>Published: 9/24/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -171,10 +171,10 @@ Also added proper plumbing for `allow_ssh_from_security_group_ids` to be specifi
 </div>
 
 
-### [v0.2.1](https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.2.1)
+### [v0.2.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/24/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.2.1">Release notes</a></small>
+  <small>Published: 9/24/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -194,10 +194,10 @@ This variable is useful for adding ssh-grunt IAM policies to this ASG. Thank you
 </div>
 
 
-### [v0.2.0](https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.2.0)
+### [v0.2.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/19/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.2.0">Release notes</a></small>
+  <small>Published: 9/19/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -215,18 +215,18 @@ Here&apos;s why we removed the NLB:
 
 This release is backwards incompatible with previous releases. To upgrade you need to follow the following steps:
 
-1. Remove your use of the `nlb` module and replace with an `alb`. See example here: https://github.com/gruntwork-io/package-elk/blob/master/examples/elk-multi-cluster/main.tf#L436
-1. Replace your use of the `load-balancer-target-group` module with `load-balancer-alb-target-group`. See example of using the new module https://github.com/gruntwork-io/package-elk/blob/master/examples/elk-multi-cluster/main.tf#L71
-1. Finally update the various `target_group_arns` arguments passed to the cluster modules. https://github.com/gruntwork-io/package-elk/blob/master/examples/elk-multi-cluster/main.tf#L40
-1. If you&apos;re using SSL with the ALB, you&apos;ll need to take note of the upgrade notes here: https://github.com/gruntwork-io/module-load-balancer/releases/tag/v0.12.0
+1. Remove your use of the `nlb` module and replace with an `alb`. See example here: https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-elk/blob/master/examples/elk-multi-cluster/main.tf#L436
+1. Replace your use of the `load-balancer-target-group` module with `load-balancer-alb-target-group`. See example of using the new module https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-elk/blob/master/examples/elk-multi-cluster/main.tf#L71
+1. Finally update the various `target_group_arns` arguments passed to the cluster modules. https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-elk/blob/master/examples/elk-multi-cluster/main.tf#L40
+1. If you&apos;re using SSL with the ALB, you&apos;ll need to take note of the upgrade notes here: https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/releases/tag/v0.12.0
 
 </div>
 
 
-### [v0.1.1](https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.1.1)
+### [v0.1.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.1.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/4/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.1.1">Release notes</a></small>
+  <small>Published: 9/4/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.1.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -241,15 +241,15 @@ Going forward, the ALB will be our &quot;front facing&quot; load balancer that w
 ## terraform-aws-lambda
 
 
-### [v0.2.3](https://github.com/gruntwork-io/terraform-aws-lambda/releases/tag/v0.2.3)
+### [v0.2.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.2.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/24/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-lambda/releases/tag/v0.2.3">Release notes</a></small>
+  <small>Published: 9/24/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.2.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/package-lambda/pull/21: Add a new parameter called `wait_for` to the `lambda` module. All the resources in the module will not be created until `wait_for` is resolved, which allows you to execute other steps (e.g., create zip file) before this module runs. This is a workaround for the lack of `depends_on` for modules in Terraform. 
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-lambda/pull/21: Add a new parameter called `wait_for` to the `lambda` module. All the resources in the module will not be created until `wait_for` is resolved, which allows you to execute other steps (e.g., create zip file) before this module runs. This is a workaround for the lack of `depends_on` for modules in Terraform. 
 
 </div>
 
@@ -258,10 +258,10 @@ Going forward, the ALB will be our &quot;front facing&quot; load balancer that w
 ## terraform-aws-load-balancer
 
 
-### [v0.12.0](https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.12.0)
+### [v0.12.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.12.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/18/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.12.0">Release notes</a></small>
+  <small>Published: 9/18/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.12.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -276,10 +276,10 @@ This release is **BACKWARD INCOMPATIBLE** with previous releases only if you wer
 </div>
 
 
-### [v0.11.1](https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.11.1)
+### [v0.11.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.11.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/7/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.11.1">Release notes</a></small>
+  <small>Published: 9/7/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.11.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -293,10 +293,10 @@ This release is **BACKWARD INCOMPATIBLE** with previous releases only if you wer
 ## terraform-aws-messaging
 
 
-### [v0.1.1](https://github.com/gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.1)
+### [v0.1.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/6/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.1">Release notes</a></small>
+  <small>Published: 9/6/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -310,10 +310,10 @@ This release is **BACKWARD INCOMPATIBLE** with previous releases only if you wer
 ## terraform-aws-sam
 
 
-### [v0.1.7](https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.7)
+### [v0.1.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/27/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.7">Release notes</a></small>
+  <small>Published: 9/27/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.7">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -323,10 +323,10 @@ This release is **BACKWARD INCOMPATIBLE** with previous releases only if you wer
 </div>
 
 
-### [v0.1.6](https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.6)
+### [v0.1.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/25/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.6">Release notes</a></small>
+  <small>Published: 9/25/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.6">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>

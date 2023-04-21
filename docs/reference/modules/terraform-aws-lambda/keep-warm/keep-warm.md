@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Keep Warm Module
 
-<a href="https://github.com/gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/keep-warm" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/keep-warm" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This is a Lambda function you can use to invoke your other Lambda functions on a scheduled basis to keep those
 functions "warm." This is necessary for Lambda functions that require a low response time (e.g., if you're using Lambda API Gateway as a web service), as Lambda functions that have not been executed in a while will be shut down (that is,
@@ -60,7 +60,7 @@ level](#concurrency) for your functions.
 
 module "keep_warm" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-lambda.git//modules/keep-warm?ref=v0.21.8"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/keep-warm?ref=v0.21.8"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -132,7 +132,7 @@ module "keep_warm" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-lambda.git//modules/keep-warm?ref=v0.21.8"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/keep-warm?ref=v0.21.8"
 }
 
 inputs = {
@@ -338,9 +338,9 @@ When true, all IAM policies will be managed as dedicated policies rather than in
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/keep-warm/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/keep-warm/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/keep-warm/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/keep-warm/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/keep-warm/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/keep-warm/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "00c9890596e64057c6e1f35981fc1d33"

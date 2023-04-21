@@ -26,7 +26,7 @@ access to that account).
 #### ssh-grunt-users and ssh-grunt-sudo-users
 
 These IAM groups don’t grant any IAM permissions, but instead are used by
-[ssh-grunt](https://github.com/gruntwork-io/module-security/tree/master/modules/ssh-grunt) to determine who is allowed
+[ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/ssh-grunt) to determine who is allowed
 to SSH to your EC2 instances. Each EC2 instance you launch can configure `ssh-grunt` with the names of the IAM
 group(s) that will be allowed to SSH to the instance, with or without sudo permissions. The group names are
 completely up to you, so you could have many such groups, with whatever names you pick. Once you add an IAM user to
@@ -39,7 +39,7 @@ that group, that user will be able to SSH to the corresponding EC2 instances usi
 :::caution
 
 You must be a <span className="js-subscribe-cta">Gruntwork subscriber</span> to access `ssh-grunt` in
-[terraform-aws-security](https://github.com/gruntwork-io/terraform-aws-security/).
+[terraform-aws-security](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/).
 
 :::
 

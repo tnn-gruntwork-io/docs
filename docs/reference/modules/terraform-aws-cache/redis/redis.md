@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Redis Module
 
-<a href="https://github.com/gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-cache/releases/tag/v0.19.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.19.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This module creates an ElastiCache cluster that runs [Redis](http://redis.io/).
 
@@ -101,7 +101,7 @@ For more info on scaling "cluster mode enabled" Redis clusters, see [Scaling Mul
 
 module "redis" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-cache.git//modules/redis?ref=v0.19.3"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache.git//modules/redis?ref=v0.19.3"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -274,7 +274,7 @@ module "redis" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-cache.git//modules/redis?ref=v0.19.3"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache.git//modules/redis?ref=v0.19.3"
 }
 
 inputs = {
@@ -831,9 +831,9 @@ This is a list of user IDs  that should be added to the group defined in the 'us
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "ea3871ec41ccbd1f622811abad24284a"

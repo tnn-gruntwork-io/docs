@@ -33,15 +33,15 @@ Here are the repos that were updated:
 ## boilerplate
 
 
-### [v0.2.25](https://github.com/gruntwork-io/boilerplate/releases/tag/v0.2.25)
+### [v0.2.25](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.25)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/8/2019 | <a href="https://github.com/gruntwork-io/boilerplate/releases/tag/v0.2.25">Release notes</a></small>
+  <small>Published: 7/8/2019 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.25">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/boilerplate/pull/52 and https://github.com/gruntwork-io/boilerplate/pull/53: Apply `README.md` updates for `v0.2.24`.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/52 and https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/53: Apply `README.md` updates for `v0.2.24`.
 
 </div>
 
@@ -50,10 +50,10 @@ Here are the repos that were updated:
 ## terraform-aws-asg
 
 
-### [v0.8.1](https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.8.1)
+### [v0.8.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.8.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/11/2019 | Modules affected: server-group | <a href="https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.8.1">Release notes</a></small>
+  <small>Published: 7/11/2019 | Modules affected: server-group | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.8.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -67,10 +67,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.8.0](https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.8.0)
+### [v0.8.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.8.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/2/2019 | Modules affected: server-group, asg-rolling-deploy | <a href="https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.8.0">Release notes</a></small>
+  <small>Published: 7/2/2019 | Modules affected: server-group, asg-rolling-deploy | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.8.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -90,10 +90,10 @@ Note that as part of this, we switched to using `null` to indicate unset values 
 ## terraform-aws-beanstalk
 
 
-### [v0.1.0](https://github.com/gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.1.0)
+### [v0.1.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.1.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/3/2019 | Modules affected: app-version, configuration-deployer, elasticbeanstalk-application, elasticbeanstalk-environment | <a href="https://github.com/gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.1.0">Release notes</a></small>
+  <small>Published: 7/3/2019 | Modules affected: app-version, configuration-deployer, elasticbeanstalk-application, elasticbeanstalk-environment | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.1.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -115,10 +115,10 @@ Note that as part of this, we switched to using `null` to indicate unset values 
 ## terraform-aws-ci
 
 
-### [v0.15.0](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.15.0)
+### [v0.15.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.15.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/27/2019 | Modules affected: terraform-helpers | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.15.0">Release notes</a></small>
+  <small>Published: 7/27/2019 | Modules affected: terraform-helpers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.15.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -136,10 +136,10 @@ This release updates `terraform-helpers/terraform-update-variable` for better te
 </div>
 
 
-### [v0.14.2](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.14.2)
+### [v0.14.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.14.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/27/2019 | Modules affected: jenkins-server | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.14.2">Release notes</a></small>
+  <small>Published: 7/27/2019 | Modules affected: jenkins-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.14.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -153,10 +153,10 @@ Fixes a bug where `var.allow_incoming_http_from_security_group_ids` was not crea
 </div>
 
 
-### [v0.14.1](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.14.1)
+### [v0.14.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.14.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/11/2019 | Modules affected: kubernetes-circleci-helpers, jenkins-server | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.14.1">Release notes</a></small>
+  <small>Published: 7/11/2019 | Modules affected: kubernetes-circleci-helpers, jenkins-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.14.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -176,10 +176,10 @@ Fixes a bug where `var.allow_incoming_http_from_security_group_ids` was not crea
 ## terraform-aws-data-storage
 
 
-### [v0.9.1](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.9.1)
+### [v0.9.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.9.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/25/2019 | Modules affected: rds | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.9.1">Release notes</a></small>
+  <small>Published: 7/25/2019 | Modules affected: rds | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.9.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -197,10 +197,10 @@ Fixes a bug where `var.allow_incoming_http_from_security_group_ids` was not crea
 ## terraform-aws-ecs
 
 
-### [v0.14.1](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.14.1)
+### [v0.14.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.14.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/18/2019 | Modules affected: ecs-fargate | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.14.1">Release notes</a></small>
+  <small>Published: 7/18/2019 | Modules affected: ecs-fargate | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.14.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -217,10 +217,10 @@ Fixes a bug where `var.allow_incoming_http_from_security_group_ids` was not crea
 ## terraform-aws-eks
 
 
-### [v0.6.0](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.6.0)
+### [v0.6.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.6.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/1/2019 | Modules affected: eks-vpc-tags, eks-k8s-role-mapping, eks-k8s-external-dns, eks-k8s-external-dns-iam-policy | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.6.0">Release notes</a></small>
+  <small>Published: 7/1/2019 | Modules affected: eks-vpc-tags, eks-k8s-role-mapping, eks-k8s-external-dns, eks-k8s-external-dns-iam-policy | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.6.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -242,10 +242,10 @@ Note that as part of this, we switched to using `null` to indicate unset values 
 ## terraform-aws-elk
 
 
-### [v0.4.0](https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.4.0)
+### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/2/2019 | Modules affected: logstash-security-group-rules, logstash-iam-policies, logstash-cluster, load-balancer-alb-target-group | <a href="https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.4.0">Release notes</a></small>
+  <small>Published: 7/2/2019 | Modules affected: logstash-security-group-rules, logstash-iam-policies, logstash-cluster, load-balancer-alb-target-group | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.4.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -267,10 +267,10 @@ Note that as part of this, we switched to using `null` to indicate unset values 
 ## terraform-aws-kafka
 
 
-### [v0.6.0](https://github.com/gruntwork-io/terraform-aws-kafka/releases/tag/v0.6.0)
+### [v0.6.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.6.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/6/2019 | Modules affected: kafka-security-group-rules, confluent-tools-cluster, kafka-cluster, kafka-iam-permissions | <a href="https://github.com/gruntwork-io/terraform-aws-kafka/releases/tag/v0.6.0">Release notes</a></small>
+  <small>Published: 7/6/2019 | Modules affected: kafka-security-group-rules, confluent-tools-cluster, kafka-cluster, kafka-iam-permissions | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.6.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -291,7 +291,7 @@ All the module variables have been updated to use concrete types based on the ne
 Note that as part of this, we switched to using `null` to indicate unset values when passing them through to resources. If you were previously using a 0 value (`&quot;&quot;` for strings and `0` for numbers), review the module `vars.tf` file to double check if the 0 value has been converted to a `null`.
 
 
-* https://github.com/gruntwork-io/package-kafka/pull/59
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/59
 
 </div>
 
@@ -300,10 +300,10 @@ Note that as part of this, we switched to using `null` to indicate unset values 
 ## terraform-aws-mongodb
 
 
-### [v0.4.0](https://github.com/gruntwork-io/terraform-aws-mongodb/releases/tag/v0.4.0)
+### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-mongodb/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/2/2019 | Modules affected: mongodb-cluster, mongodb-backup | <a href="https://github.com/gruntwork-io/terraform-aws-mongodb/releases/tag/v0.4.0">Release notes</a></small>
+  <small>Published: 7/2/2019 | Modules affected: mongodb-cluster, mongodb-backup | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-mongodb/releases/tag/v0.4.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -325,10 +325,10 @@ Note that as part of this, we switched to using `null` to indicate unset values 
 ## terraform-aws-monitoring
 
 
-### [v0.13.3](https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.13.3)
+### [v0.13.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.13.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/9/2019 | Modules affected: alarms/elasticsearch-alarms | <a href="https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.13.3">Release notes</a></small>
+  <small>Published: 7/9/2019 | Modules affected: alarms/elasticsearch-alarms | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.13.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -341,10 +341,10 @@ Note that as part of this, we switched to using `null` to indicate unset values 
 </div>
 
 
-### [v0.12.8](https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.8)
+### [v0.12.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/9/2019 | Modules affected: alarms/elasticsearch-alarms | <a href="https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.8">Release notes</a></small>
+  <small>Published: 7/9/2019 | Modules affected: alarms/elasticsearch-alarms | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.8">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -361,10 +361,10 @@ Note that as part of this, we switched to using `null` to indicate unset values 
 ## terraform-aws-openvpn
 
 
-### [v0.9.3](https://github.com/gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.3)
+### [v0.9.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/26/2019 | Modules affected: openvpn-server | <a href="https://github.com/gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.3">Release notes</a></small>
+  <small>Published: 7/26/2019 | Modules affected: openvpn-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -382,10 +382,10 @@ Note that as part of this, we switched to using `null` to indicate unset values 
 ## terraform-aws-security
 
 
-### [v0.17.2](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.17.2)
+### [v0.17.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.17.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/6/2019 | Modules affected: **No changes to underlying modules.** | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.17.2">Release notes</a></small>
+  <small>Published: 7/6/2019 | Modules affected: **No changes to underlying modules.** | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.17.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -403,10 +403,10 @@ Starting this release, all the modules are tested and verified to work with Ubun
 ## terraform-aws-server
 
 
-### [v0.7.2](https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.7.2)
+### [v0.7.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.7.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/11/2019 | Modules affected: persistent-ebs-volume | <a href="https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.7.2">Release notes</a></small>
+  <small>Published: 7/11/2019 | Modules affected: persistent-ebs-volume | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.7.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -419,10 +419,10 @@ Starting this release, all the modules are tested and verified to work with Ubun
 </div>
 
 
-### [v0.7.1](https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.7.1)
+### [v0.7.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.7.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/3/2019 | <a href="https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.7.1">Release notes</a></small>
+  <small>Published: 7/3/2019 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.7.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -440,10 +440,10 @@ Starting this release, all the scripts are now tested and verified to work with 
 ## terraform-aws-static-assets
 
 
-### [v0.5.2](https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.2)
+### [v0.5.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/24/2019 | Modules affected: s3-cloudfront | <a href="https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.2">Release notes</a></small>
+  <small>Published: 7/24/2019 | Modules affected: s3-cloudfront | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -457,10 +457,10 @@ Starting this release, all the scripts are now tested and verified to work with 
 </div>
 
 
-### [v0.5.1](https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.1)
+### [v0.5.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/17/2019 | Modules affected: s3-cloudfront | <a href="https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.1">Release notes</a></small>
+  <small>Published: 7/17/2019 | Modules affected: s3-cloudfront | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -475,10 +475,10 @@ Starting this release, all the scripts are now tested and verified to work with 
 </div>
 
 
-### [v0.4.4](https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.4.4)
+### [v0.4.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.4.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/12/2019 | Modules affected: s3-cloudfront | <a href="https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.4.4">Release notes</a></small>
+  <small>Published: 7/12/2019 | Modules affected: s3-cloudfront | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.4.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -496,10 +496,10 @@ Starting this release, all the scripts are now tested and verified to work with 
 </div>
 
 
-### [v0.5.0](https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.0)
+### [v0.5.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/8/2019 | <a href="https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.0">Release notes</a></small>
+  <small>Published: 7/8/2019 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -525,10 +525,10 @@ Note that as part of this, we switched to using `null` to indicate unset values 
 ## terraform-aws-vpc
 
 
-### [v0.6.1](https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.6.1)
+### [v0.6.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.6.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/22/2019 | Modules affected: vpc-mgmt, vpc-app | <a href="https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.6.1">Release notes</a></small>
+  <small>Published: 7/22/2019 | Modules affected: vpc-mgmt, vpc-app | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.6.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -545,10 +545,10 @@ Note that as part of this, we switched to using `null` to indicate unset values 
 ## terraform-aws-zookeeper
 
 
-### [v0.6.2](https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.6.2)
+### [v0.6.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.6.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/12/2019 | Modules affected: zookeeper-cluster | <a href="https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.6.2">Release notes</a></small>
+  <small>Published: 7/12/2019 | Modules affected: zookeeper-cluster | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.6.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -562,10 +562,10 @@ Note that as part of this, we switched to using `null` to indicate unset values 
 </div>
 
 
-### [v0.6.1](https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.6.1)
+### [v0.6.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.6.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/10/2019 | Modules affected: **No changes to underlying modules.** | <a href="https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.6.1">Release notes</a></small>
+  <small>Published: 7/10/2019 | Modules affected: **No changes to underlying modules.** | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.6.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -583,10 +583,10 @@ Starting this release, all the modules are tested and verified to work with Ubun
 ## terraform-kubernetes-helm
 
 
-### [v0.5.1](https://github.com/gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.5.1)
+### [v0.5.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.5.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/26/2019 | Modules affected: **No changes to underlying modules** | <a href="https://github.com/gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.5.1">Release notes</a></small>
+  <small>Published: 7/26/2019 | Modules affected: **No changes to underlying modules** | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.5.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>

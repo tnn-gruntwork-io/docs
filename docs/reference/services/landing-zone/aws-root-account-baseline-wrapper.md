@@ -20,9 +20,9 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 
 # Account Baseline for root account
 
-<a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/landingzone/account-baseline-root" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/landingzone/account-baseline-root" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases?q=landingzone%2Faccount-baseline-root" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=landingzone%2Faccount-baseline-root" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
 
 ## Overview
 
@@ -33,21 +33,21 @@ child accounts, AWS Config, AWS CloudTrail, Amazon Guard Duty, IAM users, IAM gr
 
 Get a secure baseline for the root account of your AWS Organization that includes:
 
-*   [aws-config-multi-region](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/aws-config-multi-region)
-*   [aws-organizations](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/aws-organizations)
-*   [aws-organizations-config-rules](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/aws-organizations-config-rules)
-*   [cloudtrail](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/cloudtrail)
-*   [cross-account-iam-roles](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/cross-account-iam-roles)
-*   [guardduty-multi-region](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/guardduty-multi-region)
-*   [iam-groups](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/iam-groups)
-*   [iam-users](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/iam-users)
-*   [iam-user-password-policy](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/iam-user-password-policy)
+*   [aws-config-multi-region](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/aws-config-multi-region)
+*   [aws-organizations](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/aws-organizations)
+*   [aws-organizations-config-rules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/aws-organizations-config-rules)
+*   [cloudtrail](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/cloudtrail)
+*   [cross-account-iam-roles](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/cross-account-iam-roles)
+*   [guardduty-multi-region](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/guardduty-multi-region)
+*   [iam-groups](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/iam-groups)
+*   [iam-users](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/iam-users)
+*   [iam-user-password-policy](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/iam-user-password-policy)
 
 ## Learn
 
 :::note
 
-This repo is a part of the [Gruntwork Service Catalog](https://github.com/gruntwork-io/terraform-aws-service-catalog/),
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
 a collection of reusable, battle-tested, production ready infrastructure code.
 If you’ve never used the Service Catalog before, make sure to read
 [How to use the Gruntwork Service Catalog](https://docs.gruntwork.io/reference/services/intro/overview)!
@@ -58,16 +58,16 @@ If you’ve never used the Service Catalog before, make sure to read
 
 *   Learn more about each individual module, click the link in the [Features](#features) section
 *   [How to configure a production-grade AWS account structure](https://docs.gruntwork.io/guides/build-it-yourself/landing-zone/)
-*   [How to create child accounts](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/core-concepts.md#creating-child-accounts)
-*   [How to aggregate AWS Config and CloudTrail data in a logs account](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/core-concepts.md#aggregating-aws-config-and-cloudtrail-data-in-a-logs-account)
-*   [Why does this module use account-level AWS Config Rules?](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/core-concepts.md#why-does-this-module-use-account-level-aws-config-rules)
-*   [How to use multi-region services](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/core-concepts.md#how-to-use-multi-region-services)
+*   [How to create child accounts](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/core-concepts.md#creating-child-accounts)
+*   [How to aggregate AWS Config and CloudTrail data in a logs account](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/core-concepts.md#aggregating-aws-config-and-cloudtrail-data-in-a-logs-account)
+*   [Why does this module use account-level AWS Config Rules?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/core-concepts.md#why-does-this-module-use-account-level-aws-config-rules)
+*   [How to use multi-region services](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/core-concepts.md#how-to-use-multi-region-services)
 
 ### Repo organization
 
-*   [modules](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
-*   [examples](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples): This folder contains working examples of how to use the submodules.
-*   [test](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/test): Automated tests for the modules and examples.
+*   [modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+*   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples): This folder contains working examples of how to use the submodules.
+*   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/test): Automated tests for the modules and examples.
 
 ## Deploy
 
@@ -75,7 +75,7 @@ If you’ve never used the Service Catalog before, make sure to read
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
-*   [examples/for-learning-and-testing/landingzone folder](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing/landingzone): The
+*   [examples/for-learning-and-testing/landingzone folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing/landingzone): The
     `examples/for-learning-and-testing/landingzone` folder contains standalone sample code optimized for learning,
     experimenting, and testing (but not direct production usage).
 
@@ -83,7 +83,7 @@ If you just want to try this repo out for experimenting and learning, check out 
 
 If you want to deploy this repo in production, check out the following resources:
 
-*   [examples/for-production folder](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+*   [examples/for-production folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
     optimized for direct usage in production. This is code from the
     [Gruntwork Reference Architecture](https://gruntwork.io/reference-architecture/), and it shows you how we build an
     end-to-end integrated tech stack on top of the Gruntwork Service Catalog.
@@ -104,7 +104,7 @@ If you want to deploy this repo in production, check out the following resources
 
 module "account_baseline_root" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/account-baseline-root?ref=v0.102.11"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/account-baseline-root?ref=v0.102.11"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -173,7 +173,7 @@ module "account_baseline_root" {
 
   # Map of github repositories to the list of branches that are allowed to assume
   # the IAM role. The repository should be encoded as org/repo-name (e.g.,
-  # gruntwork-io/terrraform-aws-ci). Allows GitHub Actions to assume the auto deploy
+  # tnn-tnn-tnn-tnn-tnn-gruntwork-io/terrraform-aws-ci). Allows GitHub Actions to assume the auto deploy
   # IAM role using an OpenID Connect Provider for the given repositories. Refer to
   # the docs for github-actions-iam-role for more information. Note that this is
   # mutually exclusive with var.allow_auto_deploy_from_other_account_arns. Only used
@@ -841,7 +841,7 @@ Refer to the AWS docs on data event selection for more details on the
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/account-baseline-root?ref=v0.102.11"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/account-baseline-root?ref=v0.102.11"
 }
 
 inputs = {
@@ -913,7 +913,7 @@ inputs = {
 
   # Map of github repositories to the list of branches that are allowed to assume
   # the IAM role. The repository should be encoded as org/repo-name (e.g.,
-  # gruntwork-io/terrraform-aws-ci). Allows GitHub Actions to assume the auto deploy
+  # tnn-tnn-tnn-tnn-tnn-gruntwork-io/terrraform-aws-ci). Allows GitHub Actions to assume the auto deploy
   # IAM role using an OpenID Connect Provider for the given repositories. Refer to
   # the docs for github-actions-iam-role for more information. Note that this is
   # mutually exclusive with var.allow_auto_deploy_from_other_account_arns. Only used
@@ -1808,7 +1808,7 @@ map(object({
 <HclListItem name="allow_auto_deploy_from_github_actions_for_sources" requirement="optional" type="map(list(…))">
 <HclListItemDescription>
 
-Map of github repositories to the list of branches that are allowed to assume the IAM role. The repository should be encoded as org/repo-name (e.g., gruntwork-io/terrraform-aws-ci). Allows GitHub Actions to assume the auto deploy IAM role using an OpenID Connect Provider for the given repositories. Refer to the docs for github-actions-iam-role for more information. Note that this is mutually exclusive with <a href="#allow_auto_deploy_from_other_account_arns"><code>allow_auto_deploy_from_other_account_arns</code></a>. Only used if <a href="#enable_github_actions_access"><code>enable_github_actions_access</code></a> is true. 
+Map of github repositories to the list of branches that are allowed to assume the IAM role. The repository should be encoded as org/repo-name (e.g., tnn-tnn-tnn-tnn-tnn-gruntwork-io/terrraform-aws-ci). Allows GitHub Actions to assume the auto deploy IAM role using an OpenID Connect Provider for the given repositories. Refer to the docs for github-actions-iam-role for more information. Note that this is mutually exclusive with <a href="#allow_auto_deploy_from_other_account_arns"><code>allow_auto_deploy_from_other_account_arns</code></a>. Only used if <a href="#enable_github_actions_access"><code>enable_github_actions_access</code></a> is true. 
 
 </HclListItemDescription>
 <HclListItemTypeDetails>
@@ -3744,9 +3744,9 @@ A map of user name to that user's AWS Web Console password, encrypted with that 
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/landingzone/account-baseline-root/README.md",
-    "https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/landingzone/account-baseline-root/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/landingzone/account-baseline-root/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/landingzone/account-baseline-root/README.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/landingzone/account-baseline-root/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/landingzone/account-baseline-root/outputs.tf"
   ],
   "sourcePlugin": "service-catalog-api",
   "hash": "ee7c71cd2a725b972c079cc1df0d3ff9"

@@ -30,28 +30,28 @@ Here are the repos that were updated:
 ## gruntwork
 
 
-### [v0.0.27](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.0.27)
+### [v0.0.27](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.27)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/23/2019 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.0.27">Release notes</a></small>
+  <small>Published: 4/23/2019 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.27">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/gruntwork/pull/42: Fix username capitalization.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/pull/42: Fix username capitalization.
 
 </div>
 
 
-### [v0.0.26](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.0.26)
+### [v0.0.26](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.26)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/18/2019 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.0.26">Release notes</a></small>
+  <small>Published: 4/18/2019 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.26">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/gruntwork/pull/40: Fix a bug in how we picked the name of the &quot;security&quot; account so it works correctly when granting access to `__current__`.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/pull/40: Fix a bug in how we picked the name of the &quot;security&quot; account so it works correctly when granting access to `__current__`.
 
 </div>
 
@@ -60,10 +60,10 @@ Here are the repos that were updated:
 ## terraform-aws-asg
 
 
-### [v0.6.26](https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.6.26)
+### [v0.6.26](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.26)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/24/2019 | Modules affected: server-group | <a href="https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.6.26">Release notes</a></small>
+  <small>Published: 4/24/2019 | Modules affected: server-group | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.26">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -82,10 +82,10 @@ Here are the repos that were updated:
 ## terraform-aws-ci
 
 
-### [v0.13.13](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.13)
+### [v0.13.13](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.13)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/21/2019 | Modules affected: jenkins-server | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.13">Release notes</a></small>
+  <small>Published: 4/21/2019 | Modules affected: jenkins-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.13">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -100,10 +100,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.13.12](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.12)
+### [v0.13.12](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.12)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/8/2019 | Modules affected: kubernetes-circleci-helpers | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.13.12">Release notes</a></small>
+  <small>Published: 4/8/2019 | Modules affected: kubernetes-circleci-helpers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.12">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -115,7 +115,7 @@ Here are the repos that were updated:
 This release introduces scripts that help with setting up a Kubernetes testing environment in CircleCI. Specifically, this release introduces `setup-minikube`, a bash script that will install and start up `minikube` in CircleCI.
 
 
-* https://github.com/gruntwork-io/module-ci/pull/91
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/91
 
 </div>
 
@@ -124,10 +124,10 @@ This release introduces scripts that help with setting up a Kubernetes testing e
 ## terraform-aws-data-storage
 
 
-### [v0.8.8](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.8)
+### [v0.8.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/3/2019 | Modules affected: lambda-cleanup-snapshots | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.8">Release notes</a></small>
+  <small>Published: 4/3/2019 | Modules affected: lambda-cleanup-snapshots | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.8">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -139,7 +139,7 @@ This release introduces scripts that help with setting up a Kubernetes testing e
 * Filters snapshots by manual type, because automated snapshots may not be deleted manually
 
 
-* https://github.com/gruntwork-io/module-data-storage/pull/77
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/77
 
 </div>
 
@@ -148,10 +148,10 @@ This release introduces scripts that help with setting up a Kubernetes testing e
 ## terraform-aws-ecs
 
 
-### [v0.13.1](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.1)
+### [v0.13.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/26/2019 | Modules affected: ecs-service, ecs-service-with-discovery, ecs-service-with-alb, ecs-daemon-service | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.1">Release notes</a></small>
+  <small>Published: 4/26/2019 | Modules affected: ecs-service, ecs-service-with-discovery, ecs-service-with-alb, ecs-daemon-service | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -171,10 +171,10 @@ This release introduces scripts that help with setting up a Kubernetes testing e
 </div>
 
 
-### [v0.13.0](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.0)
+### [v0.13.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/18/2019 | Modules affected: ecs-cluster | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.0">Release notes</a></small>
+  <small>Published: 4/18/2019 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -189,10 +189,10 @@ This release introduces scripts that help with setting up a Kubernetes testing e
 </div>
 
 
-### [v0.12.2](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.12.2)
+### [v0.12.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.12.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/9/2019 | Modules affected: ecs-deploy-check-binaries | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.12.2">Release notes</a></small>
+  <small>Published: 4/9/2019 | Modules affected: ecs-deploy-check-binaries | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.12.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -206,10 +206,10 @@ This release introduces scripts that help with setting up a Kubernetes testing e
 </div>
 
 
-### [v0.12.1](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.12.1)
+### [v0.12.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.12.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/2/2019 | Modules affected: ecs-service, ecs-service-with-discovery, ecs-service-with-alb, ecs-fargate | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.12.1">Release notes</a></small>
+  <small>Published: 4/2/2019 | Modules affected: ecs-service, ecs-service-with-discovery, ecs-service-with-alb, ecs-fargate | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.12.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -227,10 +227,10 @@ This release introduces scripts that help with setting up a Kubernetes testing e
 ## terraform-aws-eks
 
 
-### [v0.5.2](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.5.2)
+### [v0.5.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/29/2019 | Modules affected: eks-k8s-external-dns, eks-k8s-external-dns-iam-policy, eks-alb-ingress-controller | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.5.2">Release notes</a></small>
+  <small>Published: 4/29/2019 | Modules affected: eks-k8s-external-dns, eks-k8s-external-dns-iam-policy, eks-alb-ingress-controller | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -255,34 +255,34 @@ This release introduces the following changes:
 </div>
 
 
-### [v0.5.1](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.5.1)
+### [v0.5.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/23/2019 | Modules affected: eks-k8s-external-dns, eks-k8s-external-dns-iam-policy, eks-alb-ingress-controller | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.5.1">Release notes</a></small>
+  <small>Published: 4/23/2019 | Modules affected: eks-k8s-external-dns, eks-k8s-external-dns-iam-policy, eks-alb-ingress-controller | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
-This release introduces a new module `eks-k8s-external-dns` that can be used to deploy [external-dns](https://github.com/kubernetes-incubator/external-dns). This is a Kubernetes application that can map `Ingress` resource host paths to route 53 domain records so that you automatically configure host name routes to hit the `Ingress` endpoints. See [the module documentation](https://github.com/gruntwork-io/terraform-aws-eks/tree/master/modules/eks-k8s-external-dns) for more information.
+This release introduces a new module `eks-k8s-external-dns` that can be used to deploy [external-dns](https://github.com/kubernetes-incubator/external-dns). This is a Kubernetes application that can map `Ingress` resource host paths to route 53 domain records so that you automatically configure host name routes to hit the `Ingress` endpoints. See [the module documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-k8s-external-dns) for more information.
 
 
 
 </div>
 
 
-### [v0.5.0](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.5.0)
+### [v0.5.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/18/2019 | Modules affected: eks-vpc-tags, eks-cloudwatch-container-logs, eks-alb-ingress-controller, eks-alb-ingress-controller-iam-policy | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.5.0">Release notes</a></small>
+  <small>Published: 4/18/2019 | Modules affected: eks-vpc-tags, eks-cloudwatch-container-logs, eks-alb-ingress-controller, eks-alb-ingress-controller-iam-policy | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
-This release introduces two new modules: `eks-alb-ingress-controller` and `eks-alb-ingress-controller-iam-policy`. These two modules can be used to deploy [the AWS ALB Ingress Controller](https://github.com/kubernetes-sigs/aws-alb-ingress-controller), which allows you to map [Ingress resources](https://kubernetes.io/docs/concepts/services-networking/ingress/) to AWS ALBs. See the [module documentation for more information](https://github.com/gruntwork-io/terraform-aws-eks/tree/master/modules/eks-alb-ingress-controller).
+This release introduces two new modules: `eks-alb-ingress-controller` and `eks-alb-ingress-controller-iam-policy`. These two modules can be used to deploy [the AWS ALB Ingress Controller](https://github.com/kubernetes-sigs/aws-alb-ingress-controller), which allows you to map [Ingress resources](https://kubernetes.io/docs/concepts/services-networking/ingress/) to AWS ALBs. See the [module documentation for more information](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-alb-ingress-controller).
 
 This release also includes the following updates:
 - `eks-vpc-tags` now tags the public subnets with `kubernetes.io/role/elb: 1` so that public ELBs will use those subnets.
@@ -293,10 +293,10 @@ This release also includes the following updates:
 </div>
 
 
-### [v0.4.0](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.4.0)
+### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/12/2019 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.4.0">Release notes</a></small>
+  <small>Published: 4/12/2019 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.4.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -310,10 +310,10 @@ This release also includes the following updates:
 </div>
 
 
-### [v0.3.1](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.3.1)
+### [v0.3.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.3.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/11/2019 | Modules affected: eks-cluster-workers-cross-access, eks-cloudwatch-container-logs | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.3.1">Release notes</a></small>
+  <small>Published: 4/11/2019 | Modules affected: eks-cluster-workers-cross-access, eks-cloudwatch-container-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.3.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -322,24 +322,24 @@ This release also includes the following updates:
 
 This release introduces support for specifying tolerations on the `fluentd-cloudwatch` Pods deployed using the `eks-cloudwatch-container-logs` module. This allows you to schedule the `fluentd-cloudwatch` Pods on nodes that have taints that prevent normal scheduling of Pods.
 
-Additionally, this release introduces the `eks-cluster-workers-cross-access` module which allows defining security group rules that allow communication across multiple worker groups. Take a look at the [module docs](https://github.com/gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-workers-cross-access) for more information. Check out the usage in the [eks-cluster-with-supporting-services example](https://github.com/gruntwork-io/terraform-aws-eks/blob/master/examples/eks-cluster-with-supporting-services/eks-cluster/main.tf#L189) for example usage.
+Additionally, this release introduces the `eks-cluster-workers-cross-access` module which allows defining security group rules that allow communication across multiple worker groups. Take a look at the [module docs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-workers-cross-access) for more information. Check out the usage in the [eks-cluster-with-supporting-services example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/blob/master/examples/eks-cluster-with-supporting-services/eks-cluster/main.tf#L189) for example usage.
 
 
 
 </div>
 
 
-### [v0.3.0](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.3.0)
+### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/10/2019 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.3.0">Release notes</a></small>
+  <small>Published: 4/10/2019 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.3.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
-- This release updates all the examples to switch to a data source based token retrieval scheme to authenticate the kubernetes utilities (`kubergrunt`, `kubectl`, and the `kubernetes` + `helm` providers) as opposed to authentication by kubeconfig. This improves the experience for team based workflows, as now the terraform code is no longer dependent on having setup `kubectl` to work (NOTE: you still have to setup `helm`, but in the future this will also be changed to a data source based method). Take a look at [the `eks-cluster-basic` example](https://github.com/gruntwork-io/terraform-aws-eks/blob/master/examples/eks-cluster-basic/main.tf#L15) for an example.
+- This release updates all the examples to switch to a data source based token retrieval scheme to authenticate the kubernetes utilities (`kubergrunt`, `kubectl`, and the `kubernetes` + `helm` providers) as opposed to authentication by kubeconfig. This improves the experience for team based workflows, as now the terraform code is no longer dependent on having setup `kubectl` to work (NOTE: you still have to setup `helm`, but in the future this will also be changed to a data source based method). Take a look at [the `eks-cluster-basic` example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/blob/master/examples/eks-cluster-basic/main.tf#L15) for an example.
 - Given the new authentication scheme, we no longer recommend using the `configure_kubectl` option. This is great for a single person example setup, but when using in production, it can lead to team confusion. As such starting this release, the option is set to `false` by default. If you would like the old behavior, you can set it to `true` in your module.
 
 
@@ -347,27 +347,27 @@ Additionally, this release introduces the `eks-cluster-workers-cross-access` mod
 </div>
 
 
-### [v0.2.3](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.2.3)
+### [v0.2.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.2.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/10/2019 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.2.3">Release notes</a></small>
+  <small>Published: 4/10/2019 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.2.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
-- We now support EKS private endpoints for clusters launched using the `eks-cluster-control-plane` module. Check out [the module docs for more info](https://github.com/gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-control-plane#api-access-and-networking).
+- We now support EKS private endpoints for clusters launched using the `eks-cluster-control-plane` module. Check out [the module docs for more info](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-control-plane#api-access-and-networking).
 
 
 
 </div>
 
 
-### [v0.2.2](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.2.2)
+### [v0.2.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.2.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/8/2019 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.2.2">Release notes</a></small>
+  <small>Published: 4/8/2019 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.2.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -382,17 +382,17 @@ Additionally, this release introduces the `eks-cluster-workers-cross-access` mod
 </div>
 
 
-### [v0.2.1](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.2.1)
+### [v0.2.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.2.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/2/2019 | Modules affected: eks-cloudwatch-container-logs | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.2.1">Release notes</a></small>
+  <small>Published: 4/2/2019 | Modules affected: eks-cloudwatch-container-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.2.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
-This release introduces the `eks-cloudwatch-container-logs` module, which installs a `DaemonSet` on your EKS cluster to ship logs to CloudWatch using `fluentd`. Refer to the [module documentation](https://github.com/gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cloudwatch-container-logs) and [eks-cluster-with-supporting-services](https://github.com/gruntwork-io/terraform-aws-eks/tree/master/examples/eks-cluster-with-supporting-services) for more information on how this works.
+This release introduces the `eks-cloudwatch-container-logs` module, which installs a `DaemonSet` on your EKS cluster to ship logs to CloudWatch using `fluentd`. Refer to the [module documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cloudwatch-container-logs) and [eks-cluster-with-supporting-services](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/examples/eks-cluster-with-supporting-services) for more information on how this works.
 
 
 
@@ -403,10 +403,10 @@ This release introduces the `eks-cloudwatch-container-logs` module, which instal
 ## terraform-aws-load-balancer
 
 
-### [v0.13.3](https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.13.3)
+### [v0.13.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.13.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/24/2019 | Modules affected: alb | <a href="https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.13.3">Release notes</a></small>
+  <small>Published: 4/24/2019 | Modules affected: alb | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.13.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -421,15 +421,15 @@ This release introduces the `eks-cloudwatch-container-logs` module, which instal
 Special thanks to @jasonmcintosh for the contribution!
 
 
-* https://github.com/gruntwork-io/module-load-balancer/pull/52
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/pull/52
 
 </div>
 
 
-### [v0.13.2](https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.13.2)
+### [v0.13.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.13.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/11/2019 | Modules affected: acm-tls-certificate | <a href="https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.13.2">Release notes</a></small>
+  <small>Published: 4/11/2019 | Modules affected: acm-tls-certificate | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.13.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -441,7 +441,7 @@ Special thanks to @jasonmcintosh for the contribution!
 * Added a new `acm-tls-certificate` module that you can use to programmatically issue and validate a free, auto-renewing TLS certificate in AWS Certificate Manager (ACM). This makes it easy to manage your TLS certs as code and easily attach them to ALBs, CloudFront, API Gateway, etc.
 
 
-* https://github.com/gruntwork-io/module-load-balancer/pull/50
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/pull/50
 
 </div>
 
@@ -450,10 +450,10 @@ Special thanks to @jasonmcintosh for the contribution!
 ## terraform-aws-monitoring
 
 
-### [v0.12.2](https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.2)
+### [v0.12.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/3/2019 | Modules affected: logs/cloudwatch-log-aggregation-iam-policy | <a href="https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.2">Release notes</a></small>
+  <small>Published: 4/3/2019 | Modules affected: logs/cloudwatch-log-aggregation-iam-policy | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -467,17 +467,17 @@ Special thanks to @jasonmcintosh for the contribution!
 </div>
 
 
-### [v0.12.1](https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.1)
+### [v0.12.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/2/2019 | Modules affected: alarms/sqs-alarms | <a href="https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.1">Release notes</a></small>
+  <small>Published: 4/2/2019 | Modules affected: alarms/sqs-alarms | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
-- This release introduces `sqs-alarms`, which can be used to setup CloudWatch alarms for SQS queues. Check out the [example](https://github.com/gruntwork-io/module-aws-monitoring/tree/master/examples/sqs-alarms) for how to set it up.
+- This release introduces `sqs-alarms`, which can be used to setup CloudWatch alarms for SQS queues. Check out the [example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/tree/master/examples/sqs-alarms) for how to set it up.
 - This release verifies compatibility with AWS provider 2.X. **NOTE**: there are no changes to the underlying modules (only the examples), so there are no breaking changes with this release.
 
 
@@ -488,27 +488,27 @@ Special thanks to @jasonmcintosh for the contribution!
 ## terraform-aws-sam
 
 
-### [v0.1.12](https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.12)
+### [v0.1.12](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.12)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/9/2019 | Modules affected: gruntsam | <a href="https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.12">Release notes</a></small>
+  <small>Published: 4/9/2019 | Modules affected: gruntsam | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.12">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
-- Fixes a bug where `gruntsam` generates broken code for dashes in route paths. (https://github.com/gruntwork-io/package-sam/issues/40)
+- Fixes a bug where `gruntsam` generates broken code for dashes in route paths. (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-sam/issues/40)
 
 
 
 </div>
 
 
-### [v0.1.11](https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.11)
+### [v0.1.11](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.11)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/9/2019 | Modules affected: api-gateway-account-settings | <a href="https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.11">Release notes</a></small>
+  <small>Published: 4/9/2019 | Modules affected: api-gateway-account-settings | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.11">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -527,10 +527,10 @@ Special thanks to @jasonmcintosh for the contribution!
 ## terraform-aws-security
 
 
-### [v0.16.1](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.16.1)
+### [v0.16.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/10/2019 | Modules affected: cross-account-iam-roles, kms-master-key | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.16.1">Release notes</a></small>
+  <small>Published: 4/10/2019 | Modules affected: cross-account-iam-roles, kms-master-key | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -550,10 +550,10 @@ Special thanks to @jasonmcintosh for the contribution!
 ## terraform-aws-static-assets
 
 
-### [v0.4.3](https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.4.3)
+### [v0.4.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.4.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/4/2019 | Modules affected: s3-static-website | <a href="https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.4.3">Release notes</a></small>
+  <small>Published: 4/4/2019 | Modules affected: s3-static-website | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.4.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -565,7 +565,7 @@ Special thanks to @jasonmcintosh for the contribution!
 * The `s3-static-website` module now has a new output called `website_bucket_endpoint_path_style` that has a path-style output of the S3 bucket endpoint, which will be of the format `s3-&lt;region&gt;.amazonaws.com/&lt;bucket-name&gt;`. The advantage of this style of endpoint is that it works over both HTTP and HTTPS.
 
 
-* https://github.com/gruntwork-io/package-static-assets/pull/20
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-static-assets/pull/20
 
 </div>
 
@@ -574,10 +574,10 @@ Special thanks to @jasonmcintosh for the contribution!
 ## terraform-aws-utilities
 
 
-### [v0.0.8](https://github.com/gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.8)
+### [v0.0.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/19/2019 | <a href="https://github.com/gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.8">Release notes</a></small>
+  <small>Published: 4/19/2019 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.8">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -586,18 +586,18 @@ Special thanks to @jasonmcintosh for the contribution!
 - `list-remove` [**NEW**]
 
 
-This release introduces a new module `list-remove` which can be used to remove items from a terraform list. See the [module docs](https://github.com/gruntwork-io/package-terraform-utilities/tree/master/modules/list-remove) for more info.
+This release introduces a new module `list-remove` which can be used to remove items from a terraform list. See the [module docs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-terraform-utilities/tree/master/modules/list-remove) for more info.
 
 
-- https://github.com/gruntwork-io/package-terraform-utilities/pull/14
+- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-terraform-utilities/pull/14
 
 </div>
 
 
-### [v0.0.7](https://github.com/gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.7)
+### [v0.0.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/10/2019 | <a href="https://github.com/gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.7">Release notes</a></small>
+  <small>Published: 4/10/2019 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.7">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -606,7 +606,7 @@ This release introduces a new module `list-remove` which can be used to remove i
 This release formats all the modules using `terraform fmt`. No functional changes are introduced.
 
 
-- https://github.com/gruntwork-io/package-terraform-utilities/pull/13
+- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-terraform-utilities/pull/13
 
 </div>
 
@@ -615,10 +615,10 @@ This release formats all the modules using `terraform fmt`. No functional change
 ## terraform-aws-vpc
 
 
-### [v0.5.7](https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.7)
+### [v0.5.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/19/2019 | Modules affected: vpc-dns-forwarder, vpc-dns-forwarder-rules | <a href="https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.7">Release notes</a></small>
+  <small>Published: 4/19/2019 | Modules affected: vpc-dns-forwarder, vpc-dns-forwarder-rules | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.7">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -628,12 +628,12 @@ This release formats all the modules using `terraform fmt`. No functional change
 * `vpc-dns-forwarder-rules` [**NEW**]
 
 
-This release introduces two new modules that can be used to setup Route 53 Resolver endpoints to forward DNS queries over a peering network. This can be used to allow domains in Route 53 Private Hosted Zones to be resolved over a peering connection. See [the module documentation](https://github.com/gruntwork-io/module-vpc/tree/master/modules/vpc-dns-forwarder) for more details.
+This release introduces two new modules that can be used to setup Route 53 Resolver endpoints to forward DNS queries over a peering network. This can be used to allow domains in Route 53 Private Hosted Zones to be resolved over a peering connection. See [the module documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-dns-forwarder) for more details.
 
 
 
-* https://github.com/gruntwork-io/module-vpc/pull/64
-* https://github.com/gruntwork-io/module-vpc/pull/65
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/pull/64
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/pull/65
 
 </div>
 
@@ -642,10 +642,10 @@ This release introduces two new modules that can be used to setup Route 53 Resol
 ## terraform-aws-zookeeper
 
 
-### [v0.5.4](https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.5.4)
+### [v0.5.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.5.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/25/2019 | Modules affected: zookeeper-cluster, install-open-jdk | <a href="https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.5.4">Release notes</a></small>
+  <small>Published: 4/25/2019 | Modules affected: zookeeper-cluster, install-open-jdk | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.5.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -655,11 +655,11 @@ This release introduces two new modules that can be used to setup Route 53 Resol
 * `install-open-jdk`
 
 
-* Update `module-asg` dependency  to `v0.6.26` to address an eventual consistency issue in health checks. See https://github.com/gruntwork-io/module-asg/releases/tag/v0.6.26 for more info.
+* Update `module-asg` dependency  to `v0.6.26` to address an eventual consistency issue in health checks. See https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/releases/tag/v0.6.26 for more info.
 * Introduced the new `install-open-jdk` module that helps with installing OpenJDK.
 
 
-* https://github.com/gruntwork-io/package-zookeeper/pull/44
+* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/44
 
 </div>
 
@@ -668,10 +668,10 @@ This release introduces two new modules that can be used to setup Route 53 Resol
 ## terraform-kubernetes-helm
 
 
-### [v0.2.4](https://github.com/gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.2.4)
+### [v0.2.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.2.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/15/2019 | <a href="https://github.com/gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.2.4">Release notes</a></small>
+  <small>Published: 4/15/2019 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.2.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>

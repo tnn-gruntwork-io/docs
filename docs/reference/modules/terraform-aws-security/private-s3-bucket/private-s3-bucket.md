@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Private S3 Bucket
 
-<a href="https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/private-s3-bucket" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/private-s3-bucket" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.67.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This module can be used to create and manage an [Amazon S3](https://aws.amazon.com/s3/) bucket that enforces
 best practices for private access:
@@ -86,7 +86,7 @@ aws-vault exec --no-session root-prod -- ./mfa-delete.sh --account-id 2264865421
 
 module "private_s_3_bucket" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-security.git//modules/private-s3-bucket?ref=v0.67.8"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/private-s3-bucket?ref=v0.67.8"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -280,7 +280,7 @@ module "private_s_3_bucket" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-security.git//modules/private-s3-bucket?ref=v0.67.8"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/private-s3-bucket?ref=v0.67.8"
 }
 
 inputs = {
@@ -1013,9 +1013,9 @@ The name of an IAM role that can be used to configure replication from various s
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/private-s3-bucket/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/private-s3-bucket/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/private-s3-bucket/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/private-s3-bucket/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/private-s3-bucket/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/private-s3-bucket/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "f4f518b855b3080dc036e0c9a9ff0c44"

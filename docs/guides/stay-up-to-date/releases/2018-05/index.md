@@ -27,28 +27,28 @@ Here are the repos that were updated:
 ## gruntwork
 
 
-### [v0.0.19](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.0.19)
+### [v0.0.19](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.19)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/16/2018 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.0.19">Release notes</a></small>
+  <small>Published: 5/16/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.19">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/gruntwork/pull/27: Create AWS accounts sequentially as that seems to now be a requirement of AWS Organizations.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/pull/27: Create AWS accounts sequentially as that seems to now be a requirement of AWS Organizations.
 
 </div>
 
 
-### [v0.0.18](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.0.18)
+### [v0.0.18](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.18)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/9/2018 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.0.18">Release notes</a></small>
+  <small>Published: 5/9/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.18">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/gruntwork/pull/24: Exit with an error if an account name cannot be found.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/pull/24: Exit with an error if an account name cannot be found.
 
 </div>
 
@@ -57,23 +57,23 @@ Here are the repos that were updated:
 ## terraform-aws-asg
 
 
-### [v0.6.11](https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.6.11)
+### [v0.6.11](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.11)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/31/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.6.11">Release notes</a></small>
+  <small>Published: 5/31/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.11">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-asg/pull/34: Fix an intermittent bug in `asg-rolling-deploy` that would cause the error `argument --tag-value: expected one argument`.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/34: Fix an intermittent bug in `asg-rolling-deploy` that would cause the error `argument --tag-value: expected one argument`.
 
 </div>
 
 
-### [v0.6.10](https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.6.10)
+### [v0.6.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/9/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-asg/releases/tag/v0.6.10">Release notes</a></small>
+  <small>Published: 5/9/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.10">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -92,28 +92,28 @@ Here are the repos that were updated:
 ## terraform-aws-ci
 
 
-### [v0.10.0](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.10.0)
+### [v0.10.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.10.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/25/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.10.0">Release notes</a></small>
+  <small>Published: 5/25/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.10.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-ci/pull/60: The `git-add-commit-push` script no longer defaults the branch name to `$CIRCLE_BRANCH`. Instead, it uses `git` to look up the name of the currently checked-out branch in `pwd`. In most cases this will produce the exact same effect as before and no code changes will be required. Note that you can always use the `--branch-name` argument to override the default branch name in `git-add-commit-push`.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/60: The `git-add-commit-push` script no longer defaults the branch name to `$CIRCLE_BRANCH`. Instead, it uses `git` to look up the name of the currently checked-out branch in `pwd`. In most cases this will produce the exact same effect as before and no code changes will be required. Note that you can always use the `--branch-name` argument to override the default branch name in `git-add-commit-push`.
 
 </div>
 
 
-### [v0.9.0](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.9.0)
+### [v0.9.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.9.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/24/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.9.0">Release notes</a></small>
+  <small>Published: 5/24/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.9.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-ci/pull/58: 
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/58: 
 
 BACKWARDS INCOMPATIBLE CHANGES
 
@@ -123,19 +123,19 @@ BACKWARDS INCOMPATIBLE CHANGES
 </div>
 
 
-### [v0.8.0](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.8.0)
+### [v0.8.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.8.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/16/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.8.0">Release notes</a></small>
+  <small>Published: 5/16/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.8.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-ci/pull/56: 
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/56: 
 
 BACKWARDS INCOMPATIBLE CHANGE. 
 
-All the pre-commit hooks that were in `modules/pre-commit` are now in their own open source repo: https://github.com/gruntwork-io/pre-commit. Please update your `.pre-commit-config.yml` files to point to the new repo and its version numbers.
+All the pre-commit hooks that were in `modules/pre-commit` are now in their own open source repo: https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/pre-commit. Please update your `.pre-commit-config.yml` files to point to the new repo and its version numbers.
 
 </div>
 
@@ -144,54 +144,54 @@ All the pre-commit hooks that were in `modules/pre-commit` are now in their own 
 ## terraform-aws-data-storage
 
 
-### [v0.6.6](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.6)
+### [v0.6.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/21/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.6">Release notes</a></small>
+  <small>Published: 5/21/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.6">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-data-storage/pull/48: The `rds` module now exposes a `publicly_accessible` parameter that you can set to true to make the DB accessible from the public Internet (NOT recommended for most use cases).
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/48: The `rds` module now exposes a `publicly_accessible` parameter that you can set to true to make the DB accessible from the public Internet (NOT recommended for most use cases).
 
 </div>
 
 
-### [v0.6.5](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.5)
+### [v0.6.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/17/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.5">Release notes</a></small>
+  <small>Published: 5/17/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.5">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-data-storage/pull/47: In the `aurora` module, you can now use the `db_instance_parameter_group_name` param to set the parameter group for instances separately from the parameter group for the entire cluster (which can be set via the `db_cluster_parameter_group_name` param).
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/47: In the `aurora` module, you can now use the `db_instance_parameter_group_name` param to set the parameter group for instances separately from the parameter group for the entire cluster (which can be set via the `db_cluster_parameter_group_name` param).
 
 </div>
 
 
-### [v0.6.4](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.4)
+### [v0.6.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/4/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.4">Release notes</a></small>
+  <small>Published: 5/4/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-data-storage/pull/46: Explicitly set the `minor_version_upgrade` setting on `rds` read replicas so they use the same setting as the primary.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/46: Explicitly set the `minor_version_upgrade` setting on `rds` read replicas so they use the same setting as the primary.
 
 </div>
 
 
-### [v0.6.3](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.3)
+### [v0.6.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/2/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.3">Release notes</a></small>
+  <small>Published: 5/2/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-data-storage/pull/44: Explicitly disable snapshots for replicas so you can successfully destroy them without hitting errors.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/44: Explicitly disable snapshots for replicas so you can successfully destroy them without hitting errors.
 
 </div>
 
@@ -200,10 +200,10 @@ All the pre-commit hooks that were in `modules/pre-commit` are now in their own 
 ## terraform-aws-ecs
 
 
-### [v0.6.6](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.6)
+### [v0.6.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/14/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.6">Release notes</a></small>
+  <small>Published: 5/14/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.6">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -213,10 +213,10 @@ All the pre-commit hooks that were in `modules/pre-commit` are now in their own 
 </div>
 
 
-### [v0.6.5](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.5)
+### [v0.6.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/8/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.5">Release notes</a></small>
+  <small>Published: 5/8/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.5">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -230,10 +230,10 @@ All the pre-commit hooks that were in `modules/pre-commit` are now in their own 
 ## terraform-aws-elk
 
 
-### [v0.0.2](https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.0.2)
+### [v0.0.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/30/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.0.2">Release notes</a></small>
+  <small>Published: 5/30/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -247,10 +247,10 @@ Marking this as a pre-release given that we&apos;re introducing `elasticsearch-c
 </div>
 
 
-### [v0.0.1](https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.0.1)
+### [v0.0.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/18/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-elk/releases/tag/v0.0.1">Release notes</a></small>
+  <small>Published: 5/18/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -264,10 +264,10 @@ Marking this as a pre-release given that we&apos;re introducing `elasticsearch-c
 ## terraform-aws-kafka
 
 
-### [v0.4.0](https://github.com/gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.0)
+### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/9/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.0">Release notes</a></small>
+  <small>Published: 5/9/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -277,7 +277,7 @@ Marking this as a pre-release given that we&apos;re introducing `elasticsearch-c
 In particular, when Zookeeper is colocated with multiple other services and re-deployed one server at a time, one of the Zookeeper nodes will remain in the Ensemble, but fail to sync all the znodes (key/value pairs). As a result, when Kafka looks up information about a broker from the out-of-sync node, it receives the error &quot;znode not found&quot; and fails to start correctly. We have not seen any evidence that this issue affects a standalone Zookeeper cluster.
 
 
-See &quot;Backwards-Incompatible Changes&quot; in [release v0.3.0](https://github.com/gruntwork-io/package-kafka/releases/tag/v0.3.0) for important background on the `EXTERNAL`, `INTERNAL`, and `HEALTHCHECK` Kafka listeners.
+See &quot;Backwards-Incompatible Changes&quot; in [release v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/releases/tag/v0.3.0) for important background on the `EXTERNAL`, `INTERNAL`, and `HEALTHCHECK` Kafka listeners.
 
 
 The changes in this release from v0.3.1 include the following:
@@ -303,7 +303,7 @@ All the `run-xxx` scripts now use a common pattern of arguments like `--kafka-br
 Previously, whenever a script searched for an Elastic Network Interface (ENI), it queried AWS for all a given EC2 Instance&apos;s ENIs and arbitrarily returned information about the first ENI in the results. Now, we explicitly look for the ENI whose [DeviceIndex](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-network-interface-attachment.html#w2ab2c21c10d438b9) is `1` to guarantee that we will get the ENI that re-attaches after an EC2 Instance re-spawns.
 
 
-All Bash scripts have been updated to use the `bash-commons` module in this repo. Note that Gruntwork has also released an [official bash-commons repo](https://github.com/gruntwork-io/bash-commons) that we hope to migrate to in the future.
+All Bash scripts have been updated to use the `bash-commons` module in this repo. Note that Gruntwork has also released an [official bash-commons repo](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons) that we hope to migrate to in the future.
 
 
 One of our customers wished to assign their own Security Groups to the Kafka Cluster, in addition to the Security Group that&apos;s automatically created by the `kafka-cluster` module. So we added `var.additional_security_group_ids` to each of `kafka-cluster` and `confluent-tools-cluster`.
@@ -334,15 +334,15 @@ Over the next few weeks, we plan to dig in deeper to the Zookeeper issue. Once f
 ## terraform-aws-lambda
 
 
-### [v0.2.2](https://github.com/gruntwork-io/terraform-aws-lambda/releases/tag/v0.2.2)
+### [v0.2.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.2.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/27/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-lambda/releases/tag/v0.2.2">Release notes</a></small>
+  <small>Published: 5/27/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.2.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/package-lambda/pull/13, https://github.com/gruntwork-io/package-lambda/pull/14: We&apos;ve added a new `keep-warm` module that can be used to invoke your Lambda functions on a scheduled basis, and with a configurable concurrency level, keeping those functions warm to avoid the cold start overhead.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-lambda/pull/13, https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-lambda/pull/14: We&apos;ve added a new `keep-warm` module that can be used to invoke your Lambda functions on a scheduled basis, and with a configurable concurrency level, keeping those functions warm to avoid the cold start overhead.
 
 </div>
 
@@ -351,10 +351,10 @@ Over the next few weeks, we plan to dig in deeper to the Zookeeper issue. Once f
 ## terraform-aws-load-balancer
 
 
-### [v0.9.0](https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.9.0)
+### [v0.9.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.9.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/24/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.9.0">Release notes</a></small>
+  <small>Published: 5/24/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.9.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -364,7 +364,7 @@ Over the next few weeks, we plan to dig in deeper to the Zookeeper issue. Once f
 terragrunt state mv module.&lt;module&gt;.aws_lb.nlb module.&lt;module&gt;.aws_lb.nlb_&lt;num&gt;_az
 ```
 
-Replace `&lt;module&gt;` with the name of your module and `&lt;num&gt;` with the amount of subnet mappings you provided. See an [example](https://github.com/gruntwork-io/module-load-balancer/tree/master/examples/nlb-with-subnet-mappings) for more details.
+Replace `&lt;module&gt;` with the name of your module and `&lt;num&gt;` with the amount of subnet mappings you provided. See an [example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/tree/master/examples/nlb-with-subnet-mappings) for more details.
 
 </div>
 
@@ -373,10 +373,10 @@ Replace `&lt;module&gt;` with the name of your module and `&lt;num&gt;` with the
 ## terraform-aws-sam
 
 
-### [v0.1.5](https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.5)
+### [v0.1.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/8/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.5">Release notes</a></small>
+  <small>Published: 5/8/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.5">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -386,10 +386,10 @@ Replace `&lt;module&gt;` with the name of your module and `&lt;num&gt;` with the
 </div>
 
 
-### [v0.1.4](https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.4)
+### [v0.1.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/8/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.4">Release notes</a></small>
+  <small>Published: 5/8/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -399,10 +399,10 @@ Replace `&lt;module&gt;` with the name of your module and `&lt;num&gt;` with the
 </div>
 
 
-### [v0.1.3](https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.3)
+### [v0.1.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/7/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-sam/releases/tag/v0.1.3">Release notes</a></small>
+  <small>Published: 5/7/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -417,15 +417,15 @@ Replace `&lt;module&gt;` with the name of your module and `&lt;num&gt;` with the
 ## terraform-aws-security
 
 
-### [v0.10.0](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.10.0)
+### [v0.10.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.10.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/30/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.10.0">Release notes</a></small>
+  <small>Published: 5/30/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.10.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-security/pull/93:
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/93:
 
 BACKWARDS INCOMPATIBLE CHANGE
 
@@ -436,19 +436,19 @@ BACKWARDS INCOMPATIBLE CHANGE
 </div>
 
 
-### [v0.9.0](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.9.0)
+### [v0.9.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.9.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/28/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.9.0">Release notes</a></small>
+  <small>Published: 5/28/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.9.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/module-security/pull/92:
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/92:
 
 BACKWARDS INCOMPATIBLE CHANGES
 
-1. The `auto-update`, `ntp`, `fail2ban`, and `ip-lockdown` modules now all use [bash-commons](https://github.com/gruntwork-io/bash-commons) under the hood. That means you must install `bash-commons` *before* installing any of those other modules.
+1. The `auto-update`, `ntp`, `fail2ban`, and `ip-lockdown` modules now all use [bash-commons](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons) under the hood. That means you must install `bash-commons` *before* installing any of those other modules.
 
 1. The `auto-update` and `ntp` modules now support Amazon Linux 2. We will add Amazon Linux 2 support for `fail2ban` and `ip-lockdown` modules in the future.
 
@@ -459,15 +459,15 @@ BACKWARDS INCOMPATIBLE CHANGES
 ## terraform-aws-zookeeper
 
 
-### [v0.4.4](https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.4)
+### [v0.4.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/9/2018 | <a href="https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.4">Release notes</a></small>
+  <small>Published: 5/9/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  - IMPROVEMENT: Update to [server-group module v0.6.10](https://github.com/gruntwork-io/module-asg/releases/tag/v0.6.10)
+  - IMPROVEMENT: Update to [server-group module v0.6.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/releases/tag/v0.6.10)
 
 </div>
 

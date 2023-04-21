@@ -23,15 +23,15 @@ Here are the repos that were updated:
 ## gruntwork
 
 
-### [v0.1.0](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.1.0)
+### [v0.1.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.1.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/19/2019 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.1.0">Release notes</a></small>
+  <small>Published: 8/19/2019 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.1.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/gruntwork/pull/48 : Add support for bootstrapping GCP Reference Architecture. This version introduces a new set of commands under the subcommand `gcp` for setting up your GCP org for deploying the Gruntwork GCP Reference Architecture.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/pull/48 : Add support for bootstrapping GCP Reference Architecture. This version introduces a new set of commands under the subcommand `gcp` for setting up your GCP org for deploying the Gruntwork GCP Reference Architecture.
 
 </div>
 
@@ -40,10 +40,10 @@ Here are the repos that were updated:
 ## terraform-aws-kafka
 
 
-### [v0.6.1](https://github.com/gruntwork-io/terraform-aws-kafka/releases/tag/v0.6.1)
+### [v0.6.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.6.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/1/2019 | Modules affected: **No | <a href="https://github.com/gruntwork-io/terraform-aws-kafka/releases/tag/v0.6.1">Release notes</a></small>
+  <small>Published: 8/1/2019 | Modules affected: **No | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.6.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -55,7 +55,7 @@ Here are the repos that were updated:
 All the examples and tests have been updated to include Ubuntu 18.04 to verify compatibility with that OS platform.
 
 
-- https://github.com/gruntwork-io/package-kafka/pull/60
+- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/60
 
 </div>
 
@@ -64,10 +64,10 @@ All the examples and tests have been updated to include Ubuntu 18.04 to verify c
 ## terraform-aws-openvpn
 
 
-### [v0.9.4](https://github.com/gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.4)
+### [v0.9.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/6/2019 | Modules affected: install-openvpn, init-openvpn | <a href="https://github.com/gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.4">Release notes</a></small>
+  <small>Published: 8/6/2019 | Modules affected: install-openvpn, init-openvpn | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -85,10 +85,10 @@ All the examples and tests have been updated to include Ubuntu 18.04 to verify c
 ## terraform-aws-security
 
 
-### [v0.18.5: Added aws-config module](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.18.5)
+### [v0.18.5: Added aws-config module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.18.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/29/2019 | Modules affected: aws-config | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.18.5">Release notes</a></small>
+  <small>Published: 8/29/2019 | Modules affected: aws-config | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.18.5">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -103,10 +103,10 @@ This release adds a module for [AWS Config](https://aws.amazon.com/config/). The
 </div>
 
 
-### [v0.18.4: Updates to the CloudTrail module](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.18.4)
+### [v0.18.4: Updates to the CloudTrail module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.18.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/29/2019 | Modules affected: cloudtrail | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.18.4">Release notes</a></small>
+  <small>Published: 8/29/2019 | Modules affected: cloudtrail | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.18.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -121,10 +121,10 @@ This release adds a module for [AWS Config](https://aws.amazon.com/config/). The
 </div>
 
 
-### [v0.18.3](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.18.3)
+### [v0.18.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.18.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/21/2019 | Modules affected: iam-users | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.18.3">Release notes</a></small>
+  <small>Published: 8/21/2019 | Modules affected: iam-users | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.18.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -138,10 +138,10 @@ This release adds a module for [AWS Config](https://aws.amazon.com/config/). The
 </div>
 
 
-### [v0.18.2: Enable KMS key rotation by default](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.18.2)
+### [v0.18.2: Enable KMS key rotation by default](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.18.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/15/2019 | Modules affected: kms-master-key, cloudtrail | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.18.2">Release notes</a></small>
+  <small>Published: 8/15/2019 | Modules affected: kms-master-key, cloudtrail | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.18.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -155,10 +155,10 @@ The cloudtrail and kms-master-key modules each create KMS key resources. Previou
 </div>
 
 
-### [v0.18.1](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.18.1)
+### [v0.18.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.18.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/14/2019 | Modules affected: iam-groups | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.18.1">Release notes</a></small>
+  <small>Published: 8/14/2019 | Modules affected: iam-groups | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.18.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -172,10 +172,10 @@ The cloudtrail and kms-master-key modules each create KMS key resources. Previou
 </div>
 
 
-### [v0.18.0](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.18.0)
+### [v0.18.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.18.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/9/2019 | Modules affected: ssh-grunt, iam-groups | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.18.0">Release notes</a></small>
+  <small>Published: 8/9/2019 | Modules affected: ssh-grunt, iam-groups | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.18.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -194,10 +194,10 @@ The cloudtrail and kms-master-key modules each create KMS key resources. Previou
 ## terraform-aws-server
 
 
-### [v0.7.3](https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.7.3)
+### [v0.7.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.7.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/21/2019 | Modules affected: single-server | <a href="https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.7.3">Release notes</a></small>
+  <small>Published: 8/21/2019 | Modules affected: single-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.7.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -215,10 +215,10 @@ The cloudtrail and kms-master-key modules each create KMS key resources. Previou
 ## terraform-aws-static-assets
 
 
-### [v0.5.3](https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.3)
+### [v0.5.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/1/2019 | Modules affected: s3-static-website | <a href="https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.3">Release notes</a></small>
+  <small>Published: 8/1/2019 | Modules affected: s3-static-website | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.5.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -235,10 +235,10 @@ The cloudtrail and kms-master-key modules each create KMS key resources. Previou
 ## terraform-aws-vpc
 
 
-### [v0.7.3](https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.3)
+### [v0.7.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/19/2019 | Modules affected: vpc-flow-logs | <a href="https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.3">Release notes</a></small>
+  <small>Published: 8/19/2019 | Modules affected: vpc-flow-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -251,10 +251,10 @@ The cloudtrail and kms-master-key modules each create KMS key resources. Previou
 </div>
 
 
-### [v0.7.2](https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.2)
+### [v0.7.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/12/2019 | Modules affected: vpc-flow-logs | <a href="https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.2">Release notes</a></small>
+  <small>Published: 8/12/2019 | Modules affected: vpc-flow-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -268,10 +268,10 @@ The cloudtrail and kms-master-key modules each create KMS key resources. Previou
 </div>
 
 
-### [v0.7.1](https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.1)
+### [v0.7.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/7/2019 | Modules affected: vpc-flow-logs | <a href="https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.1">Release notes</a></small>
+  <small>Published: 8/7/2019 | Modules affected: vpc-flow-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -291,10 +291,10 @@ The module has support for the following features:
 </div>
 
 
-### [v0.7.0](https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.0)
+### [v0.7.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/7/2019 | Modules affected: vpc-app-network-acls | <a href="https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.0">Release notes</a></small>
+  <small>Published: 8/7/2019 | Modules affected: vpc-app-network-acls | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -312,10 +312,10 @@ The module has support for the following features:
 ## terraform-aws-zookeeper
 
 
-### [v0.6.3](https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.6.3)
+### [v0.6.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.6.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/20/2019 | Modules affected: install-open-jdk | <a href="https://github.com/gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.6.3">Release notes</a></small>
+  <small>Published: 8/20/2019 | Modules affected: install-open-jdk | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.6.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>

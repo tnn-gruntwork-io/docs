@@ -1,7 +1,7 @@
 # Alerts
 
 A number of alerts have been configured using the [alarms modules in
-`terraform-aws-monitoring`](https://github.com/gruntwork-io/terraform-aws-monitoring/tree/master/modules/alarms) to notify you
+`terraform-aws-monitoring`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/alarms) to notify you
 in case of problems, such as a service running out of disk space or a load balancer seeing too many 5xx errors.
 
 - You can find all the alerts in the [CloudWatch Alarms
@@ -16,7 +16,7 @@ Page](https://console.aws.amazon.com/sns/v2/home?#/topics), select the `cloudwat
 Subscribe to topic."
 
 If you'd like alarm notifications to go to a Slack channel, check out the [`sns-to-slack`
-module](https://github.com/gruntwork-io/terraform-aws-monitoring/tree/master/modules/alarms/sns-to-slack).
+module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/alarms/sns-to-slack).
 
 
 <!-- ##DOCS-SOURCER-START

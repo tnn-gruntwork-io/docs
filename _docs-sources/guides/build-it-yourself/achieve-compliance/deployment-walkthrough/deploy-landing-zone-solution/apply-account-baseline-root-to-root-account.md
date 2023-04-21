@@ -9,11 +9,11 @@ Configure the `account-baseline-root` for the root account
 
 :::info
 
-You must be a <span className="js-subscribe-cta">Gruntwork Compliance subscriber</span> to access the Gruntwork Infrastructure as Code Library and the [CIS AWS Foundations Benchmark modules](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/).
+You must be a <span className="js-subscribe-cta">Gruntwork Compliance subscriber</span> to access the Gruntwork Infrastructure as Code Library and the [CIS AWS Foundations Benchmark modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/).
 
 :::
 
-First, let’s consider the repository structure that is recommended by this guide. It is available for your reference in the `/examples/for-production` folder of the [`terraform-aws-cis-service-catalog` repository](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/tree/master/examples/for-production). Consider the following directory structure for your `infrastructure-live` repository. It showcases the configuration files for your local variables.
+First, let’s consider the repository structure that is recommended by this guide. It is available for your reference in the `/examples/for-production` folder of the [`terraform-aws-cis-service-catalog` repository](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/examples/for-production). Consider the following directory structure for your `infrastructure-live` repository. It showcases the configuration files for your local variables.
 
 ```
 .
@@ -49,15 +49,15 @@ locals {
 }
 ```
 
-You’ll need to create these files to be able to follow the code examples following. For examples on what to put in each of these files, refer to the [`terraform-aws-cis-service-catalog` repository](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/tree/master/examples/for-production). Each of the `terragrunt.hcl` files will use the above `locals` configuration to help you avoid repetition. Note that the examples below won’t show this in the interest of clarity.
+You’ll need to create these files to be able to follow the code examples following. For examples on what to put in each of these files, refer to the [`terraform-aws-cis-service-catalog` repository](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/examples/for-production). Each of the `terragrunt.hcl` files will use the above `locals` configuration to help you avoid repetition. Note that the examples below won’t show this in the interest of clarity.
 
 Next, we’ll configure the `account-baseline-root` with settings needed for creating all the child accounts - AWS Organizations, IAM Roles, IAM Users, IAM Groups, IAM Password Policies, Amazon GuardDuty, AWS CloudTrail, AWS Config, Security Hub and Amazon Macie.
 
-We’ll be using the `landingzone/account-baseline-root` module from [terraform-aws-cis-service-catalog](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog).
+We’ll be using the `landingzone/account-baseline-root` module from [terraform-aws-cis-service-catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog).
 
 :::info
 
-This guide will use [Terragrunt](https://github.com/gruntwork-io/terragrunt) and its associated file and folder
+This guide will use [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt) and its associated file and folder
 structure to deploy Terraform modules. Please note that **Terragrunt is NOT required for using Terraform modules from the Gruntwork Infrastructure as Code Library.** Check out our [Introduction to Gruntwork](/intro/overview/intro-to-gruntwork) section
 for instructions on alternative options, such as how to
 [deploying how to use plain terraform](/intro/first-deployment/deploy#deploy-using-plain-terraform).
@@ -75,12 +75,12 @@ Next, create a `terragrunt.hcl` file in `infrastructure-live`, under the file pa
           └ terragrunt.hcl
 ```
 
-Point the `source` URL in your `terragrunt.hcl` file to the `account-baseline-root` module in the [terraform-aws-cis-service-catalog](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog)
+Point the `source` URL in your `terragrunt.hcl` file to the `account-baseline-root` module in the [terraform-aws-cis-service-catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog)
 repo, setting the `ref` param to the version you require:
 
 ```hcl title=infrastructure-live/root/_global/account-baseline/terragrunt.hcl
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-cis-service-catalog.git//modules/landingzone/account-baseline-root?ref=v0.27.0"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/landingzone/account-baseline-root?ref=v0.27.0"
 }
 ```
 

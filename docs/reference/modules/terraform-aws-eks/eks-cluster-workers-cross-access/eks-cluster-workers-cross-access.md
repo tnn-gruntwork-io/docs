@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # EKS Cluster Workers Cross Access Module
 
-<a href="https://github.com/gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers-cross-access" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers-cross-access" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.53.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This Terraform Module creates reciprocating ingress security group rules for the ports that are provided, so that you
 can configure network access between separate ASG worker groups.
@@ -28,7 +28,7 @@ between all your worker groups, you can add the following module block:
 
 ```hcl
 module "allow_all_access_between_worker_pools" {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers-cross-access?ref=v0.3.1"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers-cross-access?ref=v0.3.1"
 
   # This should be the number of security groups in the list eks_worker_security_group_ids.
   num_eks_worker_security_group_ids = 2
@@ -63,7 +63,7 @@ module.
 
 module "eks_cluster_workers_cross_access" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers-cross-access?ref=v0.57.0"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers-cross-access?ref=v0.57.0"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -101,7 +101,7 @@ module "eks_cluster_workers_cross_access" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers-cross-access?ref=v0.57.0"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers-cross-access?ref=v0.57.0"
 }
 
 inputs = {
@@ -139,9 +139,9 @@ inputs = {
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers-cross-access/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers-cross-access/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers-cross-access/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers-cross-access/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers-cross-access/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers-cross-access/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "bfb9b2c08b0a65fc91b180b8c61661be"

@@ -11,7 +11,7 @@ This documentation contains an overview of a deployed and managed architecture.
 First, the short version:
 
 - This is an end-to-end tech stack for [Amazon Web Services (AWS)](https://aws.amazon.com/) that includes all the
-  basic infrastructure a company needs, including the network topology, orchestration tools (e.g., Kubernetes or ECS), databases, caches, load balancers, CI / CD pipeline, monitoring, alerting, log aggregation, etc.- It's built on top of the [Gruntwork Service Catalog](https://github.com/gruntwork-io/terraform-aws-service-catalog).
+  basic infrastructure a company needs, including the network topology, orchestration tools (e.g., Kubernetes or ECS), databases, caches, load balancers, CI / CD pipeline, monitoring, alerting, log aggregation, etc.- It's built on top of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog).
 - It's all defined and managed as code using tools such as [Terraform](https://www.terraform.io/), [Packer](https://www.packer.io/), and [Docker](https://www.docker.com/).
 
 Here's a diagram that shows a rough overview of what the Reference Architecture looks like:
@@ -36,7 +36,7 @@ All of the infrastructure in this repo is managed as **code** using [Terragrunt]
 
 - You can package your infrastructure as reusable, documented, battle-tested modules that make it easier to scale and
   evolve your infrastructure. In fact, most of the infrastructure code in this architecture is deployed from the service modules in the
-  [Gruntwork Service Catalog](https://github.com/gruntwork-io/terraform-aws-service-catalog/).
+  [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/).
 
 For more info on Infrastructure as Code and Terraform, check out [A Comprehensive Guide to
 Terraform](https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca) and our our [Introduction to Gruntwork](/intro/overview/intro-to-gruntwork) section.
@@ -79,7 +79,7 @@ Each VPC is also configured with [VPC flow logs](https://docs.aws.amazon.com/vpc
 can be useful for monitoring and auditing network traffic across the VPC. Each VPC publishes its flow logs to CloudWatch
 Logs, under the log group `VPC_NAME-vpc-flow-logs`, where the `VPC_NAME` is an input variable to the `vpc` module.
 
-To learn more about VPCs and subnets, check out the Gruntwork [`vpc service`](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc).
+To learn more about VPCs and subnets, check out the Gruntwork [`vpc service`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc).
 
 ## Load balancers
 
@@ -106,7 +106,7 @@ we expose a single server publicly: an [OpenVPN server](https://openvpn.net/). O
 VPN client, you are "in the network", and will be able to access the private resources (e.g., you will be able to SSH
 to your EC2 Instances).
 
-For more info, see the [`openvpn` service](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/modules/mgmt/openvpn-server) and the VPN
+For more info, see the [`openvpn` service](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/mgmt/openvpn-server) and the VPN
 section of the [Authentication docs](02-authenticate/06-authenticate-to-the-vpn-server.md).
 
 ## GitHub
@@ -129,7 +129,7 @@ We are using [Amazon Route 53](https://aws.amazon.com/route53/) to configure DNS
 have configured SSL/TLS certificates for your domain names using [Amazon's Certificate Manager
 (ACM)](https://aws.amazon.com/certificate-manager/), which issues certificates that are free and renew automatically.
 
-For more info, see the [route53 service](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/route53).
+For more info, see the [route53 service](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/route53).
 
 ## Security
 
@@ -143,13 +143,13 @@ We have configured security best practices in every aspect of this infrastructur
 
 - **User accounts**: see the [Authentication docs](02-authenticate/02-setting-up-initial-access.md).
 
-- **Auditing**: see the [CloudTrail](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/cloudtrail) and
-  [AWS Config](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/aws-config) modules.
+- **Auditing**: see the [CloudTrail](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/cloudtrail) and
+  [AWS Config](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/aws-config) modules.
 
-- **Intrusion detection**: see the [`fail2ban`](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/fail2ban)
-  and [GuardDuty](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/guardduty-multi-region) modules.
+- **Intrusion detection**: see the [`fail2ban`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/fail2ban)
+  and [GuardDuty](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/guardduty-multi-region) modules.
 
-- **Security updates**: see the [`auto-update` module](https://github.com/gruntwork-io/terraform-aws-security/tree/master/modules/auto-update).
+- **Security updates**: see the [`auto-update` module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/auto-update).
 
 Check out [Gruntwork Security Best
 Practices](https://docs.google.com/document/d/e/2PACX-1vTikva7hXPd2h1SSglJWhlW8W6qhMlZUxl0qQ9rUJ0OX22CQNeM-91w4lStRk9u2zQIn6lPejUbe-dl/pub)

@@ -13,11 +13,11 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # SSH Grunt SELinux Policy
 
-<a href="https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt-selinux-policy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt-selinux-policy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.44.10" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.10" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
-This module installs a SELinux Local Policy Module that is necessary to make [ssh-grunt](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) work on
+This module installs a SELinux Local Policy Module that is necessary to make [ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) work on
 systems with SELinux, such as CentOS.
 
 The reason we need a policy is that `ssh-grunt` uses is executed on each attempted SSH login by the
@@ -28,11 +28,11 @@ The reason we need a policy is that `ssh-grunt` uses is executed on each attempt
 ## Install
 
 The easiest way to use this module is via the [Gruntwork
-Installer](https://github.com/gruntwork-io/gruntwork-installer) (make sure to replace `<VERSION>` below with the latest
-version from the [releases page](https://github.com/gruntwork-io/terraform-aws-security/releases)):
+Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer) (make sure to replace `<VERSION>` below with the latest
+version from the [releases page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases)):
 
 ```
-gruntwork-install --module-name ssh-grunt-selinux-policy --repo https://github.com/gruntwork-io/terraform-aws-security --tag <VERSION>
+gruntwork-install --module-name ssh-grunt-selinux-policy --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security --tag <VERSION>
 ```
 
 ## How this policy was created
@@ -84,9 +84,9 @@ $ sudo semodule -i ssh-grunt.pp
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt-selinux-policy/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt-selinux-policy/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt-selinux-policy/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt-selinux-policy/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt-selinux-policy/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt-selinux-policy/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "07ce8c4c416e1def3d5f34cfa6fc9329"

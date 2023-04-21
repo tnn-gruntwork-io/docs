@@ -20,9 +20,9 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 
 # Application Load Balancer
 
-<a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases?q=networking%2Falb" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=networking%2Falb" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
 
 ## Overview
 
@@ -42,14 +42,14 @@ This service contains code to deploy [Application Load Balancer](https://aws.ama
 
 :::note
 
-This repo is a part of the [Gruntwork Service Catalog](https://github.com/gruntwork-io/terraform-aws-service-catalog/),
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
 a collection of reusable, battle-tested, production ready infrastructure code.
 If you’ve never used the Service Catalog before, make sure to read
 [How to use the Gruntwork Service Catalog](https://docs.gruntwork.io/reference/services/intro/overview)!
 
 :::
 
-*   [Gruntwork Documentation on ALBs](https://github.com/gruntwork-io/terraform-aws-load-balancer/tree/master/modules/alb#background):
+*   [Gruntwork Documentation on ALBs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/master/modules/alb#background):
     Background information from Gruntwork about ALBs including what it is, differences from other ELB flavors, and when
     you should use ALBs.
 
@@ -62,7 +62,7 @@ If you’ve never used the Service Catalog before, make sure to read
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
-*   [examples/for-learning-and-testing folder](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+*   [examples/for-learning-and-testing folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
     `examples/for-learning-and-testing` folder contains standalone sample code optimized for learning, experimenting, and
     testing (but not direct production usage).
 
@@ -70,7 +70,7 @@ If you just want to try this repo out for experimenting and learning, check out 
 
 If you want to deploy this repo in production, check out the following resources:
 
-*   [examples/for-production folder](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+*   [examples/for-production folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
     optimized for direct usage in production. This is code from the
     [Gruntwork Reference Architecture](https://gruntwork.io/reference-architecture), and it shows you how we build an
     end-to-end, integrated tech stack on top of the Gruntwork Service Catalog.
@@ -89,7 +89,7 @@ If you want to deploy this repo in production, check out the following resources
 
 module "alb" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/alb?ref=v0.102.11"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/alb?ref=v0.102.11"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -275,7 +275,7 @@ module "alb" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/alb?ref=v0.102.11"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/alb?ref=v0.102.11"
 }
 
 inputs = {
@@ -918,9 +918,9 @@ The AWS-managed DNS name assigned to the ALB.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/README.md",
-    "https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/README.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/outputs.tf"
   ],
   "sourcePlugin": "service-catalog-api",
   "hash": "06771f086d00d7ae7316489e0071f39b"

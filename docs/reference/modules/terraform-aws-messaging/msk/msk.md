@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Amazon Managed Streaming for Apache Kafka (Amazon MSK) Module
 
-<a href="https://github.com/gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-messaging/releases/tag/v0.10.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.10.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This Terraform module configures and launches an [Amazon MSK](https://aws.amazon.com/msk/) cluster.
 
@@ -182,7 +182,7 @@ the security group for ZooKeeper, follow these instructions: https://docs.aws.am
 
 module "msk" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-messaging.git//modules/msk?ref=v0.10.2"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/msk?ref=v0.10.2"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -338,7 +338,7 @@ module "msk" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-messaging.git//modules/msk?ref=v0.10.2"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/msk?ref=v0.10.2"
 }
 
 inputs = {
@@ -986,9 +986,9 @@ A comma separated list of one or more hostname:port pairs to use to connect to t
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "1ba60853d34b3e11e7a2ae1efb43d61e"

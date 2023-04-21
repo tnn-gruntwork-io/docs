@@ -20,9 +20,9 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 
 # VPC
 
-<a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/vpc" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/vpc" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases?q=networking%2Fvpc" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=networking%2Fvpc" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
 
 ## Overview
 
@@ -47,7 +47,7 @@ for either production or non-production workloads.
 
 :::note
 
-This repo is a part of the [Gruntwork Service Catalog](https://github.com/gruntwork-io/terraform-aws-service-catalog/),
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
 a collection of reusable, battle-tested, production ready infrastructure code.
 If you’ve never used the Service Catalog before, make sure to read
 [How to use the Gruntwork Service Catalog](https://docs.gruntwork.io/reference/services/intro/overview)!
@@ -55,19 +55,19 @@ If you’ve never used the Service Catalog before, make sure to read
 :::
 
 Under the hood, this is all implemented using Terraform modules from the Gruntwork
-[terraform-aws-vpc](https://github.com/gruntwork-io/terraform-aws-vpc) repo. If you don’t have access to this repo,
+[terraform-aws-vpc](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc) repo. If you don’t have access to this repo,
 email <support@gruntwork.io>.
 
 ### Core concepts
 
 To understand core concepts like what’s a VPC, how subnets are configured, how network ACLs work, and more, see the
-documentation in the [terraform-aws-vpc](https://github.com/gruntwork-io/terraform-aws-vpc) repo.
+documentation in the [terraform-aws-vpc](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc) repo.
 
 ### Repo organization
 
-*   [modules](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules): The main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
-*   [examples](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples): This folder contains working examples of how to use the submodules.
-*   [test](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/test): Automated tests for the modules and examples.
+*   [modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules): The main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+*   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples): This folder contains working examples of how to use the submodules.
+*   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/test): Automated tests for the modules and examples.
 
 ## Deploy
 
@@ -75,7 +75,7 @@ documentation in the [terraform-aws-vpc](https://github.com/gruntwork-io/terrafo
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
-*   [examples/for-learning-and-testing folder](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+*   [examples/for-learning-and-testing folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
     `examples/for-learning-and-testing` folder contains standalone sample code optimized for learning, experimenting, and
     testing (but not direct production usage).
 
@@ -83,7 +83,7 @@ If you just want to try this repo out for experimenting and learning, check out 
 
 If you want to deploy this repo in production, check out the following resources:
 
-*   [examples/for-production folder](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+*   [examples/for-production folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
     optimized for direct usage in production. This is code from the
     [Gruntwork Reference Architecture](https://gruntwork.io/reference-architecture), and it shows you how we build an
     end-to-end, integrated tech stack on top of the Gruntwork Service Catalog.
@@ -105,7 +105,7 @@ If you want to deploy this repo in production, check out the following resources
 
 module "vpc" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/vpc?ref=v0.102.11"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/vpc?ref=v0.102.11"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -483,7 +483,7 @@ module "vpc" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/vpc?ref=v0.102.11"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/vpc?ref=v0.102.11"
 }
 
 inputs = {
@@ -1872,9 +1872,9 @@ Indicates whether or not the VPC has finished creating
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/vpc/README.md",
-    "https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/vpc/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/vpc/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/vpc/README.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/vpc/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/vpc/outputs.tf"
   ],
   "sourcePlugin": "service-catalog-api",
   "hash": "f0d3a6872055ce0d59738c00ac1e8c12"

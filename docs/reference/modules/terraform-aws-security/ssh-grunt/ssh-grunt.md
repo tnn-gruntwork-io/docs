@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # SSH Grunt
 
-<a href="https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.67.8" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.8" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This module can configure a Linux server to manage SSH access to the server via an Identity Provider (IdP). Via AWS [Identity and Access Management (IAM)](https://aws.amazon.com/iam/), developers in certain IAM Groups will be able to SSH to your servers using their IAM user name and the SSH key they uploaded to their IAM user account.
 
@@ -47,19 +47,19 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 ### Core concepts
 
-*   [How to install ssh-grunt on your servers](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/core-concepts.md#install-ssh-grunt-on-your-servers)
+*   [How to install ssh-grunt on your servers](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/core-concepts.md#install-ssh-grunt-on-your-servers)
 
-*   [How SSH Grunt works](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/core-concepts.md#how-it-works)
+*   [How SSH Grunt works](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/core-concepts.md#how-it-works)
 
-*   [Core Security Concepts](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/README.adoc#core-concepts)
+*   [Core Security Concepts](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/README.adoc#core-concepts)
 
 ### Repo organization
 
-*   [modules](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+*   [modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
 
-*   [examples](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/examples): This folder contains working examples of how to use the submodules.
+*   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples): This folder contains working examples of how to use the submodules.
 
-*   [test](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/test): Automated tests for the modules and examples.
+*   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/test): Automated tests for the modules and examples.
 
 ## Deploy
 
@@ -67,35 +67,35 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
-*   [ssh-grunt examples](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/ssh-grunt): The `examples/ssh-grunt` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+*   [ssh-grunt examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/ssh-grunt): The `examples/ssh-grunt` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
 
-*   [Packer template](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/ssh-grunt/packer/ssh-grunt-iam.json)
+*   [Packer template](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/ssh-grunt/packer/ssh-grunt-iam.json)
 
 ### Production deployment
 
 If you want to deploy this module in production, check out the following resources:
 
-*   [IAM policy with permissions for ssh-grunt](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/main/modules/base/ec2-baseline): Production-ready sample code for IAM entites that can be used for managing SSH grunt access.
+*   [IAM policy with permissions for ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/main/modules/base/ec2-baseline): Production-ready sample code for IAM entites that can be used for managing SSH grunt access.
 
-*   [IAM cross account roles in an app account](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/main/examples/for-production/infrastructure-live/dev/\_global/account-baseline): Production-ready sample code for cross account IAM roles, from the Reference Architecture.
+*   [IAM cross account roles in an app account](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/main/examples/for-production/infrastructure-live/dev/\_global/account-baseline): Production-ready sample code for cross account IAM roles, from the Reference Architecture.
 
-*   [IAM cross account roles as defined in a service module](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/main/modules/landingzone/account-baseline-app/): Service module code for IAM roles that can be used for a production-ready app account, as in the production example above.
+*   [IAM cross account roles as defined in a service module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/main/modules/landingzone/account-baseline-app/): Service module code for IAM roles that can be used for a production-ready app account, as in the production example above.
 
 ## Manage
 
 ### Day-to-day operations
 
-*   [How to manage SSH keys](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/core-concepts.md#upload-public-ssh-keys)
+*   [How to manage SSH keys](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/core-concepts.md#upload-public-ssh-keys)
 
-*   [IAM permissions required for ssh-grunt to work](https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/core-concepts.md#set-up-iam-permissions)
+*   [IAM permissions required for ssh-grunt to work](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/core-concepts.md#set-up-iam-permissions)
 
 
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/readme.adoc",
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/readme.adoc",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "c2944792bb17afe247f3094a2fafc5cc"

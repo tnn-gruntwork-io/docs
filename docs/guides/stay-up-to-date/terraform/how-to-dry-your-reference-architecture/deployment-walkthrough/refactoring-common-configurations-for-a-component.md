@@ -66,7 +66,7 @@ To construct this initial list, follow these steps:
 
 2.  Note all the top level blocks and attributes in the reference configuration, except for the `include` block. Terragrunt currently doesn’t support nested `include` blocks, so we can’t have the `include` block in the common file (note that this list will ultimately be the list of blocks and attributes that go in the common file).
 
-    - For example, in the file [dev/us-west-2/dev/networking/vpc/terragrunt.hcl](https://github.com/gruntwork-io/terraform-aws-service-catalog/blob/6ca162dd1a8d8d6b7cf05e6a22bc4ac7bf01215f/examples/for-production/infrastructure-live/dev/us-west-2/dev/networking/vpc/terragrunt.hcl), the list would be:
+    - For example, in the file [dev/us-west-2/dev/networking/vpc/terragrunt.hcl](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/blob/6ca162dd1a8d8d6b7cf05e6a22bc4ac7bf01215f/examples/for-production/infrastructure-live/dev/us-west-2/dev/networking/vpc/terragrunt.hcl), the list would be:
 
       - `terraform`
       - `locals`

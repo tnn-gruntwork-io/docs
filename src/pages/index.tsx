@@ -117,7 +117,7 @@ export default function Home(): JSX.Element {
               </Card>
               <Card
                 title="Gruntwork Installer"
-                href="https://github.com/gruntwork-io/gruntwork-installer"
+                href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer"
               >
                 The Gruntwork Installer provides conveniences for downloading
                 and installing Gruntwork modules.

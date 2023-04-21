@@ -3,19 +3,19 @@
 All Gruntwork modules that require AWS API access use roles rather than an IAM user with static API credentials for
 authentication. For example:
 
-- [`terraform-aws-server`](https://github.com/gruntwork-io/terraform-aws-server/blob/master/modules/single-server/main.tf)
+- [`terraform-aws-server`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/blob/master/modules/single-server/main.tf)
   is used to manage a single EC2 instance with an IAM role attached.
 
-- [`terraform-aws-asg`](https://github.com/gruntwork-io/terraform-aws-asg) applies IAM roles to instances in auto-scaling
+- [`terraform-aws-asg`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg) applies IAM roles to instances in auto-scaling
   group.
 
-- [`terraform-aws-eks`](https://github.com/gruntwork-io/terraform-aws-eks/blob/master/modules/eks-cluster-workers/main.tf)
+- [`terraform-aws-eks`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/blob/master/modules/eks-cluster-workers/main.tf)
   uses IAM roles for EKS cluster workers.
 
-- [`ecs-cluster`](https://github.com/gruntwork-io/terraform-aws-ecs/tree/master/modules/ecs-cluster) creates IAM
+- [`ecs-cluster`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/master/modules/ecs-cluster) creates IAM
   roles for ECS instances
 
-- [`lambda`](https://github.com/gruntwork-io/terraform-aws-lambda/tree/master/modules/lambda) creates IAM
+- [`lambda`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/master/modules/lambda) creates IAM
   roles for Lambda functions
 
 Use these modules whenever possible. You should always use IAM roles in your own modules any time you need to provide

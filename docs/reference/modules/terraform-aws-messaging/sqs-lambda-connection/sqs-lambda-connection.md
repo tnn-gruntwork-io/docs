@@ -13,9 +13,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Simple Queuing Service (SQS) To Lambda Connection Module
 
-<a href="https://github.com/gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs-lambda-connection" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs-lambda-connection" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-messaging/releases/tag/v0.9.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.9.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This module wraps the basics for using SQS to trigger a Lambda for processing
 
@@ -32,7 +32,7 @@ This module wraps the basics for using SQS to trigger a Lambda for processing
 
 module "sqs_lambda_connection" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-messaging.git//modules/sqs-lambda-connection?ref=v0.10.2"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs-lambda-connection?ref=v0.10.2"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -67,7 +67,7 @@ module "sqs_lambda_connection" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-messaging.git//modules/sqs-lambda-connection?ref=v0.10.2"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs-lambda-connection?ref=v0.10.2"
 }
 
 inputs = {
@@ -148,9 +148,9 @@ The largest number of records that Lambda will retrieve from your event source a
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs-lambda-connection/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs-lambda-connection/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs-lambda-connection/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs-lambda-connection/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs-lambda-connection/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs-lambda-connection/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "e0aaf389e88d4a4ffae362426f2b4d95"

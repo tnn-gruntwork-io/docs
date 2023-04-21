@@ -25,8 +25,8 @@ references:
     run:
       name: install bash commons
       command: |
-        curl -Ls https://raw.githubusercontent.com/gruntwork-io/gruntwork-installer/master/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version v0.0.21
-        gruntwork-install --module-name bash-commons --repo https://github.com/gruntwork-io/bash-commons --tag "v0.1.2"
+        curl -Ls https://raw.githubusercontent.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer/master/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version v0.0.21
+        gruntwork-install --module-name bash-commons --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons --tag "v0.1.2"
 
   build_docs: &build_docs
     run:

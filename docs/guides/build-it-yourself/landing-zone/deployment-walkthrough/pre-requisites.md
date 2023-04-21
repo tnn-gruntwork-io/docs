@@ -42,7 +42,7 @@ or dive into the [documentation](https://terragrunt.gruntwork.io/docs/).
 #### Code repository
 
 You will need to initialize an `infrastructure-live` repository to contain all of the Terragrunt configuration code for your
-infrastructure. You may use the [`for-production` example code](https://github.com/gruntwork-io/terraform-aws-service-catalog/tree/v0.41.4/examples/for-production/infrastructure-live) to start with.
+infrastructure. You may use the [`for-production` example code](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.41.4/examples/for-production/infrastructure-live) to start with.
 
 #### Keybase (optional)
 

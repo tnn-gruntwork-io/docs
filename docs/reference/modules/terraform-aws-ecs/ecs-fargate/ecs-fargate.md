@@ -13,20 +13,20 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Fargate Module
 
-<a href="https://github.com/gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-fargate" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-fargate" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.24.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.24.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 **NOTE**: The `ecs-fargate` module has been merged with `ecs-service` as of `v0.16.0`. Refer to the migration
-guide in [the release notes](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.16.0) for more info.
+guide in [the release notes](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.16.0) for more info.
 
 
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
-    "https://github.com/gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-fargate/readme.md",
-    "https://github.com/gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-fargate/variables.tf",
-    "https://github.com/gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-fargate/outputs.tf"
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-fargate/readme.md",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-fargate/variables.tf",
+    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-fargate/outputs.tf"
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "c0dee08c0120aed2d6c903ad0ab3ec1d"

@@ -25,23 +25,23 @@ Here are the repos that were updated:
 ## repo-copier
 
 
-### [v0.2.0](https://github.com/gruntwork-io/repo-copier/releases/tag/v0.2.0)
+### [v0.2.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/releases/tag/v0.2.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/2/2023 | <a href="https://github.com/gruntwork-io/repo-copier/releases/tag/v0.2.0">Release notes</a></small>
+  <small>Published: 1/2/2023 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/releases/tag/v0.2.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  * Prevent continuously keeping `go-git` instances in memory by @levkoburburas in https://github.com/gruntwork-io/repo-copier/pull/134
-* Improve code architecture by @levkoburburas in https://github.com/gruntwork-io/repo-copier/pull/138
-* Switching to Git command  by @levkoburburas in https://github.com/gruntwork-io/repo-copier/pull/139
+  * Prevent continuously keeping `go-git` instances in memory by @levkoburburas in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/pull/134
+* Improve code architecture by @levkoburburas in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/pull/138
+* Switching to Git command  by @levkoburburas in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/pull/139
 
 
 This release switches `repo-copier` to using your locally installed `git` instance rather than the embedded `go-git` library. This is because of memory consumption and stack overflow issues with `go-git`. Please ensure you have `git` installed locally and in your `PATH` whenever running `repo-copier` going forward!
 
 
-**Full Changelog**: https://github.com/gruntwork-io/repo-copier/compare/v0.1.1...v0.2.0
+**Full Changelog**: https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/compare/v0.1.1...v0.2.0
 
 </div>
 
@@ -50,10 +50,10 @@ This release switches `repo-copier` to using your locally installed `git` instan
 ## terraform-aws-ci
 
 
-### [v0.51.0](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.51.0)
+### [v0.51.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/9/2023 | Modules affected: kubernetes-circleci-helpers | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.51.0">Release notes</a></small>
+  <small>Published: 1/9/2023 | Modules affected: kubernetes-circleci-helpers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -71,7 +71,7 @@ This release switches `repo-copier` to using your locally installed `git` instan
 
 
 
-- https://github.com/gruntwork-io/terraform-aws-ci/pull/500
+- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/pull/500
 
 
 
@@ -82,10 +82,10 @@ This release switches `repo-copier` to using your locally installed `git` instan
 ## terraform-aws-cis-service-catalog
 
 
-### [v0.42.7](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.7)
+### [v0.42.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/31/2023 | Modules affected: data-stores | <a href="https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.7">Release notes</a></small>
+  <small>Published: 1/31/2023 | Modules affected: data-stores | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.7">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -100,10 +100,10 @@ This release switches `repo-copier` to using your locally installed `git` instan
 </div>
 
 
-### [v0.42.6](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.6)
+### [v0.42.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/18/2023 | <a href="https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.6">Release notes</a></small>
+  <small>Published: 1/18/2023 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.6">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -123,10 +123,10 @@ This release switches `repo-copier` to using your locally installed `git` instan
 ## terraform-aws-ecs
 
 
-### [v0.35.0](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.35.0)
+### [v0.35.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.35.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/26/2023 | Modules affected: ecs-cluster | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.35.0">Release notes</a></small>
+  <small>Published: 1/26/2023 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.35.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -143,10 +143,10 @@ This release switches `repo-copier` to using your locally installed `git` instan
 ## terraform-aws-eks
 
 
-### [v0.56.2](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.56.2)
+### [v0.56.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.56.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/27/2023 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.56.2">Release notes</a></small>
+  <small>Published: 1/27/2023 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.56.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -160,10 +160,10 @@ This release switches `repo-copier` to using your locally installed `git` instan
 </div>
 
 
-### [v0.56.1](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.56.1)
+### [v0.56.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.56.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/18/2023 | Modules affected: eks-k8s-external-dns | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.56.1">Release notes</a></small>
+  <small>Published: 1/18/2023 | Modules affected: eks-k8s-external-dns | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.56.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -179,10 +179,10 @@ This release switches `repo-copier` to using your locally installed `git` instan
 </div>
 
 
-### [v0.56.0](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.56.0)
+### [v0.56.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.56.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/5/2023 | Modules affected: eks-cluster-control-plane, eks-k8s-cluster-autoscaler, eks-container-logs, eks-alb-ingress-controller | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.56.0">Release notes</a></small>
+  <small>Published: 1/5/2023 | Modules affected: eks-cluster-control-plane, eks-k8s-cluster-autoscaler, eks-container-logs, eks-alb-ingress-controller | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.56.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -218,7 +218,7 @@ If you wish to maintain backward compatibility with your existing setup of the c
 If you wish to maintain backward compatibility with your existing setup of the EKS container logs, you will want to set the `use_cri_parser_conf` input variable to `false`.
 
 
-- https://github.com/gruntwork-io/terraform-aws-eks/pull/478
+- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/pull/478
 
 
 
@@ -229,10 +229,10 @@ If you wish to maintain backward compatibility with your existing setup of the E
 ## terraform-aws-lambda
 
 
-### [v0.21.6](https://github.com/gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.6)
+### [v0.21.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/24/2023 | Modules affected: api-gateway-account-settings, lambda | <a href="https://github.com/gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.6">Release notes</a></small>
+  <small>Published: 1/24/2023 | Modules affected: api-gateway-account-settings, lambda | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.6">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -246,10 +246,10 @@ If you wish to maintain backward compatibility with your existing setup of the E
 </div>
 
 
-### [v0.21.5](https://github.com/gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.5)
+### [v0.21.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/18/2023 | Modules affected: api-gateway-account-settings | <a href="https://github.com/gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.5">Release notes</a></small>
+  <small>Published: 1/18/2023 | Modules affected: api-gateway-account-settings | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.5">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -269,10 +269,10 @@ If you wish to maintain backward compatibility with your existing setup of the E
 ## terraform-aws-monitoring
 
 
-### [v0.35.7](https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.7)
+### [v0.35.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/13/2023 | Modules affected: sns-to-slack | <a href="https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.7">Release notes</a></small>
+  <small>Published: 1/13/2023 | Modules affected: sns-to-slack | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.7">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -290,10 +290,10 @@ If you wish to maintain backward compatibility with your existing setup of the E
 ## terraform-aws-openvpn
 
 
-### [v0.25.0](https://github.com/gruntwork-io/terraform-aws-openvpn/releases/tag/v0.25.0)
+### [v0.25.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.25.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/26/2023 | Modules affected: openvpn-server | <a href="https://github.com/gruntwork-io/terraform-aws-openvpn/releases/tag/v0.25.0">Release notes</a></small>
+  <small>Published: 1/26/2023 | Modules affected: openvpn-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.25.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -306,10 +306,10 @@ If you wish to maintain backward compatibility with your existing setup of the E
 </div>
 
 
-### [v0.24.4](https://github.com/gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.4)
+### [v0.24.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/23/2023 | Modules affected: openvpn-admin, openvpn-server | <a href="https://github.com/gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.4">Release notes</a></small>
+  <small>Published: 1/23/2023 | Modules affected: openvpn-admin, openvpn-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -330,10 +330,10 @@ If you wish to maintain backward compatibility with your existing setup of the E
 ## terraform-aws-security
 
 
-### [v0.67.2](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.67.2)
+### [v0.67.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/23/2023 | Modules affected: private-s3-bucket, kms-master-key | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.67.2">Release notes</a></small>
+  <small>Published: 1/23/2023 | Modules affected: private-s3-bucket, kms-master-key | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -351,26 +351,26 @@ If you wish to maintain backward compatibility with your existing setup of the E
 ## terraform-aws-service-catalog
 
 
-### [v0.100.1](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.100.1)
+### [v0.100.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.100.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/30/2023 | Modules affected: base, data-stores, landingzone, mgmt | <a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.100.1">Release notes</a></small>
+  <small>Published: 1/30/2023 | Modules affected: base, data-stores, landingzone, mgmt | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.100.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
-- Updated version of terraform-aws-security from v0.66.0 to v0.67.2.  See release notes [here](https://github.com/gruntwork-io/terraform-aws-security/releases) for details
+- Updated version of terraform-aws-security from v0.66.0 to v0.67.2.  See release notes [here](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases) for details
 
 
 
 </div>
 
 
-### [v0.100.0](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.100.0)
+### [v0.100.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.100.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 1/10/2023 | Modules affected: data-stores, services/eks-cluster, services/eks-workers, services/eks-core-services | <a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.100.0">Release notes</a></small>
+  <small>Published: 1/10/2023 | Modules affected: data-stores, services/eks-cluster, services/eks-workers, services/eks-core-services | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.100.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>

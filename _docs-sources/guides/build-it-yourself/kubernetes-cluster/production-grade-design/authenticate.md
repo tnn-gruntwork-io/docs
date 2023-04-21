@@ -43,12 +43,12 @@ for authentication.
 
 <div className="dlist">
 
-#### [kubergrunt](https://github.com/gruntwork-io/kubergrunt)
+#### [kubergrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt)
 
 A CLI tool maintained by Gruntwork that supports authentication to EKS, as well as several other important utilities,
 such as tools for doing zero-downtime rolling deployments of EKS worker nodes and managing TLS certificates in
 Kubernetes. The easiest way to install it is to use one of the pre-built binaries from the
-[kubergrunt releases](https://github.com/gruntwork-io/kubergrunt/releases) page. To authenticate with `kubergrunt`, you
+[kubergrunt releases](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases) page. To authenticate with `kubergrunt`, you
 run `kubergrunt eks configure`:
 
 </div>

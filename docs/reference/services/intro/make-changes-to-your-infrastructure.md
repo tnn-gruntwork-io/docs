@@ -16,7 +16,7 @@ Now that your infrastructure is deployed, let's discuss how to make changes to i
 
    ```hcl
    module "vpc" {
-     source = "git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
+     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 
      # ... (other args ommitted for readability) ...
      num_nat_gateways = 1
@@ -27,7 +27,7 @@ Now that your infrastructure is deployed, let's discuss how to make changes to i
 
    ```hcl
    module "vpc" {
-     source = "git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
+     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 
      # ... (other args ommitted for readability) ...
      num_nat_gateways = 3
@@ -39,7 +39,7 @@ Now that your infrastructure is deployed, let's discuss how to make changes to i
 
    ```hcl
    module "vpc" {
-     source = "git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
+     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 
      # ... (other args omitted for readability) ...
    }
@@ -49,7 +49,7 @@ Now that your infrastructure is deployed, let's discuss how to make changes to i
 
    ```hcl
    module "vpc" {
-     source = "git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.2"
+     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.2"
 
      # ... (other args omitted for readability) ...
    }
@@ -58,7 +58,7 @@ Now that your infrastructure is deployed, let's discuss how to make changes to i
 :::note
 
 Whenever changing version numbers, make sure to read the [release
-notes](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards
+notes](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards
 incompatible release (e.g., `v0.0.1` -> `v0.1.0`), to avoid errors and outages (see [maintenance and
 versioning](/reference/services/intro/overview/#maintenance-and-versioning) for details)!
 
@@ -84,7 +84,7 @@ versioning](/reference/services/intro/overview/#maintenance-and-versioning) for 
 
    ```hcl
    terraform {
-     source = "git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
+     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
    }
 
    inputs = {
@@ -97,7 +97,7 @@ versioning](/reference/services/intro/overview/#maintenance-and-versioning) for 
 
    ```hcl
    terraform {
-     source = "git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
+     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
    }
 
    inputs = {
@@ -111,7 +111,7 @@ versioning](/reference/services/intro/overview/#maintenance-and-versioning) for 
 
    ```hcl
    terraform {
-     source = "git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
+     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
    }
    ```
 
@@ -119,14 +119,14 @@ versioning](/reference/services/intro/overview/#maintenance-and-versioning) for 
 
    ```hcl
    terraform {
-     source = "git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.2"
+     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.2"
    }
    ```
 
 :::note
 
 Whenever changing version numbers, make sure to read the [release
-notes](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards
+notes](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards
 incompatible release (e.g., `v0.0.1` -> `v0.1.0`), to avoid errors and outages (see [maintenance and
 versioning](/reference/services/intro/overview/#maintenance-and-versioning) for details)!
 
@@ -171,7 +171,7 @@ _(Documentation coming soon. If you need help with this ASAP, please contact [su
    :::note
 
    Whenever changing version numbers, make sure to read the [release
-   notes](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards incompatible
+   notes](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards incompatible
    release (e.g., `v0.0.1` -> `v0.1.0`), to avoid errors and outages (see [maintenance and
    versioning](/reference/services/intro/overview/#maintenance-and-versioning) for details)!
 

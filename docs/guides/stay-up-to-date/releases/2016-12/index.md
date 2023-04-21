@@ -22,10 +22,10 @@ Here are the repos that were updated:
 ## boilerplate
 
 
-### [v0.2.0](https://github.com/gruntwork-io/boilerplate/releases/tag/v0.2.0)
+### [v0.2.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/20/2016 | <a href="https://github.com/gruntwork-io/boilerplate/releases/tag/v0.2.0">Release notes</a></small>
+  <small>Published: 12/20/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -40,10 +40,10 @@ Here are the repos that were updated:
 ## terraform-aws-ci
 
 
-### [v0.3.1](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.3.1)
+### [v0.3.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/21/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.3.1">Release notes</a></small>
+  <small>Published: 12/21/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -56,10 +56,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.3.0](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.3.0)
+### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/21/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.3.0">Release notes</a></small>
+  <small>Published: 12/21/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -70,10 +70,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.2.2](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.2.2)
+### [v0.2.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.2.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/21/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.2.2">Release notes</a></small>
+  <small>Published: 12/21/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.2.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -84,10 +84,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.2.1](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.2.1)
+### [v0.2.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.2.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/21/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.2.1">Release notes</a></small>
+  <small>Published: 12/21/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.2.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -98,10 +98,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.2.0](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.2.0)
+### [v0.2.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.2.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/20/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.2.0">Release notes</a></small>
+  <small>Published: 12/20/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.2.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -112,15 +112,15 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.1.0](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.1.0)
+### [v0.1.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.1.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/19/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.1.0">Release notes</a></small>
+  <small>Published: 12/19/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.1.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  - BREAKING CHANGE, `terraform-deploy`: this script has been removed. You should use [Terragrunt](https://github.com/gruntwork-io/terragrunt) instead.
+  - BREAKING CHANGE, `terraform-deploy`: this script has been removed. You should use [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt) instead.
 - BREAKING CHANGE, `build-docker-image`: this script will now look for the specified image/tag already in your Docker registry and if it exists, it will NOT replace it. In part, this is because want our artifacts to be immutable. In part, this makes it easy to use this script and automatically “promote” the same artifact from one environment to another (e.g. stage to prod). 
 - ENHANCEMENT, `terraform-update-variable: this script now accepts`--git-url`and`--git-checkout-path` parameters to check out a Git repo before making the Terraform changes.
 - MINOR CHANGE, `build-docker-image`: the `--output-properties-file` parameter is now optional.
@@ -133,10 +133,10 @@ Here are the repos that were updated:
 ## terraform-aws-data-storage
 
 
-### [v0.1.3](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.1.3)
+### [v0.1.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.1.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/15/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.1.3">Release notes</a></small>
+  <small>Published: 12/15/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.1.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -147,10 +147,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.1.2](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.1.2)
+### [v0.1.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.1.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/15/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.1.2">Release notes</a></small>
+  <small>Published: 12/15/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.1.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -161,10 +161,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.1.1](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.1.1)
+### [v0.1.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.1.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/8/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.1.1">Release notes</a></small>
+  <small>Published: 12/8/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.1.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -179,10 +179,10 @@ Here are the repos that were updated:
 ## terraform-aws-ecs
 
 
-### [v0.3.2](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.2)
+### [v0.3.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/14/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.2">Release notes</a></small>
+  <small>Published: 12/14/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -197,10 +197,10 @@ Here are the repos that were updated:
 ## terraform-aws-monitoring
 
 
-### [v0.4.0](https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.4.0)
+### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/28/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.4.0">Release notes</a></small>
+  <small>Published: 12/28/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.4.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -216,10 +216,10 @@ Here are the repos that were updated:
 ## terraform-aws-security
 
 
-### [v0.4.0](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.0)
+### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/17/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.4.0">Release notes</a></small>
+  <small>Published: 12/17/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -235,10 +235,10 @@ This change is fully backwards-compatible in terms of the vars and outputs, but 
 </div>
 
 
-### [v0.3.0](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.3.0)
+### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/13/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.3.0">Release notes</a></small>
+  <small>Published: 12/13/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.3.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -257,10 +257,10 @@ This change is fully backwards-compatible in terms of the vars and outputs, but 
 ## terraform-aws-server
 
 
-### [v0.1.3](https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.1.3)
+### [v0.1.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/9/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.1.3">Release notes</a></small>
+  <small>Published: 12/9/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -271,10 +271,10 @@ This change is fully backwards-compatible in terms of the vars and outputs, but 
 </div>
 
 
-### [v0.1.2](https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.1.2)
+### [v0.1.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/9/2016 | <a href="https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.1.2">Release notes</a></small>
+  <small>Published: 12/9/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>

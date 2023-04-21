@@ -58,7 +58,7 @@ organization names, optionally with `-` or `_` characters, but without whitespac
 ### Set up an SSH key
 
 When you’re using Gruntwork modules, you use the source attribute on a module block to read a module from a Gruntwork
-code repository. As a simple example, if you wanted to create an SQS queue using the SQS module from [`package-messaging`](https://github.com/gruntwork-io/package-messaging), you might create something like the following:
+code repository. As a simple example, if you wanted to create an SQS queue using the SQS module from [`package-messaging`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging), you might create something like the following:
 
 ```hcl
 provider "aws" {
@@ -66,12 +66,12 @@ provider "aws" {
 }
 
 module "sns" {
-  source = "git::git@github.com:gruntwork-io/package-messaging.git//modules/sqs?ref=v0.3.2"
+  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging.git//modules/sqs?ref=v0.3.2"
   name   = "my-queue"
 }
 ```
 
-The `git::git@github.com:gruntwork-io` portion of the `source` attribute indicates that this module is accessed over SSH. Thus, TFC will need access to the Gruntwork code repositories via SSH.
+The `git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io` portion of the `source` attribute indicates that this module is accessed over SSH. Thus, TFC will need access to the Gruntwork code repositories via SSH.
 
 To set up this access, take the following steps:
 
@@ -171,9 +171,9 @@ can link modules together with the [`remote_state`
 data source](https://www.terraform.io/docs/providers/terraform/d/remote_state.html). Note that you’ll need to set up the AWS credentials and SSH key within each workspace.
 
 You can use this pattern for any of Gruntwork’s Terraform modules. This even works for modules like
-[`terraform-aws-eks`](https://github.com/gruntwork-io/terraform-aws-eks) which need to download external dependencies (like
-[`kubergrunt`](https://github.com/gruntwork-io/kubergrunt)). Those modules use the special
-[`executable-dependency`](https://github.com/gruntwork-io/package-terraform-utilities/tree/master/modules/executable-dependency)
+[`terraform-aws-eks`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks) which need to download external dependencies (like
+[`kubergrunt`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt)). Those modules use the special
+[`executable-dependency`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-terraform-utilities/tree/master/modules/executable-dependency)
 module to install the external dependency within the executor (the TFC node, in this case) at run time. In the future,
 Gruntwork may offer modules through a private Terraform registry to remove the SSH key requirement, further simplifying
 the process.
@@ -204,7 +204,7 @@ Before digging in, we’ll review an example Terragrunt configuration.
 
 ### Setting up
 
-For this example, we’ll once again deploy an SQS queue from [Gruntwork `package-messaging` repository](https://github.com/gruntwork-io/package-messaging:).
+For this example, we’ll once again deploy an SQS queue from [Gruntwork `package-messaging` repository](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging:).
 
 Consider the following directory structure for an `infrastructure-live` repository:
 
@@ -260,7 +260,7 @@ The snippet below shows one technique for gathering the requisite information an
 ```hcl
 locals {
   tfc_hostname     = "app.terraform.io" # For TFE, substitute the custom hostname for your TFE host
-  tfc_organization = "gruntwork-io"
+  tfc_organization = "tnn-tnn-tnn-tnn-tnn-gruntwork-io"
   workspace        = reverse(split("/", get_terragrunt_dir()))[0] # This will find the name of the module, such as "sqs"
   account_vars     = read_terragrunt_config(find_in_parent_folders("account.hcl"))
   region_vars     = read_terragrunt_config(find_in_parent_folders("region.hcl"))
@@ -323,7 +323,7 @@ The following code shows how to generate a `terragrunt.auto.tfvars` file.
 
 ```hcl
 terraform {
-  source = "git::ssh://git@github.com/gruntwork-io/package-messaging//modules/sqs?ref=v0.3.2"
+  source = "git::ssh://git@github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging//modules/sqs?ref=v0.3.2"
 }
 
 include {
@@ -346,7 +346,7 @@ EOF
 
 The configuration has a few sections:
 
-1.  The `terraform` block at the top uses the Gruntwork `sqs` module from [`package-messaging`](https://github.com/gruntwork-io/package-messaging/).
+1.  The `terraform` block at the top uses the Gruntwork `sqs` module from [`package-messaging`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging/).
 
 2.  The `include` block includes the configuration from the parent directories. This is how the remote `backend` block from the root `terragrunt.hcl` is included.
 
@@ -392,7 +392,7 @@ will stop streaming the logs, but will not stop the apply running remotely.
 Preparing the remote apply...
 
 To view this run in a browser, visit:
-https://app.terraform.io/app/gruntwork-io/sqs-dev-us-east-1/runs/run-esQKC9ATKPnDywN1
+https://app.terraform.io/app/tnn-tnn-tnn-tnn-tnn-gruntwork-io/sqs-dev-us-east-1/runs/run-esQKC9ATKPnDywN1
 
 Waiting for the plan to start...
 

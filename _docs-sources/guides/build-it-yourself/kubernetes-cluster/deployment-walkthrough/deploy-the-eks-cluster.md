@@ -85,7 +85,7 @@ inputs = {
 
   # Set the max size to double the min size so the extra capacity can be used to do a zero-downtime deployment of updates
   # to the EKS Cluster Nodes (e.g. when you update the AMI). For docs on how to roll out updates to the cluster, see:
-  # https://github.com/gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-workers#how-do-i-roll-out-an-update-to-the-instances
+  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-workers#how-do-i-roll-out-an-update-to-the-instances
   cluster_min_size      = 3
   cluster_max_size      = 6
   cluster_instance_type = "t2.small"

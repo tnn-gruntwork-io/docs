@@ -4,7 +4,7 @@ This guide walks you through how to DRY (don’t repeat yourself) up the
 Terragrunt configurations in the [Gruntwork Reference
 Architecture](https://gruntwork.io/reference-architecture/) by leveraging the
 multi-include feature of Terragrunt that has been introduced in
-[v0.32.0](https://github.com/gruntwork-io/terragrunt/releases/tag/v0.32.0).
+[v0.32.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt/releases/tag/v0.32.0).
 Multi-include allows you to consolidate common configurations across
 environments into a separate configuration file that is imported alongside the
 project level configurations, drastically reducing the amount of duplicated

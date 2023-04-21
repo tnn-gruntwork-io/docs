@@ -31,10 +31,10 @@ Here are the repos that were updated:
 ## gruntwork
 
 
-### [v0.3.7](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.7)
+### [v0.3.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/17/2022 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.7">Release notes</a></small>
+  <small>Published: 5/17/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.7">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -44,10 +44,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.3.6](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.6)
+### [v0.3.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/13/2022 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.6">Release notes</a></small>
+  <small>Published: 5/13/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.6">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -62,10 +62,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.3.5](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.5)
+### [v0.3.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/13/2022 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.5">Release notes</a></small>
+  <small>Published: 5/13/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.5">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -75,10 +75,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.3.4](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.4)
+### [v0.3.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/10/2022 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.4">Release notes</a></small>
+  <small>Published: 5/10/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -88,10 +88,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.3.3](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.3)
+### [v0.3.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/10/2022 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.3">Release notes</a></small>
+  <small>Published: 5/10/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -103,10 +103,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.3.2](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.2)
+### [v0.3.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/9/2022 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.2">Release notes</a></small>
+  <small>Published: 5/9/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -119,10 +119,10 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.3.1](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.1)
+### [v0.3.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/9/2022 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.1">Release notes</a></small>
+  <small>Published: 5/9/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -132,15 +132,15 @@ Here are the repos that were updated:
 </div>
 
 
-### [v0.3.0](https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.0)
+### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/3/2022 | <a href="https://github.com/gruntwork-io/gruntwork/releases/tag/v0.3.0">Release notes</a></small>
+  <small>Published: 5/3/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
-  https://github.com/gruntwork-io/gruntwork/pull/88: Gruntwork is now handling Reference Architecture deploys from Gruntwork Pipelines internally. This means that we are now transitioning to an IAM role being the one assuming the Gruntwork admin role rather than users, and thus it will not be possible to guard the IAM role with MFA.
+  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/pull/88: Gruntwork is now handling Reference Architecture deploys from Gruntwork Pipelines internally. This means that we are now transitioning to an IAM role being the one assuming the Gruntwork admin role rather than users, and thus it will not be possible to guard the IAM role with MFA.
 
 Note that IAM users in the Gruntwork AWS Account are required to have MFA to assume roles.
 
@@ -151,10 +151,10 @@ Note that IAM users in the Gruntwork AWS Account are required to have MFA to ass
 ## repo-copier
 
 
-### [v0.0.26](https://github.com/gruntwork-io/repo-copier/releases/tag/v0.0.26)
+### [v0.0.26](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/releases/tag/v0.0.26)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/23/2022 | <a href="https://github.com/gruntwork-io/repo-copier/releases/tag/v0.0.26">Release notes</a></small>
+  <small>Published: 5/23/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/releases/tag/v0.0.26">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -168,10 +168,10 @@ Note that IAM users in the Gruntwork AWS Account are required to have MFA to ass
 ## terraform-aws-ci
 
 
-### [v0.48.1](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.48.1)
+### [v0.48.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.48.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/26/2022 | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.48.1">Release notes</a></small>
+  <small>Published: 5/26/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.48.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -187,10 +187,10 @@ Minor update, all related to testing module upgrades to make our builds more sta
 </div>
 
 
-### [v0.48.0](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.48.0)
+### [v0.48.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.48.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/24/2022 | Modules affected: ec2-backup, ecs-deploy-runner-invoke-iam-policy, ecs-deploy-runner, iam-policies | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.48.0">Release notes</a></small>
+  <small>Published: 5/24/2022 | Modules affected: ec2-backup, ecs-deploy-runner-invoke-iam-policy, ecs-deploy-runner, iam-policies | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.48.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -204,10 +204,10 @@ Minor update, all related to testing module upgrades to make our builds more sta
 </div>
 
 
-### [v0.47.11](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.47.11)
+### [v0.47.11](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.47.11)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/17/2022 | Modules affected: infrastructure-deployer | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.47.11">Release notes</a></small>
+  <small>Published: 5/17/2022 | Modules affected: infrastructure-deployer | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.47.11">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -223,10 +223,10 @@ Minor update, all related to testing module upgrades to make our builds more sta
 </div>
 
 
-### [v0.47.10](https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.47.10)
+### [v0.47.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.47.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/3/2022 | Modules affected: sign-binary-helpers, ecs-deploy-runner-standard-configuration, ecs-deploy-runner | <a href="https://github.com/gruntwork-io/terraform-aws-ci/releases/tag/v0.47.10">Release notes</a></small>
+  <small>Published: 5/3/2022 | Modules affected: sign-binary-helpers, ecs-deploy-runner-standard-configuration, ecs-deploy-runner | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.47.10">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -247,10 +247,10 @@ Minor update, all related to testing module upgrades to make our builds more sta
 ## terraform-aws-ci-steampipe
 
 
-### [v0.2.0](https://github.com/gruntwork-io/terraform-aws-ci-steampipe/releases/tag/v0.2.0)
+### [v0.2.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci-steampipe/releases/tag/v0.2.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/9/2022 | Modules affected: steampipe-runner | <a href="https://github.com/gruntwork-io/terraform-aws-ci-steampipe/releases/tag/v0.2.0">Release notes</a></small>
+  <small>Published: 5/9/2022 | Modules affected: steampipe-runner | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci-steampipe/releases/tag/v0.2.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -266,10 +266,10 @@ Updated the default version of Steampipe that is installed in the `steampipe-run
 ## terraform-aws-cis-service-catalog
 
 
-### [v0.35.0](https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.35.0)
+### [v0.35.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.35.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/10/2022 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-root, landingzone/account-baseline-security, networking/vpc | <a href="https://github.com/gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.35.0">Release notes</a></small>
+  <small>Published: 5/10/2022 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-root, landingzone/account-baseline-security, networking/vpc | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.35.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -279,14 +279,14 @@ Updated the default version of Steampipe that is installed in the `steampipe-run
     - If you&apos;d like to configure tagging, set `public_route_table_custom_tags`, `private_app_route_table_custom_tags`, and `private_persistence_route_table_custom_tags`.
 - These dependencies were updated:
     - `terraform-aws-service-catalog` `v0.85.2` =&gt; `v0.86.1`.
-        - [`v0.86.0`](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.0) requires minimum AWS provider version 3.75.0 for several modules.
+        - [`v0.86.0`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.0) requires minimum AWS provider version 3.75.0 for several modules.
     - `terraform-aws-vpc` `v0.20.4` =&gt; `v0.21.1`.
-        - [`v0.21.0`](https://github.com/gruntwork-io/terraform-aws-vpc/releases/tag/v0.21.0) requires minimum AWS provider version 3.75.0 for `vpc-flow-logs`.
+        - [`v0.21.0`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.21.0) requires minimum AWS provider version 3.75.0 for `vpc-flow-logs`.
     - `terraform-aws-monitoring` to `v0.33.3`.
-        - [`v0.33.0`](https://github.com/gruntwork-io/terraform-aws-monitoring/releases/tag/v0.33.0) requires minimum AWS provider version 3.75.0 for `logs/load-balancer-access-logs`.
+        - [`v0.33.0`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.33.0) requires minimum AWS provider version 3.75.0 for `logs/load-balancer-access-logs`.
     - `terraform-aws-security` to `v0.64.1`.
-        - [`v0.64.0`](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.64.0) introduces managed IAM policies.
-        - [`v0.63.0`](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.63.0) requires minimum AWS provider version 3.75.0 for several modules.
+        - [`v0.64.0`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.64.0) introduces managed IAM policies.
+        - [`v0.63.0`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.63.0) requires minimum AWS provider version 3.75.0 for several modules.
 - Exposed backward compatibility flags in LZ modules.
 
 
@@ -298,10 +298,10 @@ Updated the default version of Steampipe that is installed in the `steampipe-run
 ## terraform-aws-data-storage
 
 
-### [v0.23.4](https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.23.4)
+### [v0.23.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.23.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/13/2022 | Modules affected: lambda-share-snapshot | <a href="https://github.com/gruntwork-io/terraform-aws-data-storage/releases/tag/v0.23.4">Release notes</a></small>
+  <small>Published: 5/13/2022 | Modules affected: lambda-share-snapshot | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.23.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -321,10 +321,10 @@ Updated the default version of Steampipe that is installed in the `steampipe-run
 ## terraform-aws-ecs
 
 
-### [v0.33.1](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.33.1)
+### [v0.33.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.33.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/23/2022 | Modules affected: ecs-cluster | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.33.1">Release notes</a></small>
+  <small>Published: 5/23/2022 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.33.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -338,10 +338,10 @@ Updated the default version of Steampipe that is installed in the `steampipe-run
 </div>
 
 
-### [v0.33.0](https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.33.0)
+### [v0.33.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.33.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/19/2022 | Modules affected: ecs-cluster, ecs-daemon-service, ecs-deploy-check-binaries, ecs-service | <a href="https://github.com/gruntwork-io/terraform-aws-ecs/releases/tag/v0.33.0">Release notes</a></small>
+  <small>Published: 5/19/2022 | Modules affected: ecs-cluster, ecs-daemon-service, ecs-deploy-check-binaries, ecs-service | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.33.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -360,10 +360,10 @@ Updated the default version of Steampipe that is installed in the `steampipe-run
 ## terraform-aws-eks
 
 
-### [v0.51.4](https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.51.4)
+### [v0.51.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.51.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/19/2022 | Modules affected: eks-aws-auth-merger | <a href="https://github.com/gruntwork-io/terraform-aws-eks/releases/tag/v0.51.4">Release notes</a></small>
+  <small>Published: 5/19/2022 | Modules affected: eks-aws-auth-merger | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.51.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -381,18 +381,18 @@ Updated the default version of Steampipe that is installed in the `steampipe-run
 ## terraform-aws-lambda
 
 
-### [v0.19.0](https://github.com/gruntwork-io/terraform-aws-lambda/releases/tag/v0.19.0)
+### [v0.19.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.19.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/23/2022 | Modules affected: lambda-http-api-gateway, run-lambda-entrypoint, api-gateway-proxy | <a href="https://github.com/gruntwork-io/terraform-aws-lambda/releases/tag/v0.19.0">Release notes</a></small>
+  <small>Published: 5/23/2022 | Modules affected: lambda-http-api-gateway, run-lambda-entrypoint, api-gateway-proxy | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.19.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
-- Added a new module (`lambda-http-api-gateway`) for configuring an AWS HTTP (V2) API Gateway hooked up to different Lambda functions. Unlike `api-gateway-proxy`, this allows you to configure various HTTP requests to invoke different lambda functions (e.g., `GET` request on `/hello` can invoke the `foo` lambda function, while `POST` request on `/hello` can invoke the `bar` lambda function. Refer to [the module documentation](https://github.com/gruntwork-io/terraform-aws-lambda/tree/master/modules/lambda-http-api-gateway) for more information.
-- Added a new module (`run-lambda-entrypoint`) that can be used as an entrypoint for container image based Lambda function to expose AWS Secrets Manager secrets as environment variables to the Lambda function. This is useful if you don&apos;t want to leak the Secrets Manager entries into the Lambda function metadata which most traditional integrations will do as they rely on standard Lambda settings like Environment Variables. Refer to [the module documentation](https://github.com/gruntwork-io/terraform-aws-lambda/tree/master/modules/run-lambda-entrypoint) for more information.
+- Added a new module (`lambda-http-api-gateway`) for configuring an AWS HTTP (V2) API Gateway hooked up to different Lambda functions. Unlike `api-gateway-proxy`, this allows you to configure various HTTP requests to invoke different lambda functions (e.g., `GET` request on `/hello` can invoke the `foo` lambda function, while `POST` request on `/hello` can invoke the `bar` lambda function. Refer to [the module documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/master/modules/lambda-http-api-gateway) for more information.
+- Added a new module (`run-lambda-entrypoint`) that can be used as an entrypoint for container image based Lambda function to expose AWS Secrets Manager secrets as environment variables to the Lambda function. This is useful if you don&apos;t want to leak the Secrets Manager entries into the Lambda function metadata which most traditional integrations will do as they rely on standard Lambda settings like Environment Variables. Refer to [the module documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/master/modules/run-lambda-entrypoint) for more information.
 
 
 
@@ -403,10 +403,10 @@ Updated the default version of Steampipe that is installed in the `steampipe-run
 ## terraform-aws-messaging
 
 
-### [v0.8.2](https://github.com/gruntwork-io/terraform-aws-messaging/releases/tag/v0.8.2)
+### [v0.8.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.8.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/31/2022 | Modules affected: msk | <a href="https://github.com/gruntwork-io/terraform-aws-messaging/releases/tag/v0.8.2">Release notes</a></small>
+  <small>Published: 5/31/2022 | Modules affected: msk | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.8.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -426,10 +426,10 @@ Updated the default version of Steampipe that is installed in the `steampipe-run
 ## terraform-aws-openvpn
 
 
-### [v0.24.0](https://github.com/gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.0)
+### [v0.24.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/24/2022 | Modules affected: openvpn-server | <a href="https://github.com/gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.0">Release notes</a></small>
+  <small>Published: 5/24/2022 | Modules affected: openvpn-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -446,10 +446,10 @@ Updated the default version of Steampipe that is installed in the `steampipe-run
 ## terraform-aws-security
 
 
-### [v0.65.2](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.65.2)
+### [v0.65.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/25/2022 | Modules affected: aws-config-multi-region, aws-config, cloudtrail, cross-account-iam-roles | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.65.2">Release notes</a></small>
+  <small>Published: 5/25/2022 | Modules affected: aws-config-multi-region, aws-config, cloudtrail, cross-account-iam-roles | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -463,10 +463,10 @@ Updated the default version of Steampipe that is installed in the `steampipe-run
 </div>
 
 
-### [v0.65.1](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.65.1)
+### [v0.65.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/23/2022 | Modules affected: private-s3-bucket | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.65.1">Release notes</a></small>
+  <small>Published: 5/23/2022 | Modules affected: private-s3-bucket | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -480,10 +480,10 @@ Updated the default version of Steampipe that is installed in the `steampipe-run
 </div>
 
 
-### [v0.65.0](https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.65.0)
+### [v0.65.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/20/2022 | Modules affected: aws-config-bucket, aws-config-multi-region, aws-config-rules, aws-config | <a href="https://github.com/gruntwork-io/terraform-aws-security/releases/tag/v0.65.0">Release notes</a></small>
+  <small>Published: 5/20/2022 | Modules affected: aws-config-bucket, aws-config-multi-region, aws-config-rules, aws-config | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -499,10 +499,10 @@ The modules list above makes it look like a scary update; however, this should b
 ## terraform-aws-server
 
 
-### [v0.14.4](https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.14.4)
+### [v0.14.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.14.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/19/2022 | Modules affected: ec2-backup, single-server | <a href="https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.14.4">Release notes</a></small>
+  <small>Published: 5/19/2022 | Modules affected: ec2-backup, single-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.14.4">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -516,10 +516,10 @@ The modules list above makes it look like a scary update; however, this should b
 </div>
 
 
-### [v0.14.3](https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.14.3)
+### [v0.14.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.14.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/13/2022 | Modules affected: attach-eni | <a href="https://github.com/gruntwork-io/terraform-aws-server/releases/tag/v0.14.3">Release notes</a></small>
+  <small>Published: 5/13/2022 | Modules affected: attach-eni | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.14.3">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -536,10 +536,10 @@ The modules list above makes it look like a scary update; however, this should b
 ## terraform-aws-service-catalog
 
 
-### [v0.88.2](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.88.2)
+### [v0.88.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.88.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/31/2022 | Modules affected: data-stores | <a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.88.2">Release notes</a></small>
+  <small>Published: 5/31/2022 | Modules affected: data-stores | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.88.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -555,10 +555,10 @@ The modules list above makes it look like a scary update; however, this should b
 </div>
 
 
-### [v0.88.1](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.88.1)
+### [v0.88.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.88.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/23/2022 | Modules affected: services/ecs-service, data-stores/rds | <a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.88.1">Release notes</a></small>
+  <small>Published: 5/23/2022 | Modules affected: services/ecs-service, data-stores/rds | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.88.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -573,10 +573,10 @@ The modules list above makes it look like a scary update; however, this should b
 </div>
 
 
-### [v0.88.0](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.88.0)
+### [v0.88.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.88.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/18/2022 | Modules affected: mgmt/tailscale-subnet-router | <a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.88.0">Release notes</a></small>
+  <small>Published: 5/18/2022 | Modules affected: mgmt/tailscale-subnet-router | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.88.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -589,10 +589,10 @@ The modules list above makes it look like a scary update; however, this should b
 </div>
 
 
-### [v0.87.0](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.87.0)
+### [v0.87.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.87.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/13/2022 | Modules affected: services/eks-cluster, services/eks-workers, services/eks-core-services, services/k8s-service | <a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.87.0">Release notes</a></small>
+  <small>Published: 5/13/2022 | Modules affected: services/eks-cluster, services/eks-workers, services/eks-core-services, services/k8s-service | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.87.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -608,10 +608,10 @@ The modules list above makes it look like a scary update; however, this should b
 </div>
 
 
-### [v0.86.2](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.2)
+### [v0.86.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/4/2022 | Modules affected: networking/route53 | <a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.2">Release notes</a></small>
+  <small>Published: 5/4/2022 | Modules affected: networking/route53 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.2">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -626,10 +626,10 @@ The modules list above makes it look like a scary update; however, this should b
 </div>
 
 
-### [v0.86.1](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.1)
+### [v0.86.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/3/2022 | Modules affected: networking/vpc | <a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.1">Release notes</a></small>
+  <small>Published: 5/3/2022 | Modules affected: networking/vpc | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.1">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -643,10 +643,10 @@ The modules list above makes it look like a scary update; however, this should b
 </div>
 
 
-### [v0.86.0](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.0)
+### [v0.86.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/3/2022 | Modules affected: networking/vpc, networking/vpc-mgmt, networking/alb, networking/sns-topics | <a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.0">Release notes</a></small>
+  <small>Published: 5/3/2022 | Modules affected: networking/vpc, networking/vpc-mgmt, networking/alb, networking/sns-topics | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.86.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -667,10 +667,10 @@ The modules list above makes it look like a scary update; however, this should b
 </div>
 
 
-### [v0.85.11](https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.85.11)
+### [v0.85.11](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.85.11)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/3/2022 | Modules affected: mgmt/tailscale-subnet-router | <a href="https://github.com/gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.85.11">Release notes</a></small>
+  <small>Published: 5/3/2022 | Modules affected: mgmt/tailscale-subnet-router | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.85.11">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -690,10 +690,10 @@ The modules list above makes it look like a scary update; however, this should b
 ## terraform-aws-static-assets
 
 
-### [v0.15.0](https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.15.0)
+### [v0.15.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.15.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/24/2022 | Modules affected: s3-cloudfront, s3-static-website | <a href="https://github.com/gruntwork-io/terraform-aws-static-assets/releases/tag/v0.15.0">Release notes</a></small>
+  <small>Published: 5/24/2022 | Modules affected: s3-cloudfront, s3-static-website | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.15.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -710,10 +710,10 @@ The modules list above makes it look like a scary update; however, this should b
 ## terraform-aws-utilities
 
 
-### [v0.8.0](https://github.com/gruntwork-io/terraform-aws-utilities/releases/tag/v0.8.0)
+### [v0.8.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.8.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/6/2022 | Modules affected: executable-dependency, operating-system, prepare-pex-environment, require-executable | <a href="https://github.com/gruntwork-io/terraform-aws-utilities/releases/tag/v0.8.0">Release notes</a></small>
+  <small>Published: 5/6/2022 | Modules affected: executable-dependency, operating-system, prepare-pex-environment, require-executable | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.8.0">Release notes</a></small>
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
