@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # ACM TLS Certificate
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/acm-tls-certificate" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/acm-tls-certificate" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module can be used to issue and validate free, auto-renewing TLS certificates using [AWS Certificate
 Manager (ACM)](https://aws.amazon.com/certificate-manager/). It supports issuing and validating multiple ACM certificates.
@@ -112,7 +118,11 @@ domain name, then you need to set a tag named exactly `run_destroy_check` with a
 
 ```hcl
 module "cert" {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/acm-tls-certificate?ref=v0.13.2"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/acm-tls-certificate?ref=v0.13.2"
+>>>>>>> Stashed changes
   
   # ... other params ommitted ...
   
@@ -153,9 +163,15 @@ Two notes about this script:
 
 ## A note on the dependency_getter pattern implementing module_depends
 
+<<<<<<< Updated upstream
 This module uses a [null_resource](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/blob/main/modules/acm-tls-certificate/main.tf#L15) named `dependency_getter` to effectively implement `depends_on` at the module level. This is a temporary workaround as Terraform does not yet natively support `depends_on` at the module level. You can also see [this Terraform issue on GitHub](https://github.com/hashicorp/terraform/issues/1178) for more discussion.
 
 Here's how this works. First, we create [this optional dependencies variable](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/blob/main/modules/acm-tls-certificate/vars.tf#L124) for the current module, which accepts a list of strings, but defaults to an empty list. The `null_resource` linked above does a simple join on the dependencies list, if present. Every resource within this module also `depends_on` this `null_resource.dependency_getter`(even though it's creating no resources).
+=======
+This module uses a [null_resource](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/blob/main/modules/acm-tls-certificate/main.tf#L15) named `dependency_getter` to effectively implement `depends_on` at the module level. This is a temporary workaround as Terraform does not yet natively support `depends_on` at the module level. You can also see [this Terraform issue on GitHub](https://github.com/hashicorp/terraform/issues/1178) for more discussion.
+
+Here's how this works. First, we create [this optional dependencies variable](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/blob/main/modules/acm-tls-certificate/vars.tf#L124) for the current module, which accepts a list of strings, but defaults to an empty list. The `null_resource` linked above does a simple join on the dependencies list, if present. Every resource within this module also `depends_on` this `null_resource.dependency_getter`(even though it's creating no resources).
+>>>>>>> Stashed changes
 
 This has the desirable effect of causing the dependency graph that Terraform builds to look as you'd expect if there were in fact native support for `depends_on` at the module level. Let's say you had a separate Terraform module that needed to consume this current module in order to generate certificates, but you wanted this certificates module to wait to do any of its work until some of the outputs from the resources in your parent module were ready. In that case, you could pass those outputs into this module's `dependencies` variable, like so:
 
@@ -167,9 +183,15 @@ This has the desirable effect of causing the dependency graph that Terraform bui
 module "acm-tls-certificates" {
   # When using these modules in your own repos, you will need to use a Git URL with a ref attribute that pins you
   # to a specific version of the modules, such as the following example:
+<<<<<<< Updated upstream
   # source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/acm-tls-certificate?ref=v0.19.0"
 
   source               = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/acm-tls-certificate?ref=v0.20.0"
+=======
+  # source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/acm-tls-certificate?ref=v0.19.0"
+
+  source               = "git::git@github.com:tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/acm-tls-certificate?ref=v0.20.0"
+>>>>>>> Stashed changes
   acm_tls_certificates = local.acm_tls_certificates
 
   # Workaround Terraform limitation where there is no module depends_on.
@@ -196,7 +218,11 @@ In this example, the `acm-tls-certificates` module will "wait" until your `aws_r
 
 module "acm_tls_certificate" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/acm-tls-certificate?ref=v0.29.4"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/acm-tls-certificate?ref=v0.29.4"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -253,7 +279,11 @@ module "acm_tls_certificate" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/acm-tls-certificate?ref=v0.29.4"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/acm-tls-certificate?ref=v0.29.4"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -483,9 +513,15 @@ Global tags to apply to all ACM certificates issued via this module. These globa
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/acm-tls-certificate/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/acm-tls-certificate/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/acm-tls-certificate/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/acm-tls-certificate/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/acm-tls-certificate/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/acm-tls-certificate/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "1806d5bdd10c069adc0de77ce691c19b"

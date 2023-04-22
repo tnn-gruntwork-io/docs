@@ -9,8 +9,13 @@ sidebar_label: Update references to the Gruntwork Infrastructure as Code Library
 Please follow the steps listed to upgrade from version 1.2.0 to version 1.3.0 of the Benchmark. To see examples of what the relevant code
 changes look like, please refer to these pull requests in the Acme CIS Reference Architecture:
 
+<<<<<<< Updated upstream
 - [`cis-infrastructure-modules-acme`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/cis-infrastructure-modules-acme/pull/6)
 - [`cis-infrastructure-live-acme`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/cis-infrastructure-live-acme/pull/8)
+=======
+- [`cis-infrastructure-modules-acme`](https://github.com/tnn-gruntwork-io/cis-infrastructure-modules-acme/pull/6)
+- [`cis-infrastructure-live-acme`](https://github.com/tnn-gruntwork-io/cis-infrastructure-live-acme/pull/8)
+>>>>>>> Stashed changes
 
 :::
 
@@ -70,7 +75,11 @@ compatible with CIS AWS v1.3.0:
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.6">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.6">
+>>>>>>> Stashed changes
               v0.44.6
             </a>
           </strong>
@@ -87,7 +96,11 @@ compatible with CIS AWS v1.3.0:
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.24.0">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.24.0">
+>>>>>>> Stashed changes
               v0.24.0
             </a>
           </strong>
@@ -104,7 +117,11 @@ compatible with CIS AWS v1.3.0:
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.8.0">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.8.0">
+>>>>>>> Stashed changes
               v0.8.0
             </a>
           </strong>
@@ -121,7 +138,11 @@ compatible with CIS AWS v1.3.0:
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.13.0">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.13.0">
+>>>>>>> Stashed changes
               v0.13.0
             </a>
           </strong>
@@ -138,7 +159,11 @@ compatible with CIS AWS v1.3.0:
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.13.0">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.13.0">
+>>>>>>> Stashed changes
               v0.13.0
             </a>
           </strong>
@@ -155,7 +180,11 @@ compatible with CIS AWS v1.3.0:
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.11.1">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.11.1">
+>>>>>>> Stashed changes
               v0.11.1
             </a>
           </strong>
@@ -172,7 +201,11 @@ compatible with CIS AWS v1.3.0:
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.15.4">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.15.4">
+>>>>>>> Stashed changes
               v0.15.4
             </a>
           </strong>

@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # VPC Peering For External VPCs Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-peering-external" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-peering-external" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This Terraform Module creates route table entries for a [VPC Peering
 Connection](http://docs.aws.amazon.com/AmazonVPC/latest/PeeringGuide/Welcome.html) between one of your internal VPCs (e.g.
@@ -87,7 +93,11 @@ EC2 instance), a network ACL controls what inbound and outbound traffic is allow
 
 module "vpc_peering_external" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-peering-external?ref=v0.22.7"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-peering-external?ref=v0.22.7"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -198,7 +208,11 @@ module "vpc_peering_external" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-peering-external?ref=v0.22.7"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-peering-external?ref=v0.22.7"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -309,9 +323,15 @@ inputs = {
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-peering-external/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-peering-external/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-peering-external/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-peering-external/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-peering-external/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-peering-external/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "237edfa61ec29b445608c62458877b16"

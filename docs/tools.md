@@ -17,12 +17,20 @@ Gruntwork provides a suite of CLI tools to make working with Gruntwork and its I
 
 <Card
   title="Gruntwork CLI"
+<<<<<<< Updated upstream
   href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork">
+=======
+  href="https://github.com/tnn-gruntwork-io/gruntwork">
+>>>>>>> Stashed changes
 The Gruntwork CLI will help you set up your Reference Architecture including creating AWS accounts, registering domain names, and setting up VCS tokens in AWS Secrets Manager.
 </Card>
 <Card
   title="Gruntwork Installer"
+<<<<<<< Updated upstream
   href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer">
+=======
+  href="https://github.com/tnn-gruntwork-io/gruntwork-installer">
+>>>>>>> Stashed changes
 The Gruntwork Installer provides conveniences for downloading and installing Gruntwork modules.
 </Card>
 <Card
@@ -37,7 +45,11 @@ Terratest is a Go library that provides patterns and helper functions for testin
 </Card>
 <Card
 title="Repo Copier"
+<<<<<<< Updated upstream
 href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier"
+=======
+href="https://github.com/tnn-gruntwork-io/repo-copier"
+>>>>>>> Stashed changes
 tags={["enterprise"]}>
 Repo Copier is a CLI tool to copy repository data (including code, issues, PRs, releases, etc) from Gruntwork's GitHub organization to a customer's version control system.
 </Card>

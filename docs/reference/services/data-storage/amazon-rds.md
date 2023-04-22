@@ -20,9 +20,15 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 
 # Amazon Relational Database Service
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/data-stores/rds" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=data-stores%2Frds" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/data-stores/rds" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=data-stores%2Frds" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+>>>>>>> Stashed changes
 
 ## Overview
 
@@ -49,15 +55,24 @@ backups, patching, and encryption. For Aurora, use the [Aurora](/reference/servi
 
 :::note
 
+<<<<<<< Updated upstream
 This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
+=======
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
+>>>>>>> Stashed changes
 a collection of reusable, battle-tested, production ready infrastructure code.
 If you’ve never used the Service Catalog before, make sure to read
 [How to use the Gruntwork Service Catalog](https://docs.gruntwork.io/reference/services/intro/overview)!
 
 :::
 
+<<<<<<< Updated upstream
 *   [What is Amazon RDS?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/blob/master/modules/rds/core-concepts.md#what-is-amazon-rds)
 *   [Common gotchas with RDS](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/blob/master/modules/rds/core-concepts.md#common-gotchas)
+=======
+*   [What is Amazon RDS?](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/blob/master/modules/rds/core-concepts.md#what-is-amazon-rds)
+*   [Common gotchas with RDS](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/blob/master/modules/rds/core-concepts.md#common-gotchas)
+>>>>>>> Stashed changes
 *   [RDS documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html): Amazon’s docs for RDS that
     cover core concepts such as the types of databases supported, security, backup & restore, and monitoring.
 *   *[Designing Data Intensive Applications](https://dataintensive.net)*: the best book we’ve found for understanding data
@@ -69,7 +84,11 @@ If you’ve never used the Service Catalog before, make sure to read
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples/for-learning-and-testing folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+=======
+*   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+>>>>>>> Stashed changes
     `examples/for-learning-and-testing` folder contains standalone sample code optimized for learning, experimenting, and
     testing (but not direct production usage).
 
@@ -77,12 +96,20 @@ If you just want to try this repo out for experimenting and learning, check out 
 
 If you want to deploy this repo in production, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples/for-production folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+=======
+*   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+>>>>>>> Stashed changes
     optimized for direct usage in production. This is code from the
     [Gruntwork Reference Architecture](https://gruntwork.io/reference-architecture/), and it shows you how we build an
     end-to-end, integrated tech stack on top of the Gruntwork Service Catalog.
 
+<<<<<<< Updated upstream
 *   [How do I pass database configuration securely?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/data-stores/rds/core-concepts.md#how-do-i-pass-database-configuration-securely)
+=======
+*   [How do I pass database configuration securely?](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/data-stores/rds/core-concepts.md#how-do-i-pass-database-configuration-securely)
+>>>>>>> Stashed changes
 
 
 ## Sample Usage
@@ -98,7 +125,11 @@ If you want to deploy this repo in production, check out the following resources
 
 module "rds" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/rds?ref=v0.102.11"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/rds?ref=v0.102.11"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -534,7 +565,11 @@ module "rds" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/rds?ref=v0.102.11"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/rds?ref=v0.102.11"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -2297,9 +2332,15 @@ The ID of the Security Group that controls access to the RDS DB instance.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/data-stores/rds/README.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/data-stores/rds/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/data-stores/rds/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/data-stores/rds/README.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/data-stores/rds/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/data-stores/rds/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "service-catalog-api",
   "hash": "8aec9752d53048d1527af360b645dc4e"

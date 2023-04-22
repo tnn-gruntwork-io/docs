@@ -2,7 +2,11 @@
 
 Now that you have your management VPC(s) deployed, the next step is to deploy application VPCs to run all of your
 services, data stores, and production infrastructure. The process is very similar to deploying the management VPC,
+<<<<<<< Updated upstream
 except this time, you’ll be using the [`vpc-app`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-app)
+=======
+except this time, you’ll be using the [`vpc-app`](https://github.com/tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-app)
+>>>>>>> Stashed changes
 module from the Gruntwork Infrastructure as Code Library.
 
 :::note
@@ -49,12 +53,20 @@ terraform {
 ```
 
 Next, use the `vpc-app` module from the Gruntwork Infrastructure as Code Library, making sure to replace the `<VERSION>` placeholder
+<<<<<<< Updated upstream
 with the latest version from the [releases page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/releases):
+=======
+with the latest version from the [releases page](https://github.com/tnn-gruntwork-io/module-vpc/releases):
+>>>>>>> Stashed changes
 
 ```hcl title="infrastructure-modules/networking/vpc-app/main.tf"
 module "vpc" {
   # Make sure to replace <VERSION> in this URL with the latest module-vpc release
+<<<<<<< Updated upstream
   source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=<VERSION>"
+=======
+  source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=<VERSION>"
+>>>>>>> Stashed changes
 
   vpc_name         = var.vpc_name
   aws_region       = var.aws_region
@@ -66,7 +78,11 @@ module "vpc" {
 :::note
 
 All of the parameters should be exposed as input variables in `variables.tf`; see this
+<<<<<<< Updated upstream
 [variables.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-app/variables.tf)
+=======
+[variables.tf](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-app/variables.tf)
+>>>>>>> Stashed changes
 file for reference. This will allow you to set those variables to different values in different environments or AWS
 accounts.
 
@@ -77,7 +93,11 @@ Infrastructure as Code Library:
 
 ```hcl title="infrastructure-modules/networking/vpc-app/main.tf"
 module "vpc_network_acls" {
+<<<<<<< Updated upstream
   source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-app-network-acls?ref=<VERSION>"
+=======
+  source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-app-network-acls?ref=<VERSION>"
+>>>>>>> Stashed changes
 
   vpc_id      = module.vpc.vpc_id
   vpc_name    = module.vpc.vpc_name
@@ -112,12 +132,20 @@ data "terraform_remote_state" "mgmt_vpc" {
 }
 ```
 
+<<<<<<< Updated upstream
 You can then use the [`vpc-peering`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-peering) module to
+=======
+You can then use the [`vpc-peering`](https://github.com/tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-peering) module to
+>>>>>>> Stashed changes
 create a VPC peering connection and all the necessary route table entries between the application and management VPCs:
 
 ```hcl title="infrastructure-modules/networking/vpc-app/main.tf"
 module "mgmt_vpc_peering_connection" {
+<<<<<<< Updated upstream
   source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-peering?ref=v0.6.0"
+=======
+  source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-peering?ref=v0.6.0"
+>>>>>>> Stashed changes
 
   # Assume the first listed AWS Account Id is the one that should own the peering connection
   aws_account_id = var.aws_account_id
@@ -155,7 +183,11 @@ You’ll also need to update the NACLs to allow access from the management VPC:
 
 ```hcl title="infrastructure-modules/networking/vpc-app/main.tf"
 module "vpc_network_acls" {
+<<<<<<< Updated upstream
   source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-app-network-acls?ref=<VERSION>"
+=======
+  source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-app-network-acls?ref=<VERSION>"
+>>>>>>> Stashed changes
 
   # ... (other params omitted) ...
 
@@ -166,7 +198,11 @@ module "vpc_network_acls" {
 
 Finally, expose all of the `vpc-app` module outputs as outputs of your `vpc-app` wrapper module. There are a large
 number of outputs, so see this
+<<<<<<< Updated upstream
 [outputs.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-app/outputs.tf)
+=======
+[outputs.tf](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-app/outputs.tf)
+>>>>>>> Stashed changes
 file for reference.
 
 ## Test your wrapper module

@@ -105,7 +105,11 @@ aws s3api put-bucket-versioning --region <REGION> \
     --mfa "arn:aws:iam::<ACCOUNT ID>:mfa/root-account-mfa-device <MFA CODE>"
 ```
 
+<<<<<<< Updated upstream
 We also created a [script](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/private-s3-bucket/mfa-delete-script) to help you enable MFA Delete in all buckets from a single account at once. To learn how to run it and when, please follow the production _Deployment Walkthrough_ guide section below.
+=======
+We also created a [script](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/private-s3-bucket/mfa-delete-script) to help you enable MFA Delete in all buckets from a single account at once. To learn how to run it and when, please follow the production _Deployment Walkthrough_ guide section below.
+>>>>>>> Stashed changes
 
 ### Configure Amazon Macie (recommendation 2.1.4)
 
@@ -113,7 +117,11 @@ The new CIS AWS v1.4.0 recommendation 2.1.4 requires that all data in Amazon S3 
 One way to achieve this is the by leveraging the [Amazon Macie](https://aws.amazon.com/macie/) service.
 Amazon Macie is a fully managed data security and data privacy service that uses machine learning and pattern matching
 to discover and protect your sensitive data in AWS. To help you achieve this recommendation, we have created a dedicated
+<<<<<<< Updated upstream
 [`macie` service](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/security/macie)
+=======
+[`macie` service](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/security/macie)
+>>>>>>> Stashed changes
 in our CIS service catalog.
 
 #### AWS Macie - manual steps

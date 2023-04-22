@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # EKS Fargate Container Logs Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-fargate-container-logs" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.56.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-fargate-container-logs" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.56.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module supports collecting logs from Fargate Pods and shipping them to CloudWatch Logs, Elasticsearch, Kinesis
 Streams, or Kinesis Firehose.
@@ -25,7 +31,11 @@ Bit](https://fluentbit.io/) instance that runs on Fargate worker nodes. This all
 aggregation on Fargate Pods in EKS without setting up a side car container.
 
 **This module is for setting up log aggregation for EKS Fargate Pods. For other pods, take a look at the
+<<<<<<< Updated upstream
 [eks-container-logs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-container-logs) module.**
+=======
+[eks-container-logs](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-container-logs) module.**
+>>>>>>> Stashed changes
 
 ## How does this work?
 
@@ -106,7 +116,11 @@ fields @timestamp, @message
 
 module "eks_fargate_container_logs" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-fargate-container-logs?ref=v0.57.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-fargate-container-logs?ref=v0.57.0"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -203,7 +217,11 @@ module "eks_fargate_container_logs" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-fargate-container-logs?ref=v0.57.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-fargate-container-logs?ref=v0.57.0"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -633,9 +651,15 @@ The ID of the Kubernetes ConfigMap containing the logging configuration. This ca
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-fargate-container-logs/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-fargate-container-logs/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-fargate-container-logs/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-fargate-container-logs/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-fargate-container-logs/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-fargate-container-logs/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "fa62b9b5b3468a134ab4f62e8cb0a00c"

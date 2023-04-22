@@ -13,6 +13,7 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # EC2 Backup Lambda Function Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
@@ -22,6 +23,17 @@ Manager](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-serve
 
 This module can be used to make scheduled backups of an EC2 Instance and its EBS Volumes. Under the hood, this module
 uses [terraform-aws-lambda](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda) to deploy a Lambda function that is triggered on
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+
+**NOTE: This module is deprecated and will be removed in the future. Use [the Data Lifecycle
+Manager](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/main/modules/ec2-backup) based backup system instead.**
+
+This module can be used to make scheduled backups of an EC2 Instance and its EBS Volumes. Under the hood, this module
+uses [terraform-aws-lambda](https://github.com/tnn-gruntwork-io/terraform-aws-lambda) to deploy a Lambda function that is triggered on
+>>>>>>> Stashed changes
 a scheduled basis by [Amazon CloudWatch
 Events](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/WhatIsCloudWatchEvents.html)
 and runs [ec2-snapper](https://github.com/josh-padnick/ec2-snapper) to take a snapshot of the EC2 Instance.
@@ -29,7 +41,11 @@ and runs [ec2-snapper](https://github.com/josh-padnick/ec2-snapper) to take a sn
 ## Difference with Data Lifecycle Manager
 
 As an alternative to lambda functions using `ec2-snapper`, we also have the [ec2-backup
+<<<<<<< Updated upstream
 module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/main/modules/ec2-backup) in the repo `terraform-aws-server` which
+=======
+module](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/main/modules/ec2-backup) in the repo `terraform-aws-server` which
+>>>>>>> Stashed changes
 uses [AWS Data Lifecycle Managers (DLM)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html) to
 manage the EBS snapshots. Unlike with lambda functions, this is an AWS native solution that does not have any
 infrastructure to manage.
@@ -51,8 +67,13 @@ DLM:
 
 ## Example code
 
+<<<<<<< Updated upstream
 *   Check out the [jenkins example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples/jenkins) for working sample code.
 *   See [vars.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup/vars.tf) for all parameters you can configure on this module.
+=======
+*   Check out the [jenkins example](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples/jenkins) for working sample code.
+*   See [vars.tf](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup/vars.tf) for all parameters you can configure on this module.
+>>>>>>> Stashed changes
 
 ## Specifying an instance
 
@@ -103,7 +124,11 @@ automatically delete older snapshots. You can specify two parameters to control 
 
 module "ec_2_backup" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//modules/ec2-backup?ref=v0.51.6"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/ec2-backup?ref=v0.51.6"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -171,7 +196,11 @@ module "ec_2_backup" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//modules/ec2-backup?ref=v0.51.6"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/ec2-backup?ref=v0.51.6"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -342,9 +371,15 @@ When true, all IAM policies will be managed as dedicated policies rather than in
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "b4859e07e8ee729c1461d7fd6cf5f2e8"

@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # A Best-Practices Set of IAM Policy Documents
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This Gruntwork Terraform Module sets up a set of IAM Policy Documents that can be used in IAM users, groups, and roles.
 The documents represent a reasonable collection of permissions that will make sense for most organizations for
@@ -25,7 +31,11 @@ Note that these documents are Terraform [data sources](https://www.terraform.io/
 so they don't create anything themselves and are not intended to be used on their own. The way to use them is to take
 the outputs from this module (which are all JSON IAM documents) and plug them into other Terraform resources, such
 as `aws_iam_policy`, `aws_iam_user_policy`, `aws_iam_group_policy`, and `aws_iam_role_policy`. See the
+<<<<<<< Updated upstream
 [iam-groups](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-groups) and [cross-account-iam-roles](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/cross-account-iam-roles) modules for examples.
+=======
+[iam-groups](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-groups) and [cross-account-iam-roles](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/cross-account-iam-roles) modules for examples.
+>>>>>>> Stashed changes
 
 If you're not familiar with IAM concepts, start with the [Background Information](#background-information) section as a
 way to familiarize yourself with the terminology.
@@ -82,10 +92,17 @@ This module creates the following IAM Policy documents:
     certain IAM roles in other AWS accounts (e.g. stage, prod). The documents that are created and which IAM roles they
     have access to is controlled by the variable `var.allow_access_from_other_account_arns`.
 
+<<<<<<< Updated upstream
 *   **ssh_grunt_permissions**: provides the permissions [ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) needs to validate SSH keys with
     IAM.
 
 *   **ssh_grunt_houston_permissions**: provides the permissions [ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) needs to validate SSH
+=======
+*   **ssh_grunt_permissions**: provides the permissions [ssh-grunt](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) needs to validate SSH keys with
+    IAM.
+
+*   **ssh_grunt_houston_permissions**: provides the permissions [ssh-grunt](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) needs to validate SSH
+>>>>>>> Stashed changes
     keys with Houston.
 
 *   **auto_deploy_permissions**: provides the permissions in `var.auto_deploy_permissions` to do automated deployment.
@@ -266,7 +283,11 @@ Instead, use these Terraform resources so you don't have to worry about this pro
 
 module "iam_policies" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-policies?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-policies?ref=v0.67.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -361,7 +382,11 @@ module "iam_policies" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-policies?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-policies?ref=v0.67.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -742,9 +767,15 @@ If set to true, all the Policies created by this module that are used as Trust P
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "1281e65924724f26d08fb45b40886a71"

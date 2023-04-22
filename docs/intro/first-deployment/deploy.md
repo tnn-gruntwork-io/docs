@@ -90,7 +90,11 @@ To deploy to other environments, create analogous `.tfvars` and `.hcl` files (e.
 
 ## Deploy using Terragrunt
 
+<<<<<<< Updated upstream
 Another option is to use [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt), an open source wrapper for Terraform
+=======
+Another option is to use [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt), an open source wrapper for Terraform
+>>>>>>> Stashed changes
 that helps alleviate some of the drawbacks mentioned in the previous approach.
 
 The first step with Terragrunt is to version your code. You can do this by creating Git tags in

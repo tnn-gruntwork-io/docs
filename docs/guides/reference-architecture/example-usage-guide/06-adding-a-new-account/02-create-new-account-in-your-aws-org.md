@@ -1,14 +1,22 @@
 # Create new Account in your AWS Org
 
 The first step to adding a new account is to create the new AWS Account in your AWS Organization. This can be done
+<<<<<<< Updated upstream
 either through the AWS Web Console, or by using the [Gruntwork CLI](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/). If you
+=======
+either through the AWS Web Console, or by using the [Gruntwork CLI](https://github.com/tnn-gruntwork-io/gruntwork/). If you
+>>>>>>> Stashed changes
 are doing this via the CLI, you can run the following command to create the new account:
 
 ```bash
 gruntwork aws create --account "<ACCOUNT_NAME>=<EMAIL_ADDRESS_FOR_ROOT_USER>"
 ```
 
+<<<<<<< Updated upstream
 Record the account name and AWS ID of the new account you just created in the [accounts.json](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/accounts.json) file so
+=======
+Record the account name and AWS ID of the new account you just created in the [accounts.json](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/accounts.json) file so
+>>>>>>> Stashed changes
 that we can reference it throughout the process.
 
 Once the account is created, log in using the root credentials and configure MFA (see [this

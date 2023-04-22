@@ -20,10 +20,17 @@ Here are the repos that were updated:
 ## boilerplate
 
 
+<<<<<<< Updated upstream
 ### [v0.0.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 8/26/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.5">Release notes</a></small>
+=======
+### [v0.0.5](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.5)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 8/26/2016 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.5">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -34,10 +41,17 @@ Here are the repos that were updated:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.0.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 8/22/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.4">Release notes</a></small>
+=======
+### [v0.0.4](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.4)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 8/22/2016 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.4">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -48,10 +62,17 @@ Here are the repos that were updated:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.0.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 8/8/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.3">Release notes</a></small>
+=======
+### [v0.0.3](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.3)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 8/8/2016 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.3">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -66,15 +87,26 @@ Here are the repos that were updated:
 ## terraform-aws-ci
 
 
+<<<<<<< Updated upstream
 ### [v0.0.18](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.18)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 8/5/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.18">Release notes</a></small>
+=======
+### [v0.0.18](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.18)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 8/5/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.18">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   - The script `configure-environment-for-gruntwork-module` now optionally installs [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt). In addition, `terraform`, `terragrunt`, `packer`, and `glide` are now automatically placed in the system `PATH`. 
+=======
+  - The script `configure-environment-for-gruntwork-module` now optionally installs [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt). In addition, `terraform`, `terragrunt`, `packer`, and `glide` are now automatically placed in the system `PATH`. 
+>>>>>>> Stashed changes
 
 
 </div>
@@ -84,10 +116,17 @@ Here are the repos that were updated:
 ## terraform-aws-monitoring
 
 
+<<<<<<< Updated upstream
 ### [v0.0.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 8/13/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.9">Release notes</a></small>
+=======
+### [v0.0.9](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.9)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 8/13/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.9">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -102,10 +141,17 @@ Here are the repos that were updated:
 ## terraform-aws-security
 
 
+<<<<<<< Updated upstream
 ### [v0.0.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 8/23/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.3">Release notes</a></small>
+=======
+### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.3)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 8/23/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.3">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -116,10 +162,17 @@ Here are the repos that were updated:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.0.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 8/15/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.2">Release notes</a></small>
+=======
+### [v0.0.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 8/15/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -130,10 +183,17 @@ Here are the repos that were updated:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.0.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 8/11/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.0">Release notes</a></small>
+=======
+### [v0.0.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 8/11/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -148,10 +208,17 @@ Here are the repos that were updated:
 ## terraform-aws-vpc
 
 
+<<<<<<< Updated upstream
 ### [v0.1.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 8/31/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.0">Release notes</a></small>
+=======
+### [v0.1.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 8/31/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -166,11 +233,19 @@ BREAKING CHANGE: Upgrade module parameters to take advantage of the new data typ
 
 
 - `vars.tf`:
+<<<<<<< Updated upstream
   - [Example diff](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-14c7cc73490c3d2d8347d14cb8a44729) and 
   - Remove the `aws_availability_zones` variable. 
   - Add a variable called `num_availability_zones`. This represents the number of availability zones usable by this AWS account for the current AWS region. Set its `default` value to 2, 3, or 4, depending on your region.
 - `main.tf`
   - [Example diff](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-8140c347465c3fb50113f34a03f9c0d1) (ignore the `user_data` stuff)
+=======
+  - [Example diff](https://github.com/tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-14c7cc73490c3d2d8347d14cb8a44729) and 
+  - Remove the `aws_availability_zones` variable. 
+  - Add a variable called `num_availability_zones`. This represents the number of availability zones usable by this AWS account for the current AWS region. Set its `default` value to 2, 3, or 4, depending on your region.
+- `main.tf`
+  - [Example diff](https://github.com/tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-8140c347465c3fb50113f34a03f9c0d1) (ignore the `user_data` stuff)
+>>>>>>> Stashed changes
   - Update the `ref` of the `vpc-mgmt` and `vpc-mgmt-network-acls` URLs to `0.1.0`.
   - In the `mgmt_vpc` module, instead of setting `aws_availability_zones = &quot;$&#x7B;var.aws_availability_zones&#x7D;&quot;`, set `num_availability_zones = &quot;$&#x7B;var.num_availability_zones&#x7D;&quot;`.
   - In the `mgmt_vpc_network_acls` module, instead of setting `num_subnets = &quot;$&#x7B;length(split(&quot;,&quot;, var.aws_availability_zones))&#x7D;&quot;`, set `num_subnets = &quot;$&#x7B;var.num_availability_zones&#x7D;&quot;`. 
@@ -185,7 +260,11 @@ BREAKING CHANGE: Upgrade module parameters to take advantage of the new data typ
 
 These use the exact same upgrade process as the mgmt VPC, except there are some additional steps for the peering connection:
 - `main.tf`:
+<<<<<<< Updated upstream
   - [Example diff](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-3c06616a9c2b49d630e46d8439b63a8c) (ignore the `user_data` stuff)
+=======
+  - [Example diff](https://github.com/tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-3c06616a9c2b49d630e46d8439b63a8c) (ignore the `user_data` stuff)
+>>>>>>> Stashed changes
   - Update the `ref` of the `vpc-peering` URL to `0.1.0`.
   - Instead of manually concatenating values in a string for the `origin_vpc_route_table_ids` and `destination_vpc_route_table_ids` parameters, use the [concat](https://www.terraform.io/docs/configuration/interpolation.html#concat_list1_list2_) and [list](https://www.terraform.io/docs/configuration/interpolation.html#list_items_) functions. You should get something like `origin_vpc_route_table_ids = &quot;$&#x7B;concat(data.terraform_remote_state.mgmt_vpc.private_subnet_route_table_ids, list(data.terraform_remote_state.mgmt_vpc.public_subnet_route_table_id))&#x7D;&quot;`. 
   - Replace `length(split(&quot;,&quot;, var.aws_availability_zones))` in the calculation of the `num_origin_vpc_route_tables` and `num_destination_vpc_route_tables` parameters with `var.num_availability_zones`. The other parts of the calculation (e.g. the +1 and the *2) stay the same.

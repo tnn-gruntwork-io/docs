@@ -5,7 +5,11 @@ set -e
 readonly BASH_COMMONS_DIR="/opt/gruntwork/bash-commons"
 
 if [[ ! -d "$BASH_COMMONS_DIR" ]]; then
+<<<<<<< Updated upstream
   echo "ERROR: this script requires that bash-commons is installed in $BASH_COMMONS_DIR. See https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons for more info."
+=======
+  echo "ERROR: this script requires that bash-commons is installed in $BASH_COMMONS_DIR. See https://github.com/tnn-gruntwork-io/bash-commons for more info."
+>>>>>>> Stashed changes
   exit 1
 fi
 

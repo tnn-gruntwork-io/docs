@@ -14,11 +14,19 @@ infrastructure-live
         └ terragrunt.hcl
 ```
 
+<<<<<<< Updated upstream
 Point the `source` URL in your `terragrunt.hcl` file to the [account-baseline-app](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.41.4/modules/landingzone/account-baseline-app) service in the Service Catalog.
 
 ```hcl title=infrastructure-live/logs/_global/account-baseline/terragrunt.hcl
 terraform {
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/landingzone/account-baseline-app?ref=v0.41.4"
+=======
+Point the `source` URL in your `terragrunt.hcl` file to the [account-baseline-app](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.41.4/modules/landingzone/account-baseline-app) service in the Service Catalog.
+
+```hcl title=infrastructure-live/logs/_global/account-baseline/terragrunt.hcl
+terraform {
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/landingzone/account-baseline-app?ref=v0.41.4"
+>>>>>>> Stashed changes
 
   # This module deploys some resources (e.g., AWS Config) across all AWS regions, each of which needs its own provider,
   # which in Terraform means a separate process. To avoid all these processes thrashing the CPU, which leads to network

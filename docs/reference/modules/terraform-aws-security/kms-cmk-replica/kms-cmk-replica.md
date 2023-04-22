@@ -13,16 +13,26 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # KMS Customer Managed Key Multi-Region Replication module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-cmk-replica" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-cmk-replica" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This Terraform Module replicates an existing [KMS Customer Managed
 Key](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#customer-cmk) to another region using
 [the multi-region replication feature of
 KMS](https://docs.aws.amazon.com/kms/latest/developerguide/multi-region-keys-overview.html).
 
+<<<<<<< Updated upstream
 This module is intended to be used in conjunction with the [kms-master-key module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-master-key) to replicate a KMS
+=======
+This module is intended to be used in conjunction with the [kms-master-key module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-master-key) to replicate a KMS
+>>>>>>> Stashed changes
 key managed with that module to other regions. Note that the KMS key must be marked as multi-region in order to support
 multi-region replication.
 
@@ -39,7 +49,11 @@ multi-region replication.
 
 module "kms_cmk_replica" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/kms-cmk-replica?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/kms-cmk-replica?ref=v0.67.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -96,7 +110,11 @@ module "kms_cmk_replica" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/kms-cmk-replica?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/kms-cmk-replica?ref=v0.67.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -371,9 +389,15 @@ A map of CMK name to CMK ID.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-cmk-replica/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-cmk-replica/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-cmk-replica/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-cmk-replica/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-cmk-replica/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-cmk-replica/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "b1f67070377288d8a53104b768e24ec3"

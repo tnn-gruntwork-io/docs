@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # KMS Master Key Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-master-key" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-master-key" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This Terraform Module creates a new [Customer Master
 Key (CMK)](http://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#master_keys) in [Amazon's Key Management
@@ -27,7 +33,11 @@ A CMK is a key managed by AWS that you never see (and can therefore never compro
 to encrypt and decrypt small amounts of data and to generate [Data Keys](http://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#data-keys)
 that can be used to encrypt and decrypt larger amounts of data.
 
+<<<<<<< Updated upstream
 Using the AWS API with KMS can be clumsy. For a more streamlined experience, try [gruntkms](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms).
+=======
+Using the AWS API with KMS can be clumsy. For a more streamlined experience, try [gruntkms](https://github.com/tnn-gruntwork-io/gruntkms).
+>>>>>>> Stashed changes
 
 ## Background
 
@@ -40,7 +50,11 @@ the security of your keys.
 ### What is a Customer Master Key?
 
 A Customer Master Key (CMK) is a secret key that KMS stores and manages for you. You can use the CMK to encrypt small
+<<<<<<< Updated upstream
 amounts of data using the AWS APIs or a tool like [gruntkms](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms). It is a "master"
+=======
+amounts of data using the AWS APIs or a tool like [gruntkms](https://github.com/tnn-gruntwork-io/gruntkms). It is a "master"
+>>>>>>> Stashed changes
 key in the sense that you can also use a CMK to generate a "Data Key" that you can use in your own encryption algorithms
 to encrypt and decrypt large amounts of data.
 
@@ -87,7 +101,11 @@ more onerous.
 
 module "kms_master_key" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/kms-master-key?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/kms-master-key?ref=v0.67.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -150,7 +168,11 @@ module "kms_master_key" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/kms-master-key?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/kms-master-key?ref=v0.67.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -446,9 +468,15 @@ A map of CMK name to CMK ID.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-master-key/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-master-key/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-master-key/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-master-key/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-master-key/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/kms-master-key/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "b03796c2ac755101ca4218a24fae0f35"

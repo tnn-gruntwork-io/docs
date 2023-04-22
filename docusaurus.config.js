@@ -41,7 +41,11 @@ const config = {
   url: siteUrl,
   baseUrl: "/",
   favicon: "/favicon.ico",
+<<<<<<< Updated upstream
   organizationName: "tnn-tnn-tnn-tnn-tnn-gruntwork-io", // Usually your GitHub org/user name.
+=======
+  organizationName: "tnn-gruntwork-io", // Usually your GitHub org/user name.
+>>>>>>> Stashed changes
   projectName: "docs", // Usually your repo name.,
 
   stylesheets: [
@@ -56,7 +60,11 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
+<<<<<<< Updated upstream
           editUrl: "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/docs/edit/master/",
+=======
+          editUrl: "https://github.com/tnn-gruntwork-io/docs/edit/master/",
+>>>>>>> Stashed changes
           beforeDefaultRemarkPlugins: [captionsPlugin],
         },
         blog: false,
@@ -119,7 +127,11 @@ const config = {
           { to: "/tools", label: "Tools", position: "left" },
           { to: "/courses", label: "Courses", position: "left" },
           {
+<<<<<<< Updated upstream
             href: "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/knowledge-base/discussions",
+=======
+            href: "https://github.com/tnn-gruntwork-io/knowledge-base/discussions",
+>>>>>>> Stashed changes
             label: "Knowledge Base",
             position: "right",
           },
@@ -140,7 +152,11 @@ const config = {
             id: "more_dropdown",
             items: [
               {
+<<<<<<< Updated upstream
                 href: "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/knowledge-base/discussions",
+=======
+                href: "https://github.com/tnn-gruntwork-io/knowledge-base/discussions",
+>>>>>>> Stashed changes
                 label: "Knowledge Base",
               },
               {
@@ -184,7 +200,11 @@ const config = {
             items: [
               {
                 label: "Knowledge Base",
+<<<<<<< Updated upstream
                 href: "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/knowledge-base/discussions",
+=======
+                href: "https://github.com/tnn-gruntwork-io/knowledge-base/discussions",
+>>>>>>> Stashed changes
               },
               {
                 label: "Community Slack",
@@ -192,7 +212,11 @@ const config = {
               },
               {
                 label: "GitHub",
+<<<<<<< Updated upstream
                 href: "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io",
+=======
+                href: "https://github.com/tnn-gruntwork-io",
+>>>>>>> Stashed changes
               },
               {
                 label: "Twitter",
@@ -209,7 +233,11 @@ const config = {
               },
               {
                 label: "IaC Library on GitHub",
+<<<<<<< Updated upstream
                 href: "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io",
+=======
+                href: "https://github.com/tnn-gruntwork-io",
+>>>>>>> Stashed changes
               },
               {
                 label: "DevOps Checklist",

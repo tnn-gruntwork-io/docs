@@ -13,11 +13,19 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Database backup
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.26.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This module, along with the [lambda-share-snapshot](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-share-snapshot) and [lambda-copy-shared-snapshot](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-copy-shared-snapshot) modules, can be used to backup your RDS database to another AWS account (e.g., for disaster recovery) on a configurable schedule. Under the hood, each module runs a Lambda function that instructs your database to take a snapshot (this module), share the snapshot with another account (the `lambda-share-snapshot` module), and make a copy of the snapshot (`lambda-copy-shared-snapshot`).
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.26.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+
+This module, along with the [lambda-share-snapshot](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-share-snapshot) and [lambda-copy-shared-snapshot](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-copy-shared-snapshot) modules, can be used to backup your RDS database to another AWS account (e.g., for disaster recovery) on a configurable schedule. Under the hood, each module runs a Lambda function that instructs your database to take a snapshot (this module), share the snapshot with another account (the `lambda-share-snapshot` module), and make a copy of the snapshot (`lambda-copy-shared-snapshot`).
+>>>>>>> Stashed changes
 
 ![RDS architecture](/img/reference/modules/terraform-aws-data-storage/lambda-create-snapshot/data-backup-architecture.png)
 
@@ -29,7 +37,11 @@ This module, along with the [lambda-share-snapshot](https://github.com/tnn-tnn-t
 
 *   Configurable backup schedule (e.g., using cron expressions)
 
+<<<<<<< Updated upstream
 *   Clean up old snapshots automatically using the [lambda-cleanup-snapshots](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots) module.
+=======
+*   Clean up old snapshots automatically using the [lambda-cleanup-snapshots](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots) module.
+>>>>>>> Stashed changes
 
 ## Learn
 
@@ -39,9 +51,15 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 ### Core concepts
 
+<<<<<<< Updated upstream
 *   [What is Amazon RDS?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/core-concepts.md#what-is-amazon-rds)
 
 *   [How does this differ from RDS automatic snapshots?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot/core-concepts.md#how-does-this-differ-from-rds-automatic-snapshots)
+=======
+*   [What is Amazon RDS?](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/core-concepts.md#what-is-amazon-rds)
+
+*   [How does this differ from RDS automatic snapshots?](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot/core-concepts.md#how-does-this-differ-from-rds-automatic-snapshots)
+>>>>>>> Stashed changes
 
 *   [RDS documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html): Amazon’s docs for RDS that cover core concepts such as the types of databases supported, security, backup & restore, and monitoring.
 
@@ -53,19 +71,31 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+=======
+*   [examples folder](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+>>>>>>> Stashed changes
 
 ### Production deployment
 
 If you want to deploy this repo in production, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [rds module in the Acme example Reference Architecture](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/tree/5fcefff/data-stores/rds): Production-ready sample code from the Acme Reference Architecture examples.
+=======
+*   [rds module in the Acme example Reference Architecture](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/tree/5fcefff/data-stores/rds): Production-ready sample code from the Acme Reference Architecture examples.
+>>>>>>> Stashed changes
 
 ## Manage
 
 ### Day-to-day operations
 
+<<<<<<< Updated upstream
 *   [How to backup RDS snapshots to a separate AWS account](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot/core-concepts.md#how-do-you-backup-your-rds-snapshots-to-a-separate-aws-account)
+=======
+*   [How to backup RDS snapshots to a separate AWS account](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot/core-concepts.md#how-do-you-backup-your-rds-snapshots-to-a-separate-aws-account)
+>>>>>>> Stashed changes
 
 ### Major changes
 
@@ -84,7 +114,11 @@ If you want to deploy this repo in production, check out the following resources
 
 module "lambda_create_snapshot" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-create-snapshot?ref=v0.26.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-create-snapshot?ref=v0.26.0"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -178,7 +212,11 @@ module "lambda_create_snapshot" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-create-snapshot?ref=v0.26.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-create-snapshot?ref=v0.26.0"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -436,9 +474,15 @@ Namespace all snapshots created by this module's jobs with this suffix. If not s
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot/readme.adoc",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot/readme.adoc",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "40afe2291725a82b8e5de1cabf883563"

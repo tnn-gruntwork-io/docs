@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # RDS Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.26.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.26.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module creates an Amazon Relational Database Service (RDS) cluster that can run MySQL, Postgres, MariaDB, Oracle, or SQL Server. The cluster is managed by AWS and automatically handles standby failover, read replicas, backups, patching, and encryption.
 
@@ -41,9 +47,15 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 ### Core concepts
 
+<<<<<<< Updated upstream
 *   [What is Amazon RDS?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/core-concepts.md#what-is-amazon-rds)
 
 *   [Common gotchas with RDS](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/core-concepts.md#common-gotchas)
+=======
+*   [What is Amazon RDS?](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/core-concepts.md#what-is-amazon-rds)
+
+*   [Common gotchas with RDS](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/core-concepts.md#common-gotchas)
+>>>>>>> Stashed changes
 
 *   [RDS documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html): Amazon’s docs for RDS that cover core concepts such as the types of databases supported, security, backup & restore, and monitoring.
 
@@ -55,18 +67,27 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+=======
+*   [examples folder](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+>>>>>>> Stashed changes
 
 ### Production deployment
 
 If you want to deploy this repo in production, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [rds module in the Acme example Reference Architecture](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/tree/5fcefff/data-stores/rds): Production-ready sample code from the Acme Reference Architecture examples.
+=======
+*   [rds module in the Acme example Reference Architecture](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/tree/5fcefff/data-stores/rds): Production-ready sample code from the Acme Reference Architecture examples.
+>>>>>>> Stashed changes
 
 ## Manage
 
 ### Day-to-day operations
 
+<<<<<<< Updated upstream
 *   [How to connect to an RDS instance](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/core-concepts.md#how-do-you-connect-to-the-database)
 
 *   [How to authenticate to RDS with IAM](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAM.html)
@@ -74,6 +95,15 @@ If you want to deploy this repo in production, check out the following resources
 *   [How to scale RDS](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/core-concepts.md#how-do-you-scale-this-database)
 
 *   [How to backup RDS snapshots to a separate AWS account](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot#how-do-you-backup-your-rds-snapshots-to-a-separate-aws-account)
+=======
+*   [How to connect to an RDS instance](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/core-concepts.md#how-do-you-connect-to-the-database)
+
+*   [How to authenticate to RDS with IAM](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAM.html)
+
+*   [How to scale RDS](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/core-concepts.md#how-do-you-scale-this-database)
+
+*   [How to backup RDS snapshots to a separate AWS account](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot#how-do-you-backup-your-rds-snapshots-to-a-separate-aws-account)
+>>>>>>> Stashed changes
 
 ### Major changes
 
@@ -94,7 +124,11 @@ If you want to deploy this repo in production, check out the following resources
 
 module "rds" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/rds?ref=v0.26.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/rds?ref=v0.26.0"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -432,7 +466,11 @@ module "rds" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/rds?ref=v0.26.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/rds?ref=v0.26.0"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -1468,9 +1506,15 @@ Timeout for DB updating
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/readme.adoc",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/readme.adoc",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/rds/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "ffce397790a2556652cc9662d043543a"

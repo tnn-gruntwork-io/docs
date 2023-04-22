@@ -38,7 +38,11 @@ compatible with CIS AWS v1.5.0:
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.2">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.2">
+>>>>>>> Stashed changes
               v0.67.2
             </a>
           </strong>
@@ -52,7 +56,11 @@ compatible with CIS AWS v1.5.0:
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.9">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.9">
+>>>>>>> Stashed changes
               v0.42.9
             </a>
           </strong>
@@ -98,7 +106,11 @@ versions of Gruntwork's CIS Reference Architecture (part of the Gruntwork librar
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.2">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.2">
+>>>>>>> Stashed changes
               v0.54.0
             </a>
           </strong>
@@ -107,7 +119,11 @@ versions of Gruntwork's CIS Reference Architecture (part of the Gruntwork librar
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.2">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.2">
+>>>>>>> Stashed changes
               v0.65.0
             </a>
           </strong>
@@ -121,7 +137,11 @@ versions of Gruntwork's CIS Reference Architecture (part of the Gruntwork librar
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.9">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.9">
+>>>>>>> Stashed changes
               v0.27.0
             </a>
           </strong>
@@ -130,7 +150,11 @@ versions of Gruntwork's CIS Reference Architecture (part of the Gruntwork librar
       <td>
         <p>
           <strong>
+<<<<<<< Updated upstream
             <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.1">
+=======
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.1">
+>>>>>>> Stashed changes
               v0.40.1
             </a>
           </strong>
@@ -148,7 +172,11 @@ modify your infrastructure code to fix 2 of these breaking changes. The manual m
 is included in this guide.
 
 The CIS AWS Foundations Benchmark v1.5.0 includes a requirement to "Ensure no security groups allow ingress from ::/0
+<<<<<<< Updated upstream
 to remote server administration ports", Patcher also includes a patch that configures `tflint` with the [tnn-tnn-tnn-tnn-tnn-gruntwork-io/tflint-ruleset-aws-cis](https://github.com/gruntwork-patcher-dev/tflint-ruleset-aws-cis) to scan your
+=======
+to remote server administration ports", Patcher also includes a patch that configures `tflint` with the [tnn-gruntwork-io/tflint-ruleset-aws-cis](https://github.com/gruntwork-patcher-dev/tflint-ruleset-aws-cis) to scan your
+>>>>>>> Stashed changes
 infrastructure and enforce this requirement. [Terragrunt now supports running `tflint` as a `before_hooks`](https://terragrunt.gruntwork.io/docs/features/hooks/#tflint-hook).
 
 ### 2A.1 Installing Patcher
@@ -164,7 +192,11 @@ Patcher relies on Docker to run patches in containers. Please ensure that [Docke
 In the future we will support alternative container engines.
 
 After you've installed Docker, you need to download the appropriate `patcher` binary for your system from the releases repo:
+<<<<<<< Updated upstream
 https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/patcher-cli/releases. We only officially support macOS at this stage.
+=======
+https://github.com/tnn-gruntwork-io/patcher-cli/releases. We only officially support macOS at this stage.
+>>>>>>> Stashed changes
 
 
 :::caution
@@ -220,7 +252,11 @@ If you agree to the upgrade, press `y` and Patcher will update each module seque
 
 **What are patches?** A Patch is a YAML file with a set of commands to execute to transform your code. The maintainers
 of the dependencies you're using can create patches to update your code automatically, such as when a new release
+<<<<<<< Updated upstream
 contains backwards incompatible changes. [See the example of a patch in the CIS Service Catalog.](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/blob/c3d5ede211fc3230a7d493ceea43622b337ee88a/.patcher/patches/v0.96.4/switch-to-cis-rds-module/patch.yaml)
+=======
+contains backwards incompatible changes. [See the example of a patch in the CIS Service Catalog.](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/blob/c3d5ede211fc3230a7d493ceea43622b337ee88a/.patcher/patches/v0.96.4/switch-to-cis-rds-module/patch.yaml)
+>>>>>>> Stashed changes
 
 ![Screenshot of Patcher applying a patch.](/img/guides/stay-up-to-date/cis-1.5.0/patcher-rds-patch.png)
 
@@ -266,10 +302,17 @@ Gruntwork follows [semantic versioning](/guides/working-with-code/versioning#sem
 
 To make this process easier we have added change logs for each module. The changelog clearly states when you can safely bump the module version. If there is a breaking change the changelog includes the migration guide.
 
+<<<<<<< Updated upstream
 The example below is from the changelog for the new [CIS RDS module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/data-stores/rds).
 
 ````md title=terraform-aws-cis-service-catalog/modules/data-stores/rds/CHANGELOG.md
 ## [v0.42.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.8) - 2023-02-01
+=======
+The example below is from the changelog for the new [CIS RDS module](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/data-stores/rds).
+
+````md title=terraform-aws-cis-service-catalog/modules/data-stores/rds/CHANGELOG.md
+## [v0.42.8](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.8) - 2023-02-01
+>>>>>>> Stashed changes
 
 ### Changed
 - No breaking changes, safe to bump
@@ -278,9 +321,15 @@ The example below is from the changelog for the new [CIS RDS module](https://git
 - Updated upstream `rds` module to v0.100.1
 
 ### Related Links
+<<<<<<< Updated upstream
 - https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/pull/523
 
 ## [v0.42.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.7) - 2023-01-31
+=======
+- https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/pull/523
+
+## [v0.42.7](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.7) - 2023-01-31
+>>>>>>> Stashed changes
 
 ### Changed
 - No breaking changes, safe to bump
@@ -289,9 +338,15 @@ The example below is from the changelog for the new [CIS RDS module](https://git
 - Added `maintenance_window` variable to CIS RDS module
 
 ### Related Links
+<<<<<<< Updated upstream
 - https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/pull/522
 
 ## [v0.42.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.6) - 2023-01-18
+=======
+- https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/pull/522
+
+## [v0.42.6](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.6) - 2023-01-18
+>>>>>>> Stashed changes
 
 ### Changed
 - No changes, safe to bump

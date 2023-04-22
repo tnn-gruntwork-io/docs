@@ -2,7 +2,11 @@
 
 At this point, you can start interacting with your EKS cluster using `kubectl`. First, configure `kubectl` to
 authenticate to the cluster. Here’s an example of how to do that using
+<<<<<<< Updated upstream
 [kubergrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt):
+=======
+[kubergrunt](https://github.com/tnn-gruntwork-io/kubergrunt):
+>>>>>>> Stashed changes
 
 ```bash
 kubergrunt eks configure --eks-cluster-arn <EKS_CLUSTER_ARN>

@@ -13,18 +13,31 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Scheduled Lambda Job Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/scheduled-lambda-job" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This module makes it easy to run an [AWS Lambda](https://aws.amazon.com/lambda/) function (such as one created with the
 [lambda module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda)) on a scheduled basis. This is useful for periodic background jobs, such as taking a
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/scheduled-lambda-job" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+
+This module makes it easy to run an [AWS Lambda](https://aws.amazon.com/lambda/) function (such as one created with the
+[lambda module](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda)) on a scheduled basis. This is useful for periodic background jobs, such as taking a
+>>>>>>> Stashed changes
 daily snapshot of your servers.
 
 ## Background info
 
 For more information on AWS Lambda, how it works, and how to configure your functions, check out the [lambda module
+<<<<<<< Updated upstream
 documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda).
+=======
+documentation](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda).
+>>>>>>> Stashed changes
 
 ## Sample Usage
 
@@ -39,7 +52,11 @@ documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws
 
 module "scheduled_lambda_job" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/scheduled-lambda-job?ref=v0.21.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/scheduled-lambda-job?ref=v0.21.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -90,7 +107,11 @@ module "scheduled_lambda_job" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/scheduled-lambda-job?ref=v0.21.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/scheduled-lambda-job?ref=v0.21.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -235,9 +256,15 @@ Cloudwatch Event Rule schedule expression
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/scheduled-lambda-job/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/scheduled-lambda-job/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/scheduled-lambda-job/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/scheduled-lambda-job/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/scheduled-lambda-job/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/scheduled-lambda-job/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "fcf3dd6cd225e21b7f442a59b1bdb9c1"

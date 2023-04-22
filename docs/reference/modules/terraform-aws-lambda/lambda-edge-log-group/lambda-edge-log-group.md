@@ -13,11 +13,19 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Log group for Lambda Edge
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-log-group" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This module creates a Cloudwatch log group to receive Lambda Edge function logs in one single AWS Region. This module is meant to be used as a building block for the [`lambda-edge-multi-region-log-groups` module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-multi-region-log-groups).
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-log-group" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+
+This module creates a Cloudwatch log group to receive Lambda Edge function logs in one single AWS Region. This module is meant to be used as a building block for the [`lambda-edge-multi-region-log-groups` module](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-multi-region-log-groups).
+>>>>>>> Stashed changes
 
 ## Why are the resources in this module not created within the Lambda Edge Module?
 
@@ -28,7 +36,11 @@ region that have [Regional Edge Caches](https://aws.amazon.com/blogs/networking-
 Unfortunately, it is not possible to use a `for_each` on provider blocks and there are multiple issues related to
 using nested providers. That means that, currently, the only way to create multi-regional modules is by code generating each
 block and passing down the providers. A full example of creating the providers and using this module can be found at the
+<<<<<<< Updated upstream
 [lambda-edge example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples/lambda-edge).
+=======
+[lambda-edge example](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples/lambda-edge).
+>>>>>>> Stashed changes
 
 ## Which regions have regional edge caches?
 
@@ -81,7 +93,11 @@ More information:
 
 module "lambda_edge_log_group" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge-log-group?ref=v0.21.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge-log-group?ref=v0.21.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -149,7 +165,11 @@ module "lambda_edge_log_group" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge-log-group?ref=v0.21.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge-log-group?ref=v0.21.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -318,9 +338,15 @@ When true, precreate the CloudWatch Log Group to use for log aggregation from th
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-log-group/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-log-group/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-log-group/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-log-group/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-log-group/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-log-group/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "a89c2b4ea8ceef4e88230d37e0e448b5"

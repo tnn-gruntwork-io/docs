@@ -55,6 +55,7 @@ function run {
   local -r module_ci_version="$2"
   local -r module_security_version="$3"
 
+<<<<<<< Updated upstream
   curl -Ls https://raw.githubusercontent.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer/master/bootstrap-gruntwork-installer.sh \
     | bash /dev/stdin --version "$gruntwork_installer_version"
   gruntwork-install --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci" \
@@ -64,6 +65,17 @@ function run {
     --module-name "terraform-helpers" \
     --tag "$module_ci_version"
   gruntwork-install --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security" \
+=======
+  curl -Ls https://raw.githubusercontent.com/tnn-gruntwork-io/gruntwork-installer/master/bootstrap-gruntwork-installer.sh \
+    | bash /dev/stdin --version "$gruntwork_installer_version"
+  gruntwork-install --repo "https://github.com/tnn-gruntwork-io/module-ci" \
+    --binary-name "infrastructure-deployer" \
+    --tag "$module_ci_version"
+  gruntwork-install --repo "https://github.com/tnn-gruntwork-io/module-ci" \
+    --module-name "terraform-helpers" \
+    --tag "$module_ci_version"
+  gruntwork-install --repo "https://github.com/tnn-gruntwork-io/module-security" \
+>>>>>>> Stashed changes
     --module-name "aws-auth" \
     --tag "$module_security_version"
 }

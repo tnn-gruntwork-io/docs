@@ -54,7 +54,11 @@ The Gruntwork IaC library empowers you to construct your own bespoke architectur
   </Card>
   <Card
     title="View the Code in GitHub"
+<<<<<<< Updated upstream
     href="https://github.com/orgs/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repositories"
+=======
+    href="https://github.com/orgs/tnn-gruntwork-io/repositories"
+>>>>>>> Stashed changes
   >
     If you're the type who likes to jump straight to the source, this is for
     you.

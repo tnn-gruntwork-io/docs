@@ -13,6 +13,7 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # VPC-App Network ACLs Terraform Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-app-network-acls" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.5" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
@@ -20,6 +21,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 This Terraform Module adds a default set of [Network
 ACLs](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_ACLs.html) to a VPC created using the
 [vpc-app](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-app) module. The ACLs enforce the following security settings (based on [A Reference VPC
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-app-network-acls" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.5" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+
+This Terraform Module adds a default set of [Network
+ACLs](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_ACLs.html) to a VPC created using the
+[vpc-app](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-app) module. The ACLs enforce the following security settings (based on [A Reference VPC
+>>>>>>> Stashed changes
 Architecture](https://www.whaletech.co/2014/10/02/reference-vpc-architecture.html)):
 
 *   **Public subnet**: Allow all requests.
@@ -92,7 +102,11 @@ module "network_acls" {
 
 module "vpc_app_network_acls" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-app-network-acls?ref=v0.22.7"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-app-network-acls?ref=v0.22.7"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -208,7 +222,11 @@ module "vpc_app_network_acls" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-app-network-acls?ref=v0.22.7"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-app-network-acls?ref=v0.22.7"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -619,9 +637,15 @@ Use this variable to ensure the Network ACL does not get created until the VPC i
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-app-network-acls/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-app-network-acls/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-app-network-acls/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-app-network-acls/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-app-network-acls/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-app-network-acls/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "0c59b750d94ee00b8cbf8e429b31226d"

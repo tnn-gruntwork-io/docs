@@ -92,7 +92,11 @@ Follow the steps below to keep your code up to date:
 
     ```hcl
     module "vpc" {
+<<<<<<< Updated upstream
       source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-app?ref=v0.18.5"
+=======
+      source = "git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-app?ref=v0.18.5"
+>>>>>>> Stashed changes
       # ...
     }
     ```
@@ -101,7 +105,11 @@ Follow the steps below to keep your code up to date:
 
     ```hcl
     module "vpc" {
+<<<<<<< Updated upstream
       source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-app?ref=v0.18.6"
+=======
+      source = "git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-app?ref=v0.18.6"
+>>>>>>> Stashed changes
       # ...
     }
     ```

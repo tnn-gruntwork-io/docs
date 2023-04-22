@@ -23,15 +23,23 @@ Here are the repos that were updated:
 ## repo-copier
 
 
+<<<<<<< Updated upstream
 ### [v0.1.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/releases/tag/v0.1.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/1/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/releases/tag/v0.1.1">Release notes</a></small>
+=======
+### [v0.1.1](https://github.com/tnn-gruntwork-io/repo-copier/releases/tag/v0.1.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/1/2022 | <a href="https://github.com/tnn-gruntwork-io/repo-copier/releases/tag/v0.1.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
+<<<<<<< Updated upstream
 * Create CODEOWNERS by @rhoboat in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/pull/120
 * Use terratest_log_parser to summarize test results in circleci by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/pull/119
 * Update CODEOWNERS by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/pull/121
@@ -45,6 +53,21 @@ Here are the repos that were updated:
 * Fix build failure by @levkoburburas in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/pull/136
 
 **Full Changelog**: https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier/compare/v0.1.0...v0.1.1
+=======
+* Create CODEOWNERS by @rhoboat in https://github.com/tnn-gruntwork-io/repo-copier/pull/120
+* Use terratest_log_parser to summarize test results in circleci by @yorinasub17 in https://github.com/tnn-gruntwork-io/repo-copier/pull/119
+* Update CODEOWNERS by @yorinasub17 in https://github.com/tnn-gruntwork-io/repo-copier/pull/121
+* Use BuildKit pattern for passing secrets by @hongil0316 in https://github.com/tnn-gruntwork-io/repo-copier/pull/122
+* Update Golang version. Fix tests. by @levkoburburas in https://github.com/tnn-gruntwork-io/repo-copier/pull/126
+* Fix stack overflow error by @levkoburburas in https://github.com/tnn-gruntwork-io/repo-copier/pull/127
+* Configure visibility for repositories by @levkoburburas in https://github.com/tnn-gruntwork-io/repo-copier/pull/130
+* Fix stack overflow error (merge to master) by @levkoburburas in https://github.com/tnn-gruntwork-io/repo-copier/pull/129
+* Configure visibility for repositories, additional option &quot;internal&quot; by @levkoburburas in https://github.com/tnn-gruntwork-io/repo-copier/pull/132
+* Add --repo-name-prefix option by @edgeb1-roche in https://github.com/tnn-gruntwork-io/repo-copier/pull/128
+* Fix build failure by @levkoburburas in https://github.com/tnn-gruntwork-io/repo-copier/pull/136
+
+**Full Changelog**: https://github.com/tnn-gruntwork-io/repo-copier/compare/v0.1.0...v0.1.1
+>>>>>>> Stashed changes
 
 </div>
 
@@ -53,10 +76,17 @@ Here are the repos that were updated:
 ## terraform-aws-ci
 
 
+<<<<<<< Updated upstream
 ### [v0.50.12](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.12)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/1/2022 | Modules affected: ecs-deploy-runner, gruntwork-module-circleci-helpers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.12">Release notes</a></small>
+=======
+### [v0.50.12](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.12)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/1/2022 | Modules affected: ecs-deploy-runner, gruntwork-module-circleci-helpers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.12">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -79,10 +109,17 @@ Here are the repos that were updated:
 ## terraform-aws-cis-service-catalog
 
 
+<<<<<<< Updated upstream
 ### [v0.42.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/14/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.5">Release notes</a></small>
+=======
+### [v0.42.5](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.5)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/14/2022 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.5">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -96,10 +133,17 @@ Here are the repos that were updated:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.42.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/14/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.4">Release notes</a></small>
+=======
+### [v0.42.4](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.4)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/14/2022 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.4">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -112,10 +156,17 @@ Here are the repos that were updated:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.42.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/14/2022 | Modules affected: N.A. | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.3">Release notes</a></small>
+=======
+### [v0.42.3](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.3)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/14/2022 | Modules affected: N.A. | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.3">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -131,10 +182,17 @@ Here are the repos that were updated:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.42.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/9/2022 | Modules affected: tflint-ruleset-aws-cis | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.2">Release notes</a></small>
+=======
+### [v0.42.2](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/9/2022 | Modules affected: tflint-ruleset-aws-cis | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -148,10 +206,17 @@ Here are the repos that were updated:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.42.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/9/2022 | Modules affected: tflint-ruleset-aws-cis | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.1">Release notes</a></small>
+=======
+### [v0.42.1](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/9/2022 | Modules affected: tflint-ruleset-aws-cis | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -169,10 +234,17 @@ Here are the repos that were updated:
 ## terraform-aws-lambda
 
 
+<<<<<<< Updated upstream
 ### [v0.21.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/15/2022 | Modules affected: lambda-edge, lambda | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.4">Release notes</a></small>
+=======
+### [v0.21.4](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.4)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/15/2022 | Modules affected: lambda-edge, lambda | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.4">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -186,10 +258,17 @@ Here are the repos that were updated:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.21.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/2/2022 | Modules affected: lambda | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.3">Release notes</a></small>
+=======
+### [v0.21.3](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.3)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/2/2022 | Modules affected: lambda | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.3">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -207,10 +286,17 @@ Here are the repos that were updated:
 ## terraform-aws-load-balancer
 
 
+<<<<<<< Updated upstream
 ### [v0.29.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/1/2022 | Modules affected: alb | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.3">Release notes</a></small>
+=======
+### [v0.29.3](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.3)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/1/2022 | Modules affected: alb | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.3">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -228,10 +314,17 @@ Here are the repos that were updated:
 ## terraform-aws-security
 
 
+<<<<<<< Updated upstream
 ### [v0.67.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/14/2022 | Modules affected: ntp, private-s3-bucket | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.1">Release notes</a></small>
+=======
+### [v0.67.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/14/2022 | Modules affected: ntp, private-s3-bucket | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -251,8 +344,13 @@ Special thanks to the following user for their contribution!
 
 
 
+<<<<<<< Updated upstream
 - https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/pull/733
 - https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/pull/734
+=======
+- https://github.com/tnn-gruntwork-io/terraform-aws-security/pull/733
+- https://github.com/tnn-gruntwork-io/terraform-aws-security/pull/734
+>>>>>>> Stashed changes
 
 
 
@@ -263,10 +361,17 @@ Special thanks to the following user for their contribution!
 ## terraform-aws-service-catalog
 
 
+<<<<<<< Updated upstream
 ### [v0.99.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.99.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/16/2022 | Modules affected: mgmt | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.99.2">Release notes</a></small>
+=======
+### [v0.99.2](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.99.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/16/2022 | Modules affected: mgmt | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.99.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -280,10 +385,17 @@ Special thanks to the following user for their contribution!
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.99.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.99.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/8/2022 | Modules affected: services/eks-workers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.99.1">Release notes</a></small>
+=======
+### [v0.99.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.99.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/8/2022 | Modules affected: services/eks-workers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.99.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -301,10 +413,17 @@ Special thanks to the following user for their contribution!
 ## terraform-aws-vpc
 
 
+<<<<<<< Updated upstream
 ### [v0.22.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 12/9/2022 | Modules affected: vpc-flow-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.4">Release notes</a></small>
+=======
+### [v0.22.4](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.4)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 12/9/2022 | Modules affected: vpc-flow-logs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.4">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>

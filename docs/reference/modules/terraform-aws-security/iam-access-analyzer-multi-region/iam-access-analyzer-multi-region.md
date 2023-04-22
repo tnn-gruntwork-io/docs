@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # AWS IAM Access Analyzer
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.66.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.66.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This repo contains a Module for creating and enabling [IAM Access Analyzer](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-getting-started.html)
 
@@ -35,6 +41,7 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 ### Core concepts
 
+<<<<<<< Updated upstream
 *   [What is the AWS IAM Access Analyzer?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/core-concepts.md#what-is-the-aws-iam-access-analyzer?)
 
 *   [What resources does IAM Access Analyzer analyze?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/core-concepts.md#what-resources-does-iam-access-analyzer-analyze?)
@@ -50,6 +57,23 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 *   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples): This folder contains working examples of how to use the submodules.
 
 *   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/test): Automated tests for the modules and examples.
+=======
+*   [What is the AWS IAM Access Analyzer?](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/core-concepts.md#what-is-the-aws-iam-access-analyzer?)
+
+*   [What resources does IAM Access Analyzer analyze?](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/core-concepts.md#what-resources-does-iam-access-analyzer-analyze?)
+
+*   [IAM Access Analyzer documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html)
+
+*   [How to use a multi-region module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/codegen/core-concepts.md#how-to-use-a-multi-region-module)
+
+### Repo organization
+
+*   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+
+*   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples): This folder contains working examples of how to use the submodules.
+
+*   [test](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/test): Automated tests for the modules and examples.
+>>>>>>> Stashed changes
 
 ## Deploy
 
@@ -57,6 +81,7 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 If you just want to try this out for experimenting and learning, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
 
 ## Manage
@@ -64,6 +89,15 @@ If you just want to try this out for experimenting and learning, check out the f
 *   [Who can manage the analyzer?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/core-concepts.md#who-can-manage-the-analyzer?)
 
 *   [What to do with the access analyzer findings?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/core-concepts.md#what-to-do-with-the-access-analyzer-findings?)
+=======
+*   [examples folder](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+
+## Manage
+
+*   [Who can manage the analyzer?](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/core-concepts.md#who-can-manage-the-analyzer?)
+
+*   [What to do with the access analyzer findings?](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/core-concepts.md#what-to-do-with-the-access-analyzer-findings?)
+>>>>>>> Stashed changes
 
 ## Sample Usage
 
@@ -78,7 +112,11 @@ If you just want to try this out for experimenting and learning, check out the f
 
 module "iam_access_analyzer_multi_region" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-access-analyzer-multi-region?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-access-analyzer-multi-region?ref=v0.67.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -118,7 +156,11 @@ module "iam_access_analyzer_multi_region" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-access-analyzer-multi-region?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-access-analyzer-multi-region?ref=v0.67.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -158,9 +200,15 @@ inputs = {
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/readme.adoc",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/readme.adoc",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-access-analyzer-multi-region/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "3bd36029185ba7a3b323dd3bdb43e503"

@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Load Balancer Listener Rules
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/lb-listener-rules" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/lb-listener-rules" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This Terraform Module provides a simpler, more declarative interface for creating
 [Load Balancer Listener Rules](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-listeners.html)
@@ -52,7 +58,11 @@ Rules](http://docs.aws.amazon.com/elasticloadbalancing/latest/application/listen
 *   Route `/bar` traffic to Target Group ServiceBar
 
 So far so good. But what if the Listener receives a request for `/hello`? Since no Listener Rule handles that path, the
+<<<<<<< Updated upstream
 LB needs to handle it with a default action. The default action in [the ALB module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/blob/f95b13e/modules/alb/main.tf#L50-L89), for example, returns a fixed response, which
+=======
+LB needs to handle it with a default action. The default action in [the ALB module](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/blob/f95b13e/modules/alb/main.tf#L50-L89), for example, returns a fixed response, which
+>>>>>>> Stashed changes
 by default is a blank 404 page. You can also add an ALB Listener Rule that catches ALL requests (i.e., `*`) and have that
 rule forward to a custom Target Group so your own apps can respond in any way you wish.
 
@@ -95,7 +105,11 @@ Note that in most cases, your path definitions should be mutually exclusive and 
 
 module "lb_listener_rules" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/lb-listener-rules?ref=v0.29.4"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/lb-listener-rules?ref=v0.29.4"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -146,7 +160,11 @@ module "lb_listener_rules" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/lb-listener-rules?ref=v0.29.4"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/lb-listener-rules?ref=v0.29.4"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -725,9 +743,15 @@ The ARNs of the rules of type redirect. The key is the same key of the rule from
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/lb-listener-rules/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/lb-listener-rules/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/lb-listener-rules/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/lb-listener-rules/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/lb-listener-rules/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/lb-listener-rules/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "d4cc6d79faa4b796f05e0f73ab3a2892"

@@ -22,9 +22,15 @@ license: gruntwork
 built-with: go
 -->
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/run-lambda-entrypoint" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/run-lambda-entrypoint" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 # Lambda Container Entrypoint Command
 
@@ -34,7 +40,11 @@ to the lambda runtime. This entrypoint will pull the provided secrets manager en
 secrets manager entry to environment variables that are injected into the lambda runtime.
 
 This module only includes an entrypoint CLI. If you are looking for a module to deploy container based Lambda functions,
+<<<<<<< Updated upstream
 refer to the [lambda](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda) module.
+=======
+refer to the [lambda](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda) module.
+>>>>>>> Stashed changes
 
 ## Motivation
 
@@ -78,7 +88,11 @@ If you’ve never used the Gruntwork Modules before, make sure to read
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples/lambda-docker](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples/lambda-docker): This example contains a sample `Dockerfile` that uses this
+=======
+*   [examples/lambda-docker](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples/lambda-docker): This example contains a sample `Dockerfile` that uses this
+>>>>>>> Stashed changes
     entrypoint to expose secrets to a python based Lambda function.
 
 ## Manage
@@ -86,15 +100,25 @@ If you just want to try this repo out for experimenting and learning, check out 
 ### How do I install this entrypoint in a container without leaking the GitHub Token into the container?
 
 The canonical way to install this module into a container would be through the
+<<<<<<< Updated upstream
 [gruntwork-installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer). You can install the `gruntwork-installer`
+=======
+[gruntwork-installer](https://github.com/tnn-gruntwork-io/gruntwork-installer). You can install the `gruntwork-installer`
+>>>>>>> Stashed changes
 and use that to build + install this entrypoint script using the following `RUN` command in the `Dockerfile`:
 
 ```docker
 ARG terraform_aws_lambda_version=v0.19.0
 
+<<<<<<< Updated upstream
 RUN curl -Ls https://raw.githubusercontent.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version v0.0.37 \
     && gruntwork-install \
       --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda" \
+=======
+RUN curl -Ls https://raw.githubusercontent.com/tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version v0.0.37 \
+    && gruntwork-install \
+      --repo "https://github.com/tnn-gruntwork-io/terraform-aws-lambda" \
+>>>>>>> Stashed changes
       --module-name "run-lambda-entrypoint" \
       --tag "$terraform_aws_lambda_version"
 ```
@@ -133,7 +157,11 @@ To support this use case, the `run-lambda-entrypoint` CLI includes the ability t
 is not running in a Lambda environment. When `run-lambda-entrypoint` is invoked with the arg `--rie-path`, it will wrap
 the provided entrypoint script with the RIE when running in local mode.
 
+<<<<<<< Updated upstream
 Refer to the [secret-reflector-go](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples/lambda-docker/secret-reflector-go) example for an example of how to set
+=======
+Refer to the [secret-reflector-go](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples/lambda-docker/secret-reflector-go) example for an example of how to set
+>>>>>>> Stashed changes
 this up with a Go based Lambda function.
 
 ### How do I pass in Secrets Manager ARNs for environment variable lookup?
@@ -184,9 +212,15 @@ will assume it is the name of a Secrets Manager entry in the same region as the 
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/run-lambda-entrypoint/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/run-lambda-entrypoint/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/run-lambda-entrypoint/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/run-lambda-entrypoint/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/run-lambda-entrypoint/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/run-lambda-entrypoint/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "dba52158b8e957979d50d4e8c1382506"

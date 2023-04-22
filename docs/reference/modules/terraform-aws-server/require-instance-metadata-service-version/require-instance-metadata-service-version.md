@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Require Instance Metadata Service version script
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/require-instance-metadata-service-version" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.13.6" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/require-instance-metadata-service-version" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.13.6" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This folder contains a script (`require-instance-metadata-service-version`) you can use to either:
 
@@ -24,6 +30,7 @@ This folder contains a script (`require-instance-metadata-service-version`) you 
 
 Learn more at [the official AWS EC2 Instance Metadata Service documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html).
 
+<<<<<<< Updated upstream
 Check out the [route53-helpers example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers) for how to use these scripts with Packer and Terraform.
 
 ## Installing bash-commons
@@ -32,14 +39,31 @@ Check out the [route53-helpers example](https://github.com/tnn-tnn-tnn-tnn-tnn-g
 
 ```bash
 gruntwork-install --module-name "bash-commons" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons" --tag "0.1.8"
+=======
+Check out the [route53-helpers example](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers) for how to use these scripts with Packer and Terraform.
+
+## Installing bash-commons
+
+[`bash-commons`](https://github.com/tnn-gruntwork-io/bash-commons) is a dependency of this script. You must first install it via the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer). This script requires version `v0.1.8` of `bash-commons` or newer.
+
+```bash
+gruntwork-install --module-name "bash-commons" --repo "https://github.com/tnn-gruntwork-io/bash-commons" --tag "0.1.8"
+>>>>>>> Stashed changes
 ```
 
 ## Installing the script
 
+<<<<<<< Updated upstream
 You can install these scripts using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
 gruntwork-install --module-name "require-instance-metadata-service-version" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server" --tag "0.13.3"
+=======
+You can install these scripts using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
+
+```bash
+gruntwork-install --module-name "require-instance-metadata-service-version" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-server" --tag "0.13.3"
+>>>>>>> Stashed changes
 ```
 
 ## Using the script
@@ -49,7 +73,11 @@ The `require-instance-metadata-service-version` script has the following prerequ
 1.  It must be run on an EC2 instance
 2.  It requires that `bash-commons` version `v0.1.8` or newer is installed on the EC2 Instance. See instructions above.
 3.  The EC2 instance must have an IAM role with permissions to modify the Instance Metadata service's options. See the
+<<<<<<< Updated upstream
     [route53-helpers example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers)) for a reference implementation.
+=======
+    [route53-helpers example](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers)) for a reference implementation.
+>>>>>>> Stashed changes
 4.  The EC2 instance must have the AWS CLI (version 2.2.37 or higher), unzip and jq installed.
 
 Run the `require-instance-metadata-service-version` script in the User Data of your EC2 instances, prior to any calls to the Instance Metadata Service to configure if you want `2.0` credentials to be `required` or `optional`.
@@ -98,9 +126,15 @@ Setting Instance Metadata Service version 2 state to optional
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/require-instance-metadata-service-version/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/require-instance-metadata-service-version/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/require-instance-metadata-service-version/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/require-instance-metadata-service-version/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/require-instance-metadata-service-version/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/require-instance-metadata-service-version/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "f77b307a545bf15976c6a6672d704237"

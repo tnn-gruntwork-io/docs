@@ -20,9 +20,15 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 
 # Jenkins CI Server
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/jenkins" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=mgmt%2Fjenkins" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/jenkins" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=mgmt%2Fjenkins" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+>>>>>>> Stashed changes
 
 ## Overview
 
@@ -48,7 +54,11 @@ This service contains code to deploy [Jenkins CI Server](https://jenkins.io/) on
 
 :::note
 
+<<<<<<< Updated upstream
 This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
+=======
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
+>>>>>>> Stashed changes
 a collection of reusable, battle-tested, production ready infrastructure code.
 If you’ve never used the Service Catalog before, make sure to read
 [How to use the Gruntwork Service Catalog](https://docs.gruntwork.io/reference/services/intro/overview)!
@@ -68,7 +78,11 @@ If you’ve never used the Service Catalog before, make sure to read
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples/for-learning-and-testing folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+=======
+*   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+>>>>>>> Stashed changes
     `examples/for-learning-and-testing` folder contains standalone sample code optimized for learning, experimenting, and
     testing (but not direct production usage).
 
@@ -76,7 +90,11 @@ If you just want to try this repo out for experimenting and learning, check out 
 
 If you want to deploy this repo in production, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples/for-production folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+=======
+*   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+>>>>>>> Stashed changes
     optimized for direct usage in production. This is code from the
     [Gruntwork Reference Architecture](https://gruntwork.io/reference-architecture), and it shows you how we build an
     end-to-end, integrated tech stack on top of the Gruntwork Service Catalog.
@@ -98,7 +116,11 @@ If you want to deploy this repo in production, check out the following resources
 
 module "jenkins" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/jenkins?ref=v0.102.11"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/jenkins?ref=v0.102.11"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -267,13 +289,21 @@ module "jenkins" {
 
   # Set to true to add AIM permissions to send logs to CloudWatch. This is useful in
   # combination with
+<<<<<<< Updated upstream
   # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+=======
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+>>>>>>> Stashed changes
   # /cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
   enable_cloudwatch_log_aggregation = true
 
   # Set to true to add IAM permissions to send custom metrics to CloudWatch. This is
   # useful in combination with
+<<<<<<< Updated upstream
   # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+=======
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+>>>>>>> Stashed changes
   # ts/cloudwatch-agent to get memory and disk metrics in CloudWatch for your
   # Jenkins server.
   enable_cloudwatch_metrics = true
@@ -282,7 +312,11 @@ module "jenkins" {
   enable_ip_lockdown = true
 
   # Set to true to add IAM permissions for ssh-grunt
+<<<<<<< Updated upstream
   # (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+=======
+  # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+>>>>>>> Stashed changes
   # runt), which will allow you to manage SSH access via IAM groups.
   enable_ssh_grunt = true
 
@@ -435,7 +469,11 @@ module "jenkins" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/jenkins?ref=v0.102.11"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/jenkins?ref=v0.102.11"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -607,13 +645,21 @@ inputs = {
 
   # Set to true to add AIM permissions to send logs to CloudWatch. This is useful in
   # combination with
+<<<<<<< Updated upstream
   # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+=======
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+>>>>>>> Stashed changes
   # /cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
   enable_cloudwatch_log_aggregation = true
 
   # Set to true to add IAM permissions to send custom metrics to CloudWatch. This is
   # useful in combination with
+<<<<<<< Updated upstream
   # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+=======
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+>>>>>>> Stashed changes
   # ts/cloudwatch-agent to get memory and disk metrics in CloudWatch for your
   # Jenkins server.
   enable_cloudwatch_metrics = true
@@ -622,7 +668,11 @@ inputs = {
   enable_ip_lockdown = true
 
   # Set to true to add IAM permissions for ssh-grunt
+<<<<<<< Updated upstream
   # (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+=======
+  # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+>>>>>>> Stashed changes
   # runt), which will allow you to manage SSH access via IAM groups.
   enable_ssh_grunt = true
 
@@ -1154,7 +1204,11 @@ Set to true to enable several basic CloudWatch alarms around CPU usage, memory u
 <HclListItem name="enable_cloudwatch_log_aggregation" requirement="optional" type="bool">
 <HclListItemDescription>
 
+<<<<<<< Updated upstream
 Set to true to add AIM permissions to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
+=======
+Set to true to add AIM permissions to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
+>>>>>>> Stashed changes
 
 </HclListItemDescription>
 <HclListItemDefaultValue defaultValue="true"/>
@@ -1163,7 +1217,11 @@ Set to true to add AIM permissions to send logs to CloudWatch. This is useful in
 <HclListItem name="enable_cloudwatch_metrics" requirement="optional" type="bool">
 <HclListItemDescription>
 
+<<<<<<< Updated upstream
 Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your Jenkins server.
+=======
+Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your Jenkins server.
+>>>>>>> Stashed changes
 
 </HclListItemDescription>
 <HclListItemDefaultValue defaultValue="true"/>
@@ -1181,7 +1239,11 @@ Enable ip-lockdown to block access to the instance metadata. Defaults to true.
 <HclListItem name="enable_ssh_grunt" requirement="optional" type="bool">
 <HclListItemDescription>
 
+<<<<<<< Updated upstream
 Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
+=======
+Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
+>>>>>>> Stashed changes
 
 </HclListItemDescription>
 <HclListItemDefaultValue defaultValue="true"/>
@@ -1584,9 +1646,15 @@ The ID of the Security Group attached to the Jenkins EC2 Instance
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/jenkins/README.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/jenkins/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/jenkins/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/jenkins/README.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/jenkins/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/jenkins/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "service-catalog-api",
   "hash": "23eb584fa92aed1c70aa3fbac4e2ec5a"

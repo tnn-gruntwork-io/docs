@@ -21,28 +21,50 @@ Here are the repos that were updated:
 ## gruntwork
 
 
+<<<<<<< Updated upstream
 ### [v0.0.21](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.21)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 7/13/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.21">Release notes</a></small>
+=======
+### [v0.0.21](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.0.21)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 7/13/2018 | <a href="https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.0.21">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/pull/29: Update list of Gruntwork GitHub usernames.
+=======
+  https://github.com/tnn-gruntwork-io/gruntwork/pull/29: Update list of Gruntwork GitHub usernames.
+>>>>>>> Stashed changes
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.0.20](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.20)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 7/3/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.20">Release notes</a></small>
+=======
+### [v0.0.20](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.0.20)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 7/3/2018 | <a href="https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.0.20">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/pull/28: Increase default max session duration.
+=======
+  https://github.com/tnn-gruntwork-io/gruntwork/pull/28: Increase default max session duration.
+>>>>>>> Stashed changes
 
 </div>
 
@@ -51,28 +73,50 @@ Here are the repos that were updated:
 ## terraform-aws-asg
 
 
+<<<<<<< Updated upstream
 ### [v0.6.15](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.15)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 7/19/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.15">Release notes</a></small>
+=======
+### [v0.6.15](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.15)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 7/19/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.15">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/41: Remove `depends_on` workaround in `asg-rolling-deploy`. This should now show the proper value for your ASG `desired_capacity` during `plan`.
+=======
+  https://github.com/tnn-gruntwork-io/module-asg/pull/41: Remove `depends_on` workaround in `asg-rolling-deploy`. This should now show the proper value for your ASG `desired_capacity` during `plan`.
+>>>>>>> Stashed changes
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.6.14](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.14)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 7/18/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.14">Release notes</a></small>
+=======
+### [v0.6.14](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.14)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 7/18/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.14">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/40: You can now specify custom termination policies in the `asg-rolling-deploy` module using the new `termination_policies` input variable.
+=======
+  https://github.com/tnn-gruntwork-io/module-asg/pull/40: You can now specify custom termination policies in the `asg-rolling-deploy` module using the new `termination_policies` input variable.
+>>>>>>> Stashed changes
 
 </div>
 
@@ -81,10 +125,17 @@ Here are the repos that were updated:
 ## terraform-aws-elk
 
 
+<<<<<<< Updated upstream
 ### [v0.0.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 7/31/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.8">Release notes</a></small>
+=======
+### [v0.0.8](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.8)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 7/31/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.8">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -95,10 +146,17 @@ Documentation is still a work-in-progress. There will be a follow-up PR for that
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.0.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 7/27/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.7">Release notes</a></small>
+=======
+### [v0.0.7](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.7)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 7/27/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.7">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -108,10 +166,17 @@ Documentation is still a work-in-progress. There will be a follow-up PR for that
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.0.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 7/23/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.6">Release notes</a></small>
+=======
+### [v0.0.6](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.6)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 7/23/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.6">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -121,10 +186,17 @@ Documentation is still a work-in-progress. There will be a follow-up PR for that
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.0.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 7/23/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.5">Release notes</a></small>
+=======
+### [v0.0.5](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.5)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 7/23/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.5">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -134,10 +206,17 @@ Documentation is still a work-in-progress. There will be a follow-up PR for that
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.0.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 7/2/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.4">Release notes</a></small>
+=======
+### [v0.0.4](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.4)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 7/2/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.4">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -153,10 +232,17 @@ PRs #25 #29
 ## terraform-aws-openvpn
 
 
+<<<<<<< Updated upstream
 ### [v0.7.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.7.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 7/3/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.7.1">Release notes</a></small>
+=======
+### [v0.7.1](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.7.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 7/3/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.7.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -170,15 +256,26 @@ PRs #25 #29
 ## terraform-aws-security
 
 
+<<<<<<< Updated upstream
 ### [v0.14.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.14.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 7/5/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.14.0">Release notes</a></small>
+=======
+### [v0.14.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.14.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 7/5/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.14.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/103: 
+=======
+  https://github.com/tnn-gruntwork-io/module-security/pull/103: 
+>>>>>>> Stashed changes
 
 1. `ssh-grunt` now signs all requests to Houston with its AWS credentials. This is a backwards incompatible change: all `ssh-grunt houston xxx` commands now all take in a required `--houston-region` param (AWS region where Houston is deployed) and an optional `--iam-role` param (IAM role to assume when signing the request).
 
@@ -191,10 +288,17 @@ PRs #25 #29
 ## terraform-aws-zookeeper
 
 
+<<<<<<< Updated upstream
 ### [v0.4.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 7/19/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.5">Release notes</a></small>
+=======
+### [v0.4.5](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.5)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 7/19/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.5">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>

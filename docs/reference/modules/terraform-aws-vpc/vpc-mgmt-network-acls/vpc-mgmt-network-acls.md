@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # \[DEPRECATED] VPC-Mgmt Network ACLs Terraform Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 **The `vpc-mgmt` module is now deprecated**. The main difference between `vpc-mgmt` and `vpc-app` was that `vpc-app`
 had three tiers of subnets (public, private-app, private-persistence) and `vpc-mgmt` had two (public, private). As of
@@ -28,7 +34,11 @@ aware that, in a future release, once we feel the new functionality in `vpc-app`
 
 This Terraform Module adds a default set of [Network
 ACLs](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_ACLs.html) to a VPC created using the
+<<<<<<< Updated upstream
 [vpc-mgmt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt) module. The ACLs enforce the following security settings  (based on [A Reference VPC
+=======
+[vpc-mgmt](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt) module. The ACLs enforce the following security settings  (based on [A Reference VPC
+>>>>>>> Stashed changes
 Architecture](https://www.whaletech.co/2014/10/02/reference-vpc-architecture.html)):
 
 *   **Public subnet**: Allow all requests.
@@ -63,7 +73,11 @@ EC2 instance), a network ACL controls what inbound and outbound traffic is allow
 
 module "vpc_mgmt_network_acls" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt-network-acls?ref=v0.22.7"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt-network-acls?ref=v0.22.7"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -141,7 +155,11 @@ module "vpc_mgmt_network_acls" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt-network-acls?ref=v0.22.7"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt-network-acls?ref=v0.22.7"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -343,9 +361,15 @@ The number to use for the first rule that is created by this module. All rules i
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "350ae52d224027de63838d0835d27f70"

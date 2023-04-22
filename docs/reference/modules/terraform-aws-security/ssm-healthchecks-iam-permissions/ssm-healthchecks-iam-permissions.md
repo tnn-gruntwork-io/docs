@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # SSM Healthchecks IAM Permissions
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssm-healthchecks-iam-permissions" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssm-healthchecks-iam-permissions" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This modules adds the necessary IAM policies to an IAM role so that the [AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html) [agent](https://docs.aws.amazon.com/systems-manager/latest/userguide/ssm-agent.html) gets necessary permissions in order to do automated health checks.
 
@@ -46,7 +52,11 @@ We recommend using this module with just about every single EC2 Instance and Aut
 
 module "ssm_healthchecks_iam_permissions" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/ssm-healthchecks-iam-permissions?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/ssm-healthchecks-iam-permissions?ref=v0.67.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -70,7 +80,11 @@ module "ssm_healthchecks_iam_permissions" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/ssm-healthchecks-iam-permissions?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/ssm-healthchecks-iam-permissions?ref=v0.67.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -94,9 +108,15 @@ inputs = {
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssm-healthchecks-iam-permissions/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssm-healthchecks-iam-permissions/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssm-healthchecks-iam-permissions/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssm-healthchecks-iam-permissions/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssm-healthchecks-iam-permissions/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssm-healthchecks-iam-permissions/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "b2ad4c5cea96219153f19b01f1b43d2e"

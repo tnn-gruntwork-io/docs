@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Backup Vault Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-vault" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.26.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-vault" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.26.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This Terraform Module launches a [Backup Vault](https://docs.aws.amazon.com/aws-backup/latest/devguide/vaults.html) that you can use to store, organize and, optionally, preserve your AWS Backup recovery points against deletion.
 
@@ -96,7 +102,11 @@ then you will end up with many potentially large recovery points that you cannot
 
 module "backup_vault" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/backup-vault?ref=v0.26.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/backup-vault?ref=v0.26.0"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -136,7 +146,11 @@ module "backup_vault" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/backup-vault?ref=v0.26.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/backup-vault?ref=v0.26.0"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -287,9 +301,15 @@ A map of tags assigned to the vault resources, including those inherited from th
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-vault/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-vault/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-vault/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-vault/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-vault/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-vault/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "aea9affae8877fbc79eab97f830e7bdd"

@@ -144,7 +144,11 @@ inputs = {
 
 Run `terragrunt apply` in each account to create the new metric filter.
 
+<<<<<<< Updated upstream
 If the check is still not working, the release [v0.44.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.44.1)
+=======
+If the check is still not working, the release [v0.44.1](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.44.1)
+>>>>>>> Stashed changes
 of the CIS Service Catalog contains a fix for the filter match Steampipe's query. In the next steps you will update
 the versions of CIS Service Catalog (and some other services) to the latest, so it will be fixed.
 

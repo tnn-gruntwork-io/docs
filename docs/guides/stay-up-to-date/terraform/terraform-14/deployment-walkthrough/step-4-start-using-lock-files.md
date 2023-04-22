@@ -9,7 +9,11 @@ with Terraform 0.14, it will create a `.terraform.lock.hcl` file that locks you 
 providers you’re using. We recommend checking the `.terraform.lock.hcl` files into version control so that all your
 team members get the _exact_ same provider versions when they run `init`.
 
+<<<<<<< Updated upstream
 Note that we’ve updated Terragrunt (as of [v0.27.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt/releases/tag/v0.27.0)) to
+=======
+Note that we’ve updated Terragrunt (as of [v0.27.0](https://github.com/tnn-gruntwork-io/terragrunt/releases/tag/v0.27.0)) to
+>>>>>>> Stashed changes
 work with lock files too. When you run `terragrunt init`, or when
 [Auto Init](https://terragrunt.gruntwork.io/docs/features/auto-init/) runs as part of some other command, Terragrunt will
 automatically copy the `.terraform.lock.hcl` file right next to your `terragrunt.hcl` file, making it easy to commit it

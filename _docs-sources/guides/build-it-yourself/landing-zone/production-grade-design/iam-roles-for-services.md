@@ -19,14 +19,22 @@ effectively make use of all the permissions in this IAM role, so be very thought
 This is an IAM role that grants permission to look up IAM group membership and the public SSH keys of IAM user
 accounts. Typically, you’d have this role in your security account to allow the EC2 instances in other accounts to
 authenticate SSH attempts using
+<<<<<<< Updated upstream
 [ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt).
+=======
+[ssh-grunt](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt).
+>>>>>>> Stashed changes
 
 </div>
 
 :::caution
 
 You must be a <span className="js-subscribe-cta">Gruntwork subscriber</span> to access `ssh-grunt` in
+<<<<<<< Updated upstream
 [terraform-aws-security](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/).
+=======
+[terraform-aws-security](https://github.com/tnn-gruntwork-io/terraform-aws-security/).
+>>>>>>> Stashed changes
 
 :::
 
@@ -94,7 +102,11 @@ which is an http endpoint (`\http://169.254.169.254`) that _anyone_ on the EC2 i
 any compromise of that EC2 instance instantly gives an attacker access to all the permissions in that IAM role. We
 **strongly** recommend mitigating this by limiting access to the endpoint solely to specific OS users (e.g., solely to
 the root user), e.g., by using `iptables`. You can do this automatically using
+<<<<<<< Updated upstream
 [ip-lockdown](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ip-lockdown)
+=======
+[ip-lockdown](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ip-lockdown)
+>>>>>>> Stashed changes
 
 </div>
 
@@ -106,7 +118,11 @@ ip-lockdown "169.254.169.254" "root"
 :::caution
 
 You must be a <span className="js-subscribe-cta">Gruntwork subscriber</span> to access `ip-lockdown` in
+<<<<<<< Updated upstream
 [terraform-aws-security](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security).
+=======
+[terraform-aws-security](https://github.com/tnn-gruntwork-io/terraform-aws-security).
+>>>>>>> Stashed changes
 
 :::
 

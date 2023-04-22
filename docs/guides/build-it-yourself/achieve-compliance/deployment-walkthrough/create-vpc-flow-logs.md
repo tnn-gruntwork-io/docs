@@ -2,7 +2,11 @@
 
 The Benchmark recommends enabling [VPC Flow Logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html)
 for all VPCs in all regions. You can use the
+<<<<<<< Updated upstream
 [`vpc` service](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/master/modules/networking/vpc)
+=======
+[`vpc` service](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/master/modules/networking/vpc)
+>>>>>>> Stashed changes
 in the AWS CIS Service Catalog to create your VPCs. This service is configured for CIS compliance, and as such has VPC flow
 logs enabled. See the examples below:
 
@@ -41,7 +45,11 @@ In here you’ll still need to reference the `locals` configuration, and ensure 
 terraform {
   # We're using a local file path here just so our automated tests run against the absolute latest code. However, when
   # using these modules in your code, you should use a Git URL with a ref attribute that pins you to a specific version:
+<<<<<<< Updated upstream
   # source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/networking/vpc?ref=v0.20.0"
+=======
+  # source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/networking/vpc?ref=v0.20.0"
+>>>>>>> Stashed changes
   source = "${get_parent_terragrunt_dir()}/../../..//modules/networking/vpc"
 }
 
@@ -77,7 +85,11 @@ locals {
 ```
 
 To limit the number of flow logs, you may want to use the
+<<<<<<< Updated upstream
 [`cloud-nuke defaults-aws`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/cloud-nuke) command. It will remove the default VPC from
+=======
+[`cloud-nuke defaults-aws`](https://github.com/tnn-gruntwork-io/cloud-nuke) command. It will remove the default VPC from
+>>>>>>> Stashed changes
 all regions in an account, saving you the hassle of creating flow logs in each default VPC.
 
 ## Maintaining compliance by following Monitoring best practices
@@ -85,7 +97,11 @@ all regions in an account, saving you the hassle of creating flow logs in each d
 The Monitoring section of the Benchmark centers on a collection of
 [CloudWatch Logs Metric
 Filters](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/MonitoringLogData.html). Gruntwork has simplified this section to a single module: the
+<<<<<<< Updated upstream
 [`cloudwatch-logs-metric -filters` wrapper module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/master/modules/observability/cloudwatch-logs-metric-filters/README.adoc). It will create and configure all the CloudWatch Logs metric filters necessary for
+=======
+[`cloudwatch-logs-metric -filters` wrapper module](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/master/modules/observability/cloudwatch-logs-metric-filters/README.adoc). It will create and configure all the CloudWatch Logs metric filters necessary for
+>>>>>>> Stashed changes
 compliance with the Benchmark. Note that when you deploy the CIS account baseline modules, the CloudWatch Logs metric
 filters will be created and configured automatically, so that you don’t have to do anything special to enable the metric filters on the
 deployed CloudTrail configuration.
@@ -96,8 +112,13 @@ setup a subscriber to the SNS topics that are created.
 ## Maintaining compliance by following Networking best practices
 
 To ensure all the networking recommendations are satisfied, use the
+<<<<<<< Updated upstream
 [`vpc`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/networking/vpc) (and/or
 [`vpc-mgmt`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/networking/vpc-mgmt))
+=======
+[`vpc`](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/networking/vpc) (and/or
+[`vpc-mgmt`](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/networking/vpc-mgmt))
+>>>>>>> Stashed changes
 service from Gruntwork’s AWS CIS Service Catalog to create all your VPCs. These services are specifically configured for
 CIS compliance, and as such they don’t allow security groups to access ports 22 or 3389 from the world. In addition,
 our architecture has a least-privileges-based routing configuration by default.
@@ -119,7 +140,11 @@ infrastructure-live
 ```hcl title=infrastructure-modules/networking/vpc/myvpc/main.tf
 terraform { # We're using a local file path here just so our automated tests run against the absolute latest code. However, when
   # using these modules in your code, you should use a Git URL with a ref attribute that pins you to a specific version:
+<<<<<<< Updated upstream
   # source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/networking/vpc-mgmt?ref=v0.20.0"
+=======
+  # source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/networking/vpc-mgmt?ref=v0.20.0"
+>>>>>>> Stashed changes
   source = "${get_parent_terragrunt_dir()}/../../..//modules/networking/vpc-mgmt"
 }
 ```
@@ -147,10 +172,17 @@ inputs = {
 }
 ```
 
+<<<<<<< Updated upstream
 Refer to the [terraform-aws-cis-service-catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/examples/for-learning-and-testing/networking/vpc/)
 repo for a more comprehensive example.
 
 Finally, run the [`cloud-nuke defaults-aws`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/cloud-nuke) command to remove all
+=======
+Refer to the [terraform-aws-cis-service-catalog](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/examples/for-learning-and-testing/networking/vpc/)
+repo for a more comprehensive example.
+
+Finally, run the [`cloud-nuke defaults-aws`](https://github.com/tnn-gruntwork-io/cloud-nuke) command to remove all
+>>>>>>> Stashed changes
 default security groups from all VPCs in all regions.
 
 

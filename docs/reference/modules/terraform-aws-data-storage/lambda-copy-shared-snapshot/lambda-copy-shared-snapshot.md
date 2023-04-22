@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Copy Snapshot Lambda Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-copy-shared-snapshot" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.26.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-copy-shared-snapshot" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.26.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module creates an [AWS Lambda](https://aws.amazon.com/lambda/) function that runs periodically and makes local
 copies of snapshots of an [Amazon Relational Database (RDS)](https://aws.amazon.com/rds/) database that were shared
@@ -23,7 +29,11 @@ from some external AWS account. This allows you to make backups of your RDS snap
 account.
 
 Note that to use this module, you must have access to the Gruntwork [Continuous Delivery Infrastructure Package
+<<<<<<< Updated upstream
 (terraform-aws-ci)](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci). If you need access, email support@gruntwork.io.
+=======
+(terraform-aws-ci)](https://github.com/tnn-gruntwork-io/terraform-aws-ci). If you need access, email support@gruntwork.io.
+>>>>>>> Stashed changes
 
 ## How do you copy an encrypted snapshot?
 
@@ -31,7 +41,11 @@ Let's say you created an RDS  snapshot in account 111111111111 encrypted with a 
 account 222222222222. To be able to make a copy of that snapshot in account 222222222222 using this module, you must:
 
 1.  Give account 222222222222 access to the KMS key in account 111111111111, including the `kms:CreateGrant` permission.
+<<<<<<< Updated upstream
     If you're using the [kms-master-key module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/blob/main/modules/kms-master-key)
+=======
+    If you're using the [kms-master-key module](https://github.com/tnn-gruntwork-io/terraform-aws-security/blob/main/modules/kms-master-key)
+>>>>>>> Stashed changes
     to manage your KMS keys, then in account 111111111111, you add the ARN of account 222222222222 to the
     `cmk_user_iam_arns` variable:
 
@@ -39,7 +53,11 @@ account 222222222222. To be able to make a copy of that snapshot in account 2222
     # In account 111111111111
 
     module "kms_master_key" {
+<<<<<<< Updated upstream
       source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/kms-master-key?ref=<VERSION>"
+=======
+      source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/kms-master-key?ref=<VERSION>"
+>>>>>>> Stashed changes
 
       cmk_user_iam_arns = ["`arn:aws:iam::222222222222:root`"]
 
@@ -54,13 +72,21 @@ account 222222222222. To be able to make a copy of that snapshot in account 2222
     # In account 222222222222
 
     module "kms_master_key" {
+<<<<<<< Updated upstream
       source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/kms-master-key?ref=<VERSION>"
+=======
+      source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/kms-master-key?ref=<VERSION>"
+>>>>>>> Stashed changes
 
       # (Other params omitted)
     }
      
     module "copy_snapshot" {
+<<<<<<< Updated upstream
       source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-copy-shared-snapshot?ref=<VERSION>"
+=======
+      source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-copy-shared-snapshot?ref=<VERSION>"
+>>>>>>> Stashed changes
       
       # Tell this copy snapshot module to use this key to encrypt the copied snapshot
       kms_key_id = "${module.kms_master_key.key_arn}"
@@ -108,7 +134,11 @@ account 222222222222. To be able to make a copy of that snapshot in account 2222
 ## Background info
 
 For more info on how to backup RDS snapshots to a separate AWS account, check out the [lambda-create-snapshot module
+<<<<<<< Updated upstream
 documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot).
+=======
+documentation](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-create-snapshot).
+>>>>>>> Stashed changes
 
 ## Sample Usage
 
@@ -123,7 +153,11 @@ documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws
 
 module "lambda_copy_shared_snapshot" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-copy-shared-snapshot?ref=v0.26.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-copy-shared-snapshot?ref=v0.26.0"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -197,7 +231,11 @@ module "lambda_copy_shared_snapshot" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-copy-shared-snapshot?ref=v0.26.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-copy-shared-snapshot?ref=v0.26.0"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -390,9 +428,15 @@ Namespace all Lambda scheduling resources created by this module with this name.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-copy-shared-snapshot/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-copy-shared-snapshot/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-copy-shared-snapshot/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-copy-shared-snapshot/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-copy-shared-snapshot/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-copy-shared-snapshot/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "b15e82e2285120496673cfaafe7866a4"

@@ -13,6 +13,7 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # AWS GuardDuty Multi Region Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty-multi-region" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.66.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
@@ -22,6 +23,17 @@ This module wraps the [guardduty core module](https://github.com/tnn-tnn-tnn-tnn
 ## Features
 
 *   Uses the [guardduty module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty) to enable AWS GuardDuty across all regions (recommended best practice) on your AWS account
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty-multi-region" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.66.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+
+This module wraps the [guardduty core module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty/README.adoc) to configure [AWS GuardDuty](https://aws.amazon.com/guardduty/) in all enabled regions for the AWS Account.
+
+## Features
+
+*   Uses the [guardduty module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty) to enable AWS GuardDuty across all regions (recommended best practice) on your AWS account
+>>>>>>> Stashed changes
 
 *   Continuously monitor your AWS account for malicious activity and unauthorized behavior
 
@@ -37,6 +49,7 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 ### Core concepts
 
+<<<<<<< Updated upstream
 *   Learn more about GuardDuty in the [guardduty core module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty/README.adoc).
 
 *   [How to use a multi-region module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/codegen/core-concepts.md#how-to-use-a-multi-region-module)
@@ -50,6 +63,21 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 *   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples): This folder contains working examples of how to use the submodules.
 
 *   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/test): Automated tests for the modules and examples.
+=======
+*   Learn more about GuardDuty in the [guardduty core module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty/README.adoc).
+
+*   [How to use a multi-region module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/codegen/core-concepts.md#how-to-use-a-multi-region-module)
+
+### Repo organization
+
+*   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+
+*   [codegen](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/codegen): Code generation utilities that help generate modules in this repo.
+
+*   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples): This folder contains working examples of how to use the submodules.
+
+*   [test](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/test): Automated tests for the modules and examples.
+>>>>>>> Stashed changes
 
 ## Deploy
 
@@ -57,7 +85,11 @@ Note
 
 This module depends on Python being available on your system. Python 2.7, 3.5+ are supported.
 
+<<<<<<< Updated upstream
 *   ***Coming soon***. We have not yet added this module to the [Acme example Reference Architecture](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme).
+=======
+*   ***Coming soon***. We have not yet added this module to the [Acme example Reference Architecture](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme).
+>>>>>>> Stashed changes
 
 *   [How to configure a production-grade AWS account structure](https://gruntwork.io/guides/foundations/how-to-configure-production-grade-aws-account-structure/)
 
@@ -74,7 +106,11 @@ This module depends on Python being available on your system. Python 2.7, 3.5+ a
 
 module "guardduty_multi_region" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/guardduty-multi-region?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/guardduty-multi-region?ref=v0.67.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -145,7 +181,11 @@ module "guardduty_multi_region" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/guardduty-multi-region?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/guardduty-multi-region?ref=v0.67.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -354,9 +394,15 @@ The IDs of the GuardDuty detectors.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty-multi-region/readme.adoc",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty-multi-region/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty-multi-region/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty-multi-region/readme.adoc",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty-multi-region/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/guardduty-multi-region/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "b8fa0aa9d0424da3461fdf6c0ba70b31"
