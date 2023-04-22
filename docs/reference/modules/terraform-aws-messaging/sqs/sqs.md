@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Simple Queuing Service (SQS) Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.10.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.10.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -34,7 +34,7 @@ An example with NO IAM AUTHENTICATION required, ONLY IP based restrictions are u
 ```hcl-terraform
 module "sqs" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.1.4"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.1.4"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.1.4"
 >>>>>>> Stashed changes
@@ -64,7 +64,7 @@ An example of a queue policy is not used and permissions to the queue are handle
 ```hcl-terraform
 module "sqs" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.1.4"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.1.4"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.1.4"
 >>>>>>> Stashed changes
@@ -87,7 +87,7 @@ An example of how to use this module to create a queue with a dead-letter queue.
 ```hcl-terraform
 module "sqs" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.1.4"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.1.4"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.1.4"
 >>>>>>> Stashed changes
@@ -120,7 +120,7 @@ including:
 module "sqs" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.10.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.10.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.10.2"
 >>>>>>> Stashed changes
@@ -260,7 +260,7 @@ module "sqs" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.10.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.10.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sqs?ref=v0.10.2"
 >>>>>>> Stashed changes
@@ -663,9 +663,9 @@ The visibility timeout for the queue. An integer from 0 to 43200 (12 hours).
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sqs/variables.tf",

@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Single Server Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/single-server" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/single-server" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/single-server" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -55,7 +55,7 @@ Security Group. You can add custom rules to this Security Group using the `aws_s
 ```hcl
 module "jenkins" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server.git//modules/single-server?ref=v0.0.40"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-server.git//modules/single-server?ref=v0.0.40"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-server.git//modules/single-server?ref=v0.0.40"
 >>>>>>> Stashed changes
@@ -82,7 +82,7 @@ can attach custom policies to this IAM role using the `aws_iam_policy_attachment
 ```hcl
 module "jenkins" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server.git//modules/single-server?ref=v0.0.40"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-server.git//modules/single-server?ref=v0.0.40"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-server.git//modules/single-server?ref=v0.0.40"
 >>>>>>> Stashed changes
@@ -116,7 +116,7 @@ resource "aws_iam_policy_attachment" "attachment" {
 module "single_server" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server.git//modules/single-server?ref=v0.15.3"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-server.git//modules/single-server?ref=v0.15.3"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-server.git//modules/single-server?ref=v0.15.3"
 >>>>>>> Stashed changes
@@ -350,7 +350,7 @@ module "single_server" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server.git//modules/single-server?ref=v0.15.3"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-server.git//modules/single-server?ref=v0.15.3"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-server.git//modules/single-server?ref=v0.15.3"
 >>>>>>> Stashed changes
@@ -1080,9 +1080,9 @@ When used in combination with user_data or user_data_base64, a user_data change 
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/single-server/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/single-server/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/single-server/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/single-server/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/single-server/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/single-server/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/single-server/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/single-server/variables.tf",

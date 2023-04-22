@@ -10,7 +10,7 @@ providers you’re using. We recommend checking the `.terraform.lock.hcl` files 
 team members get the _exact_ same provider versions when they run `init`.
 
 <<<<<<< Updated upstream
-Note that we’ve updated Terragrunt (as of [v0.27.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt/releases/tag/v0.27.0)) to
+Note that we’ve updated Terragrunt (as of [v0.27.0](https://github.com/tnn-gruntwork-io/terragrunt/releases/tag/v0.27.0)) to
 =======
 Note that we’ve updated Terragrunt (as of [v0.27.0](https://github.com/tnn-gruntwork-io/terragrunt/releases/tag/v0.27.0)) to
 >>>>>>> Stashed changes

@@ -28,10 +28,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.23](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.23)
+### [v0.0.23](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.0.23)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/13/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.23">Release notes</a></small>
+  <small>Published: 10/13/2018 | <a href="https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.0.23">Release notes</a></small>
 =======
 ### [v0.0.23](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.0.23)
 
@@ -43,7 +43,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/pull/33: Fixes https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/issues/18 where member level org users could not go through the github grant workflow due to not being included to the created team as a maintainer in the initial step.
+  https://github.com/tnn-gruntwork-io/gruntwork/pull/33: Fixes https://github.com/tnn-gruntwork-io/gruntwork/issues/18 where member level org users could not go through the github grant workflow due to not being included to the created team as a maintainer in the initial step.
 =======
   https://github.com/tnn-gruntwork-io/gruntwork/pull/33: Fixes https://github.com/tnn-gruntwork-io/gruntwork/issues/18 where member level org users could not go through the github grant workflow due to not being included to the created team as a maintainer in the initial step.
 >>>>>>> Stashed changes
@@ -54,10 +54,10 @@ This also adds additional logging that shows you which github user you are authe
 
 
 <<<<<<< Updated upstream
-### [v0.0.22](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.22)
+### [v0.0.22](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.0.22)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/12/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.22">Release notes</a></small>
+  <small>Published: 10/12/2018 | <a href="https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.0.22">Release notes</a></small>
 =======
 ### [v0.0.22](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.0.22)
 
@@ -69,7 +69,7 @@ This also adds additional logging that shows you which github user you are authe
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/pull/32: This PR updates the IAM role the gruntwork CLI creates in each of the customer&apos;s AWS accounts so that it can be assumed not only from Gruntwork&apos;s master account (so we can deploy the Ref Arch), but also so it can be assumed from the customer&apos;s own security account (or, in a single-account deployment, that same account). The reason to add this is that we now deploy the Reference Architecture by launching an EC2 Instance in the customer&apos;s security account and letting it do the deployment. This includes assuming an IAM Role to get access to each of the customer&apos;s other accounts.
+  https://github.com/tnn-gruntwork-io/gruntwork/pull/32: This PR updates the IAM role the gruntwork CLI creates in each of the customer&apos;s AWS accounts so that it can be assumed not only from Gruntwork&apos;s master account (so we can deploy the Ref Arch), but also so it can be assumed from the customer&apos;s own security account (or, in a single-account deployment, that same account). The reason to add this is that we now deploy the Reference Architecture by launching an EC2 Instance in the customer&apos;s security account and letting it do the deployment. This includes assuming an IAM Role to get access to each of the customer&apos;s other accounts.
 =======
   https://github.com/tnn-gruntwork-io/gruntwork/pull/32: This PR updates the IAM role the gruntwork CLI creates in each of the customer&apos;s AWS accounts so that it can be assumed not only from Gruntwork&apos;s master account (so we can deploy the Ref Arch), but also so it can be assumed from the customer&apos;s own security account (or, in a single-account deployment, that same account). The reason to add this is that we now deploy the Reference Architecture by launching an EC2 Instance in the customer&apos;s security account and letting it do the deployment. This includes assuming an IAM Role to get access to each of the customer&apos;s other accounts.
 >>>>>>> Stashed changes
@@ -82,10 +82,10 @@ This also adds additional logging that shows you which github user you are authe
 
 
 <<<<<<< Updated upstream
-### [v0.6.19](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.19)
+### [v0.6.19](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.19)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/27/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.19">Release notes</a></small>
+  <small>Published: 10/27/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.19">Release notes</a></small>
 =======
 ### [v0.6.19](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.19)
 
@@ -103,7 +103,7 @@ Here&apos;s an example of how to first launch Module A and then launch Module B:
 module &quot;a&quot; &#x7B;
   # Be sure to update to the latest version of this module
 <<<<<<< Updated upstream
-  source = &quot;git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg.git//modules/server-group?ref=v0.6.19&quot;
+  source = &quot;git::git@github.com:tnn-gruntwork-io/module-asg.git//modules/server-group?ref=v0.6.19&quot;
 =======
   source = &quot;git::git@github.com:tnn-gruntwork-io/module-asg.git//modules/server-group?ref=v0.6.19&quot;
 >>>>>>> Stashed changes
@@ -112,7 +112,7 @@ module &quot;a&quot; &#x7B;
 
 module &quot;b&quot; &#x7B;
 <<<<<<< Updated upstream
-  source = &quot;git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg.git//modules/server-group?ref=v0.6.19&quot;
+  source = &quot;git::git@github.com:tnn-gruntwork-io/module-asg.git//modules/server-group?ref=v0.6.19&quot;
 =======
   source = &quot;git::git@github.com:tnn-gruntwork-io/module-asg.git//modules/server-group?ref=v0.6.19&quot;
 >>>>>>> Stashed changes
@@ -127,10 +127,10 @@ module &quot;b&quot; &#x7B;
 
 
 <<<<<<< Updated upstream
-### [v0.6.18](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.18)
+### [v0.6.18](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.18)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/16/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.18">Release notes</a></small>
+  <small>Published: 10/16/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.18">Release notes</a></small>
 =======
 ### [v0.6.18](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.18)
 
@@ -142,7 +142,7 @@ module &quot;b&quot; &#x7B;
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/46, https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/47: Fix the `asg-rolling-deploy` module so the script it uses within works with either Python 2 or Python 3.
+  https://github.com/tnn-gruntwork-io/module-asg/pull/46, https://github.com/tnn-gruntwork-io/module-asg/pull/47: Fix the `asg-rolling-deploy` module so the script it uses within works with either Python 2 or Python 3.
 =======
   https://github.com/tnn-gruntwork-io/module-asg/pull/46, https://github.com/tnn-gruntwork-io/module-asg/pull/47: Fix the `asg-rolling-deploy` module so the script it uses within works with either Python 2 or Python 3.
 >>>>>>> Stashed changes
@@ -155,10 +155,10 @@ module &quot;b&quot; &#x7B;
 
 
 <<<<<<< Updated upstream
-### [v0.13.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.3)
+### [v0.13.3](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/18/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.3">Release notes</a></small>
+  <small>Published: 10/18/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.3">Release notes</a></small>
 =======
 ### [v0.13.3](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.3)
 
@@ -170,7 +170,7 @@ module &quot;b&quot; &#x7B;
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/77: Update the `git-add-commit-push` script to check there are files staged for commit before trying to commit.
+  https://github.com/tnn-gruntwork-io/module-ci/pull/77: Update the `git-add-commit-push` script to check there are files staged for commit before trying to commit.
 =======
   https://github.com/tnn-gruntwork-io/module-ci/pull/77: Update the `git-add-commit-push` script to check there are files staged for commit before trying to commit.
 >>>>>>> Stashed changes
@@ -183,10 +183,10 @@ module &quot;b&quot; &#x7B;
 
 
 <<<<<<< Updated upstream
-### [v0.7.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.7.0)
+### [v0.7.0](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.7.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/15/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.7.0">Release notes</a></small>
+  <small>Published: 10/15/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.7.0">Release notes</a></small>
 =======
 ### [v0.7.0](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.7.0)
 
@@ -198,7 +198,7 @@ module &quot;b&quot; &#x7B;
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/54: 
+  https://github.com/tnn-gruntwork-io/module-data-storage/pull/54: 
 =======
   https://github.com/tnn-gruntwork-io/module-data-storage/pull/54: 
 >>>>>>> Stashed changes
@@ -208,7 +208,7 @@ module &quot;b&quot; &#x7B;
 Changes to the `lambda-cleanup-snapshots`, `lambda-copy-shared-snapshot`, `lambda-create-snapshot`, and `lambda-share-snapshot` modules: 
 
 <<<<<<< Updated upstream
-1. They now all use [package-lambda](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-lambda/) under the hood instead of the older lambda code that used to live in `module-ci`. The new version renames some resources and changes the name of the CloudWatch events/targets to be a bit shorter to help avoid exceeding the max length allowed by AWS.
+1. They now all use [package-lambda](https://github.com/tnn-gruntwork-io/package-lambda/) under the hood instead of the older lambda code that used to live in `module-ci`. The new version renames some resources and changes the name of the CloudWatch events/targets to be a bit shorter to help avoid exceeding the max length allowed by AWS.
 =======
 1. They now all use [package-lambda](https://github.com/tnn-gruntwork-io/package-lambda/) under the hood instead of the older lambda code that used to live in `module-ci`. The new version renames some resources and changes the name of the CloudWatch events/targets to be a bit shorter to help avoid exceeding the max length allowed by AWS.
 >>>>>>> Stashed changes
@@ -232,10 +232,10 @@ Changes to the `rds` module:
 
 
 <<<<<<< Updated upstream
-### [v0.10.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.10.0)
+### [v0.10.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.10.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/29/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.10.0">Release notes</a></small>
+  <small>Published: 10/29/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.10.0">Release notes</a></small>
 =======
 ### [v0.10.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.10.0)
 
@@ -247,7 +247,7 @@ Changes to the `rds` module:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/82 : ECS deployment checker
+  https://github.com/tnn-gruntwork-io/module-ecs/pull/82 : ECS deployment checker
 =======
   https://github.com/tnn-gruntwork-io/module-ecs/pull/82 : ECS deployment checker
 >>>>>>> Stashed changes
@@ -267,10 +267,10 @@ The binary will automatically be triggered with each deploy when you update to `
 
 
 <<<<<<< Updated upstream
-### [v0.9.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.9.0)
+### [v0.9.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.9.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/20/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.9.0">Release notes</a></small>
+  <small>Published: 10/20/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.9.0">Release notes</a></small>
 =======
 ### [v0.9.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.9.0)
 
@@ -282,7 +282,7 @@ The binary will automatically be triggered with each deploy when you update to `
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/94 : `ecs-service-with-discovery` now supports extending the ECS task with additional IAM roles and security groups.
+  https://github.com/tnn-gruntwork-io/module-ecs/pull/94 : `ecs-service-with-discovery` now supports extending the ECS task with additional IAM roles and security groups.
 =======
   https://github.com/tnn-gruntwork-io/module-ecs/pull/94 : `ecs-service-with-discovery` now supports extending the ECS task with additional IAM roles and security groups.
 >>>>>>> Stashed changes
@@ -300,10 +300,10 @@ This is a backwards incompatible change for the `ecs-service-with-discovery` mod
 
 
 <<<<<<< Updated upstream
-### [v0.2.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.7)
+### [v0.2.7](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/1/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.7">Release notes</a></small>
+  <small>Published: 10/1/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.7">Release notes</a></small>
 =======
 ### [v0.2.7](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.7)
 
@@ -321,10 +321,10 @@ Also renamed vars.tf -&gt; variables.tf
 
 
 <<<<<<< Updated upstream
-### [v0.2.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.6)
+### [v0.2.6](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/1/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.6">Release notes</a></small>
+  <small>Published: 10/1/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.6">Release notes</a></small>
 =======
 ### [v0.2.6](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.6)
 
@@ -347,10 +347,10 @@ Also renamed vars.tf -&gt; variables.tf
 
 
 <<<<<<< Updated upstream
-### [v0.4.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.2)
+### [v0.4.2](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/18/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.2">Release notes</a></small>
+  <small>Published: 10/18/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.2">Release notes</a></small>
 =======
 ### [v0.4.2](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.2)
 
@@ -362,7 +362,7 @@ Also renamed vars.tf -&gt; variables.tf
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/38:
+  https://github.com/tnn-gruntwork-io/package-kafka/pull/38:
 =======
   https://github.com/tnn-gruntwork-io/package-kafka/pull/38:
 >>>>>>> Stashed changes
@@ -374,7 +374,7 @@ The `run-kafka` script now exposes new parameters to configure a number of secur
 * Enable ACLs using `--enable-acl`, `--acl-authorizer-class-name`, and `--acl-allow-everyone-if-no-acl-found`.
 
 <<<<<<< Updated upstream
-https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/41:
+https://github.com/tnn-gruntwork-io/package-kafka/pull/41:
 =======
 https://github.com/tnn-gruntwork-io/package-kafka/pull/41:
 >>>>>>> Stashed changes
@@ -385,7 +385,7 @@ The Kafka Connect, Schema Registry, and REST Proxy modules now all allow you to 
 * The `xxx-run.sh` script for each module now supports `--kafka-client-key-store-path` and `--kafka-client-key-store-password` to configure the service to use a key store.
 
 <<<<<<< Updated upstream
-https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/42: 
+https://github.com/tnn-gruntwork-io/package-kafka/pull/42: 
 =======
 https://github.com/tnn-gruntwork-io/package-kafka/pull/42: 
 >>>>>>> Stashed changes
@@ -403,10 +403,10 @@ The `run-kafka` script now allows you to configure the ZooKeeper chroot and enab
 
 
 <<<<<<< Updated upstream
-### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.3.0)
+### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/15/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.3.0">Release notes</a></small>
+  <small>Published: 10/15/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.3.0">Release notes</a></small>
 =======
 ### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.3.0)
 
@@ -418,7 +418,7 @@ The `run-kafka` script now allows you to configure the ZooKeeper chroot and enab
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-lambda/pull/22: 
+  https://github.com/tnn-gruntwork-io/package-lambda/pull/22: 
 =======
   https://github.com/tnn-gruntwork-io/package-lambda/pull/22: 
 >>>>>>> Stashed changes
@@ -435,10 +435,10 @@ The `scheduled-lambda-job` module now namespaces all of its resources with the f
 
 
 <<<<<<< Updated upstream
-### [v0.10.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.0)
+### [v0.10.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/16/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.0">Release notes</a></small>
+  <small>Published: 10/16/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.0">Release notes</a></small>
 =======
 ### [v0.10.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.0)
 
@@ -450,7 +450,7 @@ The `scheduled-lambda-job` module now namespaces all of its resources with the f
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/pull/54: Fix the alarm name used by the `asg-disk-alarms` module to include the file system and mount path. This ensures that if you create multiple alarms for multiple disks on the same auto scaling groups, they each get a unique name, rather than overwriting each other. 
+  https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/54: Fix the alarm name used by the `asg-disk-alarms` module to include the file system and mount path. This ensures that if you create multiple alarms for multiple disks on the same auto scaling groups, they each get a unique name, rather than overwriting each other. 
 =======
   https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/54: Fix the alarm name used by the `asg-disk-alarms` module to include the file system and mount path. This ensures that if you create multiple alarms for multiple disks on the same auto scaling groups, they each get a unique name, rather than overwriting each other. 
 >>>>>>> Stashed changes
@@ -459,10 +459,10 @@ The `scheduled-lambda-job` module now namespaces all of its resources with the f
 
 
 <<<<<<< Updated upstream
-### [v0.9.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.3)
+### [v0.9.3](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/8/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.3">Release notes</a></small>
+  <small>Published: 10/8/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.3">Release notes</a></small>
 =======
 ### [v0.9.3](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.3)
 
@@ -474,7 +474,7 @@ The `scheduled-lambda-job` module now namespaces all of its resources with the f
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/pull/51: Fix a bug where the `load-balancer-access-logs` module would always show a diff for the S3 bucket lifecycle settings when you ran `plan`, even though nothing changed.
+  https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/51: Fix a bug where the `load-balancer-access-logs` module would always show a diff for the S3 bucket lifecycle settings when you ran `plan`, even though nothing changed.
 =======
   https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/51: Fix a bug where the `load-balancer-access-logs` module would always show a diff for the S3 bucket lifecycle settings when you ran `plan`, even though nothing changed.
 >>>>>>> Stashed changes
@@ -483,10 +483,10 @@ The `scheduled-lambda-job` module now namespaces all of its resources with the f
 
 
 <<<<<<< Updated upstream
-### [v0.9.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.2)
+### [v0.9.2](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/8/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.2">Release notes</a></small>
+  <small>Published: 10/8/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.2">Release notes</a></small>
 =======
 ### [v0.9.2](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.2)
 
@@ -498,7 +498,7 @@ The `scheduled-lambda-job` module now namespaces all of its resources with the f
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/pull/50: The `cloudwatch-log-aggregation-scripts`, `cloudwatch-memory-disk-metrics-scripts`, and `syslog` modules now support Amazon Linux 2.
+  https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/50: The `cloudwatch-log-aggregation-scripts`, `cloudwatch-memory-disk-metrics-scripts`, and `syslog` modules now support Amazon Linux 2.
 =======
   https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/50: The `cloudwatch-log-aggregation-scripts`, `cloudwatch-memory-disk-metrics-scripts`, and `syslog` modules now support Amazon Linux 2.
 >>>>>>> Stashed changes
@@ -511,10 +511,10 @@ The `scheduled-lambda-job` module now namespaces all of its resources with the f
 
 
 <<<<<<< Updated upstream
-### [v0.8.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.8.0)
+### [v0.8.0](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.8.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/10/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.8.0">Release notes</a></small>
+  <small>Published: 10/10/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.8.0">Release notes</a></small>
 =======
 ### [v0.8.0](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.8.0)
 
@@ -526,14 +526,14 @@ The `scheduled-lambda-job` module now namespaces all of its resources with the f
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-openvpn/pull/53: 
+  https://github.com/tnn-gruntwork-io/package-openvpn/pull/53: 
 
 **BACKWARDS INCOMPATIBLE CHANGE**
 
-`package-openvpn` now uses [bash-commons](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons/) under the hood. The behavior is identical, but you must now install `bash-commons` *before* installing any of the `package-openvpn` modules. For example, in your OpenVPN packer template, you should add `bash-commons` as one of the very first items:
+`package-openvpn` now uses [bash-commons](https://github.com/tnn-gruntwork-io/bash-commons/) under the hood. The behavior is identical, but you must now install `bash-commons` *before* installing any of the `package-openvpn` modules. For example, in your OpenVPN packer template, you should add `bash-commons` as one of the very first items:
 
 ```json
-gruntwork-install --module-name &apos;bash-commons&apos; --repo &apos;https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons&apos; --tag &apos;v0.0.6&apos;
+gruntwork-install --module-name &apos;bash-commons&apos; --repo &apos;https://github.com/tnn-gruntwork-io/bash-commons&apos; --tag &apos;v0.0.6&apos;
 =======
   https://github.com/tnn-gruntwork-io/package-openvpn/pull/53: 
 
@@ -554,10 +554,10 @@ gruntwork-install --module-name &apos;bash-commons&apos; --repo &apos;https://gi
 
 
 <<<<<<< Updated upstream
-### [v0.15.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.3)
+### [v0.15.3](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/30/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.3">Release notes</a></small>
+  <small>Published: 10/30/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.3">Release notes</a></small>
 =======
 ### [v0.15.3](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.3)
 
@@ -573,7 +573,7 @@ gruntwork-install --module-name &apos;bash-commons&apos; --repo &apos;https://gi
 - #116: Update the `os-hardening` module to the latest Gruntwork best practices and dependencies
 
 <<<<<<< Updated upstream
-- #117: Update bash scripts in several modules to use https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons instead of reinventing the wheel.
+- #117: Update bash scripts in several modules to use https://github.com/tnn-gruntwork-io/bash-commons instead of reinventing the wheel.
 =======
 - #117: Update bash scripts in several modules to use https://github.com/tnn-gruntwork-io/bash-commons instead of reinventing the wheel.
 >>>>>>> Stashed changes
@@ -585,10 +585,10 @@ A special thanks to @jeckhart for contributing all of these PRs!
 
 
 <<<<<<< Updated upstream
-### [v0.15.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.2)
+### [v0.15.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/8/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.2">Release notes</a></small>
+  <small>Published: 10/8/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.2">Release notes</a></small>
 =======
 ### [v0.15.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.2)
 
@@ -600,7 +600,7 @@ A special thanks to @jeckhart for contributing all of these PRs!
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/111: Fix a bug where the `cloudtrail` module would always show a diff for the S3 bucket lifecycle settings when you ran `plan`, even though nothing changed.
+  https://github.com/tnn-gruntwork-io/module-security/pull/111: Fix a bug where the `cloudtrail` module would always show a diff for the S3 bucket lifecycle settings when you ran `plan`, even though nothing changed.
 =======
   https://github.com/tnn-gruntwork-io/module-security/pull/111: Fix a bug where the `cloudtrail` module would always show a diff for the S3 bucket lifecycle settings when you ran `plan`, even though nothing changed.
 >>>>>>> Stashed changes
@@ -613,10 +613,10 @@ A special thanks to @jeckhart for contributing all of these PRs!
 
 
 <<<<<<< Updated upstream
-### [v0.4.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.8)
+### [v0.4.8](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/18/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.8">Release notes</a></small>
+  <small>Published: 10/18/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.8">Release notes</a></small>
 =======
 ### [v0.4.8](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.8)
 
@@ -628,7 +628,7 @@ A special thanks to @jeckhart for contributing all of these PRs!
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/31, https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/32: Update to `module-asg` version `v0.6.18` so that the rolling deploy script works with either Python 2 or 3. Upgrade Oracle JDK installer to version `8u192-b12`. 
+  https://github.com/tnn-gruntwork-io/package-zookeeper/pull/31, https://github.com/tnn-gruntwork-io/package-zookeeper/pull/32: Update to `module-asg` version `v0.6.18` so that the rolling deploy script works with either Python 2 or 3. Upgrade Oracle JDK installer to version `8u192-b12`. 
 =======
   https://github.com/tnn-gruntwork-io/package-zookeeper/pull/31, https://github.com/tnn-gruntwork-io/package-zookeeper/pull/32: Update to `module-asg` version `v0.6.18` so that the rolling deploy script works with either Python 2 or 3. Upgrade Oracle JDK installer to version `8u192-b12`. 
 >>>>>>> Stashed changes

@@ -42,7 +42,7 @@ To connect to an OpenVPN server, you need an OpenVPN configuration file, which i
 to authenticate. To generate this configuration file, do the following:
 
 <<<<<<< Updated upstream
-1. Install the latest [openvpn-admin binary](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases) for your OS.
+1. Install the latest [openvpn-admin binary](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases) for your OS.
 =======
 1. Install the latest [openvpn-admin binary](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases) for your OS.
 >>>>>>> Stashed changes

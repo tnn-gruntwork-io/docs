@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # OS Hardening
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.7" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.7" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -38,8 +38,8 @@ is mounting multiple partitions. We hope to implement more CIS recommendations o
 There are two major components to this module:
 
 <<<<<<< Updated upstream
-*   [ami-builder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/ami-builder): This is a Terraform template that launches an EC2 Instance with Packer pre-installed.
-*   [partition-scripts](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/partition-scripts): This is a set of bash scripts that create multiple disk partitions, format them
+*   [ami-builder](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/ami-builder): This is a Terraform template that launches an EC2 Instance with Packer pre-installed.
+*   [partition-scripts](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/partition-scripts): This is a set of bash scripts that create multiple disk partitions, format them
 =======
 *   [ami-builder](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/ami-builder): This is a Terraform template that launches an EC2 Instance with Packer pre-installed.
 *   [partition-scripts](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/partition-scripts): This is a set of bash scripts that create multiple disk partitions, format them
@@ -57,7 +57,7 @@ Fundamentally, to generate an AMI you must:
 5.  Terminate the ami-builder EC2 Instance.
 
 <<<<<<< Updated upstream
-We recognize that is a lot of manual steps to build a single AMI, so check out the [os-hardening example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/os-hardening)
+We recognize that is a lot of manual steps to build a single AMI, so check out the [os-hardening example](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/os-hardening)
 =======
 We recognize that is a lot of manual steps to build a single AMI, so check out the [os-hardening example](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/os-hardening)
 >>>>>>> Stashed changes
@@ -71,7 +71,7 @@ See below for additional details on what this is and how to use it.
 ## How to Use this Module
 
 <<<<<<< Updated upstream
-**The best way to use this module is to substantially copy the [os-hardening example code](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/os-hardening).
+**The best way to use this module is to substantially copy the [os-hardening example code](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/os-hardening).
 =======
 **The best way to use this module is to substantially copy the [os-hardening example code](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/os-hardening).
 >>>>>>> Stashed changes
@@ -91,11 +91,11 @@ hardened OS will use. Follow these steps:
 
     *   `partition-volume`: For each desired partition, add an argument like `--partition '/home:4G'`. For additional
 <<<<<<< Updated upstream
-        details see [partition-volume](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/partition-scripts/bin/partition-volume). Note that for the last `--partition` entry only,
+        details see [partition-volume](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/partition-scripts/bin/partition-volume). Note that for the last `--partition` entry only,
         you may specify `*` for the size to tell the script to create the largest possible partition based on remaining
         disk space. Also, make sure your partition sizes don't exceed the space available on your EBS Volume!
     *   `cleanup-volume`: For each desired partition, add an argument like `--mount-point '/home'`. For additional details see
-        [cleanup-volume](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/partition-scripts/bin/cleanup-volume)
+        [cleanup-volume](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/partition-scripts/bin/cleanup-volume)
 =======
         details see [partition-volume](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/partition-scripts/bin/partition-volume). Note that for the last `--partition` entry only,
         you may specify `*` for the size to tell the script to create the largest possible partition based on remaining
@@ -114,10 +114,10 @@ That's it! The Packer template will take care of the rest.
 ### How to Build the AMI with Packer
 
 <<<<<<< Updated upstream
-Now we're ready to build the actual AMI. Note: The [os-hardening example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/os-hardening) contains a script
+Now we're ready to build the actual AMI. Note: The [os-hardening example](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/os-hardening) contains a script
 that automates all these steps, but, for the sake of understanding, we'll describe them individually below:
 
-1.  Launch the [ami-builder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/ami-builder) EC2 Instance. We will execute Packer from this EC2 Instance.
+1.  Launch the [ami-builder](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/ami-builder) EC2 Instance. We will execute Packer from this EC2 Instance.
 =======
 Now we're ready to build the actual AMI. Note: The [os-hardening example](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/os-hardening) contains a script
 that automates all these steps, but, for the sake of understanding, we'll describe them individually below:
@@ -162,7 +162,7 @@ additional volumes mounted as encrypted volumes.
 ### Using Your Hardened OS as a "Base AMI"
 
 <<<<<<< Updated upstream
-A best practice we encourage is to first build your hardened OS Image using these modules and the [os-hardening example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/os-hardening).
+A best practice we encourage is to first build your hardened OS Image using these modules and the [os-hardening example](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/os-hardening).
 =======
 A best practice we encourage is to first build your hardened OS Image using these modules and the [os-hardening example](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/os-hardening).
 >>>>>>> Stashed changes
@@ -309,9 +309,9 @@ needed additional space to build a new AMI was not unreasonable.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/os-hardening/variables.tf",

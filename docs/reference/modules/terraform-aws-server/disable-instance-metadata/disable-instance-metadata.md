@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Disable Instance Metadata Access script
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/disable-instance-metadata" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/disable-instance-metadata" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.13.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.13.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/disable-instance-metadata" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -33,14 +33,14 @@ Once that is done, you can call this script to further secure your instance by d
 the AWS API to disable access to the endpoint.
 
 <<<<<<< Updated upstream
-Check out the [route53-helpers example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers) for how to use these scripts with Packer and Terraform.
+Check out the [route53-helpers example](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers) for how to use these scripts with Packer and Terraform.
 
 ## Installing the scripts
 
-You can install these scripts using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
+You can install these scripts using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
-gruntwork-install --module-name "disable-instance-metadata" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server" --tag "0.13.3"
+gruntwork-install --module-name "disable-instance-metadata" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-server" --tag "0.13.3"
 =======
 Check out the [route53-helpers example](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers) for how to use these scripts with Packer and Terraform.
 
@@ -60,7 +60,7 @@ The `disable-instance-metadata` script has the following prerequisites:
 1.  It must be run on an EC2 instance
 2.  The EC2 instance must have an IAM role with permissions to modify the Instance Metadata service's options. See the
 <<<<<<< Updated upstream
-    [route53-helpers example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers)) for a reference implementation.
+    [route53-helpers example](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers)) for a reference implementation.
 =======
     [route53-helpers example](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/route53-helpers)) for a reference implementation.
 >>>>>>> Stashed changes
@@ -97,9 +97,9 @@ This will result in subsequent calls to the Instance Metadata service to fail.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/disable-instance-metadata/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/disable-instance-metadata/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/disable-instance-metadata/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/disable-instance-metadata/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/disable-instance-metadata/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/disable-instance-metadata/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/disable-instance-metadata/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/disable-instance-metadata/variables.tf",

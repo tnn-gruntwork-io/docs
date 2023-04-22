@@ -14,11 +14,11 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # EKS Cluster Workers Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.57.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.57.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
-**This module provisions self managed ASGs, in contrast to [EKS Managed Node Groups](https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html). See the [eks-cluster-managed-workers](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-managed-workers) module for a module to deploy Managed Node Groups.**
+**This module provisions self managed ASGs, in contrast to [EKS Managed Node Groups](https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html). See the [eks-cluster-managed-workers](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-managed-workers) module for a module to deploy Managed Node Groups.**
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -33,8 +33,8 @@ Deployments.
 
 This module is responsible for the EKS Worker Nodes in [the EKS cluster
 <<<<<<< Updated upstream
-topology](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/README.md#what-is-an-eks-cluster). You must launch a control plane in order
-for the worker nodes to function. See the [eks-cluster-control-plane module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane) for
+topology](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/README.md#what-is-an-eks-cluster). You must launch a control plane in order
+for the worker nodes to function. See the [eks-cluster-control-plane module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane) for
 =======
 topology](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/README.md#what-is-an-eks-cluster). You must launch a control plane in order
 for the worker nodes to function. See the [eks-cluster-control-plane module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane) for
@@ -45,7 +45,7 @@ managing an EKS control plane.
 
 See the \[Differences with self managed workers] section in the documentation for [eks-cluster-managed-workers
 <<<<<<< Updated upstream
-module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-managed-workers) for a detailed overview of differences with EKS Managed Node Groups.
+module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-managed-workers) for a detailed overview of differences with EKS Managed Node Groups.
 =======
 module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-managed-workers) for a detailed overview of differences with EKS Managed Node Groups.
 >>>>>>> Stashed changes
@@ -56,10 +56,10 @@ In order for the EKS worker nodes to function, it must register itself to the Ku
 plane. This is handled by the bootstrap script provided in the EKS optimized AMI. The user-data script should call the
 bootstrap script at some point during its execution. You can get this information from the [eks-cluster-control-plane
 <<<<<<< Updated upstream
-module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane).
+module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane).
 
 For an example of a user data script, see the [eks-cluster example's user-data.sh
-script](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/examples/eks-cluster-with-iam-role-mappings/user-data/user-data.sh).
+script](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/examples/eks-cluster-with-iam-role-mappings/user-data/user-data.sh).
 =======
 module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane).
 
@@ -169,7 +169,7 @@ EOF
 
 **Note**: The IAM policies you add will apply to ALL Pods running on these EC2 Instances. See the [How do I associate
 <<<<<<< Updated upstream
-IAM roles to the Pods?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/README.md#how-do-i-associate-iam-roles-to-the-pods) section of the
+IAM roles to the Pods?](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/README.md#how-do-i-associate-iam-roles-to-the-pods) section of the
 =======
 IAM roles to the Pods?](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/README.md#how-do-i-associate-iam-roles-to-the-pods) section of the
 >>>>>>> Stashed changes
@@ -188,7 +188,7 @@ the server AMI is configured to run the ssh daemon.
 **Note**: Using a single key pair shared with your whole team for all of your SSH access is not secure. For a more
 secure option that allows each developer to use their own SSH key, and to manage server access via IAM or your Identity
 <<<<<<< Updated upstream
-Provider (e.g. Google, ADFS, Okta, etc), see [ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/main/modules/ssh-grunt).
+Provider (e.g. Google, ADFS, Okta, etc), see [ssh-grunt](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/main/modules/ssh-grunt).
 =======
 Provider (e.g. Google, ADFS, Okta, etc), see [ssh-grunt](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/main/modules/ssh-grunt).
 >>>>>>> Stashed changes
@@ -197,11 +197,11 @@ Provider (e.g. Google, ADFS, Okta, etc), see [ssh-grunt](https://github.com/tnn-
 
 Terraform and AWS do not provide a way to automatically roll out a change to the Instances in an EKS Cluster. Due to
 <<<<<<< Updated upstream
-Terraform limitations (see [here for a discussion](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/pull/29)), there is
+Terraform limitations (see [here for a discussion](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/pull/29)), there is
 currently no way to implement this purely in Terraform code. Therefore, we've embedded this functionality into
 `kubergrunt` that can do a zero-downtime roll out for you.
 
-Refer to the [`deploy` subcommand documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt#deploy) for more details on how this works.
+Refer to the [`deploy` subcommand documentation](https://github.com/tnn-gruntwork-io/kubergrunt#deploy) for more details on how this works.
 =======
 Terraform limitations (see [here for a discussion](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/pull/29)), there is
 currently no way to implement this purely in Terraform code. Therefore, we've embedded this functionality into
@@ -229,7 +229,7 @@ The following are the steps you can take to perform a blue-green release for thi
     # old version
     module "workers" {
 <<<<<<< Updated upstream
-      source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=v0.37.2"
+      source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=v0.37.2"
 =======
       source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=v0.37.2"
 >>>>>>> Stashed changes
@@ -239,7 +239,7 @@ The following are the steps you can take to perform a blue-green release for thi
     # new version
     module "workers_next_version" {
 <<<<<<< Updated upstream
-      source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=v0.38.0"
+      source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=v0.38.0"
 =======
       source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=v0.38.0"
 >>>>>>> Stashed changes
@@ -261,7 +261,7 @@ The following are the steps you can take to perform a blue-green release for thi
 *   Once the new workers are up and registered to the Kubernetes Control Plane, you can run `kubectl cordon` and `kubectl
     drain` on each instance in the old ASG to transition the workload over to the new worker pool. `kubergrunt` provides
 <<<<<<< Updated upstream
-    [a helper command](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/#drain) to make it easier to run this:
+    [a helper command](https://github.com/tnn-gruntwork-io/kubergrunt/#drain) to make it easier to run this:
 =======
     [a helper command](https://github.com/tnn-gruntwork-io/kubergrunt/#drain) to make it easier to run this:
 >>>>>>> Stashed changes
@@ -281,7 +281,7 @@ This module will not automatically scale in response to resource usage by defaul
 `autoscaling_group_configurations.*.max_size` option is only used to give room for new instances during rolling updates.
 To enable auto-scaling in response to resource utilization, you must set the `include_autoscaler_discovery_tags` input
 <<<<<<< Updated upstream
-variable to `true` and also deploy the [Kubernetes Cluster Autoscaler module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-cluster-autoscaler).
+variable to `true` and also deploy the [Kubernetes Cluster Autoscaler module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-cluster-autoscaler).
 =======
 variable to `true` and also deploy the [Kubernetes Cluster Autoscaler module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-cluster-autoscaler).
 >>>>>>> Stashed changes
@@ -310,7 +310,7 @@ Refer to the [Kubernetes Autoscaler](https://github.com/kubernetes/autoscaler) d
 module "eks_cluster_workers" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=v0.57.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=v0.57.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=v0.57.0"
 >>>>>>> Stashed changes
@@ -581,7 +581,7 @@ module "eks_cluster_workers" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=v0.57.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=v0.57.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=v0.57.0"
 >>>>>>> Stashed changes
@@ -1537,9 +1537,9 @@ AWS ID of the security group created for the EKS worker nodes.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/variables.tf",

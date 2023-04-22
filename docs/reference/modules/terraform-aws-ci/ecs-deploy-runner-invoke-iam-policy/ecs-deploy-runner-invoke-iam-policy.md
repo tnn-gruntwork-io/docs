@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # ECS Deploy Runner Invoke IAM Policies module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-invoke-iam-policy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-invoke-iam-policy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.48.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.48.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-invoke-iam-policy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -27,7 +27,7 @@ This Terraform Module defines an [IAM
 policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) that
 defines the minimal set of permissions necessary to trigger a deployment event for the deployment pipeline implemented
 <<<<<<< Updated upstream
-in the [ecs-deploy-runner module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner).
+in the [ecs-deploy-runner module](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner).
 =======
 in the [ecs-deploy-runner module](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner).
 >>>>>>> Stashed changes
@@ -69,7 +69,7 @@ resource "aws_iam_role_policy_attachment" "example" {
 module "ecs_deploy_runner_invoke_iam_policy" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner-invoke-iam-policy?ref=v0.51.6"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner-invoke-iam-policy?ref=v0.51.6"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner-invoke-iam-policy?ref=v0.51.6"
 >>>>>>> Stashed changes
@@ -111,7 +111,7 @@ module "ecs_deploy_runner_invoke_iam_policy" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner-invoke-iam-policy?ref=v0.51.6"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner-invoke-iam-policy?ref=v0.51.6"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner-invoke-iam-policy?ref=v0.51.6"
 >>>>>>> Stashed changes
@@ -228,9 +228,9 @@ The name of the IAM policy created with the permissions for invoking the ECS Dep
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-invoke-iam-policy/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-invoke-iam-policy/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-invoke-iam-policy/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-invoke-iam-policy/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-invoke-iam-policy/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-invoke-iam-policy/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-invoke-iam-policy/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-invoke-iam-policy/variables.tf",

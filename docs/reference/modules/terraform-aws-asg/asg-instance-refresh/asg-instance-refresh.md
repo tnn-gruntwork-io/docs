@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Auto Scaling Group Module with Instance Refresh
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.21.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.21.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -96,7 +96,7 @@ The Terraform [instance_refresh](https://registry.terraform.io/providers/hashico
 module "asg_instance_refresh" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-instance-refresh?ref=v0.21.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-instance-refresh?ref=v0.21.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-instance-refresh?ref=v0.21.2"
 >>>>>>> Stashed changes
@@ -229,7 +229,7 @@ module "asg_instance_refresh" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-instance-refresh?ref=v0.21.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-instance-refresh?ref=v0.21.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-instance-refresh?ref=v0.21.2"
 >>>>>>> Stashed changes
@@ -663,9 +663,9 @@ A maximum duration that Terraform should wait for the EC2 Instances to be health
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/variables.tf",

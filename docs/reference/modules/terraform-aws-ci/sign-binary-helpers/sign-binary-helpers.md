@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Binary signing Helpers
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/sign-binary-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/sign-binary-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/sign-binary-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -28,10 +28,10 @@ This module contains helper script called `sign-binary` used to sign executable 
 ## Installing the helpers
 
 <<<<<<< Updated upstream
-You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
+You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
-gruntwork-install --module-name "sign-binary-helpers" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.1"
+gruntwork-install --module-name "sign-binary-helpers" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.1"
 =======
 You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
@@ -164,9 +164,9 @@ References:
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/sign-binary-helpers/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/sign-binary-helpers/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/sign-binary-helpers/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/sign-binary-helpers/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/sign-binary-helpers/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/sign-binary-helpers/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/sign-binary-helpers/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/sign-binary-helpers/variables.tf",

@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Simple Notification Service (SNS) Topic Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sns" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sns" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.10.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.10.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sns" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -49,7 +49,7 @@ including:
 module "sns" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/sns?ref=v0.10.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sns?ref=v0.10.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sns?ref=v0.10.2"
 >>>>>>> Stashed changes
@@ -118,7 +118,7 @@ module "sns" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/sns?ref=v0.10.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sns?ref=v0.10.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/sns?ref=v0.10.2"
 >>>>>>> Stashed changes
@@ -346,9 +346,9 @@ A map of key value pairs to apply as tags to the SNS topic.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sns/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sns/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sns/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sns/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sns/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sns/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sns/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/sns/variables.tf",

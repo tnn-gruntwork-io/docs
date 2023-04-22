@@ -14,14 +14,14 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Executable Dependency
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/executable-dependency" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/executable-dependency" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.8.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.8.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This is a module that can be used to check if an executable is already installed, and if it's not, download it from a
 URL. This is useful if your Terraform code has an external dependency and you want that dependency to be auto installed
-if it's not installed already: e.g., [terraform-aws-eks](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks) expects the
-[kubergrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt) binary to be installed, and `executable-dependency` allows
+if it's not installed already: e.g., [terraform-aws-eks](https://github.com/tnn-gruntwork-io/terraform-aws-eks) expects the
+[kubergrunt](https://github.com/tnn-gruntwork-io/kubergrunt) binary to be installed, and `executable-dependency` allows
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/executable-dependency" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -39,7 +39,7 @@ if it's not installed already: e.g., [terraform-aws-eks](https://github.com/tnn-
 ## Example code
 
 <<<<<<< Updated upstream
-See the [executable-dependency example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/executable-dependency) for working sample code.
+See the [executable-dependency example](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/executable-dependency) for working sample code.
 =======
 See the [executable-dependency example](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/executable-dependency) for working sample code.
 >>>>>>> Stashed changes
@@ -48,14 +48,14 @@ See the [executable-dependency example](https://github.com/tnn-gruntwork-io/terr
 
 Use the module in your Terraform code, replacing `<VERSION>` with the latest version from the [releases
 <<<<<<< Updated upstream
-page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases):
+page](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases):
 
 ```hcl
 module "path" {
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/join-path?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/join-path?ref=<VERSION>"
   
   executable     = "kubergrunt"
-  download_url   = "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases/download/v0.5.13/kubergrunt"
+  download_url   = "https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.5.13/kubergrunt"
 =======
 page](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases):
 
@@ -103,7 +103,7 @@ will either be the path of the executable on the system `PATH` or a path in `ins
 module "executable_dependency" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/executable-dependency?ref=v0.9.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/executable-dependency?ref=v0.9.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/executable-dependency?ref=v0.9.1"
 >>>>>>> Stashed changes
@@ -157,7 +157,7 @@ module "executable_dependency" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/executable-dependency?ref=v0.9.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/executable-dependency?ref=v0.9.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/executable-dependency?ref=v0.9.1"
 >>>>>>> Stashed changes
@@ -280,9 +280,9 @@ The path to use to run the executable. Will either be the path of the executable
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/executable-dependency/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/executable-dependency/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/executable-dependency/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/executable-dependency/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/executable-dependency/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/executable-dependency/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/executable-dependency/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/executable-dependency/variables.tf",

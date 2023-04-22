@@ -44,7 +44,7 @@ for authentication.
 <div className="dlist">
 
 <<<<<<< Updated upstream
-#### [kubergrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt)
+#### [kubergrunt](https://github.com/tnn-gruntwork-io/kubergrunt)
 =======
 #### [kubergrunt](https://github.com/tnn-gruntwork-io/kubergrunt)
 >>>>>>> Stashed changes
@@ -53,7 +53,7 @@ A CLI tool maintained by Gruntwork that supports authentication to EKS, as well 
 such as tools for doing zero-downtime rolling deployments of EKS worker nodes and managing TLS certificates in
 Kubernetes. The easiest way to install it is to use one of the pre-built binaries from the
 <<<<<<< Updated upstream
-[kubergrunt releases](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases) page. To authenticate with `kubergrunt`, you
+[kubergrunt releases](https://github.com/tnn-gruntwork-io/kubergrunt/releases) page. To authenticate with `kubergrunt`, you
 =======
 [kubergrunt releases](https://github.com/tnn-gruntwork-io/kubergrunt/releases) page. To authenticate with `kubergrunt`, you
 >>>>>>> Stashed changes

@@ -21,9 +21,9 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 # Auto Scaling Group
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=services%2Fasg-service" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=services%2Fasg-service" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
@@ -49,7 +49,7 @@ This service contains code to deploy [Auto Scaling Groups](https://aws.amazon.co
 :::note
 
 <<<<<<< Updated upstream
-This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 =======
 This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 >>>>>>> Stashed changes
@@ -61,7 +61,7 @@ If you’ve never used the Service Catalog before, make sure to read
 
 Under the hood, this is all implemented using Terraform modules from the Gruntwork
 <<<<<<< Updated upstream
-[terraform-aws-asg](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg) repo. If you are a subscriber and don’t have
+[terraform-aws-asg](https://github.com/tnn-gruntwork-io/terraform-aws-asg) repo. If you are a subscriber and don’t have
 =======
 [terraform-aws-asg](https://github.com/tnn-gruntwork-io/terraform-aws-asg) repo. If you are a subscriber and don’t have
 >>>>>>> Stashed changes
@@ -70,7 +70,7 @@ access to this repo, email <support@gruntwork.io>.
 *   [ASG Documentation](https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html):
     Amazon’s docs for ASG that cover core concepts such as launch templates and auto scaling groups.
 <<<<<<< Updated upstream
-*   [User Data](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service/core-concepts.md)
+*   [User Data](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service/core-concepts.md)
 =======
 *   [User Data](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service/core-concepts.md)
 >>>>>>> Stashed changes
@@ -82,7 +82,7 @@ access to this repo, email <support@gruntwork.io>.
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-learning-and-testing folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+*   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
 =======
 *   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
 >>>>>>> Stashed changes
@@ -94,7 +94,7 @@ If you just want to try this repo out for experimenting and learning, check out 
 If you want to deploy this repo in production, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-production folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+*   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
 =======
 *   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
 >>>>>>> Stashed changes
@@ -117,7 +117,7 @@ If you want to deploy this repo in production, check out the following resources
 module "asg_service" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/asg-service?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/asg-service?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/asg-service?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -246,7 +246,7 @@ module "asg_service" {
   # Set to true to add AIM permissions to send logs to CloudWatch. This is useful in
   # combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 >>>>>>> Stashed changes
@@ -256,7 +256,7 @@ module "asg_service" {
   # Set to true to add IAM permissions to send custom metrics to CloudWatch. This is
   # useful in combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
 >>>>>>> Stashed changes
@@ -485,7 +485,7 @@ module "asg_service" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/asg-service?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/asg-service?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/asg-service?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -617,7 +617,7 @@ inputs = {
   # Set to true to add AIM permissions to send logs to CloudWatch. This is useful in
   # combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 >>>>>>> Stashed changes
@@ -627,7 +627,7 @@ inputs = {
   # Set to true to add IAM permissions to send custom metrics to CloudWatch. This is
   # useful in combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
 >>>>>>> Stashed changes
@@ -1189,7 +1189,7 @@ Set to true to enable several basic CloudWatch alarms around CPU usage, memory u
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-Set to true to add AIM permissions to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
+Set to true to add AIM permissions to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
 =======
 Set to true to add AIM permissions to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
 >>>>>>> Stashed changes
@@ -1202,7 +1202,7 @@ Set to true to add AIM permissions to send logs to CloudWatch. This is useful in
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your Auto Scaling Group
+Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your Auto Scaling Group
 =======
 Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your Auto Scaling Group
 >>>>>>> Stashed changes
@@ -2088,9 +2088,9 @@ The ID of the Security Group that belongs to the ASG.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service/README.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service/README.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service/README.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/asg-service/variables.tf",

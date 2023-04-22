@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Join Path Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/join-path" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/join-path" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.7.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.7.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/join-path" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -32,7 +32,7 @@ This module uses Python under the hood so, the Python must be installed on the O
 ## Example code
 
 <<<<<<< Updated upstream
-See the [join-path example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/join-path) for working sample code.
+See the [join-path example](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/join-path) for working sample code.
 =======
 See the [join-path example](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/join-path) for working sample code.
 >>>>>>> Stashed changes
@@ -41,7 +41,7 @@ See the [join-path example](https://github.com/tnn-gruntwork-io/terraform-aws-ut
 
 Simply use the module in your Terraform code, replacing `<VERSION>` with the latest version from the [releases
 <<<<<<< Updated upstream
-page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases), and specifying the path parts using the
+page](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases), and specifying the path parts using the
 =======
 page](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases), and specifying the path parts using the
 >>>>>>> Stashed changes
@@ -50,7 +50,7 @@ page](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases), and
 ```hcl
 module "path" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/join-path?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/join-path?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/join-path?ref=<VERSION>"
 >>>>>>> Stashed changes
@@ -80,7 +80,7 @@ joined_path = "${module.path.path}"
 module "join_path" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/join-path?ref=v0.9.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/join-path?ref=v0.9.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/join-path?ref=v0.9.1"
 >>>>>>> Stashed changes
@@ -109,7 +109,7 @@ module "join_path" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/join-path?ref=v0.9.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/join-path?ref=v0.9.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/join-path?ref=v0.9.1"
 >>>>>>> Stashed changes
@@ -177,9 +177,9 @@ A list of folder and file names to combine into a path, using the proper path se
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/join-path/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/join-path/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/join-path/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/join-path/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/join-path/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/join-path/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/join-path/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/join-path/variables.tf",

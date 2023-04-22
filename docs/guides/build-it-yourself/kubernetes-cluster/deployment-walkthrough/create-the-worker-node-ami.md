@@ -64,7 +64,7 @@ Here’s what `eks-node.json` should look like:
     {
       "type": "shell",
 <<<<<<< Updated upstream
-      "inline": "curl -Ls https://raw.githubusercontent.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer/master/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version v0.0.22"
+      "inline": "curl -Ls https://raw.githubusercontent.com/tnn-gruntwork-io/gruntwork-installer/master/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version v0.0.22"
 =======
       "inline": "curl -Ls https://raw.githubusercontent.com/tnn-gruntwork-io/gruntwork-installer/master/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version v0.0.22"
 >>>>>>> Stashed changes
@@ -73,15 +73,15 @@ Here’s what `eks-node.json` should look like:
       "type": "shell",
       "inline": [
 <<<<<<< Updated upstream
-        "gruntwork-install --module-name 'bash-commons' --repo 'https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons' --tag 'v0.1.2'",
-        "gruntwork-install --module-name 'eks-scripts' --repo 'https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks' --tag 'v0.6.0'",
-        "gruntwork-install --module-name 'metrics/cloudwatch-memory-disk-metrics-scripts' --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring --tag 'v0.13.2'",
-        "gruntwork-install --module-name 'logs/syslog' --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring --tag 'v0.13.2'",
-        "gruntwork-install --module-name 'auto-update' --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security --tag 'v0.18.1'",
-        "gruntwork-install --module-name 'fail2ban' --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security --tag 'v0.18.1'",
-        "gruntwork-install --module-name 'ntp' --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security --tag 'v0.18.1'",
-        "gruntwork-install --module-name 'ip-lockdown' --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security --tag 'v0.18.1'",
-        "gruntwork-install --binary-name 'ssh-grunt' --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security --tag 'v0.18.1'",
+        "gruntwork-install --module-name 'bash-commons' --repo 'https://github.com/tnn-gruntwork-io/bash-commons' --tag 'v0.1.2'",
+        "gruntwork-install --module-name 'eks-scripts' --repo 'https://github.com/tnn-gruntwork-io/terraform-aws-eks' --tag 'v0.6.0'",
+        "gruntwork-install --module-name 'metrics/cloudwatch-memory-disk-metrics-scripts' --repo https://github.com/tnn-gruntwork-io/module-aws-monitoring --tag 'v0.13.2'",
+        "gruntwork-install --module-name 'logs/syslog' --repo https://github.com/tnn-gruntwork-io/module-aws-monitoring --tag 'v0.13.2'",
+        "gruntwork-install --module-name 'auto-update' --repo https://github.com/tnn-gruntwork-io/module-security --tag 'v0.18.1'",
+        "gruntwork-install --module-name 'fail2ban' --repo https://github.com/tnn-gruntwork-io/module-security --tag 'v0.18.1'",
+        "gruntwork-install --module-name 'ntp' --repo https://github.com/tnn-gruntwork-io/module-security --tag 'v0.18.1'",
+        "gruntwork-install --module-name 'ip-lockdown' --repo https://github.com/tnn-gruntwork-io/module-security --tag 'v0.18.1'",
+        "gruntwork-install --binary-name 'ssh-grunt' --repo https://github.com/tnn-gruntwork-io/module-security --tag 'v0.18.1'",
 =======
         "gruntwork-install --module-name 'bash-commons' --repo 'https://github.com/tnn-gruntwork-io/bash-commons' --tag 'v0.1.2'",
         "gruntwork-install --module-name 'eks-scripts' --repo 'https://github.com/tnn-gruntwork-io/terraform-aws-eks' --tag 'v0.6.0'",
@@ -111,30 +111,30 @@ You must be a <span className="js-subscribe-cta">Gruntwork subscriber</span> to 
 This Packer template installs the following on top of the EKS-optimized AMI base image:
 
 <<<<<<< Updated upstream
-- [bash-commons](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons): A collection of reusable Bash functions for handling
+- [bash-commons](https://github.com/tnn-gruntwork-io/bash-commons): A collection of reusable Bash functions for handling
   common tasks such as logging, assertions, string manipulation, and more. It’s used by some of the other tooling below.
 
-- [eks-scripts](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-scripts): A script that takes
+- [eks-scripts](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-scripts): A script that takes
   the labels on a worker node EC2 instance and converts them to a format that can be passed to the EKS bootstrap script
   so that those tags show up as labels in Kubernetes.
 
-- [cloudwatch-agent](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent):
+- [cloudwatch-agent](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent):
   Send memory and disk usage metrics for your EC2 Instances to CloudWatch. These metrics are not available by default
   as they are only visible from inside a VM.
 
-- [syslog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/tree/master/modules/logs/syslog): Configure log rotation
+- [syslog](https://github.com/tnn-gruntwork-io/module-aws-monitoring/tree/master/modules/logs/syslog): Configure log rotation
   and rate limiting for syslog.
 
-- [auto-update](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/auto-update): Configure a Linux
+- [auto-update](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/auto-update): Configure a Linux
   server to automatically install critical security updates on a nightly basis.
 
-- [fail2ban](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/fail2ban): Configure a Linux server to
+- [fail2ban](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/fail2ban): Configure a Linux server to
   automatically ban malicious ip addresses from connecting to the server via SSH.
 
-- [ntp](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/ntp): Install and configure NTP on a Linux
+- [ntp](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/ntp): Install and configure NTP on a Linux
   server to prevent clock drift.
 
-- [ip-lockdown](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/ip-lockdown): Lock down specified IP
+- [ip-lockdown](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/ip-lockdown): Lock down specified IP
 =======
 - [bash-commons](https://github.com/tnn-gruntwork-io/bash-commons): A collection of reusable Bash functions for handling
   common tasks such as logging, assertions, string manipulation, and more. It’s used by some of the other tooling below.
@@ -166,7 +166,7 @@ This Packer template installs the following on top of the EKS-optimized AMI base
   only `root`).
 
 <<<<<<< Updated upstream
-- [ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/ssh-grunt): Allow managing SSH access
+- [ssh-grunt](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/ssh-grunt): Allow managing SSH access
 =======
 - [ssh-grunt](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/ssh-grunt): Allow managing SSH access
 >>>>>>> Stashed changes

@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Kinesis Stream Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/kinesis" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/kinesis" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.10.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.10.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/kinesis" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -52,7 +52,7 @@ This will use the default AWS service key for Kinesis, `aws/kinesis`.
 
 If you need to use a custom key, see the
 <<<<<<< Updated upstream
-[master key module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security-public/tree/master/modules/kms-master-key) as well as
+[master key module](https://github.com/tnn-gruntwork-io/module-security-public/tree/master/modules/kms-master-key) as well as
 =======
 [master key module](https://github.com/tnn-gruntwork-io/module-security-public/tree/master/modules/kms-master-key) as well as
 >>>>>>> Stashed changes
@@ -68,7 +68,7 @@ Here are some examples of how you might deploy a Kinesis stream with this module
 ```hcl-terraform
 module "kinesis" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/kinesis?ref=v0.0.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/kinesis?ref=v0.0.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/kinesis?ref=v0.0.1"
 >>>>>>> Stashed changes
@@ -93,7 +93,7 @@ module "kinesis" {
 ```hcl-terraform
 module "kinesis" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/kinesis?ref=v0.0.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/kinesis?ref=v0.0.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/kinesis?ref=v0.0.1"
 >>>>>>> Stashed changes
@@ -125,7 +125,7 @@ module "kinesis" {
 module "kinesis" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/kinesis?ref=v0.10.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/kinesis?ref=v0.10.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/kinesis?ref=v0.10.2"
 >>>>>>> Stashed changes
@@ -200,7 +200,7 @@ module "kinesis" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/kinesis?ref=v0.10.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/kinesis?ref=v0.10.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/kinesis?ref=v0.10.2"
 >>>>>>> Stashed changes
@@ -440,9 +440,9 @@ A map of key value pairs to apply as tags to the Kinesis stream.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/kinesis/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/kinesis/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/kinesis/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/kinesis/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/kinesis/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/kinesis/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/kinesis/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/kinesis/variables.tf",

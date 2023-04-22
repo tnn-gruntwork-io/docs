@@ -3,7 +3,7 @@ import { Modal } from "./Modal"
 import styles from "./Modal.module.css"
 
 <<<<<<< Updated upstream
-export const gruntworkGithubOrg = "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/"
+export const gruntworkGithubOrg = "https://github.com/tnn-gruntwork-io/"
 =======
 export const gruntworkGithubOrg = "https://github.com/tnn-gruntwork-io/"
 >>>>>>> Stashed changes

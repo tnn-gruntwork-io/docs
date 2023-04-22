@@ -12,7 +12,7 @@ First, the short version:
 
 - This is an end-to-end tech stack for [Amazon Web Services (AWS)](https://aws.amazon.com/) that includes all the
 <<<<<<< Updated upstream
-  basic infrastructure a company needs, including the network topology, orchestration tools (e.g., Kubernetes or ECS), databases, caches, load balancers, CI / CD pipeline, monitoring, alerting, log aggregation, etc.- It's built on top of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog).
+  basic infrastructure a company needs, including the network topology, orchestration tools (e.g., Kubernetes or ECS), databases, caches, load balancers, CI / CD pipeline, monitoring, alerting, log aggregation, etc.- It's built on top of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog).
 =======
   basic infrastructure a company needs, including the network topology, orchestration tools (e.g., Kubernetes or ECS), databases, caches, load balancers, CI / CD pipeline, monitoring, alerting, log aggregation, etc.- It's built on top of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog).
 >>>>>>> Stashed changes
@@ -41,7 +41,7 @@ All of the infrastructure in this repo is managed as **code** using [Terragrunt]
 - You can package your infrastructure as reusable, documented, battle-tested modules that make it easier to scale and
   evolve your infrastructure. In fact, most of the infrastructure code in this architecture is deployed from the service modules in the
 <<<<<<< Updated upstream
-  [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/).
+  [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/).
 =======
   [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/).
 >>>>>>> Stashed changes
@@ -88,7 +88,7 @@ can be useful for monitoring and auditing network traffic across the VPC. Each V
 Logs, under the log group `VPC_NAME-vpc-flow-logs`, where the `VPC_NAME` is an input variable to the `vpc` module.
 
 <<<<<<< Updated upstream
-To learn more about VPCs and subnets, check out the Gruntwork [`vpc service`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc).
+To learn more about VPCs and subnets, check out the Gruntwork [`vpc service`](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc).
 =======
 To learn more about VPCs and subnets, check out the Gruntwork [`vpc service`](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/vpc).
 >>>>>>> Stashed changes
@@ -119,7 +119,7 @@ VPN client, you are "in the network", and will be able to access the private res
 to your EC2 Instances).
 
 <<<<<<< Updated upstream
-For more info, see the [`openvpn` service](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/mgmt/openvpn-server) and the VPN
+For more info, see the [`openvpn` service](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/mgmt/openvpn-server) and the VPN
 =======
 For more info, see the [`openvpn` service](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/mgmt/openvpn-server) and the VPN
 >>>>>>> Stashed changes
@@ -146,7 +146,7 @@ have configured SSL/TLS certificates for your domain names using [Amazon's Certi
 (ACM)](https://aws.amazon.com/certificate-manager/), which issues certificates that are free and renew automatically.
 
 <<<<<<< Updated upstream
-For more info, see the [route53 service](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/route53).
+For more info, see the [route53 service](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/route53).
 =======
 For more info, see the [route53 service](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/networking/route53).
 >>>>>>> Stashed changes
@@ -164,13 +164,13 @@ We have configured security best practices in every aspect of this infrastructur
 - **User accounts**: see the [Authentication docs](02-authenticate/02-setting-up-initial-access.md).
 
 <<<<<<< Updated upstream
-- **Auditing**: see the [CloudTrail](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/cloudtrail) and
-  [AWS Config](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/aws-config) modules.
+- **Auditing**: see the [CloudTrail](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/cloudtrail) and
+  [AWS Config](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/aws-config) modules.
 
-- **Intrusion detection**: see the [`fail2ban`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/fail2ban)
-  and [GuardDuty](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/guardduty-multi-region) modules.
+- **Intrusion detection**: see the [`fail2ban`](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/fail2ban)
+  and [GuardDuty](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/guardduty-multi-region) modules.
 
-- **Security updates**: see the [`auto-update` module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/auto-update).
+- **Security updates**: see the [`auto-update` module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/auto-update).
 =======
 - **Auditing**: see the [CloudTrail](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/cloudtrail) and
   [AWS Config](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/aws-config) modules.

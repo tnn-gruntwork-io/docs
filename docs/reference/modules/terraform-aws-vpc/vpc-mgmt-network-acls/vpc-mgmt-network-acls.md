@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # \[DEPRECATED] VPC-Mgmt Network ACLs Terraform Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -35,7 +35,7 @@ aware that, in a future release, once we feel the new functionality in `vpc-app`
 This Terraform Module adds a default set of [Network
 ACLs](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_ACLs.html) to a VPC created using the
 <<<<<<< Updated upstream
-[vpc-mgmt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt) module. The ACLs enforce the following security settings  (based on [A Reference VPC
+[vpc-mgmt](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt) module. The ACLs enforce the following security settings  (based on [A Reference VPC
 =======
 [vpc-mgmt](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt) module. The ACLs enforce the following security settings  (based on [A Reference VPC
 >>>>>>> Stashed changes
@@ -74,7 +74,7 @@ EC2 instance), a network ACL controls what inbound and outbound traffic is allow
 module "vpc_mgmt_network_acls" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt-network-acls?ref=v0.22.7"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt-network-acls?ref=v0.22.7"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt-network-acls?ref=v0.22.7"
 >>>>>>> Stashed changes
@@ -156,7 +156,7 @@ module "vpc_mgmt_network_acls" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt-network-acls?ref=v0.22.7"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt-network-acls?ref=v0.22.7"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt-network-acls?ref=v0.22.7"
 >>>>>>> Stashed changes
@@ -362,9 +362,9 @@ The number to use for the first rule that is created by this module. All rules i
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt-network-acls/variables.tf",

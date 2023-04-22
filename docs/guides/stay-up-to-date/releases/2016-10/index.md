@@ -20,10 +20,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.1.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.1.1)
+### [v0.1.1](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.1.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/31/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.1.1">Release notes</a></small>
+  <small>Published: 10/31/2016 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.1.1">Release notes</a></small>
 =======
 ### [v0.1.1](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.1.1)
 
@@ -45,10 +45,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.24](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.24)
+### [v0.0.24](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.24)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/18/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.24">Release notes</a></small>
+  <small>Published: 10/18/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.24">Release notes</a></small>
 =======
 ### [v0.0.24](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.24)
 
@@ -70,10 +70,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.3.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.1)
+### [v0.3.1](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/31/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.1">Release notes</a></small>
+  <small>Published: 10/31/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.1">Release notes</a></small>
 =======
 ### [v0.3.1](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.1)
 
@@ -85,7 +85,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  - The `ecs-service` module now automatically creates an IAM Role and IAM Policies that make it easier to use ECS auto scaling. See [How do you scale an ECS Service?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/tree/master/modules/ecs-service#how-do-you-scale-an-ecs-service) and the [docker-service-with-autoscaling example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/tree/master/examples/docker-service-with-autoscaling) for details.
+  - The `ecs-service` module now automatically creates an IAM Role and IAM Policies that make it easier to use ECS auto scaling. See [How do you scale an ECS Service?](https://github.com/tnn-gruntwork-io/module-ecs/tree/master/modules/ecs-service#how-do-you-scale-an-ecs-service) and the [docker-service-with-autoscaling example](https://github.com/tnn-gruntwork-io/module-ecs/tree/master/examples/docker-service-with-autoscaling) for details.
 =======
   - The `ecs-service` module now automatically creates an IAM Role and IAM Policies that make it easier to use ECS auto scaling. See [How do you scale an ECS Service?](https://github.com/tnn-gruntwork-io/module-ecs/tree/master/modules/ecs-service#how-do-you-scale-an-ecs-service) and the [docker-service-with-autoscaling example](https://github.com/tnn-gruntwork-io/module-ecs/tree/master/examples/docker-service-with-autoscaling) for details.
 >>>>>>> Stashed changes
@@ -95,10 +95,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.0)
+### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/30/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.0">Release notes</a></small>
+  <small>Published: 10/30/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.0">Release notes</a></small>
 =======
 ### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.3.0)
 
@@ -110,7 +110,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  - The `ecs-service` module now supports [canary deployment](http://martinfowler.com/bliki/CanaryRelease.html)! To use it, set the `canary_task_arn`  and `desired_number_of_canary_tasks_to_run` parameters. See [How do I do a canary deployment?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/tree/master/modules/ecs-service#how-do-i-do-a-canary-deployment) and the [docker-service-with-canary-deployment example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/tree/master/examples/docker-service-with-canary-deployment) for details.
+  - The `ecs-service` module now supports [canary deployment](http://martinfowler.com/bliki/CanaryRelease.html)! To use it, set the `canary_task_arn`  and `desired_number_of_canary_tasks_to_run` parameters. See [How do I do a canary deployment?](https://github.com/tnn-gruntwork-io/module-ecs/tree/master/modules/ecs-service#how-do-i-do-a-canary-deployment) and the [docker-service-with-canary-deployment example](https://github.com/tnn-gruntwork-io/module-ecs/tree/master/examples/docker-service-with-canary-deployment) for details.
 =======
   - The `ecs-service` module now supports [canary deployment](http://martinfowler.com/bliki/CanaryRelease.html)! To use it, set the `canary_task_arn`  and `desired_number_of_canary_tasks_to_run` parameters. See [How do I do a canary deployment?](https://github.com/tnn-gruntwork-io/module-ecs/tree/master/modules/ecs-service#how-do-i-do-a-canary-deployment) and the [docker-service-with-canary-deployment example](https://github.com/tnn-gruntwork-io/module-ecs/tree/master/examples/docker-service-with-canary-deployment) for details.
 >>>>>>> Stashed changes
@@ -125,10 +125,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.1.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.2)
+### [v0.1.2](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/3/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.2">Release notes</a></small>
+  <small>Published: 10/3/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.2">Release notes</a></small>
 =======
 ### [v0.1.2](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.2)
 

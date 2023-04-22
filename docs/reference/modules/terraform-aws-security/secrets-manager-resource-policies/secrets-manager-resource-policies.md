@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Resource-based policies for Secrets Manager secrets
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/secrets-manager-resource-policies" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/secrets-manager-resource-policies" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/secrets-manager-resource-policies" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -49,7 +49,7 @@ Note also that you should only manage the policy for any given secret one time. 
 module "secrets_manager_resource_policies" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/secrets-manager-resource-policies?ref=v0.67.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/secrets-manager-resource-policies?ref=v0.67.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/secrets-manager-resource-policies?ref=v0.67.8"
 >>>>>>> Stashed changes
@@ -82,7 +82,7 @@ module "secrets_manager_resource_policies" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/secrets-manager-resource-policies?ref=v0.67.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/secrets-manager-resource-policies?ref=v0.67.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/secrets-manager-resource-policies?ref=v0.67.8"
 >>>>>>> Stashed changes
@@ -115,9 +115,9 @@ inputs = {
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/secrets-manager-resource-policies/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/secrets-manager-resource-policies/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/secrets-manager-resource-policies/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/secrets-manager-resource-policies/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/secrets-manager-resource-policies/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/secrets-manager-resource-policies/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/secrets-manager-resource-policies/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/secrets-manager-resource-policies/variables.tf",

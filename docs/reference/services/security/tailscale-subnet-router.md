@@ -21,9 +21,9 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 # Tailscale Subnet Router
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=mgmt%2Ftailscale-subnet-router" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=mgmt%2Ftailscale-subnet-router" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
@@ -64,7 +64,7 @@ available subnet routers for each plan.
 :::note
 
 <<<<<<< Updated upstream
-This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 =======
 This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 >>>>>>> Stashed changes
@@ -88,7 +88,7 @@ If you’ve never used the Service Catalog before, make sure to read
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-learning-and-testing folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+*   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
 =======
 *   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
 >>>>>>> Stashed changes
@@ -109,7 +109,7 @@ access services within your VPC through the tailnet.
 ### What AMI should I use?
 
 <<<<<<< Updated upstream
-Any AMI can be used with this module, provided that the [install-tailscale](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router/scripts/install-tailscale.sh) script is installed
+Any AMI can be used with this module, provided that the [install-tailscale](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router/scripts/install-tailscale.sh) script is installed
 =======
 Any AMI can be used with this module, provided that the [install-tailscale](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router/scripts/install-tailscale.sh) script is installed
 >>>>>>> Stashed changes
@@ -136,7 +136,7 @@ For example:
 ```hcl
 module "tailscale" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn.git//modules/tailscale-subnet-router?ref=v1.0.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-openvpn.git//modules/tailscale-subnet-router?ref=v1.0.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-openvpn.git//modules/tailscale-subnet-router?ref=v1.0.8"
 >>>>>>> Stashed changes
@@ -170,7 +170,7 @@ resource "aws_iam_role_policy_attachment" "attachment" {
 module "tailscale_subnet_router" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/tailscale-subnet-router?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/tailscale-subnet-router?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/tailscale-subnet-router?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -263,7 +263,7 @@ module "tailscale_subnet_router" {
 
   # Set to true to send logs to CloudWatch. This is useful in combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 >>>>>>> Stashed changes
@@ -273,7 +273,7 @@ module "tailscale_subnet_router" {
   # Set to true to add IAM permissions to send custom metrics to CloudWatch. This is
   # useful in combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
 >>>>>>> Stashed changes
@@ -295,7 +295,7 @@ module "tailscale_subnet_router" {
 
   # Set to true to add IAM permissions for ssh-grunt
 <<<<<<< Updated upstream
-  # (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+  # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
 =======
   # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
 >>>>>>> Stashed changes
@@ -414,7 +414,7 @@ module "tailscale_subnet_router" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/tailscale-subnet-router?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/tailscale-subnet-router?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/tailscale-subnet-router?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -510,7 +510,7 @@ inputs = {
 
   # Set to true to send logs to CloudWatch. This is useful in combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 >>>>>>> Stashed changes
@@ -520,7 +520,7 @@ inputs = {
   # Set to true to add IAM permissions to send custom metrics to CloudWatch. This is
   # useful in combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
 >>>>>>> Stashed changes
@@ -542,7 +542,7 @@ inputs = {
 
   # Set to true to add IAM permissions for ssh-grunt
 <<<<<<< Updated upstream
-  # (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+  # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
 =======
   # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
 >>>>>>> Stashed changes
@@ -841,7 +841,7 @@ Set to true to enable several basic CloudWatch alarms around CPU usage, memory u
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-Set to true to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
+Set to true to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
 =======
 Set to true to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
 >>>>>>> Stashed changes
@@ -854,7 +854,7 @@ Set to true to send logs to CloudWatch. This is useful in combination with https
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your Tailscale subnet router.
+Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your Tailscale subnet router.
 =======
 Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your Tailscale subnet router.
 >>>>>>> Stashed changes
@@ -894,7 +894,7 @@ Enable ip-lockdown to block access to the instance metadata. Defaults to true.
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
+Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
 =======
 Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
 >>>>>>> Stashed changes
@@ -1134,9 +1134,9 @@ ID of the primary security group attached to the Tailscale relay server.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router/README.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router/README.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router/README.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/tailscale-subnet-router/variables.tf",

@@ -51,7 +51,7 @@ Thus to get access to the initial admin IAM user, we will use the root user cred
 - Login on the AWS Web Console using the root user credentials for the `security` account and use the web console to
   setup the web console password and AWS Access Keys for the IAM user.
 <<<<<<< Updated upstream
-- Use the [gruntwork CLI](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/) to rotate the password using the command:
+- Use the [gruntwork CLI](https://github.com/tnn-gruntwork-io/gruntwork/) to rotate the password using the command:
 =======
 - Use the [gruntwork CLI](https://github.com/tnn-gruntwork-io/gruntwork/) to rotate the password using the command:
 >>>>>>> Stashed changes
@@ -85,7 +85,7 @@ The name of the MFA **must** be named exactly the same as the AWS IAM Username. 
 
 Now that your IAM user is all set up, you can configure IAM users for the rest of your team! All of the IAM users are
 <<<<<<< Updated upstream
-managed as code in the security account, in the [account-baseline-app module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/blob/633ae73172c86ac6e5e48985c529fd45cc06f67e/examples/for-production/infrastructure-live/security/_global/account-baseline/users.yml). If
+managed as code in the security account, in the [account-baseline-app module](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/blob/633ae73172c86ac6e5e48985c529fd45cc06f67e/examples/for-production/infrastructure-live/security/_global/account-baseline/users.yml). If
 =======
 managed as code in the security account, in the [account-baseline-app module](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/blob/633ae73172c86ac6e5e48985c529fd45cc06f67e/examples/for-production/infrastructure-live/security/_global/account-baseline/users.yml). If
 >>>>>>> Stashed changes
@@ -131,7 +131,7 @@ A few notes about the code above:
    access in the dev, stage, and prod accounts, whereas Bob gets read-only access to prod, plus SSH access (with sudo
    permissions) to EC2 instances. For the full list of IAM groups available out of the box, see the
 <<<<<<< Updated upstream
-   [IAM groups module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/iam-groups#iam-groups).
+   [IAM groups module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/iam-groups#iam-groups).
 =======
    [IAM groups module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/iam-groups#iam-groups).
 >>>>>>> Stashed changes

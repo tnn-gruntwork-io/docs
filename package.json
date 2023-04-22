@@ -54,8 +54,8 @@
   },
   "optionalDependencies": {
 <<<<<<< Updated upstream
-    "docs-sourcer": "git+ssh://git@github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/docs-sourcer.git#v0.9",
-    "ts-commons": "tnn-tnn-tnn-tnn-tnn-gruntwork-io/ts-commons#v1.0.0"
+    "docs-sourcer": "git+ssh://git@github.com/tnn-gruntwork-io/docs-sourcer.git#v0.9",
+    "ts-commons": "tnn-gruntwork-io/ts-commons#v1.0.0"
 =======
     "docs-sourcer": "git+ssh://git@github.com/tnn-gruntwork-io/docs-sourcer.git#v0.9",
     "ts-commons": "tnn-gruntwork-io/ts-commons#v1.0.0"

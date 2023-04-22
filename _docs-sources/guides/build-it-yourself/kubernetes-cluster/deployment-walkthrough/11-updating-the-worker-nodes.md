@@ -31,7 +31,7 @@ for more info.
 EKS does not have a built-in way to update the worker nodes without downtime. If you need to update the worker
 nodes—e.g., roll out a new AMI—your best bet is to use the
 <<<<<<< Updated upstream
-[kubergrunt deploy](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt#deploy) command, which can do a zero-downtime rolling
+[kubergrunt deploy](https://github.com/tnn-gruntwork-io/kubergrunt#deploy) command, which can do a zero-downtime rolling
 =======
 [kubergrunt deploy](https://github.com/tnn-gruntwork-io/kubergrunt#deploy) command, which can do a zero-downtime rolling
 >>>>>>> Stashed changes

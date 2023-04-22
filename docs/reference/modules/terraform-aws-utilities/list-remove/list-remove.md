@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # List Remove Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.7.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.7.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -33,7 +33,7 @@ For example, suppose you have a list of availability zones (`["us-east-1a", "us-
 ```hcl
 module "list_remove" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.0.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.0.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.0.8"
 >>>>>>> Stashed changes
@@ -54,7 +54,7 @@ The output `new_list` should be the list `["us-east-1a", "us-east-1d", "us-east-
 ## Example code
 
 <<<<<<< Updated upstream
-See the [list-remove example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/list-remove) for working sample code.
+See the [list-remove example](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/list-remove) for working sample code.
 =======
 See the [list-remove example](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/list-remove) for working sample code.
 >>>>>>> Stashed changes
@@ -73,7 +73,7 @@ See the [list-remove example](https://github.com/tnn-gruntwork-io/terraform-aws-
 module "list_remove" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.9.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.9.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.9.1"
 >>>>>>> Stashed changes
@@ -104,7 +104,7 @@ module "list_remove" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.9.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.9.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.9.1"
 >>>>>>> Stashed changes
@@ -184,9 +184,9 @@ Any types represent complex values of variable type. For details, please consult
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/variables.tf",

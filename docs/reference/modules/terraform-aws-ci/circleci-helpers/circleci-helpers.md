@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # CircleCI Helpers
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/circleci-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/circleci-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/circleci-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -32,10 +32,10 @@ This module contains helper scripts specially for CircleCI jobs, including:
 ## Installing the helpers
 
 <<<<<<< Updated upstream
-You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
+You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
-gruntwork-install --module-name "circleci-helpers" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.1"
+gruntwork-install --module-name "circleci-helpers" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.1"
 =======
 You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
@@ -51,10 +51,10 @@ dependencies:
   override:
     # Install the Gruntwork Installer
 <<<<<<< Updated upstream
-    - curl -Ls https://raw.githubusercontent.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version 0.0.9
+    - curl -Ls https://raw.githubusercontent.com/tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version 0.0.9
 
     # Use the Gruntwork Installer to install the gruntwork-module-circleci-helpers module
-    - gruntwork-install --module-name "circleci-helpers" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.5"
+    - gruntwork-install --module-name "circleci-helpers" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.5"
 =======
     - curl -Ls https://raw.githubusercontent.com/tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version 0.0.9
 
@@ -75,10 +75,10 @@ dependencies:
   override:
     # Install the Gruntwork Installer
 <<<<<<< Updated upstream
-    - curl -Ls https://raw.githubusercontent.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version 0.0.9
+    - curl -Ls https://raw.githubusercontent.com/tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version 0.0.9
 
     # Use the Gruntwork Installer to install the gruntwork-module-circleci-helpers module
-    - gruntwork-install --module-name "circleci-helpers" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.1"
+    - gruntwork-install --module-name "circleci-helpers" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.1"
 =======
     - curl -Ls https://raw.githubusercontent.com/tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version 0.0.9
 
@@ -95,9 +95,9 @@ dependencies:
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/circleci-helpers/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/circleci-helpers/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/circleci-helpers/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/circleci-helpers/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/circleci-helpers/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/circleci-helpers/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/circleci-helpers/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/circleci-helpers/variables.tf",

@@ -21,9 +21,9 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 # Application Load Balancer
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=networking%2Falb" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=networking%2Falb" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
@@ -49,7 +49,7 @@ This service contains code to deploy [Application Load Balancer](https://aws.ama
 :::note
 
 <<<<<<< Updated upstream
-This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 =======
 This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 >>>>>>> Stashed changes
@@ -60,7 +60,7 @@ If you’ve never used the Service Catalog before, make sure to read
 :::
 
 <<<<<<< Updated upstream
-*   [Gruntwork Documentation on ALBs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/master/modules/alb#background):
+*   [Gruntwork Documentation on ALBs](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/master/modules/alb#background):
 =======
 *   [Gruntwork Documentation on ALBs](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/master/modules/alb#background):
 >>>>>>> Stashed changes
@@ -77,7 +77,7 @@ If you’ve never used the Service Catalog before, make sure to read
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-learning-and-testing folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+*   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
 =======
 *   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
 >>>>>>> Stashed changes
@@ -89,7 +89,7 @@ If you just want to try this repo out for experimenting and learning, check out 
 If you want to deploy this repo in production, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-production folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+*   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
 =======
 *   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
 >>>>>>> Stashed changes
@@ -112,7 +112,7 @@ If you want to deploy this repo in production, check out the following resources
 module "alb" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/alb?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/alb?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/alb?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -302,7 +302,7 @@ module "alb" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/alb?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/alb?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/alb?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -949,9 +949,9 @@ The AWS-managed DNS name assigned to the ALB.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/README.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/README.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/README.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/networking/alb/variables.tf",

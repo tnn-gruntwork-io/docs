@@ -37,7 +37,7 @@ our [Introduction to Gruntwork](/intro/overview/intro-to-gruntwork).
 
 Some of the Terraform modules used in this guide call out to Python code and/or
 <<<<<<< Updated upstream
-[kubergrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt) to fill in missing features in Terraform. Make sure you have
+[kubergrunt](https://github.com/tnn-gruntwork-io/kubergrunt) to fill in missing features in Terraform. Make sure you have
 =======
 [kubergrunt](https://github.com/tnn-gruntwork-io/kubergrunt) to fill in missing features in Terraform. Make sure you have
 >>>>>>> Stashed changes

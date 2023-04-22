@@ -25,10 +25,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.4.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.4.1)
+### [v0.4.1](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.4.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/17/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.4.1">Release notes</a></small>
+  <small>Published: 4/17/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.4.1">Release notes</a></small>
 =======
 ### [v0.4.1](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.4.1)
 
@@ -45,10 +45,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.4.0)
+### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/3/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.4.0">Release notes</a></small>
+  <small>Published: 4/3/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.4.0">Release notes</a></small>
 =======
 ### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.4.0)
 
@@ -85,10 +85,10 @@ terragrunt state mv module.redis.aws_elasticache_replication_group.redis_without
 
 
 <<<<<<< Updated upstream
-### [v0.7.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.2)
+### [v0.7.2](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/29/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.2">Release notes</a></small>
+  <small>Published: 4/29/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.2">Release notes</a></small>
 =======
 ### [v0.7.2](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.2)
 
@@ -100,7 +100,7 @@ terragrunt state mv module.redis.aws_elasticache_replication_group.redis_without
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/55: Update the ALB version used in the `jenkins-server` module to v0.8.1 to pick up the fixes listed here: https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/releases/tag/v0.8.1.
+  https://github.com/tnn-gruntwork-io/module-ci/pull/55: Update the ALB version used in the `jenkins-server` module to v0.8.1 to pick up the fixes listed here: https://github.com/tnn-gruntwork-io/module-load-balancer/releases/tag/v0.8.1.
 =======
   https://github.com/tnn-gruntwork-io/module-ci/pull/55: Update the ALB version used in the `jenkins-server` module to v0.8.1 to pick up the fixes listed here: https://github.com/tnn-gruntwork-io/module-load-balancer/releases/tag/v0.8.1.
 >>>>>>> Stashed changes
@@ -113,10 +113,10 @@ terragrunt state mv module.redis.aws_elasticache_replication_group.redis_without
 
 
 <<<<<<< Updated upstream
-### [v0.6.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.2)
+### [v0.6.2](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/28/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.2">Release notes</a></small>
+  <small>Published: 4/28/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.2">Release notes</a></small>
 =======
 ### [v0.6.2](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.2)
 
@@ -128,7 +128,7 @@ terragrunt state mv module.redis.aws_elasticache_replication_group.redis_without
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/40, https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/41: The `aurora` module now exposes two new input variables:
+  https://github.com/tnn-gruntwork-io/module-data-storage/pull/40, https://github.com/tnn-gruntwork-io/module-data-storage/pull/41: The `aurora` module now exposes two new input variables:
 =======
   https://github.com/tnn-gruntwork-io/module-data-storage/pull/40, https://github.com/tnn-gruntwork-io/module-data-storage/pull/41: The `aurora` module now exposes two new input variables:
 >>>>>>> Stashed changes
@@ -142,10 +142,10 @@ This release also fixes a bug in v0.6.1 where the `monitoring_role_arn` param wa
 
 
 <<<<<<< Updated upstream
-### [v0.6.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.1)
+### [v0.6.1](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/25/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.1">Release notes</a></small>
+  <small>Published: 4/25/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.1">Release notes</a></small>
 =======
 ### [v0.6.1](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.1)
 
@@ -157,7 +157,7 @@ This release also fixes a bug in v0.6.1 where the `monitoring_role_arn` param wa
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/39: The `rds` module now exposes two new input variables:
+  https://github.com/tnn-gruntwork-io/module-data-storage/pull/39: The `rds` module now exposes two new input variables:
 =======
   https://github.com/tnn-gruntwork-io/module-data-storage/pull/39: The `rds` module now exposes two new input variables:
 >>>>>>> Stashed changes
@@ -174,10 +174,10 @@ This release also fixes a bug in v0.6.1 where the `monitoring_role_arn` param wa
 
 
 <<<<<<< Updated upstream
-### [v0.3.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.3.1)
+### [v0.3.1](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.3.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/10/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.3.1">Release notes</a></small>
+  <small>Published: 4/10/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.3.1">Release notes</a></small>
 =======
 ### [v0.3.1](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.3.1)
 
@@ -191,7 +191,7 @@ This release also fixes a bug in v0.6.1 where the `monitoring_role_arn` param wa
   - #31: Fix an issue where `aws.sh` in `bash-commons` did not correctly handle the case where only private IP addresses are in use on an EC2 Instance.
 
 <<<<<<< Updated upstream
-Please note that this is a **pre-release**. See [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/releases/tag/v0.3.0) for an explanation.
+Please note that this is a **pre-release**. See [v0.3.0](https://github.com/tnn-gruntwork-io/package-kafka/releases/tag/v0.3.0) for an explanation.
 =======
 Please note that this is a **pre-release**. See [v0.3.0](https://github.com/tnn-gruntwork-io/package-kafka/releases/tag/v0.3.0) for an explanation.
 >>>>>>> Stashed changes
@@ -200,10 +200,10 @@ Please note that this is a **pre-release**. See [v0.3.0](https://github.com/tnn-
 
 
 <<<<<<< Updated upstream
-### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.3.0)
+### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/9/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.3.0">Release notes</a></small>
+  <small>Published: 4/9/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.3.0">Release notes</a></small>
 =======
 ### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.3.0)
 
@@ -221,7 +221,7 @@ Please note that this is a **pre-release**. See [v0.3.0](https://github.com/tnn-
 - You can now assign DNS names to the ENIs used by Kafka, and optionally make ENIs public (though we strongly advise keeping ENIs private for all production deployments)
 - We now bundle the running of [kafka-health-check](https://github.com/andreas-schroeder/kafka-health-check) directly with `run-kafka`. This is because a  more sophisticated health check tool is needed by Kafka in order for Kafka to accurately report its health status to the Elastic Load Balancer. Unfortunately, this required a backwards-incompatible change to the `run-kafka` interface.
 <<<<<<< Updated upstream
-- The configuration files are now easier to customize by using a &quot;variable substitution&quot; paradigm (See the [run-kafka config README](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/tree/master/modules/run-kafka/config) for additional details).
+- The configuration files are now easier to customize by using a &quot;variable substitution&quot; paradigm (See the [run-kafka config README](https://github.com/tnn-gruntwork-io/package-kafka/tree/master/modules/run-kafka/config) for additional details).
 =======
 - The configuration files are now easier to customize by using a &quot;variable substitution&quot; paradigm (See the [run-kafka config README](https://github.com/tnn-gruntwork-io/package-kafka/tree/master/modules/run-kafka/config) for additional details).
 >>>>>>> Stashed changes
@@ -249,7 +249,7 @@ All tests are passing for Kafka, and the following Kafka modules are all product
     Technically, this isn&apos;t a backwards-incompatible change because you can still query the Kafka listener directly on port 9092, but we want to make sure you&apos;re aware that there is now a better way to check the health status of Kafka.
 
 <<<<<<< Updated upstream
-   - In order to accommodate the kafka-health-check tool, we needed to define three separate listeners for Kafka in the [listeners](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/blob/master/modules/run-kafka/config/kafka/server-4.0.x.properties#L45) and [advertised.listeners](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/blob/master/modules/run-kafka/config/kafka/server-4.0.x.properties#L50) properties of the Kafka configuration file:
+   - In order to accommodate the kafka-health-check tool, we needed to define three separate listeners for Kafka in the [listeners](https://github.com/tnn-gruntwork-io/package-kafka/blob/master/modules/run-kafka/config/kafka/server-4.0.x.properties#L45) and [advertised.listeners](https://github.com/tnn-gruntwork-io/package-kafka/blob/master/modules/run-kafka/config/kafka/server-4.0.x.properties#L50) properties of the Kafka configuration file:
 =======
    - In order to accommodate the kafka-health-check tool, we needed to define three separate listeners for Kafka in the [listeners](https://github.com/tnn-gruntwork-io/package-kafka/blob/master/modules/run-kafka/config/kafka/server-4.0.x.properties#L45) and [advertised.listeners](https://github.com/tnn-gruntwork-io/package-kafka/blob/master/modules/run-kafka/config/kafka/server-4.0.x.properties#L50) properties of the Kafka configuration file:
 >>>>>>> Stashed changes
@@ -281,7 +281,7 @@ All tests are passing for Kafka, and the following Kafka modules are all product
       - `--log4j-config-path &quot;/path/to/log4j.properties&quot;`
 
 <<<<<<< Updated upstream
-      In addition, there are a some new arguments. See the [updated run-kafka docs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/blob/master/modules/run-kafka/bin/run-kafka#L84)
+      In addition, there are a some new arguments. See the [updated run-kafka docs](https://github.com/tnn-gruntwork-io/package-kafka/blob/master/modules/run-kafka/bin/run-kafka#L84)
 =======
       In addition, there are a some new arguments. See the [updated run-kafka docs](https://github.com/tnn-gruntwork-io/package-kafka/blob/master/modules/run-kafka/bin/run-kafka#L84)
 >>>>>>> Stashed changes
@@ -306,10 +306,10 @@ All tests are passing for Kafka, and the following Kafka modules are all product
 
    ```bash
 <<<<<<< Updated upstream
-    gruntwork-install --module-name &apos;bash-commons&apos; --tag &apos;v0.3.0&apos; --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka
+    gruntwork-install --module-name &apos;bash-commons&apos; --tag &apos;v0.3.0&apos; --repo https://github.com/tnn-gruntwork-io/package-kafka
    ```
 
-   - You&apos;ll need to do the same when installing Zookeeper. See the [zookeeper-ami example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/blob/master/examples/zookeeper-ami/configure-zookeeper-server.sh#L8)
+   - You&apos;ll need to do the same when installing Zookeeper. See the [zookeeper-ami example](https://github.com/tnn-gruntwork-io/package-kafka/blob/master/examples/zookeeper-ami/configure-zookeeper-server.sh#L8)
 =======
     gruntwork-install --module-name &apos;bash-commons&apos; --tag &apos;v0.3.0&apos; --repo https://github.com/tnn-gruntwork-io/package-kafka
    ```
@@ -324,9 +324,9 @@ All tests are passing for Kafka, and the following Kafka modules are all product
 1. Next, update the user data for your Kafka brokers by making sure your arguments to `run-kafka` match the new `run-kafka` interface. 
 
 <<<<<<< Updated upstream
-   Note that the default values for `run-kafka` will &quot;just work&quot;, however if you previously added optional arguments, you may need to update the argument values or argument names you pass in. See the [kafka user data example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/blob/master/examples/kafka-zookeeper-standalone-clusters/user-data/kafka-user-data.sh#L39-L59) for a good reference, as well as the [updated run-kafka docs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/blob/master/modules/run-kafka/bin/run-kafka#L84).
+   Note that the default values for `run-kafka` will &quot;just work&quot;, however if you previously added optional arguments, you may need to update the argument values or argument names you pass in. See the [kafka user data example](https://github.com/tnn-gruntwork-io/package-kafka/blob/master/examples/kafka-zookeeper-standalone-clusters/user-data/kafka-user-data.sh#L39-L59) for a good reference, as well as the [updated run-kafka docs](https://github.com/tnn-gruntwork-io/package-kafka/blob/master/modules/run-kafka/bin/run-kafka#L84).
 
-1. Finally, we&apos;ve updated the way that configuration files are customized for Kafka. See the new [run-kafka config README](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/tree/master/modules/run-kafka/config) for additional details.
+1. Finally, we&apos;ve updated the way that configuration files are customized for Kafka. See the new [run-kafka config README](https://github.com/tnn-gruntwork-io/package-kafka/tree/master/modules/run-kafka/config) for additional details.
 =======
    Note that the default values for `run-kafka` will &quot;just work&quot;, however if you previously added optional arguments, you may need to update the argument values or argument names you pass in. See the [kafka user data example](https://github.com/tnn-gruntwork-io/package-kafka/blob/master/examples/kafka-zookeeper-standalone-clusters/user-data/kafka-user-data.sh#L39-L59) for a good reference, as well as the [updated run-kafka docs](https://github.com/tnn-gruntwork-io/package-kafka/blob/master/modules/run-kafka/bin/run-kafka#L84).
 
@@ -341,10 +341,10 @@ All tests are passing for Kafka, and the following Kafka modules are all product
 
 
 <<<<<<< Updated upstream
-### [v0.8.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.8.1)
+### [v0.8.1](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.8.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/30/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.8.1">Release notes</a></small>
+  <small>Published: 4/30/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.8.1">Release notes</a></small>
 =======
 ### [v0.8.1](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.8.1)
 
@@ -356,7 +356,7 @@ All tests are passing for Kafka, and the following Kafka modules are all product
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/pull/30, https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/pull/31, https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/pull/32: Fix several bugs with `count` in the `alb` module that would crop up if `allow_inbound_from_cidr_blocks` or `allow_inbound_from_security_group_ids` were empty.
+  https://github.com/tnn-gruntwork-io/module-load-balancer/pull/30, https://github.com/tnn-gruntwork-io/module-load-balancer/pull/31, https://github.com/tnn-gruntwork-io/module-load-balancer/pull/32: Fix several bugs with `count` in the `alb` module that would crop up if `allow_inbound_from_cidr_blocks` or `allow_inbound_from_security_group_ids` were empty.
 =======
   https://github.com/tnn-gruntwork-io/module-load-balancer/pull/30, https://github.com/tnn-gruntwork-io/module-load-balancer/pull/31, https://github.com/tnn-gruntwork-io/module-load-balancer/pull/32: Fix several bugs with `count` in the `alb` module that would crop up if `allow_inbound_from_cidr_blocks` or `allow_inbound_from_security_group_ids` were empty.
 >>>>>>> Stashed changes
@@ -365,10 +365,10 @@ All tests are passing for Kafka, and the following Kafka modules are all product
 
 
 <<<<<<< Updated upstream
-### [v0.8.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.8.0)
+### [v0.8.0](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.8.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/3/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.8.0">Release notes</a></small>
+  <small>Published: 4/3/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.8.0">Release notes</a></small>
 =======
 ### [v0.8.0](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.8.0)
 
@@ -389,10 +389,10 @@ All tests are passing for Kafka, and the following Kafka modules are all product
 
 
 <<<<<<< Updated upstream
-### [v0.5.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.5.4)
+### [v0.5.4](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.5.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/19/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.5.4">Release notes</a></small>
+  <small>Published: 4/19/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.5.4">Release notes</a></small>
 =======
 ### [v0.5.4](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.5.4)
 
@@ -413,10 +413,10 @@ All tests are passing for Kafka, and the following Kafka modules are all product
 
 
 <<<<<<< Updated upstream
-### [v0.8.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.2)
+### [v0.8.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/27/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.2">Release notes</a></small>
+  <small>Published: 4/27/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.2">Release notes</a></small>
 =======
 ### [v0.8.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.2)
 
@@ -437,10 +437,10 @@ The main motivation for locking down EC2 metadata is as follows:
 
 
 <<<<<<< Updated upstream
-### [v0.8.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.1)
+### [v0.8.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/17/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.1">Release notes</a></small>
+  <small>Published: 4/17/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.1">Release notes</a></small>
 =======
 ### [v0.8.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.1)
 
@@ -452,7 +452,7 @@ The main motivation for locking down EC2 metadata is as follows:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/80: The `aws-auth` script now exposes the expiration time in the `AWS_SESSION_EXPIRATION` environment variable.
+  https://github.com/tnn-gruntwork-io/module-security/pull/80: The `aws-auth` script now exposes the expiration time in the `AWS_SESSION_EXPIRATION` environment variable.
 =======
   https://github.com/tnn-gruntwork-io/module-security/pull/80: The `aws-auth` script now exposes the expiration time in the `AWS_SESSION_EXPIRATION` environment variable.
 >>>>>>> Stashed changes
@@ -461,10 +461,10 @@ The main motivation for locking down EC2 metadata is as follows:
 
 
 <<<<<<< Updated upstream
-### [TEST RELEASE](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.1-test)
+### [TEST RELEASE](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.1-test)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/16/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.1-test">Release notes</a></small>
+  <small>Published: 4/16/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.1-test">Release notes</a></small>
 =======
 ### [TEST RELEASE](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.1-test)
 
@@ -485,10 +485,10 @@ The main motivation for locking down EC2 metadata is as follows:
 
 
 <<<<<<< Updated upstream
-### [v0.5.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.0)
+### [v0.5.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/27/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.0">Release notes</a></small>
+  <small>Published: 4/27/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.0">Release notes</a></small>
 =======
 ### [v0.5.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.0)
 
@@ -500,7 +500,7 @@ The main motivation for locking down EC2 metadata is as follows:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/pull/41, https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/pull/42: 
+  https://github.com/tnn-gruntwork-io/module-vpc/pull/41, https://github.com/tnn-gruntwork-io/module-vpc/pull/42: 
 =======
   https://github.com/tnn-gruntwork-io/module-vpc/pull/41, https://github.com/tnn-gruntwork-io/module-vpc/pull/42: 
 >>>>>>> Stashed changes
@@ -517,10 +517,10 @@ The main motivation for locking down EC2 metadata is as follows:
 
 
 <<<<<<< Updated upstream
-### [v0.4.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.3)
+### [v0.4.3](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/26/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.3">Release notes</a></small>
+  <small>Published: 4/26/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.3">Release notes</a></small>
 =======
 ### [v0.4.3](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.3)
 
@@ -537,10 +537,10 @@ The main motivation for locking down EC2 metadata is as follows:
 
 
 <<<<<<< Updated upstream
-### [v0.4.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.2)
+### [v0.4.2](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 4/23/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.2">Release notes</a></small>
+  <small>Published: 4/23/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.2">Release notes</a></small>
 =======
 ### [v0.4.2](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.2)
 

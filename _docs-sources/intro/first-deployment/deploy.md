@@ -91,7 +91,7 @@ To deploy to other environments, create analogous `.tfvars` and `.hcl` files (e.
 ## Deploy using Terragrunt
 
 <<<<<<< Updated upstream
-Another option is to use [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt), an open source wrapper for Terraform
+Another option is to use [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt), an open source wrapper for Terraform
 =======
 Another option is to use [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt), an open source wrapper for Terraform
 >>>>>>> Stashed changes

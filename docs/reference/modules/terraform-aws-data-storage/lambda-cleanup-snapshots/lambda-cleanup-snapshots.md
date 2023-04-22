@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Delete Snapshots Lambda Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.26.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.26.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -30,7 +30,7 @@ delete the oldest snapshots.
 
 Note that to use this module, you must have access to the Gruntwork [Continuous Delivery Infrastructure Package
 <<<<<<< Updated upstream
-(terraform-aws-ci)](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci). If you need access, email support@gruntwork.io.
+(terraform-aws-ci)](https://github.com/tnn-gruntwork-io/terraform-aws-ci). If you need access, email support@gruntwork.io.
 =======
 (terraform-aws-ci)](https://github.com/tnn-gruntwork-io/terraform-aws-ci). If you need access, email support@gruntwork.io.
 >>>>>>> Stashed changes
@@ -40,7 +40,7 @@ Note that to use this module, you must have access to the Gruntwork [Continuous 
 This module allows you to configure a number of parameters, such as which database to backup, how often to run the
 backups, what account to share the backups with, and more. For a list of all available variables and their
 <<<<<<< Updated upstream
-descriptions, see [variables.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots/variables.tf).
+descriptions, see [variables.tf](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots/variables.tf).
 =======
 descriptions, see [variables.tf](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots/variables.tf).
 >>>>>>> Stashed changes
@@ -59,7 +59,7 @@ descriptions, see [variables.tf](https://github.com/tnn-gruntwork-io/terraform-a
 module "lambda_cleanup_snapshots" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-cleanup-snapshots?ref=v0.26.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-cleanup-snapshots?ref=v0.26.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-cleanup-snapshots?ref=v0.26.0"
 >>>>>>> Stashed changes
@@ -132,7 +132,7 @@ module "lambda_cleanup_snapshots" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-cleanup-snapshots?ref=v0.26.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-cleanup-snapshots?ref=v0.26.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/lambda-cleanup-snapshots?ref=v0.26.0"
 >>>>>>> Stashed changes
@@ -314,9 +314,9 @@ Namespace of snapshots that will be cleaned up by this module. If specified then
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/lambda-cleanup-snapshots/variables.tf",

@@ -24,10 +24,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.9.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.9.0)
+### [v0.9.0](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.9.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 11/27/2019 | Modules affected: redis | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.9.0">Release notes</a></small>
+  <small>Published: 11/27/2019 | Modules affected: redis | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.9.0">Release notes</a></small>
 =======
 ### [v0.9.0](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.9.0)
 
@@ -77,10 +77,10 @@ Note that you will have to use the quotes around the indexed resource to avoid `
 
 
 <<<<<<< Updated upstream
-### [v0.8.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.8.0)
+### [v0.8.0](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.8.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 11/7/2019 | Modules affected: redis, memcached | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.8.0">Release notes</a></small>
+  <small>Published: 11/7/2019 | Modules affected: redis, memcached | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.8.0">Release notes</a></small>
 =======
 ### [v0.8.0](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.8.0)
 
@@ -104,10 +104,10 @@ Note that you will have to use the quotes around the indexed resource to avoid `
 
 
 <<<<<<< Updated upstream
-### [v0.0.3: Initial release of wrapper modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.0.3)
+### [v0.0.3: Initial release of wrapper modules](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 11/21/2019 | Modules affected: iam-password-policy, cloudwatch-logs-metric-filters, saml-iam-roles, iam-groups | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.0.3">Release notes</a></small>
+  <small>Published: 11/21/2019 | Modules affected: iam-password-policy, cloudwatch-logs-metric-filters, saml-iam-roles, iam-groups | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.0.3">Release notes</a></small>
 =======
 ### [v0.0.3: Initial release of wrapper modules](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.0.3)
 
@@ -132,10 +132,10 @@ This is the initial release of wrapper modules for v1.2.0 of the AWS Foundations
 
 
 <<<<<<< Updated upstream
-### [v0.10.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.10.3)
+### [v0.10.3](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.10.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 11/22/2019 | Modules affected: rds, lambda-create-snapshot, aurora | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.10.3">Release notes</a></small>
+  <small>Published: 11/22/2019 | Modules affected: rds, lambda-create-snapshot, aurora | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.10.3">Release notes</a></small>
 =======
 ### [v0.10.3](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.10.3)
 
@@ -164,10 +164,10 @@ This is the initial release of wrapper modules for v1.2.0 of the AWS Foundations
 
 
 <<<<<<< Updated upstream
-### [v0.16.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.16.2)
+### [v0.16.2](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.16.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 11/22/2019 | Modules affected: ecs-service | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.16.2">Release notes</a></small>
+  <small>Published: 11/22/2019 | Modules affected: ecs-service | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.16.2">Release notes</a></small>
 =======
 ### [v0.16.2](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.16.2)
 
@@ -188,10 +188,10 @@ This is the initial release of wrapper modules for v1.2.0 of the AWS Foundations
 
 
 <<<<<<< Updated upstream
-### [v0.16.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.16.1)
+### [v0.16.1](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.16.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 11/4/2019 | Modules affected: ecs-service | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.16.1">Release notes</a></small>
+  <small>Published: 11/4/2019 | Modules affected: ecs-service | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.16.1">Release notes</a></small>
 =======
 ### [v0.16.1](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.16.1)
 
@@ -218,10 +218,10 @@ This is the initial release of wrapper modules for v1.2.0 of the AWS Foundations
 
 
 <<<<<<< Updated upstream
-### [v0.10.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.10.0)
+### [v0.10.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.10.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 11/22/2019 | Modules affected: eks-alb-ingress-controller | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.10.0">Release notes</a></small>
+  <small>Published: 11/22/2019 | Modules affected: eks-alb-ingress-controller | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.10.0">Release notes</a></small>
 =======
 ### [v0.10.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.10.0)
 
@@ -253,8 +253,8 @@ Special thanks to @alanbrent for the contribution!
 
 
 <<<<<<< Updated upstream
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/pull/87
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/pull/88
+- https://github.com/tnn-gruntwork-io/terraform-aws-eks/pull/87
+- https://github.com/tnn-gruntwork-io/terraform-aws-eks/pull/88
 =======
 - https://github.com/tnn-gruntwork-io/terraform-aws-eks/pull/87
 - https://github.com/tnn-gruntwork-io/terraform-aws-eks/pull/88
@@ -269,10 +269,10 @@ Special thanks to @alanbrent for the contribution!
 
 
 <<<<<<< Updated upstream
-### [v0.7.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.0)
+### [v0.7.0](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 11/12/2019 | Modules affected: lambda, lambda-edge | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.0">Release notes</a></small>
+  <small>Published: 11/12/2019 | Modules affected: lambda, lambda-edge | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.0">Release notes</a></small>
 =======
 ### [v0.7.0](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.0)
 
@@ -297,10 +297,10 @@ This consolidates the lambda resources in `modules/lambda` and `modules/lambda-e
 
 
 <<<<<<< Updated upstream
-### [v0.16.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.16.0)
+### [v0.16.0](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.16.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 11/12/2019 | Modules affected: alb | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.16.0">Release notes</a></small>
+  <small>Published: 11/12/2019 | Modules affected: alb | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.16.0">Release notes</a></small>
 =======
 ### [v0.16.0](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.16.0)
 
@@ -339,7 +339,7 @@ terraform state mv &quot;$MODULE_ADDRESS.aws_alb.alb_without_logs[0]&quot; &quot
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/pull/66
+* https://github.com/tnn-gruntwork-io/module-load-balancer/pull/66
 =======
 * https://github.com/tnn-gruntwork-io/module-load-balancer/pull/66
 >>>>>>> Stashed changes
@@ -352,10 +352,10 @@ terraform state mv &quot;$MODULE_ADDRESS.aws_alb.alb_without_logs[0]&quot; &quot
 
 
 <<<<<<< Updated upstream
-### [v0.7.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.7)
+### [v0.7.7](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 11/28/2019 | Modules affected: vpc-mgmt, vpc-app | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.7">Release notes</a></small>
+  <small>Published: 11/28/2019 | Modules affected: vpc-mgmt, vpc-app | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.7">Release notes</a></small>
 =======
 ### [v0.7.7](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.7.7)
 

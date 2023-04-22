@@ -21,9 +21,9 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 # Amazon ECS Cluster
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-cluster" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-cluster" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=services%2Fecs-cluster" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=services%2Fecs-cluster" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-cluster" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
@@ -39,7 +39,7 @@ This service launches an ECS cluster on top of an Auto Scaling Group that you ma
 cluster on top of Fargate that is completely managed by AWS, refer to the
 [ecs-fargate-cluster module](/reference/services/app-orchestration/amazon-ecs-fargate-cluster). Refer to the section
 <<<<<<< Updated upstream
-[EC2 vs Fargate Launch Types](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/blob/master/core-concepts.md#ec2-vs-fargate-launch-types)
+[EC2 vs Fargate Launch Types](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/blob/master/core-concepts.md#ec2-vs-fargate-launch-types)
 =======
 [EC2 vs Fargate Launch Types](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/blob/master/core-concepts.md#ec2-vs-fargate-launch-types)
 >>>>>>> Stashed changes
@@ -57,7 +57,7 @@ Group (ASG). Each instance:
 *   Authenticates with a Docker repo so it can download private images. The Docker repo auth details should be encrypted
     using [Amazon Key Management Service (KMS)](https://aws.amazon.com/kms/) and passed in as input variables. The
 <<<<<<< Updated upstream
-    instances, when booting up, will use [gruntkms](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms) to decrypt the data
+    instances, when booting up, will use [gruntkms](https://github.com/tnn-gruntwork-io/gruntkms) to decrypt the data
 =======
     instances, when booting up, will use [gruntkms](https://github.com/tnn-gruntwork-io/gruntkms) to decrypt the data
 >>>>>>> Stashed changes
@@ -72,20 +72,20 @@ Group (ASG). Each instance:
     [CloudWatch Logs](http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/WhatIsCloudWatchLogs.html). This
     is configured using the
 <<<<<<< Updated upstream
-    [cloudwatch-agent](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent).
+    [cloudwatch-agent](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent).
 
 *   Emits custom metrics that are not available by default in CloudWatch, including memory and disk usage. This is
     configured using the [cloudwatch-agent
-    module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent).
+    module](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent).
 
-*   Runs the [syslog module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/syslog)
+*   Runs the [syslog module](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/syslog)
     to automatically rotate and rate limit syslog so that your instances don’t run out of disk space from large volumes.
 
-*   Runs the [ssh-grunt module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt) so
+*   Runs the [ssh-grunt module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt) so
     that developers can upload their public SSH keys to IAM and use those SSH keys, along with their IAM user names, to
     SSH to the ECS Nodes.
 
-*   Runs the [auto-update module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/auto-update)
+*   Runs the [auto-update module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/auto-update)
 =======
     [cloudwatch-agent](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent).
 
@@ -109,7 +109,7 @@ Group (ASG). Each instance:
 :::note
 
 <<<<<<< Updated upstream
-This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 =======
 This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 >>>>>>> Stashed changes
@@ -121,7 +121,7 @@ If you’ve never used the Service Catalog before, make sure to read
 
 Under the hood, this is all implemented using Terraform modules from the Gruntwork
 <<<<<<< Updated upstream
-[terraform-aws-ecs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs) repo. If you are a subscriber and don’t have
+[terraform-aws-ecs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs) repo. If you are a subscriber and don’t have
 =======
 [terraform-aws-ecs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs) repo. If you are a subscriber and don’t have
 >>>>>>> Stashed changes
@@ -131,7 +131,7 @@ access to this repo, email <support@gruntwork.io>.
 
 To understand core concepts like what is ECS, and the different cluster types, see the documentation in the
 <<<<<<< Updated upstream
-[terraform-aws-ecs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs) repo.
+[terraform-aws-ecs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs) repo.
 =======
 [terraform-aws-ecs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs) repo.
 >>>>>>> Stashed changes
@@ -144,17 +144,17 @@ communicate with ECS and register itself as part of the right cluster.
 For more info on ECS clusters, including how to run Docker containers in a cluster, how to add additional security
 group rules, how to handle IAM policies, and more, check out the
 <<<<<<< Updated upstream
-[ecs-cluster documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/master/modules/ecs-cluster) in the
-[terraform-aws-ecs repo](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs).
+[ecs-cluster documentation](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/master/modules/ecs-cluster) in the
+[terraform-aws-ecs repo](https://github.com/tnn-gruntwork-io/terraform-aws-ecs).
 
 For info on finding your Docker container logs and custom metrics in CloudWatch, check out the
-[cloudwatch-agent documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent).
+[cloudwatch-agent documentation](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent).
 
 ### Repo organization
 
-*   [modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
-*   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples): This folder contains working examples of how to use the submodules.
-*   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/test): Automated tests for the modules and examples.
+*   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+*   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples): This folder contains working examples of how to use the submodules.
+*   [test](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/test): Automated tests for the modules and examples.
 =======
 [ecs-cluster documentation](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/master/modules/ecs-cluster) in the
 [terraform-aws-ecs repo](https://github.com/tnn-gruntwork-io/terraform-aws-ecs).
@@ -176,7 +176,7 @@ For info on finding your Docker container logs and custom metrics in CloudWatch,
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-learning-and-testing folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+*   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
 =======
 *   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
 >>>>>>> Stashed changes
@@ -188,7 +188,7 @@ If you just want to try this repo out for experimenting and learning, check out 
 If you want to deploy this repo in production, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-production folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+*   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
 =======
 *   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
 >>>>>>> Stashed changes
@@ -200,10 +200,10 @@ If you want to deploy this repo in production, check out the following resources
 
 For information on how to configure cluster autoscaling, see
 <<<<<<< Updated upstream
-[How do you configure cluster autoscaling?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/master/modules/ecs-cluster#how-do-you-configure-cluster-autoscaling)
+[How do you configure cluster autoscaling?](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/master/modules/ecs-cluster#how-do-you-configure-cluster-autoscaling)
 
 For information on how to manage your ECS cluster, see the documentation in the
-[terraform-aws-ecs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs) repo.
+[terraform-aws-ecs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs) repo.
 =======
 [How do you configure cluster autoscaling?](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/master/modules/ecs-cluster#how-do-you-configure-cluster-autoscaling)
 
@@ -226,7 +226,7 @@ For information on how to manage your ECS cluster, see the documentation in the
 module "ecs_cluster" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ecs-cluster?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ecs-cluster?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ecs-cluster?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -403,7 +403,7 @@ module "ecs_cluster" {
 
   # Set to true to add IAM permissions for ssh-grunt
 <<<<<<< Updated upstream
-  # (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+  # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
 =======
   # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
 >>>>>>> Stashed changes
@@ -515,7 +515,7 @@ module "ecs_cluster" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ecs-cluster?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ecs-cluster?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ecs-cluster?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -695,7 +695,7 @@ inputs = {
 
   # Set to true to add IAM permissions for ssh-grunt
 <<<<<<< Updated upstream
-  # (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+  # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
 =======
   # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
 >>>>>>> Stashed changes
@@ -1188,7 +1188,7 @@ Enable ip-lockdown to block access to the instance metadata. Defaults to true
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
+Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
 =======
 Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
 >>>>>>> Stashed changes
@@ -1517,9 +1517,9 @@ The CloudWatch Dashboard metric widget for the ECS cluster workers' Memory utili
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-cluster/README.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-cluster/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-cluster/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-cluster/README.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-cluster/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-cluster/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-cluster/README.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-cluster/variables.tf",

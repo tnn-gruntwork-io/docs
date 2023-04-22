@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # VPC Flow Logs Terraform Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-flow-logs" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-flow-logs" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-flow-logs" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -93,7 +93,7 @@ TODO: Publish flow logs to an S3 bucket or CloudWatch Logs group in another acco
 module "vpc_flow_logs" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-flow-logs?ref=v0.22.7"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-flow-logs?ref=v0.22.7"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-flow-logs?ref=v0.22.7"
 >>>>>>> Stashed changes
@@ -217,7 +217,7 @@ module "vpc_flow_logs" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-flow-logs?ref=v0.22.7"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-flow-logs?ref=v0.22.7"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-flow-logs?ref=v0.22.7"
 >>>>>>> Stashed changes
@@ -702,9 +702,9 @@ The name of the S3 bucket where flow logs are published.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-flow-logs/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-flow-logs/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-flow-logs/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-flow-logs/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-flow-logs/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-flow-logs/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-flow-logs/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-flow-logs/variables.tf",

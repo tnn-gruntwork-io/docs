@@ -59,7 +59,7 @@ organization names, optionally with `-` or `_` characters, but without whitespac
 
 When you’re using Gruntwork modules, you use the source attribute on a module block to read a module from a Gruntwork
 <<<<<<< Updated upstream
-code repository. As a simple example, if you wanted to create an SQS queue using the SQS module from [`package-messaging`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging), you might create something like the following:
+code repository. As a simple example, if you wanted to create an SQS queue using the SQS module from [`package-messaging`](https://github.com/tnn-gruntwork-io/package-messaging), you might create something like the following:
 =======
 code repository. As a simple example, if you wanted to create an SQS queue using the SQS module from [`package-messaging`](https://github.com/tnn-gruntwork-io/package-messaging), you might create something like the following:
 >>>>>>> Stashed changes
@@ -71,7 +71,7 @@ provider "aws" {
 
 module "sns" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging.git//modules/sqs?ref=v0.3.2"
+  source = "git::git@github.com:tnn-gruntwork-io/package-messaging.git//modules/sqs?ref=v0.3.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/package-messaging.git//modules/sqs?ref=v0.3.2"
 >>>>>>> Stashed changes
@@ -80,7 +80,7 @@ module "sns" {
 ```
 
 <<<<<<< Updated upstream
-The `git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io` portion of the `source` attribute indicates that this module is accessed over SSH. Thus, TFC will need access to the Gruntwork code repositories via SSH.
+The `git::git@github.com:tnn-gruntwork-io` portion of the `source` attribute indicates that this module is accessed over SSH. Thus, TFC will need access to the Gruntwork code repositories via SSH.
 =======
 The `git::git@github.com:tnn-gruntwork-io` portion of the `source` attribute indicates that this module is accessed over SSH. Thus, TFC will need access to the Gruntwork code repositories via SSH.
 >>>>>>> Stashed changes
@@ -184,9 +184,9 @@ data source](https://www.terraform.io/docs/providers/terraform/d/remote_state.ht
 
 You can use this pattern for any of Gruntwork’s Terraform modules. This even works for modules like
 <<<<<<< Updated upstream
-[`terraform-aws-eks`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks) which need to download external dependencies (like
-[`kubergrunt`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt)). Those modules use the special
-[`executable-dependency`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-terraform-utilities/tree/master/modules/executable-dependency)
+[`terraform-aws-eks`](https://github.com/tnn-gruntwork-io/terraform-aws-eks) which need to download external dependencies (like
+[`kubergrunt`](https://github.com/tnn-gruntwork-io/kubergrunt)). Those modules use the special
+[`executable-dependency`](https://github.com/tnn-gruntwork-io/package-terraform-utilities/tree/master/modules/executable-dependency)
 =======
 [`terraform-aws-eks`](https://github.com/tnn-gruntwork-io/terraform-aws-eks) which need to download external dependencies (like
 [`kubergrunt`](https://github.com/tnn-gruntwork-io/kubergrunt)). Those modules use the special
@@ -223,7 +223,7 @@ Before digging in, we’ll review an example Terragrunt configuration.
 ### Setting up
 
 <<<<<<< Updated upstream
-For this example, we’ll once again deploy an SQS queue from [Gruntwork `package-messaging` repository](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging:).
+For this example, we’ll once again deploy an SQS queue from [Gruntwork `package-messaging` repository](https://github.com/tnn-gruntwork-io/package-messaging:).
 =======
 For this example, we’ll once again deploy an SQS queue from [Gruntwork `package-messaging` repository](https://github.com/tnn-gruntwork-io/package-messaging:).
 >>>>>>> Stashed changes
@@ -283,7 +283,7 @@ The snippet below shows one technique for gathering the requisite information an
 locals {
   tfc_hostname     = "app.terraform.io" # For TFE, substitute the custom hostname for your TFE host
 <<<<<<< Updated upstream
-  tfc_organization = "tnn-tnn-tnn-tnn-tnn-gruntwork-io"
+  tfc_organization = "tnn-gruntwork-io"
 =======
   tfc_organization = "tnn-gruntwork-io"
 >>>>>>> Stashed changes
@@ -350,7 +350,7 @@ The following code shows how to generate a `terragrunt.auto.tfvars` file.
 ```hcl
 terraform {
 <<<<<<< Updated upstream
-  source = "git::ssh://git@github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging//modules/sqs?ref=v0.3.2"
+  source = "git::ssh://git@github.com/tnn-gruntwork-io/package-messaging//modules/sqs?ref=v0.3.2"
 =======
   source = "git::ssh://git@github.com/tnn-gruntwork-io/package-messaging//modules/sqs?ref=v0.3.2"
 >>>>>>> Stashed changes
@@ -377,7 +377,7 @@ EOF
 The configuration has a few sections:
 
 <<<<<<< Updated upstream
-1.  The `terraform` block at the top uses the Gruntwork `sqs` module from [`package-messaging`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging/).
+1.  The `terraform` block at the top uses the Gruntwork `sqs` module from [`package-messaging`](https://github.com/tnn-gruntwork-io/package-messaging/).
 =======
 1.  The `terraform` block at the top uses the Gruntwork `sqs` module from [`package-messaging`](https://github.com/tnn-gruntwork-io/package-messaging/).
 >>>>>>> Stashed changes
@@ -427,7 +427,7 @@ Preparing the remote apply...
 
 To view this run in a browser, visit:
 <<<<<<< Updated upstream
-https://app.terraform.io/app/tnn-tnn-tnn-tnn-tnn-gruntwork-io/sqs-dev-us-east-1/runs/run-esQKC9ATKPnDywN1
+https://app.terraform.io/app/tnn-gruntwork-io/sqs-dev-us-east-1/runs/run-esQKC9ATKPnDywN1
 =======
 https://app.terraform.io/app/tnn-gruntwork-io/sqs-dev-us-east-1/runs/run-esQKC9ATKPnDywN1
 >>>>>>> Stashed changes

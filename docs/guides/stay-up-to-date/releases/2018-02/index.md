@@ -24,10 +24,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.3.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.3.3)
+### [v0.3.3](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.3.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/27/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.3.3">Release notes</a></small>
+  <small>Published: 2/27/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.3.3">Release notes</a></small>
 =======
 ### [v0.3.3](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.3.3)
 
@@ -39,7 +39,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-cache/pull/17: You can now enable encryption at rest and in transit for Redis using the new parameters `enable_at_rest_encryption` and `enable_transit_encryption`. Note that if you already have Redis deployed without encryption, you cannot enable encryption for it; you must create a new Redis cluster that has encryption enabled and migrate to that.
+  https://github.com/tnn-gruntwork-io/module-cache/pull/17: You can now enable encryption at rest and in transit for Redis using the new parameters `enable_at_rest_encryption` and `enable_transit_encryption`. Note that if you already have Redis deployed without encryption, you cannot enable encryption for it; you must create a new Redis cluster that has encryption enabled and migrate to that.
 =======
   https://github.com/tnn-gruntwork-io/module-cache/pull/17: You can now enable encryption at rest and in transit for Redis using the new parameters `enable_at_rest_encryption` and `enable_transit_encryption`. Note that if you already have Redis deployed without encryption, you cannot enable encryption for it; you must create a new Redis cluster that has encryption enabled and migrate to that.
 >>>>>>> Stashed changes
@@ -52,10 +52,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.7.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.1)
+### [v0.7.1](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/22/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.1">Release notes</a></small>
+  <small>Published: 2/22/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.1">Release notes</a></small>
 =======
 ### [v0.7.1](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.1)
 
@@ -67,7 +67,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/53: The `install-jenkins` module now supports CentOS.
+  https://github.com/tnn-gruntwork-io/module-ci/pull/53: The `install-jenkins` module now supports CentOS.
 =======
   https://github.com/tnn-gruntwork-io/module-ci/pull/53: The `install-jenkins` module now supports CentOS.
 >>>>>>> Stashed changes
@@ -76,10 +76,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.7.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.0)
+### [v0.7.0](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/20/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.0">Release notes</a></small>
+  <small>Published: 2/20/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.0">Release notes</a></small>
 =======
 ### [v0.7.0](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.7.0)
 
@@ -91,7 +91,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/52: 
+  https://github.com/tnn-gruntwork-io/module-ci/pull/52: 
 =======
   https://github.com/tnn-gruntwork-io/module-ci/pull/52: 
 >>>>>>> Stashed changes
@@ -101,7 +101,7 @@ Warning: this release contains BACKWARDS INCOMPATIBLE CHANGES to `scheduled-lamb
 * Add new modules for running Jenkins: `jenkins-server` and `install-jenkins`.
 * Add a module for running a Lambda function on a scheduled basis to take snapshots of your servers: `ec2-backup`.
 <<<<<<< Updated upstream
-* Delete the `scheduled-lambda-job` module. Please migrate to [package-lambda](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-lambda) instead. You can create the Lambda functions with the [lambda module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-lambda/tree/master/modules/lambda) and run them on a scheduled basis using the [scheduled-lambda-job module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-lambda/tree/master/modules/scheduled-lambda-job) in that repo.
+* Delete the `scheduled-lambda-job` module. Please migrate to [package-lambda](https://github.com/tnn-gruntwork-io/package-lambda) instead. You can create the Lambda functions with the [lambda module](https://github.com/tnn-gruntwork-io/package-lambda/tree/master/modules/lambda) and run them on a scheduled basis using the [scheduled-lambda-job module](https://github.com/tnn-gruntwork-io/package-lambda/tree/master/modules/scheduled-lambda-job) in that repo.
 =======
 * Delete the `scheduled-lambda-job` module. Please migrate to [package-lambda](https://github.com/tnn-gruntwork-io/package-lambda) instead. You can create the Lambda functions with the [lambda module](https://github.com/tnn-gruntwork-io/package-lambda/tree/master/modules/lambda) and run them on a scheduled basis using the [scheduled-lambda-job module](https://github.com/tnn-gruntwork-io/package-lambda/tree/master/modules/scheduled-lambda-job) in that repo.
 >>>>>>> Stashed changes
@@ -118,10 +118,10 @@ Warning: this release contains BACKWARDS INCOMPATIBLE CHANGES to `scheduled-lamb
 
 
 <<<<<<< Updated upstream
-### [v0.6.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.2)
+### [v0.6.2](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/20/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.2">Release notes</a></small>
+  <small>Published: 2/20/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.2">Release notes</a></small>
 =======
 ### [v0.6.2](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.2)
 
@@ -133,7 +133,7 @@ Warning: this release contains BACKWARDS INCOMPATIBLE CHANGES to `scheduled-lamb
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/54: You can now configure a health check grace period for your ECS services using the new `health_check_grace_period_seconds` parameter! Also, we&apos;ve added another `depends_on` clause for the ALB Target Group in the `ecs-service-with-alb` module, which should help work around https://github.com/hashicorp/terraform/issues/12634.
+  https://github.com/tnn-gruntwork-io/module-ecs/pull/54: You can now configure a health check grace period for your ECS services using the new `health_check_grace_period_seconds` parameter! Also, we&apos;ve added another `depends_on` clause for the ALB Target Group in the `ecs-service-with-alb` module, which should help work around https://github.com/hashicorp/terraform/issues/12634.
 =======
   https://github.com/tnn-gruntwork-io/module-ecs/pull/54: You can now configure a health check grace period for your ECS services using the new `health_check_grace_period_seconds` parameter! Also, we&apos;ve added another `depends_on` clause for the ALB Target Group in the `ecs-service-with-alb` module, which should help work around https://github.com/hashicorp/terraform/issues/12634.
 >>>>>>> Stashed changes
@@ -146,10 +146,10 @@ Warning: this release contains BACKWARDS INCOMPATIBLE CHANGES to `scheduled-lamb
 
 
 <<<<<<< Updated upstream
-### [v0.1.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.0)
+### [v0.1.0](https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/6/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.0">Release notes</a></small>
+  <small>Published: 2/6/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.0">Release notes</a></small>
 =======
 ### [v0.1.0](https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.0)
 
@@ -170,10 +170,10 @@ Warning: this release contains BACKWARDS INCOMPATIBLE CHANGES to `scheduled-lamb
 
 
 <<<<<<< Updated upstream
-### [v0.5.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.5.3)
+### [v0.5.3](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.5.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/27/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.5.3">Release notes</a></small>
+  <small>Published: 2/27/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.5.3">Release notes</a></small>
 =======
 ### [v0.5.3](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.5.3)
 
@@ -194,10 +194,10 @@ Warning: this release contains BACKWARDS INCOMPATIBLE CHANGES to `scheduled-lamb
 
 
 <<<<<<< Updated upstream
-### [v0.0.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.0.3)
+### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/14/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.0.3">Release notes</a></small>
+  <small>Published: 2/14/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.0.3">Release notes</a></small>
 =======
 ### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.0.3)
 
@@ -218,10 +218,10 @@ Warning: this release contains BACKWARDS INCOMPATIBLE CHANGES to `scheduled-lamb
 
 
 <<<<<<< Updated upstream
-### [v0.7.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.1)
+### [v0.7.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/22/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.1">Release notes</a></small>
+  <small>Published: 2/22/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.1">Release notes</a></small>
 =======
 ### [v0.7.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.1)
 
@@ -233,7 +233,7 @@ Warning: this release contains BACKWARDS INCOMPATIBLE CHANGES to `scheduled-lamb
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/73: Use a more reliable way to look up the path to the `ssh-iam` binary during the install process.
+  https://github.com/tnn-gruntwork-io/module-security/pull/73: Use a more reliable way to look up the path to the `ssh-iam` binary during the install process.
 =======
   https://github.com/tnn-gruntwork-io/module-security/pull/73: Use a more reliable way to look up the path to the `ssh-iam` binary during the install process.
 >>>>>>> Stashed changes
@@ -246,10 +246,10 @@ Warning: this release contains BACKWARDS INCOMPATIBLE CHANGES to `scheduled-lamb
 
 
 <<<<<<< Updated upstream
-### [v0.4.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.1)
+### [v0.4.1](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/23/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.1">Release notes</a></small>
+  <small>Published: 2/23/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.1">Release notes</a></small>
 =======
 ### [v0.4.1](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.1)
 
@@ -266,10 +266,10 @@ Warning: this release contains BACKWARDS INCOMPATIBLE CHANGES to `scheduled-lamb
 
 
 <<<<<<< Updated upstream
-### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.0)
+### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/22/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.0">Release notes</a></small>
+  <small>Published: 2/22/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.0">Release notes</a></small>
 =======
 ### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.0)
 
@@ -281,7 +281,7 @@ Warning: this release contains BACKWARDS INCOMPATIBLE CHANGES to `scheduled-lamb
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server/pull/26:
+  https://github.com/tnn-gruntwork-io/module-server/pull/26:
 =======
   https://github.com/tnn-gruntwork-io/module-server/pull/26:
 >>>>>>> Stashed changes

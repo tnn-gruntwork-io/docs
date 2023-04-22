@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # ip-lockdown Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ip-lockdown" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ip-lockdown" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.10" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.10" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ip-lockdown" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -40,7 +40,7 @@ In the example below we restrict access to [ec2-instance-metadata endpoint](http
 Normally users make a `curl` call to get metadata like the AWS region or credentials associated with this EC2 Instance's IAM Role. Following the invocation of ip-lockdown, only users foo, bar, and root can query that data.
 
 <<<<<<< Updated upstream
-The complete example of using terraform to deploy a generated AMI into your AWS account and automatically invoke `ip-lockdown` from the `User Data` is also available in the [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/ip-lockdown/aws-example) folder.
+The complete example of using terraform to deploy a generated AMI into your AWS account and automatically invoke `ip-lockdown` from the `User Data` is also available in the [examples](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/ip-lockdown/aws-example) folder.
 =======
 The complete example of using terraform to deploy a generated AMI into your AWS account and automatically invoke `ip-lockdown` from the `User Data` is also available in the [examples](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/ip-lockdown/aws-example) folder.
 >>>>>>> Stashed changes
@@ -50,18 +50,18 @@ The complete example of using terraform to deploy a generated AMI into your AWS 
 To use this module, you just need to:
 
 <<<<<<< Updated upstream
-1.  Install [bash-commons](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons) on your servers.
+1.  Install [bash-commons](https://github.com/tnn-gruntwork-io/bash-commons) on your servers.
 2.  Install the `ip-lockdown` script on your servers.
 
-The best way to do that is to use the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer) in a
+The best way to do that is to use the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer) in a
 [Packer](https://www.packer.io/) template (make sure to replace `<BASH_COMMONS_VERSION>` and
 `<MODULE_SECURITY_VERSION>` below with the latest versions from the [bash-commons releases
-page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons/releases) and [terraform-aws-security releases
-page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases), respectively):
+page](https://github.com/tnn-gruntwork-io/bash-commons/releases) and [terraform-aws-security releases
+page](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases), respectively):
 
 ```
-gruntwork-install --module-name bash-commons --tag <BASH_COMMONS_VERSION> --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/bash-commons
-gruntwork-install --module-name ip-lockdown --tag <MODULE_SECURITY_VERSION> --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security
+gruntwork-install --module-name bash-commons --tag <BASH_COMMONS_VERSION> --repo https://github.com/tnn-gruntwork-io/bash-commons
+gruntwork-install --module-name ip-lockdown --tag <MODULE_SECURITY_VERSION> --repo https://github.com/tnn-gruntwork-io/terraform-aws-security
 =======
 1.  Install [bash-commons](https://github.com/tnn-gruntwork-io/bash-commons) on your servers.
 2.  Install the `ip-lockdown` script on your servers.
@@ -88,9 +88,9 @@ gruntwork-install --module-name ip-lockdown --tag <MODULE_SECURITY_VERSION> --re
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ip-lockdown/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ip-lockdown/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ip-lockdown/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ip-lockdown/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ip-lockdown/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ip-lockdown/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ip-lockdown/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ip-lockdown/variables.tf",

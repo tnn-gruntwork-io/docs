@@ -14,12 +14,12 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Prepare PEX Environment Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.8.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.8.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
-**NOTE**: This module should not be used directly. Use [run-pex-as-data-source](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-data-source) or
-[run-pex-as-resource](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource) instead.
+**NOTE**: This module should not be used directly. Use [run-pex-as-data-source](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-data-source) or
+[run-pex-as-resource](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource) instead.
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -40,7 +40,7 @@ This module uses Python under the hood so, the Python must be installed on the O
 ## What is PEX?
 
 <<<<<<< Updated upstream
-PEX (or Python EXecutable) is an executable python environment in the spirit of [virtualenvs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/virtualenv.org). It is
+PEX (or Python EXecutable) is an executable python environment in the spirit of [virtualenvs](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/virtualenv.org). It is
 =======
 PEX (or Python EXecutable) is an executable python environment in the spirit of [virtualenvs](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/virtualenv.org). It is
 >>>>>>> Stashed changes
@@ -85,7 +85,7 @@ specified platform and python versions, download the wheel/package, inject the b
 executable zip file.
 
 <<<<<<< Updated upstream
-See the [`pex/sample-python-script` example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/pex/sample-python-script) for an example implementation that you
+See the [`pex/sample-python-script` example](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/pex/sample-python-script) for an example implementation that you
 =======
 See the [`pex/sample-python-script` example](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/pex/sample-python-script) for an example implementation that you
 >>>>>>> Stashed changes
@@ -130,7 +130,7 @@ can use as a template.
 module "prepare_pex_environment" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/prepare-pex-environment?ref=v0.9.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/prepare-pex-environment?ref=v0.9.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/prepare-pex-environment?ref=v0.9.1"
 >>>>>>> Stashed changes
@@ -163,7 +163,7 @@ module "prepare_pex_environment" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/prepare-pex-environment?ref=v0.9.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/prepare-pex-environment?ref=v0.9.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/prepare-pex-environment?ref=v0.9.1"
 >>>>>>> Stashed changes
@@ -252,9 +252,9 @@ The python path that should be used for running PEX file. This should be set as 
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/variables.tf",

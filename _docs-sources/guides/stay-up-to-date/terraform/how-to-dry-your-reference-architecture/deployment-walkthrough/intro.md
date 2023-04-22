@@ -4,7 +4,7 @@
 
 This guide assumes you are using Terragrunt version
 <<<<<<< Updated upstream
-[v0.35.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt/releases/tag/v0.35.0) or newer, so that all bug fixes for multiple
+[v0.35.0](https://github.com/tnn-gruntwork-io/terragrunt/releases/tag/v0.35.0) or newer, so that all bug fixes for multiple
 =======
 [v0.35.0](https://github.com/tnn-gruntwork-io/terragrunt/releases/tag/v0.35.0) or newer, so that all bug fixes for multiple
 >>>>>>> Stashed changes
@@ -20,7 +20,7 @@ once.
 You can checkout the latest
 [for-production
 <<<<<<< Updated upstream
-example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production) of the Service Catalog to see what the DRY Reference Architecture looks like, and what we are aiming for. In
+example](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production) of the Service Catalog to see what the DRY Reference Architecture looks like, and what we are aiming for. In
 =======
 example](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production) of the Service Catalog to see what the DRY Reference Architecture looks like, and what we are aiming for. In
 >>>>>>> Stashed changes

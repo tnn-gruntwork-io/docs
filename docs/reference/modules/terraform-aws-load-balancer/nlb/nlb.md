@@ -14,17 +14,17 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Network Load Balancer (NLB) Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/nlb" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/nlb" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.23.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.23.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 **NOTE**: The `nlb` module has been deprecated and removed as of `v0.15.0`. If you would like to provision an NLB, you
 should use the `aws_lb` resource directly instead. If you were using this module before, refer to [the migration
-guide](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/tree/v0.15.0/\_docs/migration_guides/nlb_to\_0.15.0) for information on how to update your usage.
+guide](https://github.com/tnn-gruntwork-io/module-load-balancer/tree/v0.15.0/\_docs/migration_guides/nlb_to\_0.15.0) for information on how to update your usage.
 
 For information on why the module was removed, refer to the discussion in [PR
-\#62](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/pull/62) and [PR
-\#65](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/pull/65).
+\#62](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/pull/62) and [PR
+\#65](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/pull/65).
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/nlb" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -44,9 +44,9 @@ For information on why the module was removed, refer to the discussion in [PR
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/nlb/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/nlb/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/nlb/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/nlb/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/nlb/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/nlb/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/nlb/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/nlb/variables.tf",

@@ -21,10 +21,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.5)
+### [v0.0.5](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/26/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.5">Release notes</a></small>
+  <small>Published: 8/26/2016 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.5">Release notes</a></small>
 =======
 ### [v0.0.5](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.5)
 
@@ -42,10 +42,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.4)
+### [v0.0.4](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/22/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.4">Release notes</a></small>
+  <small>Published: 8/22/2016 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.4">Release notes</a></small>
 =======
 ### [v0.0.4](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.4)
 
@@ -63,10 +63,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.3)
+### [v0.0.3](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/8/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.3">Release notes</a></small>
+  <small>Published: 8/8/2016 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.3">Release notes</a></small>
 =======
 ### [v0.0.3](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.3)
 
@@ -88,10 +88,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.18](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.18)
+### [v0.0.18](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.18)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/5/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.18">Release notes</a></small>
+  <small>Published: 8/5/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.18">Release notes</a></small>
 =======
 ### [v0.0.18](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.18)
 
@@ -103,7 +103,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  - The script `configure-environment-for-gruntwork-module` now optionally installs [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt). In addition, `terraform`, `terragrunt`, `packer`, and `glide` are now automatically placed in the system `PATH`. 
+  - The script `configure-environment-for-gruntwork-module` now optionally installs [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt). In addition, `terraform`, `terragrunt`, `packer`, and `glide` are now automatically placed in the system `PATH`. 
 =======
   - The script `configure-environment-for-gruntwork-module` now optionally installs [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt). In addition, `terraform`, `terragrunt`, `packer`, and `glide` are now automatically placed in the system `PATH`. 
 >>>>>>> Stashed changes
@@ -117,10 +117,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.9)
+### [v0.0.9](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/13/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.9">Release notes</a></small>
+  <small>Published: 8/13/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.9">Release notes</a></small>
 =======
 ### [v0.0.9](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.9)
 
@@ -142,10 +142,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.3)
+### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/23/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.3">Release notes</a></small>
+  <small>Published: 8/23/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.3">Release notes</a></small>
 =======
 ### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.3)
 
@@ -163,10 +163,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.2)
+### [v0.0.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/15/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.2">Release notes</a></small>
+  <small>Published: 8/15/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.2">Release notes</a></small>
 =======
 ### [v0.0.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.2)
 
@@ -184,10 +184,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.0)
+### [v0.0.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/11/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.0">Release notes</a></small>
+  <small>Published: 8/11/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.0">Release notes</a></small>
 =======
 ### [v0.0.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.0)
 
@@ -209,10 +209,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.1.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.0)
+### [v0.1.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/31/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.0">Release notes</a></small>
+  <small>Published: 8/31/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.0">Release notes</a></small>
 =======
 ### [v0.1.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.0)
 
@@ -234,11 +234,11 @@ BREAKING CHANGE: Upgrade module parameters to take advantage of the new data typ
 
 - `vars.tf`:
 <<<<<<< Updated upstream
-  - [Example diff](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-14c7cc73490c3d2d8347d14cb8a44729) and 
+  - [Example diff](https://github.com/tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-14c7cc73490c3d2d8347d14cb8a44729) and 
   - Remove the `aws_availability_zones` variable. 
   - Add a variable called `num_availability_zones`. This represents the number of availability zones usable by this AWS account for the current AWS region. Set its `default` value to 2, 3, or 4, depending on your region.
 - `main.tf`
-  - [Example diff](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-8140c347465c3fb50113f34a03f9c0d1) (ignore the `user_data` stuff)
+  - [Example diff](https://github.com/tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-8140c347465c3fb50113f34a03f9c0d1) (ignore the `user_data` stuff)
 =======
   - [Example diff](https://github.com/tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-14c7cc73490c3d2d8347d14cb8a44729) and 
   - Remove the `aws_availability_zones` variable. 
@@ -261,7 +261,7 @@ BREAKING CHANGE: Upgrade module parameters to take advantage of the new data typ
 These use the exact same upgrade process as the mgmt VPC, except there are some additional steps for the peering connection:
 - `main.tf`:
 <<<<<<< Updated upstream
-  - [Example diff](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-3c06616a9c2b49d630e46d8439b63a8c) (ignore the `user_data` stuff)
+  - [Example diff](https://github.com/tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-3c06616a9c2b49d630e46d8439b63a8c) (ignore the `user_data` stuff)
 =======
   - [Example diff](https://github.com/tnn-gruntwork-io/module-vpc/compare/c83c30f998f8486537e7308dcdfbcd5cdf34bffa...master?diff=unified&amp;name=master#diff-3c06616a9c2b49d630e46d8439b63a8c) (ignore the `user_data` stuff)
 >>>>>>> Stashed changes

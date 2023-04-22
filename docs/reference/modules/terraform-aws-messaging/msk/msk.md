@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Amazon Managed Streaming for Apache Kafka (Amazon MSK) Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.10.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.10.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -189,7 +189,7 @@ the security group for ZooKeeper, follow these instructions: https://docs.aws.am
 module "msk" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/msk?ref=v0.10.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/msk?ref=v0.10.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/msk?ref=v0.10.2"
 >>>>>>> Stashed changes
@@ -349,7 +349,7 @@ module "msk" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging.git//modules/msk?ref=v0.10.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/msk?ref=v0.10.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-messaging.git//modules/msk?ref=v0.10.2"
 >>>>>>> Stashed changes
@@ -1001,9 +1001,9 @@ A comma separated list of one or more hostname:port pairs to use to connect to t
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-messaging/tree/v0.10.2/modules/msk/variables.tf",

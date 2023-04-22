@@ -21,9 +21,9 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 # Amazon ECS Service
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-service" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-service" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=services%2Fecs-service" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=services%2Fecs-service" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-service" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
@@ -51,7 +51,7 @@ This service contains [Terraform](https://www.terraform.io) code to deploy a pro
 :::note
 
 <<<<<<< Updated upstream
-This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 =======
 This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 >>>>>>> Stashed changes
@@ -63,7 +63,7 @@ If you’ve never used the Service Catalog before, make sure to read
 
 Under the hood, this is all implemented using Terraform modules from the Gruntwork
 <<<<<<< Updated upstream
-[terraform-aws-ecs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs) repo. If you are a subscriber and don’t have
+[terraform-aws-ecs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs) repo. If you are a subscriber and don’t have
 =======
 [terraform-aws-ecs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs) repo. If you are a subscriber and don’t have
 >>>>>>> Stashed changes
@@ -74,14 +74,14 @@ access to this repo, email <support@gruntwork.io>.
 To understand core concepts like what is ECS, the different cluster types, how to authenticate to Kubernetes, and
 more, see the documentation in the
 <<<<<<< Updated upstream
-[terraform-aws-ecs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs) repo.
+[terraform-aws-ecs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs) repo.
 
 ### Repo organization
 
-*   [modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal
+*   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal
     submodules.
-*   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples): This folder contains working examples of how to use the submodules.
-*   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/test): Automated tests for the modules and examples.
+*   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples): This folder contains working examples of how to use the submodules.
+*   [test](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/test): Automated tests for the modules and examples.
 =======
 [terraform-aws-ecs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs) repo.
 
@@ -100,7 +100,7 @@ more, see the documentation in the
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-learning-and-testing folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+*   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
 =======
 *   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
 >>>>>>> Stashed changes
@@ -111,7 +111,7 @@ If you just want to try this repo out for experimenting and learning, check out 
 If you want to deploy this repo in production, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-production folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+*   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
 =======
 *   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
 >>>>>>> Stashed changes
@@ -123,7 +123,7 @@ If you want to deploy this repo in production, check out the following resources
 
 For information on how to manage your ECS service, see the documentation in the
 <<<<<<< Updated upstream
-[module ecs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs) repo.
+[module ecs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs) repo.
 =======
 [module ecs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs) repo.
 >>>>>>> Stashed changes
@@ -143,7 +143,7 @@ For information on how to manage your ECS service, see the documentation in the
 module "ecs_service" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ecs-service?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ecs-service?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ecs-service?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -644,7 +644,7 @@ module "ecs_service" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ecs-service?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ecs-service?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ecs-service?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -2898,9 +2898,9 @@ The names of the ECS service's load balancer's target groups
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-service/README.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-service/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-service/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-service/README.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-service/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-service/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-service/README.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ecs-service/variables.tf",

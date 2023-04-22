@@ -42,7 +42,7 @@ the child only inject or override a subset of the attributes.
 
 For example, the
 <<<<<<< Updated upstream
-[k8s-service](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/services/k8s-service)
+[k8s-service](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/services/k8s-service)
 =======
 [k8s-service](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/services/k8s-service)
 >>>>>>> Stashed changes
@@ -116,7 +116,7 @@ For example, if you wanted to test a new version of the module only in dev:
 ```hcl title=common component configuration
 locals {
 <<<<<<< Updated upstream
-  source_base_url = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc"
+  source_base_url = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc"
 =======
   source_base_url = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc"
 >>>>>>> Stashed changes

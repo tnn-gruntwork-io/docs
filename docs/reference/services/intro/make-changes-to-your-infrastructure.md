@@ -17,7 +17,7 @@ Now that your infrastructure is deployed, let's discuss how to make changes to i
    ```hcl
    module "vpc" {
 <<<<<<< Updated upstream
-     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
+     source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 =======
      source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 >>>>>>> Stashed changes
@@ -32,7 +32,7 @@ Now that your infrastructure is deployed, let's discuss how to make changes to i
    ```hcl
    module "vpc" {
 <<<<<<< Updated upstream
-     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
+     source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 =======
      source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 >>>>>>> Stashed changes
@@ -48,7 +48,7 @@ Now that your infrastructure is deployed, let's discuss how to make changes to i
    ```hcl
    module "vpc" {
 <<<<<<< Updated upstream
-     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
+     source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 =======
      source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 >>>>>>> Stashed changes
@@ -62,7 +62,7 @@ Now that your infrastructure is deployed, let's discuss how to make changes to i
    ```hcl
    module "vpc" {
 <<<<<<< Updated upstream
-     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.2"
+     source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.2"
 =======
      source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.2"
 >>>>>>> Stashed changes
@@ -75,7 +75,7 @@ Now that your infrastructure is deployed, let's discuss how to make changes to i
 
 Whenever changing version numbers, make sure to read the [release
 <<<<<<< Updated upstream
-notes](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards
+notes](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards
 =======
 notes](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards
 >>>>>>> Stashed changes
@@ -105,7 +105,7 @@ versioning](/reference/services/intro/overview/#maintenance-and-versioning) for 
    ```hcl
    terraform {
 <<<<<<< Updated upstream
-     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
+     source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 =======
      source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 >>>>>>> Stashed changes
@@ -122,7 +122,7 @@ versioning](/reference/services/intro/overview/#maintenance-and-versioning) for 
    ```hcl
    terraform {
 <<<<<<< Updated upstream
-     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
+     source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 =======
      source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 >>>>>>> Stashed changes
@@ -140,7 +140,7 @@ versioning](/reference/services/intro/overview/#maintenance-and-versioning) for 
    ```hcl
    terraform {
 <<<<<<< Updated upstream
-     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
+     source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 =======
      source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.1"
 >>>>>>> Stashed changes
@@ -152,7 +152,7 @@ versioning](/reference/services/intro/overview/#maintenance-and-versioning) for 
    ```hcl
    terraform {
 <<<<<<< Updated upstream
-     source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.2"
+     source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.2"
 =======
      source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=v0.0.2"
 >>>>>>> Stashed changes
@@ -163,7 +163,7 @@ versioning](/reference/services/intro/overview/#maintenance-and-versioning) for 
 
 Whenever changing version numbers, make sure to read the [release
 <<<<<<< Updated upstream
-notes](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards
+notes](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards
 =======
 notes](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards
 >>>>>>> Stashed changes
@@ -212,7 +212,7 @@ _(Documentation coming soon. If you need help with this ASAP, please contact [su
 
    Whenever changing version numbers, make sure to read the [release
 <<<<<<< Updated upstream
-   notes](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards incompatible
+   notes](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards incompatible
 =======
    notes](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases), especially if it's a backwards incompatible
 >>>>>>> Stashed changes

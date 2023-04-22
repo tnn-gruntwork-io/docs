@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Instance Type
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/instance-type" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/instance-type" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.9.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.9.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/instance-type" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -32,7 +32,7 @@ module to automatically figure out which instance type you should use.
 ## Example code
 
 <<<<<<< Updated upstream
-See the [instance-type example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/instance-type) for working sample code.
+See the [instance-type example](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/instance-type) for working sample code.
 =======
 See the [instance-type example](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/instance-type) for working sample code.
 >>>>>>> Stashed changes
@@ -41,11 +41,11 @@ See the [instance-type example](https://github.com/tnn-gruntwork-io/terraform-aw
 
 Use the module in your Terraform code, replacing `<VERSION>` with the latest version from the [releases
 <<<<<<< Updated upstream
-page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases):
+page](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases):
 
 ```hcl
 module "path" {
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/instance-type?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/instance-type?ref=<VERSION>"
 =======
 page](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases):
 
@@ -86,7 +86,7 @@ will be `t2.micro`, as that's available in all AZs in `eu-west-1`. However, if y
 module "instance_type" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/instance-type?ref=v0.9.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/instance-type?ref=v0.9.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/instance-type?ref=v0.9.1"
 >>>>>>> Stashed changes
@@ -117,7 +117,7 @@ module "instance_type" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/instance-type?ref=v0.9.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/instance-type?ref=v0.9.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/instance-type?ref=v0.9.1"
 >>>>>>> Stashed changes
@@ -188,9 +188,9 @@ The recommended instance type to use in this AWS region. This will be the first 
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/instance-type/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/instance-type/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/instance-type/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/instance-type/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/instance-type/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/instance-type/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/instance-type/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/instance-type/variables.tf",

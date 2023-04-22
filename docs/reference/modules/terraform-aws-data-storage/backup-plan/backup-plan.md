@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Backup Plan Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-plan" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-plan" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.26.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.26.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-plan" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -29,7 +29,7 @@ This Terraform Module creates the following AWS Backup resources:
 2.  Resource selections - specifying **which resources** to back up
 
 <<<<<<< Updated upstream
-You associate your plans with a [Backup vault](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-vault).
+You associate your plans with a [Backup vault](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-vault).
 =======
 You associate your plans with a [Backup vault](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-vault).
 >>>>>>> Stashed changes
@@ -102,7 +102,7 @@ module "backup_plan" {
 ## How do you troubleshoot Backup jobs?
 
 <<<<<<< Updated upstream
-See [Troubleshooting AWS Backup](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/core-concepts.md#troubleshooting-aws-backup) in the core-concepts guide.
+See [Troubleshooting AWS Backup](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/core-concepts.md#troubleshooting-aws-backup) in the core-concepts guide.
 =======
 See [Troubleshooting AWS Backup](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/core-concepts.md#troubleshooting-aws-backup) in the core-concepts guide.
 >>>>>>> Stashed changes
@@ -121,7 +121,7 @@ See [Troubleshooting AWS Backup](https://github.com/tnn-gruntwork-io/terraform-a
 module "backup_plan" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/backup-plan?ref=v0.26.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/backup-plan?ref=v0.26.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/backup-plan?ref=v0.26.0"
 >>>>>>> Stashed changes
@@ -156,7 +156,7 @@ module "backup_plan" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage.git//modules/backup-plan?ref=v0.26.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/backup-plan?ref=v0.26.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-data-storage.git//modules/backup-plan?ref=v0.26.0"
 >>>>>>> Stashed changes
@@ -268,9 +268,9 @@ The ARN of the IAM service role used by Backup plans
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-plan/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-plan/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-plan/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-plan/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-plan/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-plan/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-plan/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/tree/v0.26.0/modules/backup-plan/variables.tf",

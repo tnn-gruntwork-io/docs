@@ -24,10 +24,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.6.13](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.13)
+### [v0.6.13](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.13)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/16/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.13">Release notes</a></small>
+  <small>Published: 6/16/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.13">Release notes</a></small>
 =======
 ### [v0.6.13](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.13)
 
@@ -39,7 +39,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/38: Fix a bug where the `server-group` module would hit an error trying to create an IAM Policy for EBS volumes when the `size` param was set to 0.
+  https://github.com/tnn-gruntwork-io/module-asg/pull/38: Fix a bug where the `server-group` module would hit an error trying to create an IAM Policy for EBS volumes when the `size` param was set to 0.
 =======
   https://github.com/tnn-gruntwork-io/module-asg/pull/38: Fix a bug where the `server-group` module would hit an error trying to create an IAM Policy for EBS volumes when the `size` param was set to 0.
 >>>>>>> Stashed changes
@@ -48,10 +48,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.6.12](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.12)
+### [v0.6.12](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.12)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/5/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.12">Release notes</a></small>
+  <small>Published: 6/5/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.12">Release notes</a></small>
 =======
 ### [v0.6.12](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.12)
 
@@ -63,7 +63,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/33: You can now specify a `kms_key_id` parameter for the `server-group` module to enable EBS Volume encryption with your own Customer Master Key (CMK). This will also automatically create an IAM Policy that gives the server access to that CMK.
+  https://github.com/tnn-gruntwork-io/module-asg/pull/33: You can now specify a `kms_key_id` parameter for the `server-group` module to enable EBS Volume encryption with your own Customer Master Key (CMK). This will also automatically create an IAM Policy that gives the server access to that CMK.
 =======
   https://github.com/tnn-gruntwork-io/module-asg/pull/33: You can now specify a `kms_key_id` parameter for the `server-group` module to enable EBS Volume encryption with your own Customer Master Key (CMK). This will also automatically create an IAM Policy that gives the server access to that CMK.
 >>>>>>> Stashed changes
@@ -76,10 +76,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.12.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.12.0)
+### [v0.12.0](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.12.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/20/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.12.0">Release notes</a></small>
+  <small>Published: 6/20/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.12.0">Release notes</a></small>
 =======
 ### [v0.12.0](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.12.0)
 
@@ -91,7 +91,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/66: The `terraform-update-variable` script used to require setting `--skip-git &quot;true&quot;`, which is a non-idiomatic way to do flags in bash, and the parsing for it could fail silently. The script has now been updated so you just specify `--skip-git` to disable Git, without any need to say &quot;true&quot;. Note that if you were using the `--skip-git` param before, this is a backwards incompatible change!
+  https://github.com/tnn-gruntwork-io/module-ci/pull/66: The `terraform-update-variable` script used to require setting `--skip-git &quot;true&quot;`, which is a non-idiomatic way to do flags in bash, and the parsing for it could fail silently. The script has now been updated so you just specify `--skip-git` to disable Git, without any need to say &quot;true&quot;. Note that if you were using the `--skip-git` param before, this is a backwards incompatible change!
 =======
   https://github.com/tnn-gruntwork-io/module-ci/pull/66: The `terraform-update-variable` script used to require setting `--skip-git &quot;true&quot;`, which is a non-idiomatic way to do flags in bash, and the parsing for it could fail silently. The script has now been updated so you just specify `--skip-git` to disable Git, without any need to say &quot;true&quot;. Note that if you were using the `--skip-git` param before, this is a backwards incompatible change!
 >>>>>>> Stashed changes
@@ -100,10 +100,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.11.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.11.0)
+### [v0.11.0](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.11.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/19/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.11.0">Release notes</a></small>
+  <small>Published: 6/19/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.11.0">Release notes</a></small>
 =======
 ### [v0.11.0](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.11.0)
 
@@ -115,7 +115,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/62: The `git-add-commit-push` script will now detect &quot;Updates were rejected because the remote contains work that you do not have locally&quot; errors and automatically `git pull --rebase` and `git push` in a retry loop (up to a max number of retries). This allows the script to work properly even if someone else happened to push some code to the same branch at the exact same time.
+  https://github.com/tnn-gruntwork-io/module-ci/pull/62: The `git-add-commit-push` script will now detect &quot;Updates were rejected because the remote contains work that you do not have locally&quot; errors and automatically `git pull --rebase` and `git push` in a retry loop (up to a max number of retries). This allows the script to work properly even if someone else happened to push some code to the same branch at the exact same time.
 =======
   https://github.com/tnn-gruntwork-io/module-ci/pull/62: The `git-add-commit-push` script will now detect &quot;Updates were rejected because the remote contains work that you do not have locally&quot; errors and automatically `git pull --rebase` and `git push` in a retry loop (up to a max number of retries). This allows the script to work properly even if someone else happened to push some code to the same branch at the exact same time.
 >>>>>>> Stashed changes
@@ -128,10 +128,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.6.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.7)
+### [v0.6.7](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/6/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.7">Release notes</a></small>
+  <small>Published: 6/6/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.7">Release notes</a></small>
 =======
 ### [v0.6.7](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.7)
 
@@ -143,7 +143,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/70: You can now optionally customize the ALB Target Group name in `ecs-service-with-alb` using the `alb_target_group_name` parameter.
+  https://github.com/tnn-gruntwork-io/module-ecs/pull/70: You can now optionally customize the ALB Target Group name in `ecs-service-with-alb` using the `alb_target_group_name` parameter.
 =======
   https://github.com/tnn-gruntwork-io/module-ecs/pull/70: You can now optionally customize the ALB Target Group name in `ecs-service-with-alb` using the `alb_target_group_name` parameter.
 >>>>>>> Stashed changes
@@ -156,10 +156,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.3)
+### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/10/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.3">Release notes</a></small>
+  <small>Published: 6/10/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.3">Release notes</a></small>
 =======
 ### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.0.3)
 
@@ -184,10 +184,10 @@ This is another pre-release as these modules are still very green and require ad
 
 
 <<<<<<< Updated upstream
-### [v0.7.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.7.0)
+### [v0.7.0](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.7.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/28/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.7.0">Release notes</a></small>
+  <small>Published: 6/28/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.7.0">Release notes</a></small>
 =======
 ### [v0.7.0](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.7.0)
 
@@ -199,7 +199,7 @@ This is another pre-release as these modules are still very green and require ad
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-openvpn/pull/47, https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-openvpn/commit/4a5d1447880e0d8a67f1be1d929c24db7953ee0a:
+  https://github.com/tnn-gruntwork-io/package-openvpn/pull/47, https://github.com/tnn-gruntwork-io/package-openvpn/commit/4a5d1447880e0d8a67f1be1d929c24db7953ee0a:
 =======
   https://github.com/tnn-gruntwork-io/package-openvpn/pull/47, https://github.com/tnn-gruntwork-io/package-openvpn/commit/4a5d1447880e0d8a67f1be1d929c24db7953ee0a:
 >>>>>>> Stashed changes
@@ -212,10 +212,10 @@ This is another pre-release as these modules are still very green and require ad
 
 
 <<<<<<< Updated upstream
-### [v0.6.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.6.1)
+### [v0.6.1](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.6.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/21/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.6.1">Release notes</a></small>
+  <small>Published: 6/21/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.6.1">Release notes</a></small>
 =======
 ### [v0.6.1](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.6.1)
 
@@ -232,10 +232,10 @@ This is another pre-release as these modules are still very green and require ad
 
 
 <<<<<<< Updated upstream
-### [v0.6.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.6.0)
+### [v0.6.0](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.6.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/19/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.6.0">Release notes</a></small>
+  <small>Published: 6/19/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.6.0">Release notes</a></small>
 =======
 ### [v0.6.0](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.6.0)
 
@@ -247,7 +247,7 @@ This is another pre-release as these modules are still very green and require ad
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-openvpn/pull/45: The `supervisor` install has been moved from the `run-process-requests` and `run-process-revokes` scripts to the `install-openvpn` script where it belongs. You&apos;ll need to build a new OpenVPN AMI to take advantage of this change.
+  https://github.com/tnn-gruntwork-io/package-openvpn/pull/45: The `supervisor` install has been moved from the `run-process-requests` and `run-process-revokes` scripts to the `install-openvpn` script where it belongs. You&apos;ll need to build a new OpenVPN AMI to take advantage of this change.
 =======
   https://github.com/tnn-gruntwork-io/package-openvpn/pull/45: The `supervisor` install has been moved from the `run-process-requests` and `run-process-revokes` scripts to the `install-openvpn` script where it belongs. You&apos;ll need to build a new OpenVPN AMI to take advantage of this change.
 >>>>>>> Stashed changes
@@ -260,10 +260,10 @@ This is another pre-release as these modules are still very green and require ad
 
 
 <<<<<<< Updated upstream
-### [v0.13.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.13.1)
+### [v0.13.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.13.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/29/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.13.1">Release notes</a></small>
+  <small>Published: 6/29/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.13.1">Release notes</a></small>
 =======
 ### [v0.13.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.13.1)
 
@@ -275,7 +275,7 @@ This is another pre-release as these modules are still very green and require ad
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/101: Update `ssh-grunt` to use the same data structures as Houston.
+  https://github.com/tnn-gruntwork-io/module-security/pull/101: Update `ssh-grunt` to use the same data structures as Houston.
 =======
   https://github.com/tnn-gruntwork-io/module-security/pull/101: Update `ssh-grunt` to use the same data structures as Houston.
 >>>>>>> Stashed changes
@@ -284,10 +284,10 @@ This is another pre-release as these modules are still very green and require ad
 
 
 <<<<<<< Updated upstream
-### [v0.13.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.13.0)
+### [v0.13.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.13.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/26/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.13.0">Release notes</a></small>
+  <small>Published: 6/26/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.13.0">Release notes</a></small>
 =======
 ### [v0.13.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.13.0)
 
@@ -299,7 +299,7 @@ This is another pre-release as these modules are still very green and require ad
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/99
+  https://github.com/tnn-gruntwork-io/module-security/pull/99
 =======
   https://github.com/tnn-gruntwork-io/module-security/pull/99
 >>>>>>> Stashed changes
@@ -338,8 +338,8 @@ If you&apos;re already using `ssh-iam`, here is how to upgrade to `ssh-grunt`:
 Here are the updates we&apos;ve done to the Acme sample Reference Architectures that show the type of changes you&apos;ll need to make:
 
 <<<<<<< Updated upstream
-[infrastructure-modules changes](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/commit/922aa698b5f035e3af83c6ffd78804aed0192d01)
-[infrastructure-live changes](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-live-multi-account-acme/commit/98204b60e1fed47cbaaf041772c67eaeb3d3f2ba)
+[infrastructure-modules changes](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/commit/922aa698b5f035e3af83c6ffd78804aed0192d01)
+[infrastructure-live changes](https://github.com/tnn-gruntwork-io/infrastructure-live-multi-account-acme/commit/98204b60e1fed47cbaaf041772c67eaeb3d3f2ba)
 =======
 [infrastructure-modules changes](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/commit/922aa698b5f035e3af83c6ffd78804aed0192d01)
 [infrastructure-live changes](https://github.com/tnn-gruntwork-io/infrastructure-live-multi-account-acme/commit/98204b60e1fed47cbaaf041772c67eaeb3d3f2ba)
@@ -349,10 +349,10 @@ Here are the updates we&apos;ve done to the Acme sample Reference Architectures 
 
 
 <<<<<<< Updated upstream
-### [v0.12.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.12.0)
+### [v0.12.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.12.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/26/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.12.0">Release notes</a></small>
+  <small>Published: 6/26/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.12.0">Release notes</a></small>
 =======
 ### [v0.12.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.12.0)
 
@@ -364,7 +364,7 @@ Here are the updates we&apos;ve done to the Acme sample Reference Architectures 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/97:
+  https://github.com/tnn-gruntwork-io/module-security/pull/97:
 =======
   https://github.com/tnn-gruntwork-io/module-security/pull/97:
 >>>>>>> Stashed changes
@@ -377,10 +377,10 @@ The `saml-iam-roles` module now sets a default max expiration of 12 hours for IA
 
 
 <<<<<<< Updated upstream
-### [v0.11.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.11.0)
+### [v0.11.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.11.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/21/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.11.0">Release notes</a></small>
+  <small>Published: 6/21/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.11.0">Release notes</a></small>
 =======
 ### [v0.11.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.11.0)
 
@@ -392,7 +392,7 @@ The `saml-iam-roles` module now sets a default max expiration of 12 hours for IA
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/96: Setting `should_require_mfa` to `false` in the `iam-policies` module should now work correctly, allowing you to disable the MFA requirement. This module is used under the hood in the `iam-groups`, `cross-account-iam-roles`, and `saml-iam-roles` modules, so upgrade those modules if you need this fix.
+  https://github.com/tnn-gruntwork-io/module-security/pull/96: Setting `should_require_mfa` to `false` in the `iam-policies` module should now work correctly, allowing you to disable the MFA requirement. This module is used under the hood in the `iam-groups`, `cross-account-iam-roles`, and `saml-iam-roles` modules, so upgrade those modules if you need this fix.
 =======
   https://github.com/tnn-gruntwork-io/module-security/pull/96: Setting `should_require_mfa` to `false` in the `iam-policies` module should now work correctly, allowing you to disable the MFA requirement. This module is used under the hood in the `iam-groups`, `cross-account-iam-roles`, and `saml-iam-roles` modules, so upgrade those modules if you need this fix.
 >>>>>>> Stashed changes
@@ -405,10 +405,10 @@ The `saml-iam-roles` module now sets a default max expiration of 12 hours for IA
 
 
 <<<<<<< Updated upstream
-### [v0.5.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.0)
+### [v0.5.0](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/18/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.0">Release notes</a></small>
+  <small>Published: 6/18/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.0">Release notes</a></small>
 =======
 ### [v0.5.0](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.0)
 
@@ -420,7 +420,7 @@ The `saml-iam-roles` module now sets a default max expiration of 12 hours for IA
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server/pull/30: The `mount-ebs-volume` script now supports `NVMe` block devices used by the new C5, C5d, M5, and i3.metal instances.
+  https://github.com/tnn-gruntwork-io/module-server/pull/30: The `mount-ebs-volume` script now supports `NVMe` block devices used by the new C5, C5d, M5, and i3.metal instances.
 =======
   https://github.com/tnn-gruntwork-io/module-server/pull/30: The `mount-ebs-volume` script now supports `NVMe` block devices used by the new C5, C5d, M5, and i3.metal instances.
 >>>>>>> Stashed changes
@@ -433,10 +433,10 @@ The `saml-iam-roles` module now sets a default max expiration of 12 hours for IA
 
 
 <<<<<<< Updated upstream
-### [v0.5.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.1)
+### [v0.5.1](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 6/14/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.1">Release notes</a></small>
+  <small>Published: 6/14/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.1">Release notes</a></small>
 =======
 ### [v0.5.1](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.5.1)
 

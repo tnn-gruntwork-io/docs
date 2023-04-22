@@ -2,7 +2,7 @@
 
 Now that you have the VPC ready, it’s time to configure the EKS control plane using the
 <<<<<<< Updated upstream
-[eks-cluster-control-plane module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-control-plane)
+[eks-cluster-control-plane module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-control-plane)
 =======
 [eks-cluster-control-plane module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-control-plane)
 >>>>>>> Stashed changes
@@ -52,7 +52,7 @@ Next, use the `eks-cluster-control-plane` module to configure the EKS control pl
 module "eks_cluster" {
   # Make sure to replace <VERSION> in this URL with the latest terraform-aws-eks release
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=<VERSION>"
 >>>>>>> Stashed changes

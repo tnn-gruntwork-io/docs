@@ -2,7 +2,7 @@
 
 A number of alerts have been configured using the [alarms modules in
 <<<<<<< Updated upstream
-`terraform-aws-monitoring`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/alarms) to notify you
+`terraform-aws-monitoring`](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/alarms) to notify you
 =======
 `terraform-aws-monitoring`](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/alarms) to notify you
 >>>>>>> Stashed changes
@@ -21,7 +21,7 @@ Subscribe to topic."
 
 If you'd like alarm notifications to go to a Slack channel, check out the [`sns-to-slack`
 <<<<<<< Updated upstream
-module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/alarms/sns-to-slack).
+module](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/alarms/sns-to-slack).
 =======
 module](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/alarms/sns-to-slack).
 >>>>>>> Stashed changes

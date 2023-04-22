@@ -10,7 +10,7 @@ static website generator.
 All of the content that we see on the docs site is rendered to the top level
 `docs/` folder by the
 <<<<<<< Updated upstream
-[docs-sourcer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/docs-sourcer). `docs-sourcer` is
+[docs-sourcer](https://github.com/tnn-gruntwork-io/docs-sourcer). `docs-sourcer` is
 =======
 [docs-sourcer](https://github.com/tnn-gruntwork-io/docs-sourcer). `docs-sourcer` is
 >>>>>>> Stashed changes

@@ -21,7 +21,7 @@ Note that if the VPN server is in another VPC (e.g., a management VPC), you will
 order for the VPN server to be able to resolve the private domain name of the EKS cluster. You can add these rules
 using the
 <<<<<<< Updated upstream
-[vpc-dns-forwarder-rules module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-dns-forwarder-rules)
+[vpc-dns-forwarder-rules module](https://github.com/tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-dns-forwarder-rules)
 =======
 [vpc-dns-forwarder-rules module](https://github.com/tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-dns-forwarder-rules)
 >>>>>>> Stashed changes
@@ -31,7 +31,7 @@ from `terraform-aws-eks`:
 module "dns_forwarder_rule" {
   # Make sure to replace <VERSION> in this URL with the latest terraform-aws-eks release
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-dns-forwarder-rules?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-dns-forwarder-rules?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-dns-forwarder-rules?ref=<VERSION>"
 >>>>>>> Stashed changes
@@ -80,10 +80,10 @@ resource "aws_security_group_rule" "allow_inbound_ssh" {
 ```
 
 <<<<<<< Updated upstream
-If you’re using [ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/ssh-grunt) from
+If you’re using [ssh-grunt](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/ssh-grunt) from
 `module-security` to manage SSH access with IAM groups, you’ll need to give the worker nodes IAM permissions to talk to
 IAM. You can do this using the
-[iam-policies](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/iam-policies) module from
+[iam-policies](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/iam-policies) module from
 =======
 If you’re using [ssh-grunt](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/ssh-grunt) from
 `module-security` to manage SSH access with IAM groups, you’ll need to give the worker nodes IAM permissions to talk to
@@ -96,7 +96,7 @@ IAM. You can do this using the
 module "iam_policies" {
   # Make sure to replace <VERSION> in this URL with the latest terraform-aws-eks release
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security.git//modules/iam-policies?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/module-security.git//modules/iam-policies?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/module-security.git//modules/iam-policies?ref=<VERSION>"
 >>>>>>> Stashed changes

@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Attach ENI Scripts
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/attach-eni" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/attach-eni" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/attach-eni" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -37,14 +37,14 @@ This folder contains scripts you can use to attach [Elastic Network Interfaces
 An ENI allows you to have IP addresses that remain static, even if the underlying EC2 Instances are changing.
 
 <<<<<<< Updated upstream
-Check out the [attach-eni example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/attach-eni) for how to use these scripts with Terraform.
+Check out the [attach-eni example](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/attach-eni) for how to use these scripts with Terraform.
 
 ## Installing the attach-eni script
 
-You can install the `attach-eni` script using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
+You can install the `attach-eni` script using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
-gruntwork-install --module-name "attach-eni" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server" --tag "0.1.10"
+gruntwork-install --module-name "attach-eni" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-server" --tag "0.1.10"
 =======
 Check out the [attach-eni example](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/attach-eni) for how to use these scripts with Terraform.
 
@@ -65,7 +65,7 @@ The `attach-eni` script has the following prerequisites:
 2.  It must be run on an EC2 instance
 3.  The EC2 instance must have an IAM role with permissions to search ENIs and EC2 tags, as well as attach ENIs (see the
 <<<<<<< Updated upstream
-    [attach-eni example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/attach-eni))
+    [attach-eni example](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/attach-eni))
 =======
     [attach-eni example](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/examples/attach-eni))
 >>>>>>> Stashed changes
@@ -93,9 +93,9 @@ This tells the script to try find and attach an ENI with the same `Name` tag as 
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/attach-eni/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/attach-eni/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/attach-eni/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/attach-eni/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/attach-eni/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/attach-eni/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/attach-eni/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/attach-eni/variables.tf",

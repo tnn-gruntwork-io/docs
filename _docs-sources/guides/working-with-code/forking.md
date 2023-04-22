@@ -32,7 +32,7 @@ Here is how you fork the code in the Gruntwork Infrastructure as Code Library:
     some of the Terraform and Go code is shared across repos (e.g., the `package-kafka` and `package-zookeeper` repos
     use the `module-asg` repo under the hood to run an Auto Scaling Group). You’ll need to update Terraform source URLs
 <<<<<<< Updated upstream
-    and Go import statements from `github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io` to your private Git repo URLs.
+    and Go import statements from `github.com/tnn-gruntwork-io` to your private Git repo URLs.
 =======
     and Go import statements from `github.com/tnn-gruntwork-io` to your private Git repo URLs.
 >>>>>>> Stashed changes
@@ -47,8 +47,8 @@ so you’ll want to pull in these updates as quickly as you can.
 Once you’ve forked the code, using it is very similar to what is outlined in [Using Terraform Modules](/intro/first-deployment/using-terraform-modules), except for the following differences:
 
 <<<<<<< Updated upstream
-1.  Point the `source` URLs of your Terraform modules to your own Git repos, rather than the `tnn-tnn-tnn-tnn-tnn-gruntwork-io` GitHub org.
-2.  Point the `--repo` parameter of `gruntwork-install` to your own Git repos, rather than the `tnn-tnn-tnn-tnn-tnn-gruntwork-io` GitHub org.
+1.  Point the `source` URLs of your Terraform modules to your own Git repos, rather than the `tnn-gruntwork-io` GitHub org.
+2.  Point the `--repo` parameter of `gruntwork-install` to your own Git repos, rather than the `tnn-gruntwork-io` GitHub org.
 =======
 1.  Point the `source` URLs of your Terraform modules to your own Git repos, rather than the `tnn-gruntwork-io` GitHub org.
 2.  Point the `--repo` parameter of `gruntwork-install` to your own Git repos, rather than the `tnn-gruntwork-io` GitHub org.
@@ -65,7 +65,7 @@ While forking is allowed under the Gruntwork Terms of Services, it has some down
   participate in issues and pull requests, and you won’t be benefiting as much from the Gruntwork community.
 
 <<<<<<< Updated upstream
-So, whenever possible, use the code directly from the `tnn-tnn-tnn-tnn-tnn-gruntwork-io` GitHub org, as documented in
+So, whenever possible, use the code directly from the `tnn-gruntwork-io` GitHub org, as documented in
 =======
 So, whenever possible, use the code directly from the `tnn-gruntwork-io` GitHub org, as documented in
 >>>>>>> Stashed changes

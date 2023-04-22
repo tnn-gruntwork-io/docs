@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Redis Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.19.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.19.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -108,7 +108,7 @@ For more info on scaling "cluster mode enabled" Redis clusters, see [Scaling Mul
 module "redis" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache.git//modules/redis?ref=v0.19.3"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-cache.git//modules/redis?ref=v0.19.3"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-cache.git//modules/redis?ref=v0.19.3"
 >>>>>>> Stashed changes
@@ -285,7 +285,7 @@ module "redis" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache.git//modules/redis?ref=v0.19.3"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-cache.git//modules/redis?ref=v0.19.3"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-cache.git//modules/redis?ref=v0.19.3"
 >>>>>>> Stashed changes
@@ -846,9 +846,9 @@ This is a list of user IDs  that should be added to the group defined in the 'us
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-cache/tree/v0.19.3/modules/redis/variables.tf",

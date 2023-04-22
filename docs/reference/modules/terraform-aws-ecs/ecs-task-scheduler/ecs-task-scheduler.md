@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # ECS Task Scheduler Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -33,7 +33,7 @@ This module provides two options for defining when ECS tasks will be run:
 *   [Schedule Expressions](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-create-rule-schedule.html#eb-rate-expressions)
 
 <<<<<<< Updated upstream
-In [variables.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/variables.tf) there are two variables (`task_event_pattern` and `task_schedule_expression`) that can be provided in the module definition. At least one, but not both of these fields, must be provided. This is what is passed to the EventBridge rule to determine when to invoke your ECS task.
+In [variables.tf](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/variables.tf) there are two variables (`task_event_pattern` and `task_schedule_expression`) that can be provided in the module definition. At least one, but not both of these fields, must be provided. This is what is passed to the EventBridge rule to determine when to invoke your ECS task.
 =======
 In [variables.tf](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/variables.tf) there are two variables (`task_event_pattern` and `task_schedule_expression`) that can be provided in the module definition. At least one, but not both of these fields, must be provided. This is what is passed to the EventBridge rule to determine when to invoke your ECS task.
 >>>>>>> Stashed changes
@@ -191,7 +191,7 @@ This module provides support for passing the following additional inputs and ove
     ```
 
 <<<<<<< Updated upstream
-See [variables.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/variables.tf) for specific variable definitions.
+See [variables.tf](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/variables.tf) for specific variable definitions.
 =======
 See [variables.tf](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/variables.tf) for specific variable definitions.
 >>>>>>> Stashed changes
@@ -210,7 +210,7 @@ See [variables.tf](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0
 module "ecs_task_scheduler" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-task-scheduler?ref=v0.35.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-task-scheduler?ref=v0.35.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-task-scheduler?ref=v0.35.1"
 >>>>>>> Stashed changes
@@ -295,7 +295,7 @@ module "ecs_task_scheduler" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-task-scheduler?ref=v0.35.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-task-scheduler?ref=v0.35.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-task-scheduler?ref=v0.35.1"
 >>>>>>> Stashed changes
@@ -568,9 +568,9 @@ The scheduling expression to use (rate or cron - see README for usage examples).
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-task-scheduler/variables.tf",

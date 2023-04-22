@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # S3 Static Website
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.16.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.16.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -36,7 +36,7 @@ This module creates an AWS S3 bucket that can be used to host a static website. 
 *   Optionally configure a custom domain name for the website.
 
 <<<<<<< Updated upstream
-*   Optionally deploy a CDN in front of S3 using the [s3-cloudfront module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront).
+*   Optionally deploy a CDN in front of S3 using the [s3-cloudfront module](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront).
 =======
 *   Optionally deploy a CDN in front of S3 using the [s3-cloudfront module](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront).
 >>>>>>> Stashed changes
@@ -48,23 +48,23 @@ The reason to serve static content from S3 rather than from your own app server 
 ### Core concepts
 
 <<<<<<< Updated upstream
-*   [Quick Start](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/core-concepts.md#quick-start)
+*   [Quick Start](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/core-concepts.md#quick-start)
 
-*   [How to test the website](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/core-concepts.md#how-to-test-the-website)
+*   [How to test the website](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/core-concepts.md#how-to-test-the-website)
 
-*   [How to configure HTTPS (SSL) or a CDN?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/core-concepts.md#how-to-configure-http)
+*   [How to configure HTTPS (SSL) or a CDN?](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/core-concepts.md#how-to-configure-http)
 
-*   [How to handle www + root domains](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/core-concepts.md#how-to-handle)
+*   [How to handle www + root domains](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/core-concepts.md#how-to-handle)
 
-*   [How do I configure Cross Origin Resource Sharing (CORS)?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/core-concepts.md#how-do-i-configure-cross-origin-resource-sharing-cors)
+*   [How do I configure Cross Origin Resource Sharing (CORS)?](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/core-concepts.md#how-do-i-configure-cross-origin-resource-sharing-cors)
 
 ### Repo organization
 
-*   [modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules): The main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+*   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules): The main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
 
-*   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/examples): This folder contains working examples of how to use the submodules.
+*   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/examples): This folder contains working examples of how to use the submodules.
 
-*   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/test): Automated tests for the modules and examples.
+*   [test](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/test): Automated tests for the modules and examples.
 =======
 *   [Quick Start](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/core-concepts.md#quick-start)
 
@@ -92,7 +92,7 @@ The reason to serve static content from S3 rather than from your own app server 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [Examples folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+*   [Examples folder](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
 =======
 *   [Examples folder](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
 >>>>>>> Stashed changes
@@ -102,7 +102,7 @@ If you just want to try this repo out for experimenting and learning, check out 
 If you want to deploy this repo in production, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [Example for static website](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/tree/5fcefff/services/static-website): Production-ready sample code.
+*   [Example for static website](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/tree/5fcefff/services/static-website): Production-ready sample code.
 =======
 *   [Example for static website](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/tree/5fcefff/services/static-website): Production-ready sample code.
 >>>>>>> Stashed changes
@@ -121,7 +121,7 @@ If you want to deploy this repo in production, check out the following resources
 module "s_3_static_website" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets.git//modules/s3-static-website?ref=v0.16.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-static-assets.git//modules/s3-static-website?ref=v0.16.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-static-assets.git//modules/s3-static-website?ref=v0.16.1"
 >>>>>>> Stashed changes
@@ -307,7 +307,7 @@ module "s_3_static_website" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets.git//modules/s3-static-website?ref=v0.16.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-static-assets.git//modules/s3-static-website?ref=v0.16.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-static-assets.git//modules/s3-static-website?ref=v0.16.1"
 >>>>>>> Stashed changes
@@ -901,9 +901,9 @@ A value that can be used to chain resources to depend on the website bucket bein
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/readme.adoc",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/readme.adoc",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/readme.adoc",
     "https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website/variables.tf",

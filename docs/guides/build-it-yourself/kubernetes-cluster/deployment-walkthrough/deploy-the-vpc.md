@@ -24,7 +24,7 @@ Here’s a snippet of what the code in the `vpc-app` wrapper module looks like:
 module "vpc" {
   # Make sure to replace <VERSION> in this URL with the latest module-vpc release
 <<<<<<< Updated upstream
-  source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=<VERSION>"
+  source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=<VERSION>"
 =======
   source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=<VERSION>"
 >>>>>>> Stashed changes
@@ -40,7 +40,7 @@ module "vpc" {
 
 Update this module to use the
 <<<<<<< Updated upstream
-[eks-vpc-tags](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-vpc-tags) module from the
+[eks-vpc-tags](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-vpc-tags) module from the
 =======
 [eks-vpc-tags](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-vpc-tags) module from the
 >>>>>>> Stashed changes
@@ -56,7 +56,7 @@ You must be a <span className="js-subscribe-cta">Gruntwork subscriber</span> to 
 module "vpc" {
   # Make sure to replace <VERSION> in this URL with the latest module-vpc release
 <<<<<<< Updated upstream
-  source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=<VERSION>"
+  source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=<VERSION>"
 =======
   source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=<VERSION>"
 >>>>>>> Stashed changes
@@ -75,7 +75,7 @@ module "vpc" {
 module "vpc_tags" {
   # Make sure to replace <VERSION> in this URL with the latest terraform-aws-eks release
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-vpc-tags?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-vpc-tags?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-vpc-tags?ref=<VERSION>"
 >>>>>>> Stashed changes
@@ -97,7 +97,7 @@ variable "eks_cluster_name" {
 
 Next, configure DNS forwarding rules using the
 <<<<<<< Updated upstream
-[vpc-dns-forwarder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-dns-forwarder) module in
+[vpc-dns-forwarder](https://github.com/tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-dns-forwarder) module in
 =======
 [vpc-dns-forwarder](https://github.com/tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-dns-forwarder) module in
 >>>>>>> Stashed changes
@@ -113,7 +113,7 @@ You must be a <span className="js-subscribe-cta">Gruntwork subscriber</span> to 
 module "dns_mgmt_to_app" {
   # Make sure to replace <VERSION> in this URL with the latest module-vpc release
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-dns-forwarder?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-dns-forwarder?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-dns-forwarder?ref=<VERSION>"
 >>>>>>> Stashed changes
@@ -148,7 +148,7 @@ git push --follow-tags
 :::info
 
 <<<<<<< Updated upstream
-This guide will use [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt) and its associated file and folder
+This guide will use [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt) and its associated file and folder
 =======
 This guide will use [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt) and its associated file and folder
 >>>>>>> Stashed changes

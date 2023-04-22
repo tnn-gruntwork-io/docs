@@ -2,7 +2,7 @@
 
 The first step is to deploy a management VPC for DevOps tooling, such as a CI server or a bastion host. To do this, you
 <<<<<<< Updated upstream
-can use the [`vpc-mgmt`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-mgmt) module from the
+can use the [`vpc-mgmt`](https://github.com/tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-mgmt) module from the
 =======
 can use the [`vpc-mgmt`](https://github.com/tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-mgmt) module from the
 >>>>>>> Stashed changes
@@ -17,7 +17,7 @@ You must be a <span className="js-subscribe-cta">Gruntwork subscriber</span> to 
 This module assumes you do not run any data stores in the management VPC, so it solely contains two tiers of subnets,
 public and private-app. If you will be deploying data stores in the management VPC (e.g., a relational database for
 <<<<<<< Updated upstream
-SonarQube), then use [`vpc-app`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-app) instead, which has
+SonarQube), then use [`vpc-app`](https://github.com/tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-app) instead, which has
 =======
 SonarQube), then use [`vpc-app`](https://github.com/tnn-gruntwork-io/module-vpc/tree/master/modules/vpc-app) instead, which has
 >>>>>>> Stashed changes
@@ -61,7 +61,7 @@ terraform {
 
 Next, use the `vpc-mgmt` module from the Gruntwork Infrastructure as Code Library, making sure to replace the `<VERSION>` placeholder
 <<<<<<< Updated upstream
-with the latest version from the [releases page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/releases):
+with the latest version from the [releases page](https://github.com/tnn-gruntwork-io/module-vpc/releases):
 =======
 with the latest version from the [releases page](https://github.com/tnn-gruntwork-io/module-vpc/releases):
 >>>>>>> Stashed changes
@@ -70,7 +70,7 @@ with the latest version from the [releases page](https://github.com/tnn-gruntwor
 module "vpc" {
   # Make sure to replace <VERSION> in this URL with the latest module-vpc release
 <<<<<<< Updated upstream
-  source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-mgmt?ref=<VERSION>"
+  source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-mgmt?ref=<VERSION>"
 =======
   source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-mgmt?ref=<VERSION>"
 >>>>>>> Stashed changes
@@ -86,7 +86,7 @@ module "vpc" {
 
 All of the parameters should be exposed as input variables in `variables.tf`; see this
 <<<<<<< Updated upstream
-[variables.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-mgmt/variables.tf)
+[variables.tf](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-mgmt/variables.tf)
 =======
 [variables.tf](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-mgmt/variables.tf)
 >>>>>>> Stashed changes
@@ -102,7 +102,7 @@ Infrastructure as Code Library:
 module "vpc_network_acls" {
   # Make sure to replace <VERSION> in this URL with the latest module-vpc release
 <<<<<<< Updated upstream
-  source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-mgmt-network-acls?ref=<VERSION>"
+  source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-mgmt-network-acls?ref=<VERSION>"
 =======
   source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-mgmt-network-acls?ref=<VERSION>"
 >>>>>>> Stashed changes
@@ -123,7 +123,7 @@ module "vpc_network_acls" {
 Finally, expose all of the `vpc-mgmt` module outputs as outputs of your `vpc-mgmt` wrapper module. There are a large
 number of outputs, so see this
 <<<<<<< Updated upstream
-[outputs.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-mgmt/outputs.tf)
+[outputs.tf](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-mgmt/outputs.tf)
 =======
 [outputs.tf](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/vpc-mgmt/outputs.tf)
 >>>>>>> Stashed changes
@@ -176,7 +176,7 @@ route table entries, more bastion hosts, and more credentials.
 :::info
 
 <<<<<<< Updated upstream
-This guide will use [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt) and its associated file and folder
+This guide will use [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt) and its associated file and folder
 =======
 This guide will use [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt) and its associated file and folder
 >>>>>>> Stashed changes

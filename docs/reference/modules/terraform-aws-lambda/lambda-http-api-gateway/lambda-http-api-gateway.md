@@ -23,9 +23,9 @@ built-with: terraform
 -->
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.7" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.7" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -46,7 +46,7 @@ they can be invoked on HTTP calls.
 
 If you are looking for a simple proxy to route all requests to a Lambda function, refer to the
 <<<<<<< Updated upstream
-[api-gateway-proxy](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy) module.
+[api-gateway-proxy](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy) module.
 =======
 [api-gateway-proxy](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy) module.
 >>>>>>> Stashed changes
@@ -81,7 +81,7 @@ If you’ve never used the Gruntwork Modules before, make sure to read
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/lambda-http-api-gateway](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples/lambda-http-api-gateway): This example contains sample code that uses
+*   [examples/lambda-http-api-gateway](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples/lambda-http-api-gateway): This example contains sample code that uses
 =======
 *   [examples/lambda-http-api-gateway](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples/lambda-http-api-gateway): This example contains sample code that uses
 >>>>>>> Stashed changes
@@ -109,7 +109,7 @@ information on route syntax that API Gateway expects.
 module "lambda_http_api_gateway" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-http-api-gateway?ref=v0.21.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-http-api-gateway?ref=v0.21.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-http-api-gateway?ref=v0.21.8"
 >>>>>>> Stashed changes
@@ -235,7 +235,7 @@ module "lambda_http_api_gateway" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-http-api-gateway?ref=v0.21.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-http-api-gateway?ref=v0.21.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-http-api-gateway?ref=v0.21.8"
 >>>>>>> Stashed changes
@@ -752,9 +752,9 @@ A map from the route keys to the IDs of the corresponding API Gateway V2 Route r
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway/variables.tf",

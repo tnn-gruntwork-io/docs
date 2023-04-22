@@ -5,7 +5,7 @@ Terragrunt configurations in the [Gruntwork Reference
 Architecture](https://gruntwork.io/reference-architecture/) by leveraging the
 multi-include feature of Terragrunt that has been introduced in
 <<<<<<< Updated upstream
-[v0.32.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt/releases/tag/v0.32.0).
+[v0.32.0](https://github.com/tnn-gruntwork-io/terragrunt/releases/tag/v0.32.0).
 =======
 [v0.32.0](https://github.com/tnn-gruntwork-io/terragrunt/releases/tag/v0.32.0).
 >>>>>>> Stashed changes
