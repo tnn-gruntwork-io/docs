@@ -292,7 +292,7 @@ AWS Account or Organization.
 To achieve this compliance requirement, enable the IAM Access Analyzer service for every AWS region you have enabled in
 every one of your AWS accounts. Alternatively, you could make use of the
 <<<<<<< Updated upstream
-[`iam-access-analyzer-multi-region`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/iam-access-analyzer-multi-region)
+[`iam-access-analyzer-multi-region`](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/iam-access-analyzer-multi-region)
 =======
 [`iam-access-analyzer-multi-region`](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/iam-access-analyzer-multi-region)
 >>>>>>> Stashed changes

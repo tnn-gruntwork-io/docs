@@ -5894,9 +5894,9 @@ dns-packet@^5.2.2:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
 <<<<<<< Updated upstream
-"docs-sourcer@git+ssh://git@github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/docs-sourcer.git#v0.9":
+"docs-sourcer@git+ssh://git@github.com/tnn-gruntwork-io/docs-sourcer.git#v0.9":
   version "0.0.1"
-  resolved "git+ssh://git@github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/docs-sourcer.git#2e4819dc5e523ffb06694280cb369245a01a5512"
+  resolved "git+ssh://git@github.com/tnn-gruntwork-io/docs-sourcer.git#2e4819dc5e523ffb06694280cb369245a01a5512"
 =======
 "docs-sourcer@git+ssh://git@github.com/tnn-gruntwork-io/docs-sourcer.git#v0.9":
   version "0.0.1"
@@ -11242,9 +11242,9 @@ trough@^1.0.0:
   integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
 
 <<<<<<< Updated upstream
-ts-commons@tnn-tnn-tnn-tnn-tnn-gruntwork-io/ts-commons#v1.0.0:
+ts-commons@tnn-gruntwork-io/ts-commons#v1.0.0:
   version "1.0.0"
-  resolved "git+ssh://git@github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/ts-commons.git#1a56fec327ea602b4472663599c63ec6118b7f01"
+  resolved "git+ssh://git@github.com/tnn-gruntwork-io/ts-commons.git#1a56fec327ea602b4472663599c63ec6118b7f01"
 =======
 ts-commons@tnn-gruntwork-io/ts-commons#v1.0.0:
   version "1.0.0"

@@ -1,7 +1,7 @@
 # Clean up Default VPCs and Security Groups
 
 <<<<<<< Updated upstream
-In each of your production accounts, use [cloud-nuke](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/cloud-nuke) to remove the Default
+In each of your production accounts, use [cloud-nuke](https://github.com/tnn-gruntwork-io/cloud-nuke) to remove the Default
 =======
 In each of your production accounts, use [cloud-nuke](https://github.com/tnn-gruntwork-io/cloud-nuke) to remove the Default
 >>>>>>> Stashed changes

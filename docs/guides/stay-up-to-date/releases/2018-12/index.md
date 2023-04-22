@@ -30,10 +30,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.1.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/releases/tag/v0.1.3)
+### [v0.1.3](https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/21/2018 | Modules affected: kubergrunt | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/releases/tag/v0.1.3">Release notes</a></small>
+  <small>Published: 12/21/2018 | Modules affected: kubergrunt | <a href="https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.3">Release notes</a></small>
 =======
 ### [v0.1.3](https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.3)
 
@@ -60,7 +60,7 @@ The command will then:
 
 
 <<<<<<< Updated upstream
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/pull/31
+- https://github.com/tnn-gruntwork-io/package-k8s/pull/31
 =======
 - https://github.com/tnn-gruntwork-io/package-k8s/pull/31
 >>>>>>> Stashed changes
@@ -69,10 +69,10 @@ The command will then:
 
 
 <<<<<<< Updated upstream
-### [v0.1.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/releases/tag/v0.1.2)
+### [v0.1.2](https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/21/2018 | Modules affected: eks-k8s-role-mapping, eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/releases/tag/v0.1.2">Release notes</a></small>
+  <small>Published: 12/21/2018 | Modules affected: eks-k8s-role-mapping, eks-cluster-control-plane | <a href="https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.2">Release notes</a></small>
 =======
 ### [v0.1.2](https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.2)
 
@@ -103,8 +103,8 @@ ap-northeast-1
 
 
 <<<<<<< Updated upstream
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/pull/41
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/pull/42
+- https://github.com/tnn-gruntwork-io/package-k8s/pull/41
+- https://github.com/tnn-gruntwork-io/package-k8s/pull/42
 =======
 - https://github.com/tnn-gruntwork-io/package-k8s/pull/41
 - https://github.com/tnn-gruntwork-io/package-k8s/pull/42
@@ -114,10 +114,10 @@ ap-northeast-1
 
 
 <<<<<<< Updated upstream
-### [v0.1.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/releases/tag/v0.1.1)
+### [v0.1.1](https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/19/2018 | Modules affected: eks-k8s-role-mapping, kubergrunt | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/releases/tag/v0.1.1">Release notes</a></small>
+  <small>Published: 12/19/2018 | Modules affected: eks-k8s-role-mapping, kubergrunt | <a href="https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.1">Release notes</a></small>
 =======
 ### [v0.1.1](https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.1)
 
@@ -143,7 +143,7 @@ ap-northeast-1
 
 
 <<<<<<< Updated upstream
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/pull/37
+- https://github.com/tnn-gruntwork-io/package-k8s/pull/37
 =======
 - https://github.com/tnn-gruntwork-io/package-k8s/pull/37
 >>>>>>> Stashed changes
@@ -152,10 +152,10 @@ ap-northeast-1
 
 
 <<<<<<< Updated upstream
-### [v0.1.1-1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/releases/tag/v0.1.1-1)
+### [v0.1.1-1](https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.1-1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/19/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/releases/tag/v0.1.1-1">Release notes</a></small>
+  <small>Published: 12/19/2018 | <a href="https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.1-1">Release notes</a></small>
 =======
 ### [v0.1.1-1](https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.1-1)
 
@@ -172,10 +172,10 @@ ap-northeast-1
 
 
 <<<<<<< Updated upstream
-### [v0.1.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/releases/tag/v0.1.0)
+### [v0.1.0](https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/1/2018 | Modules affected: eks-k8s-role-mapping, kubergrunt, k8s-scripts, install-aws-iam-authenticator | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/releases/tag/v0.1.0">Release notes</a></small>
+  <small>Published: 12/1/2018 | Modules affected: eks-k8s-role-mapping, kubergrunt, k8s-scripts, install-aws-iam-authenticator | <a href="https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.0">Release notes</a></small>
 =======
 ### [v0.1.0](https://github.com/tnn-gruntwork-io/package-k8s/releases/tag/v0.1.0)
 
@@ -200,7 +200,7 @@ ap-northeast-1
 
 
 <<<<<<< Updated upstream
-To upgrade to this version, install `kubergrunt` by following [the installation instructions](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/tree/master/modules/kubergrunt).
+To upgrade to this version, install `kubergrunt` by following [the installation instructions](https://github.com/tnn-gruntwork-io/package-k8s/tree/master/modules/kubergrunt).
 =======
 To upgrade to this version, install `kubergrunt` by following [the installation instructions](https://github.com/tnn-gruntwork-io/package-k8s/tree/master/modules/kubergrunt).
 >>>>>>> Stashed changes
@@ -209,11 +209,11 @@ To upgrade to this version, install `kubergrunt` by following [the installation 
 
 - This release is not intended to be used in production, as core features of a production grade infrastructure are still missing. This is currently intended to be used for development and learning purposes so that you can plan out a migration to Gruntwork modules for managing EKS.
 <<<<<<< Updated upstream
-- This release is not tested with windows. Please file any bugs/issues you run into on [the issue tracker](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/issues).
+- This release is not tested with windows. Please file any bugs/issues you run into on [the issue tracker](https://github.com/tnn-gruntwork-io/package-k8s/issues).
 
 
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/pull/29
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-k8s/pull/30
+- https://github.com/tnn-gruntwork-io/package-k8s/pull/29
+- https://github.com/tnn-gruntwork-io/package-k8s/pull/30
 =======
 - This release is not tested with windows. Please file any bugs/issues you run into on [the issue tracker](https://github.com/tnn-gruntwork-io/package-k8s/issues).
 
@@ -230,10 +230,10 @@ To upgrade to this version, install `kubergrunt` by following [the installation 
 
 
 <<<<<<< Updated upstream
-### [v0.6.22](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.22)
+### [v0.6.22](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.22)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/20/2018 | Modules affected: server-group | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.22">Release notes</a></small>
+  <small>Published: 12/20/2018 | Modules affected: server-group | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.22">Release notes</a></small>
 =======
 ### [v0.6.22](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.22)
 
@@ -252,7 +252,7 @@ To upgrade to this version, install `kubergrunt` by following [the installation 
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/54
+* https://github.com/tnn-gruntwork-io/module-asg/pull/54
 =======
 * https://github.com/tnn-gruntwork-io/module-asg/pull/54
 >>>>>>> Stashed changes
@@ -261,10 +261,10 @@ To upgrade to this version, install `kubergrunt` by following [the installation 
 
 
 <<<<<<< Updated upstream
-### [v0.6.21](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.21)
+### [v0.6.21](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.21)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/18/2018 | Modules affected: server-group | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.21">Release notes</a></small>
+  <small>Published: 12/18/2018 | Modules affected: server-group | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.21">Release notes</a></small>
 =======
 ### [v0.6.21](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.21)
 
@@ -283,7 +283,7 @@ To upgrade to this version, install `kubergrunt` by following [the installation 
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/52
+* https://github.com/tnn-gruntwork-io/module-asg/pull/52
 =======
 * https://github.com/tnn-gruntwork-io/module-asg/pull/52
 >>>>>>> Stashed changes
@@ -292,10 +292,10 @@ To upgrade to this version, install `kubergrunt` by following [the installation 
 
 
 <<<<<<< Updated upstream
-### [v0.6.20](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.20)
+### [v0.6.20](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.20)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/11/2018 | Modules affected: server-group | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.20">Release notes</a></small>
+  <small>Published: 12/11/2018 | Modules affected: server-group | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.20">Release notes</a></small>
 =======
 ### [v0.6.20](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.20)
 
@@ -314,7 +314,7 @@ To upgrade to this version, install `kubergrunt` by following [the installation 
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/49
+* https://github.com/tnn-gruntwork-io/module-asg/pull/49
 =======
 * https://github.com/tnn-gruntwork-io/module-asg/pull/49
 >>>>>>> Stashed changes
@@ -327,10 +327,10 @@ To upgrade to this version, install `kubergrunt` by following [the installation 
 
 
 <<<<<<< Updated upstream
-### [v0.0.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.4)
+### [v0.0.4](https://github.com/tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/17/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.4">Release notes</a></small>
+  <small>Published: 12/17/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.4">Release notes</a></small>
 =======
 ### [v0.0.4](https://github.com/tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.4)
 
@@ -348,10 +348,10 @@ Added extra retry logic to application_deployer
 
 
 <<<<<<< Updated upstream
-### [v0.0.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.3)
+### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/14/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.3">Release notes</a></small>
+  <small>Published: 12/14/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.3">Release notes</a></small>
 =======
 ### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.3)
 
@@ -368,10 +368,10 @@ Added extra retry logic to application_deployer
 
 
 <<<<<<< Updated upstream
-### [v0.0.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.2)
+### [v0.0.2](https://github.com/tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/14/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.2">Release notes</a></small>
+  <small>Published: 12/14/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.2">Release notes</a></small>
 =======
 ### [v0.0.2](https://github.com/tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.2)
 
@@ -393,10 +393,10 @@ Secondarily - change the bucket_id input to be a bucket_name input in the applic
 
 
 <<<<<<< Updated upstream
-### [v0.0.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.1)
+### [v0.0.1](https://github.com/tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/6/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.1">Release notes</a></small>
+  <small>Published: 12/6/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.1">Release notes</a></small>
 =======
 ### [v0.0.1](https://github.com/tnn-gruntwork-io/terraform-aws-beanstalk/releases/tag/v0.0.1)
 
@@ -428,10 +428,10 @@ See the main README for more information.
 
 
 <<<<<<< Updated upstream
-### [v0.13.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.6)
+### [v0.13.6](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/11/2018 | Modules affected: jenkins-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.6">Release notes</a></small>
+  <small>Published: 12/11/2018 | Modules affected: jenkins-server | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.6">Release notes</a></small>
 =======
 ### [v0.13.6](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.6)
 
@@ -450,7 +450,7 @@ See the main README for more information.
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/81
+* https://github.com/tnn-gruntwork-io/module-ci/pull/81
 =======
 * https://github.com/tnn-gruntwork-io/module-ci/pull/81
 >>>>>>> Stashed changes
@@ -459,10 +459,10 @@ See the main README for more information.
 
 
 <<<<<<< Updated upstream
-### [v0.13.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.5)
+### [v0.13.5](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/6/2018 | Modules affected: jenkins-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.5">Release notes</a></small>
+  <small>Published: 12/6/2018 | Modules affected: jenkins-server | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.5">Release notes</a></small>
 =======
 ### [v0.13.5](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.5)
 
@@ -481,7 +481,7 @@ See the main README for more information.
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/pull/80
+* https://github.com/tnn-gruntwork-io/module-ci/pull/80
 =======
 * https://github.com/tnn-gruntwork-io/module-ci/pull/80
 >>>>>>> Stashed changes
@@ -494,10 +494,10 @@ See the main README for more information.
 
 
 <<<<<<< Updated upstream
-### [v0.8.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.4)
+### [v0.8.4](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/13/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.4">Release notes</a></small>
+  <small>Published: 12/13/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.4">Release notes</a></small>
 =======
 ### [v0.8.4](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.4)
 
@@ -522,10 +522,10 @@ Postgres 10 on RDS uses a slightly different format for the default parameter gr
 
 
 <<<<<<< Updated upstream
-### [v0.8.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.3)
+### [v0.8.3](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/11/2018 | Modules affected: lambda-cleanup-snapshots, lambda-copy-shared-snapshot, lambda-create-snapshot, lambda-share-snapshot | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.3">Release notes</a></small>
+  <small>Published: 12/11/2018 | Modules affected: lambda-cleanup-snapshots, lambda-copy-shared-snapshot, lambda-create-snapshot, lambda-share-snapshot | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.3">Release notes</a></small>
 =======
 ### [v0.8.3](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.3)
 
@@ -547,7 +547,7 @@ Postgres 10 on RDS uses a slightly different format for the default parameter gr
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/68
+* https://github.com/tnn-gruntwork-io/module-data-storage/pull/68
 =======
 * https://github.com/tnn-gruntwork-io/module-data-storage/pull/68
 >>>>>>> Stashed changes
@@ -556,10 +556,10 @@ Postgres 10 on RDS uses a slightly different format for the default parameter gr
 
 
 <<<<<<< Updated upstream
-### [v0.8.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.2)
+### [v0.8.2](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/6/2018 | Modules affected: lambda-cleanup-snapshots, lambda-copy-shared-snapshot, lambda-create-snapshot, lambda-share-snapshot | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.2">Release notes</a></small>
+  <small>Published: 12/6/2018 | Modules affected: lambda-cleanup-snapshots, lambda-copy-shared-snapshot, lambda-create-snapshot, lambda-share-snapshot | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.2">Release notes</a></small>
 =======
 ### [v0.8.2](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.8.2)
 
@@ -581,7 +581,7 @@ Postgres 10 on RDS uses a slightly different format for the default parameter gr
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/67
+* https://github.com/tnn-gruntwork-io/module-data-storage/pull/67
 =======
 * https://github.com/tnn-gruntwork-io/module-data-storage/pull/67
 >>>>>>> Stashed changes
@@ -594,10 +594,10 @@ Postgres 10 on RDS uses a slightly different format for the default parameter gr
 
 
 <<<<<<< Updated upstream
-### [v0.10.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.10.3)
+### [v0.10.3](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.10.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/8/2018 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.10.3">Release notes</a></small>
+  <small>Published: 12/8/2018 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.10.3">Release notes</a></small>
 =======
 ### [v0.10.3](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.10.3)
 
@@ -616,7 +616,7 @@ Postgres 10 on RDS uses a slightly different format for the default parameter gr
 
 
 <<<<<<< Updated upstream
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/102
+- https://github.com/tnn-gruntwork-io/module-ecs/pull/102
 =======
 - https://github.com/tnn-gruntwork-io/module-ecs/pull/102
 >>>>>>> Stashed changes
@@ -629,10 +629,10 @@ Postgres 10 on RDS uses a slightly different format for the default parameter gr
 
 
 <<<<<<< Updated upstream
-### [v0.4.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.3)
+### [v0.4.3](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/10/2018 | Modules affected: install-kafka | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.3">Release notes</a></small>
+  <small>Published: 12/10/2018 | Modules affected: install-kafka | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.3">Release notes</a></small>
 =======
 ### [v0.4.3](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.4.3)
 
@@ -651,7 +651,7 @@ Postgres 10 on RDS uses a slightly different format for the default parameter gr
 
 
 <<<<<<< Updated upstream
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/44
+- https://github.com/tnn-gruntwork-io/package-kafka/pull/44
 =======
 - https://github.com/tnn-gruntwork-io/package-kafka/pull/44
 >>>>>>> Stashed changes
@@ -664,10 +664,10 @@ Postgres 10 on RDS uses a slightly different format for the default parameter gr
 
 
 <<<<<<< Updated upstream
-### [v0.5.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.5.0)
+### [v0.5.0](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.5.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/10/2018 | Modules affected: lambda, lambda_edge | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.5.0">Release notes</a></small>
+  <small>Published: 12/10/2018 | Modules affected: lambda, lambda_edge | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.5.0">Release notes</a></small>
 =======
 ### [v0.5.0](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.5.0)
 
@@ -688,7 +688,7 @@ Postgres 10 on RDS uses a slightly different format for the default parameter gr
 
 
 <<<<<<< Updated upstream
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-lambda/pull/28
+- https://github.com/tnn-gruntwork-io/package-lambda/pull/28
 =======
 - https://github.com/tnn-gruntwork-io/package-lambda/pull/28
 >>>>>>> Stashed changes
@@ -697,10 +697,10 @@ Postgres 10 on RDS uses a slightly different format for the default parameter gr
 
 
 <<<<<<< Updated upstream
-### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.4.0)
+### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/6/2018 | Modules affected: lambda | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.4.0">Release notes</a></small>
+  <small>Published: 12/6/2018 | Modules affected: lambda | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.4.0">Release notes</a></small>
 =======
 ### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.4.0)
 
@@ -722,7 +722,7 @@ To upgrade to this version, remove the `wait_for` input parameter in all calls t
 
 
 <<<<<<< Updated upstream
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-lambda/pull/27
+- https://github.com/tnn-gruntwork-io/package-lambda/pull/27
 =======
 - https://github.com/tnn-gruntwork-io/package-lambda/pull/27
 >>>>>>> Stashed changes
@@ -735,10 +735,10 @@ To upgrade to this version, remove the `wait_for` input parameter in all calls t
 
 
 <<<<<<< Updated upstream
-### [v0.1.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.3)
+### [v0.1.3](https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/20/2018 | Modules affected: sqs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.3">Release notes</a></small>
+  <small>Published: 12/20/2018 | Modules affected: sqs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.3">Release notes</a></small>
 =======
 ### [v0.1.3](https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.3)
 
@@ -761,8 +761,8 @@ The `sqs` module now exposes several new input parameters:
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging/pull/11
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging/pull/12
+* https://github.com/tnn-gruntwork-io/package-messaging/pull/11
+* https://github.com/tnn-gruntwork-io/package-messaging/pull/12
 =======
 * https://github.com/tnn-gruntwork-io/package-messaging/pull/11
 * https://github.com/tnn-gruntwork-io/package-messaging/pull/12
@@ -772,10 +772,10 @@ The `sqs` module now exposes several new input parameters:
 
 
 <<<<<<< Updated upstream
-### [v0.1.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.2)
+### [v0.1.2](https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/19/2018 | Modules affected: sqs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.2">Release notes</a></small>
+  <small>Published: 12/19/2018 | Modules affected: sqs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.2">Release notes</a></small>
 =======
 ### [v0.1.2](https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.1.2)
 
@@ -794,7 +794,7 @@ The `sqs` module now exposes several new input parameters:
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging/pull/10
+* https://github.com/tnn-gruntwork-io/package-messaging/pull/10
 =======
 * https://github.com/tnn-gruntwork-io/package-messaging/pull/10
 >>>>>>> Stashed changes
@@ -807,10 +807,10 @@ The `sqs` module now exposes several new input parameters:
 
 
 <<<<<<< Updated upstream
-### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-mongodb/releases/tag/v0.3.0)
+### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-mongodb/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/11/2018 | Modules affected: install-mongodb | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-mongodb/releases/tag/v0.3.0">Release notes</a></small>
+  <small>Published: 12/11/2018 | Modules affected: install-mongodb | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-mongodb/releases/tag/v0.3.0">Release notes</a></small>
 =======
 ### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-mongodb/releases/tag/v0.3.0)
 
@@ -829,7 +829,7 @@ The `sqs` module now exposes several new input parameters:
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-mongodb/pull/27: 
+* https://github.com/tnn-gruntwork-io/package-mongodb/pull/27: 
 =======
 * https://github.com/tnn-gruntwork-io/package-mongodb/pull/27: 
 >>>>>>> Stashed changes
@@ -842,10 +842,10 @@ The `sqs` module now exposes several new input parameters:
 
 
 <<<<<<< Updated upstream
-### [v0.10.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.2)
+### [v0.10.2](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/17/2018 | Modules affected: cloudwatch-dashboard-metric-widget, cloudwatch-dashboard-text-widget | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.2">Release notes</a></small>
+  <small>Published: 12/17/2018 | Modules affected: cloudwatch-dashboard-metric-widget, cloudwatch-dashboard-text-widget | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.2">Release notes</a></small>
 =======
 ### [v0.10.2](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.2)
 
@@ -869,8 +869,8 @@ To upgrade to this version, simply bump the value of the `ref` parameter on your
 
 
 <<<<<<< Updated upstream
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/pull/58
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/commit/2a040b6e24928b820899f49bca6e34a676d8a673
+- https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/58
+- https://github.com/tnn-gruntwork-io/module-aws-monitoring/commit/2a040b6e24928b820899f49bca6e34a676d8a673
 =======
 - https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/58
 - https://github.com/tnn-gruntwork-io/module-aws-monitoring/commit/2a040b6e24928b820899f49bca6e34a676d8a673
@@ -880,10 +880,10 @@ To upgrade to this version, simply bump the value of the `ref` parameter on your
 
 
 <<<<<<< Updated upstream
-### [v0.10.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.1)
+### [v0.10.1](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/4/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.1">Release notes</a></small>
+  <small>Published: 12/4/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.1">Release notes</a></small>
 =======
 ### [v0.10.1](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.10.1)
 
@@ -904,10 +904,10 @@ To upgrade to this version, simply bump the value of the `ref` parameter on your
 
 
 <<<<<<< Updated upstream
-### [v0.15.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.6)
+### [v0.15.6](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/11/2018 | Modules affected: cloudtrail | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.6">Release notes</a></small>
+  <small>Published: 12/11/2018 | Modules affected: cloudtrail | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.6">Release notes</a></small>
 =======
 ### [v0.15.6](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.15.6)
 
@@ -926,7 +926,7 @@ To upgrade to this version, simply bump the value of the `ref` parameter on your
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/124
+* https://github.com/tnn-gruntwork-io/module-security/pull/124
 =======
 * https://github.com/tnn-gruntwork-io/module-security/pull/124
 >>>>>>> Stashed changes
@@ -939,10 +939,10 @@ To upgrade to this version, simply bump the value of the `ref` parameter on your
 
 
 <<<<<<< Updated upstream
-### [v0.5.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.2)
+### [v0.5.2](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/6/2018 | Modules affected: persistent-ebs-volume | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.2">Release notes</a></small>
+  <small>Published: 12/6/2018 | Modules affected: persistent-ebs-volume | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.2">Release notes</a></small>
 =======
 ### [v0.5.2](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.2)
 
@@ -961,7 +961,7 @@ To upgrade to this version, simply bump the value of the `ref` parameter on your
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server/pull/37
+* https://github.com/tnn-gruntwork-io/module-server/pull/37
 =======
 * https://github.com/tnn-gruntwork-io/module-server/pull/37
 >>>>>>> Stashed changes
@@ -970,10 +970,10 @@ To upgrade to this version, simply bump the value of the `ref` parameter on your
 
 
 <<<<<<< Updated upstream
-### [v0.5.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.1)
+### [v0.5.1](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/3/2018 | Modules affected: persistent-ebs-volume | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.1">Release notes</a></small>
+  <small>Published: 12/3/2018 | Modules affected: persistent-ebs-volume | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.1">Release notes</a></small>
 =======
 ### [v0.5.1](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.5.1)
 
@@ -994,7 +994,7 @@ To upgrade to this version, simply bump the value of the `ref` parameter on your
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server/issues/35
+* https://github.com/tnn-gruntwork-io/module-server/issues/35
 =======
 * https://github.com/tnn-gruntwork-io/module-server/issues/35
 >>>>>>> Stashed changes
@@ -1007,10 +1007,10 @@ To upgrade to this version, simply bump the value of the `ref` parameter on your
 
 
 <<<<<<< Updated upstream
-### [v0.4.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.10)
+### [v0.4.10](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/20/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.10">Release notes</a></small>
+  <small>Published: 12/20/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.10">Release notes</a></small>
 =======
 ### [v0.4.10](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.10)
 
@@ -1031,7 +1031,7 @@ To upgrade to this version, simply bump the value of the `ref` parameter on your
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/36
+* https://github.com/tnn-gruntwork-io/package-zookeeper/pull/36
 =======
 * https://github.com/tnn-gruntwork-io/package-zookeeper/pull/36
 >>>>>>> Stashed changes

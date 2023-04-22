@@ -25,7 +25,7 @@ infrastructure-live
 ```
 
 <<<<<<< Updated upstream
-Point the `source` URL in your `terragrunt.hcl` file to the `account-baseline-app` module in the [terraform-aws-cis-service-catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog)
+Point the `source` URL in your `terragrunt.hcl` file to the `account-baseline-app` module in the [terraform-aws-cis-service-catalog](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog)
 =======
 Point the `source` URL in your `terragrunt.hcl` file to the `account-baseline-app` module in the [terraform-aws-cis-service-catalog](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog)
 >>>>>>> Stashed changes
@@ -34,7 +34,7 @@ repo, setting the `ref` param to the version you require:
 ```hcl title=infrastructure-live/stage/_global/account-baseline/terragrunt.hcl
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/landingzone/account-baseline-app?ref=v0.27.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/landingzone/account-baseline-app?ref=v0.27.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/landingzone/account-baseline-app?ref=v0.27.0"
 >>>>>>> Stashed changes
@@ -295,7 +295,7 @@ On some operating systems, such as MacOS, you may also need to increase your ope
    security account, and then assume the `allow-full-access-from-other-accounts` role in the dev account (you can find
    the default list of IAM roles created in each account
 <<<<<<< Updated upstream
-   [here](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/cross-account-iam-roles#resources-created)).
+   [here](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/cross-account-iam-roles#resources-created)).
 =======
    [here](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/cross-account-iam-roles#resources-created)).
 >>>>>>> Stashed changes

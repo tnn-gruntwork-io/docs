@@ -27,7 +27,7 @@ access to that account).
 
 These IAM groups don’t grant any IAM permissions, but instead are used by
 <<<<<<< Updated upstream
-[ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/ssh-grunt) to determine who is allowed
+[ssh-grunt](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/ssh-grunt) to determine who is allowed
 =======
 [ssh-grunt](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/ssh-grunt) to determine who is allowed
 >>>>>>> Stashed changes
@@ -44,7 +44,7 @@ that group, that user will be able to SSH to the corresponding EC2 instances usi
 
 You must be a <span className="js-subscribe-cta">Gruntwork subscriber</span> to access `ssh-grunt` in
 <<<<<<< Updated upstream
-[terraform-aws-security](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/).
+[terraform-aws-security](https://github.com/tnn-gruntwork-io/terraform-aws-security/).
 =======
 [terraform-aws-security](https://github.com/tnn-gruntwork-io/terraform-aws-security/).
 >>>>>>> Stashed changes

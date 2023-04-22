@@ -32,10 +32,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.3.6: var_files for dependencies](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.3.6)
+### [v0.3.6: var_files for dependencies](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.3.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/8/2020 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.3.6">Release notes</a></small>
+  <small>Published: 12/8/2020 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.3.6">Release notes</a></small>
 =======
 ### [v0.3.6: var_files for dependencies](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.3.6)
 
@@ -47,9 +47,9 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/73: You can now specify `var_files` to render dependencies with.
+  https://github.com/tnn-gruntwork-io/boilerplate/pull/73: You can now specify `var_files` to render dependencies with.
 
-https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/74: You can now marshal the `BoilerplateConfig` struct to YAML.
+https://github.com/tnn-gruntwork-io/boilerplate/pull/74: You can now marshal the `BoilerplateConfig` struct to YAML.
 =======
   https://github.com/tnn-gruntwork-io/boilerplate/pull/73: You can now specify `var_files` to render dependencies with.
 
@@ -60,10 +60,10 @@ https://github.com/tnn-gruntwork-io/boilerplate/pull/74: You can now marshal the
 
 
 <<<<<<< Updated upstream
-### [v0.3.6-alpha.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.3.6-alpha.1)
+### [v0.3.6-alpha.1](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.3.6-alpha.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/7/2020 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.3.6-alpha.1">Release notes</a></small>
+  <small>Published: 12/7/2020 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.3.6-alpha.1">Release notes</a></small>
 =======
 ### [v0.3.6-alpha.1](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.3.6-alpha.1)
 
@@ -80,10 +80,10 @@ https://github.com/tnn-gruntwork-io/boilerplate/pull/74: You can now marshal the
 
 
 <<<<<<< Updated upstream
-### [v0.3.5: jsonnet support](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.3.5)
+### [v0.3.5: jsonnet support](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.3.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/2/2020 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.3.5">Release notes</a></small>
+  <small>Published: 12/2/2020 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.3.5">Release notes</a></small>
 =======
 ### [v0.3.5: jsonnet support](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.3.5)
 
@@ -95,7 +95,7 @@ https://github.com/tnn-gruntwork-io/boilerplate/pull/74: You can now marshal the
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/72: We now support rendering jsonnet files as an alternative to go templating. See [the updated README](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate#alternative-template-engines-experimental) for more details.
+  https://github.com/tnn-gruntwork-io/boilerplate/pull/72: We now support rendering jsonnet files as an alternative to go templating. See [the updated README](https://github.com/tnn-gruntwork-io/boilerplate#alternative-template-engines-experimental) for more details.
 =======
   https://github.com/tnn-gruntwork-io/boilerplate/pull/72: We now support rendering jsonnet files as an alternative to go templating. See [the updated README](https://github.com/tnn-gruntwork-io/boilerplate#alternative-template-engines-experimental) for more details.
 >>>>>>> Stashed changes
@@ -108,10 +108,10 @@ https://github.com/tnn-gruntwork-io/boilerplate/pull/74: You can now marshal the
 
 
 <<<<<<< Updated upstream
-### [v0.0.1-20201218: Terraform 0.13 Compatibility](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/releases/tag/v0.0.1-20201218)
+### [v0.0.1-20201218: Terraform 0.13 Compatibility](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/releases/tag/v0.0.1-20201218)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/18/2020 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/releases/tag/v0.0.1-20201218">Release notes</a></small>
+  <small>Published: 12/18/2020 | <a href="https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/releases/tag/v0.0.1-20201218">Release notes</a></small>
 =======
 ### [v0.0.1-20201218: Terraform 0.13 Compatibility](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/releases/tag/v0.0.1-20201218)
 
@@ -134,16 +134,16 @@ Most modules do not require any changes to apply the Terraform 0.13 compatibilit
 
 
 <<<<<<< Updated upstream
-The `cloudtrail` module has several internal changes to how the S3 bucket is managed. You will need to perform state migrations to avoid recreating the bucket. Refer to the [upgrade guide](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/security/cloudtrail/migration_guides/upgrading_from_0_36_to_0_44.md) for detailed instructions on updating to this release.
+The `cloudtrail` module has several internal changes to how the S3 bucket is managed. You will need to perform state migrations to avoid recreating the bucket. Refer to the [upgrade guide](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/security/cloudtrail/migration_guides/upgrading_from_0_36_to_0_44.md) for detailed instructions on updating to this release.
 
 
-The `eks-cluster` module has several changes to avoid using external information in destroy provisioners. As a result a simple version bump will lead to various terraform errors due to incompatibility with the state. Refer to the [upgrade guide](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/services/eks-cluster/migration_guides/upgrading_from_0_28_to_0_44.md) for detailed instructions on how to resolve those errors.
+The `eks-cluster` module has several changes to avoid using external information in destroy provisioners. As a result a simple version bump will lead to various terraform errors due to incompatibility with the state. Refer to the [upgrade guide](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/services/eks-cluster/migration_guides/upgrading_from_0_28_to_0_44.md) for detailed instructions on how to resolve those errors.
 
 
-The `k8s-service` module includes a change to how the ALB Access Log S3 bucket is managed. You will need to perform state migrations to avoid recreating the bucket. Refer to the [upgrade guide](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/services/k8s-service/migration_guides/upgrading_to_terraform13.md) for detailed instructions on updating to this release.
+The `k8s-service` module includes a change to how the ALB Access Log S3 bucket is managed. You will need to perform state migrations to avoid recreating the bucket. Refer to the [upgrade guide](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/services/k8s-service/migration_guides/upgrading_to_terraform13.md) for detailed instructions on updating to this release.
 
 
-The `k8s-namespace` module includes a rename for one of the RBAC roles that are included with the Namespace. Refer to the [upgrade guide](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/services/k8s-namespace/migration_guides/upgrading_to_terraform13.md) for more information on the specifics of the rename, and how to avoid losing access in your services that depend on those roles.
+The `k8s-namespace` module includes a rename for one of the RBAC roles that are included with the Namespace. Refer to the [upgrade guide](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/services/k8s-namespace/migration_guides/upgrading_to_terraform13.md) for more information on the specifics of the rename, and how to avoid losing access in your services that depend on those roles.
 =======
 The `cloudtrail` module has several internal changes to how the S3 bucket is managed. You will need to perform state migrations to avoid recreating the bucket. Refer to the [upgrade guide](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/security/cloudtrail/migration_guides/upgrading_from_0_36_to_0_44.md) for detailed instructions on updating to this release.
 
@@ -162,7 +162,7 @@ The `rds` module includes a few changes to the CloudWatch alarms that are provis
 
 
 <<<<<<< Updated upstream
-The `alb` module includes a change to how the ALB Access Log S3 bucket is managed. You will need to perform state migrations to avoid recreating the bucket. Refer to the [upgrade guide](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/alb/migration_guides/upgrading_from_0_20_to_0_21.md) for detailed instructions on updating to this release.
+The `alb` module includes a change to how the ALB Access Log S3 bucket is managed. You will need to perform state migrations to avoid recreating the bucket. Refer to the [upgrade guide](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/alb/migration_guides/upgrading_from_0_20_to_0_21.md) for detailed instructions on updating to this release.
 =======
 The `alb` module includes a change to how the ALB Access Log S3 bucket is managed. You will need to perform state migrations to avoid recreating the bucket. Refer to the [upgrade guide](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/master/networking/alb/migration_guides/upgrading_from_0_20_to_0_21.md) for detailed instructions on updating to this release.
 >>>>>>> Stashed changes
@@ -175,10 +175,10 @@ The `alb` module includes a change to how the ALB Access Log S3 bucket is manage
 
 
 <<<<<<< Updated upstream
-### [v0.0.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.1)
+### [v0.0.1](https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/18/2020 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.1">Release notes</a></small>
+  <small>Published: 12/18/2020 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.1">Release notes</a></small>
 =======
 ### [v0.0.1](https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.1)
 
@@ -199,10 +199,10 @@ The `alb` module includes a change to how the ALB Access Log S3 bucket is manage
 
 
 <<<<<<< Updated upstream
-### [v0.29.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.5)
+### [v0.29.5](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/17/2020 | Modules affected: ecs-deploy-runner, build-helpers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.5">Release notes</a></small>
+  <small>Published: 12/17/2020 | Modules affected: ecs-deploy-runner, build-helpers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.5">Release notes</a></small>
 =======
 ### [v0.29.5](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.5)
 
@@ -226,10 +226,10 @@ The `alb` module includes a change to how the ALB Access Log S3 bucket is manage
 
 
 <<<<<<< Updated upstream
-### [v0.29.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.4)
+### [v0.29.4](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/10/2020 | Modules affected: build-helpers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.4">Release notes</a></small>
+  <small>Published: 12/10/2020 | Modules affected: build-helpers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.4">Release notes</a></small>
 =======
 ### [v0.29.4](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.4)
 
@@ -250,10 +250,10 @@ This release fixes a bug in `build-packer-artifact` script, where the `--idempot
 
 
 <<<<<<< Updated upstream
-### [v0.29.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.3)
+### [v0.29.3](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/10/2020 | Modules affected: ecs-deploy-runner | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.3">Release notes</a></small>
+  <small>Published: 12/10/2020 | Modules affected: ecs-deploy-runner | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.3">Release notes</a></small>
 =======
 ### [v0.29.3](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.29.3)
 
@@ -278,10 +278,10 @@ This release fixes a bug in `build-packer-artifact` script, where the `--idempot
 
 
 <<<<<<< Updated upstream
-### [v0.9.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.9.2)
+### [v0.9.2](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.9.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/17/2020 | Modules affected: cloudtrail | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.9.2">Release notes</a></small>
+  <small>Published: 12/17/2020 | Modules affected: cloudtrail | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.9.2">Release notes</a></small>
 =======
 ### [v0.9.2](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.9.2)
 
@@ -305,10 +305,10 @@ Configures data event logging for cloudtrail buckets, as per the 3.10 and 3.11 r
 
 
 <<<<<<< Updated upstream
-### [v0.9.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.9.1)
+### [v0.9.1](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.9.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/15/2020 | Modules affected: cleanup-expired-certs, cloudtrail, cloudwatch-logs-metric-filters | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.9.1">Release notes</a></small>
+  <small>Published: 12/15/2020 | Modules affected: cleanup-expired-certs, cloudtrail, cloudwatch-logs-metric-filters | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.9.1">Release notes</a></small>
 =======
 ### [v0.9.1](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.9.1)
 
@@ -335,10 +335,10 @@ Configures data event logging for cloudtrail buckets, as per the 3.10 and 3.11 r
 
 
 <<<<<<< Updated upstream
-### [v0.17.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.17.1)
+### [v0.17.1](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.17.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/8/2020 | Modules affected: aurora, rds | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.17.1">Release notes</a></small>
+  <small>Published: 12/8/2020 | Modules affected: aurora, rds | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.17.1">Release notes</a></small>
 =======
 ### [v0.17.1](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.17.1)
 
@@ -363,10 +363,10 @@ Configures data event logging for cloudtrail buckets, as per the 3.10 and 3.11 r
 
 
 <<<<<<< Updated upstream
-### [v0.23.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.23.3)
+### [v0.23.3](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.23.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/15/2020 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.23.3">Release notes</a></small>
+  <small>Published: 12/15/2020 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.23.3">Release notes</a></small>
 =======
 ### [v0.23.3](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.23.3)
 
@@ -387,10 +387,10 @@ You can now enable container insights on the ECS cluster deployed with the `ecs-
 
 
 <<<<<<< Updated upstream
-### [v0.23.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.23.2)
+### [v0.23.2](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.23.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/4/2020 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.23.2">Release notes</a></small>
+  <small>Published: 12/4/2020 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.23.2">Release notes</a></small>
 =======
 ### [v0.23.2](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.23.2)
 
@@ -415,10 +415,10 @@ You can now enable container insights on the ECS cluster deployed with the `ecs-
 
 
 <<<<<<< Updated upstream
-### [v0.31.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.2)
+### [v0.31.2](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/19/2020 | Modules affected: eks-cluster-managed-workers, eks-cluster-workers, eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.2">Release notes</a></small>
+  <small>Published: 12/19/2020 | Modules affected: eks-cluster-managed-workers, eks-cluster-workers, eks-cluster-control-plane | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.2">Release notes</a></small>
 =======
 ### [v0.31.2](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.2)
 
@@ -441,10 +441,10 @@ You can now enable container insights on the ECS cluster deployed with the `ecs-
 
 
 <<<<<<< Updated upstream
-### [v0.31.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.1)
+### [v0.31.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/16/2020 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.1">Release notes</a></small>
+  <small>Published: 12/16/2020 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.1">Release notes</a></small>
 =======
 ### [v0.31.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.1)
 
@@ -463,10 +463,10 @@ You can now enable container insights on the ECS cluster deployed with the `ecs-
 
 
 <<<<<<< Updated upstream
-### [v0.31.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.0)
+### [v0.31.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/15/2020 | Modules affected: eks-cluster-control-plane, eks-cluster-workers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.0">Release notes</a></small>
+  <small>Published: 12/15/2020 | Modules affected: eks-cluster-control-plane, eks-cluster-workers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.0">Release notes</a></small>
 =======
 ### [v0.31.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.31.0)
 
@@ -480,7 +480,7 @@ You can now enable container insights on the ECS cluster deployed with the `ecs-
   
 
 <<<<<<< Updated upstream
-Various instance parameters are now overrideable in the `autoscaling_group_configurations`. Refer to the updated [variable definition](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/blob/5d829c98ef2bd8b50db2de49ac831118bfb09a8d/modules/eks-cluster-workers/variables.tf#L15) for more details on which attributes are available to override.
+Various instance parameters are now overrideable in the `autoscaling_group_configurations`. Refer to the updated [variable definition](https://github.com/tnn-gruntwork-io/terraform-aws-eks/blob/5d829c98ef2bd8b50db2de49ac831118bfb09a8d/modules/eks-cluster-workers/variables.tf#L15) for more details on which attributes are available to override.
 =======
 Various instance parameters are now overrideable in the `autoscaling_group_configurations`. Refer to the updated [variable definition](https://github.com/tnn-gruntwork-io/terraform-aws-eks/blob/5d829c98ef2bd8b50db2de49ac831118bfb09a8d/modules/eks-cluster-workers/variables.tf#L15) for more details on which attributes are available to override.
 >>>>>>> Stashed changes
@@ -491,10 +491,10 @@ Various instance parameters are now overrideable in the `autoscaling_group_confi
 
 
 <<<<<<< Updated upstream
-### [v0.30.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.30.0)
+### [v0.30.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.30.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/14/2020 | Modules affected: eks-cluster-control-plane, eks-alb-ingress-controller, All | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.30.0">Release notes</a></small>
+  <small>Published: 12/14/2020 | Modules affected: eks-cluster-control-plane, eks-alb-ingress-controller, All | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.30.0">Release notes</a></small>
 =======
 ### [v0.30.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.30.0)
 
@@ -535,7 +535,7 @@ We no longer allow `kubergrunt_install_dir` to be configurable. Kubergrunt is pr
 - :tada: Terraform `0.12.29` handles the changes to state much better than previous versions of `0.12`. This means you can probably skip steps 5-7 below!
 - If you&apos;re using a version of `terraform-aws-eks` older than `v0.29.x`, you should address all backward-incompatible changes from your current version to `v0.29.x`. That means going through every `v0.X.0` release.
 <<<<<<< Updated upstream
-- Make particular note of changes in `v0.28.0`: if you&apos;re using a version older than this, you can follow the instructions in the [release notes for v0.28.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.28.0) to ensure your Load Balancer resources are compatible with AWS Load Balancer Controller version 2. Otherwise, you may end up with Load Balancer resources, such as Security Groups, left behind when destroying the EKS cluster using the current (`v0.30.0`) version.
+- Make particular note of changes in `v0.28.0`: if you&apos;re using a version older than this, you can follow the instructions in the [release notes for v0.28.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.28.0) to ensure your Load Balancer resources are compatible with AWS Load Balancer Controller version 2. Otherwise, you may end up with Load Balancer resources, such as Security Groups, left behind when destroying the EKS cluster using the current (`v0.30.0`) version.
 =======
 - Make particular note of changes in `v0.28.0`: if you&apos;re using a version older than this, you can follow the instructions in the [release notes for v0.28.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.28.0) to ensure your Load Balancer resources are compatible with AWS Load Balancer Controller version 2. Otherwise, you may end up with Load Balancer resources, such as Security Groups, left behind when destroying the EKS cluster using the current (`v0.30.0`) version.
 >>>>>>> Stashed changes
@@ -548,7 +548,7 @@ We no longer allow `kubergrunt_install_dir` to be configurable. Kubergrunt is pr
     ```hcl
     module &quot;eks_cluster&quot; &#x7B;
 <<<<<<< Updated upstream
-      source = &quot;git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=v0.29.1&quot;
+      source = &quot;git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=v0.29.1&quot;
 =======
       source = &quot;git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=v0.29.1&quot;
 >>>>>>> Stashed changes
@@ -598,13 +598,13 @@ If you start with a running cluster using the old version (prior to this release
 We&apos;ve documented specific known issues regarding the destroy below.
 
 <<<<<<< Updated upstream
-The destroy step depends on Kubergrunt version ~0.6.7. Normally if you use the `eks-cluster-control-plane` module with default values for `var.auto_install_kubergrunt` and `var.use_kubergrunt_verification`, the right version of kubergrunt will be installed during `terraform plan`. If you change these values to avoid that install, or if you have installed an older version of kubergrunt, you will get an error when running `terraform destroy` that advises you to install it. For installation instructions, [look here](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/blob/master/README.md#installation).
+The destroy step depends on Kubergrunt version ~0.6.7. Normally if you use the `eks-cluster-control-plane` module with default values for `var.auto_install_kubergrunt` and `var.use_kubergrunt_verification`, the right version of kubergrunt will be installed during `terraform plan`. If you change these values to avoid that install, or if you have installed an older version of kubergrunt, you will get an error when running `terraform destroy` that advises you to install it. For installation instructions, [look here](https://github.com/tnn-gruntwork-io/kubergrunt/blob/master/README.md#installation).
 
-- If you have deployed the AWS Load balancer Ingress Controller (previously called AWS ALB Ingress Controller), you need to undeploy it before destroying the EKS cluster. If the Ingress Controller is still up while the EKS cluster is being destroyed, the clean up routine can deadlock with the controller because the resources being destroyed will be recreated by the controller. The destroy process will eventually time out. For example, if you are destroying an EKS cluster with supporting services (as in these examples: [Fargate](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/examples/eks-fargate-cluster-with-supporting-services), [Managed Workers](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/examples/eks-cluster-with-supporting-services)), you will need to first destroy `nginx-service`, then `core-services`, then `eks-cluster`.
+- If you have deployed the AWS Load balancer Ingress Controller (previously called AWS ALB Ingress Controller), you need to undeploy it before destroying the EKS cluster. If the Ingress Controller is still up while the EKS cluster is being destroyed, the clean up routine can deadlock with the controller because the resources being destroyed will be recreated by the controller. The destroy process will eventually time out. For example, if you are destroying an EKS cluster with supporting services (as in these examples: [Fargate](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/master/examples/eks-fargate-cluster-with-supporting-services), [Managed Workers](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/master/examples/eks-cluster-with-supporting-services)), you will need to first destroy `nginx-service`, then `core-services`, then `eks-cluster`.
 - Deleting Fargate profiles in AWS can take longer than anticipated. This can result in timeout errors during the destroy process. If you run into this issue, be advised that you may have to re-run `terraform destroy` a few times before it is able to proceed.
 - If you end up needing to re-run `terraform destroy` multiple times because of timeouts, be advised that you may still have to clean up Security Groups and the VPC associated with your cluster manually in the AWS Console UI. This is because the cleanup process that we run in kubergrunt will not re-run on the next `terraform destroy` call if the parent resource (the EKS cluster) is already destroyed. The unfortunate consequence is that any VPC you intended to delete will not be cleaned up because the Security Group remains. Since VPCs incur expenses, please make sure to clean up the leftover Security Group and VPC.
 
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/pull/224
+* https://github.com/tnn-gruntwork-io/terraform-aws-eks/pull/224
 =======
 The destroy step depends on Kubergrunt version ~0.6.7. Normally if you use the `eks-cluster-control-plane` module with default values for `var.auto_install_kubergrunt` and `var.use_kubergrunt_verification`, the right version of kubergrunt will be installed during `terraform plan`. If you change these values to avoid that install, or if you have installed an older version of kubergrunt, you will get an error when running `terraform destroy` that advises you to install it. For installation instructions, [look here](https://github.com/tnn-gruntwork-io/kubergrunt/blob/master/README.md#installation).
 
@@ -620,10 +620,10 @@ The destroy step depends on Kubergrunt version ~0.6.7. Normally if you use the `
 
 
 <<<<<<< Updated upstream
-### [v0.29.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.29.2)
+### [v0.29.2](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.29.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/14/2020 | Modules affected: eks-cluster-managed-workers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.29.2">Release notes</a></small>
+  <small>Published: 12/14/2020 | Modules affected: eks-cluster-managed-workers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.29.2">Release notes</a></small>
 =======
 ### [v0.29.2](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.29.2)
 
@@ -644,10 +644,10 @@ The destroy step depends on Kubergrunt version ~0.6.7. Normally if you use the `
 
 
 <<<<<<< Updated upstream
-### [v0.29.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.29.1)
+### [v0.29.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.29.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/1/2020 | Modules affected: eks-alb-ingress-controller, eks-k8s-cluster-autoscaler, eks-k8s-external-dns, eks-cluster-managed-workers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.29.1">Release notes</a></small>
+  <small>Published: 12/1/2020 | Modules affected: eks-alb-ingress-controller, eks-k8s-cluster-autoscaler, eks-k8s-external-dns, eks-cluster-managed-workers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.29.1">Release notes</a></small>
 =======
 ### [v0.29.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.29.1)
 
@@ -673,10 +673,10 @@ The destroy step depends on Kubergrunt version ~0.6.7. Normally if you use the `
 
 
 <<<<<<< Updated upstream
-### [v0.24.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.24.0)
+### [v0.24.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.24.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/1/2020 | Modules affected: logs/load-balancer-access-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.24.0">Release notes</a></small>
+  <small>Published: 12/1/2020 | Modules affected: logs/load-balancer-access-logs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.24.0">Release notes</a></small>
 =======
 ### [v0.24.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.24.0)
 
@@ -702,10 +702,10 @@ The `load-balancer-access-logs` module has been refactored to use the `private-s
 
 
 <<<<<<< Updated upstream
-### [v0.13.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.13.0)
+### [v0.13.0](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.13.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/3/2020 | Modules affected: openvpn-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.13.0">Release notes</a></small>
+  <small>Published: 12/3/2020 | Modules affected: openvpn-server | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.13.0">Release notes</a></small>
 =======
 ### [v0.13.0](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.13.0)
 
@@ -731,10 +731,10 @@ The `openvpn-server` module has been refactored to use the `private-s3-bucket` m
 
 
 <<<<<<< Updated upstream
-### [v0.44.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.6)
+### [v0.44.6](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/18/2020 | Modules affected: account-baseline-root, account-baseline-security, iam-access-analyzer-multi-region | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.6">Release notes</a></small>
+  <small>Published: 12/18/2020 | Modules affected: account-baseline-root, account-baseline-security, iam-access-analyzer-multi-region | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.6">Release notes</a></small>
 =======
 ### [v0.44.6](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.6)
 
@@ -763,10 +763,10 @@ The `iam-access-analyzer-multi-region` has been added, but is disabled at the le
 
 
 <<<<<<< Updated upstream
-### [v0.44.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.5)
+### [v0.44.5](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/16/2020 | Modules affected: cloudtrail | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.5">Release notes</a></small>
+  <small>Published: 12/16/2020 | Modules affected: cloudtrail | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.5">Release notes</a></small>
 =======
 ### [v0.44.5](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.5)
 
@@ -780,7 +780,7 @@ The `iam-access-analyzer-multi-region` has been added, but is disabled at the le
   
 
 <<<<<<< Updated upstream
-This release adds support for configuring [data event logging](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html) for cloudtrail buckets. Data event logging is configured using the newly introduced variables: `data_logging_enabled`, `data_logging_read_write_type`, `data_logging_include_management_events`, `data_logging_resource_type` and `data_logging_resource_values`. For detailed instructions see the [descriptions of these variables](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/blob/master/modules/cloudtrail/variables.tf#L158).
+This release adds support for configuring [data event logging](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html) for cloudtrail buckets. Data event logging is configured using the newly introduced variables: `data_logging_enabled`, `data_logging_read_write_type`, `data_logging_include_management_events`, `data_logging_resource_type` and `data_logging_resource_values`. For detailed instructions see the [descriptions of these variables](https://github.com/tnn-gruntwork-io/module-security/blob/master/modules/cloudtrail/variables.tf#L158).
 =======
 This release adds support for configuring [data event logging](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html) for cloudtrail buckets. Data event logging is configured using the newly introduced variables: `data_logging_enabled`, `data_logging_read_write_type`, `data_logging_include_management_events`, `data_logging_resource_type` and `data_logging_resource_values`. For detailed instructions see the [descriptions of these variables](https://github.com/tnn-gruntwork-io/module-security/blob/master/modules/cloudtrail/variables.tf#L158).
 >>>>>>> Stashed changes
@@ -792,10 +792,10 @@ This release adds support for configuring [data event logging](https://docs.aws.
 
 
 <<<<<<< Updated upstream
-### [v0.44.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.4)
+### [v0.44.4](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/15/2020 | Modules affected: account-baseline-app, account-baseline-root, account-baseline-security, cloudtrail-bucket | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.4">Release notes</a></small>
+  <small>Published: 12/15/2020 | Modules affected: account-baseline-app, account-baseline-root, account-baseline-security, cloudtrail-bucket | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.4">Release notes</a></small>
 =======
 ### [v0.44.4](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.4)
 
@@ -820,10 +820,10 @@ You can now attach `kms:DescribeKey` permissions to IAM entities on CMKs managed
 
 
 <<<<<<< Updated upstream
-### [v0.44.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.3)
+### [v0.44.3](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/10/2020 | Modules affected: cloudtrail | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.3">Release notes</a></small>
+  <small>Published: 12/10/2020 | Modules affected: cloudtrail | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.3">Release notes</a></small>
 =======
 ### [v0.44.3](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.3)
 
@@ -844,10 +844,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.44.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.2)
+### [v0.44.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/10/2020 | Modules affected: kms-grant-multi-region | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.2">Release notes</a></small>
+  <small>Published: 12/10/2020 | Modules affected: kms-grant-multi-region | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.2">Release notes</a></small>
 =======
 ### [v0.44.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.2)
 
@@ -868,10 +868,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.44.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.1)
+### [v0.44.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/3/2020 | Modules affected: private-s3-bucket | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.1">Release notes</a></small>
+  <small>Published: 12/3/2020 | Modules affected: private-s3-bucket | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.1">Release notes</a></small>
 =======
 ### [v0.44.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.44.1)
 
@@ -898,10 +898,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.9.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.9.4)
+### [v0.9.4](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.9.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/16/2020 | Modules affected: single-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.9.4">Release notes</a></small>
+  <small>Published: 12/16/2020 | Modules affected: single-server | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.9.4">Release notes</a></small>
 =======
 ### [v0.9.4](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.9.4)
 
@@ -927,10 +927,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.15.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.15.1)
+### [v0.15.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.15.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/18/2020 | Modules affected: services, mgmt, networking, base | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.15.1">Release notes</a></small>
+  <small>Published: 12/18/2020 | Modules affected: services, mgmt, networking, base | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.15.1">Release notes</a></small>
 =======
 ### [v0.15.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.15.1)
 
@@ -945,12 +945,12 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 - The `ecs-service` module accepts a new optional variable, `secrets_access`, which can be used to automatically create an IAM policy with `GetSecretValue` permission on the given secrets. 
 <<<<<<< Updated upstream
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci` to v0.29.5 ([release notes](https://togithub.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/releases/tag/v0.29.5))
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc` to v0.12.4 ([release notes](https://togithub.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.4))
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server` to v0.9.4 ([release notes](https://togithub.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server/releases/tag/v0.9.4))
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security` to ([v0.44.5](https://togithub.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/releases/tag/v0.44.5))
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs` to ([v0.23.3](https://togithub.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/releases/tag/v0.23.3))
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest` to ([v0.31.2](https://togithub.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/releases/tag/v0.31.2))
+- Update dependency `tnn-gruntwork-io/module-ci` to v0.29.5 ([release notes](https://togithub.com/tnn-gruntwork-io/module-ci/releases/tag/v0.29.5))
+- Update dependency `tnn-gruntwork-io/terraform-aws-vpc` to v0.12.4 ([release notes](https://togithub.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.4))
+- Update dependency `tnn-gruntwork-io/module-server` to v0.9.4 ([release notes](https://togithub.com/tnn-gruntwork-io/module-server/releases/tag/v0.9.4))
+- Update dependency `tnn-gruntwork-io/module-security` to ([v0.44.5](https://togithub.com/tnn-gruntwork-io/module-security/releases/tag/v0.44.5))
+- Update dependency `tnn-gruntwork-io/module-ecs` to ([v0.23.3](https://togithub.com/tnn-gruntwork-io/module-ecs/releases/tag/v0.23.3))
+- Update dependency `tnn-gruntwork-io/terratest` to ([v0.31.2](https://togithub.com/tnn-gruntwork-io/terratest/releases/tag/v0.31.2))
 =======
 - Update dependency `tnn-gruntwork-io/module-ci` to v0.29.5 ([release notes](https://togithub.com/tnn-gruntwork-io/module-ci/releases/tag/v0.29.5))
 - Update dependency `tnn-gruntwork-io/terraform-aws-vpc` to v0.12.4 ([release notes](https://togithub.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.4))
@@ -968,10 +968,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.14.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.14.1)
+### [v0.14.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.14.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/15/2020 | Modules affected: base, data-stores, landingzone, mgmt | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.14.1">Release notes</a></small>
+  <small>Published: 12/15/2020 | Modules affected: base, data-stores, landingzone, mgmt | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.14.1">Release notes</a></small>
 =======
 ### [v0.14.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.14.1)
 
@@ -985,7 +985,7 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
   
 
 <<<<<<< Updated upstream
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security`: `v0.44.3` =&gt; `v0.44.4` (Release notes: [v0.44.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/releases/tag/v0.44.4)).
+- Update dependency `tnn-gruntwork-io/module-security`: `v0.44.3` =&gt; `v0.44.4` (Release notes: [v0.44.4](https://github.com/tnn-gruntwork-io/module-security/releases/tag/v0.44.4)).
 =======
 - Update dependency `tnn-gruntwork-io/module-security`: `v0.44.3` =&gt; `v0.44.4` (Release notes: [v0.44.4](https://github.com/tnn-gruntwork-io/module-security/releases/tag/v0.44.4)).
 >>>>>>> Stashed changes
@@ -998,10 +998,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.14.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.14.0)
+### [v0.14.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.14.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/14/2020 | Modules affected: base, data-stores, landingzone, mgmt/openvpn-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.14.0">Release notes</a></small>
+  <small>Published: 12/14/2020 | Modules affected: base, data-stores, landingzone, mgmt/openvpn-server | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.14.0">Release notes</a></small>
 =======
 ### [v0.14.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.14.0)
 
@@ -1015,16 +1015,16 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
   
 
 <<<<<<< Updated upstream
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security`: `v0.44.2` =&gt; `v0.44.3` (Release notes: [v0.44.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/releases/tag/v0.44.3)).
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc`: `v0.12.2` =&gt; `v0.12.3` (Release notes: [v0.12.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.3)).
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci`: `v0.29.3` =&gt; `v0.29.4` (Release notes: [v0.29.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ci/releases/tag/v0.29.4)).
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest`: `v0.30.23` =&gt; `v0.31.1` (Release notes: [v0.30.24](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/releases/tag/v0.30.24), [v0.30.25](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/releases/tag/v0.30.25), [v0.30.26](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/releases/tag/v0.30.26), [v0.30.27](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/releases/tag/v0.30.27), [v0.31.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/releases/tag/v0.31.0), [v0.31.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/releases/tag/v0.31.1)).
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks`: `v0.29.0` =&gt; `v0.29.1` (Release notes: [v0.29.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.29.1)).
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt`: =&gt; `v0.6.7` (Release notes: [v0.6.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases/tag/v0.6.7)).
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring`: `v0.23.4` =&gt; `v0.24.0` (Release notes: [v0.24.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.24.0)). **NOTE: This includes a backwards incompatible change that affects the `k8s-service` and `alb` modules. Please read [the migration guide](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.24.0) in the terraform-aws-monitoring module release notes for more details!**
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs: `v0.23.0` =&gt; `v0.23.2` (Release notes: [v0.23.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/releases/tag/v0.23.1), [v0.23.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/releases/tag/v0.23.2)).
+- Update dependency `tnn-gruntwork-io/module-security`: `v0.44.2` =&gt; `v0.44.3` (Release notes: [v0.44.3](https://github.com/tnn-gruntwork-io/module-security/releases/tag/v0.44.3)).
+- Update dependency `tnn-gruntwork-io/terraform-aws-vpc`: `v0.12.2` =&gt; `v0.12.3` (Release notes: [v0.12.3](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.3)).
+- Update dependency `tnn-gruntwork-io/module-ci`: `v0.29.3` =&gt; `v0.29.4` (Release notes: [v0.29.4](https://github.com/tnn-gruntwork-io/module-ci/releases/tag/v0.29.4)).
+- Update dependency `tnn-gruntwork-io/terratest`: `v0.30.23` =&gt; `v0.31.1` (Release notes: [v0.30.24](https://github.com/tnn-gruntwork-io/terratest/releases/tag/v0.30.24), [v0.30.25](https://github.com/tnn-gruntwork-io/terratest/releases/tag/v0.30.25), [v0.30.26](https://github.com/tnn-gruntwork-io/terratest/releases/tag/v0.30.26), [v0.30.27](https://github.com/tnn-gruntwork-io/terratest/releases/tag/v0.30.27), [v0.31.0](https://github.com/tnn-gruntwork-io/terratest/releases/tag/v0.31.0), [v0.31.1](https://github.com/tnn-gruntwork-io/terratest/releases/tag/v0.31.1)).
+- Update dependency `tnn-gruntwork-io/terraform-aws-eks`: `v0.29.0` =&gt; `v0.29.1` (Release notes: [v0.29.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.29.1)).
+- Update dependency `tnn-gruntwork-io/kubergrunt`: =&gt; `v0.6.7` (Release notes: [v0.6.7](https://github.com/tnn-gruntwork-io/kubergrunt/releases/tag/v0.6.7)).
+- Update dependency `tnn-gruntwork-io/terraform-aws-monitoring`: `v0.23.4` =&gt; `v0.24.0` (Release notes: [v0.24.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.24.0)). **NOTE: This includes a backwards incompatible change that affects the `k8s-service` and `alb` modules. Please read [the migration guide](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.24.0) in the terraform-aws-monitoring module release notes for more details!**
+- Update dependency `tnn-gruntwork-io/module-ecs: `v0.23.0` =&gt; `v0.23.2` (Release notes: [v0.23.1](https://github.com/tnn-gruntwork-io/module-ecs/releases/tag/v0.23.1), [v0.23.2](https://github.com/tnn-gruntwork-io/module-ecs/releases/tag/v0.23.2)).
 
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-openvpn`: `v0.12.1` =&gt; `v0.13.0` (Release notes: [v0.13.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-openvpn/releases/tag/v0.13.0)). **NOTE: This includes a backwards incompatible change that affects the `openvpn-server` module. Please read [the migration guide](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-openvpn/releases/tag/v0.13.0) in the package-openvpn module release notes for more details!**
+- Update dependency `tnn-gruntwork-io/package-openvpn`: `v0.12.1` =&gt; `v0.13.0` (Release notes: [v0.13.0](https://github.com/tnn-gruntwork-io/package-openvpn/releases/tag/v0.13.0)). **NOTE: This includes a backwards incompatible change that affects the `openvpn-server` module. Please read [the migration guide](https://github.com/tnn-gruntwork-io/package-openvpn/releases/tag/v0.13.0) in the package-openvpn module release notes for more details!**
 =======
 - Update dependency `tnn-gruntwork-io/module-security`: `v0.44.2` =&gt; `v0.44.3` (Release notes: [v0.44.3](https://github.com/tnn-gruntwork-io/module-security/releases/tag/v0.44.3)).
 - Update dependency `tnn-gruntwork-io/terraform-aws-vpc`: `v0.12.2` =&gt; `v0.12.3` (Release notes: [v0.12.3](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.3)).
@@ -1045,10 +1045,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.13.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.13.0)
+### [v0.13.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.13.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/10/2020 | Modules affected: networking/vpc-mgmt, networking/vpc, data-stores, base | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.13.0">Release notes</a></small>
+  <small>Published: 12/10/2020 | Modules affected: networking/vpc-mgmt, networking/vpc, data-stores, base | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.13.0">Release notes</a></small>
 =======
 ### [v0.13.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.13.0)
 
@@ -1062,9 +1062,9 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
   
 
 <<<<<<< Updated upstream
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage`: `v0.16.3` =&gt; `v0.17.1` (Release notes: [v0.17.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/releases/tag/v0.17.0) ; [v0.17.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/releases/tag/v0.17.1)).
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc`: `v0.11.0` =&gt; `v0.12.2` (Release notes: [v0.12.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.0) ; [v0.12.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.1) ; [v0.12.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.2)). **NOTE: This includes a backwards incompatible change. Please read [the migration guide](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.0) in the `terraform-aws-vpc` module release notes for more details!**
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security`: `v0.44.1` =&gt; `v0.44.2` ([release notes](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/releases/tag/v0.44.2)).
+- Update dependency `tnn-gruntwork-io/module-data-storage`: `v0.16.3` =&gt; `v0.17.1` (Release notes: [v0.17.0](https://github.com/tnn-gruntwork-io/module-data-storage/releases/tag/v0.17.0) ; [v0.17.1](https://github.com/tnn-gruntwork-io/module-data-storage/releases/tag/v0.17.1)).
+- Update dependency `tnn-gruntwork-io/terraform-aws-vpc`: `v0.11.0` =&gt; `v0.12.2` (Release notes: [v0.12.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.0) ; [v0.12.1](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.1) ; [v0.12.2](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.2)). **NOTE: This includes a backwards incompatible change. Please read [the migration guide](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.0) in the `terraform-aws-vpc` module release notes for more details!**
+- Update dependency `tnn-gruntwork-io/module-security`: `v0.44.1` =&gt; `v0.44.2` ([release notes](https://github.com/tnn-gruntwork-io/module-security/releases/tag/v0.44.2)).
 =======
 - Update dependency `tnn-gruntwork-io/module-data-storage`: `v0.16.3` =&gt; `v0.17.1` (Release notes: [v0.17.0](https://github.com/tnn-gruntwork-io/module-data-storage/releases/tag/v0.17.0) ; [v0.17.1](https://github.com/tnn-gruntwork-io/module-data-storage/releases/tag/v0.17.1)).
 - Update dependency `tnn-gruntwork-io/terraform-aws-vpc`: `v0.11.0` =&gt; `v0.12.2` (Release notes: [v0.12.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.0) ; [v0.12.1](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.1) ; [v0.12.2](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.2)). **NOTE: This includes a backwards incompatible change. Please read [the migration guide](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.0) in the `terraform-aws-vpc` module release notes for more details!**
@@ -1078,10 +1078,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.12.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.12.1)
+### [v0.12.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.12.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/4/2020 | Modules affected: data-stores | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.12.1">Release notes</a></small>
+  <small>Published: 12/4/2020 | Modules affected: data-stores | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.12.1">Release notes</a></small>
 =======
 ### [v0.12.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.12.1)
 
@@ -1105,10 +1105,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.12.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.12.0)
+### [v0.12.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.12.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/4/2020 | Modules affected: mgmt, data-stores, base, landingzone | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.12.0">Release notes</a></small>
+  <small>Published: 12/4/2020 | Modules affected: mgmt, data-stores, base, landingzone | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.12.0">Release notes</a></small>
 =======
 ### [v0.12.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.12.0)
 
@@ -1122,7 +1122,7 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
   
 
 <<<<<<< Updated upstream
-- Update dependency `tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt` to v0.26.7
+- Update dependency `tnn-gruntwork-io/terragrunt` to v0.26.7
 =======
 - Update dependency `tnn-gruntwork-io/terragrunt` to v0.26.7
 >>>>>>> Stashed changes
@@ -1134,10 +1134,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.11.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.11.2)
+### [v0.11.2](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.11.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/1/2020 | Modules affected: data-stores, networking | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.11.2">Release notes</a></small>
+  <small>Published: 12/1/2020 | Modules affected: data-stores, networking | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.11.2">Release notes</a></small>
 =======
 ### [v0.11.2](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.11.2)
 
@@ -1164,10 +1164,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.12.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.4)
+### [v0.12.4](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/17/2020 | Modules affected: vpc-app-network-acls | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.4">Release notes</a></small>
+  <small>Published: 12/17/2020 | Modules affected: vpc-app-network-acls | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.4">Release notes</a></small>
 =======
 ### [v0.12.4](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.4)
 
@@ -1190,10 +1190,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.12.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.3)
+### [v0.12.3](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/10/2020 | Modules affected: vpc-app | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.3">Release notes</a></small>
+  <small>Published: 12/10/2020 | Modules affected: vpc-app | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.3">Release notes</a></small>
 =======
 ### [v0.12.3](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.3)
 
@@ -1214,10 +1214,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.12.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.2)
+### [v0.12.2](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/10/2020 | Modules affected: vpc-flow-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.2">Release notes</a></small>
+  <small>Published: 12/10/2020 | Modules affected: vpc-flow-logs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.2">Release notes</a></small>
 =======
 ### [v0.12.2](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.2)
 
@@ -1241,10 +1241,10 @@ This fixes a perpetual diff issue with `cloudtrail` module when `kms_key_arn` is
 
 
 <<<<<<< Updated upstream
-### [v0.12.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.1)
+### [v0.12.1](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/9/2020 | Modules affected: vpc-app, vpc-mgmt, vpc-mgmt-network-acls | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.1">Release notes</a></small>
+  <small>Published: 12/9/2020 | Modules affected: vpc-app, vpc-mgmt, vpc-mgmt-network-acls | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.1">Release notes</a></small>
 =======
 ### [v0.12.1](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.1)
 
@@ -1270,10 +1270,10 @@ this release, since `vpc-app` allows you to disable any of the subnet tiers, it 
 
 
 <<<<<<< Updated upstream
-### [v0.12.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.0)
+### [v0.12.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/3/2020 | Modules affected: vpc-flow-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.0">Release notes</a></small>
+  <small>Published: 12/3/2020 | Modules affected: vpc-flow-logs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.0">Release notes</a></small>
 =======
 ### [v0.12.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.12.0)
 
@@ -1299,10 +1299,10 @@ The `vpc-flow-logs` module has been refactored to use the `private-s3-bucket` mo
 
 
 <<<<<<< Updated upstream
-### [v0.8.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.8.0)
+### [v0.8.0](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.8.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/2/2020 | Modules affected: exhibitor-shared-config, zookeeper-cluster | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.8.0">Release notes</a></small>
+  <small>Published: 12/2/2020 | Modules affected: exhibitor-shared-config, zookeeper-cluster | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.8.0">Release notes</a></small>
 =======
 ### [v0.8.0](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.8.0)
 
@@ -1327,10 +1327,10 @@ The `exhibitor-shared-config` module has been refactored to use the `private-s3-
 
 
 <<<<<<< Updated upstream
-### [v0.6.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.6.2)
+### [v0.6.2](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.6.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 12/15/2020 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.6.2">Release notes</a></small>
+  <small>Published: 12/15/2020 | <a href="https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.6.2">Release notes</a></small>
 =======
 ### [v0.6.2](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.6.2)
 

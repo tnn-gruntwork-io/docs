@@ -118,7 +118,7 @@ export default function Home(): JSX.Element {
               <Card
                 title="Gruntwork Installer"
 <<<<<<< Updated upstream
-                href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer"
+                href="https://github.com/tnn-gruntwork-io/gruntwork-installer"
 =======
                 href="https://github.com/tnn-gruntwork-io/gruntwork-installer"
 >>>>>>> Stashed changes

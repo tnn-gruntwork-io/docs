@@ -18,7 +18,7 @@ Gruntwork provides a suite of CLI tools to make working with Gruntwork and its I
 <Card
   title="Gruntwork CLI"
 <<<<<<< Updated upstream
-  href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork">
+  href="https://github.com/tnn-gruntwork-io/gruntwork">
 =======
   href="https://github.com/tnn-gruntwork-io/gruntwork">
 >>>>>>> Stashed changes
@@ -27,7 +27,7 @@ The Gruntwork CLI will help you set up your Reference Architecture including cre
 <Card
   title="Gruntwork Installer"
 <<<<<<< Updated upstream
-  href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer">
+  href="https://github.com/tnn-gruntwork-io/gruntwork-installer">
 =======
   href="https://github.com/tnn-gruntwork-io/gruntwork-installer">
 >>>>>>> Stashed changes
@@ -46,7 +46,7 @@ Terratest is a Go library that provides patterns and helper functions for testin
 <Card
 title="Repo Copier"
 <<<<<<< Updated upstream
-href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/repo-copier"
+href="https://github.com/tnn-gruntwork-io/repo-copier"
 =======
 href="https://github.com/tnn-gruntwork-io/repo-copier"
 >>>>>>> Stashed changes

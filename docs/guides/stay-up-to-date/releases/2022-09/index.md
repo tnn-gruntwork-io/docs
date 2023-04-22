@@ -20,10 +20,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.19.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.4)
+### [v0.19.4](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/27/2022 | Modules affected: server-group | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.4">Release notes</a></small>
+  <small>Published: 9/27/2022 | Modules affected: server-group | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.4">Release notes</a></small>
 =======
 ### [v0.19.4](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.4)
 
@@ -44,10 +44,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.19.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.3)
+### [v0.19.3](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/26/2022 | Modules affected: server-group | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.3">Release notes</a></small>
+  <small>Published: 9/26/2022 | Modules affected: server-group | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.3">Release notes</a></small>
 =======
 ### [v0.19.3](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.3)
 
@@ -68,10 +68,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.19.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.2)
+### [v0.19.2](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/15/2022 | Modules affected: server-group | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.2">Release notes</a></small>
+  <small>Published: 9/15/2022 | Modules affected: server-group | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.2">Release notes</a></small>
 =======
 ### [v0.19.2](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.19.2)
 
@@ -96,10 +96,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.53.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.1)
+### [v0.53.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/28/2022 | Modules affected: eks-alb-ingress-controller, eks-aws-auth-merger, eks-cloudwatch-agent, eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.1">Release notes</a></small>
+  <small>Published: 9/28/2022 | Modules affected: eks-alb-ingress-controller, eks-aws-auth-merger, eks-cloudwatch-agent, eks-cluster-control-plane | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.1">Release notes</a></small>
 =======
 ### [v0.53.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.1)
 
@@ -127,10 +127,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.20.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.5)
+### [v0.20.5](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/27/2022 | Modules affected: lambda-http-api-gateway | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.5">Release notes</a></small>
+  <small>Published: 9/27/2022 | Modules affected: lambda-http-api-gateway | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.5">Release notes</a></small>
 =======
 ### [v0.20.5](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.5)
 
@@ -150,10 +150,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.20.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.4)
+### [v0.20.4](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/16/2022 | Modules affected: lambda | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.4">Release notes</a></small>
+  <small>Published: 9/16/2022 | Modules affected: lambda | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.4">Release notes</a></small>
 =======
 ### [v0.20.4](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.4)
 
@@ -177,10 +177,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.35.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.6)
+### [v0.35.6](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 9/24/2022 | Modules affected: alarms, logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.6">Release notes</a></small>
+  <small>Published: 9/24/2022 | Modules affected: alarms, logs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.6">Release notes</a></small>
 =======
 ### [v0.35.6](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.6)
 

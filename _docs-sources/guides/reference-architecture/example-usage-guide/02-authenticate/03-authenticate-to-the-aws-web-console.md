@@ -24,7 +24,7 @@ To authenticate to any other account (e.g., dev, stage, prod), you need to:
    To access other accounts, you "switch" to (AKA, "assume") an IAM role defined in that account: e.g., to get
    read-only access to an account, you could assume the `allow-read-only-access-from-other-accounts` IAM role. See the
 <<<<<<< Updated upstream
-   [`cross-account-iam-roles` module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/cross-account-iam-roles#iam-roles-intended-for-human-users)
+   [`cross-account-iam-roles` module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/cross-account-iam-roles#iam-roles-intended-for-human-users)
 =======
    [`cross-account-iam-roles` module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/cross-account-iam-roles#iam-roles-intended-for-human-users)
 >>>>>>> Stashed changes

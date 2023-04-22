@@ -4,7 +4,7 @@ When you deploy the `eks-cluster` module later in this guide, it’ll give your 
 authenticated as) admin permissions in the cluster. You can use these admin permissions to configure permissions for
 the other IAM users and roles on your team using the
 <<<<<<< Updated upstream
-[eks-k8s-role-mapping module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-k8s-role-mapping)
+[eks-k8s-role-mapping module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-k8s-role-mapping)
 =======
 [eks-k8s-role-mapping module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-k8s-role-mapping)
 >>>>>>> Stashed changes
@@ -14,7 +14,7 @@ in `terraform-aws-eks`:
 module "eks_k8s_role_mapping" {
   # Make sure to replace <VERSION> in this URL with the latest terraform-aws-eks release
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-role-mapping?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-role-mapping?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-role-mapping?ref=<VERSION>"
 >>>>>>> Stashed changes

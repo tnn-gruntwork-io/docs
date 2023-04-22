@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # EKS IAM Role Assume Role Policy for Kubernetes Service Accounts
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -29,7 +29,7 @@ Accounts](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service
 
 See the [corresponding section of the eks-cluster-control-plane module
 <<<<<<< Updated upstream
-README](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/README.md#how-do-i-associate-iam-roles-to-the-pods) for information on how to set
+README](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/README.md#how-do-i-associate-iam-roles-to-the-pods) for information on how to set
 =======
 README](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/README.md#how-do-i-associate-iam-roles-to-the-pods) for information on how to set
 >>>>>>> Stashed changes
@@ -49,7 +49,7 @@ up IRSA and how it works.
 module "eks_iam_role_assume_role_policy_for_service_account" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-iam-role-assume-role-policy-for-service-account?ref=v0.57.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-iam-role-assume-role-policy-for-service-account?ref=v0.57.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-iam-role-assume-role-policy-for-service-account?ref=v0.57.0"
 >>>>>>> Stashed changes
@@ -104,7 +104,7 @@ module "eks_iam_role_assume_role_policy_for_service_account" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-iam-role-assume-role-policy-for-service-account?ref=v0.57.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-iam-role-assume-role-policy-for-service-account?ref=v0.57.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-iam-role-assume-role-policy-for-service-account?ref=v0.57.0"
 >>>>>>> Stashed changes
@@ -236,9 +236,9 @@ JSON value for IAM Role Assume Role Policy that allows Kubernetes Service Accoun
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account/variables.tf",

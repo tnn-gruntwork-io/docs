@@ -91,7 +91,7 @@ If you used Patcher to do the upgrade then start by checking that you completed 
 ### If you are updating the modules manually
 
 <<<<<<< Updated upstream
-If you updated the modules manually then check that you completed all the steps in the migration guide for [v0.41.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/master/modules/data-stores/rds/CHANGELOG.md#v0412---2022-10-28).
+If you updated the modules manually then check that you completed all the steps in the migration guide for [v0.41.2](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/master/modules/data-stores/rds/CHANGELOG.md#v0412---2022-10-28).
 =======
 If you updated the modules manually then check that you completed all the steps in the migration guide for [v0.41.2](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/master/modules/data-stores/rds/CHANGELOG.md#v0412---2022-10-28).
 >>>>>>> Stashed changes
@@ -104,7 +104,7 @@ Before proceeding we recommend that you satisfy yourself that:
 
 You can now safely commit the changes to your git repo and apply the changes. If you use Gruntwork Pipelines, [we
 <<<<<<< Updated upstream
-recommend you using the `DeployOrder` feature](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/knowledge-base/discussions/112) to handle
+recommend you using the `DeployOrder` feature](https://github.com/tnn-gruntwork-io/knowledge-base/discussions/112) to handle
 =======
 recommend you using the `DeployOrder` feature](https://github.com/tnn-gruntwork-io/knowledge-base/discussions/112) to handle
 >>>>>>> Stashed changes

@@ -43,7 +43,7 @@ will likely have multiple such roles, designing them for specific teams or tasks
 
 This role only applies to <span className="js-subscribe-cta">Gruntwork subscribers</span> who have access to
 <<<<<<< Updated upstream
-[package-openvpn](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-openvpn/).
+[package-openvpn](https://github.com/tnn-gruntwork-io/package-openvpn/).
 =======
 [package-openvpn](https://github.com/tnn-gruntwork-io/package-openvpn/).
 >>>>>>> Stashed changes
@@ -56,7 +56,7 @@ The `openvpn-allow-certificate-requests-for-external-accounts` and
 `openvpn-allow-certificate-revocations-for-external-accounts` IAM roles allows users to request and revoke VPN
 certificates, respectively, for an OpenVPN server running in the child account. This is part of the Gruntwork
 <<<<<<< Updated upstream
-[package-openvpn](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-openvpn/) code, which deploys a production-grade OpenVPN
+[package-openvpn](https://github.com/tnn-gruntwork-io/package-openvpn/) code, which deploys a production-grade OpenVPN
 =======
 [package-openvpn](https://github.com/tnn-gruntwork-io/package-openvpn/) code, which deploys a production-grade OpenVPN
 >>>>>>> Stashed changes

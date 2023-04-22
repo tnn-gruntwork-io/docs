@@ -21,9 +21,9 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 # Amazon EKS
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/eks-cluster" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/eks-cluster" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=services%2Feks-cluster" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=services%2Feks-cluster" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/eks-cluster" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
@@ -57,7 +57,7 @@ production-grade Kubernetes cluster on [AWS](https://aws.amazon.com) using
 :::note
 
 <<<<<<< Updated upstream
-This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 =======
 This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 >>>>>>> Stashed changes
@@ -69,7 +69,7 @@ If you’ve never used the Service Catalog before, make sure to read
 
 Under the hood, this is all implemented using Terraform modules from the Gruntwork
 <<<<<<< Updated upstream
-[terraform-aws-eks](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks) repo. If you are a subscriber and don’t have
+[terraform-aws-eks](https://github.com/tnn-gruntwork-io/terraform-aws-eks) repo. If you are a subscriber and don’t have
 =======
 [terraform-aws-eks](https://github.com/tnn-gruntwork-io/terraform-aws-eks) repo. If you are a subscriber and don’t have
 >>>>>>> Stashed changes
@@ -79,13 +79,13 @@ access to this repo, email <support@gruntwork.io>.
 
 To understand core concepts like what is Kubernetes, the different worker types, how to authenticate to Kubernetes, and
 <<<<<<< Updated upstream
-more, see the documentation in the [terraform-aws-eks](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks) repo.
+more, see the documentation in the [terraform-aws-eks](https://github.com/tnn-gruntwork-io/terraform-aws-eks) repo.
 
 ### Repo organization
 
-*   [modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
-*   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples): This folder contains working examples of how to use the submodules.
-*   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/test): Automated tests for the modules and examples.
+*   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+*   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples): This folder contains working examples of how to use the submodules.
+*   [test](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/test): Automated tests for the modules and examples.
 =======
 more, see the documentation in the [terraform-aws-eks](https://github.com/tnn-gruntwork-io/terraform-aws-eks) repo.
 
@@ -103,7 +103,7 @@ more, see the documentation in the [terraform-aws-eks](https://github.com/tnn-gr
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-learning-and-testing folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+*   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
 =======
 *   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
 >>>>>>> Stashed changes
@@ -115,7 +115,7 @@ If you just want to try this repo out for experimenting and learning, check out 
 If you want to deploy this repo in production, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-production folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+*   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
 =======
 *   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
 >>>>>>> Stashed changes
@@ -131,7 +131,7 @@ If you want to deploy this repo in production, check out the following resources
 For information on how to manage your EKS cluster, including how to deploy Pods on Fargate, how to associate IAM roles
 to Pod, how to upgrade your EKS cluster, and more, see the documentation in the
 <<<<<<< Updated upstream
-[terraform-aws-eks](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks) repo.
+[terraform-aws-eks](https://github.com/tnn-gruntwork-io/terraform-aws-eks) repo.
 =======
 [terraform-aws-eks](https://github.com/tnn-gruntwork-io/terraform-aws-eks) repo.
 >>>>>>> Stashed changes
@@ -153,7 +153,7 @@ To add and manage additional worker groups, refer to the [eks-workers module](/r
 module "eks_cluster" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/eks-cluster?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/eks-cluster?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/eks-cluster?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -334,7 +334,7 @@ module "eks_cluster" {
   # Location of the container image to use for the aws-auth-merger app. You can use
   # the Dockerfile provided in terraform-aws-eks to construct an image. See
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/blob/master/modules/eks-aws-au
+  # https://github.com/tnn-gruntwork-io/terraform-aws-eks/blob/master/modules/eks-aws-au
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-eks/blob/master/modules/eks-aws-au
 >>>>>>> Stashed changes
@@ -459,7 +459,7 @@ module "eks_cluster" {
   # Set to true to add IAM permissions to send custom metrics to CloudWatch. This is
   # useful in combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
 >>>>>>> Stashed changes
@@ -480,7 +480,7 @@ module "eks_cluster" {
   # Set to true to send worker system logs to CloudWatch. This is useful in
   # combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 >>>>>>> Stashed changes
@@ -571,8 +571,8 @@ module "eks_cluster" {
   # specify a version of kubergrunt that is compatible with your specified
   # kubernetes version. Ex.
 <<<<<<< Updated upstream
-  # 'https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt
-  kubergrunt_download_url = "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt"
+  # 'https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt
+  kubergrunt_download_url = "https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt"
 =======
   # 'https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt
   kubergrunt_download_url = "https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt"
@@ -840,7 +840,7 @@ module "eks_cluster" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/eks-cluster?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/eks-cluster?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/eks-cluster?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -1024,7 +1024,7 @@ inputs = {
   # Location of the container image to use for the aws-auth-merger app. You can use
   # the Dockerfile provided in terraform-aws-eks to construct an image. See
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/blob/master/modules/eks-aws-au
+  # https://github.com/tnn-gruntwork-io/terraform-aws-eks/blob/master/modules/eks-aws-au
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-eks/blob/master/modules/eks-aws-au
 >>>>>>> Stashed changes
@@ -1149,7 +1149,7 @@ inputs = {
   # Set to true to add IAM permissions to send custom metrics to CloudWatch. This is
   # useful in combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
 >>>>>>> Stashed changes
@@ -1170,7 +1170,7 @@ inputs = {
   # Set to true to send worker system logs to CloudWatch. This is useful in
   # combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 >>>>>>> Stashed changes
@@ -1261,8 +1261,8 @@ inputs = {
   # specify a version of kubergrunt that is compatible with your specified
   # kubernetes version. Ex.
 <<<<<<< Updated upstream
-  # 'https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt
-  kubergrunt_download_url = "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt"
+  # 'https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt
+  kubergrunt_download_url = "https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt"
 =======
   # 'https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt
   kubergrunt_download_url = "https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt"
@@ -2037,7 +2037,7 @@ Name of the default aws-auth ConfigMap to use. This will be the name of the Conf
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-Location of the container image to use for the aws-auth-merger app. You can use the Dockerfile provided in terraform-aws-eks to construct an image. See https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/blob/master/modules/eks-aws-auth-merger/core-concepts.md#how-do-i-use-the-aws-auth-merger for more info.
+Location of the container image to use for the aws-auth-merger app. You can use the Dockerfile provided in terraform-aws-eks to construct an image. See https://github.com/tnn-gruntwork-io/terraform-aws-eks/blob/master/modules/eks-aws-auth-merger/core-concepts.md#how-do-i-use-the-aws-auth-merger for more info.
 =======
 Location of the container image to use for the aws-auth-merger app. You can use the Dockerfile provided in terraform-aws-eks to construct an image. See https://github.com/tnn-gruntwork-io/terraform-aws-eks/blob/master/modules/eks-aws-auth-merger/core-concepts.md#how-do-i-use-the-aws-auth-merger for more info.
 >>>>>>> Stashed changes
@@ -2595,7 +2595,7 @@ Set to true to enable several basic CloudWatch alarms around CPU usage, memory u
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your Bastion host.
+Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your Bastion host.
 =======
 Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your Bastion host.
 >>>>>>> Stashed changes
@@ -2626,7 +2626,7 @@ Enable fail2ban to block brute force log in attempts. Defaults to true.
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-Set to true to send worker system logs to CloudWatch. This is useful in combination with https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch. Note that this is only recommended for aggregating system level logs from the server instances. Container logs should be managed through fluent-bit deployed with eks-core-services.
+Set to true to send worker system logs to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch. Note that this is only recommended for aggregating system level logs from the server instances. Container logs should be managed through fluent-bit deployed with eks-core-services.
 =======
 Set to true to send worker system logs to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch. Note that this is only recommended for aggregating system level logs from the server instances. Container logs should be managed through fluent-bit deployed with eks-core-services.
 >>>>>>> Stashed changes
@@ -2845,10 +2845,10 @@ map(list(string))
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-The URL from which to download Kubergrunt if it's not installed already. Use to specify a version of kubergrunt that is compatible with your specified kubernetes version. Ex. 'https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt'
+The URL from which to download Kubergrunt if it's not installed already. Use to specify a version of kubergrunt that is compatible with your specified kubernetes version. Ex. 'https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt'
 
 </HclListItemDescription>
-<HclListItemDefaultValue defaultValue="&quot;https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt&quot;"/>
+<HclListItemDefaultValue defaultValue="&quot;https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt&quot;"/>
 =======
 The URL from which to download Kubergrunt if it's not installed already. Use to specify a version of kubergrunt that is compatible with your specified kubernetes version. Ex. 'https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.10.0/kubergrunt'
 
@@ -3528,9 +3528,9 @@ The ID of the AWS Security Group associated with the self-managed EKS workers.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/eks-cluster/README.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/eks-cluster/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/eks-cluster/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/eks-cluster/README.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/eks-cluster/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/eks-cluster/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/eks-cluster/README.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/eks-cluster/variables.tf",

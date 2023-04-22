@@ -8,7 +8,7 @@ First, you'll need to create the new ECR repository.
 1. Create a new branch on your infrastructure-live repository: `git checkout -b simple-web-app-repo`.
 1. Open [`repos.yml` in
 <<<<<<< Updated upstream
-   `shared/us-west-2/_regional/ecr-repos`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/shared/us-west-2/_regional/ecr-repos/repos.yml) and
+   `shared/us-west-2/_regional/ecr-repos`](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/shared/us-west-2/_regional/ecr-repos/repos.yml) and
 =======
    `shared/us-west-2/_regional/ecr-repos`](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/shared/us-west-2/_regional/ecr-repos/repos.yml) and
 >>>>>>> Stashed changes

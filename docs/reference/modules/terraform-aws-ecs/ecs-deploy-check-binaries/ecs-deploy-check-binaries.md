@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # ECS Deploy Check Scripts
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy-check-binaries" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy-check-binaries" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.35.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.35.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy-check-binaries" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -115,9 +115,9 @@ pyenv shell 3.8.0 3.9.0 3.10.0 3.11.0
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy-check-binaries/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy-check-binaries/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy-check-binaries/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy-check-binaries/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy-check-binaries/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy-check-binaries/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy-check-binaries/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy-check-binaries/variables.tf",

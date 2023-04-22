@@ -9,10 +9,10 @@ with v1.5.0 of the CIS AWS Foundations Benchmark.
 
 This guide assumes you are using at least
 <<<<<<< Updated upstream
-[v0.40.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.0)
+[v0.40.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.0)
 of the CIS Service Catalog repo, which was released in August 2022.
 
-We strongly recommend upgrading straight to at least [v0.42.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.9),
+We strongly recommend upgrading straight to at least [v0.42.9](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.9),
 =======
 [v0.40.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.0)
 of the CIS Service Catalog repo, which was released in August 2022.
@@ -28,7 +28,7 @@ The account baseline modules had one breaking change between versions v0.40.0 an
 the migration steps before updating the module versions.
 
 <<<<<<< Updated upstream
-- [v0.42.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.0): Added support for new AWS region (me-central-1 UAE) to multiregion modules.
+- [v0.42.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.0): Added support for new AWS region (me-central-1 UAE) to multiregion modules.
 =======
 - [v0.42.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.0): Added support for new AWS region (me-central-1 UAE) to multiregion modules.
 >>>>>>> Stashed changes
@@ -53,7 +53,7 @@ locals {
 ```
 
 <<<<<<< Updated upstream
-For Terraform, follow the migration guide in [the migration guide of the release v0.42.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.0).
+For Terraform, follow the migration guide in [the migration guide of the release v0.42.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.0).
 =======
 For Terraform, follow the migration guide in [the migration guide of the release v0.42.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.42.0).
 >>>>>>> Stashed changes

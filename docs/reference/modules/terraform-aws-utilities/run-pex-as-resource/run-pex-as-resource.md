@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Run PEX as Resource
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.8.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.8.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -27,8 +27,8 @@ This module runs the provided PEX binary in a portable manner that works with mu
 the context of a [local-exec provisioner](https://www.terraform.io/docs/provisioners/local-exec.html) in Terraform.
 
 <<<<<<< Updated upstream
-This module uses [`prepare-pex-environment`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment) under the hood. See [What is
-PEX?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/README.md#what-is-pex) for more details on what is a PEX file and how to construct one
+This module uses [`prepare-pex-environment`](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment) under the hood. See [What is
+PEX?](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/README.md#what-is-pex) for more details on what is a PEX file and how to construct one
 =======
 This module uses [`prepare-pex-environment`](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment) under the hood. See [What is
 PEX?](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/prepare-pex-environment/README.md#what-is-pex) for more details on what is a PEX file and how to construct one
@@ -46,7 +46,7 @@ allow you to call out to arbitrary binaries available on the operator machine. T
     provision a resource.
 
 <<<<<<< Updated upstream
-This module uses the Provisioner approach (you can see the [run-pex-as-data-source module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-data-source)
+This module uses the Provisioner approach (you can see the [run-pex-as-data-source module](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-data-source)
 =======
 This module uses the Provisioner approach (you can see the [run-pex-as-data-source module](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-data-source)
 >>>>>>> Stashed changes
@@ -76,7 +76,7 @@ for running it as a data source). Which approach to use depends on your needs:
 module "run_pex_as_resource" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/run-pex-as-resource?ref=v0.9.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/run-pex-as-resource?ref=v0.9.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/run-pex-as-resource?ref=v0.9.1"
 >>>>>>> Stashed changes
@@ -145,7 +145,7 @@ module "run_pex_as_resource" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/run-pex-as-resource?ref=v0.9.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/run-pex-as-resource?ref=v0.9.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/run-pex-as-resource?ref=v0.9.1"
 >>>>>>> Stashed changes
@@ -330,9 +330,9 @@ This output is populated when the pex script successfully runs to completion. As
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/run-pex-as-resource/variables.tf",

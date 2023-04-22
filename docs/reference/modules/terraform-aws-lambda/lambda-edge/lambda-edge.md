@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Lambda@Edge Function Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.8" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.8" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -55,7 +55,7 @@ exported as the output `function_arn`, so you can add custom rules using the `aw
 ```hcl
 module "my_lambda_function" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge?ref=v1.0.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge?ref=v1.0.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge?ref=v1.0.8"
 >>>>>>> Stashed changes
@@ -76,7 +76,7 @@ resource "aws_lambda_permission" "with_sns" {
 Lambda@Edge stores CloudWatch Logs in the AWS Regions closest to the location where the function receives traffic and is
 executed. That means a log group must be created in every region that have [Regional Edge Caches](https://aws.amazon.com/blogs/networking-and-content-delivery/aggregating-lambdaedge-logs/).
 <<<<<<< Updated upstream
-Instructions on how to do this can be found at the   [`lambda-edge-multi-region-log-groups` module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-multi-region-log-groups). To see which regions are receiving traffic, you can find graphs of metrics for the
+Instructions on how to do this can be found at the   [`lambda-edge-multi-region-log-groups` module](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-multi-region-log-groups). To see which regions are receiving traffic, you can find graphs of metrics for the
 =======
 Instructions on how to do this can be found at the   [`lambda-edge-multi-region-log-groups` module](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge-multi-region-log-groups). To see which regions are receiving traffic, you can find graphs of metrics for the
 >>>>>>> Stashed changes
@@ -89,9 +89,9 @@ triggers:
 
 1.  Using terraform. To link the Lambda@Edge function to the [s3-cloudfront module from
 <<<<<<< Updated upstream
-    terraform-aws-static-assets](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/main/modules/s3-cloudfront),
+    terraform-aws-static-assets](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/main/modules/s3-cloudfront),
     you can use the
-    [default_lambda_associations](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/blob/main/modules/s3-cloudfront/variables.tf#L308)
+    [default_lambda_associations](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/blob/main/modules/s3-cloudfront/variables.tf#L308)
 =======
     terraform-aws-static-assets](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/main/modules/s3-cloudfront),
     you can use the
@@ -115,7 +115,7 @@ triggers:
 module "lambda_edge" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge?ref=v0.21.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge?ref=v0.21.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge?ref=v0.21.8"
 >>>>>>> Stashed changes
@@ -298,7 +298,7 @@ module "lambda_edge" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge?ref=v0.21.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge?ref=v0.21.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda-edge?ref=v0.21.8"
 >>>>>>> Stashed changes
@@ -843,9 +843,9 @@ Name of the (optionally) created CloudWatch log groups for the lambda function.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-edge/variables.tf",

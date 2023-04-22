@@ -12,7 +12,7 @@ A few important notes on authenticating via the CLI:
    access keys, an MFA token, and the ARN of an IAM role in that account to assume: e.g., to get read-only access to an
    account, you could assume the `allow-read-only-access-from-other-accounts` IAM role. See the
 <<<<<<< Updated upstream
-   [`cross-account-iam-roles` module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/cross-account-iam-roles#iam-roles-intended-for-human-users)
+   [`cross-account-iam-roles` module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/cross-account-iam-roles#iam-roles-intended-for-human-users)
 =======
    [`cross-account-iam-roles` module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/cross-account-iam-roles#iam-roles-intended-for-human-users)
 >>>>>>> Stashed changes

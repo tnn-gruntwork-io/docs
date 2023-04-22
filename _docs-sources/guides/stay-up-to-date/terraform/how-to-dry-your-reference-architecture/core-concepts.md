@@ -2,7 +2,7 @@
 
 Terragrunt
 <<<<<<< Updated upstream
-[v0.32.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt/releases/tag/v0.32.0)
+[v0.32.0](https://github.com/tnn-gruntwork-io/terragrunt/releases/tag/v0.32.0)
 =======
 [v0.32.0](https://github.com/tnn-gruntwork-io/terragrunt/releases/tag/v0.32.0)
 >>>>>>> Stashed changes
@@ -33,7 +33,7 @@ component.
 Using these features, we can dramatically reduce duplication in the Terragrunt
 code in the Gruntwork Reference Architecture, [cutting down the footprint by
 <<<<<<< Updated upstream
-48.5%](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/pull/1060).
+48.5%](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/pull/1060).
 =======
 48.5%](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/pull/1060).
 >>>>>>> Stashed changes

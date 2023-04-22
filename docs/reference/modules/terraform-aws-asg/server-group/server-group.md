@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Server Group Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.21.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.21.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -40,11 +40,11 @@ section](#background) to understand how this module works and in what use cases 
 Scaling Group (ASG).
 
 <<<<<<< Updated upstream
-**WARNING: Launch Configurations:** [Launch configurations](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html) are being phased out in favor of [Launch Templates](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-templates.html). Before upgrading to the latest release please be sure to test and plan any changes to infrastructure that may be impacted. Launch templates are being introduced in [PR #175](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/pull/175)
+**WARNING: Launch Configurations:** [Launch configurations](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html) are being phased out in favor of [Launch Templates](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-templates.html). Before upgrading to the latest release please be sure to test and plan any changes to infrastructure that may be impacted. Launch templates are being introduced in [PR #175](https://github.com/tnn-gruntwork-io/terraform-aws-asg/pull/175)
 
 ## Quick start
 
-Check out the [server-group examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/examples/server-group) for sample code that demonstrates how to use this module.
+Check out the [server-group examples](https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/examples/server-group) for sample code that demonstrates how to use this module.
 =======
 **WARNING: Launch Configurations:** [Launch configurations](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html) are being phased out in favor of [Launch Templates](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-templates.html). Before upgrading to the latest release please be sure to test and plan any changes to infrastructure that may be impacted. Launch templates are being introduced in [PR #175](https://github.com/tnn-gruntwork-io/terraform-aws-asg/pull/175)
 
@@ -65,7 +65,7 @@ The first question you may ask is, how is this different than an [Auto Scaling G
 (ASG)](http://docs.aws.amazon.com/autoscaling/latest/userguide/AutoScalingGroup.html)? While an ASG does allow you to
 run a cluster of servers, automaticaly replace failed servers, and do zero-downtime deployment (see the
 <<<<<<< Updated upstream
-[asg-rolling-deploy module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy)), attaching ENIs and EBS Volumes to servers in an ASG is very
+[asg-rolling-deploy module](https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy)), attaching ENIs and EBS Volumes to servers in an ASG is very
 =======
 [asg-rolling-deploy module](https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy)), attaching ENIs and EBS Volumes to servers in an ASG is very
 >>>>>>> Stashed changes
@@ -106,7 +106,7 @@ The solution used in this module is to:
 The server-group module will perform a zero-downtime, rolling deployment every time you make a change to the code and
 run `terraform apply`. This deployment process is implemented in a Python script called
 <<<<<<< Updated upstream
-[rolling_deployment.py](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group/rolling-deploy/rolling_deployment.py) which runs in a [local-exec
+[rolling_deployment.py](https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group/rolling-deploy/rolling_deployment.py) which runs in a [local-exec
 =======
 [rolling_deployment.py](https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group/rolling-deploy/rolling_deployment.py) which runs in a [local-exec
 >>>>>>> Stashed changes
@@ -170,7 +170,7 @@ module in your Terraform code:
 module "server_group" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg.git//modules/server-group?ref=v0.21.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/server-group?ref=v0.21.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/server-group?ref=v0.21.2"
 >>>>>>> Stashed changes
@@ -439,7 +439,7 @@ module "server_group" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg.git//modules/server-group?ref=v0.21.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/server-group?ref=v0.21.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/server-group?ref=v0.21.2"
 >>>>>>> Stashed changes
@@ -1272,9 +1272,9 @@ Other modules can depend on this variable to ensure those modules only deploy af
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/server-group/variables.tf",

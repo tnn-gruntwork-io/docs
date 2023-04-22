@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # ECS Scripts
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-scripts" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-scripts" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.32.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.32.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-scripts" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -32,13 +32,13 @@ This folder contains helper scripts for running an ECS Cluster, including:
 ## Installing the helpers
 
 <<<<<<< Updated upstream
-You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
+You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
-gruntwork-install --module-name "ecs-scripts" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs" --tag "0.0.1"
+gruntwork-install --module-name "ecs-scripts" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ecs" --tag "0.0.1"
 ```
 
-For an example, see the [Packer](https://www.packer.io/) template under [/examples/example-ecs-instance-ami/build.json](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/examples/example-ecs-instance-ami/build.json).
+For an example, see the [Packer](https://www.packer.io/) template under [/examples/example-ecs-instance-ami/build.json](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/examples/example-ecs-instance-ami/build.json).
 =======
 You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
@@ -97,9 +97,9 @@ Run `configure-ecs-instance --help` to see all available options.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-scripts/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-scripts/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-scripts/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-scripts/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-scripts/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-scripts/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-scripts/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-scripts/variables.tf",

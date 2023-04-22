@@ -13,7 +13,7 @@ encrypts the AMI root device. This is managed in the `shared` account baseline m
 
 Finally, for the [ECS Deploy
 <<<<<<< Updated upstream
-Runner](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/master/modules/ecs-deploy-runner) to work, the new account
+Runner](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/master/modules/ecs-deploy-runner) to work, the new account
 =======
 Runner](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/master/modules/ecs-deploy-runner) to work, the new account
 >>>>>>> Stashed changes
@@ -22,7 +22,7 @@ runners. Both of these are stored in the `shared` account.
 
 In order for this setup to work for each new account that is created, the `logs`, `security`, and `shared` accounts need
 <<<<<<< Updated upstream
-to be made aware of the new account. This is handled through the [accounts.json](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/accounts.json) file in your
+to be made aware of the new account. This is handled through the [accounts.json](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/accounts.json) file in your
 =======
 to be made aware of the new account. This is handled through the [accounts.json](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/accounts.json) file in your
 >>>>>>> Stashed changes

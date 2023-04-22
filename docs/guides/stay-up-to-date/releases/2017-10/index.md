@@ -26,10 +26,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.2.22](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.22)
+### [v0.2.22](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.22)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/24/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.22">Release notes</a></small>
+  <small>Published: 10/24/2017 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.22">Release notes</a></small>
 =======
 ### [v0.2.22](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.22)
 
@@ -41,7 +41,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/45: You can now use the `--disable-hooks` and `--disable-shell` arguments to disable hooks and shell commands, respectively. This is useful if you want to disable all “side effects” and solely have boilerplate generate code.
+  https://github.com/tnn-gruntwork-io/boilerplate/pull/45: You can now use the `--disable-hooks` and `--disable-shell` arguments to disable hooks and shell commands, respectively. This is useful if you want to disable all “side effects” and solely have boilerplate generate code.
 =======
   https://github.com/tnn-gruntwork-io/boilerplate/pull/45: You can now use the `--disable-hooks` and `--disable-shell` arguments to disable hooks and shell commands, respectively. This is useful if you want to disable all “side effects” and solely have boilerplate generate code.
 >>>>>>> Stashed changes
@@ -50,10 +50,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.2.21](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.21)
+### [v0.2.21](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.21)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/21/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.21">Release notes</a></small>
+  <small>Published: 10/21/2017 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.21">Release notes</a></small>
 =======
 ### [v0.2.21](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.21)
 
@@ -65,7 +65,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/44: Add support for JSON maps/lists as a more reliable way to get typed values in the `default` field.
+  https://github.com/tnn-gruntwork-io/boilerplate/pull/44: Add support for JSON maps/lists as a more reliable way to get typed values in the `default` field.
 =======
   https://github.com/tnn-gruntwork-io/boilerplate/pull/44: Add support for JSON maps/lists as a more reliable way to get typed values in the `default` field.
 >>>>>>> Stashed changes
@@ -74,10 +74,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.2.20](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.20)
+### [v0.2.20](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.20)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/20/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.20">Release notes</a></small>
+  <small>Published: 10/20/2017 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.20">Release notes</a></small>
 =======
 ### [v0.2.20](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.20)
 
@@ -89,7 +89,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/43: Boilerplate is now more lenient with whitespace when parsing lists/maps.
+  https://github.com/tnn-gruntwork-io/boilerplate/pull/43: Boilerplate is now more lenient with whitespace when parsing lists/maps.
 =======
   https://github.com/tnn-gruntwork-io/boilerplate/pull/43: Boilerplate is now more lenient with whitespace when parsing lists/maps.
 >>>>>>> Stashed changes
@@ -98,10 +98,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.2.19](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.19)
+### [v0.2.19](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.19)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/20/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.19">Release notes</a></small>
+  <small>Published: 10/20/2017 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.19">Release notes</a></small>
 =======
 ### [v0.2.19](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.19)
 
@@ -113,7 +113,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/42: You can now define a `skip` parameter in `hooks` to conditionally enable/disable hooks.
+  https://github.com/tnn-gruntwork-io/boilerplate/pull/42: You can now define a `skip` parameter in `hooks` to conditionally enable/disable hooks.
 =======
   https://github.com/tnn-gruntwork-io/boilerplate/pull/42: You can now define a `skip` parameter in `hooks` to conditionally enable/disable hooks.
 >>>>>>> Stashed changes
@@ -122,10 +122,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.2.18](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.18)
+### [v0.2.18](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.18)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/20/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.18">Release notes</a></small>
+  <small>Published: 10/20/2017 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.18">Release notes</a></small>
 =======
 ### [v0.2.18](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.18)
 
@@ -137,7 +137,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/41: boilerplate can now parse maps that have colon values in the key.
+  https://github.com/tnn-gruntwork-io/boilerplate/pull/41: boilerplate can now parse maps that have colon values in the key.
 =======
   https://github.com/tnn-gruntwork-io/boilerplate/pull/41: boilerplate can now parse maps that have colon values in the key.
 >>>>>>> Stashed changes
@@ -150,10 +150,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms/releases/tag/v0.0.6)
+### [v0.0.6](https://github.com/tnn-gruntwork-io/gruntkms/releases/tag/v0.0.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/23/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms/releases/tag/v0.0.6">Release notes</a></small>
+  <small>Published: 10/23/2017 | <a href="https://github.com/tnn-gruntwork-io/gruntkms/releases/tag/v0.0.6">Release notes</a></small>
 =======
 ### [v0.0.6](https://github.com/tnn-gruntwork-io/gruntkms/releases/tag/v0.0.6)
 
@@ -165,7 +165,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms/pull/6: You can now tell gruntkms to assume an IAM role using the `--role-arn` parameter.
+  https://github.com/tnn-gruntwork-io/gruntkms/pull/6: You can now tell gruntkms to assume an IAM role using the `--role-arn` parameter.
 =======
   https://github.com/tnn-gruntwork-io/gruntkms/pull/6: You can now tell gruntkms to assume an IAM role using the `--role-arn` parameter.
 >>>>>>> Stashed changes
@@ -178,10 +178,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.6.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.3)
+### [v0.6.3](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/8/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.3">Release notes</a></small>
+  <small>Published: 10/8/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.3">Release notes</a></small>
 =======
 ### [v0.6.3](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.3)
 
@@ -193,7 +193,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/13: Update module-server version. Add DescribeSubnets permission. Fix concurrency issues.
+  https://github.com/tnn-gruntwork-io/module-asg/pull/13: Update module-server version. Add DescribeSubnets permission. Fix concurrency issues.
 =======
   https://github.com/tnn-gruntwork-io/module-asg/pull/13: Update module-server version. Add DescribeSubnets permission. Fix concurrency issues.
 >>>>>>> Stashed changes
@@ -202,10 +202,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.6.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.2)
+### [v0.6.2](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/2/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.2">Release notes</a></small>
+  <small>Published: 10/2/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.2">Release notes</a></small>
 =======
 ### [v0.6.2](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.2)
 
@@ -217,7 +217,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/12: Clean up the tmp folder for boto3 before trying to extract into it again. 
+  https://github.com/tnn-gruntwork-io/module-asg/pull/12: Clean up the tmp folder for boto3 before trying to extract into it again. 
 =======
   https://github.com/tnn-gruntwork-io/module-asg/pull/12: Clean up the tmp folder for boto3 before trying to extract into it again. 
 >>>>>>> Stashed changes
@@ -230,10 +230,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.3.0)
+### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/4/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.3.0">Release notes</a></small>
+  <small>Published: 10/4/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.3.0">Release notes</a></small>
 =======
 ### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.3.0)
 
@@ -254,10 +254,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.9)
+### [v0.0.9](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/9/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.9">Release notes</a></small>
+  <small>Published: 10/9/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.9">Release notes</a></small>
 =======
 ### [v0.0.9](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.9)
 
@@ -269,7 +269,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/10: pick up the ENI and concurrency fixes from https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server/pull/20, https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/13, and https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/10.
+  https://github.com/tnn-gruntwork-io/package-kafka/pull/10: pick up the ENI and concurrency fixes from https://github.com/tnn-gruntwork-io/module-server/pull/20, https://github.com/tnn-gruntwork-io/module-asg/pull/13, and https://github.com/tnn-gruntwork-io/package-zookeeper/pull/10.
 =======
   https://github.com/tnn-gruntwork-io/package-kafka/pull/10: pick up the ENI and concurrency fixes from https://github.com/tnn-gruntwork-io/module-server/pull/20, https://github.com/tnn-gruntwork-io/module-asg/pull/13, and https://github.com/tnn-gruntwork-io/package-zookeeper/pull/10.
 >>>>>>> Stashed changes
@@ -278,10 +278,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.8)
+### [v0.0.8](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/3/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.8">Release notes</a></small>
+  <small>Published: 10/3/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.8">Release notes</a></small>
 =======
 ### [v0.0.8](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.8)
 
@@ -293,7 +293,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/9: This picks up the fix from https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/12 that cleans up the tmp-folder before trying to extract boto3 into it.
+  https://github.com/tnn-gruntwork-io/package-kafka/pull/9: This picks up the fix from https://github.com/tnn-gruntwork-io/module-asg/pull/12 that cleans up the tmp-folder before trying to extract boto3 into it.
 =======
   https://github.com/tnn-gruntwork-io/package-kafka/pull/9: This picks up the fix from https://github.com/tnn-gruntwork-io/module-asg/pull/12 that cleans up the tmp-folder before trying to extract boto3 into it.
 >>>>>>> Stashed changes
@@ -306,10 +306,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.1.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.1.1)
+### [v0.1.1](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.1.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/10/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.1.1">Release notes</a></small>
+  <small>Published: 10/10/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.1.1">Release notes</a></small>
 =======
 ### [v0.1.1](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.1.1)
 
@@ -321,7 +321,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-lambda/pull/7: Fix lambda module outputs.
+  https://github.com/tnn-gruntwork-io/package-lambda/pull/7: Fix lambda module outputs.
 =======
   https://github.com/tnn-gruntwork-io/package-lambda/pull/7: Fix lambda module outputs.
 >>>>>>> Stashed changes
@@ -334,10 +334,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.7.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.7.0)
+### [v0.7.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.7.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/15/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.7.0">Release notes</a></small>
+  <small>Published: 10/15/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.7.0">Release notes</a></small>
 =======
 ### [v0.7.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.7.0)
 
@@ -349,7 +349,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/pull/37: Fix a bug in the `run-cloudwatch-logs-agent.sh` script so that it gives each log file a unique log stream name.
+  https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/37: Fix a bug in the `run-cloudwatch-logs-agent.sh` script so that it gives each log file a unique log stream name.
 =======
   https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/37: Fix a bug in the `run-cloudwatch-logs-agent.sh` script so that it gives each log file a unique log stream name.
 >>>>>>> Stashed changes
@@ -358,10 +358,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.6.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.6.0)
+### [v0.6.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.6.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/7/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.6.0">Release notes</a></small>
+  <small>Published: 10/7/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.6.0">Release notes</a></small>
 =======
 ### [v0.6.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.6.0)
 
@@ -373,11 +373,11 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/pull/36:
+  https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/36:
 
 BACKWARDS INCOMPATIBLE CHANGE
 
-The `asg-xxx-alarms` modules now allow you to create alarms for a list of ASGs, rather than just one. This is necessary to use the alarms with, for example, the [server-group](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/tree/master/modules/server-group) module. To support this, instead of taking in a single `asg_name` parameter, these modules now take in two parameters:
+The `asg-xxx-alarms` modules now allow you to create alarms for a list of ASGs, rather than just one. This is necessary to use the alarms with, for example, the [server-group](https://github.com/tnn-gruntwork-io/module-asg/tree/master/modules/server-group) module. To support this, instead of taking in a single `asg_name` parameter, these modules now take in two parameters:
 =======
   https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/36:
 
@@ -397,10 +397,10 @@ The `asg-xxx-alarms` modules now allow you to create alarms for a list of ASGs, 
 
 
 <<<<<<< Updated upstream
-### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.4.0)
+### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/12/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.4.0">Release notes</a></small>
+  <small>Published: 10/12/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.4.0">Release notes</a></small>
 =======
 ### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.4.0)
 
@@ -412,7 +412,7 @@ The `asg-xxx-alarms` modules now allow you to create alarms for a list of ASGs, 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-openvpn/pull/21
+  https://github.com/tnn-gruntwork-io/package-openvpn/pull/21
 =======
   https://github.com/tnn-gruntwork-io/package-openvpn/pull/21
 >>>>>>> Stashed changes
@@ -430,10 +430,10 @@ This change is backwards compatible from a code perspective, but it changes the 
 
 
 <<<<<<< Updated upstream
-### [v0.3.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.3.1)
+### [v0.3.1](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.3.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/3/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.3.1">Release notes</a></small>
+  <small>Published: 10/3/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.3.1">Release notes</a></small>
 =======
 ### [v0.3.1](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.3.1)
 
@@ -454,10 +454,10 @@ This change is backwards compatible from a code perspective, but it changes the 
 
 
 <<<<<<< Updated upstream
-### [v0.2.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.2.1)
+### [v0.2.1](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.2.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/8/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.2.1">Release notes</a></small>
+  <small>Published: 10/8/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.2.1">Release notes</a></small>
 =======
 ### [v0.2.1](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.2.1)
 
@@ -469,7 +469,7 @@ This change is backwards compatible from a code perspective, but it changes the 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server/pull/20: Fix a bug with the `attach-eni` script where it would incorrectly handle network interface names on Ubuntu on non-t2 instance types (e.g., m4.large). Also, the script should now be idempotent.
+  https://github.com/tnn-gruntwork-io/module-server/pull/20: Fix a bug with the `attach-eni` script where it would incorrectly handle network interface names on Ubuntu on non-t2 instance types (e.g., m4.large). Also, the script should now be idempotent.
 =======
   https://github.com/tnn-gruntwork-io/module-server/pull/20: Fix a bug with the `attach-eni` script where it would incorrectly handle network interface names on Ubuntu on non-t2 instance types (e.g., m4.large). Also, the script should now be idempotent.
 >>>>>>> Stashed changes
@@ -482,10 +482,10 @@ This change is backwards compatible from a code perspective, but it changes the 
 
 
 <<<<<<< Updated upstream
-### [v0.0.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.10)
+### [v0.0.10](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/8/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.10">Release notes</a></small>
+  <small>Published: 10/8/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.10">Release notes</a></small>
 =======
 ### [v0.0.10](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.10)
 
@@ -497,7 +497,7 @@ This change is backwards compatible from a code perspective, but it changes the 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/10: Pick up the ENI and concurrency fixes from https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server/pull/20 and https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/13.
+  https://github.com/tnn-gruntwork-io/package-zookeeper/pull/10: Pick up the ENI and concurrency fixes from https://github.com/tnn-gruntwork-io/module-server/pull/20 and https://github.com/tnn-gruntwork-io/module-asg/pull/13.
 =======
   https://github.com/tnn-gruntwork-io/package-zookeeper/pull/10: Pick up the ENI and concurrency fixes from https://github.com/tnn-gruntwork-io/module-server/pull/20 and https://github.com/tnn-gruntwork-io/module-asg/pull/13.
 >>>>>>> Stashed changes
@@ -506,10 +506,10 @@ This change is backwards compatible from a code perspective, but it changes the 
 
 
 <<<<<<< Updated upstream
-### [v0.0.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.9)
+### [v0.0.9](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/8/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.9">Release notes</a></small>
+  <small>Published: 10/8/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.9">Release notes</a></small>
 =======
 ### [v0.0.9](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.9)
 
@@ -521,7 +521,7 @@ This change is backwards compatible from a code perspective, but it changes the 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/9: Add execute permissions on run-exhibitor script, as they seem to get lost after a Packer build.
+  https://github.com/tnn-gruntwork-io/package-zookeeper/pull/9: Add execute permissions on run-exhibitor script, as they seem to get lost after a Packer build.
 =======
   https://github.com/tnn-gruntwork-io/package-zookeeper/pull/9: Add execute permissions on run-exhibitor script, as they seem to get lost after a Packer build.
 >>>>>>> Stashed changes
@@ -530,10 +530,10 @@ This change is backwards compatible from a code perspective, but it changes the 
 
 
 <<<<<<< Updated upstream
-### [v0.0.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.8)
+### [v0.0.8](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 10/3/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.8">Release notes</a></small>
+  <small>Published: 10/3/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.8">Release notes</a></small>
 =======
 ### [v0.0.8](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.8)
 
@@ -545,7 +545,7 @@ This change is backwards compatible from a code perspective, but it changes the 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/8: This picks up the fix from tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg#12 that cleans up the tmp-folder before trying to extract boto3 into it.
+  https://github.com/tnn-gruntwork-io/package-zookeeper/pull/8: This picks up the fix from tnn-gruntwork-io/module-asg#12 that cleans up the tmp-folder before trying to extract boto3 into it.
 =======
   https://github.com/tnn-gruntwork-io/package-zookeeper/pull/8: This picks up the fix from tnn-gruntwork-io/module-asg#12 that cleans up the tmp-folder before trying to extract boto3 into it.
 >>>>>>> Stashed changes

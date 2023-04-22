@@ -25,10 +25,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.2.24](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.24)
+### [v0.2.24](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.24)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/15/2019 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.24">Release notes</a></small>
+  <small>Published: 5/15/2019 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.24">Release notes</a></small>
 =======
 ### [v0.2.24](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.24)
 
@@ -40,7 +40,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/49: This integrates [sprig](http://masterminds.github.io/sprig/) into `boilerplate` so that the sprig functions are available in the templates rendered by `boilerplate. Note that there are a few `boilerplate` functions that overlap with `sprig`. Each of these are now documented in the README. As such, starting this release those helpers are deprecated, and will be replaced with the `sprig` versions in a future release. Please review the deprecation notes [in the README](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate#deprecated-helpers), pasted below for convenience.
+  https://github.com/tnn-gruntwork-io/boilerplate/pull/49: This integrates [sprig](http://masterminds.github.io/sprig/) into `boilerplate` so that the sprig functions are available in the templates rendered by `boilerplate. Note that there are a few `boilerplate` functions that overlap with `sprig`. Each of these are now documented in the README. As such, starting this release those helpers are deprecated, and will be replaced with the `sprig` versions in a future release. Please review the deprecation notes [in the README](https://github.com/tnn-gruntwork-io/boilerplate#deprecated-helpers), pasted below for convenience.
 =======
   https://github.com/tnn-gruntwork-io/boilerplate/pull/49: This integrates [sprig](http://masterminds.github.io/sprig/) into `boilerplate` so that the sprig functions are available in the templates rendered by `boilerplate. Note that there are a few `boilerplate` functions that overlap with `sprig`. Each of these are now documented in the README. As such, starting this release those helpers are deprecated, and will be replaced with the `sprig` versions in a future release. Please review the deprecation notes [in the README](https://github.com/tnn-gruntwork-io/boilerplate#deprecated-helpers), pasted below for convenience.
 >>>>>>> Stashed changes
@@ -112,10 +112,10 @@ to using the new naming scheme, as they will be updated to use the sprig version
 
 
 <<<<<<< Updated upstream
-### [v0.13.14](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.14)
+### [v0.13.14](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.14)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/8/2019 | Modules affected: gruntwork-module-circleci-helpers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.14">Release notes</a></small>
+  <small>Published: 5/8/2019 | Modules affected: gruntwork-module-circleci-helpers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.14">Release notes</a></small>
 =======
 ### [v0.13.14](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.13.14)
 
@@ -140,10 +140,10 @@ to using the new naming scheme, as they will be updated to use the sprig version
 
 
 <<<<<<< Updated upstream
-### [v0.13.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.4)
+### [v0.13.4](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/20/2019 | Modules affected: ecs-service-with-discovery, ecs-service-with-alb, ecs-fargate, ecs-daemon-service | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.4">Release notes</a></small>
+  <small>Published: 5/20/2019 | Modules affected: ecs-service-with-discovery, ecs-service-with-alb, ecs-fargate, ecs-daemon-service | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.4">Release notes</a></small>
 =======
 ### [v0.13.4](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.4)
 
@@ -164,10 +164,10 @@ to using the new naming scheme, as they will be updated to use the sprig version
 
 
 <<<<<<< Updated upstream
-### [v0.13.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.3)
+### [v0.13.3](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/9/2019 | Modules affected: ecs-service | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.3">Release notes</a></small>
+  <small>Published: 5/9/2019 | Modules affected: ecs-service | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.3">Release notes</a></small>
 =======
 ### [v0.13.3](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.3)
 
@@ -188,10 +188,10 @@ to using the new naming scheme, as they will be updated to use the sprig version
 
 
 <<<<<<< Updated upstream
-### [v0.13.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.2)
+### [v0.13.2](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/1/2019 | Modules affected: ecs-fargate | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.2">Release notes</a></small>
+  <small>Published: 5/1/2019 | Modules affected: ecs-fargate | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.2">Release notes</a></small>
 =======
 ### [v0.13.2](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.13.2)
 
@@ -215,10 +215,10 @@ to using the new naming scheme, as they will be updated to use the sprig version
 
 
 <<<<<<< Updated upstream
-### [v0.5.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.4)
+### [v0.5.4](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/9/2019 | Modules affected: eks-k8s-role-mapping, eks-cluster-control-plane, eks-cluster-workers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.4">Release notes</a></small>
+  <small>Published: 5/9/2019 | Modules affected: eks-k8s-role-mapping, eks-cluster-control-plane, eks-cluster-workers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.4">Release notes</a></small>
 =======
 ### [v0.5.4](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.4)
 
@@ -239,10 +239,10 @@ to using the new naming scheme, as they will be updated to use the sprig version
 
 
 <<<<<<< Updated upstream
-### [v0.5.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.3)
+### [v0.5.3](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/1/2019 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.3">Release notes</a></small>
+  <small>Published: 5/1/2019 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.3">Release notes</a></small>
 =======
 ### [v0.5.3](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.5.3)
 
@@ -267,10 +267,10 @@ This release confirms that `external-dns` and ALB ingress controller support ACM
 
 
 <<<<<<< Updated upstream
-### [v0.2.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.9)
+### [v0.2.9](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/17/2019 | Modules affected: elasticsearch-cluster-backup, elasticsearch-cluster-restore | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.9">Release notes</a></small>
+  <small>Published: 5/17/2019 | Modules affected: elasticsearch-cluster-backup, elasticsearch-cluster-restore | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.9">Release notes</a></small>
 =======
 ### [v0.2.9](https://github.com/tnn-gruntwork-io/terraform-aws-elk/releases/tag/v0.2.9)
 
@@ -290,7 +290,7 @@ This release confirms that `external-dns` and ALB ingress controller support ACM
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-elk/pull/80
+* https://github.com/tnn-gruntwork-io/package-elk/pull/80
 =======
 * https://github.com/tnn-gruntwork-io/package-elk/pull/80
 >>>>>>> Stashed changes
@@ -303,10 +303,10 @@ This release confirms that `external-dns` and ALB ingress controller support ACM
 
 
 <<<<<<< Updated upstream
-### [v0.2.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.2.0)
+### [v0.2.0](https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.2.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/13/2019 | Modules affected: sqs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.2.0">Release notes</a></small>
+  <small>Published: 5/13/2019 | Modules affected: sqs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.2.0">Release notes</a></small>
 =======
 ### [v0.2.0](https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.2.0)
 
@@ -328,7 +328,7 @@ A huge thanks to @burtino for spotting this and providing a fix.
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-messaging/pull/21
+* https://github.com/tnn-gruntwork-io/package-messaging/pull/21
 =======
 * https://github.com/tnn-gruntwork-io/package-messaging/pull/21
 >>>>>>> Stashed changes
@@ -341,10 +341,10 @@ A huge thanks to @burtino for spotting this and providing a fix.
 
 
 <<<<<<< Updated upstream
-### [v0.12.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.5)
+### [v0.12.5](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/21/2019 | Modules affected: logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.5">Release notes</a></small>
+  <small>Published: 5/21/2019 | Modules affected: logs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.5">Release notes</a></small>
 =======
 ### [v0.12.5](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.5)
 
@@ -365,10 +365,10 @@ A huge thanks to @burtino for spotting this and providing a fix.
 
 
 <<<<<<< Updated upstream
-### [v0.12.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.4)
+### [v0.12.4](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/14/2019 | Modules affected: logs/load-balancer-access-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.4">Release notes</a></small>
+  <small>Published: 5/14/2019 | Modules affected: logs/load-balancer-access-logs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.4">Release notes</a></small>
 =======
 ### [v0.12.4](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.4)
 
@@ -389,10 +389,10 @@ A huge thanks to @burtino for spotting this and providing a fix.
 
 
 <<<<<<< Updated upstream
-### [v0.12.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.3)
+### [v0.12.3](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/9/2019 | Modules affected: All | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.3">Release notes</a></small>
+  <small>Published: 5/9/2019 | Modules affected: All | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.3">Release notes</a></small>
 =======
 ### [v0.12.3](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.12.3)
 
@@ -419,10 +419,10 @@ A huge thanks to @burtino for spotting this and providing a fix.
 
 
 <<<<<<< Updated upstream
-### [v0.16.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.4)
+### [v0.16.4](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/24/2019 | Modules affected: cloudtrail | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.4">Release notes</a></small>
+  <small>Published: 5/24/2019 | Modules affected: cloudtrail | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.4">Release notes</a></small>
 =======
 ### [v0.16.4](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.4)
 
@@ -442,10 +442,10 @@ A huge thanks to @burtino for spotting this and providing a fix.
 
 
 <<<<<<< Updated upstream
-### [v0.16.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.3)
+### [v0.16.3](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/15/2019 | Modules affected: iam-groups | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.3">Release notes</a></small>
+  <small>Published: 5/15/2019 | Modules affected: iam-groups | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.3">Release notes</a></small>
 =======
 ### [v0.16.3](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.3)
 
@@ -465,10 +465,10 @@ A huge thanks to @burtino for spotting this and providing a fix.
 
 
 <<<<<<< Updated upstream
-### [v0.16.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.2)
+### [v0.16.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/3/2019 | Modules affected: fail2ban | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.2">Release notes</a></small>
+  <small>Published: 5/3/2019 | Modules affected: fail2ban | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.2">Release notes</a></small>
 =======
 ### [v0.16.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.16.2)
 
@@ -482,9 +482,9 @@ A huge thanks to @burtino for spotting this and providing a fix.
   
 
 <<<<<<< Updated upstream
-This release fixes https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/issues/89, where `fail2ban` was not correctly working on non-ubuntu instances. Specifically:
+This release fixes https://github.com/tnn-gruntwork-io/module-security/issues/89, where `fail2ban` was not correctly working on non-ubuntu instances. Specifically:
 
-- For CentOS and Amazon Linux 2, `fail2ban` installed `firewalld`. `firewalld` by default disallows all inbound access except for SSH, which leads to frustrating UX where you have to explicitly enable your web services running on the instance. Additionally, this behavior doesn&apos;t play well with docker clusters like ECS and EKS, where the service ports are dynamic. This release fixes this behavior by updating `firewalld` to default to trust all traffic. See https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/blob/master/modules/fail2ban/README.md#default-zone-for-firewalld-amazon-linux-2-and-centos for more info.
+- For CentOS and Amazon Linux 2, `fail2ban` installed `firewalld`. `firewalld` by default disallows all inbound access except for SSH, which leads to frustrating UX where you have to explicitly enable your web services running on the instance. Additionally, this behavior doesn&apos;t play well with docker clusters like ECS and EKS, where the service ports are dynamic. This release fixes this behavior by updating `firewalld` to default to trust all traffic. See https://github.com/tnn-gruntwork-io/module-security/blob/master/modules/fail2ban/README.md#default-zone-for-firewalld-amazon-linux-2-and-centos for more info.
 =======
 This release fixes https://github.com/tnn-gruntwork-io/module-security/issues/89, where `fail2ban` was not correctly working on non-ubuntu instances. Specifically:
 
@@ -504,10 +504,10 @@ This release fixes https://github.com/tnn-gruntwork-io/module-security/issues/89
 
 
 <<<<<<< Updated upstream
-### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.4.0)
+### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/16/2019 | Modules affected: k8s-tiller, k8s-tiller-tls-certs, k8s-helm-client-tls-certs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.4.0">Release notes</a></small>
+  <small>Published: 5/16/2019 | Modules affected: k8s-tiller, k8s-tiller-tls-certs, k8s-helm-client-tls-certs | <a href="https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.4.0">Release notes</a></small>
 =======
 ### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.4.0)
 
@@ -523,11 +523,11 @@ This release fixes https://github.com/tnn-gruntwork-io/module-security/issues/89
 This brings in TLS generation into the `k8s-tiller` module. In particular, `k8s-tiller` has a new required variable `tiller_tls_gen_method` which indicates how the module should generate the TLS certificates. Currently there are three options:
 
 <<<<<<< Updated upstream
-- `kubergrunt`: Use the [kubergrunt utility](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt) to generate the TLS certificates and upload as a Kubernetes `Secret` resource.
+- `kubergrunt`: Use the [kubergrunt utility](https://github.com/tnn-gruntwork-io/kubergrunt) to generate the TLS certificates and upload as a Kubernetes `Secret` resource.
 - `provider`: Use the [tls Terraform provider](https://www.terraform.io/docs/providers/tls/index.html) to generate the TLS certs, and then use the [kubernetes provider](https://www.terraform.io/docs/providers/kubernetes/index.html) to upload them as a Kubernetes `Secret` resource.
 - `none`: Don&apos;t generate any TLS certs and look them up based on the input variable `tiller_tls_secret_name`.
 
-The characteristics of the three approaches are summarized in the table below. You can refer to the [module README](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/tree/master/modules/k8s-tiller) for more details.
+The characteristics of the three approaches are summarized in the table below. You can refer to the [module README](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/tree/master/modules/k8s-tiller) for more details.
 =======
 - `kubergrunt`: Use the [kubergrunt utility](https://github.com/tnn-gruntwork-io/kubergrunt) to generate the TLS certificates and upload as a Kubernetes `Secret` resource.
 - `provider`: Use the [tls Terraform provider](https://www.terraform.io/docs/providers/tls/index.html) to generate the TLS certs, and then use the [kubernetes provider](https://www.terraform.io/docs/providers/kubernetes/index.html) to upload them as a Kubernetes `Secret` resource.
@@ -543,9 +543,9 @@ The characteristics of the three approaches are summarized in the table below. Y
 | Kubergrunt | Limited control       | Limited support        | Only references                           | Yes (kubergrunt binary)                      |
 
 <<<<<<< Updated upstream
-Additionally, this introduces the [k8s-tiller-tls-certs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/tree/master/modules/k8s-tiller-tls-certs) and [k8s-helm-client-tls-certs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/tree/master/modules/k8s-helm-client-tls-certs) modules, which can be used to manually manage the TLS certificates for Tiller using the tls Terraform provider. Refer to the module READMEs for more details.
+Additionally, this introduces the [k8s-tiller-tls-certs](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/tree/master/modules/k8s-tiller-tls-certs) and [k8s-helm-client-tls-certs](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/tree/master/modules/k8s-helm-client-tls-certs) modules, which can be used to manually manage the TLS certificates for Tiller using the tls Terraform provider. Refer to the module READMEs for more details.
 
-You can refer to the [updated root example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm) for example usage of the new modules.
+You can refer to the [updated root example](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm) for example usage of the new modules.
 =======
 Additionally, this introduces the [k8s-tiller-tls-certs](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/tree/master/modules/k8s-tiller-tls-certs) and [k8s-helm-client-tls-certs](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/tree/master/modules/k8s-helm-client-tls-certs) modules, which can be used to manually manage the TLS certificates for Tiller using the tls Terraform provider. Refer to the module READMEs for more details.
 
@@ -558,10 +558,10 @@ You can refer to the [updated root example](https://github.com/tnn-gruntwork-io/
 
 
 <<<<<<< Updated upstream
-### [v0.3.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.2)
+### [v0.3.2](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/8/2019 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.2">Release notes</a></small>
+  <small>Published: 5/8/2019 | <a href="https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.2">Release notes</a></small>
 =======
 ### [v0.3.2](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.2)
 
@@ -582,10 +582,10 @@ This updates the READMEs in all the modules to be compatible with the Terraform 
 
 
 <<<<<<< Updated upstream
-### [v0.3.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.1)
+### [v0.3.1](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/6/2019 | Modules affected: k8s-namespace, k8s-namespace-roles | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.1">Release notes</a></small>
+  <small>Published: 5/6/2019 | Modules affected: k8s-namespace, k8s-namespace-roles | <a href="https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.1">Release notes</a></small>
 =======
 ### [v0.3.1](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.1)
 
@@ -606,10 +606,10 @@ This updates the READMEs in all the modules to be compatible with the Terraform 
 
 
 <<<<<<< Updated upstream
-### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.0)
+### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 5/2/2019 | Modules affected: k8s-tiller, k8s-service-account, k8s-namespace, k8s-namespace-roles | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.0">Release notes</a></small>
+  <small>Published: 5/2/2019 | Modules affected: k8s-tiller, k8s-service-account, k8s-namespace, k8s-namespace-roles | <a href="https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.0">Release notes</a></small>
 =======
 ### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-kubernetes-helm/releases/tag/v0.3.0)
 

@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # ECS Daemon Service Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-daemon-service" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-daemon-service" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-daemon-service" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -40,7 +40,7 @@ environment variables to set, and so on. To actually run an ECS Task, you define
 ## How do you create an ECS cluster?
 
 <<<<<<< Updated upstream
-To use ECS, you first deploy one or more EC2 Instances into a "cluster". See the [ecs-cluster module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster)
+To use ECS, you first deploy one or more EC2 Instances into a "cluster". See the [ecs-cluster module](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster)
 =======
 To use ECS, you first deploy one or more EC2 Instances into a "cluster". See the [ecs-cluster module](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster)
 >>>>>>> Stashed changes
@@ -93,7 +93,7 @@ EOF
 module "ecs_daemon_service" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-daemon-service?ref=v0.35.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-daemon-service?ref=v0.35.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-daemon-service?ref=v0.35.1"
 >>>>>>> Stashed changes
@@ -218,7 +218,7 @@ module "ecs_daemon_service" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-daemon-service?ref=v0.35.1"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-daemon-service?ref=v0.35.1"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-daemon-service?ref=v0.35.1"
 >>>>>>> Stashed changes
@@ -614,9 +614,9 @@ If true, Terraform will wait for the service to reach a steady state—as in, th
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-daemon-service/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-daemon-service/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-daemon-service/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-daemon-service/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-daemon-service/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-daemon-service/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-daemon-service/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-daemon-service/variables.tf",

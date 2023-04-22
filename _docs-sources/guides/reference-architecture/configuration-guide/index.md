@@ -9,7 +9,7 @@ Follow the instructions below to prepare for a Reference Architecture deployment
 :::info
 
 <<<<<<< Updated upstream
-We recommend that you use the Gruntwork CLI tool to automate most of this process for you: <https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork>. Note that the Gruntwork CLI is in a private repo that is part of the Gruntwork IaC Library. If you don’t already have access to the Library, please email <support@gruntwork.io> to get access, or you will get a 404! Once you have access, follow the documentation in the README closely!
+We recommend that you use the Gruntwork CLI tool to automate most of this process for you: <https://github.com/tnn-gruntwork-io/gruntwork>. Note that the Gruntwork CLI is in a private repo that is part of the Gruntwork IaC Library. If you don’t already have access to the Library, please email <support@gruntwork.io> to get access, or you will get a 404! Once you have access, follow the documentation in the README closely!
 =======
 We recommend that you use the Gruntwork CLI tool to automate most of this process for you: <https://github.com/tnn-gruntwork-io/gruntwork>. Note that the Gruntwork CLI is in a private repo that is part of the Gruntwork IaC Library. If you don’t already have access to the Library, please email <support@gruntwork.io> to get access, or you will get a 404! Once you have access, follow the documentation in the README closely!
 >>>>>>> Stashed changes
@@ -19,7 +19,7 @@ We recommend that you use the Gruntwork CLI tool to automate most of this proces
 :::caution
 
 <<<<<<< Updated upstream
-Caveat: at this time, the Reference Architecture does not configure or manage the root/management account of an AWS Organization set up. That is, it does not include the [`account-baseline-root` module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/landingzone/account-baseline-root). Gruntwork is planning to add this in a future enhancement to the reference architecture.
+Caveat: at this time, the Reference Architecture does not configure or manage the root/management account of an AWS Organization set up. That is, it does not include the [`account-baseline-root` module](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/landingzone/account-baseline-root). Gruntwork is planning to add this in a future enhancement to the reference architecture.
 =======
 Caveat: at this time, the Reference Architecture does not configure or manage the root/management account of an AWS Organization set up. That is, it does not include the [`account-baseline-root` module](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/landingzone/account-baseline-root). Gruntwork is planning to add this in a future enhancement to the reference architecture.
 >>>>>>> Stashed changes
@@ -31,8 +31,8 @@ Caveat: at this time, the Reference Architecture does not configure or manage th
 1. Create a new repository in your VCS platform. We recommend naming it _infrastructure-live_.
 1. Keep this repo handy, as you'll be prompted for the following information in a subsequent step:
 <<<<<<< Updated upstream
-    - HTTPS URL (e.g. `https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-live`)
-    - SSH URL (e.g. `git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-live.git`)
+    - HTTPS URL (e.g. `https://github.com/tnn-gruntwork-io/infrastructure-live`)
+    - SSH URL (e.g. `git@github.com:tnn-gruntwork-io/infrastructure-live.git`)
 =======
     - HTTPS URL (e.g. `https://github.com/tnn-gruntwork-io/infrastructure-live`)
     - SSH URL (e.g. `git@github.com:tnn-gruntwork-io/infrastructure-live.git`)
@@ -166,8 +166,8 @@ Before running the wizard, ensure you have completed steps 1, 2 and 3 and that y
 - GitHub Machine User PAT (required in all cases)
 - VCS Machine User PAT (only required if your ultimate infrastructure-live destination is NOT GitHub)
 <<<<<<< Updated upstream
-- The HTTPS URL to your VCS `infrastructure-live` repo (e.g., `https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-live.git`)
-- The SSH URL to your same VCS `infrastructure-live` repo (e.g., `git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-live.git`)
+- The HTTPS URL to your VCS `infrastructure-live` repo (e.g., `https://github.com/tnn-gruntwork-io/infrastructure-live.git`)
+- The SSH URL to your same VCS `infrastructure-live` repo (e.g., `git@github.com:tnn-gruntwork-io/infrastructure-live.git`)
 =======
 - The HTTPS URL to your VCS `infrastructure-live` repo (e.g., `https://github.com/tnn-gruntwork-io/infrastructure-live.git`)
 - The SSH URL to your same VCS `infrastructure-live` repo (e.g., `git@github.com:tnn-gruntwork-io/infrastructure-live.git`)
@@ -237,7 +237,7 @@ Click here if you would like to perform the setup actions manually
 </summary>
 
 <<<<<<< Updated upstream
-Visit [the Gruntwork releases page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases)
+Visit [the Gruntwork releases page](https://github.com/tnn-gruntwork-io/gruntwork/releases)
 =======
 Visit [the Gruntwork releases page](https://github.com/tnn-gruntwork-io/gruntwork/releases)
 >>>>>>> Stashed changes

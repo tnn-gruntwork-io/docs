@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Start OpenVPN Admin
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/start-openvpn-admin" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/start-openvpn-admin" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.19.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.19.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/start-openvpn-admin" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -31,9 +31,9 @@ certificate revocation requests on the OpenVPN server
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/start-openvpn-admin/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/start-openvpn-admin/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/start-openvpn-admin/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/start-openvpn-admin/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/start-openvpn-admin/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/start-openvpn-admin/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/start-openvpn-admin/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/start-openvpn-admin/variables.tf",

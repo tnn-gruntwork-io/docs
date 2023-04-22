@@ -2,7 +2,7 @@
 
 The Gruntwork Service Catalog consists of a number of reusable, customizable, battle-tested, production-grade
 <<<<<<< Updated upstream
-[infrastructure-as-code services](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules) that you can use to deploy and manage your infrastructure, including Docker
+[infrastructure-as-code services](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules) that you can use to deploy and manage your infrastructure, including Docker
 =======
 [infrastructure-as-code services](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules) that you can use to deploy and manage your infrastructure, including Docker
 >>>>>>> Stashed changes
@@ -29,7 +29,7 @@ management, VPN, and much more.
   combines all the modules you need to run an EKS (Kubernetes) cluster in a typical production environment, including
   modules for the control plane, worker nodes, secrets management, log aggregation, alerting, and so on. The [Gruntwork
 <<<<<<< Updated upstream
-  Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/) is a collection of battle-tested, commercially
+  Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/) is a collection of battle-tested, commercially
 =======
   Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/) is a collection of battle-tested, commercially
 >>>>>>> Stashed changes
@@ -76,7 +76,7 @@ The code in the `terraform-aws-service-catalog` repo is organized into three pri
     1. Not all modules have a `for-production` example, but you can still create a production-grade configuration by 
        using the template provided in this discussion question, [How do I use the modules in terraform-aws-service-catalog
 <<<<<<< Updated upstream
-       if there is no example?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/knowledge-base/discussions/360#discussioncomment-25705480).
+       if there is no example?](https://github.com/tnn-gruntwork-io/knowledge-base/discussions/360#discussioncomment-25705480).
 =======
        if there is no example?](https://github.com/tnn-gruntwork-io/knowledge-base/discussions/360#discussioncomment-25705480).
 >>>>>>> Stashed changes
@@ -88,7 +88,7 @@ The code in the `terraform-aws-service-catalog` repo is organized into three pri
 All of the code in the Gruntwork Service Catalog is _versioned_. The Service Catalog is commercially maintained by
 Gruntwork, and every time we make a change, we put out a new [versioned
 <<<<<<< Updated upstream
-release](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases), and announce it in the monthly [Gruntwork
+release](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases), and announce it in the monthly [Gruntwork
 =======
 release](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases), and announce it in the monthly [Gruntwork
 >>>>>>> Stashed changes
@@ -110,7 +110,7 @@ different, where you increment the:
 
 We try to minimize backwards incompatible changes, but when we have to make one, we bump the MINOR version number, and
 <<<<<<< Updated upstream
-include migration instructions in the [release notes](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases).
+include migration instructions in the [release notes](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases).
 =======
 include migration instructions in the [release notes](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases).
 >>>>>>> Stashed changes

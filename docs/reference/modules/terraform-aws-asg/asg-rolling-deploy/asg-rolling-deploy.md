@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Auto Scaling Group with Rolling Deployment Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.21.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.21.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -63,7 +63,7 @@ Note that if all we did was use `create_before_destroy`, on each redeploy, our A
 `desired_capacity`, losing the capacity changes from auto scaling policies. We solve this problem by using an
 [external data source](https://www.terraform.io/docs/providers/external/data_source.html) that runs the Python script
 <<<<<<< Updated upstream
-[get-desired-capacity.py](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy/describe-autoscaling-group/get-desired-capacity.py) to fetch the latest value of the
+[get-desired-capacity.py](https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy/describe-autoscaling-group/get-desired-capacity.py) to fetch the latest value of the
 =======
 [get-desired-capacity.py](https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy/describe-autoscaling-group/get-desired-capacity.py) to fetch the latest value of the
 >>>>>>> Stashed changes
@@ -88,7 +88,7 @@ Note that if all we did was use `create_before_destroy`, on each redeploy, our A
 module "asg_rolling_deploy" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-rolling-deploy?ref=v0.21.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-rolling-deploy?ref=v0.21.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-rolling-deploy?ref=v0.21.2"
 >>>>>>> Stashed changes
@@ -200,7 +200,7 @@ module "asg_rolling_deploy" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-rolling-deploy?ref=v0.21.2"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-rolling-deploy?ref=v0.21.2"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-rolling-deploy?ref=v0.21.2"
 >>>>>>> Stashed changes
@@ -562,9 +562,9 @@ A maximum duration that Terraform should wait for the EC2 Instances to be health
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-rolling-deploy/variables.tf",

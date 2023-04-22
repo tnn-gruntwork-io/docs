@@ -12,7 +12,7 @@ Desktop to port 3389, by default. You can then add additional NACL rules to allo
 range, such as the IP addresses of your offices.
 
 <<<<<<< Updated upstream
-To meet recommendation 5.3, run the [`cloud-nuke defaults-aws`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/cloud-nuke) command
+To meet recommendation 5.3, run the [`cloud-nuke defaults-aws`](https://github.com/tnn-gruntwork-io/cloud-nuke) command
 =======
 To meet recommendation 5.3, run the [`cloud-nuke defaults-aws`](https://github.com/tnn-gruntwork-io/cloud-nuke) command
 >>>>>>> Stashed changes

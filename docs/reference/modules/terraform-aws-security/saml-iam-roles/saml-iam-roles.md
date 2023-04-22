@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # A best-practices set of IAM roles for SAML access
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -54,7 +54,7 @@ This module creates the following IAM roles (all optional):
 *   **allow-ssh-grunt-access-from-saml**: Users authenticated by the SAML providers in
     `var.allow_ssh_grunt_access_from_saml_provider_arns` will get read access to IAM Groups and public SSH keys. This is
 <<<<<<< Updated upstream
-    useful to allow [ssh-grunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) running on EC2 Instances in other AWS accounts to validate SSH
+    useful to allow [ssh-grunt](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) running on EC2 Instances in other AWS accounts to validate SSH
 =======
     useful to allow [ssh-grunt](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/ssh-grunt) running on EC2 Instances in other AWS accounts to validate SSH
 >>>>>>> Stashed changes
@@ -89,7 +89,7 @@ This module creates the following IAM roles (all optional):
 module "saml_iam_roles" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/saml-iam-roles?ref=v0.67.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/saml-iam-roles?ref=v0.67.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/saml-iam-roles?ref=v0.67.8"
 >>>>>>> Stashed changes
@@ -249,7 +249,7 @@ module "saml_iam_roles" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/saml-iam-roles?ref=v0.67.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/saml-iam-roles?ref=v0.67.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/saml-iam-roles?ref=v0.67.8"
 >>>>>>> Stashed changes
@@ -909,9 +909,9 @@ A map of tags to apply to the IAM roles.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles/variables.tf",

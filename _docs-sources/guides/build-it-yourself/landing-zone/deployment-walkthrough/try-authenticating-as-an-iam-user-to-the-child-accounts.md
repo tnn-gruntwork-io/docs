@@ -18,7 +18,7 @@ authenticating:
    security account, and then assume the `allow-full-access-from-other-accounts` role in the dev account (you can find
    the default list of IAM roles created in each account
 <<<<<<< Updated upstream
-   [here](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/cross-account-iam-roles#resources-created)).
+   [here](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/cross-account-iam-roles#resources-created)).
 =======
    [here](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/cross-account-iam-roles#resources-created)).
 >>>>>>> Stashed changes

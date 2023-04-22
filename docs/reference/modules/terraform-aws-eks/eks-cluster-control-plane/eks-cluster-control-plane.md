@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # EKS Cluster Control Plane Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.57.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.57.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -29,7 +29,7 @@ Cluster](https://docs.aws.amazon.com/eks/latest/userguide/clusters.html).
 This module is responsible for the EKS Control Plane in [the EKS cluster topology](#what-is-an-eks-cluster). You must
 launch worker nodes in order to be able to schedule pods on your cluster. See the [eks-cluster-workers
 <<<<<<< Updated upstream
-module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers) for managing EKS worker nodes.
+module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers) for managing EKS worker nodes.
 =======
 module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers) for managing EKS worker nodes.
 >>>>>>> Stashed changes
@@ -57,7 +57,7 @@ Specifically, the control plane consists of:
     [`LoadBalancers`](https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/).
 
 <<<<<<< Updated upstream
-You can read more about the different components of EKS in [the project README](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/core-concepts.md#what-is-an-eks-cluster).
+You can read more about the different components of EKS in [the project README](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/core-concepts.md#what-is-an-eks-cluster).
 =======
 You can read more about the different components of EKS in [the project README](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/core-concepts.md#what-is-an-eks-cluster).
 >>>>>>> Stashed changes
@@ -132,7 +132,7 @@ EOF
 ## How do I associate IAM roles to the Pods?
 
 <<<<<<< Updated upstream
-**NOTE: This configuration depends on [kubergrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt), minimum version 0.5.3**
+**NOTE: This configuration depends on [kubergrunt](https://github.com/tnn-gruntwork-io/kubergrunt), minimum version 0.5.3**
 =======
 **NOTE: This configuration depends on [kubergrunt](https://github.com/tnn-gruntwork-io/kubergrunt), minimum version 0.5.3**
 >>>>>>> Stashed changes
@@ -153,7 +153,7 @@ role that is being assumed. Specifically, you need to:
 
 You can use the
 <<<<<<< Updated upstream
-[eks-iam-role-assume-role-policy-for-service-account module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account) to
+[eks-iam-role-assume-role-policy-for-service-account module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account) to
 =======
 [eks-iam-role-assume-role-policy-for-service-account module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-iam-role-assume-role-policy-for-service-account) to
 >>>>>>> Stashed changes
@@ -265,7 +265,7 @@ Some additional notes on using Fargate:
     provision Fargate Profiles with Terraform). The Pod Execution Role created by the module may be reused for other
     Fargate Profiles.
 <<<<<<< Updated upstream
-*   Fargate does not support DaemonSets. This means that you can't rely on the [eks-container-logs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-container-logs)
+*   Fargate does not support DaemonSets. This means that you can't rely on the [eks-container-logs](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-container-logs)
 =======
 *   Fargate does not support DaemonSets. This means that you can't rely on the [eks-container-logs](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-container-logs)
 >>>>>>> Stashed changes
@@ -297,7 +297,7 @@ When you bump minor versions, the module will automatically update the deployed 
 the [official upgrade guide](https://docs.aws.amazon.com/eks/latest/userguide/update-cluster.html). This is handled by
 `kubergrunt` (**minimum version 0.6.2**) using the [eks
 <<<<<<< Updated upstream
-sync-core-components](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt#sync-core-components) command, which will look up the
+sync-core-components](https://github.com/tnn-gruntwork-io/kubergrunt#sync-core-components) command, which will look up the
 =======
 sync-core-components](https://github.com/tnn-gruntwork-io/kubergrunt#sync-core-components) command, which will look up the
 >>>>>>> Stashed changes
@@ -315,7 +315,7 @@ Note that you must update the nodes to use the corresponding `kubelet` version a
 minor versions, you will also need to update the AMIs used by the worker nodes to match the version and rotate the
 workers. For more information on rotating worker nodes, refer to [How do I roll out an update to the
 <<<<<<< Updated upstream
-instances?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/README.md#how-do-i-roll-out-an-update-to-the-instances) in the `eks-cluster-workers`
+instances?](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/README.md#how-do-i-roll-out-an-update-to-the-instances) in the `eks-cluster-workers`
 =======
 instances?](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/README.md#how-do-i-roll-out-an-update-to-the-instances) in the `eks-cluster-workers`
 >>>>>>> Stashed changes
@@ -400,10 +400,10 @@ approaches:
     ```
 
 <<<<<<< Updated upstream
-*   Create an ELB using the AWS console, or the modules in [terraform-aws-load-balancer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/).
+*   Create an ELB using the AWS console, or the modules in [terraform-aws-load-balancer](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/).
 
 *   Create the service linked role using [the Landing Zone
-    modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/main/modules/landingzone).
+    modules](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/main/modules/landingzone).
 =======
 *   Create an ELB using the AWS console, or the modules in [terraform-aws-load-balancer](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/).
 
@@ -425,7 +425,7 @@ approaches:
 module "eks_cluster_control_plane" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=v0.57.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=v0.57.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=v0.57.0"
 >>>>>>> Stashed changes
@@ -574,7 +574,7 @@ module "eks_cluster_control_plane" {
   # used if var.use_kubergrunt_verification and var.auto_install_kubergrunt are
   # true.
 <<<<<<< Updated upstream
-  kubergrunt_download_url = "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases/download/v0.11.0-alpha.1/kubergrunt"
+  kubergrunt_download_url = "https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.11.0-alpha.1/kubergrunt"
 =======
   kubergrunt_download_url = "https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.11.0-alpha.1/kubergrunt"
 >>>>>>> Stashed changes
@@ -703,7 +703,7 @@ module "eks_cluster_control_plane" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=v0.57.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=v0.57.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-control-plane?ref=v0.57.0"
 >>>>>>> Stashed changes
@@ -855,7 +855,7 @@ inputs = {
   # used if var.use_kubergrunt_verification and var.auto_install_kubergrunt are
   # true.
 <<<<<<< Updated upstream
-  kubergrunt_download_url = "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases/download/v0.11.0-alpha.1/kubergrunt"
+  kubergrunt_download_url = "https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.11.0-alpha.1/kubergrunt"
 =======
   kubergrunt_download_url = "https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.11.0-alpha.1/kubergrunt"
 >>>>>>> Stashed changes
@@ -1306,7 +1306,7 @@ The URL from which to download Kubergrunt if it's not installed already. Only us
 
 </HclListItemDescription>
 <<<<<<< Updated upstream
-<HclListItemDefaultValue defaultValue="&quot;https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt/releases/download/v0.11.0-alpha.1/kubergrunt&quot;"/>
+<HclListItemDefaultValue defaultValue="&quot;https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.11.0-alpha.1/kubergrunt&quot;"/>
 =======
 <HclListItemDefaultValue defaultValue="&quot;https://github.com/tnn-gruntwork-io/kubergrunt/releases/download/v0.11.0-alpha.1/kubergrunt&quot;"/>
 >>>>>>> Stashed changes
@@ -1621,9 +1621,9 @@ The path to the kubergrunt binary, if in use.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-control-plane/variables.tf",

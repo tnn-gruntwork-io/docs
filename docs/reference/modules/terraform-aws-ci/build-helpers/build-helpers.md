@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Build Helpers
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/build-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/build-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.11" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.11" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/build-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -37,10 +37,10 @@ This folder contains several helper scripts for automatically building deployabl
 ## Using the helper scripts in your code
 
 <<<<<<< Updated upstream
-You can install these scripts using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
+You can install these scripts using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
-gruntwork-install --module-name "build-helpers" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci" --tag "v0.29.1"
+gruntwork-install --module-name "build-helpers" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ci" --tag "v0.29.1"
 =======
 You can install these scripts using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
@@ -86,7 +86,7 @@ Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Parameterized+Trigger+Plugin
 would be a [parameterized build](https://wiki.jenkins-ci.org/display/JENKINS/Parameterized+Build) that takes as input
 a parameter called `ARTIFACT_ID` (the same parameter name that's in the `artifacts.properties` file) and use it, along
 <<<<<<< Updated upstream
-with the scripts in the [terraform-helpers module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/terraform-helpers) to automatically deploy the new AMI:
+with the scripts in the [terraform-helpers module](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/terraform-helpers) to automatically deploy the new AMI:
 =======
 with the scripts in the [terraform-helpers module](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/terraform-helpers) to automatically deploy the new AMI:
 >>>>>>> Stashed changes
@@ -109,7 +109,7 @@ For example, to build the example jenkins Packer template in this repo on the re
 ```
 build-packer-artifact \
 <<<<<<< Updated upstream
-  --packer-template-path git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//examples/jenkins/packer/jenkins.json?ref=v0.19.0
+  --packer-template-path git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//examples/jenkins/packer/jenkins.json?ref=v0.19.0
 =======
   --packer-template-path git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//examples/jenkins/packer/jenkins.json?ref=v0.19.0
 >>>>>>> Stashed changes
@@ -209,9 +209,9 @@ Note that the following conditions must be true in order to use this feature:
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/build-helpers/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/build-helpers/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/build-helpers/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/build-helpers/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/build-helpers/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/build-helpers/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/build-helpers/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/build-helpers/variables.tf",

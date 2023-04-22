@@ -14,12 +14,12 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Backup PKI Assets Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/backup-openvpn-pki" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/backup-openvpn-pki" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.19.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.19.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This module is used to backup the OpenVPN Public Key Infrastructure (PKI) to S3 on a server that has been installed using
-the [install-openvpn](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/install-openvpn) module.
+the [install-openvpn](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/install-openvpn) module.
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/backup-openvpn-pki" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -38,9 +38,9 @@ up, we would have to reissue client certificates if the OpenVPN server ever need
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/backup-openvpn-pki/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/backup-openvpn-pki/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/backup-openvpn-pki/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/backup-openvpn-pki/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/backup-openvpn-pki/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/backup-openvpn-pki/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/backup-openvpn-pki/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/backup-openvpn-pki/variables.tf",

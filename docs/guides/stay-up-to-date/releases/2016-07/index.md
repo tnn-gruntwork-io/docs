@@ -26,10 +26,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.2)
+### [v0.0.2](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/1/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.2">Release notes</a></small>
+  <small>Published: 7/1/2016 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.2">Release notes</a></small>
 =======
 ### [v0.0.2](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.2)
 
@@ -47,10 +47,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.1)
+### [v0.0.1](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/1/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.0.1">Release notes</a></small>
+  <small>Published: 7/1/2016 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.1">Release notes</a></small>
 =======
 ### [v0.0.1](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.0.1)
 
@@ -72,10 +72,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.3)
+### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.3">Release notes</a></small>
+  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.3">Release notes</a></small>
 =======
 ### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.3)
 
@@ -93,10 +93,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.2)
+### [v0.0.2](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.2">Release notes</a></small>
+  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.2">Release notes</a></small>
 =======
 ### [v0.0.2](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.2)
 
@@ -114,10 +114,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.1)
+### [v0.0.1](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/12/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.1">Release notes</a></small>
+  <small>Published: 7/12/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.1">Release notes</a></small>
 =======
 ### [v0.0.1](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.0.1)
 
@@ -139,10 +139,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.0.1)
+### [v0.0.1](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.0.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/30/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.0.1">Release notes</a></small>
+  <small>Published: 7/30/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.0.1">Release notes</a></small>
 =======
 ### [v0.0.1](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.0.1)
 
@@ -164,10 +164,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.17](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.17)
+### [v0.0.17](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.17)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.17">Release notes</a></small>
+  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.17">Release notes</a></small>
 =======
 ### [v0.0.17](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.17)
 
@@ -185,10 +185,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.16](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.16)
+### [v0.0.16](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.16)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.16">Release notes</a></small>
+  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.16">Release notes</a></small>
 =======
 ### [v0.0.16](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.16)
 
@@ -206,10 +206,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.15](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.15)
+### [v0.0.15](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.15)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.15">Release notes</a></small>
+  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.15">Release notes</a></small>
 =======
 ### [v0.0.15](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.15)
 
@@ -227,10 +227,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.14](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.14)
+### [v0.0.14](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.14)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/22/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.14">Release notes</a></small>
+  <small>Published: 7/22/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.14">Release notes</a></small>
 =======
 ### [v0.0.14](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.14)
 
@@ -248,10 +248,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.13](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.13)
+### [v0.0.13](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.13)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/12/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.13">Release notes</a></small>
+  <small>Published: 7/12/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.13">Release notes</a></small>
 =======
 ### [v0.0.13](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.13)
 
@@ -270,10 +270,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.12](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.12)
+### [v0.0.12](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.12)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/12/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.12">Release notes</a></small>
+  <small>Published: 7/12/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.12">Release notes</a></small>
 =======
 ### [v0.0.12](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.12)
 
@@ -291,10 +291,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.11](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.11)
+### [v0.0.11](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.11)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/1/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.11">Release notes</a></small>
+  <small>Published: 7/1/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.11">Release notes</a></small>
 =======
 ### [v0.0.11](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.0.11)
 
@@ -318,10 +318,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.7)
+### [v0.0.7](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/29/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.7">Release notes</a></small>
+  <small>Published: 7/29/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.7">Release notes</a></small>
 =======
 ### [v0.0.7](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.7)
 
@@ -339,10 +339,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.6)
+### [v0.0.6](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.6">Release notes</a></small>
+  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.6">Release notes</a></small>
 =======
 ### [v0.0.6](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.6)
 
@@ -360,10 +360,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.5)
+### [v0.0.5](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.5">Release notes</a></small>
+  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.5">Release notes</a></small>
 =======
 ### [v0.0.5](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.0.5)
 
@@ -385,10 +385,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.1.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.6)
+### [v0.1.6](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.6">Release notes</a></small>
+  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.6">Release notes</a></small>
 =======
 ### [v0.1.6](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.6)
 
@@ -406,10 +406,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.1.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.5)
+### [v0.1.5](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.5">Release notes</a></small>
+  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.5">Release notes</a></small>
 =======
 ### [v0.1.5](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.5)
 
@@ -427,10 +427,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.1.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.4)
+### [v0.1.4](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/14/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.4">Release notes</a></small>
+  <small>Published: 7/14/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.4">Release notes</a></small>
 =======
 ### [v0.1.4](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.4)
 
@@ -449,10 +449,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.1.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.3)
+### [v0.1.3](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/14/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.3">Release notes</a></small>
+  <small>Published: 7/14/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.3">Release notes</a></small>
 =======
 ### [v0.1.3](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.3)
 
@@ -470,10 +470,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.1.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.2)
+### [v0.1.2](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/14/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.2">Release notes</a></small>
+  <small>Published: 7/14/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.2">Release notes</a></small>
 =======
 ### [v0.1.2](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.2)
 
@@ -491,10 +491,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.1.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.1)
+### [v0.1.1](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/13/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.1">Release notes</a></small>
+  <small>Published: 7/13/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.1">Release notes</a></small>
 =======
 ### [v0.1.1](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.1)
 
@@ -512,10 +512,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.1.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.0)
+### [v0.1.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/4/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.0">Release notes</a></small>
+  <small>Published: 7/4/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.0">Release notes</a></small>
 =======
 ### [v0.1.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.1.0)
 
@@ -536,10 +536,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.0.7)
+### [v0.0.7](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.0.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/3/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.0.7">Release notes</a></small>
+  <small>Published: 7/3/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.0.7">Release notes</a></small>
 =======
 ### [v0.0.7](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.0.7)
 
@@ -561,10 +561,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.8)
+### [v0.0.8](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.8">Release notes</a></small>
+  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.8">Release notes</a></small>
 =======
 ### [v0.0.8](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.8)
 
@@ -582,10 +582,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.7)
+### [v0.0.7](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.7">Release notes</a></small>
+  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.7">Release notes</a></small>
 =======
 ### [v0.0.7](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.0.7)
 
@@ -607,10 +607,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.1)
+### [v0.0.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.1">Release notes</a></small>
+  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.1">Release notes</a></small>
 =======
 ### [v0.0.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.0.1)
 
@@ -632,10 +632,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.5)
+### [v0.0.5](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.5">Release notes</a></small>
+  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.5">Release notes</a></small>
 =======
 ### [v0.0.5](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.5)
 
@@ -653,10 +653,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.4)
+### [v0.0.4](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.4">Release notes</a></small>
+  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.4">Release notes</a></small>
 =======
 ### [v0.0.4](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.4)
 
@@ -674,10 +674,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.3)
+### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/12/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.3">Release notes</a></small>
+  <small>Published: 7/12/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.3">Release notes</a></small>
 =======
 ### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.0.3)
 
@@ -701,10 +701,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.8)
+### [v0.0.8](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.8">Release notes</a></small>
+  <small>Published: 7/26/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.8">Release notes</a></small>
 =======
 ### [v0.0.8](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.8)
 
@@ -722,10 +722,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.7)
+### [v0.0.7](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.7">Release notes</a></small>
+  <small>Published: 7/24/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.7">Release notes</a></small>
 =======
 ### [v0.0.7](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.7)
 
@@ -743,10 +743,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.6)
+### [v0.0.6](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/8/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.6">Release notes</a></small>
+  <small>Published: 7/8/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.6">Release notes</a></small>
 =======
 ### [v0.0.6](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.6)
 
@@ -764,10 +764,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.5)
+### [v0.0.5](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 7/7/2016 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.5">Release notes</a></small>
+  <small>Published: 7/7/2016 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.5">Release notes</a></small>
 =======
 ### [v0.0.5](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.0.5)
 

@@ -21,9 +21,9 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 # EC2 Instance
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=services%2Fec2-instance" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=services%2Fec2-instance" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
@@ -56,7 +56,7 @@ so if you want to run multiple EC2 instances for high availability and scalabili
 :::note
 
 <<<<<<< Updated upstream
-This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 =======
 This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
 >>>>>>> Stashed changes
@@ -69,9 +69,9 @@ If you’ve never used the Service Catalog before, make sure to read
 ### Core concepts
 
 <<<<<<< Updated upstream
-*   [How do I update my instance?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/core-concepts.md#how-do-i-update-my-instance)
-*   [How do I use User Data?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/core-concepts.md#how-do-i-use-user-data)
-*   [How do I mount an EBS volume?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/core-concepts.md#how-do-i-mount-an-ebs-volume)
+*   [How do I update my instance?](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/core-concepts.md#how-do-i-update-my-instance)
+*   [How do I use User Data?](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/core-concepts.md#how-do-i-use-user-data)
+*   [How do I mount an EBS volume?](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/core-concepts.md#how-do-i-mount-an-ebs-volume)
 =======
 *   [How do I update my instance?](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/core-concepts.md#how-do-i-update-my-instance)
 *   [How do I use User Data?](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/core-concepts.md#how-do-i-use-user-data)
@@ -84,15 +84,15 @@ The EC2 Instance AMI is defined using the [Packer](https://www.packer.io/) templ
 This template configures the AMI to:
 
 <<<<<<< Updated upstream
-1.  Run the [ssh-grunt module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt) so
+1.  Run the [ssh-grunt module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt) so
     that developers can upload their public SSH keys to IAM and use those SSH keys, along with their IAM user names,
     toSSH to the EC2 instance.
 
-2.  Run the [auto-update module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/auto-update)
+2.  Run the [auto-update module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/auto-update)
     so that the EC2 instance installs security updates automatically.
 
 3.  Optionally run the
-    [syslog module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/syslog)
+    [syslog module](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/syslog)
 =======
 1.  Run the [ssh-grunt module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt) so
     that developers can upload their public SSH keys to IAM and use those SSH keys, along with their IAM user names,
@@ -114,7 +114,7 @@ This template configures the AMI to:
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-learning-and-testing folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The `examples/for-learning-and-testing`
+*   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The `examples/for-learning-and-testing`
 =======
 *   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The `examples/for-learning-and-testing`
 >>>>>>> Stashed changes
@@ -126,7 +126,7 @@ If you just want to try this repo out for experimenting and learning, check out 
 If you want to deploy this repo in production, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples/for-production folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+*   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
 =======
 *   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
 >>>>>>> Stashed changes
@@ -150,7 +150,7 @@ If you want to deploy this repo in production, check out the following resources
 module "ec_2_instance" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ec2-instance?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ec2-instance?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ec2-instance?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -304,7 +304,7 @@ module "ec_2_instance" {
 
   # Set to true to send logs to CloudWatch. This is useful in combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 >>>>>>> Stashed changes
@@ -314,7 +314,7 @@ module "ec_2_instance" {
   # Set to true to add IAM permissions to send custom metrics to CloudWatch. This is
   # useful in combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/met
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/met
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/met
 >>>>>>> Stashed changes
@@ -330,7 +330,7 @@ module "ec_2_instance" {
 
   # Set to true to add IAM permissions for ssh-grunt
 <<<<<<< Updated upstream
-  # (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+  # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
 =======
   # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
 >>>>>>> Stashed changes
@@ -460,7 +460,7 @@ module "ec_2_instance" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ec2-instance?ref=v0.102.11"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ec2-instance?ref=v0.102.11"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/ec2-instance?ref=v0.102.11"
 >>>>>>> Stashed changes
@@ -617,7 +617,7 @@ inputs = {
 
   # Set to true to send logs to CloudWatch. This is useful in combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
 >>>>>>> Stashed changes
@@ -627,7 +627,7 @@ inputs = {
   # Set to true to add IAM permissions to send custom metrics to CloudWatch. This is
   # useful in combination with
 <<<<<<< Updated upstream
-  # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/met
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/met
 =======
   # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/met
 >>>>>>> Stashed changes
@@ -643,7 +643,7 @@ inputs = {
 
   # Set to true to add IAM permissions for ssh-grunt
 <<<<<<< Updated upstream
-  # (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+  # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
 =======
   # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
 >>>>>>> Stashed changes
@@ -1102,7 +1102,7 @@ Set to true to enable several basic CloudWatch alarms around CPU usage, memory u
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-Set to true to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
+Set to true to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
 =======
 Set to true to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
 >>>>>>> Stashed changes
@@ -1115,7 +1115,7 @@ Set to true to send logs to CloudWatch. This is useful in combination with https
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/metrics/cloudwatch-memory-disk-metrics-scripts to get memory and disk metrics in CloudWatch for your EC2 instance.
+Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/metrics/cloudwatch-memory-disk-metrics-scripts to get memory and disk metrics in CloudWatch for your EC2 instance.
 =======
 Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/metrics/cloudwatch-memory-disk-metrics-scripts to get memory and disk metrics in CloudWatch for your EC2 instance.
 >>>>>>> Stashed changes
@@ -1146,7 +1146,7 @@ Enable ip-lockdown to block access to the instance metadata. Defaults to true.
 <HclListItemDescription>
 
 <<<<<<< Updated upstream
-Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
+Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
 =======
 Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
 >>>>>>> Stashed changes
@@ -1453,9 +1453,9 @@ The input parameters for the EBS volumes.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/README.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/README.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/README.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/services/ec2-instance/variables.tf",

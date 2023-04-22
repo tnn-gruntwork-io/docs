@@ -5,7 +5,7 @@ This diagram shows a rough overview of the Gruntwork Pipelines architecture:
 ![Architecture Diagram](/img/guides/reference-architecture/example-usage-guide/gruntwork-pipelines-architecture.png)
 
 <<<<<<< Updated upstream
-The Gruntwork Pipelines workflow, defined in [`.github/workflows/pipelines.yml`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/blob/master/examples/for-production/infrastructure-live/.github/workflows/pipelines.yml), works like this:
+The Gruntwork Pipelines workflow, defined in [`.github/workflows/pipelines.yml`](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/blob/master/examples/for-production/infrastructure-live/.github/workflows/pipelines.yml), works like this:
 =======
 The Gruntwork Pipelines workflow, defined in [`.github/workflows/pipelines.yml`](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/blob/master/examples/for-production/infrastructure-live/.github/workflows/pipelines.yml), works like this:
 >>>>>>> Stashed changes
@@ -91,7 +91,7 @@ If you'd like to send Slack notifications when the pipeline is running, follow t
 - `AWS_ACCESS_KEY_ID`: This is the first value from the AWS IAM user step above.
 - `AWS_SECRET_ACCESS_KEY`: This is the second value from the AWS IAM user step above.
 <<<<<<< Updated upstream
-- `GH_TOKEN`: Enter the GitHub machine user's oauth token here. If you don't know this, you can find it in the AWS Secrets Manager secret that you provided in the [`reference-architecture-form.yml`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/reference-architecture-form.yml).
+- `GH_TOKEN`: Enter the GitHub machine user's oauth token here. If you don't know this, you can find it in the AWS Secrets Manager secret that you provided in the [`reference-architecture-form.yml`](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/reference-architecture-form.yml).
 =======
 - `GH_TOKEN`: Enter the GitHub machine user's oauth token here. If you don't know this, you can find it in the AWS Secrets Manager secret that you provided in the [`reference-architecture-form.yml`](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/examples/for-production/infrastructure-live/reference-architecture-form.yml).
 >>>>>>> Stashed changes

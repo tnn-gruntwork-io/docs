@@ -3,7 +3,7 @@
 :::info Terragrunt not required
 
 <<<<<<< Updated upstream
-This guide uses [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt) and its associated file and folder
+This guide uses [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt) and its associated file and folder
 =======
 This guide uses [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt) and its associated file and folder
 >>>>>>> Stashed changes
@@ -39,7 +39,7 @@ infrastructure-live
 ```
 
 <<<<<<< Updated upstream
-The Terraform modules in the [Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/)
+The Terraform modules in the [Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/)
 =======
 The Terraform modules in the [Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/)
 >>>>>>> Stashed changes

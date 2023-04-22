@@ -29,10 +29,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.2.17](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.17)
+### [v0.2.17](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.17)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/20/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.17">Release notes</a></small>
+  <small>Published: 8/20/2017 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.17">Release notes</a></small>
 =======
 ### [v0.2.17](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.17)
 
@@ -44,7 +44,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/40: boilerplate should now check types *after* rendering variables, which allows you to use interpolations in non-string variables without getting a type error.
+  https://github.com/tnn-gruntwork-io/boilerplate/pull/40: boilerplate should now check types *after* rendering variables, which allows you to use interpolations in non-string variables without getting a type error.
 =======
   https://github.com/tnn-gruntwork-io/boilerplate/pull/40: boilerplate should now check types *after* rendering variables, which allows you to use interpolations in non-string variables without getting a type error.
 >>>>>>> Stashed changes
@@ -53,10 +53,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.2.16](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.16)
+### [v0.2.16](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.16)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/13/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.16">Release notes</a></small>
+  <small>Published: 8/13/2017 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.16">Release notes</a></small>
 =======
 ### [v0.2.16](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.16)
 
@@ -68,7 +68,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/pull/39: You can now use nested maps and nested lists in boilerplate variables.
+  https://github.com/tnn-gruntwork-io/boilerplate/pull/39: You can now use nested maps and nested lists in boilerplate variables.
 =======
   https://github.com/tnn-gruntwork-io/boilerplate/pull/39: You can now use nested maps and nested lists in boilerplate variables.
 >>>>>>> Stashed changes
@@ -81,10 +81,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.5.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.5.0)
+### [v0.5.0](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.5.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/15/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.5.0">Release notes</a></small>
+  <small>Published: 8/15/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.5.0">Release notes</a></small>
 =======
 ### [v0.5.0](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.5.0)
 
@@ -96,7 +96,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/9: The `server-group` module now applies the tags you pass in via `custom_tags` to all resources that support tags: the security group, the ENIs, and the EBS volumes. Note that this is a backwards incompatible change, as the `custom_tags` parameter is now a plain map rather than a list of maps. 
+  https://github.com/tnn-gruntwork-io/module-asg/pull/9: The `server-group` module now applies the tags you pass in via `custom_tags` to all resources that support tags: the security group, the ENIs, and the EBS volumes. Note that this is a backwards incompatible change, as the `custom_tags` parameter is now a plain map rather than a list of maps. 
 =======
   https://github.com/tnn-gruntwork-io/module-asg/pull/9: The `server-group` module now applies the tags you pass in via `custom_tags` to all resources that support tags: the security group, the ENIs, and the EBS volumes. Note that this is a backwards incompatible change, as the `custom_tags` parameter is now a plain map rather than a list of maps. 
 >>>>>>> Stashed changes
@@ -105,10 +105,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.4.0)
+### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/15/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.4.0">Release notes</a></small>
+  <small>Published: 8/15/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.4.0">Release notes</a></small>
 =======
 ### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.4.0)
 
@@ -120,7 +120,7 @@ Here are the repos that were updated:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/8: Added a new `server-group` module that you can use to run a fixed-size cluster of servers that can automatically attach EBS Volumes and ENIs, do zero-downtime rolling deployment, and automatically replace failed servers. Check out the [server-group module docs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/tree/master/modules/server-group) for more details.
+  https://github.com/tnn-gruntwork-io/module-asg/pull/8: Added a new `server-group` module that you can use to run a fixed-size cluster of servers that can automatically attach EBS Volumes and ENIs, do zero-downtime rolling deployment, and automatically replace failed servers. Check out the [server-group module docs](https://github.com/tnn-gruntwork-io/module-asg/tree/master/modules/server-group) for more details.
 =======
   https://github.com/tnn-gruntwork-io/module-asg/pull/8: Added a new `server-group` module that you can use to run a fixed-size cluster of servers that can automatically attach EBS Volumes and ENIs, do zero-downtime rolling deployment, and automatically replace failed servers. Check out the [server-group module docs](https://github.com/tnn-gruntwork-io/module-asg/tree/master/modules/server-group) for more details.
 >>>>>>> Stashed changes
@@ -133,10 +133,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.2.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.10)
+### [v0.2.10](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/28/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.10">Release notes</a></small>
+  <small>Published: 8/28/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.10">Release notes</a></small>
 =======
 ### [v0.2.10](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.10)
 
@@ -153,10 +153,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.2.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.9)
+### [v0.2.9](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/26/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.9">Release notes</a></small>
+  <small>Published: 8/26/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.9">Release notes</a></small>
 =======
 ### [v0.2.9](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.2.9)
 
@@ -170,7 +170,7 @@ Here are the repos that were updated:
   - UPDATE/#24: Previously, it was not possible to launch an Aurora cluster from a snapshot. The `aurora` module now accepts a new var, `snapshot_identifier`, which is the Snapshot ID from which you&apos;d like to launch a new Aurora cluster. 
 
 <<<<<<< Updated upstream
-NOTE: This release a has a bug! Please use [v0.2.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/releases/tag/v0.2.10) instead.
+NOTE: This release a has a bug! Please use [v0.2.10](https://github.com/tnn-gruntwork-io/module-data-storage/releases/tag/v0.2.10) instead.
 =======
 NOTE: This release a has a bug! Please use [v0.2.10](https://github.com/tnn-gruntwork-io/module-data-storage/releases/tag/v0.2.10) instead.
 >>>>>>> Stashed changes
@@ -183,10 +183,10 @@ NOTE: This release a has a bug! Please use [v0.2.10](https://github.com/tnn-grun
 
 
 <<<<<<< Updated upstream
-### [v0.6.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.0)
+### [v0.6.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/10/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.0">Release notes</a></small>
+  <small>Published: 8/10/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.0">Release notes</a></small>
 =======
 ### [v0.6.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.0)
 
@@ -200,9 +200,9 @@ NOTE: This release a has a bug! Please use [v0.2.10](https://github.com/tnn-grun
   - NEW FEATURE/BREAKING CHANGE: The `ecs-service-with-alb` module now supports host-based routing! In addition, we used this opportunity to simplify the interface to the module. The major change is that you now specify ALB Listener Rules using Terraform code in the same Terraform file that calls the `ecs-service-with-alb` module, giving users total flexibility on routing rules. (#37)
 
 <<<<<<< Updated upstream
-NOTE: This release also updates the ECS Cluster module so that it [no longer adds a rule to the ALB Security Group](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/37/files#diff-d72db0b293516646f6d2af03f815cde2L149) to allow outbound traffic from the ALB to the ECS Cluster. That&apos;s because, as of [v0.6.0 of the ALB Module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/releases/tag/v0.6.0), the ALB now enables all outbound traffic by default. 
+NOTE: This release also updates the ECS Cluster module so that it [no longer adds a rule to the ALB Security Group](https://github.com/tnn-gruntwork-io/module-ecs/pull/37/files#diff-d72db0b293516646f6d2af03f815cde2L149) to allow outbound traffic from the ALB to the ECS Cluster. That&apos;s because, as of [v0.6.0 of the ALB Module](https://github.com/tnn-gruntwork-io/module-load-balancer/releases/tag/v0.6.0), the ALB now enables all outbound traffic by default. 
 
-Therefore, be sure to also upgrade to [v0.6.0 or higher of module alb](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/releases) when using this release!
+Therefore, be sure to also upgrade to [v0.6.0 or higher of module alb](https://github.com/tnn-gruntwork-io/module-load-balancer/releases) when using this release!
 =======
 NOTE: This release also updates the ECS Cluster module so that it [no longer adds a rule to the ALB Security Group](https://github.com/tnn-gruntwork-io/module-ecs/pull/37/files#diff-d72db0b293516646f6d2af03f815cde2L149) to allow outbound traffic from the ALB to the ECS Cluster. That&apos;s because, as of [v0.6.0 of the ALB Module](https://github.com/tnn-gruntwork-io/module-load-balancer/releases/tag/v0.6.0), the ALB now enables all outbound traffic by default. 
 
@@ -217,10 +217,10 @@ Therefore, be sure to also upgrade to [v0.6.0 or higher of module alb](https://g
 
 
 <<<<<<< Updated upstream
-### [v0.0.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.5)
+### [v0.0.5](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/19/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.5">Release notes</a></small>
+  <small>Published: 8/19/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.5">Release notes</a></small>
 =======
 ### [v0.0.5](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.5)
 
@@ -232,7 +232,7 @@ Therefore, be sure to also upgrade to [v0.6.0 or higher of module alb](https://g
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/5: First official release!
+  https://github.com/tnn-gruntwork-io/package-kafka/pull/5: First official release!
 =======
   https://github.com/tnn-gruntwork-io/package-kafka/pull/5: First official release!
 >>>>>>> Stashed changes
@@ -247,10 +247,10 @@ The changes include:
 
 
 <<<<<<< Updated upstream
-### [v0.0.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.4)
+### [v0.0.4](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/17/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.4">Release notes</a></small>
+  <small>Published: 8/17/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.4">Release notes</a></small>
 =======
 ### [v0.0.4](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.4)
 
@@ -262,7 +262,7 @@ The changes include:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/4: Add documentation. Move `run-kafka` into a separate module.
+  https://github.com/tnn-gruntwork-io/package-kafka/pull/4: Add documentation. Move `run-kafka` into a separate module.
 =======
   https://github.com/tnn-gruntwork-io/package-kafka/pull/4: Add documentation. Move `run-kafka` into a separate module.
 >>>>>>> Stashed changes
@@ -271,10 +271,10 @@ The changes include:
 
 
 <<<<<<< Updated upstream
-### [v0.0.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.3)
+### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/16/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.3">Release notes</a></small>
+  <small>Published: 8/16/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.3">Release notes</a></small>
 =======
 ### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.3)
 
@@ -286,7 +286,7 @@ The changes include:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/3: Add SSL support.
+  https://github.com/tnn-gruntwork-io/package-kafka/pull/3: Add SSL support.
 =======
   https://github.com/tnn-gruntwork-io/package-kafka/pull/3: Add SSL support.
 >>>>>>> Stashed changes
@@ -295,10 +295,10 @@ The changes include:
 
 
 <<<<<<< Updated upstream
-### [v0.0.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.2)
+### [v0.0.2](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/15/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.2">Release notes</a></small>
+  <small>Published: 8/15/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.2">Release notes</a></small>
 =======
 ### [v0.0.2](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.2)
 
@@ -310,7 +310,7 @@ The changes include:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/2: The `custom_tags` parameter is now a map and gets applied to all resources.
+  https://github.com/tnn-gruntwork-io/package-kafka/pull/2: The `custom_tags` parameter is now a map and gets applied to all resources.
 =======
   https://github.com/tnn-gruntwork-io/package-kafka/pull/2: The `custom_tags` parameter is now a map and gets applied to all resources.
 >>>>>>> Stashed changes
@@ -319,10 +319,10 @@ The changes include:
 
 
 <<<<<<< Updated upstream
-### [v0.0.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.1)
+### [v0.0.1](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/15/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.1">Release notes</a></small>
+  <small>Published: 8/15/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.1">Release notes</a></small>
 =======
 ### [v0.0.1](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.0.1)
 
@@ -334,7 +334,7 @@ The changes include:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/1: First release!
+  https://github.com/tnn-gruntwork-io/package-kafka/pull/1: First release!
 =======
   https://github.com/tnn-gruntwork-io/package-kafka/pull/1: First release!
 >>>>>>> Stashed changes
@@ -347,10 +347,10 @@ The changes include:
 
 
 <<<<<<< Updated upstream
-### [v0.6.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.6.1)
+### [v0.6.1](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.6.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/9/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.6.1">Release notes</a></small>
+  <small>Published: 8/9/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.6.1">Release notes</a></small>
 =======
 ### [v0.6.1](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.6.1)
 
@@ -367,10 +367,10 @@ The changes include:
 
 
 <<<<<<< Updated upstream
-### [v0.6.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.6.0)
+### [v0.6.0](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.6.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/8/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.6.0">Release notes</a></small>
+  <small>Published: 8/8/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.6.0">Release notes</a></small>
 =======
 ### [v0.6.0](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.6.0)
 
@@ -388,9 +388,9 @@ _**Additional Background**_
 _Previously, when you created an ALB, by default, its Security Group blocked all outbound traffic. When you added an ALB to an ECS Cluster, the ECS Cluster module updated the ALB&apos;s Security Group to allow outbound traffic only to the specific ECS Cluster being created._
 
 <<<<<<< Updated upstream
-_But this proved to be confusing to people and didn&apos;t give us much security benefit anyway, so with this release, we change the default behavior of the ALB module to allow all outbound connections by default. At the same time, we [updated the ECS Cluster module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/releases/tag/v0.6.0) to no longer modify the ALB&apos;s Security Group to allow outbound connections from the ALB to the ECS Cluster since the ALB now allows all outbound traffic by default._
+_But this proved to be confusing to people and didn&apos;t give us much security benefit anyway, so with this release, we change the default behavior of the ALB module to allow all outbound connections by default. At the same time, we [updated the ECS Cluster module](https://github.com/tnn-gruntwork-io/module-ecs/releases/tag/v0.6.0) to no longer modify the ALB&apos;s Security Group to allow outbound connections from the ALB to the ECS Cluster since the ALB now allows all outbound traffic by default._
 
-_Therefore, if you use this release or higher with an ECS Cluster, be sure to use [v0.6.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/releases/tag/v0.6.0) or higher of that module as well!_
+_Therefore, if you use this release or higher with an ECS Cluster, be sure to use [v0.6.0](https://github.com/tnn-gruntwork-io/module-ecs/releases/tag/v0.6.0) or higher of that module as well!_
 =======
 _But this proved to be confusing to people and didn&apos;t give us much security benefit anyway, so with this release, we change the default behavior of the ALB module to allow all outbound connections by default. At the same time, we [updated the ECS Cluster module](https://github.com/tnn-gruntwork-io/module-ecs/releases/tag/v0.6.0) to no longer modify the ALB&apos;s Security Group to allow outbound connections from the ALB to the ECS Cluster since the ALB now allows all outbound traffic by default._
 
@@ -405,10 +405,10 @@ _Therefore, if you use this release or higher with an ECS Cluster, be sure to us
 
 
 <<<<<<< Updated upstream
-### [v0.2.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-mongodb/releases/tag/v0.2.3)
+### [v0.2.3](https://github.com/tnn-gruntwork-io/terraform-aws-mongodb/releases/tag/v0.2.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/10/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-mongodb/releases/tag/v0.2.3">Release notes</a></small>
+  <small>Published: 8/10/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-mongodb/releases/tag/v0.2.3">Release notes</a></small>
 =======
 ### [v0.2.3](https://github.com/tnn-gruntwork-io/terraform-aws-mongodb/releases/tag/v0.2.3)
 
@@ -429,10 +429,10 @@ _Therefore, if you use this release or higher with an ECS Cluster, be sure to us
 
 
 <<<<<<< Updated upstream
-### [v0.5.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.5.0)
+### [v0.5.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.5.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/8/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.5.0">Release notes</a></small>
+  <small>Published: 8/8/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.5.0">Release notes</a></small>
 =======
 ### [v0.5.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.5.0)
 
@@ -463,10 +463,10 @@ For assistance, please contact Gruntwork support. (#33)
 
 
 <<<<<<< Updated upstream
-### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.3.0)
+### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/31/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.3.0">Release notes</a></small>
+  <small>Published: 8/31/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.3.0">Release notes</a></small>
 =======
 ### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.3.0)
 
@@ -487,10 +487,10 @@ For assistance, please contact Gruntwork support. (#33)
 
 
 <<<<<<< Updated upstream
-### [v0.2.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.2.3)
+### [v0.2.3](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.2.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/20/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.2.3">Release notes</a></small>
+  <small>Published: 8/20/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.2.3">Release notes</a></small>
 =======
 ### [v0.2.3](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.2.3)
 
@@ -502,7 +502,7 @@ For assistance, please contact Gruntwork support. (#33)
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-openvpn/pull/17
+  https://github.com/tnn-gruntwork-io/package-openvpn/pull/17
 =======
   https://github.com/tnn-gruntwork-io/package-openvpn/pull/17
 >>>>>>> Stashed changes
@@ -521,10 +521,10 @@ Fix several issues:
 
 
 <<<<<<< Updated upstream
-### [v0.5.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.5.4)
+### [v0.5.4](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.5.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/28/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.5.4">Release notes</a></small>
+  <small>Published: 8/28/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.5.4">Release notes</a></small>
 =======
 ### [v0.5.4](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.5.4)
 
@@ -545,10 +545,10 @@ Fix several issues:
 
 
 <<<<<<< Updated upstream
-### [v0.1.12](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.12)
+### [v0.1.12](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.12)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/14/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.12">Release notes</a></small>
+  <small>Published: 8/14/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.12">Release notes</a></small>
 =======
 ### [v0.1.12](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.12)
 
@@ -560,7 +560,7 @@ Fix several issues:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server/pull/16: Remove unnecessary `depends_on` clause from the single-server module. This clause caused a `reference: aws_instance.instance` error for some users.
+  https://github.com/tnn-gruntwork-io/module-server/pull/16: Remove unnecessary `depends_on` clause from the single-server module. This clause caused a `reference: aws_instance.instance` error for some users.
 =======
   https://github.com/tnn-gruntwork-io/module-server/pull/16: Remove unnecessary `depends_on` clause from the single-server module. This clause caused a `reference: aws_instance.instance` error for some users.
 >>>>>>> Stashed changes
@@ -569,10 +569,10 @@ Fix several issues:
 
 
 <<<<<<< Updated upstream
-### [v0.1.11](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.11)
+### [v0.1.11](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.11)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/13/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.11">Release notes</a></small>
+  <small>Published: 8/13/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.11">Release notes</a></small>
 =======
 ### [v0.1.11](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.11)
 
@@ -584,7 +584,7 @@ Fix several issues:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server/pull/15: The single-server module now exposes parameters to configure the size and type of the root volume.
+  https://github.com/tnn-gruntwork-io/module-server/pull/15: The single-server module now exposes parameters to configure the size and type of the root volume.
 =======
   https://github.com/tnn-gruntwork-io/module-server/pull/15: The single-server module now exposes parameters to configure the size and type of the root volume.
 >>>>>>> Stashed changes
@@ -593,10 +593,10 @@ Fix several issues:
 
 
 <<<<<<< Updated upstream
-### [v0.1.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.10)
+### [v0.1.10](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/8/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.10">Release notes</a></small>
+  <small>Published: 8/8/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.10">Release notes</a></small>
 =======
 ### [v0.1.10](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.1.10)
 
@@ -608,7 +608,7 @@ Fix several issues:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server/pull/14: 
+  https://github.com/tnn-gruntwork-io/module-server/pull/14: 
 =======
   https://github.com/tnn-gruntwork-io/module-server/pull/14: 
 >>>>>>> Stashed changes
@@ -624,10 +624,10 @@ Fix several issues:
 
 
 <<<<<<< Updated upstream
-### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.3.0)
+### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/20/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.3.0">Release notes</a></small>
+  <small>Published: 8/20/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.3.0">Release notes</a></small>
 =======
 ### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.3.0)
 
@@ -639,7 +639,7 @@ Fix several issues:
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/pull/27, https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/pull/28. 
+  https://github.com/tnn-gruntwork-io/module-vpc/pull/27, https://github.com/tnn-gruntwork-io/module-vpc/pull/28. 
 =======
   https://github.com/tnn-gruntwork-io/module-vpc/pull/27, https://github.com/tnn-gruntwork-io/module-vpc/pull/28. 
 >>>>>>> Stashed changes
@@ -656,10 +656,10 @@ This release fixes two bugs:
 
 
 <<<<<<< Updated upstream
-### [v0.2.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.2)
+### [v0.2.2](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/20/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.2">Release notes</a></small>
+  <small>Published: 8/20/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.2">Release notes</a></small>
 =======
 ### [v0.2.2](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.2)
 
@@ -673,7 +673,7 @@ This release fixes two bugs:
   **UPDATE: DO NOT USE THIS RELEASE. IT CONTAINS A BAD BUG. SEE #27 FOR DETAILS.**
 
 <<<<<<< Updated upstream
-https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num_availability_zones` output variable would report the wrong value (-1) if you didn&apos;t set the optional `num_availability_zones` input variable.
+https://github.com/tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num_availability_zones` output variable would report the wrong value (-1) if you didn&apos;t set the optional `num_availability_zones` input variable.
 =======
 https://github.com/tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num_availability_zones` output variable would report the wrong value (-1) if you didn&apos;t set the optional `num_availability_zones` input variable.
 >>>>>>> Stashed changes
@@ -682,10 +682,10 @@ https://github.com/tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num
 
 
 <<<<<<< Updated upstream
-### [v0.2.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.1)
+### [v0.2.1](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/8/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.1">Release notes</a></small>
+  <small>Published: 8/8/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.1">Release notes</a></small>
 =======
 ### [v0.2.1](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.1)
 
@@ -704,10 +704,10 @@ https://github.com/tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num
 
 
 <<<<<<< Updated upstream
-### [v0.2.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.0)
+### [v0.2.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/1/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.0">Release notes</a></small>
+  <small>Published: 8/1/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.0">Release notes</a></small>
 =======
 ### [v0.2.0](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.2.0)
 
@@ -724,10 +724,10 @@ https://github.com/tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num
 
 
 <<<<<<< Updated upstream
-### [v0.1.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.9)
+### [v0.1.9](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/1/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.9">Release notes</a></small>
+  <small>Published: 8/1/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.9">Release notes</a></small>
 =======
 ### [v0.1.9](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.1.9)
 
@@ -748,10 +748,10 @@ https://github.com/tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num
 
 
 <<<<<<< Updated upstream
-### [v0.0.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.5)
+### [v0.0.5](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/18/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.5">Release notes</a></small>
+  <small>Published: 8/18/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.5">Release notes</a></small>
 =======
 ### [v0.0.5](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.5)
 
@@ -768,10 +768,10 @@ https://github.com/tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num
 
 
 <<<<<<< Updated upstream
-### [v0.0.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.4)
+### [v0.0.4](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/16/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.4">Release notes</a></small>
+  <small>Published: 8/16/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.4">Release notes</a></small>
 =======
 ### [v0.0.4](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.4)
 
@@ -783,7 +783,7 @@ https://github.com/tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/4: Add documentation. Move `run-exhibitor` into its own module.
+  https://github.com/tnn-gruntwork-io/package-zookeeper/pull/4: Add documentation. Move `run-exhibitor` into its own module.
 =======
   https://github.com/tnn-gruntwork-io/package-zookeeper/pull/4: Add documentation. Move `run-exhibitor` into its own module.
 >>>>>>> Stashed changes
@@ -792,10 +792,10 @@ https://github.com/tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num
 
 
 <<<<<<< Updated upstream
-### [v0.0.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.3)
+### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/15/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.3">Release notes</a></small>
+  <small>Published: 8/15/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.3">Release notes</a></small>
 =======
 ### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.3)
 
@@ -807,7 +807,7 @@ https://github.com/tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/3: The `custom_tags` parameter is now a map and gets applied to all resources.
+  https://github.com/tnn-gruntwork-io/package-zookeeper/pull/3: The `custom_tags` parameter is now a map and gets applied to all resources.
 =======
   https://github.com/tnn-gruntwork-io/package-zookeeper/pull/3: The `custom_tags` parameter is now a map and gets applied to all resources.
 >>>>>>> Stashed changes
@@ -816,10 +816,10 @@ https://github.com/tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num
 
 
 <<<<<<< Updated upstream
-### [v0.0.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.2)
+### [v0.0.2](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/15/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.2">Release notes</a></small>
+  <small>Published: 8/15/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.2">Release notes</a></small>
 =======
 ### [v0.0.2](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.0.2)
 
@@ -831,7 +831,7 @@ https://github.com/tnn-gruntwork-io/module-vpc/pull/26: Fix a bug where the `num
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/2: The zookeeper-cluster module now runs on top of the server-group module.
+  https://github.com/tnn-gruntwork-io/package-zookeeper/pull/2: The zookeeper-cluster module now runs on top of the server-group module.
 =======
   https://github.com/tnn-gruntwork-io/package-zookeeper/pull/2: The zookeeper-cluster module now runs on top of the server-group module.
 >>>>>>> Stashed changes

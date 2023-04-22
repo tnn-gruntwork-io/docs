@@ -25,9 +25,9 @@ Reference Architecture work with Terraform 0.13:
 See the Release Notes for
 [v0.0.1-20201218
 <<<<<<< Updated upstream
-tag in infrastructure-modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/releases/tag/v0.0.1-20201218) instructions on how to update the Reference Architecture for Terraform 0.13
-compatibility. You can also view the [infrastructure-modules PR](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/pull/46)
-and the [infrastructure-live PR](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-live-multi-account-acme/pull/44) for
+tag in infrastructure-modules](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/releases/tag/v0.0.1-20201218) instructions on how to update the Reference Architecture for Terraform 0.13
+compatibility. You can also view the [infrastructure-modules PR](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/pull/46)
+and the [infrastructure-live PR](https://github.com/tnn-gruntwork-io/infrastructure-live-multi-account-acme/pull/44) for
 =======
 tag in infrastructure-modules](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/releases/tag/v0.0.1-20201218) instructions on how to update the Reference Architecture for Terraform 0.13
 compatibility. You can also view the [infrastructure-modules PR](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/pull/46)
@@ -38,8 +38,8 @@ an example of a Terraform 0.13 update.
 #### CIS Reference Architecture
 
 <<<<<<< Updated upstream
-See the [infrastructure-modules PR](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/cis-infrastructure-modules-acme/pull/5)
-and the [infrastructure-live PR](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/cis-infrastructure-live-acme/pull/7) for
+See the [infrastructure-modules PR](https://github.com/tnn-gruntwork-io/cis-infrastructure-modules-acme/pull/5)
+and the [infrastructure-live PR](https://github.com/tnn-gruntwork-io/cis-infrastructure-live-acme/pull/7) for
 =======
 See the [infrastructure-modules PR](https://github.com/tnn-gruntwork-io/cis-infrastructure-modules-acme/pull/5)
 and the [infrastructure-live PR](https://github.com/tnn-gruntwork-io/cis-infrastructure-live-acme/pull/7) for

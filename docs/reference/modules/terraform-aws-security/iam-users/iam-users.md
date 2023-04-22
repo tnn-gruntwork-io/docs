@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # IAM Users
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.10" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.10" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -100,7 +100,7 @@ Under the hood, this module uses the [`aws_iam_user` resource](https://registry.
     ```hcl
     module "iam_users" {
 <<<<<<< Updated upstream
-      source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.53.2"
+      source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.53.2"
 =======
       source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.53.2"
 >>>>>>> Stashed changes
@@ -124,7 +124,7 @@ Under the hood, this module uses the [`aws_iam_user` resource](https://registry.
     ```hcl
     module "iam_users" {
 <<<<<<< Updated upstream
-      source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.53.2"
+      source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.53.2"
 =======
       source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.53.2"
 >>>>>>> Stashed changes
@@ -154,7 +154,7 @@ Under the hood, this module uses the [`aws_iam_user` resource](https://registry.
 module "iam_users" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.67.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.67.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.67.8"
 >>>>>>> Stashed changes
@@ -217,7 +217,7 @@ module "iam_users" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.67.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.67.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-users?ref=v0.67.8"
 >>>>>>> Stashed changes
@@ -527,9 +527,9 @@ A map of usernames to that user's AWS SSH Security Credential ID
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users/variables.tf",

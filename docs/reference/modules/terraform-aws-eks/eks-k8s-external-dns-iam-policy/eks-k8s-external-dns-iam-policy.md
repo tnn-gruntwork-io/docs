@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # K8S External DNS IAM Policy Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -30,7 +30,7 @@ application](https://github.com/kubernetes-incubator/external-dns). This policy 
 instances or IAM roles so that the app deployed has enough permissions to manage Route 53 Hosted Zones.
 
 <<<<<<< Updated upstream
-See [the eks-k8s-external-dns module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns) for a module that deploys the external-dns
+See [the eks-k8s-external-dns module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns) for a module that deploys the external-dns
 =======
 See [the eks-k8s-external-dns module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns) for a module that deploys the external-dns
 >>>>>>> Stashed changes
@@ -41,7 +41,7 @@ application on to your EKS cluster.
 To allow the external-dns app to manage Route 53 Hosted Zones, it needs IAM permissions to use the AWS API to manage the
 zones. Currently, the way to grant Pods IAM privileges is to use the worker IAM profiles provisioned by [the
 <<<<<<< Updated upstream
-eks-cluster-workers module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/README.md#how-do-you-add-additional-iam-policies).
+eks-cluster-workers module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/README.md#how-do-you-add-additional-iam-policies).
 =======
 eks-cluster-workers module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers/README.md#how-do-you-add-additional-iam-policies).
 >>>>>>> Stashed changes
@@ -79,7 +79,7 @@ resource "aws_iam_role_policy_attachment" "attach_k8s_external_dns_iam_policy" {
 module "eks_k_8_s_external_dns_iam_policy" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-external-dns-iam-policy?ref=v0.57.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-external-dns-iam-policy?ref=v0.57.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-external-dns-iam-policy?ref=v0.57.0"
 >>>>>>> Stashed changes
@@ -122,7 +122,7 @@ module "eks_k_8_s_external_dns_iam_policy" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-external-dns-iam-policy?ref=v0.57.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-external-dns-iam-policy?ref=v0.57.0"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-external-dns-iam-policy?ref=v0.57.0"
 >>>>>>> Stashed changes
@@ -233,9 +233,9 @@ The name of the IAM policy created with the permissions for the external-dns Kub
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy/variables.tf",

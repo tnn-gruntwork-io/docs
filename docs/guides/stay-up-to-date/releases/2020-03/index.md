@@ -30,10 +30,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.8.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.8.6)
+### [v0.8.6](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.8.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/12/2020 | Modules affected: server-group | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.8.6">Release notes</a></small>
+  <small>Published: 3/12/2020 | Modules affected: server-group | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.8.6">Release notes</a></small>
 =======
 ### [v0.8.6](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.8.6)
 
@@ -57,10 +57,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.9.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.9.2)
+### [v0.9.2](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.9.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/26/2020 | Modules affected: redis | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.9.2">Release notes</a></small>
+  <small>Published: 3/26/2020 | Modules affected: redis | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.9.2">Release notes</a></small>
 =======
 ### [v0.9.2](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.9.2)
 
@@ -84,10 +84,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.18.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.4)
+### [v0.18.4](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/11/2020 | Modules affected: terraform-helpers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.4">Release notes</a></small>
+  <small>Published: 3/11/2020 | Modules affected: terraform-helpers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.4">Release notes</a></small>
 =======
 ### [v0.18.4](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.4)
 
@@ -107,10 +107,10 @@ This release updates the `terraform-update-variables` script to run terraform in
 
 
 <<<<<<< Updated upstream
-### [v0.18.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.3)
+### [v0.18.3](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/11/2020 | Modules affected: infrastructure-deployer | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.3">Release notes</a></small>
+  <small>Published: 3/11/2020 | Modules affected: infrastructure-deployer | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.3">Release notes</a></small>
 =======
 ### [v0.18.3](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.3)
 
@@ -131,10 +131,10 @@ This release fixes a bug in the `infrastructure-deployer` CLI where it did not h
 
 
 <<<<<<< Updated upstream
-### [v0.18.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.2)
+### [v0.18.2](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/6/2020 | Modules affected: terraform-helpers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.2">Release notes</a></small>
+  <small>Published: 3/6/2020 | Modules affected: terraform-helpers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.2">Release notes</a></small>
 =======
 ### [v0.18.2](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.18.2)
 
@@ -159,10 +159,10 @@ Add support for Mac OSX to the `git-updated-folders` script.
 
 
 <<<<<<< Updated upstream
-### [v0.12.11](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.11)
+### [v0.12.11](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.11)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/24/2020 | Modules affected: rds | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.11">Release notes</a></small>
+  <small>Published: 3/24/2020 | Modules affected: rds | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.11">Release notes</a></small>
 =======
 ### [v0.12.11](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.11)
 
@@ -182,10 +182,10 @@ Add support for Mac OSX to the `git-updated-folders` script.
 
 
 <<<<<<< Updated upstream
-### [v0.12.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.10)
+### [v0.12.10](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/16/2020 | Modules affected: rds | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.10">Release notes</a></small>
+  <small>Published: 3/16/2020 | Modules affected: rds | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.10">Release notes</a></small>
 =======
 ### [v0.12.10](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.10)
 
@@ -205,10 +205,10 @@ Add support for Mac OSX to the `git-updated-folders` script.
 
 
 <<<<<<< Updated upstream
-### [v0.12.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.9)
+### [v0.12.9](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/13/2020 | Modules affected: lambda-share-snapshot, lambda-create-snapshot, lambda-copy-shared-snapshot, lambda-cleanup-snapshots | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.9">Release notes</a></small>
+  <small>Published: 3/13/2020 | Modules affected: lambda-share-snapshot, lambda-create-snapshot, lambda-copy-shared-snapshot, lambda-cleanup-snapshots | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.9">Release notes</a></small>
 =======
 ### [v0.12.9](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.9)
 
@@ -229,10 +229,10 @@ Each of the manual scheduled snapshot Lambda function modules now expose an inpu
 
 
 <<<<<<< Updated upstream
-### [v0.12.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.8)
+### [v0.12.8](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/13/2020 | Modules affected: aurora | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.8">Release notes</a></small>
+  <small>Published: 3/13/2020 | Modules affected: aurora | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.8">Release notes</a></small>
 =======
 ### [v0.12.8](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.8)
 
@@ -253,10 +253,10 @@ Each of the manual scheduled snapshot Lambda function modules now expose an inpu
 
 
 <<<<<<< Updated upstream
-### [v0.12.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.7)
+### [v0.12.7](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/7/2020 | Modules affected: lambda-create-snapshot | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.7">Release notes</a></small>
+  <small>Published: 3/7/2020 | Modules affected: lambda-create-snapshot | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.7">Release notes</a></small>
 =======
 ### [v0.12.7](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.7)
 
@@ -277,10 +277,10 @@ Fix log message for lambda function in `lambda-create-snapshot` to show what clo
 
 
 <<<<<<< Updated upstream
-### [v0.12.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.6)
+### [v0.12.6](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/6/2020 | Modules affected: lambda-create-snapshot, lambda-cleanup-snapshots | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.6">Release notes</a></small>
+  <small>Published: 3/6/2020 | Modules affected: lambda-create-snapshot, lambda-cleanup-snapshots | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.6">Release notes</a></small>
 =======
 ### [v0.12.6](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.6)
 
@@ -294,7 +294,7 @@ Fix log message for lambda function in `lambda-create-snapshot` to show what clo
   
 
 <<<<<<< Updated upstream
-`lambda-create-snapshot` and `lambda-cleanup-snapshots` now support namespacing snapshots so that you can differentiate between snapshots created with different schedules. Take a look at the [lambda-rds-snapshot-multiple-schedules example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/tree/master/examples/lambda-rds-snapshot-multiple-schedules) for an example of how to use this feature to manage daily and weekly snapshots.
+`lambda-create-snapshot` and `lambda-cleanup-snapshots` now support namespacing snapshots so that you can differentiate between snapshots created with different schedules. Take a look at the [lambda-rds-snapshot-multiple-schedules example](https://github.com/tnn-gruntwork-io/module-data-storage/tree/master/examples/lambda-rds-snapshot-multiple-schedules) for an example of how to use this feature to manage daily and weekly snapshots.
 =======
 `lambda-create-snapshot` and `lambda-cleanup-snapshots` now support namespacing snapshots so that you can differentiate between snapshots created with different schedules. Take a look at the [lambda-rds-snapshot-multiple-schedules example](https://github.com/tnn-gruntwork-io/module-data-storage/tree/master/examples/lambda-rds-snapshot-multiple-schedules) for an example of how to use this feature to manage daily and weekly snapshots.
 >>>>>>> Stashed changes
@@ -305,10 +305,10 @@ Fix log message for lambda function in `lambda-create-snapshot` to show what clo
 
 
 <<<<<<< Updated upstream
-### [v0.12.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.5)
+### [v0.12.5](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/4/2020 | Modules affected: lambda-share-snapshot, lambda-create-snapshot, lambda-copy-shared-snapshot, lambda-cleanup-snapshots | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.5">Release notes</a></small>
+  <small>Published: 3/4/2020 | Modules affected: lambda-share-snapshot, lambda-create-snapshot, lambda-copy-shared-snapshot, lambda-cleanup-snapshots | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.5">Release notes</a></small>
 =======
 ### [v0.12.5](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.5)
 
@@ -329,10 +329,10 @@ The lambda functions for snapshot management have been upgraded to the python3.7
 
 
 <<<<<<< Updated upstream
-### [v0.12.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.4)
+### [v0.12.4](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/3/2020 | Modules affected: lambda-create-snapshot | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.4">Release notes</a></small>
+  <small>Published: 3/3/2020 | Modules affected: lambda-create-snapshot | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.4">Release notes</a></small>
 =======
 ### [v0.12.4](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.12.4)
 
@@ -357,10 +357,10 @@ This release fixes a bug where the lambda function for creating a snapshot neede
 
 
 <<<<<<< Updated upstream
-### [v0.18.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.18.0)
+### [v0.18.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.18.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/19/2020 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.18.0">Release notes</a></small>
+  <small>Published: 3/19/2020 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.18.0">Release notes</a></small>
 =======
 ### [v0.18.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.18.0)
 
@@ -388,10 +388,10 @@ Finally, this also migrates from dep to Go Modules.
 
 
 <<<<<<< Updated upstream
-### [v0.19.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.19.1)
+### [v0.19.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.19.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/29/2020 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.19.1">Release notes</a></small>
+  <small>Published: 3/29/2020 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.19.1">Release notes</a></small>
 =======
 ### [v0.19.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.19.1)
 
@@ -412,10 +412,10 @@ The EKS cluster creation timeout is now 60 minutes.
 
 
 <<<<<<< Updated upstream
-### [v0.19.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.19.0)
+### [v0.19.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.19.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/28/2020 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.19.0">Release notes</a></small>
+  <small>Published: 3/28/2020 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.19.0">Release notes</a></small>
 =======
 ### [v0.19.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.19.0)
 
@@ -436,10 +436,10 @@ This release includes an internal implementation change for the fargate profiles
 
 
 <<<<<<< Updated upstream
-### [v0.18.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.18.0)
+### [v0.18.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.18.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/26/2020 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.18.0">Release notes</a></small>
+  <small>Published: 3/26/2020 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.18.0">Release notes</a></small>
 =======
 ### [v0.18.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.18.0)
 
@@ -464,10 +464,10 @@ Refer to the migration guide for information on preserving the same semantics fo
 
 
 <<<<<<< Updated upstream
-### [v0.17.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.2)
+### [v0.17.2](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/25/2020 | Modules affected: eks-k8s-cluster-autoscaler | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.2">Release notes</a></small>
+  <small>Published: 3/25/2020 | Modules affected: eks-k8s-cluster-autoscaler | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.2">Release notes</a></small>
 =======
 ### [v0.17.2](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.2)
 
@@ -488,10 +488,10 @@ Fix bug where the cluster autoscaler in IRSA mode was unable to get the necessar
 
 
 <<<<<<< Updated upstream
-### [v0.17.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.1)
+### [v0.17.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/24/2020 | Modules affected: eks-cluster-workers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.1">Release notes</a></small>
+  <small>Published: 3/24/2020 | Modules affected: eks-cluster-workers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.1">Release notes</a></small>
 =======
 ### [v0.17.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.1)
 
@@ -512,10 +512,10 @@ Fix bug where the cluster autoscaler in IRSA mode was unable to get the necessar
 
 
 <<<<<<< Updated upstream
-### [v0.17.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.0)
+### [v0.17.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/20/2020 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.0">Release notes</a></small>
+  <small>Published: 3/20/2020 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.0">Release notes</a></small>
 =======
 ### [v0.17.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.17.0)
 
@@ -538,10 +538,10 @@ If you are using Kubernetes version `1.12`, upgrade to at least `1.13` prior to 
 
 
 <<<<<<< Updated upstream
-### [v0.16.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.16.1)
+### [v0.16.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.16.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/19/2020 | Modules affected: eks-k8s-external-dns, eks-k8s-cluster-autoscaler, eks-cloudwatch-container-logs, eks-alb-ingress-controller | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.16.1">Release notes</a></small>
+  <small>Published: 3/19/2020 | Modules affected: eks-k8s-external-dns, eks-k8s-cluster-autoscaler, eks-cloudwatch-container-logs, eks-alb-ingress-controller | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.16.1">Release notes</a></small>
 =======
 ### [v0.16.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.16.1)
 
@@ -562,10 +562,10 @@ Fix an issue with the helm provider where the `stable` helm repository does not 
 
 
 <<<<<<< Updated upstream
-### [v0.16.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.16.0)
+### [v0.16.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.16.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/19/2020 | Modules affected: eks-k8s-external-dns, eks-k8s-cluster-autoscaler, eks-cloudwatch-container-logs, eks-alb-ingress-controller | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.16.0">Release notes</a></small>
+  <small>Published: 3/19/2020 | Modules affected: eks-k8s-external-dns, eks-k8s-cluster-autoscaler, eks-cloudwatch-container-logs, eks-alb-ingress-controller | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.16.0">Release notes</a></small>
 =======
 ### [v0.16.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.16.0)
 
@@ -586,10 +586,10 @@ This release introduces Helm v3 compatibility for the EKS administrative applica
 
 
 <<<<<<< Updated upstream
-### [v0.15.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.5)
+### [v0.15.5](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/18/2020 | Modules affected: eks-cluster-workers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.5">Release notes</a></small>
+  <small>Published: 3/18/2020 | Modules affected: eks-cluster-workers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.5">Release notes</a></small>
 =======
 ### [v0.15.5](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.5)
 
@@ -610,10 +610,10 @@ You can now use `cloud-init` for boot scripts for self-managed workers by provid
 
 
 <<<<<<< Updated upstream
-### [v0.15.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.4)
+### [v0.15.4](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/12/2020 | Modules affected: eks-cluster-workers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.4">Release notes</a></small>
+  <small>Published: 3/12/2020 | Modules affected: eks-cluster-workers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.4">Release notes</a></small>
 =======
 ### [v0.15.4](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.4)
 
@@ -634,10 +634,10 @@ You can now use `cloud-init` for boot scripts for self-managed workers by provid
 
 
 <<<<<<< Updated upstream
-### [v0.15.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.3)
+### [v0.15.3](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/11/2020 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.3">Release notes</a></small>
+  <small>Published: 3/11/2020 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.3">Release notes</a></small>
 =======
 ### [v0.15.3](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.3)
 
@@ -660,10 +660,10 @@ This release introduces support for setting encryption configurations on your EK
 
 
 <<<<<<< Updated upstream
-### [v0.15.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.2)
+### [v0.15.2](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/4/2020 | Modules affected: eks-cloudwatch-container-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.2">Release notes</a></small>
+  <small>Published: 3/4/2020 | Modules affected: eks-cloudwatch-container-logs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.2">Release notes</a></small>
 =======
 ### [v0.15.2](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.15.2)
 
@@ -688,10 +688,10 @@ The `eks-cloudwatch-container-logs` module now deploys a newer version of the fl
 
 
 <<<<<<< Updated upstream
-### [v0.7.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.5)
+### [v0.7.5](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/29/2020 | Modules affected: lambda-edge | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.5">Release notes</a></small>
+  <small>Published: 3/29/2020 | Modules affected: lambda-edge | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.5">Release notes</a></small>
 =======
 ### [v0.7.5](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.5)
 
@@ -712,10 +712,10 @@ You can now specify a permissions boundary on the IAM role created for `lambda-e
 
 
 <<<<<<< Updated upstream
-### [v0.7.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.4)
+### [v0.7.4](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/12/2020 | Modules affected: scheduled-lambda-job, lambda | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.4">Release notes</a></small>
+  <small>Published: 3/12/2020 | Modules affected: scheduled-lambda-job, lambda | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.4">Release notes</a></small>
 =======
 ### [v0.7.4](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.7.4)
 
@@ -740,10 +740,10 @@ The `lambda` and `scheduled-lambda-job` modules now support conditionally turnin
 
 
 <<<<<<< Updated upstream
-### [v0.19.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.19.0)
+### [v0.19.0](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.19.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/31/2020 | Modules affected: acm-tls-certificate | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.19.0">Release notes</a></small>
+  <small>Published: 3/31/2020 | Modules affected: acm-tls-certificate | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.19.0">Release notes</a></small>
 =======
 ### [v0.19.0](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.19.0)
 
@@ -765,10 +765,10 @@ This release adds support for requesting, and automatically verifying, multiple 
 
 
 <<<<<<< Updated upstream
-### [v0.18.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.18.1)
+### [v0.18.1](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.18.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/10/2020 | Modules affected: acm-tls-certificate | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.18.1">Release notes</a></small>
+  <small>Published: 3/10/2020 | Modules affected: acm-tls-certificate | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.18.1">Release notes</a></small>
 =======
 ### [v0.18.1](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.18.1)
 
@@ -789,10 +789,10 @@ This release adds support for requesting, and automatically verifying, multiple 
 
 
 <<<<<<< Updated upstream
-### [v0.18.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.18.0)
+### [v0.18.0](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.18.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/2/2020 | Modules affected: alb | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.18.0">Release notes</a></small>
+  <small>Published: 3/2/2020 | Modules affected: alb | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.18.0">Release notes</a></small>
 =======
 ### [v0.18.0](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.18.0)
 
@@ -817,10 +817,10 @@ This release adds support for requesting, and automatically verifying, multiple 
 
 
 <<<<<<< Updated upstream
-### [v0.19.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.19.0)
+### [v0.19.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.19.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/2/2020 | Modules affected: logs/load-balancer-access-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.19.0">Release notes</a></small>
+  <small>Published: 3/2/2020 | Modules affected: logs/load-balancer-access-logs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.19.0">Release notes</a></small>
 =======
 ### [v0.19.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.19.0)
 
@@ -844,10 +844,10 @@ This release removes two unused variables: `aws_account_id` and `aws_region`. Bo
 
 
 <<<<<<< Updated upstream
-### [v0.9.11](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.11)
+### [v0.9.11](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.11)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/23/2020 | Modules affected: openvpn-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.11">Release notes</a></small>
+  <small>Published: 3/23/2020 | Modules affected: openvpn-server | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.11">Release notes</a></small>
 =======
 ### [v0.9.11](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.11)
 
@@ -868,10 +868,10 @@ The `openvpn-server` module now accepts base64-encoded user data in the `user_da
 
 
 <<<<<<< Updated upstream
-### [v0.9.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.10)
+### [v0.9.10](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/6/2020 | Modules affected: openvpn-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.10">Release notes</a></small>
+  <small>Published: 3/6/2020 | Modules affected: openvpn-server | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.10">Release notes</a></small>
 =======
 ### [v0.9.10](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.9.10)
 
@@ -896,10 +896,10 @@ You can now restrict the CIDR blocks that are allowed to access the OpenVPN port
 
 
 <<<<<<< Updated upstream
-### [v0.27.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.2)
+### [v0.27.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/31/2020 | Modules affected: kms-master-key-multi-region | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.2">Release notes</a></small>
+  <small>Published: 3/31/2020 | Modules affected: kms-master-key-multi-region | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.2">Release notes</a></small>
 =======
 ### [v0.27.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.2)
 
@@ -920,10 +920,10 @@ This release introduces a new module `kms-master-key-multi-region`, which can be
 
 
 <<<<<<< Updated upstream
-### [v0.27.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.1)
+### [v0.27.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/19/2020 | Modules affected: auto-update, ntp, tls-cert-private | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.1">Release notes</a></small>
+  <small>Published: 3/19/2020 | Modules affected: auto-update, ntp, tls-cert-private | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.1">Release notes</a></small>
 =======
 ### [v0.27.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.1)
 
@@ -944,7 +944,7 @@ This release introduces a new module `kms-master-key-multi-region`, which can be
 
 
 <<<<<<< Updated upstream
-* https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/commit/bfe0f571548d04d05d23442a68e5834493d9db59
+* https://github.com/tnn-gruntwork-io/module-security/commit/bfe0f571548d04d05d23442a68e5834493d9db59
 =======
 * https://github.com/tnn-gruntwork-io/module-security/commit/bfe0f571548d04d05d23442a68e5834493d9db59
 >>>>>>> Stashed changes
@@ -953,10 +953,10 @@ This release introduces a new module `kms-master-key-multi-region`, which can be
 
 
 <<<<<<< Updated upstream
-### [v0.27.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.0)
+### [v0.27.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/16/2020 | Modules affected: kms-master-key | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.0">Release notes</a></small>
+  <small>Published: 3/16/2020 | Modules affected: kms-master-key | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.0">Release notes</a></small>
 =======
 ### [v0.27.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.27.0)
 
@@ -977,10 +977,10 @@ This release introduces support for managing more than one KMS Customer Master K
 
 
 <<<<<<< Updated upstream
-### [v0.26.1: Allow read-only users to filter CloudWatch by resource groups](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.26.1)
+### [v0.26.1: Allow read-only users to filter CloudWatch by resource groups](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.26.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/6/2020 | Modules affected: iam-policies | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.26.1">Release notes</a></small>
+  <small>Published: 3/6/2020 | Modules affected: iam-policies | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.26.1">Release notes</a></small>
 =======
 ### [v0.26.1: Allow read-only users to filter CloudWatch by resource groups](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.26.1)
 
@@ -999,10 +999,10 @@ This release introduces support for managing more than one KMS Customer Master K
 
 
 <<<<<<< Updated upstream
-### [v0.26.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.26.0)
+### [v0.26.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.26.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/6/2020 | Modules affected: iam-groups | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.26.0">Release notes</a></small>
+  <small>Published: 3/6/2020 | Modules affected: iam-groups | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.26.0">Release notes</a></small>
 =======
 ### [v0.26.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.26.0)
 
@@ -1030,10 +1030,10 @@ See [this blog post](https://blog.gruntwork.io/terraform-tips-tricks-loops-if-st
 
 
 <<<<<<< Updated upstream
-### [v0.8.1: Expose base64-encoded user data](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.8.1)
+### [v0.8.1: Expose base64-encoded user data](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.8.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/9/2020 | Modules affected: single-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.8.1">Release notes</a></small>
+  <small>Published: 3/9/2020 | Modules affected: single-server | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.8.1">Release notes</a></small>
 =======
 ### [v0.8.1: Expose base64-encoded user data](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.8.1)
 
@@ -1047,7 +1047,7 @@ See [this blog post](https://blog.gruntwork.io/terraform-tips-tricks-loops-if-st
   
 
 <<<<<<< Updated upstream
-This release exposes the [`user_data_base64`](https://www.terraform.io/docs/providers/aws/d/instance.html#user_data_base64) attribute when launching a server. We&apos;ve also added [an example of using base64 user data with cloud-init](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-server/blob/master/examples/bastion-host/main.tf#L49).
+This release exposes the [`user_data_base64`](https://www.terraform.io/docs/providers/aws/d/instance.html#user_data_base64) attribute when launching a server. We&apos;ve also added [an example of using base64 user data with cloud-init](https://github.com/tnn-gruntwork-io/module-server/blob/master/examples/bastion-host/main.tf#L49).
 =======
 This release exposes the [`user_data_base64`](https://www.terraform.io/docs/providers/aws/d/instance.html#user_data_base64) attribute when launching a server. We&apos;ve also added [an example of using base64 user data with cloud-init](https://github.com/tnn-gruntwork-io/module-server/blob/master/examples/bastion-host/main.tf#L49).
 >>>>>>> Stashed changes
@@ -1058,10 +1058,10 @@ This release exposes the [`user_data_base64`](https://www.terraform.io/docs/prov
 
 
 <<<<<<< Updated upstream
-### [v0.8.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.8.0)
+### [v0.8.0](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.8.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/3/2020 | Modules affected: single-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.8.0">Release notes</a></small>
+  <small>Published: 3/3/2020 | Modules affected: single-server | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.8.0">Release notes</a></small>
 =======
 ### [v0.8.0](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.8.0)
 
@@ -1091,10 +1091,10 @@ This release exposes the [`user_data_base64`](https://www.terraform.io/docs/prov
 
 
 <<<<<<< Updated upstream
-### [v0.6.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.2)
+### [v0.6.2](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/25/2020 | Modules affected: s3-static-website, s3-cloudfront | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.2">Release notes</a></small>
+  <small>Published: 3/25/2020 | Modules affected: s3-static-website, s3-cloudfront | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.2">Release notes</a></small>
 =======
 ### [v0.6.2](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.2)
 
@@ -1115,10 +1115,10 @@ Resolve source of perpetual diff when using the cloudfront default certificate
 
 
 <<<<<<< Updated upstream
-### [v0.6.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.1)
+### [v0.6.1](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/19/2020 | Modules affected: s3-static-website | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.1">Release notes</a></small>
+  <small>Published: 3/19/2020 | Modules affected: s3-static-website | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.1">Release notes</a></small>
 =======
 ### [v0.6.1](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.1)
 
@@ -1139,10 +1139,10 @@ Fix a bug in `s3-static-website` module with versions of terraform &gt;0.12.11, 
 
 
 <<<<<<< Updated upstream
-### [v0.6.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.0)
+### [v0.6.0](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/16/2020 | Modules affected: s3-cloudfront | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.0">Release notes</a></small>
+  <small>Published: 3/16/2020 | Modules affected: s3-cloudfront | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.0">Release notes</a></small>
 =======
 ### [v0.6.0](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.6.0)
 
@@ -1166,10 +1166,10 @@ Fix a bug in `s3-static-website` module with versions of terraform &gt;0.12.11, 
 
 
 <<<<<<< Updated upstream
-### [v0.8.5: Outbound NACLs between private subnets](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.8.5)
+### [v0.8.5: Outbound NACLs between private subnets](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.8.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/27/2020 | Modules affected: vpc-app-network-acls | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.8.5">Release notes</a></small>
+  <small>Published: 3/27/2020 | Modules affected: vpc-app-network-acls | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.8.5">Release notes</a></small>
 =======
 ### [v0.8.5: Outbound NACLs between private subnets](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.8.5)
 
@@ -1192,10 +1192,10 @@ Thanks to @scottclk for this contribution.
 
 
 <<<<<<< Updated upstream
-### [v0.8.4: More control over subnet spacing](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.8.4)
+### [v0.8.4: More control over subnet spacing](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.8.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 3/3/2020 | Modules affected: vpc-mgmt, vpc-app | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.8.4">Release notes</a></small>
+  <small>Published: 3/3/2020 | Modules affected: vpc-mgmt, vpc-app | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.8.4">Release notes</a></small>
 =======
 ### [v0.8.4: More control over subnet spacing](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.8.4)
 

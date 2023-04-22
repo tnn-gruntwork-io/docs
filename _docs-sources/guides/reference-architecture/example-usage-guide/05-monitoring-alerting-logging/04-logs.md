@@ -2,7 +2,7 @@
 
 All of your services have been configured using the [`cloudwatch-agent`
 <<<<<<< Updated upstream
-module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent)
+module](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent)
 =======
 module](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent)
 >>>>>>> Stashed changes

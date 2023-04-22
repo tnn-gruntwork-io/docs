@@ -100,7 +100,7 @@ free form maps. However, for particularly large objects it is useful to support 
 
 When using `any` type, always use comments to describe the supported attributes.
 <<<<<<< Updated upstream
-[Example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/blob/da69690/modules/kms-master-key/variables.tf#L10).
+[Example](https://github.com/tnn-gruntwork-io/module-security/blob/da69690/modules/kms-master-key/variables.tf#L10).
 =======
 [Example](https://github.com/tnn-gruntwork-io/module-security/blob/da69690/modules/kms-master-key/variables.tf#L10).
 >>>>>>> Stashed changes
@@ -267,7 +267,7 @@ e.g. manipulating process global resources, like environment variables. This is 
 
 To facilitate this, every reference to a terraform example should use
 <<<<<<< Updated upstream
-[test_structure.CopyTerraformFolderToTemp](https://pkg.go.dev/github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/modules/test-structure#CopyTerraformFolderToTemp)
+[test_structure.CopyTerraformFolderToTemp](https://pkg.go.dev/github.com/tnn-gruntwork-io/terratest/modules/test-structure#CopyTerraformFolderToTemp)
 =======
 [test_structure.CopyTerraformFolderToTemp](https://pkg.go.dev/github.com/tnn-gruntwork-io/terratest/modules/test-structure#CopyTerraformFolderToTemp)
 >>>>>>> Stashed changes

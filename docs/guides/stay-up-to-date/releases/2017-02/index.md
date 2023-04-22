@@ -22,10 +22,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.2.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.7)
+### [v0.2.7](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/2/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate/releases/tag/v0.2.7">Release notes</a></small>
+  <small>Published: 2/2/2017 | <a href="https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.7">Release notes</a></small>
 =======
 ### [v0.2.7](https://github.com/tnn-gruntwork-io/boilerplate/releases/tag/v0.2.7)
 
@@ -40,7 +40,7 @@ Here are the repos that were updated:
   - `boilerplateConfigDeps DEPENDENCY_NAME PROPERTY`: Return the value of the given property for the given Dependency
   - `boilerplateConfigVars VAR_NAME PROPERTY`: Return the value of the given property for the given Variable
 <<<<<<< Updated upstream
-- NEW FEATURE: Boilerplate now exposes the following global template variables. See the [docs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/boilerplate#global-template-variables) for more information on how to use them:
+- NEW FEATURE: Boilerplate now exposes the following global template variables. See the [docs](https://github.com/tnn-gruntwork-io/boilerplate#global-template-variables) for more information on how to use them:
 =======
 - NEW FEATURE: Boilerplate now exposes the following global template variables. See the [docs](https://github.com/tnn-gruntwork-io/boilerplate#global-template-variables) for more information on how to use them:
 >>>>>>> Stashed changes
@@ -60,10 +60,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms/releases/tag/v0.0.5)
+### [v0.0.5](https://github.com/tnn-gruntwork-io/gruntkms/releases/tag/v0.0.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/3/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms/releases/tag/v0.0.5">Release notes</a></small>
+  <small>Published: 2/3/2017 | <a href="https://github.com/tnn-gruntwork-io/gruntkms/releases/tag/v0.0.5">Release notes</a></small>
 =======
 ### [v0.0.5](https://github.com/tnn-gruntwork-io/gruntkms/releases/tag/v0.0.5)
 
@@ -85,10 +85,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.2.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.2.0)
+### [v0.2.0](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.2.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/28/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.2.0">Release notes</a></small>
+  <small>Published: 2/28/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.2.0">Release notes</a></small>
 =======
 ### [v0.2.0](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.2.0)
 
@@ -102,7 +102,7 @@ Here are the repos that were updated:
   MAJOR BREAKING CHANGE
 
 <<<<<<< Updated upstream
-In https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/5, we implemented a completely new approach for the ASG that is:
+In https://github.com/tnn-gruntwork-io/module-asg/pull/5, we implemented a completely new approach for the ASG that is:
 =======
 In https://github.com/tnn-gruntwork-io/module-asg/pull/5, we implemented a completely new approach for the ASG that is:
 >>>>>>> Stashed changes
@@ -130,10 +130,10 @@ To upgrade without downtime, we recommend the following approach:
 
 
 <<<<<<< Updated upstream
-### [v0.3.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.6)
+### [v0.3.6](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/10/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.6">Release notes</a></small>
+  <small>Published: 2/10/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.6">Release notes</a></small>
 =======
 ### [v0.3.6](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.6)
 
@@ -151,10 +151,10 @@ To upgrade without downtime, we recommend the following approach:
 
 
 <<<<<<< Updated upstream
-### [v0.3.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.5)
+### [v0.3.5](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/3/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.5">Release notes</a></small>
+  <small>Published: 2/3/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.5">Release notes</a></small>
 =======
 ### [v0.3.5](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.3.5)
 
@@ -180,10 +180,10 @@ To upgrade without downtime, we recommend the following approach:
 
 
 <<<<<<< Updated upstream
-### [v0.4.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.4.2)
+### [v0.4.2](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.4.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/15/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.4.2">Release notes</a></small>
+  <small>Published: 2/15/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.4.2">Release notes</a></small>
 =======
 ### [v0.4.2](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.4.2)
 
@@ -199,7 +199,7 @@ To upgrade without downtime, we recommend the following approach:
 - `aws_appautoscaling_policy`. the `scalable_dimension` and `service_namespace` parameters are now required.
 
 <<<<<<< Updated upstream
-We&apos;ve updated the `ecs-service-with-alb` module and example code accordingly. Note that this included adding some `depends_on` clauses to make sure resources were created in the right order. See https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/28 for details.
+We&apos;ve updated the `ecs-service-with-alb` module and example code accordingly. Note that this included adding some `depends_on` clauses to make sure resources were created in the right order. See https://github.com/tnn-gruntwork-io/module-ecs/pull/28 for details.
 =======
 We&apos;ve updated the `ecs-service-with-alb` module and example code accordingly. Note that this included adding some `depends_on` clauses to make sure resources were created in the right order. See https://github.com/tnn-gruntwork-io/module-ecs/pull/28 for details.
 >>>>>>> Stashed changes
@@ -213,10 +213,10 @@ We&apos;ve updated the `ecs-service-with-alb` module and example code accordingl
 
 
 <<<<<<< Updated upstream
-### [v0.4.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.1)
+### [v0.4.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 2/8/2017 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.1">Release notes</a></small>
+  <small>Published: 2/8/2017 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.1">Release notes</a></small>
 =======
 ### [v0.4.1](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.4.1)
 

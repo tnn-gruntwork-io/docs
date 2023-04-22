@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Jenkins server
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.6" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.6" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -31,7 +31,7 @@ This module can be used to deploy [Jenkins CI server](https://jenkins.io) in AWS
 *   A Route 53 DNS A record for Jenkins pointing at the ALB
 
 <<<<<<< Updated upstream
-Under the hood, we are using the [server-group module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/main/modules/server-group)
+Under the hood, we are using the [server-group module](https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/main/modules/server-group)
 =======
 Under the hood, we are using the [server-group module](https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/main/modules/server-group)
 >>>>>>> Stashed changes
@@ -40,12 +40,12 @@ to run an ASG for Jenkins that can correctly reattach an EBS volume.
 ## Example code
 
 <<<<<<< Updated upstream
-*   Check out the [jenkins example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples/jenkins) for working sample code.
-*   See [vars.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server/vars.tf) for all parameters you can configure on this module.
+*   Check out the [jenkins example](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples/jenkins) for working sample code.
+*   See [vars.tf](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server/vars.tf) for all parameters you can configure on this module.
 
 ## Jenkins AMI
 
-See the [install-jenkins module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/install-jenkins) for a way to create an AMI with Jenkins installed and a
+See the [install-jenkins module](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/install-jenkins) for a way to create an AMI with Jenkins installed and a
 =======
 *   Check out the [jenkins example](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples/jenkins) for working sample code.
 *   See [vars.tf](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server/vars.tf) for all parameters you can configure on this module.
@@ -59,7 +59,7 @@ script you can run in User Data to start Jenkins while the server is booting.
 ## Backing up Jenkins
 
 <<<<<<< Updated upstream
-See the [ec2-backup module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup) for an automatic way to take scheduled backups of Jenkins and its EBS
+See the [ec2-backup module](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup) for an automatic way to take scheduled backups of Jenkins and its EBS
 =======
 See the [ec2-backup module](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ec2-backup) for an automatic way to take scheduled backups of Jenkins and its EBS
 >>>>>>> Stashed changes
@@ -75,7 +75,7 @@ resource](https://www.terraform.io/docs/providers/aws/r/iam_role_policy.html):
 ```hcl
 module "jenkins" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//modules/jenkins-server?ref=v1.0.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/jenkins-server?ref=v1.0.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/jenkins-server?ref=v1.0.8"
 >>>>>>> Stashed changes
@@ -103,7 +103,7 @@ resource](https://www.terraform.io/docs/providers/awas/r/iam_role_policy_attachm
 ```hcl
 module "jenkins" {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//modules/jenkins-server?ref=v1.0.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/jenkins-server?ref=v1.0.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/jenkins-server?ref=v1.0.8"
 >>>>>>> Stashed changes
@@ -144,7 +144,7 @@ data "aws_iam_policy_document" "example" {
 module "jenkins_server" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//modules/jenkins-server?ref=v0.51.6"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/jenkins-server?ref=v0.51.6"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/jenkins-server?ref=v0.51.6"
 >>>>>>> Stashed changes
@@ -393,7 +393,7 @@ module "jenkins_server" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//modules/jenkins-server?ref=v0.51.6"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/jenkins-server?ref=v0.51.6"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/jenkins-server?ref=v0.51.6"
 >>>>>>> Stashed changes
@@ -1192,9 +1192,9 @@ A maximum duration to wait for each server to be healthy before timing out (e.g.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/jenkins-server/variables.tf",

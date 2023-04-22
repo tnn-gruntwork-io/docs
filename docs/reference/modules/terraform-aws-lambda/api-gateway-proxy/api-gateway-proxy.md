@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # API Gateway Proxy Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -41,7 +41,7 @@ recommend using a framework like Serverless to avoid the verbose configuration o
 
 If you are looking for a module to route different requests and methods to different Lambda functions, refer to the
 <<<<<<< Updated upstream
-[lambda-http-api-gateway](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway) module.
+[lambda-http-api-gateway](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway) module.
 =======
 [lambda-http-api-gateway](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda-http-api-gateway) module.
 >>>>>>> Stashed changes
@@ -69,9 +69,9 @@ before, make sure to read [How to use the Gruntwork Infrastructure as Code Libra
 ### Core concepts
 
 <<<<<<< Updated upstream
-*   [What is API Gateway?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/core-concepts.md#what-is-api-gateway)
+*   [What is API Gateway?](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/core-concepts.md#what-is-api-gateway)
 *   [What is the difference between the different endpoint
-    types?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/core-concepts.md#what-is-the-difference-between-the-different-endpoint-types)
+    types?](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/core-concepts.md#what-is-the-difference-between-the-different-endpoint-types)
 =======
 *   [What is API Gateway?](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/core-concepts.md#what-is-api-gateway)
 *   [What is the difference between the different endpoint
@@ -83,9 +83,9 @@ before, make sure to read [How to use the Gruntwork Infrastructure as Code Libra
 ### Repo organization
 
 <<<<<<< Updated upstream
-*   [modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
-*   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples): This folder contains working examples of how to use the submodules.
-*   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/test): Automated tests for the modules and examples.
+*   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+*   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples): This folder contains working examples of how to use the submodules.
+*   [test](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/test): Automated tests for the modules and examples.
 =======
 *   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
 *   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples): This folder contains working examples of how to use the submodules.
@@ -97,7 +97,7 @@ before, make sure to read [How to use the Gruntwork Infrastructure as Code Libra
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
 <<<<<<< Updated upstream
-*   [examples folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+*   [examples folder](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
 =======
 *   [examples folder](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
 >>>>>>> Stashed changes
@@ -108,10 +108,10 @@ If you just want to try this repo out for experimenting and learning, check out 
 
 *   [How do I expose AWS Lambda functions using API
 <<<<<<< Updated upstream
-    Gateway?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/core-concepts.md#how-do-i-expose-aws-lambda-functions-using-api-gateway)
+    Gateway?](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/core-concepts.md#how-do-i-expose-aws-lambda-functions-using-api-gateway)
 *   [Can I expose additional lambda functions in a decentralized
-    manner?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/core-concepts.md#can-i-expose-additional-lambda-functions-in-a-decentralized-manner)
-*   [How do I pass in the us_east\_1 aws provider?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/core-concepts.md#how-do-i-pass-in-the-us_east\_1-aws-provider)
+    manner?](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/core-concepts.md#can-i-expose-additional-lambda-functions-in-a-decentralized-manner)
+*   [How do I pass in the us_east\_1 aws provider?](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/core-concepts.md#how-do-i-pass-in-the-us_east\_1-aws-provider)
 =======
     Gateway?](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/core-concepts.md#how-do-i-expose-aws-lambda-functions-using-api-gateway)
 *   [Can I expose additional lambda functions in a decentralized
@@ -133,7 +133,7 @@ If you just want to try this repo out for experimenting and learning, check out 
 module "api_gateway_proxy" {
 
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/api-gateway-proxy?ref=v0.21.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/api-gateway-proxy?ref=v0.21.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/api-gateway-proxy?ref=v0.21.8"
 >>>>>>> Stashed changes
@@ -278,7 +278,7 @@ module "api_gateway_proxy" {
 
 terraform {
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/api-gateway-proxy?ref=v0.21.8"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/api-gateway-proxy?ref=v0.21.8"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/api-gateway-proxy?ref=v0.21.8"
 >>>>>>> Stashed changes
@@ -737,9 +737,9 @@ The URL of the API Gateway that you can use to invoke it.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/api-gateway-proxy/variables.tf",

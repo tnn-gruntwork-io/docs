@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # ECS Deployment Scripts
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.35.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.35.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -37,10 +37,10 @@ This folder contains scripts that help with ECS deployment:
 ## Installing the scripts
 
 <<<<<<< Updated upstream
-You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
+You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
-gruntwork-install --module-name "ecs-deploy" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs" --tag "v0.7.0"
+gruntwork-install --module-name "ecs-deploy" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ecs" --tag "v0.7.0"
 =======
 You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
@@ -55,7 +55,7 @@ The `run-ecs-task` script assumes you already have the following:
 
 1.  An ECS Cluster deployed. The easiest way to deploy one is with the [ecs-cluster
 <<<<<<< Updated upstream
-    module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/main/modules/ecs-cluster). You'll need to know the name
+    module](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/main/modules/ecs-cluster). You'll need to know the name
 =======
     module](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/main/modules/ecs-cluster). You'll need to know the name
 >>>>>>> Stashed changes
@@ -66,7 +66,7 @@ The `run-ecs-task` script assumes you already have the following:
     name and revision of the ECS Task Definition you want to run.
 
 <<<<<<< Updated upstream
-Check out the [deploy-ecs-task example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/examples/deploy-ecs-task) for working sample code of both of the above.
+Check out the [deploy-ecs-task example](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/examples/deploy-ecs-task) for working sample code of both of the above.
 =======
 Check out the [deploy-ecs-task example](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/examples/deploy-ecs-task) for working sample code of both of the above.
 >>>>>>> Stashed changes
@@ -118,9 +118,9 @@ container instead of the command configured in the Task Definition.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-deploy/variables.tf",

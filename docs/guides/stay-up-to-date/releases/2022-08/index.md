@@ -33,10 +33,10 @@ Here are the repos that were updated:
 
 
 <<<<<<< Updated upstream
-### [v0.0.11](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms/releases/tag/v0.0.11)
+### [v0.0.11](https://github.com/tnn-gruntwork-io/gruntkms/releases/tag/v0.0.11)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms/releases/tag/v0.0.11">Release notes</a></small>
+  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-gruntwork-io/gruntkms/releases/tag/v0.0.11">Release notes</a></small>
 =======
 ### [v0.0.11](https://github.com/tnn-gruntwork-io/gruntkms/releases/tag/v0.0.11)
 
@@ -55,7 +55,7 @@ Special thanks to @rubysolo for their contribution.
 
 
 <<<<<<< Updated upstream
-https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms/pull/36
+https://github.com/tnn-gruntwork-io/gruntkms/pull/36
 =======
 https://github.com/tnn-gruntwork-io/gruntkms/pull/36
 >>>>>>> Stashed changes
@@ -69,10 +69,10 @@ https://github.com/tnn-gruntwork-io/gruntkms/pull/36
 
 
 <<<<<<< Updated upstream
-### [v0.3.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.10)
+### [v0.3.10](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.3.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/24/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.10">Release notes</a></small>
+  <small>Published: 8/24/2022 | <a href="https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.3.10">Release notes</a></small>
 =======
 ### [v0.3.10](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.3.10)
 
@@ -89,10 +89,10 @@ https://github.com/tnn-gruntwork-io/gruntkms/pull/36
 
 
 <<<<<<< Updated upstream
-### [v0.3.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.9)
+### [v0.3.9](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.3.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/22/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.9">Release notes</a></small>
+  <small>Published: 8/22/2022 | <a href="https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.3.9">Release notes</a></small>
 =======
 ### [v0.3.9](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.3.9)
 
@@ -113,10 +113,10 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
 
 
 <<<<<<< Updated upstream
-### [v0.3.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.8)
+### [v0.3.8](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.3.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/17/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.3.8">Release notes</a></small>
+  <small>Published: 8/17/2022 | <a href="https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.3.8">Release notes</a></small>
 =======
 ### [v0.3.8](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.3.8)
 
@@ -137,10 +137,10 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
 
 
 <<<<<<< Updated upstream
-### [v0.0.32](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.32)
+### [v0.0.32](https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.32)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/4/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.32">Release notes</a></small>
+  <small>Published: 8/4/2022 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.32">Release notes</a></small>
 =======
 ### [v0.0.32](https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.32)
 
@@ -152,12 +152,12 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  * Updates terraform-aws-cis-service-catalog ref to latest version by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/784
-* Fix Jenkins dockerfile and jenkinsfile config to properly auth by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/768
-* Bump dependency versions by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/789
+  * Updates terraform-aws-cis-service-catalog ref to latest version by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/784
+* Fix Jenkins dockerfile and jenkinsfile config to properly auth by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/768
+* Bump dependency versions by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/789
 
 
-**Full Changelog**: https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/compare/v0.0.31...v0.0.32
+**Full Changelog**: https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/compare/v0.0.31...v0.0.32
 =======
   * Updates terraform-aws-cis-service-catalog ref to latest version by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/784
 * Fix Jenkins dockerfile and jenkinsfile config to properly auth by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/768
@@ -171,10 +171,10 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
 
 
 <<<<<<< Updated upstream
-### [v0.0.31](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.31)
+### [v0.0.31](https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.31)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.31">Release notes</a></small>
+  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.31">Release notes</a></small>
 =======
 ### [v0.0.31](https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.31)
 
@@ -186,75 +186,75 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
 <<<<<<< Updated upstream
-  * Only check versioning tools locally by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/657
-* Fix release lock logic by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/658
-* Remove unused InfraLiveURLType by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/663
-* Return all Route53 hosted zone errors after verification by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/662
-* Implement lock status report command by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/656
-* Implement preflight to sanity check all fields for completion by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/661
-* Tweak preflight check so it works on aws hardware by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/665
-* Allow different env var for preflight check GH token by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/664
-* Add skip ci message in state machine commit by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/673
-* Cleanup workflow files post deploy by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/676
-* Use the standard ECS Deploy Runner in the Gruntwork customer access account to build the docker images by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/672
-* Bump go to 1.17 by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/680
-* Update state machine paths to match current environment by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/674
-* Pass no-color flag if running in cloud by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/671
-* Set duration to one hour by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/677
-* Extract oneHour time duration to a constant by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/681
-* Add ability to publish preflight check results as GitHub check run annotations by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/682
-* Cleanup check errors by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/684
-* Fix refarch-example-generator to use latest go-commons and urfave/cli/v2 by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/685
-* Send deployment finished email by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/686
-* Cleanup more preflight checks by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/687
-* Commit code after generating by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/692
-* New error: PrimaryRegion and secret ARN region don&apos;t match by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/694
-* If on AWS hardware, hardcode the mssfix value to use by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/693
-* Add skip_get_ec2_platforms by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/700
-* Add a link to the deployer infra documentation by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/701
-* Implement preflight check for empty strings in IP address lists by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/698
-* Make sure to change state machine commit message based on run error by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/704
-* Do an upsert for preflight check reporting by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/706
-* Use workflow dispatch to mark preflight check as done by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/707
-* Add Preflight ensuring customers get correct CIS access by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/708
-* Remove unused var create_route53_entry by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/709
-* Consolidate redundant logic into preflight check by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/711
-* Should be build.pkr.hcl, not build.json by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/715
-* Fix bug where the wrong repo was linked to ami build scripts by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/716
-* Make sure to set desired_capacity when min_size is adjusted by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/717
-* Return all preflight errors instead of err directly by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/718
-* Grant GW Ref Arch deployer&apos;s CIDR access to shared VPC mgmt by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/719
-* Enhance preflight access errors with remediation info by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/721
-* Update PR Template by @rhoboat in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/722
-* Catch CACertFields whose length exceeds 40 by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/734
-* Use lower to normalize the account_name by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/736
-* Fix ci script testing by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/738
-* One more place that needs lowercasing by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/742
-* Clarify that there are multiple OpenVPN instances by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/744
-* Implement preflight check for GitLab PAT validity by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/735
-* Make cidr loop consistent by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/746
-* Bump versions of various dependencies by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/749
-* Truncate redis name by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/751
-* Implement preflight check for duplicate account IDs by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/748
-* Better support alternative default branch on new platform by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/757
-* Another place checking for non-main branch by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/758
-* Implement preflight tests by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/756
-* Change the verifyGitHubTokenScopes to have additional check on parent token by @hongil0316 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/750
-* When enabling mgmt VPC bastions for jenkins, we need to explicitly flip the include vars by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/764
-* Bump terraform-aws-cis-service-catalog to latest version by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/765
-* Use go template comment syntax when commenting for template by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/766
-* Excise refarch-deployer from arch-catalog by @zackproser in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/763
-* Fix helm provider issue by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/767
-* Update codeowners by @rhoboat in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/760
-* Bump redis version to 6 by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/772
-* Include events permissions when including DB by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/773
-* Make sure to create SNS topic in every account and encrypt the topic by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/774
-* QUICK_START.md: Fix deploy apps link in CIS RefArch by @iangrunt in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/770
-* Update versions of dependencies by @yorinasub17 in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/781
+  * Only check versioning tools locally by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/657
+* Fix release lock logic by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/658
+* Remove unused InfraLiveURLType by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/663
+* Return all Route53 hosted zone errors after verification by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/662
+* Implement lock status report command by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/656
+* Implement preflight to sanity check all fields for completion by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/661
+* Tweak preflight check so it works on aws hardware by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/665
+* Allow different env var for preflight check GH token by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/664
+* Add skip ci message in state machine commit by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/673
+* Cleanup workflow files post deploy by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/676
+* Use the standard ECS Deploy Runner in the Gruntwork customer access account to build the docker images by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/672
+* Bump go to 1.17 by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/680
+* Update state machine paths to match current environment by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/674
+* Pass no-color flag if running in cloud by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/671
+* Set duration to one hour by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/677
+* Extract oneHour time duration to a constant by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/681
+* Add ability to publish preflight check results as GitHub check run annotations by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/682
+* Cleanup check errors by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/684
+* Fix refarch-example-generator to use latest go-commons and urfave/cli/v2 by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/685
+* Send deployment finished email by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/686
+* Cleanup more preflight checks by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/687
+* Commit code after generating by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/692
+* New error: PrimaryRegion and secret ARN region don&apos;t match by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/694
+* If on AWS hardware, hardcode the mssfix value to use by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/693
+* Add skip_get_ec2_platforms by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/700
+* Add a link to the deployer infra documentation by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/701
+* Implement preflight check for empty strings in IP address lists by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/698
+* Make sure to change state machine commit message based on run error by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/704
+* Do an upsert for preflight check reporting by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/706
+* Use workflow dispatch to mark preflight check as done by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/707
+* Add Preflight ensuring customers get correct CIS access by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/708
+* Remove unused var create_route53_entry by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/709
+* Consolidate redundant logic into preflight check by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/711
+* Should be build.pkr.hcl, not build.json by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/715
+* Fix bug where the wrong repo was linked to ami build scripts by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/716
+* Make sure to set desired_capacity when min_size is adjusted by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/717
+* Return all preflight errors instead of err directly by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/718
+* Grant GW Ref Arch deployer&apos;s CIDR access to shared VPC mgmt by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/719
+* Enhance preflight access errors with remediation info by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/721
+* Update PR Template by @rhoboat in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/722
+* Catch CACertFields whose length exceeds 40 by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/734
+* Use lower to normalize the account_name by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/736
+* Fix ci script testing by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/738
+* One more place that needs lowercasing by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/742
+* Clarify that there are multiple OpenVPN instances by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/744
+* Implement preflight check for GitLab PAT validity by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/735
+* Make cidr loop consistent by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/746
+* Bump versions of various dependencies by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/749
+* Truncate redis name by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/751
+* Implement preflight check for duplicate account IDs by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/748
+* Better support alternative default branch on new platform by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/757
+* Another place checking for non-main branch by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/758
+* Implement preflight tests by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/756
+* Change the verifyGitHubTokenScopes to have additional check on parent token by @hongil0316 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/750
+* When enabling mgmt VPC bastions for jenkins, we need to explicitly flip the include vars by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/764
+* Bump terraform-aws-cis-service-catalog to latest version by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/765
+* Use go template comment syntax when commenting for template by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/766
+* Excise refarch-deployer from arch-catalog by @zackproser in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/763
+* Fix helm provider issue by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/767
+* Update codeowners by @rhoboat in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/760
+* Bump redis version to 6 by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/772
+* Include events permissions when including DB by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/773
+* Make sure to create SNS topic in every account and encrypt the topic by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/774
+* QUICK_START.md: Fix deploy apps link in CIS RefArch by @iangrunt in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/770
+* Update versions of dependencies by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/781
 
-* @hongil0316 made their first contribution in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/750
+* @hongil0316 made their first contribution in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/750
 
-**Full Changelog**: https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/compare/v0.0.30...v0.0.31
+**Full Changelog**: https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/compare/v0.0.30...v0.0.31
 =======
   * Only check versioning tools locally by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/657
 * Fix release lock logic by @yorinasub17 in https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/pull/658
@@ -335,10 +335,10 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
 
 
 <<<<<<< Updated upstream
-### [v0.18.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.18.1)
+### [v0.18.1](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.18.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.18.1">Release notes</a></small>
+  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.18.1">Release notes</a></small>
 =======
 ### [v0.18.1](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.18.1)
 
@@ -360,7 +360,7 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
 
 
 <<<<<<< Updated upstream
-- https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/pull/84
+- https://github.com/tnn-gruntwork-io/terraform-aws-cache/pull/84
 =======
 - https://github.com/tnn-gruntwork-io/terraform-aws-cache/pull/84
 >>>>>>> Stashed changes
@@ -372,10 +372,10 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
 
 
 <<<<<<< Updated upstream
-### [v0.18.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.18.0)
+### [v0.18.0](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.18.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/2/2022 | Modules affected: memcached, redis | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.18.0">Release notes</a></small>
+  <small>Published: 8/2/2022 | Modules affected: memcached, redis | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.18.0">Release notes</a></small>
 =======
 ### [v0.18.0](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.18.0)
 
@@ -400,10 +400,10 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
 
 
 <<<<<<< Updated upstream
-### [v0.50.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.7)
+### [v0.50.7](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/12/2022 | Modules affected: terraform-helpers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.7">Release notes</a></small>
+  <small>Published: 8/12/2022 | Modules affected: terraform-helpers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.7">Release notes</a></small>
 =======
 ### [v0.50.7](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.7)
 
@@ -425,10 +425,10 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
 
 
 <<<<<<< Updated upstream
-### [v0.50.6](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.6)
+### [v0.50.6](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.6)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/3/2022 | Modules affected: ecs-deploy-runner-standard-configuration, ecs-deploy-runner | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.6">Release notes</a></small>
+  <small>Published: 8/3/2022 | Modules affected: ecs-deploy-runner-standard-configuration, ecs-deploy-runner | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.6">Release notes</a></small>
 =======
 ### [v0.50.6](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.6)
 
@@ -450,10 +450,10 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
 
 
 <<<<<<< Updated upstream
-### [v0.50.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.5)
+### [v0.50.5](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.5">Release notes</a></small>
+  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.5">Release notes</a></small>
 =======
 ### [v0.50.5](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.5)
 
@@ -480,10 +480,10 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
 
 
 <<<<<<< Updated upstream
-### [v0.3.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci-steampipe/releases/tag/v0.3.4)
+### [v0.3.4](https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/releases/tag/v0.3.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/4/2022 | Modules affected: ecs-deploy-runner-with-steampipe, steampipe-runner | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci-steampipe/releases/tag/v0.3.4">Release notes</a></small>
+  <small>Published: 8/4/2022 | Modules affected: ecs-deploy-runner-with-steampipe, steampipe-runner | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/releases/tag/v0.3.4">Release notes</a></small>
 =======
 ### [v0.3.4](https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/releases/tag/v0.3.4)
 
@@ -504,7 +504,7 @@ These commands are intended to be used in conjunction with the `gruntwork vault 
     - Various test dependencies.
 
 <<<<<<< Updated upstream
-https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
+https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 =======
 https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 >>>>>>> Stashed changes
@@ -517,10 +517,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.41.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.41.0)
+### [v0.41.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.41.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/11/2022 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-root, landingzone/account-baseline-security, networking/vpc-mgmt | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.41.0">Release notes</a></small>
+  <small>Published: 8/11/2022 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-root, landingzone/account-baseline-security, networking/vpc-mgmt | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.41.0">Release notes</a></small>
 =======
 ### [v0.41.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.41.0)
 
@@ -538,8 +538,8 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
     - `terraform-aws-service-catalog`: `v0.95.0` to `v0.96.1`
 - **Unlocked AWS provider v4. Require minimum 3.75.1.**
 <<<<<<< Updated upstream
-    - In [v0.39.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.39.0), we missed several module updates in the underlying `terraform-aws-service-catalog` dependency of this repo. 
-    - That has been remedied in [tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog@v0.96.1 (release)](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.1). 
+    - In [v0.39.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.39.0), we missed several module updates in the underlying `terraform-aws-service-catalog` dependency of this repo. 
+    - That has been remedied in [tnn-gruntwork-io/terraform-aws-service-catalog@v0.96.1 (release)](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.1). 
 =======
     - In [v0.39.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.39.0), we missed several module updates in the underlying `terraform-aws-service-catalog` dependency of this repo. 
     - That has been remedied in [tnn-gruntwork-io/terraform-aws-service-catalog@v0.96.1 (release)](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.1). 
@@ -552,10 +552,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.40.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.1)
+### [v0.40.1](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/4/2022 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-root, landingzone/account-baseline-security, networking/vpc-mgmt | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.1">Release notes</a></small>
+  <small>Published: 8/4/2022 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-root, landingzone/account-baseline-security, networking/vpc-mgmt | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.1">Release notes</a></small>
 =======
 ### [v0.40.1](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.1)
 
@@ -580,10 +580,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.40.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.0)
+### [v0.40.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/3/2022 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-root, landingzone/account-baseline-security, security/aws-securityhub | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.0">Release notes</a></small>
+  <small>Published: 8/3/2022 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-root, landingzone/account-baseline-security, security/aws-securityhub | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.0">Release notes</a></small>
 =======
 ### [v0.40.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.40.0)
 
@@ -603,10 +603,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.39.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.39.0)
+### [v0.39.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.39.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/2/2022 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-root, landingzone/account-baseline-security, networking/vpc | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.39.0">Release notes</a></small>
+  <small>Published: 8/2/2022 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-root, landingzone/account-baseline-security, networking/vpc | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.39.0">Release notes</a></small>
 =======
 ### [v0.39.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.39.0)
 
@@ -630,10 +630,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.34.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.1)
+### [v0.34.1](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/18/2022 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.1">Release notes</a></small>
+  <small>Published: 8/18/2022 | Modules affected: ecs-cluster | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.1">Release notes</a></small>
 =======
 ### [v0.34.1](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.1)
 
@@ -655,10 +655,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.34.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.0)
+### [v0.34.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/4/2022 | Modules affected: ecs-cluster, ecs-daemon-service, ecs-service | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.0">Release notes</a></small>
+  <small>Published: 8/4/2022 | Modules affected: ecs-cluster, ecs-daemon-service, ecs-service | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.0">Release notes</a></small>
 =======
 ### [v0.34.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.34.0)
 
@@ -687,10 +687,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.53.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.0)
+### [v0.53.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/8/2022 | Modules affected: eks-alb-ingress-controller, eks-alb-ingress-controller-iam-policy, eks-aws-auth-merger, eks-cloudwatch-agent | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.0">Release notes</a></small>
+  <small>Published: 8/8/2022 | Modules affected: eks-alb-ingress-controller, eks-alb-ingress-controller-iam-policy, eks-aws-auth-merger, eks-cloudwatch-agent | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.0">Release notes</a></small>
 =======
 ### [v0.53.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.53.0)
 
@@ -718,10 +718,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.20.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.3)
+### [v0.20.3](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/3/2022 | Modules affected: run-lambda-entrypoint | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.3">Release notes</a></small>
+  <small>Published: 8/3/2022 | Modules affected: run-lambda-entrypoint | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.3">Release notes</a></small>
 =======
 ### [v0.20.3](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.20.3)
 
@@ -747,10 +747,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.29.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.1)
+### [v0.29.1](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.1">Release notes</a></small>
+  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.1">Release notes</a></small>
 =======
 ### [v0.29.1](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.1)
 
@@ -774,10 +774,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.29.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.0)
+### [v0.29.0](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/1/2022 | Modules affected: alb, acm-tls-certificate, lb-listener-rules | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.0">Release notes</a></small>
+  <small>Published: 8/1/2022 | Modules affected: alb, acm-tls-certificate, lb-listener-rules | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.0">Release notes</a></small>
 =======
 ### [v0.29.0](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.0)
 
@@ -800,10 +800,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.9.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.9.1)
+### [v0.9.1](https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.9.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.9.1">Release notes</a></small>
+  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.9.1">Release notes</a></small>
 =======
 ### [v0.9.1](https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.9.1)
 
@@ -824,10 +824,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.9.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.9.0)
+### [v0.9.0](https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.9.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/1/2022 | Modules affected: kinesis, msk, sns-sqs-connection, sns | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.9.0">Release notes</a></small>
+  <small>Published: 8/1/2022 | Modules affected: kinesis, msk, sns-sqs-connection, sns | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.9.0">Release notes</a></small>
 =======
 ### [v0.9.0](https://github.com/tnn-gruntwork-io/terraform-aws-messaging/releases/tag/v0.9.0)
 
@@ -851,10 +851,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.35.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.5)
+### [v0.35.5](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/26/2022 | Modules affected: logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.5">Release notes</a></small>
+  <small>Published: 8/26/2022 | Modules affected: logs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.5">Release notes</a></small>
 =======
 ### [v0.35.5](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.5)
 
@@ -875,10 +875,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.35.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.4)
+### [v0.35.4](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/18/2022 | Modules affected: alarms/alb-alarms, alarms/alb-target-group-alarms, alarms/asg-cpu-alarms, alarms/asg-disk-alarms | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.4">Release notes</a></small>
+  <small>Published: 8/18/2022 | Modules affected: alarms/alb-alarms, alarms/alb-target-group-alarms, alarms/asg-cpu-alarms, alarms/asg-disk-alarms | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.4">Release notes</a></small>
 =======
 ### [v0.35.4](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.4)
 
@@ -901,10 +901,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.35.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.3)
+### [v0.35.3](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/4/2022 | Modules affected: All | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.3">Release notes</a></small>
+  <small>Published: 8/4/2022 | Modules affected: All | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.3">Release notes</a></small>
 =======
 ### [v0.35.3](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.35.3)
 
@@ -931,10 +931,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.24.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.3)
+### [v0.24.3](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/10/2022 | Modules affected: openvpn-admin | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.3">Release notes</a></small>
+  <small>Published: 8/10/2022 | Modules affected: openvpn-admin | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.3">Release notes</a></small>
 =======
 ### [v0.24.3](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.3)
 
@@ -957,10 +957,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.24.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.2)
+### [v0.24.2](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/8/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.2">Release notes</a></small>
+  <small>Published: 8/8/2022 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.2">Release notes</a></small>
 =======
 ### [v0.24.2](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.24.2)
 
@@ -987,10 +987,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.15.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.1)
+### [v0.15.1](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.1">Release notes</a></small>
+  <small>Published: 8/2/2022 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.1">Release notes</a></small>
 =======
 ### [v0.15.1](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.1)
 
@@ -1012,10 +1012,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.15.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.0)
+### [v0.15.0](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/1/2022 | Modules affected: ec2-backup, single-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.0">Release notes</a></small>
+  <small>Published: 8/1/2022 | Modules affected: ec2-backup, single-server | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.0">Release notes</a></small>
 =======
 ### [v0.15.0](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.0)
 
@@ -1039,10 +1039,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.96.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.2)
+### [v0.96.2](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/19/2022 | Modules affected: services/k8s-service, landingzone/account-baseline-root, mgmt/terraform-aws-openvpn, mgmt/jenkins | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.2">Release notes</a></small>
+  <small>Published: 8/19/2022 | Modules affected: services/k8s-service, landingzone/account-baseline-root, mgmt/terraform-aws-openvpn, mgmt/jenkins | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.2">Release notes</a></small>
 =======
 ### [v0.96.2](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.2)
 
@@ -1068,10 +1068,10 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
 
 
 <<<<<<< Updated upstream
-### [v0.96.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.1)
+### [v0.96.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/11/2022 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.1">Release notes</a></small>
+  <small>Published: 8/11/2022 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.1">Release notes</a></small>
 =======
 ### [v0.96.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.1)
 
@@ -1085,7 +1085,7 @@ https://github.com/tnn-gruntwork-io/terraform-aws-ci-steampipe/pull/31
   
 
 <<<<<<< Updated upstream
-- **Unlock AWS Provider v4. Require minimum 3.75.1.** In https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.0, we missed a few spots. This release updates the above modules with the same minimum version of 3.75.1, with no upper limit. These updates arose from bumping the following underlying library modules:
+- **Unlock AWS Provider v4. Require minimum 3.75.1.** In https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.0, we missed a few spots. This release updates the above modules with the same minimum version of 3.75.1, with no upper limit. These updates arose from bumping the following underlying library modules:
 =======
 - **Unlock AWS Provider v4. Require minimum 3.75.1.** In https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.0, we missed a few spots. This release updates the above modules with the same minimum version of 3.75.1, with no upper limit. These updates arose from bumping the following underlying library modules:
 >>>>>>> Stashed changes
@@ -1102,10 +1102,10 @@ Special thanks to @lorelei-rupp-imprivata for catching this issue!
 
 
 <<<<<<< Updated upstream
-### [v0.96.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.0)
+### [v0.96.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/9/2022 | Modules affected: services, base, data-stores, landingzone | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.0">Release notes</a></small>
+  <small>Published: 8/9/2022 | Modules affected: services, base, data-stores, landingzone | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.0">Release notes</a></small>
 =======
 ### [v0.96.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.96.0)
 
@@ -1120,8 +1120,8 @@ Special thanks to @lorelei-rupp-imprivata for catching this issue!
 
 - Module dependency updates, to unlock Terraform AWS Provider v4:
 <<<<<<< Updated upstream
-  - Update Terraform github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks to v0.53.0
-  - Update Terraform github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs to v0.34.0
+  - Update Terraform github.com/tnn-gruntwork-io/terraform-aws-eks to v0.53.0
+  - Update Terraform github.com/tnn-gruntwork-io/terraform-aws-ecs to v0.34.0
 =======
   - Update Terraform github.com/tnn-gruntwork-io/terraform-aws-eks to v0.53.0
   - Update Terraform github.com/tnn-gruntwork-io/terraform-aws-ecs to v0.34.0
@@ -1133,10 +1133,10 @@ Special thanks to @lorelei-rupp-imprivata for catching this issue!
 
 
 <<<<<<< Updated upstream
-### [v0.95.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.95.1)
+### [v0.95.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.95.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/5/2022 | Modules affected: base/ec2-baseline, services/ec2-instance, mgmt/jenkins, mgmt/bastion-host | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.95.1">Release notes</a></small>
+  <small>Published: 8/5/2022 | Modules affected: base/ec2-baseline, services/ec2-instance, mgmt/jenkins, mgmt/bastion-host | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.95.1">Release notes</a></small>
 =======
 ### [v0.95.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.95.1)
 
@@ -1161,10 +1161,10 @@ Special thanks to @lorelei-rupp-imprivata for catching this issue!
 
 
 <<<<<<< Updated upstream
-### [v0.95.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.95.0)
+### [v0.95.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.95.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/4/2022 | Modules affected: networking/sns-topics, base/ec2-baseline, services/ec2-instance, mgmt/jenkins | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.95.0">Release notes</a></small>
+  <small>Published: 8/4/2022 | Modules affected: networking/sns-topics, base/ec2-baseline, services/ec2-instance, mgmt/jenkins | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.95.0">Release notes</a></small>
 =======
 ### [v0.95.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.95.0)
 
@@ -1187,10 +1187,10 @@ Special thanks to @lorelei-rupp-imprivata for catching this issue!
 
 
 <<<<<<< Updated upstream
-### [v0.94.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.94.2)
+### [v0.94.2](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.94.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/3/2022 | Modules affected: data-stores/aurora, data-stores/rds, landingzone/account-baseline-app, landingzone/account-baseline-root | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.94.2">Release notes</a></small>
+  <small>Published: 8/3/2022 | Modules affected: data-stores/aurora, data-stores/rds, landingzone/account-baseline-app, landingzone/account-baseline-root | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.94.2">Release notes</a></small>
 =======
 ### [v0.94.2](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.94.2)
 
@@ -1212,10 +1212,10 @@ Special thanks to @lorelei-rupp-imprivata for catching this issue!
 
 
 <<<<<<< Updated upstream
-### [v0.94.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.94.1)
+### [v0.94.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.94.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/2/2022 | Modules affected: data-stores/aurora, services/public-static-website | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.94.1">Release notes</a></small>
+  <small>Published: 8/2/2022 | Modules affected: data-stores/aurora, services/public-static-website | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.94.1">Release notes</a></small>
 =======
 ### [v0.94.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.94.1)
 
@@ -1247,10 +1247,10 @@ Special thanks to @lorelei-rupp-imprivata for catching this issue!
 
 
 <<<<<<< Updated upstream
-### [v0.15.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.15.8)
+### [v0.15.8](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.15.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
-  <small>Published: 8/16/2022 | Modules affected: s3-cloudfront | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.15.8">Release notes</a></small>
+  <small>Published: 8/16/2022 | Modules affected: s3-cloudfront | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.15.8">Release notes</a></small>
 =======
 ### [v0.15.8](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.15.8)
 

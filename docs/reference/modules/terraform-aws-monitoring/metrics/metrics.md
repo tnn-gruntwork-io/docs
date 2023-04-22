@@ -14,19 +14,19 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # Metrics modules
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.34.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.34.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This folder contains modules for working with CloudWatch metrics:
 
-*   [cloudwatch-custom-metrics-iam-policy](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/cloudwatch-custom-metrics-iam-policy): A module that defines
+*   [cloudwatch-custom-metrics-iam-policy](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/cloudwatch-custom-metrics-iam-policy): A module that defines
     an IAM policy that allows reading/writing CloudWatch metrics.
-*   [cloudwatch-dashboard-metric-widget](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/cloudwatch-dashboard-metric-widget): Configures a CloudWatch Dashboard metric widget.
-*   [cloudwatch-dashboard-text-widget](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/cloudwatch-dashboard-text-widget): Configures a CloudWatch Dashboard text widget.
-*   [cloudwatch-dashboard](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/cloudwatch-dashboard): Configures and deploys a CloudWatch Dashboard.
+*   [cloudwatch-dashboard-metric-widget](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/cloudwatch-dashboard-metric-widget): Configures a CloudWatch Dashboard metric widget.
+*   [cloudwatch-dashboard-text-widget](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/cloudwatch-dashboard-text-widget): Configures a CloudWatch Dashboard text widget.
+*   [cloudwatch-dashboard](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/cloudwatch-dashboard): Configures and deploys a CloudWatch Dashboard.
 
-Click on each module above to see its documentation. Head over to the [examples folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/examples) for examples.
+Click on each module above to see its documentation. Head over to the [examples folder](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/examples) for examples.
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -48,9 +48,9 @@ Click on each module above to see its documentation. Head over to the [examples 
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/v0.35.9/modules/metrics/variables.tf",

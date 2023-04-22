@@ -5,7 +5,7 @@ It will also configure AWS Organizations, IAM Roles, IAM Users, IAM Groups, IAM 
 AWS CloudTrail, and AWS Config.
 
 <<<<<<< Updated upstream
-We’ll be using the `account-baseline-root` module from [terraform-aws-service-catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog).
+We’ll be using the `account-baseline-root` module from [terraform-aws-service-catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog).
 =======
 We’ll be using the `account-baseline-root` module from [terraform-aws-service-catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog).
 >>>>>>> Stashed changes
@@ -29,11 +29,11 @@ infrastructure-live
 ```
 
 <<<<<<< Updated upstream
-Define the `terraform` block with the source pointing to the [terraform-aws-service-catalog account-baseline-root](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog) module.
+Define the `terraform` block with the source pointing to the [terraform-aws-service-catalog account-baseline-root](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog) module.
 
 ```hcl title=infrastructure-live/root/_global/account-baseline/terragrunt.hcl
 terraform {
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/landingzone/account-baseline-root?ref=v0.41.4"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/landingzone/account-baseline-root?ref=v0.41.4"
 =======
 Define the `terraform` block with the source pointing to the [terraform-aws-service-catalog account-baseline-root](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog) module.
 

@@ -51,7 +51,7 @@ compatible with CIS AWS v1.4.0:
         <p>
           <strong>
 <<<<<<< Updated upstream
-            <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.54.0">
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.54.0">
 =======
             <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.54.0">
 >>>>>>> Stashed changes
@@ -72,7 +72,7 @@ compatible with CIS AWS v1.4.0:
         <p>
           <strong>
 <<<<<<< Updated upstream
-            <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.27.0">
+            <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.27.0">
 =======
             <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.27.0">
 >>>>>>> Stashed changes

@@ -3,7 +3,7 @@
 The next step is to configure the worker nodes in the `eks-cluster` module. You can use an Auto Scaling Group to run
 the worker nodes using the
 <<<<<<< Updated upstream
-[eks-cluster-workers](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-workers) module
+[eks-cluster-workers](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-workers) module
 =======
 [eks-cluster-workers](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-cluster-workers) module
 >>>>>>> Stashed changes
@@ -13,7 +13,7 @@ in `terraform-aws-eks`:
 module "eks_workers" {
   # Make sure to replace <VERSION> in this URL with the latest terraform-aws-eks release
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-cluster-workers?ref=<VERSION>"
 >>>>>>> Stashed changes

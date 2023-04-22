@@ -16,14 +16,14 @@ The account baseline modules had three breaking changes between versions v0.22.0
 these migration steps before updating the module versions.
 
 <<<<<<< Updated upstream
-- [v0.23.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.23.0): Refactored the
+- [v0.23.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.23.0): Refactored the
   SecurityHub module to remove a Python script that managed invitations between the AWS accounts. It’s necessary to run a
   state migration to manage the invitations with Terraform.
 
-- [v0.24.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.24.0): This release introduces MFA Delete. You will need to follow the migration guide to ensure all S3 buckets are properly secured. Note: It is unlikely you will need to perform this step on the AWS root account as they typically don’t contain S3 buckets. Please ensure you migrate all other AWS accounts.
+- [v0.24.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.24.0): This release introduces MFA Delete. You will need to follow the migration guide to ensure all S3 buckets are properly secured. Note: It is unlikely you will need to perform this step on the AWS root account as they typically don’t contain S3 buckets. Please ensure you migrate all other AWS accounts.
 
-- [v0.25.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.25.0): Update the codebase
-  to a new multi-region approach. In [v0.51.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.51.0) of
+- [v0.25.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.25.0): Update the codebase
+  to a new multi-region approach. In [v0.51.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.51.0) of
 =======
 - [v0.23.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.23.0): Refactored the
   SecurityHub module to remove a Python script that managed invitations between the AWS accounts. It’s necessary to run a
@@ -40,7 +40,7 @@ these migration steps before updating the module versions.
 
 Additionally, earlier versions of the account baseline modules did not set the following variables, so please ensure
 <<<<<<< Updated upstream
-that they exist. Here is [an example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/v0.27.0/examples/for-production/infrastructure-live/logs/_global/account-baseline/terragrunt.hcl#L281) of what you might set the values to for the prod account.
+that they exist. Here is [an example](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/v0.27.0/examples/for-production/infrastructure-live/logs/_global/account-baseline/terragrunt.hcl#L281) of what you might set the values to for the prod account.
 =======
 that they exist. Here is [an example](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/v0.27.0/examples/for-production/infrastructure-live/logs/_global/account-baseline/terragrunt.hcl#L281) of what you might set the values to for the prod account.
 >>>>>>> Stashed changes
@@ -56,10 +56,10 @@ that they exist. Here is [an example](https://github.com/tnn-gruntwork-io/terraf
 - `var.macie_opt_in_regions`
 
 <<<<<<< Updated upstream
-Once you have completed the above migration steps, it is time to update each baseline module to at least version [v0.27.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.27.0) and run Terraform/Terragrunt apply. Typically this is done using the `source` parameter:
+Once you have completed the above migration steps, it is time to update each baseline module to at least version [v0.27.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.27.0) and run Terraform/Terragrunt apply. Typically this is done using the `source` parameter:
 
 ```hcl title=infrastructure-live/root/_global/account-baseline/terragrunt.hcl
-git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/landingzone/account-baseline-root?ref=v0.27.0
+git::git@github.com:tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/landingzone/account-baseline-root?ref=v0.27.0
 =======
 Once you have completed the above migration steps, it is time to update each baseline module to at least version [v0.27.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.27.0) and run Terraform/Terragrunt apply. Typically this is done using the `source` parameter:
 
@@ -81,7 +81,7 @@ In addition to the above breaking changes, you’ll need to configure the accoun
 created module for [Amazon Macie](https://aws.amazon.com/macie/). Amazon Macie satisfies the new 2.1.4 benchmark recommendation that requires all data
 in Amazon S3 be discovered, classified and secured. We have created a dedicated
 <<<<<<< Updated upstream
-[`macie` module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/security/macie)
+[`macie` module](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/security/macie)
 =======
 [`macie` module](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/security/macie)
 >>>>>>> Stashed changes

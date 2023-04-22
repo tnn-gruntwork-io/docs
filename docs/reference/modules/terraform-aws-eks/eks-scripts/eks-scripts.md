@@ -14,9 +14,9 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 # EKS Scripts Module
 
 <<<<<<< Updated upstream
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-scripts" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-scripts" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
-<a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.55.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.55.2" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 =======
 <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-scripts" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
@@ -31,14 +31,14 @@ This folder contains helper scripts for running an EKS Cluster, including:
 ## Installing the helpers
 
 <<<<<<< Updated upstream
-You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
+You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
-gruntwork-install --module-name "eks-scripts" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks" --tag "0.2.0"
+gruntwork-install --module-name "eks-scripts" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-eks" --tag "0.2.0"
 ```
 
 For an example, see the [Packer](https://www.packer.io/) template under
-[examples/eks-cluster-with-supporting-services/packer/build.json](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/examples/eks-cluster-with-supporting-services/packer/build.json).
+[examples/eks-cluster-with-supporting-services/packer/build.json](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/examples/eks-cluster-with-supporting-services/packer/build.json).
 =======
 You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
 
@@ -114,7 +114,7 @@ and you specified `ec2.gruntwork.io/` as your tag prefix (`map-ec2-tags-to-node-
 In order for the script to be able to successfully retrieve the tags for EC2 instance, the instances need to be
 associated with an IAM profile that grants it access to retrieve the EC2 tags on the instance. If you launch the workers
 <<<<<<< Updated upstream
-using the [eks-cluster-workers module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers), this is automatically attached to the worker IAM role.
+using the [eks-cluster-workers module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers), this is automatically attached to the worker IAM role.
 =======
 using the [eks-cluster-workers module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-cluster-workers), this is automatically attached to the worker IAM role.
 >>>>>>> Stashed changes
@@ -130,9 +130,9 @@ tests.
 {
   "originalSources": [
 <<<<<<< Updated upstream
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-scripts/readme.md",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-scripts/variables.tf",
-    "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-scripts/outputs.tf"
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-scripts/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-scripts/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-scripts/outputs.tf"
 =======
     "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-scripts/readme.md",
     "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-scripts/variables.tf",

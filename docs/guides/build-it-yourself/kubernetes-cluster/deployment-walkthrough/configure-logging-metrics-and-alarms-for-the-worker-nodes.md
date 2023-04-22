@@ -3,7 +3,7 @@
 In order for the CloudWatch Logs Agent to be able to write to CloudWatch Logs, you need to give it the worker nodes the
 proper IAM permissions. You can do that by using the
 <<<<<<< Updated upstream
-[cloudwatch-log-aggregation-iam-policy module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-iam-policy)
+[cloudwatch-log-aggregation-iam-policy module](https://github.com/tnn-gruntwork-io/module-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-iam-policy)
 =======
 [cloudwatch-log-aggregation-iam-policy module](https://github.com/tnn-gruntwork-io/module-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-iam-policy)
 >>>>>>> Stashed changes
@@ -13,7 +13,7 @@ from `module-aws-monitoring`:
 module "cloudwatch_log_aggregation" {
   # Make sure to replace <VERSION> in this URL with the latest module-aws-monitoring release
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring.git//modules/logs/cloudwatch-log-aggregation-iam-policy?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/module-aws-monitoring.git//modules/logs/cloudwatch-log-aggregation-iam-policy?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/module-aws-monitoring.git//modules/logs/cloudwatch-log-aggregation-iam-policy?ref=<VERSION>"
 >>>>>>> Stashed changes
@@ -31,7 +31,7 @@ resource "aws_iam_policy_attachment" "attach_cloudwatch_log_aggregation_policy" 
 Similarly, to be able to send disk and memory metrics to CloudWatch, you need to add more IAM permissions, this time
 using the
 <<<<<<< Updated upstream
-[cloudwatch-custom-metrics-iam-policy module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/tree/master/modules/metrics/cloudwatch-custom-metrics-iam-policy):
+[cloudwatch-custom-metrics-iam-policy module](https://github.com/tnn-gruntwork-io/module-aws-monitoring/tree/master/modules/metrics/cloudwatch-custom-metrics-iam-policy):
 =======
 [cloudwatch-custom-metrics-iam-policy module](https://github.com/tnn-gruntwork-io/module-aws-monitoring/tree/master/modules/metrics/cloudwatch-custom-metrics-iam-policy):
 >>>>>>> Stashed changes
@@ -40,7 +40,7 @@ using the
 module "cloudwatch_metrics" {
   # Make sure to replace <VERSION> in this URL with the latest module-aws-monitoring release
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring.git//modules/metrics/cloudwatch-custom-metrics-iam-policy?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/module-aws-monitoring.git//modules/metrics/cloudwatch-custom-metrics-iam-policy?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/module-aws-monitoring.git//modules/metrics/cloudwatch-custom-metrics-iam-policy?ref=<VERSION>"
 >>>>>>> Stashed changes
@@ -58,7 +58,7 @@ resource "aws_iam_policy_attachment" "attach_cloudwatch_metrics_policy" {
 Finally, you may want to configure some CloudWatch alerts to go off if the CPU usage, memory usage, or disk space
 utilization gets too high on the worker nodes. You can do this using several of the
 <<<<<<< Updated upstream
-[alarms modules](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/tree/master/modules/alarms) from
+[alarms modules](https://github.com/tnn-gruntwork-io/module-aws-monitoring/tree/master/modules/alarms) from
 =======
 [alarms modules](https://github.com/tnn-gruntwork-io/module-aws-monitoring/tree/master/modules/alarms) from
 >>>>>>> Stashed changes
@@ -68,7 +68,7 @@ utilization gets too high on the worker nodes. You can do this using several of 
 module "high_cpu_usage_alarms" {
   # Make sure to replace <VERSION> in this URL with the latest module-aws-monitoring release
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring.git//modules/alarms/asg-cpu-alarms?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/module-aws-monitoring.git//modules/alarms/asg-cpu-alarms?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/module-aws-monitoring.git//modules/alarms/asg-cpu-alarms?ref=<VERSION>"
 >>>>>>> Stashed changes
@@ -81,7 +81,7 @@ module "high_cpu_usage_alarms" {
 module "high_memory_usage_alarms" {
   # Make sure to replace <VERSION> in this URL with the latest module-aws-monitoring release
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring.git//modules/alarms/asg-memory-alarms?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/module-aws-monitoring.git//modules/alarms/asg-memory-alarms?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/module-aws-monitoring.git//modules/alarms/asg-memory-alarms?ref=<VERSION>"
 >>>>>>> Stashed changes
@@ -94,7 +94,7 @@ module "high_memory_usage_alarms" {
 module "high_disk_usage_alarms" {
   # Make sure to replace <VERSION> in this URL with the latest module-aws-monitoring release
 <<<<<<< Updated upstream
-  source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring.git//modules/alarms/asg-disk-alarms?ref=<VERSION>"
+  source = "git::git@github.com:tnn-gruntwork-io/module-aws-monitoring.git//modules/alarms/asg-disk-alarms?ref=<VERSION>"
 =======
   source = "git::git@github.com:tnn-gruntwork-io/module-aws-monitoring.git//modules/alarms/asg-disk-alarms?ref=<VERSION>"
 >>>>>>> Stashed changes
