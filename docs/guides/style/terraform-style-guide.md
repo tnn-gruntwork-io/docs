@@ -99,7 +99,11 @@ free form maps. However, for particularly large objects it is useful to support 
 [not supported in terraform](https://github.com/hashicorp/terraform/issues/22449), so workaround by using `any` type.
 
 When using `any` type, always use comments to describe the supported attributes.
+<<<<<<< Updated upstream
 [Example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/blob/da69690/modules/kms-master-key/variables.tf#L10).
+=======
+[Example](https://github.com/tnn-gruntwork-io/module-security/blob/da69690/modules/kms-master-key/variables.tf#L10).
+>>>>>>> Stashed changes
 
 #### `outputs.tf` conventions
 
@@ -262,7 +266,11 @@ Every test should have the `t.Parallel` call in the test function unless there i
 e.g. manipulating process global resources, like environment variables. This is so that tests run as quickly as possible.
 
 To facilitate this, every reference to a terraform example should use
+<<<<<<< Updated upstream
 [test_structure.CopyTerraformFolderToTemp](https://pkg.go.dev/github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/modules/test-structure#CopyTerraformFolderToTemp)
+=======
+[test_structure.CopyTerraformFolderToTemp](https://pkg.go.dev/github.com/tnn-gruntwork-io/terratest/modules/test-structure#CopyTerraformFolderToTemp)
+>>>>>>> Stashed changes
 to create a copy of the example module in a temp directory. Then as the test runs, any stateful changes to the example
 module directory are isolated across tests, so that there’s no conflict on parallel runs.
 

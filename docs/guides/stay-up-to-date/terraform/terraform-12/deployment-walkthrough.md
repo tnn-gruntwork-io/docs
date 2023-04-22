@@ -114,7 +114,11 @@ To upgrade each of your modules to HCL2 syntax, you can run the `terraform 0.12u
 the `terraform` binary. You will need to do the following for each of your Terraform modules (e.g in your
 `infrastructure-modules` repo). To make the commands concrete, the rest of this step by step guide will assume you are
 updating a module in `infrastructure-modules/networking/vpc-app` (such as [this
+<<<<<<< Updated upstream
 one](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/tree/3158e4ebe83156f3917f8d168a6985678e30acfa/networking/vpc-app)):
+=======
+one](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/tree/3158e4ebe83156f3917f8d168a6985678e30acfa/networking/vpc-app)):
+>>>>>>> Stashed changes
 
 **NOTE**: We recommend updating and testing one module at a time, starting with the modules that are at the root of your
 dependency graph. Terraform 0.12 is not able to read the state of Terraform 0.11, so you will need to start with the
@@ -126,12 +130,21 @@ it is very easy to "start over", such as a sandbox or dev environment!**
    right-most column of the [Gruntwork module compatibility
    table](version-compatibility-table.md) (or newer). For example,
    our example `infrastructure-modules/networking/vpc-app` [makes use of
+<<<<<<< Updated upstream
    module-vpc](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/3158e4ebe83156f3917f8d168a6985678e30acfa/networking/vpc-app/main.tf#L38),
    which you’ll want to upgrade to `v0.6.0` (or newer).
 1. Make sure to check the release notes for the module to see any other changes you need to make. E.g., Here are [the
    release notes for module-vpc, v0.6.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/releases/tag/v0.6.0).
 1. If you have a `required_version` constraint in your code (e.g like [this one in the
    example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/3158e4ebe83156f3917f8d168a6985678e30acfa/networking/vpc-app/main.tf#L28)),
+=======
+   module-vpc](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/3158e4ebe83156f3917f8d168a6985678e30acfa/networking/vpc-app/main.tf#L38),
+   which you’ll want to upgrade to `v0.6.0` (or newer).
+1. Make sure to check the release notes for the module to see any other changes you need to make. E.g., Here are [the
+   release notes for module-vpc, v0.6.0](https://github.com/tnn-gruntwork-io/module-vpc/releases/tag/v0.6.0).
+1. If you have a `required_version` constraint in your code (e.g like [this one in the
+   example](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/3158e4ebe83156f3917f8d168a6985678e30acfa/networking/vpc-app/main.tf#L28)),
+>>>>>>> Stashed changes
    for the time being, remove it so the Terraform auto-upgrade step doesn’t complain. We’ll bring it back later.
 1. Run `terraform init -backend=false`.
 1. Run `terraform 0.12upgrade`.
@@ -162,9 +175,15 @@ it is very easy to "start over", such as a sandbox or dev environment!**
    also act as good documentation as well.
 1. If you have terratest workflows for your modules, upgrade terratest to v0.16.x (or newer). You can see all available
    terratest versions, including detailed migration guides for each version in [the releases
+<<<<<<< Updated upstream
    page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/releases).
 1. Test the changes locally using `--terragrunt-source` (see the docs on [working
    locally](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt#working-locally)). Note that you will need to upgrade the
+=======
+   page](https://github.com/tnn-gruntwork-io/terratest/releases).
+1. Test the changes locally using `--terragrunt-source` (see the docs on [working
+   locally](https://github.com/tnn-gruntwork-io/terragrunt#working-locally)). Note that you will need to upgrade the
+>>>>>>> Stashed changes
    corresponding live config to [Terragrunt 0.19.x first](#upgrade-live-config-for-compatibility-with-terragrunt-019x).
 1. Once you are satisfied with the changes, create a branch, push to the repository, open a PR, merge, and release.
 
@@ -208,26 +227,42 @@ Like `terraform`, you can use the method described above in [Manually managing m
 versions](#manually-managing-multiple-terraform-versions) to manage multiple versions of Terragrunt.
 
 You can find the available binaries for each terragrunt version
+<<<<<<< Updated upstream
 [here](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt/releases).
+=======
+[here](https://github.com/tnn-gruntwork-io/terragrunt/releases).
+>>>>>>> Stashed changes
 
 ### <a name="migrate-terraform-tfvars-to-terragrunt-hcl"></a>Migrate terraform.tfvars to terragrunt.hcl
 
 Once you have terragrunt 0.19 available on your machine, you will need to migrate your `terraform.tfvars` files to
 `terragrunt.hcl` files before you can start to use the new version. You will need to follow the steps outlined in the
 [Terragrunt 0.19.x migration
+<<<<<<< Updated upstream
 guide](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt/blob/master/docs/_docs/06_migration_guides/upgrading_to_terragrunt_0.19.x.md)
+=======
+guide](https://github.com/tnn-gruntwork-io/terragrunt/blob/master/docs/_docs/06_migration_guides/upgrading_to_terragrunt_0.19.x.md)
+>>>>>>> Stashed changes
 for each of your live config (e.g in your `infrastructure-live` repo).
 
 You should do this in parallel with each module upgrade. For example, if you were upgrading the module
 `infrastructure-modules/networking/vpc-app`, you should upgrade the live config that deploys that module to a pre-prod
 environment to test the changes you are making to that module (e.g
+<<<<<<< Updated upstream
 [`infrastructure-live/dev/us-east-1/dev/vpc`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-live-multi-account-acme/tree/dd6dce7f737f8c1bd32466b69e905b2bdd25db80/dev/us-east-1/dev/vpc)).
+=======
+[`infrastructure-live/dev/us-east-1/dev/vpc`](https://github.com/tnn-gruntwork-io/infrastructure-live-multi-account-acme/tree/dd6dce7f737f8c1bd32466b69e905b2bdd25db80/dev/us-east-1/dev/vpc)).
+>>>>>>> Stashed changes
 The rough process should be:
 
 1. Upgrade the module to TF12 syntax following the steps [listed above](#upgrade-each-module-for-1compatibility).
 1. Update the live config for a pre-prod environment that deploys the module.
 1. Run `terragrunt plan` to verify the changes. Use `--terragrunt-source` so you can point to the updated module (see
+<<<<<<< Updated upstream
    the docs on [working locally](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt#working-locally)). Carefully review to make
+=======
+   the docs on [working locally](https://github.com/tnn-gruntwork-io/terragrunt#working-locally)). Carefully review to make
+>>>>>>> Stashed changes
    sure there are no disruptive changes. If you had been keeping the modules up to date with Gruntwork releases, there
    should be minimal to 0 changes to the underlying resources.
 1. Once you are satisfied with the changes, run `terragrunt apply` to deploy the changes.
@@ -252,7 +287,11 @@ module before promoting the changes. Depending on your infrastructure setup, you
 
 Terragrunt supports ingesting common `tfvars` files to pass global variables to your terraform modules through the use
 of [`required_var_files` and `optional_var_files` in the
+<<<<<<< Updated upstream
 config](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt#required-and-optional-var-files). However, using `tfvars` files to
+=======
+config](https://github.com/tnn-gruntwork-io/terragrunt#required-and-optional-var-files). However, using `tfvars` files to
+>>>>>>> Stashed changes
 set variables that are not available in your modules is now deprecated, and will become [an error starting with Terraform
 0.13.x](https://github.com/hashicorp/terraform/issues/19424#issuecomment-472186386). As such, some configurations may
 start to get a loud warning that they are setting variables that are not configured in the underlying modules.
@@ -307,10 +346,17 @@ following steps to workaround the new warnings in TF12:
 We applied the above procedure to our Acme Reference Architecture repos. You can see the pull requests for each repo
 here:
 
+<<<<<<< Updated upstream
 - [infrastructure-live-multi-account-acme](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-live-multi-account-acme/pull/21)
 - [infrastructure-modules-multi-account-acme](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/pull/23)
 - [infrastructure-live-acme](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-live-acme/pull/18)
 - [infrastructure-modules-acme](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-acme/pull/23)
+=======
+- [infrastructure-live-multi-account-acme](https://github.com/tnn-gruntwork-io/infrastructure-live-multi-account-acme/pull/21)
+- [infrastructure-modules-multi-account-acme](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/pull/23)
+- [infrastructure-live-acme](https://github.com/tnn-gruntwork-io/infrastructure-live-acme/pull/18)
+- [infrastructure-modules-acme](https://github.com/tnn-gruntwork-io/infrastructure-modules-acme/pull/23)
+>>>>>>> Stashed changes
 
 ## Known issues
 
@@ -326,10 +372,17 @@ here:
   This is due to a bug in terraform where it does not realize that the data source can be calculated at `plan` time. You
   can read more about the issue on [the bug ticket here](https://github.com/hashicorp/terraform/issues/21450).
   This issue is fixed in `module-security`
+<<<<<<< Updated upstream
   [v0.18.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/releases/tag/v0.18.1). If you encounter this issue, upgrade
   `module-security` to `v0.18.1`. Note that `v0.18.0` has a backwards incompatible change and will require code changes
   if you are upgrading from a version less than `v0.18.0`. You can see the necessary changes you need to make in [the
   release notes](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/releases/tag/v0.18.0).
+=======
+  [v0.18.1](https://github.com/tnn-gruntwork-io/module-security/releases/tag/v0.18.1). If you encounter this issue, upgrade
+  `module-security` to `v0.18.1`. Note that `v0.18.0` has a backwards incompatible change and will require code changes
+  if you are upgrading from a version less than `v0.18.0`. You can see the necessary changes you need to make in [the
+  release notes](https://github.com/tnn-gruntwork-io/module-security/releases/tag/v0.18.0).
+>>>>>>> Stashed changes
 
 - When upgrading `iam-groups` to `v0.18.1` from a version older than `v0.17.0`, you may run into an issue different from
   the previous one where you will not be able to run `plan`, `apply`, or `destroy`. The error message in this case will

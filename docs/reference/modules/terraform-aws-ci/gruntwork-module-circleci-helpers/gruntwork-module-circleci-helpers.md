@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Gruntwork Module CircleCI Helpers
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/gruntwork-module-circleci-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/gruntwork-module-circleci-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module contains helper scripts used in CircleCI jobs of Gruntwork Modules, including:
 
@@ -33,10 +39,17 @@ This module contains helper scripts used in CircleCI jobs of Gruntwork Modules, 
 
 ## Installing the helpers
 
+<<<<<<< Updated upstream
 You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
 gruntwork-install --module-name "gruntwork-module-circleci-helpers" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.1"
+=======
+You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
+
+```bash
+gruntwork-install --module-name "gruntwork-module-circleci-helpers" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.1"
+>>>>>>> Stashed changes
 ```
 
 We recommend running this command in the `dependencies` section of `circle.yml`:
@@ -45,10 +58,17 @@ We recommend running this command in the `dependencies` section of `circle.yml`:
 dependencies:
   override:
     # Install the Gruntwork Installer
+<<<<<<< Updated upstream
     - curl -Ls https://raw.githubusercontent.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version 0.0.9
 
     # Use the Gruntwork Installer to install the gruntwork-module-circleci-helpers module
     - gruntwork-install --module-name "gruntwork-module-circleci-helpers" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.5"
+=======
+    - curl -Ls https://raw.githubusercontent.com/tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version 0.0.9
+
+    # Use the Gruntwork Installer to install the gruntwork-module-circleci-helpers module
+    - gruntwork-install --module-name "gruntwork-module-circleci-helpers" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.5"
+>>>>>>> Stashed changes
 ```
 
 ## Using the configure-environment-for-gruntwork-module helper
@@ -70,10 +90,17 @@ machine:
 dependencies:
   override:
     # Install the Gruntwork Installer
+<<<<<<< Updated upstream
     - curl -Ls https://raw.githubusercontent.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version 0.0.9
 
     # Use the Gruntwork Installer to install the gruntwork-module-circleci-helpers module
     - gruntwork-install --module-name "gruntwork-module-circleci-helpers" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.1"
+=======
+    - curl -Ls https://raw.githubusercontent.com/tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version 0.0.9
+
+    # Use the Gruntwork Installer to install the gruntwork-module-circleci-helpers module
+    - gruntwork-install --module-name "gruntwork-module-circleci-helpers" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.1"
+>>>>>>> Stashed changes
 
     # Configure the CircleCI environment using the gruntwork-module-circleci-helpers module
     - configure-environment-for-gruntwork-module --go-src-path test --go-src-path modules/my-go-app
@@ -160,7 +187,11 @@ That is, you just pass in a list of assets to upload, and the script will automa
 repo and tag to use based on [CircleCI environment variables](https://circleci.com/docs/environment-variables/). If
 you're not using CircleCI or want to customize some of the settings, you may use the following options:
 
+<<<<<<< Updated upstream
 *   `--github-repo-owner`: The user or organization that owns the repo (e.g. tnn-tnn-tnn-tnn-tnn-gruntwork-io).
+=======
+*   `--github-repo-owner`: The user or organization that owns the repo (e.g. tnn-gruntwork-io).
+>>>>>>> Stashed changes
 *   `--github-repo-name`: The name of the repo (e.g. terraform-aws-ci).
 *   `--git-tag`: The git tag for which assets should be pushed (e.g. v0.0.3).
 
@@ -192,9 +223,15 @@ variables](https://circleci.com/docs/environment-variables/).
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/gruntwork-module-circleci-helpers/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/gruntwork-module-circleci-helpers/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/gruntwork-module-circleci-helpers/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/gruntwork-module-circleci-helpers/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/gruntwork-module-circleci-helpers/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/gruntwork-module-circleci-helpers/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "05093e46f2038cf76d6e838e132ff2a4"

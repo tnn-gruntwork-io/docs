@@ -11,7 +11,11 @@ Recommendation 5.1 requires that you use Network ACL rules to block all access t
 Desktop to port 3389, by default. You can then add additional NACL rules to allow remote admin access, but only from specific CIDR blocks. Recommendation 5.2 similarly allows you to allow remote admin access from specific CIDR blocks in your Security Groups. Note that allowing remote admin access from all IPs (`0.0.0.0/0`) is NOT allowed, so instead, if you require SSH or Remote Desktop to your cloud resources, provide a more restricted CIDR
 range, such as the IP addresses of your offices.
 
+<<<<<<< Updated upstream
 To meet recommendation 5.3, run the [`cloud-nuke defaults-aws`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/cloud-nuke) command
+=======
+To meet recommendation 5.3, run the [`cloud-nuke defaults-aws`](https://github.com/tnn-gruntwork-io/cloud-nuke) command
+>>>>>>> Stashed changes
 to remove the rules from all default security groups. Note that it isn’t possible to actually delete the default
 security group, so instead the command deletes the rules, eliminating the risk of something being mistakenly exposed.
 

@@ -31,7 +31,11 @@ An optional _catalog extension_ that contains building blocks that implement var
 
 Gruntwork offers basic and paid support options:
 
+<<<<<<< Updated upstream
 - **[Community support](/support#get-support).** Get help via a [Gruntwork Community Slack](https://gruntwork-community.slack.com/archives/CHH9Y3Z62) and our [Knowledge Base](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/knowledge-base/discussions).
+=======
+- **[Community support](/support#get-support).** Get help via a [Gruntwork Community Slack](https://gruntwork-community.slack.com/archives/CHH9Y3Z62) and our [Knowledge Base](https://github.com/tnn-gruntwork-io/knowledge-base/discussions).
+>>>>>>> Stashed changes
 - **[Paid support](/support#paid-support-tiers).** Get help via email, a private Slack channel, or scheduled Zoom calls, with response times backed by SLAs.
 
 ## What you provide
@@ -44,4 +48,8 @@ To work effectively with our products, you’ll need to understand our opinionat
 
 ### Implement the “last mile”
 
+<<<<<<< Updated upstream
 Gruntwork products strike a balance between opinionatedness and configurability. They’ll get you most of the way to your goal, but you may need to make some customizations to suit your use case. You may also need to adapt your apps and services to run in your new infrastructure. Our [Knowledge Base](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/knowledge-base/discussions) and [Community Slack Channel](https://gruntwork-community.slack.com/archives/CHH9Y3Z62) provide great resources to assist you in this effort.
+=======
+Gruntwork products strike a balance between opinionatedness and configurability. They’ll get you most of the way to your goal, but you may need to make some customizations to suit your use case. You may also need to adapt your apps and services to run in your new infrastructure. Our [Knowledge Base](https://github.com/tnn-gruntwork-io/knowledge-base/discussions) and [Community Slack Channel](https://gruntwork-community.slack.com/archives/CHH9Y3Z62) provide great resources to assist you in this effort.
+>>>>>>> Stashed changes

@@ -5893,9 +5893,15 @@ dns-packet@^5.2.2:
   dependencies:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
+<<<<<<< Updated upstream
 "docs-sourcer@git+ssh://git@github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/docs-sourcer.git#v0.9":
   version "0.0.1"
   resolved "git+ssh://git@github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/docs-sourcer.git#2e4819dc5e523ffb06694280cb369245a01a5512"
+=======
+"docs-sourcer@git+ssh://git@github.com/tnn-gruntwork-io/docs-sourcer.git#v0.9":
+  version "0.0.1"
+  resolved "git+ssh://git@github.com/tnn-gruntwork-io/docs-sourcer.git#2e4819dc5e523ffb06694280cb369245a01a5512"
+>>>>>>> Stashed changes
   dependencies:
     "@octokit/auth-app" "^3.6.1"
     "@octokit/plugin-retry" "^3.0.9"
@@ -11235,9 +11241,15 @@ trough@^1.0.0:
   resolved "https://registry.yarnpkg.com/trough/-/trough-1.0.5.tgz#b8b639cefad7d0bb2abd37d433ff8293efa5f406"
   integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
 
+<<<<<<< Updated upstream
 ts-commons@tnn-tnn-tnn-tnn-tnn-gruntwork-io/ts-commons#v1.0.0:
   version "1.0.0"
   resolved "git+ssh://git@github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/ts-commons.git#1a56fec327ea602b4472663599c63ec6118b7f01"
+=======
+ts-commons@tnn-gruntwork-io/ts-commons#v1.0.0:
+  version "1.0.0"
+  resolved "git+ssh://git@github.com/tnn-gruntwork-io/ts-commons.git#1a56fec327ea602b4472663599c63ec6118b7f01"
+>>>>>>> Stashed changes
 
 ts-essentials@^2.0.3:
   version "2.0.12"

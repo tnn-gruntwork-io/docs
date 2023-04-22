@@ -20,9 +20,15 @@ import { HclListItem, HclListItemDescription, HclListItemTypeDetails, HclListIte
 
 # OpenVPN Server
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/openvpn-server" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=mgmt%2Fopenvpn-server" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/openvpn-server" className="link-button" title="View the source code for this service in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases?q=mgmt%2Fopenvpn-server" className="link-button" title="Release notes for only versions which impacted this service.">Release Notes</a>
+>>>>>>> Stashed changes
 
 ## Overview
 
@@ -48,13 +54,21 @@ area you expose to attackers, and can focus all your efforts on locking down jus
 *   Manage SSH access with IAM groups using `ssh-grunt`
 
 Under the hood, this is all implemented using Terraform modules from the Gruntwork
+<<<<<<< Updated upstream
 [terraform-aws-openvpn](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn) repo.
+=======
+[terraform-aws-openvpn](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn) repo.
+>>>>>>> Stashed changes
 
 ## Learn
 
 :::note
 
+<<<<<<< Updated upstream
 This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/),
+=======
+This repo is a part of the [Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/),
+>>>>>>> Stashed changes
 a collection of reusable, battle-tested, production ready infrastructure code.
 If you’ve never used the Service Catalog before, make sure to read
 [How to use the Gruntwork Service Catalog](https://docs.gruntwork.io/reference/services/intro/overview)!
@@ -65,8 +79,13 @@ If you’ve never used the Service Catalog before, make sure to read
 
 To understand core concepts like why you should use an OpenVPN server, how to connect to the vpn, how to use the
 VPN server to connect to other systems on the AWS VPC, see the
+<<<<<<< Updated upstream
 [openvpn-server documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/blob/master/modules/openvpn-server/README.md)
 documentation in the [package-openvpn](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn) repo.
+=======
+[openvpn-server documentation](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/blob/master/modules/openvpn-server/README.md)
+documentation in the [package-openvpn](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn) repo.
+>>>>>>> Stashed changes
 
 ## Deploy
 
@@ -74,7 +93,11 @@ documentation in the [package-openvpn](https://github.com/tnn-tnn-tnn-tnn-tnn-gr
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples/for-learning-and-testing folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+=======
+*   [examples/for-learning-and-testing folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-learning-and-testing): The
+>>>>>>> Stashed changes
     `examples/for-learning-and-testing` folder contains standalone sample code optimized for learning, experimenting, and
     testing (but not direct production usage).
 
@@ -82,7 +105,11 @@ If you just want to try this repo out for experimenting and learning, check out 
 
 If you want to deploy this repo in production, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples/for-production folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+=======
+*   [examples/for-production folder](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/examples/for-production): The `examples/for-production` folder contains sample code
+>>>>>>> Stashed changes
     optimized for direct usage in production. This is code from the
     [Gruntwork Reference Architecture](https://gruntwork.io/reference-architecture/), and it shows you how we build an
     end-to-end, integrated tech stack on top of the Gruntwork Service Catalog, configure CI / CD for your apps and
@@ -102,7 +129,11 @@ If you want to deploy this repo in production, check out the following resources
 
 module "openvpn_server" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/openvpn-server?ref=v0.102.11"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/openvpn-server?ref=v0.102.11"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -242,13 +273,21 @@ module "openvpn_server" {
   enable_cloudwatch_alarms = true
 
   # Set to true to send logs to CloudWatch. This is useful in combination with
+<<<<<<< Updated upstream
   # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+=======
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+>>>>>>> Stashed changes
   # /cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
   enable_cloudwatch_log_aggregation = true
 
   # Set to true to add IAM permissions to send custom metrics to CloudWatch. This is
   # useful in combination with
+<<<<<<< Updated upstream
   # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+=======
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+>>>>>>> Stashed changes
   # ts/cloudwatch-agent to get memory and disk metrics in CloudWatch for your
   # OpenVPN server.
   enable_cloudwatch_metrics = true
@@ -260,7 +299,11 @@ module "openvpn_server" {
   enable_ip_lockdown = true
 
   # Set to true to add IAM permissions for ssh-grunt
+<<<<<<< Updated upstream
   # (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+=======
+  # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+>>>>>>> Stashed changes
   # runt), which will allow you to manage SSH access via IAM groups.
   enable_ssh_grunt = true
 
@@ -429,7 +472,11 @@ module "openvpn_server" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/openvpn-server?ref=v0.102.11"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/openvpn-server?ref=v0.102.11"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -572,13 +619,21 @@ inputs = {
   enable_cloudwatch_alarms = true
 
   # Set to true to send logs to CloudWatch. This is useful in combination with
+<<<<<<< Updated upstream
   # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+=======
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/log
+>>>>>>> Stashed changes
   # /cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
   enable_cloudwatch_log_aggregation = true
 
   # Set to true to add IAM permissions to send custom metrics to CloudWatch. This is
   # useful in combination with
+<<<<<<< Updated upstream
   # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+=======
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/age
+>>>>>>> Stashed changes
   # ts/cloudwatch-agent to get memory and disk metrics in CloudWatch for your
   # OpenVPN server.
   enable_cloudwatch_metrics = true
@@ -590,7 +645,11 @@ inputs = {
   enable_ip_lockdown = true
 
   # Set to true to add IAM permissions for ssh-grunt
+<<<<<<< Updated upstream
   # (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+=======
+  # (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-
+>>>>>>> Stashed changes
   # runt), which will allow you to manage SSH access via IAM groups.
   enable_ssh_grunt = true
 
@@ -1056,7 +1115,11 @@ Set to true to enable several basic CloudWatch alarms around CPU usage, memory u
 <HclListItem name="enable_cloudwatch_log_aggregation" requirement="optional" type="bool">
 <HclListItemDescription>
 
+<<<<<<< Updated upstream
 Set to true to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
+=======
+Set to true to send logs to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/logs/cloudwatch-log-aggregation-scripts to do log aggregation in CloudWatch.
+>>>>>>> Stashed changes
 
 </HclListItemDescription>
 <HclListItemDefaultValue defaultValue="true"/>
@@ -1065,7 +1128,11 @@ Set to true to send logs to CloudWatch. This is useful in combination with https
 <HclListItem name="enable_cloudwatch_metrics" requirement="optional" type="bool">
 <HclListItemDescription>
 
+<<<<<<< Updated upstream
 Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your OpenVPN server.
+=======
+Set to true to add IAM permissions to send custom metrics to CloudWatch. This is useful in combination with https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/master/modules/agents/cloudwatch-agent to get memory and disk metrics in CloudWatch for your OpenVPN server.
+>>>>>>> Stashed changes
 
 </HclListItemDescription>
 <HclListItemDefaultValue defaultValue="true"/>
@@ -1092,7 +1159,11 @@ Enable ip-lockdown to block access to the instance metadata. Defaults to true.
 <HclListItem name="enable_ssh_grunt" requirement="optional" type="bool">
 <HclListItemDescription>
 
+<<<<<<< Updated upstream
 Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
+=======
+Set to true to add IAM permissions for ssh-grunt (https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt), which will allow you to manage SSH access via IAM groups.
+>>>>>>> Stashed changes
 
 </HclListItemDescription>
 <HclListItemDefaultValue defaultValue="true"/>
@@ -1507,9 +1578,15 @@ The security group ID of the OpenVPN server.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/openvpn-server/README.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/openvpn-server/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/openvpn-server/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/openvpn-server/README.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/openvpn-server/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/v0.102.11/modules/mgmt/openvpn-server/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "service-catalog-api",
   "hash": "df25ce90ea4dedc000f759a883be03a0"

@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # List Remove Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.7.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.7.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This is a module that can be used to remove items in a given list from another list. This functionality is not yet
 available as an interpolation function.
@@ -26,7 +32,11 @@ For example, suppose you have a list of availability zones (`["us-east-1a", "us-
 
 ```hcl
 module "list_remove" {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.0.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.0.8"
+>>>>>>> Stashed changes
 
   original_list = ["us-east-1a", "us-east-1b", "us-east-1c", "us-east-1d", "us-east-1e"]
   items_to_remove = ["us-east-1b", "us-east-1c"]
@@ -43,7 +53,11 @@ The output `new_list` should be the list `["us-east-1a", "us-east-1d", "us-east-
 
 ## Example code
 
+<<<<<<< Updated upstream
 See the [list-remove example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/list-remove) for working sample code.
+=======
+See the [list-remove example](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/examples/list-remove) for working sample code.
+>>>>>>> Stashed changes
 
 ## Sample Usage
 
@@ -58,7 +72,11 @@ See the [list-remove example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-i
 
 module "list_remove" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.9.1"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.9.1"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -85,7 +103,11 @@ module "list_remove" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.9.1"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/list-remove?ref=v0.9.1"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -161,9 +183,15 @@ Any types represent complex values of variable type. For details, please consult
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-utilities/tree/v0.9.1/modules/list-remove/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "93f7e48ad3cc474cd8842133677b71e3"

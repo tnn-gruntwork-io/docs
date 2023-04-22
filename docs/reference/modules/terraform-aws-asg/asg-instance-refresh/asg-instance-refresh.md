@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Auto Scaling Group Module with Instance Refresh
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.21.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.21.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This Terraform Module creates an Auto Scaling Group (ASG) that can do a zero-downtime rolling deployment. That means every time you update your app (e.g. publish a new AMI), all you have to do is run `terraform apply` and the new version of your app will automatically roll out across your Auto Scaling Group. Note that this module *only* creates the ASG and it's up to you to create all the other related resources, such as the launch configuration, ELB, and security groups.
 
@@ -89,7 +95,11 @@ The Terraform [instance_refresh](https://registry.terraform.io/providers/hashico
 
 module "asg_instance_refresh" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-instance-refresh?ref=v0.21.2"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-instance-refresh?ref=v0.21.2"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -218,7 +228,11 @@ module "asg_instance_refresh" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-instance-refresh?ref=v0.21.2"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-asg.git//modules/asg-instance-refresh?ref=v0.21.2"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -648,9 +662,15 @@ A maximum duration that Terraform should wait for the EC2 Instances to be health
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-asg/tree/v0.21.2/modules/asg-instance-refresh/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "e0ac5cdb2a0bbf563a2d27d24833ca6c"

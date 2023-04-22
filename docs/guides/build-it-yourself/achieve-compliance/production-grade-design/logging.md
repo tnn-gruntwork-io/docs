@@ -143,7 +143,11 @@ Under the Benchmark, all VPCs must have a Flow Log to log network traffic. Use t
 
 Because the recommendation is to attach flow logs to every single VPC, you’ll need to repeat the configuration for all
 the default VPCs which exist in all regions of the account. You can use the
+<<<<<<< Updated upstream
 [`cloud-nuke defaults-aws` command](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/cloud-nuke) to easily remove all the default VPCs
+=======
+[`cloud-nuke defaults-aws` command](https://github.com/tnn-gruntwork-io/cloud-nuke) to easily remove all the default VPCs
+>>>>>>> Stashed changes
 (and default security groups) from all regions of an account, making it easier to achieve this recommendation.
 
 

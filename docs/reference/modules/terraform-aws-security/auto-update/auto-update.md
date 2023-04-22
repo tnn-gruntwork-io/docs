@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Security Modules
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.9" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.9" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module can configure a Linux server to automatically install critical security updates.
 
@@ -37,6 +43,7 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 ### Core concepts
 
+<<<<<<< Updated upstream
 *   [How to install Auto Update](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update/core-concepts.md#installation)
 
 *   [How Auto Update works on Ubuntu](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update/core-concepts.md#ubuntu-support)
@@ -54,6 +61,25 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 *   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples): This folder contains working examples of how to use the submodules.
 
 *   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/test): Automated tests for the modules and examples.
+=======
+*   [How to install Auto Update](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update/core-concepts.md#installation)
+
+*   [How Auto Update works on Ubuntu](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update/core-concepts.md#ubuntu-support)
+
+*   [How Auto Update works on Amazon Linux and CentOS](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update/core-concepts.md#amazon-linux-and-centos-support)
+
+*   [Auto Update Limitations](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update/core-concepts.md#limitations)
+
+*   [Core Security Concepts](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/README.adoc#core-concepts)
+
+### Repo organization
+
+*   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+
+*   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples): This folder contains working examples of how to use the submodules.
+
+*   [test](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/test): Automated tests for the modules and examples.
+>>>>>>> Stashed changes
 
 ## Deploy
 
@@ -61,21 +87,35 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [auto-update example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/auto-update): The `examples/auto-update` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+=======
+*   [auto-update example](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/auto-update): The `examples/auto-update` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+>>>>>>> Stashed changes
 
 ### Production deployment
 
 If you want to deploy this repo in production, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [Packer template in the Acme example Reference Architecture](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/main/services/eks-cluster/packer/eks-node.json): Production-ready sample code from the Acme Reference Architecture examples.
+=======
+*   [Packer template in the Acme example Reference Architecture](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme/blob/main/services/eks-cluster/packer/eks-node.json): Production-ready sample code from the Acme Reference Architecture examples.
+>>>>>>> Stashed changes
 
 
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update/readme.adoc",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update/readme.adoc",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/auto-update/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "3e07024fb5b82c7f04764f6890000bdb"

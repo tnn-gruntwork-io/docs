@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Terraform Helpers
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/terraform-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.8" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/terraform-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.8" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This folder contains several helper scripts for working with [Terraform](https://www.terraform.io/). The scripts are:
 
@@ -32,6 +38,7 @@ This folder contains several helper scripts for working with [Terraform](https:/
 
 ## Using the helper scripts in your code
 
+<<<<<<< Updated upstream
 You can install these scripts using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer):
 
 ```bash
@@ -39,6 +46,15 @@ gruntwork-install --module-name "terraform-helpers" --repo "https://github.com/t
 ```
 
 Note that `terraform-update-variable` depends on the [git-helpers module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/git-helpers) being installed!
+=======
+You can install these scripts using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer):
+
+```bash
+gruntwork-install --module-name "terraform-helpers" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.1"
+```
+
+Note that `terraform-update-variable` depends on the [git-helpers module](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/git-helpers) being installed!
+>>>>>>> Stashed changes
 
 See the examples in the next section for how to use them.
 
@@ -341,9 +357,15 @@ and `apply` actions so that Terraform/Terragrunt can run. If you wish to impleme
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/terraform-helpers/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/terraform-helpers/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/terraform-helpers/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/terraform-helpers/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/terraform-helpers/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/terraform-helpers/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "510050e9528e38cd754ce2fb61552ffc"

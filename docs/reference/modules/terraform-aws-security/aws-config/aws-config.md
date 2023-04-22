@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # AWS Config
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.6" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.6" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This Terraform Module configures [AWS Config](https://aws.amazon.com/config/), a service that allows you to assess, audit, and evaluate the configurations of your AWS resources. You can use AWS Config to ensure that AWS resources are configured in a manner that is in compliance with your company policies or regulatory requirements.
 
@@ -39,6 +45,7 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 ### Core concepts
 
+<<<<<<< Updated upstream
 *   [What is AWS Config?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/core-concepts.md#what-is-aws-config)
 
 *   [What are Config Rules?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/core-concepts.md#what-are-config-rules)
@@ -52,6 +59,21 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 *   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples): This folder contains working examples of how to use the submodules.
 
 *   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/test): Automated tests for the modules and examples.
+=======
+*   [What is AWS Config?](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/core-concepts.md#what-is-aws-config)
+
+*   [What are Config Rules?](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/core-concepts.md#what-are-config-rules)
+
+*   [What resources does this module create?](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/core-concepts.md#what-resources-does-this-module-create)
+
+### Repo organization
+
+*   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+
+*   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples): This folder contains working examples of how to use the submodules.
+
+*   [test](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/test): Automated tests for the modules and examples.
+>>>>>>> Stashed changes
 
 ## Deploy
 
@@ -59,21 +81,35 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples/aws-config](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/aws-config): The `examples/aws-config` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+=======
+*   [examples/aws-config](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/aws-config): The `examples/aws-config` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+>>>>>>> Stashed changes
 
 ### Production deployment
 
 If you want to deploy this repo in production, check out the following resources:
 
+<<<<<<< Updated upstream
 *   ***Coming soon***. We have not yet added this module to the [Acme example Reference Architecture](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-modules-multi-account-acme).
+=======
+*   ***Coming soon***. We have not yet added this module to the [Acme example Reference Architecture](https://github.com/tnn-gruntwork-io/infrastructure-modules-multi-account-acme).
+>>>>>>> Stashed changes
 
 ## Manage
 
 ### Day-to-day operations
 
+<<<<<<< Updated upstream
 *   [What does a configuration item look like, and how do I view it?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/core-concepts.md#what-does-a-configuration-item-look-like-and-how-do-i-view-it)
 
 *   [How does Config work with multiple AWS accounts and multiple regions?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config-multi-region/core-concepts.md#how-does-config-work-with-multiple-aws-accounts-and-multiple-regions)
+=======
+*   [What does a configuration item look like, and how do I view it?](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/core-concepts.md#what-does-a-configuration-item-look-like-and-how-do-i-view-it)
+
+*   [How does Config work with multiple AWS accounts and multiple regions?](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config-multi-region/core-concepts.md#how-does-config-work-with-multiple-aws-accounts-and-multiple-regions)
+>>>>>>> Stashed changes
 
 ## Sample Usage
 
@@ -88,7 +124,11 @@ If you want to deploy this repo in production, check out the following resources
 
 module "aws_config" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/aws-config?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/aws-config?ref=v0.67.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -148,7 +188,11 @@ module "aws_config" {
   # using the aws_caller_identity data source, but due to Terraform limitations, in
   # some rare situations, this data source returns the wrong ID, so this parameter
   # needs to be passed manually. Most users can leave this value unset. See
+<<<<<<< Updated upstream
   # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/pull/308#issuecomment-676
+=======
+  # https://github.com/tnn-gruntwork-io/terraform-aws-security/pull/308#issuecomment-676
+>>>>>>> Stashed changes
   # 61441 for context.
   current_account_id = null
 
@@ -308,7 +352,11 @@ module "aws_config" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/aws-config?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/aws-config?ref=v0.67.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -371,7 +419,11 @@ inputs = {
   # using the aws_caller_identity data source, but due to Terraform limitations, in
   # some rare situations, this data source returns the wrong ID, so this parameter
   # needs to be passed manually. Most users can leave this value unset. See
+<<<<<<< Updated upstream
   # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/pull/308#issuecomment-676
+=======
+  # https://github.com/tnn-gruntwork-io/terraform-aws-security/pull/308#issuecomment-676
+>>>>>>> Stashed changes
   # 61441 for context.
   current_account_id = null
 
@@ -619,7 +671,11 @@ Set to false to have this module skip creating resources. This weird parameter e
 <HclListItem name="current_account_id" requirement="optional" type="string">
 <HclListItemDescription>
 
+<<<<<<< Updated upstream
 The ID of the current AWS account. Normally, we can fetch this automatically using the aws_caller_identity data source, but due to Terraform limitations, in some rare situations, this data source returns the wrong ID, so this parameter needs to be passed manually. Most users can leave this value unset. See https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/pull/308#issuecomment-676561441 for context.
+=======
+The ID of the current AWS account. Normally, we can fetch this automatically using the aws_caller_identity data source, but due to Terraform limitations, in some rare situations, this data source returns the wrong ID, so this parameter needs to be passed manually. Most users can leave this value unset. See https://github.com/tnn-gruntwork-io/terraform-aws-security/pull/308#issuecomment-676561441 for context.
+>>>>>>> Stashed changes
 
 </HclListItemDescription>
 <HclListItemDefaultValue defaultValue="null"/>
@@ -958,9 +1014,15 @@ The ARN of the SNS topic to which Config delivers notifications.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/readme.adoc",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/readme.adoc",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-config/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "bab6a44cc6a110d6f16f594d3dd8105e"

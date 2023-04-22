@@ -5,7 +5,11 @@ sidebar_label: Using Our Modules
 # Using Gruntwork Terraform Modules
 
 This section will show you how to use Terraform modules from the Gruntwork Infrastructure as Code Library. As an illustrative example,
+<<<<<<< Updated upstream
 we’ll deploy the `vpc-app` Terraform module from [module-vpc](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc).
+=======
+we’ll deploy the `vpc-app` Terraform module from [module-vpc](https://github.com/tnn-gruntwork-io/module-vpc).
+>>>>>>> Stashed changes
 
 :::note
 
@@ -140,7 +144,11 @@ Now you can pull in the Terraform modules you want from the Gruntwork Infrastruc
 ```hcl title="infrastructure-modules/networking/vpc-app/main.tf"
 module "vpc" {
   # Make sure to replace <VERSION> in this URL with the latest module-vpc release
+<<<<<<< Updated upstream
   source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=<VERSION>"
+=======
+  source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=<VERSION>"
+>>>>>>> Stashed changes
 
   aws_region       = var.aws_region
   vpc_name         = var.vpc_name
@@ -170,13 +178,21 @@ Infrastructure as Code Library without having to hard-code a password in your Te
 Note the `?ref=<VERSION>` at the end of the `source` URL. This parameter allows you to pull in a specific version of
 each module so that you don’t accidentally pull in (potentially backwards incompatible code) in the future. You
 should replace `<VERSION>` with the latest version from the releases page of the repo you’re using (e.g., here’s
+<<<<<<< Updated upstream
 [the releases page for module-vpc](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/releases)).
+=======
+[the releases page for module-vpc](https://github.com/tnn-gruntwork-io/module-vpc/releases)).
+>>>>>>> Stashed changes
 
 #### Module arguments
 
 Below the `source` URL, you’ll need to pass in the module-specific arguments. You can find all the required and
 optional variables defined in `vars.tf` (old name) or `variables.tf` (new name) of the module (e.g.,
+<<<<<<< Updated upstream
 here’s [the variables.tf for vpc-app](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/blob/master/modules/vpc-app/vars.tf)).
+=======
+here’s [the variables.tf for vpc-app](https://github.com/tnn-gruntwork-io/module-vpc/blob/master/modules/vpc-app/vars.tf)).
+>>>>>>> Stashed changes
 The code above sets these to input variables (which you’ll define shortly) so that you can use different values in
 different environments.
 
@@ -319,7 +335,11 @@ terraform destroy ../
 You may also want to create automated tests for your module. Automated tests for infrastructure code will spin up and
 tear down a lot of infrastructure, so we recommend a separate _testing environment_ (e.g. yet another AWS account) for
 running automated tests—separate even from the sandboxes you use for manual testing. You can run a tool like
+<<<<<<< Updated upstream
 [cloud-nuke](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/cloud-nuke) on a schedule to periodically clean up left-over resources in
+=======
+[cloud-nuke](https://github.com/tnn-gruntwork-io/cloud-nuke) on a schedule to periodically clean up left-over resources in
+>>>>>>> Stashed changes
 your testing environment (e.g., delete all resources that are older than 24h).
 
 The only way to build confidence that your infrastructure code works as you expect is to deploy it into a real AWS
@@ -331,7 +351,11 @@ account. That means you’ll primarily be writing _integration tests_ that:
 
 In short, you’re automating the steps you took to manually test your module!
 
+<<<<<<< Updated upstream
 You can make it easier to write tests of this format by leveraging [Terratest](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/),
+=======
+You can make it easier to write tests of this format by leveraging [Terratest](https://github.com/tnn-gruntwork-io/terratest/),
+>>>>>>> Stashed changes
 an open source Go library that contains helpers for testing many types of infrastructure code, including Terraform,
 Packer, and Docker.
 
@@ -349,7 +373,11 @@ You can define tests for your `vpc-app` module in a `vpc_app_test.go` file in a 
       └ test
         └ vpc_app_test.go
 
+<<<<<<< Updated upstream
 Check out the [Terratest install instructions](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/#quickstart) for how to
+=======
+Check out the [Terratest install instructions](https://github.com/tnn-gruntwork-io/terratest/#quickstart) for how to
+>>>>>>> Stashed changes
 configure your environment for Go and install Terratest.
 
 Next, write some test code in `vpc_app_test.go` that looks like this:
@@ -361,8 +389,13 @@ import (
         "testing"
 
         "fmt"
+<<<<<<< Updated upstream
         "github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/modules/random"
         "github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/modules/terraform"
+=======
+        "github.com/tnn-gruntwork-io/terratest/modules/random"
+        "github.com/tnn-gruntwork-io/terratest/modules/terraform"
+>>>>>>> Stashed changes
 )
 
 func TestVpcApp(t *testing.T) {
@@ -436,7 +469,11 @@ The test runs `terraform init` and `terraform apply` on the module. If this hits
 
 This is a minimal test that just makes sure your module can deploy and undeploy successfully. This is a great start,
 and will catch a surprising number of bugs, but for production-grade code, you’ll probably want more validation logic.
+<<<<<<< Updated upstream
 Check out the real [module-vpc tests](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc/tree/master/test) to see how we validate
+=======
+Check out the real [module-vpc tests](https://github.com/tnn-gruntwork-io/module-vpc/tree/master/test) to see how we validate
+>>>>>>> Stashed changes
 VPCs by, for example, launching EC2 instances in various subnets and making sure that connections between some subnets
 work, and others are blocked, based on the networking settings in that VPC.
 
@@ -455,9 +492,15 @@ way through and leaving all sorts of infrastructure still running.
 
 For a lot more information on writing automated tests for Terraform code, see:
 
+<<<<<<< Updated upstream
 1.  [Terratest documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/), especially the many examples and corresponding
     tests in the `examples` and `test` folders, respectively, and the
     [testing best practices](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/#testing-best-practices) section.
+=======
+1.  [Terratest documentation](https://github.com/tnn-gruntwork-io/terratest/), especially the many examples and corresponding
+    tests in the `examples` and `test` folders, respectively, and the
+    [testing best practices](https://github.com/tnn-gruntwork-io/terratest/#testing-best-practices) section.
+>>>>>>> Stashed changes
 
 2.  _[Terraform: Up & Running](https://www.terraformupandrunning.com)_, 2nd edition, has an entire chapter dedicated to
     automated testing for Terraform code, including unit tests, integration tests, end-to-end tests, dependency injection,
@@ -558,7 +601,11 @@ To deploy to other environments, create analogous `.tfvars` and `.hcl` files (e.
 
 ### Deploy using Terragrunt
 
+<<<<<<< Updated upstream
 Another option is to use [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt), an open source wrapper for Terraform
+=======
+Another option is to use [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt), an open source wrapper for Terraform
+>>>>>>> Stashed changes
 that helps alleviate some of the drawbacks mentioned in the previous approach.
 
 The first step with Terragrunt is to version your code. You can do this by creating Git tags in
@@ -743,7 +790,11 @@ Now that you have your Terraform module deployed, you can pull in updates as fol
 
     ```hcl
     module "vpc" {
+<<<<<<< Updated upstream
       source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=v0.7.2"
+=======
+      source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=v0.7.2"
+>>>>>>> Stashed changes
       # ...
     }
     ```
@@ -752,7 +803,11 @@ Now that you have your Terraform module deployed, you can pull in updates as fol
 
     ```hcl
     module "vpc" {
+<<<<<<< Updated upstream
       source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=v0.7.3"
+=======
+      source = "git@github.com:tnn-gruntwork-io/module-vpc.git//modules/vpc-app?ref=v0.7.3"
+>>>>>>> Stashed changes
       # ...
     }
     ```

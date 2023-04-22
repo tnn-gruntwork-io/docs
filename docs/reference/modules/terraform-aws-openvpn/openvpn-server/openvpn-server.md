@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # OpenVPN Server Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/openvpn-server" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.25.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/openvpn-server" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.25.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module makes it easy to deploy an OpenVPN server in an auto-scaling group (size 1) for fault tolerance --along with the all the resources it typically needs:
 
@@ -41,7 +47,11 @@ Group. You can add custom rules to this Security Group using the `aws_security_g
 
 ```hcl
 module "openvpn" {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn.git//modules/openvpn-server?ref=v0.0.40"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-openvpn.git//modules/openvpn-server?ref=v0.0.40"
+>>>>>>> Stashed changes
 
   # (... options omitted...)
 }
@@ -64,7 +74,11 @@ can attach custom policies to this IAM role using the `aws_iam_policy_attachment
 
 ```hcl
 module "openvpn" {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn.git//modules/openvpn-server?ref=v0.0.40"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-openvpn.git//modules/openvpn-server?ref=v0.0.40"
+>>>>>>> Stashed changes
 
   # (... options omitted...)
 }
@@ -83,7 +97,11 @@ resource "aws_iam_policy_attachment" "attachment" {
 
 ## What if I want to enable MFA?
 
+<<<<<<< Updated upstream
 The scripts [init-openvpn](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/init-openvpn) and [install-openvpn](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/install-openvpn) support setting up the
+=======
+The scripts [init-openvpn](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/init-openvpn) and [install-openvpn](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/install-openvpn) support setting up the
+>>>>>>> Stashed changes
 [duo_openvpn](https://github.com/duosecurity/duo_openvpn) plugin for 2FA authentication. To enable the duo plugin, you
 need to:
 
@@ -96,7 +114,11 @@ need to:
     `--duo-skey`, and `--duo-host` to configure the integration key, secret key, and API hostname respectively. You can
     obtain these by following [the Duo setup instructions for OpenVPN](https://duo.com/docs/openvpn).
 
+<<<<<<< Updated upstream
 See the [packer-duo](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/examples/packer-duo) and [openvpn-host-duo](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/examples/openvpn-host-duo) examples for an
+=======
+See the [packer-duo](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/examples/packer-duo) and [openvpn-host-duo](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/examples/openvpn-host-duo) examples for an
+>>>>>>> Stashed changes
 example configuration to deploy the OpenVPN server with Duo enabled.
 
 Once the plugin is setup, all authentication for the client will result in a password prompt. To authenticate, you pass
@@ -117,7 +139,11 @@ exactly match the duo username.
 
 module "openvpn_server" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn.git//modules/openvpn-server?ref=v0.25.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-openvpn.git//modules/openvpn-server?ref=v0.25.0"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -342,7 +368,11 @@ module "openvpn_server" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn.git//modules/openvpn-server?ref=v0.25.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-openvpn.git//modules/openvpn-server?ref=v0.25.0"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -1043,9 +1073,15 @@ The base64-encoded User Data script to run on the server when it is booting. Thi
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/openvpn-server/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/openvpn-server/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/openvpn-server/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/openvpn-server/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/openvpn-server/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/tree/v0.25.0/modules/openvpn-server/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "9163421e845ad78c665d78291ecc3ef0"

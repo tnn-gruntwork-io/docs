@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Git Helpers
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/git-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.11" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/git-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.11" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module contains helper scripts that automate common git tasks:
 
@@ -26,12 +32,21 @@ This module contains helper scripts that automate common git tasks:
 
 ## Installing the helpers
 
+<<<<<<< Updated upstream
 You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer)
 (make sure to replace `<VERSION>` below with the latest version from the [releases
 page](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases)):
 
 ```bash
 gruntwork-install --module-name "git-helpers" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci" --tag "<VERSION>"
+=======
+You can install the helpers using the [Gruntwork Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer)
+(make sure to replace `<VERSION>` below with the latest version from the [releases
+page](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases)):
+
+```bash
+gruntwork-install --module-name "git-helpers" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ci" --tag "<VERSION>"
+>>>>>>> Stashed changes
 ```
 
 We recommend running this command in the `dependencies` section of `circle.yml`:
@@ -40,10 +55,17 @@ We recommend running this command in the `dependencies` section of `circle.yml`:
 dependencies:
   override:
     # Install the Gruntwork Installer
+<<<<<<< Updated upstream
     - curl -Ls https://raw.githubusercontent.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version 0.0.9
 
     # Use the Gruntwork Installer to install the gruntwork-module-circleci-helpers module
     - gruntwork-install --module-name "git-helpers" --repo "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.5"
+=======
+    - curl -Ls https://raw.githubusercontent.com/tnn-gruntwork-io/gruntwork-installer/main/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version 0.0.9
+
+    # Use the Gruntwork Installer to install the gruntwork-module-circleci-helpers module
+    - gruntwork-install --module-name "git-helpers" --repo "https://github.com/tnn-gruntwork-io/terraform-aws-ci" --tag "0.0.5"
+>>>>>>> Stashed changes
 ```
 
 ## Using the git-add-commit-push helper
@@ -72,9 +94,15 @@ The main options to pass to `git-add-commit-push` are:
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/git-helpers/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/git-helpers/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/git-helpers/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/git-helpers/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/git-helpers/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/git-helpers/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "bc2e2f3d5ae6c0f9b842fd23c7be50fe"

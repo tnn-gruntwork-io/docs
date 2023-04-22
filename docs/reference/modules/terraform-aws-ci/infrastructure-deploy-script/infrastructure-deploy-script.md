@@ -13,11 +13,19 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Infrastructure Pipeline: Infrastructure Deploy Scripts
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.5" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This module contains a script for deploying arbitrary infrastructure code stored in version control using [Terraform](https://www.terraform.io) and [Terragrunt](https://terragrunt.gruntwork.io). The deployment script can be used to set up secure CI/CD pipelines for infrastructure code. The deployment script can run in any environment (e.g directly in CI servers, ECS task, EKS pod) to remotely run infrastructure code based on version control events. Refer to the [ecs-deploy-runner module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner) to run the deployment in an isolated ECS task, separate from the CI servers.
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.51.5" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+
+This module contains a script for deploying arbitrary infrastructure code stored in version control using [Terraform](https://www.terraform.io) and [Terragrunt](https://terragrunt.gruntwork.io). The deployment script can be used to set up secure CI/CD pipelines for infrastructure code. The deployment script can run in any environment (e.g directly in CI servers, ECS task, EKS pod) to remotely run infrastructure code based on version control events. Refer to the [ecs-deploy-runner module](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner) to run the deployment in an isolated ECS task, separate from the CI servers.
+>>>>>>> Stashed changes
 
 ## Features
 
@@ -33,6 +41,7 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 ### Core concepts
 
+<<<<<<< Updated upstream
 *   [Overview of scripts](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script/core-concepts.md#overview): An overview of the scripts included in this module, including how to deploy and use the scripts to implement a CI/CD pipeline for IaC code.
 
 ### Repo organization
@@ -42,6 +51,17 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 *   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples): This folder contains working examples of how to use the submodules.
 
 *   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/test): Automated tests for the modules and examples.
+=======
+*   [Overview of scripts](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script/core-concepts.md#overview): An overview of the scripts included in this module, including how to deploy and use the scripts to implement a CI/CD pipeline for IaC code.
+
+### Repo organization
+
+*   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+
+*   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples): This folder contains working examples of how to use the submodules.
+
+*   [test](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/test): Automated tests for the modules and examples.
+>>>>>>> Stashed changes
 
 ## Deploy
 
@@ -49,6 +69,7 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
 
 ## Manage
@@ -56,14 +77,29 @@ If you just want to try this repo out for experimenting and learning, check out 
 *   [Where do I run the deploy script?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script/core-concepts.md#where-do-i-run-the-deploy-script)
 
 *   [What are the system requirements for the deploy script?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script/core-concepts.md#system-requirements)
+=======
+*   [examples folder](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+
+## Manage
+
+*   [Where do I run the deploy script?](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script/core-concepts.md#where-do-i-run-the-deploy-script)
+
+*   [What are the system requirements for the deploy script?](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script/core-concepts.md#system-requirements)
+>>>>>>> Stashed changes
 
 
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script/readme.adoc",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script/readme.adoc",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deploy-script/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "c37df2fde86bd416d7bc3045f3067fa2"

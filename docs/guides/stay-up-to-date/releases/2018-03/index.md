@@ -30,15 +30,26 @@ Here are the repos that were updated:
 ## gruntwork
 
 
+<<<<<<< Updated upstream
 ### [v0.0.17](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.17)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/27/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/releases/tag/v0.0.17">Release notes</a></small>
+=======
+### [v0.0.17](https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.0.17)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/27/2018 | <a href="https://github.com/tnn-gruntwork-io/gruntwork/releases/tag/v0.0.17">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork/pull/23: You can now use spaces in zip codes when buying domain names.
+=======
+  https://github.com/tnn-gruntwork-io/gruntwork/pull/23: You can now use spaces in zip codes when buying domain names.
+>>>>>>> Stashed changes
 
 </div>
 
@@ -47,41 +58,74 @@ Here are the repos that were updated:
 ## terraform-aws-asg
 
 
+<<<<<<< Updated upstream
 ### [v0.6.9](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.9)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/1/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.9">Release notes</a></small>
+=======
+### [v0.6.9](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.9)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/1/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.9">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/25: Fix multiline python commands so they work on Windows.
+=======
+  https://github.com/tnn-gruntwork-io/module-asg/pull/25: Fix multiline python commands so they work on Windows.
+>>>>>>> Stashed changes
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.6.8](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.8)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/1/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.8">Release notes</a></small>
+=======
+### [v0.6.8](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.8)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/1/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.8">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/24: Update to latest `package-terraform-utilities` to fix a bug where the `join-path` module doesn’t work with newer versions of Python.
+=======
+  https://github.com/tnn-gruntwork-io/module-asg/pull/24: Update to latest `package-terraform-utilities` to fix a bug where the `join-path` module doesn’t work with newer versions of Python.
+>>>>>>> Stashed changes
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.6.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/1/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.7">Release notes</a></small>
+=======
+### [v0.6.7](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.7)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/1/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.6.7">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-asg/pull/23: Fix rolling deployment script path on Windows.
+=======
+  https://github.com/tnn-gruntwork-io/module-asg/pull/23: Fix rolling deployment script path on Windows.
+>>>>>>> Stashed changes
 
 </div>
 
@@ -90,10 +134,17 @@ Here are the repos that were updated:
 ## terraform-aws-cache
 
 
+<<<<<<< Updated upstream
 ### [v0.3.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.3.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/13/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.3.4">Release notes</a></small>
+=======
+### [v0.3.4](https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.3.4)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/13/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cache/releases/tag/v0.3.4">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -107,10 +158,17 @@ Here are the repos that were updated:
 ## terraform-aws-data-storage
 
 
+<<<<<<< Updated upstream
 ### [v0.6.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/19/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.0">Release notes</a></small>
+=======
+### [v0.6.0](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/19/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.6.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -122,15 +180,26 @@ Replaces `bastion_host_security_group_id` with `allow_connections_from_security_
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.5.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.5.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/7/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.5.2">Release notes</a></small>
+=======
+### [v0.5.2](https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.5.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/7/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-data-storage/releases/tag/v0.5.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-data-storage/pull/36: If you wish to make your Aurora database accessible from the public Internet, you can now set the `publicly_accessible` flag to true (WARNING: NOT RECOMMENDED FOR PRODUCTION USAGE!!). The default is false, which means the database is only accessible from within the VPC, which is much more secure.
+=======
+  https://github.com/tnn-gruntwork-io/module-data-storage/pull/36: If you wish to make your Aurora database accessible from the public Internet, you can now set the `publicly_accessible` flag to true (WARNING: NOT RECOMMENDED FOR PRODUCTION USAGE!!). The default is false, which means the database is only accessible from within the VPC, which is much more secure.
+>>>>>>> Stashed changes
 
 </div>
 
@@ -139,15 +208,26 @@ Replaces `bastion_host_security_group_id` with `allow_connections_from_security_
 ## terraform-aws-ecs
 
 
+<<<<<<< Updated upstream
 ### [v0.6.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/20/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.4">Release notes</a></small>
+=======
+### [v0.6.4](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.4)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/20/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.4">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-ecs/pull/58: You can now use spot instances with your ECS cluster by setting the `cluster_instance_spot_price` parameter to the maximum bid price you want to use on the EC2 Spot Market!
+=======
+  https://github.com/tnn-gruntwork-io/module-ecs/pull/58: You can now use spot instances with your ECS cluster by setting the `cluster_instance_spot_price` parameter to the maximum bid price you want to use on the EC2 Spot Market!
+>>>>>>> Stashed changes
 
 **NOTE**: due to a bug in Terraform, if you update an existing cluster with a spot price, you might see an error like this when you run `apply`:
 
@@ -160,10 +240,17 @@ Running `apply` a second time seems to complete without errors.
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.6.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/6/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.3">Release notes</a></small>
+=======
+### [v0.6.3](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.3)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/6/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.6.3">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -178,25 +265,45 @@ https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_para
 ## terraform-aws-kafka
 
 
+<<<<<<< Updated upstream
 ### [v0.2.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.2.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/2/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.2.1">Release notes</a></small>
+=======
+### [v0.2.1](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.2.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/2/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.2.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/pull/26: Update `server-group` module to fix issues with the rolling deployment script on Windows.
 
 Please note that this is a **pre-release**.  See [v0.2.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-kafka/releases/tag/v0.2.0) for an explanation.
+=======
+  https://github.com/tnn-gruntwork-io/package-kafka/pull/26: Update `server-group` module to fix issues with the rolling deployment script on Windows.
+
+Please note that this is a **pre-release**.  See [v0.2.0](https://github.com/tnn-gruntwork-io/package-kafka/releases/tag/v0.2.0) for an explanation.
+>>>>>>> Stashed changes
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.2.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.2.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/1/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.2.0">Release notes</a></small>
+=======
+### [v0.2.0](https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.2.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/1/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-kafka/releases/tag/v0.2.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -216,15 +323,26 @@ Going forward, we will immediately be investing in a new approach to writing mod
 ## terraform-aws-lambda
 
 
+<<<<<<< Updated upstream
 ### [v0.2.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.2.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/1/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.2.1">Release notes</a></small>
+=======
+### [v0.2.1](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.2.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/1/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.2.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-lambda/pull/11: Add new `lambda-edge` module that can be used to deploy Lambda@Edge functions with Terraform.
+=======
+  https://github.com/tnn-gruntwork-io/package-lambda/pull/11: Add new `lambda-edge` module that can be used to deploy Lambda@Edge functions with Terraform.
+>>>>>>> Stashed changes
 
 </div>
 
@@ -233,28 +351,50 @@ Going forward, we will immediately be investing in a new approach to writing mod
 ## terraform-aws-load-balancer
 
 
+<<<<<<< Updated upstream
 ### [v0.7.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.7.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/16/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.7.2">Release notes</a></small>
+=======
+### [v0.7.2](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.7.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/16/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.7.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/pull/25: Fix a bug so the `ssl_policy` parameter introduced in the previous release works with both ACM TLS certs and non-ACM TLS certs.
+=======
+  https://github.com/tnn-gruntwork-io/module-load-balancer/pull/25: Fix a bug so the `ssl_policy` parameter introduced in the previous release works with both ACM TLS certs and non-ACM TLS certs.
+>>>>>>> Stashed changes
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.7.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.7.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/12/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.7.1">Release notes</a></small>
+=======
+### [v0.7.1](https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.7.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/12/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.7.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-load-balancer/pull/24: You can now configure the SSL policy for the ALB using the `ssl_policy` variable.
+=======
+  https://github.com/tnn-gruntwork-io/module-load-balancer/pull/24: You can now configure the SSL policy for the ALB using the `ssl_policy` variable.
+>>>>>>> Stashed changes
 
 </div>
 
@@ -263,15 +403,26 @@ Going forward, we will immediately be investing in a new approach to writing mod
 ## terraform-aws-monitoring
 
 
+<<<<<<< Updated upstream
 ### [v0.9.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/26/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.1">Release notes</a></small>
+=======
+### [v0.9.1](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/26/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.9.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-aws-monitoring/pull/47: Fix `run-cloudwatch-logs-agent.sh` so for Amazon Linux and CentOS so instead of sending `/var/log/auth.log`, which doesn&apos;t exist, it sends `/var/log/secure` to CloudWatch Logs. 
+=======
+  https://github.com/tnn-gruntwork-io/module-aws-monitoring/pull/47: Fix `run-cloudwatch-logs-agent.sh` so for Amazon Linux and CentOS so instead of sending `/var/log/auth.log`, which doesn&apos;t exist, it sends `/var/log/secure` to CloudWatch Logs. 
+>>>>>>> Stashed changes
 
 </div>
 
@@ -280,10 +431,17 @@ Going forward, we will immediately be investing in a new approach to writing mod
 ## terraform-aws-sam
 
 
+<<<<<<< Updated upstream
 ### [v0.1.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/23/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.2">Release notes</a></small>
+=======
+### [v0.1.2](https://github.com/tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/23/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -293,10 +451,17 @@ Going forward, we will immediately be investing in a new approach to writing mod
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.1.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/22/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.1">Release notes</a></small>
+=======
+### [v0.1.1](https://github.com/tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/22/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -306,10 +471,17 @@ Going forward, we will immediately be investing in a new approach to writing mod
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.1.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/21/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.0">Release notes</a></small>
+=======
+### [v0.1.0](https://github.com/tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/21/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.1.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -326,10 +498,17 @@ THIS VERSION IS NOT BACKWARDS COMPATIBLE AND ANY CODE REFERENCING AUTO-GENERATED
 ## terraform-aws-security
 
 
+<<<<<<< Updated upstream
 ### [v0.8.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/14/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.0">Release notes</a></small>
+=======
+### [v0.8.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/14/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.8.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -339,28 +518,50 @@ THIS VERSION IS NOT BACKWARDS COMPATIBLE AND ANY CODE REFERENCING AUTO-GENERATED
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.7.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/1/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.3">Release notes</a></small>
+=======
+### [v0.7.3](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.3)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/1/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.3">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/75: The `auto-update`, `fail2ban`, and `ntp` modules now all support CentOS.
+=======
+  https://github.com/tnn-gruntwork-io/module-security/pull/75: The `auto-update`, `fail2ban`, and `ntp` modules now all support CentOS.
+>>>>>>> Stashed changes
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.7.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/1/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.2">Release notes</a></small>
+=======
+### [v0.7.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/1/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.7.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/pull/74: Add a new module called `ssh-iam-selinux-policy`. If you are using `ssh-iam` on CentOS, you should install this module so that SELinux doesn&apos;t prevent `ssh-iam` from working!
+=======
+  https://github.com/tnn-gruntwork-io/module-security/pull/74: Add a new module called `ssh-iam-selinux-policy`. If you are using `ssh-iam` on CentOS, you should install this module so that SELinux doesn&apos;t prevent `ssh-iam` from working!
+>>>>>>> Stashed changes
 
 </div>
 
@@ -369,10 +570,17 @@ THIS VERSION IS NOT BACKWARDS COMPATIBLE AND ANY CODE REFERENCING AUTO-GENERATED
 ## terraform-aws-server
 
 
+<<<<<<< Updated upstream
 ### [v0.4.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/12/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.2">Release notes</a></small>
+=======
+### [v0.4.2](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/12/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.4.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -386,10 +594,17 @@ THIS VERSION IS NOT BACKWARDS COMPATIBLE AND ANY CODE REFERENCING AUTO-GENERATED
 ## terraform-aws-static-assets
 
 
+<<<<<<< Updated upstream
 ### [v0.3.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.3.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/28/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.3.2">Release notes</a></small>
+=======
+### [v0.3.2](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.3.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/28/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.3.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -399,28 +614,50 @@ THIS VERSION IS NOT BACKWARDS COMPATIBLE AND ANY CODE REFERENCING AUTO-GENERATED
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.3.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.3.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/14/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.3.1">Release notes</a></small>
+=======
+### [v0.3.1](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.3.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/14/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.3.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-static-assets/pull/9: You can now configure CORS for the S3 bucket using the new `cors_rule` parameter in the `s3-static-website` module. 
+=======
+  https://github.com/tnn-gruntwork-io/package-static-assets/pull/9: You can now configure CORS for the S3 bucket using the new `cors_rule` parameter in the `s3-static-website` module. 
+>>>>>>> Stashed changes
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.3.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.3.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/14/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.3.0">Release notes</a></small>
+=======
+### [v0.3.0](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.3.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/14/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.3.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-static-assets/pull/7: 
+=======
+  https://github.com/tnn-gruntwork-io/package-static-assets/pull/7: 
+>>>>>>> Stashed changes
 
 BACKWARDS INCOMPATIBLE CHANGE
 
@@ -433,28 +670,50 @@ The `s3-static-website` module now enables server-side encryption by default. Th
 ## terraform-aws-utilities
 
 
+<<<<<<< Updated upstream
 ### [v0.0.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/1/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.3">Release notes</a></small>
+=======
+### [v0.0.3](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.3)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/1/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.3">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-terraform-utilities/pull/4: Fix `print` call in the `operating-system` module so it works with newer versions of Python.
+=======
+  https://github.com/tnn-gruntwork-io/package-terraform-utilities/pull/4: Fix `print` call in the `operating-system` module so it works with newer versions of Python.
+>>>>>>> Stashed changes
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.0.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/1/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.2">Release notes</a></small>
+=======
+### [v0.0.2](https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/1/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-utilities/releases/tag/v0.0.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-terraform-utilities/pull/3: Added two new modules:
+=======
+  https://github.com/tnn-gruntwork-io/package-terraform-utilities/pull/3: Added two new modules:
+>>>>>>> Stashed changes
 
 1. `operating-system`: This can be used to detect the operating system on which Terraform is currently running.
 
@@ -469,10 +728,17 @@ The primary use case is so we can format paths properly on Windows vs Linux.
 ## terraform-aws-zookeeper
 
 
+<<<<<<< Updated upstream
 ### [v0.4.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/30/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.1">Release notes</a></small>
+=======
+### [v0.4.1](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/30/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -482,10 +748,17 @@ The primary use case is so we can format paths properly on Windows vs Linux.
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.4.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/23/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.0">Release notes</a></small>
+=======
+### [v0.4.0](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/23/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.4.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -497,16 +770,27 @@ The primary use case is so we can format paths properly on Windows vs Linux.
    With this update we place the bash-commons libraries into their own module. Although the interface to all the script modules in this repo remains unchanged, you now have to `gruntwork-install` the bash-commons module in order for many of the modules to work. You can install the bash-commons module like this:
 
    ```
+<<<<<<< Updated upstream
    gruntwork-install --module-name &apos;bash-commons&apos; --tag &apos;~&gt;0.4.0&apos; --repo https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper
+=======
+   gruntwork-install --module-name &apos;bash-commons&apos; --tag &apos;~&gt;0.4.0&apos; --repo https://github.com/tnn-gruntwork-io/package-zookeeper
+>>>>>>> Stashed changes
    ```
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.3.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.3.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/16/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.3.2">Release notes</a></small>
+=======
+### [v0.3.2](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.3.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/16/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.3.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -518,15 +802,26 @@ The primary use case is so we can format paths properly on Windows vs Linux.
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.3.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.3.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 3/2/2018 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.3.1">Release notes</a></small>
+=======
+### [v0.3.1](https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.3.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 3/2/2018 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-zookeeper/releases/tag/v0.3.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/package-zookeeper/pull/19: Updated the `server-group` module version to fix the deployment script on Windows.
+=======
+  https://github.com/tnn-gruntwork-io/package-zookeeper/pull/19: Updated the `server-group` module version to fix the deployment script on Windows.
+>>>>>>> Stashed changes
 
 </div>
 

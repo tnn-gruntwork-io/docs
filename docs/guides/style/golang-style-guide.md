@@ -66,9 +66,15 @@ if something {
 ### Error handling
 
 Prefer using the `errors` standard library package for handling single errors. For operations that can produce multiple
+<<<<<<< Updated upstream
 errors, leverage the [`MultiError`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt/blob/master/errors/multierror.go)
 package by [accumulating
 all the errors into a single `MultiError` and returning that](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt/blob/cb369119bf5c6f3031e914e8554ffe056dcf9e22/cli/hclfmt.go#L62), rather than returning every error individually as it comes up.
+=======
+errors, leverage the [`MultiError`](https://github.com/tnn-gruntwork-io/terragrunt/blob/master/errors/multierror.go)
+package by [accumulating
+all the errors into a single `MultiError` and returning that](https://github.com/tnn-gruntwork-io/terragrunt/blob/cb369119bf5c6f3031e914e8554ffe056dcf9e22/cli/hclfmt.go#L62), rather than returning every error individually as it comes up.
+>>>>>>> Stashed changes
 
 [Don’t panic](https://github.com/golang/go/wiki/CodeReviewComments#dont-panic) (_hat tip, Douglas Adams_). Any method that
 can have an error should return that error as its final value. This should be passed up through each layer, which can
@@ -77,10 +83,17 @@ You should almost NEVER use `panic`.
 
 Use custom error types. Create your own types that implement the `error` interface so that error messages are clear
 and have well-defined types you can check against. For some examples of this, see e.g. the custom errors in the
+<<<<<<< Updated upstream
 [aws](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/blob/master/modules/aws/errors.go) package of `terratest`.
 
 Include stack traces. In most of our code, we have to wrap errors with
 [`errors.WithStackTrace(e)`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-cli/blob/master/errors/errors.go#L22) to add the stack trace.
+=======
+[aws](https://github.com/tnn-gruntwork-io/terratest/blob/master/modules/aws/errors.go) package of `terratest`.
+
+Include stack traces. In most of our code, we have to wrap errors with
+[`errors.WithStackTrace(e)`](https://github.com/tnn-gruntwork-io/gruntwork-cli/blob/master/errors/errors.go#L22) to add the stack trace.
+>>>>>>> Stashed changes
 Go annoyingly doesn’t do this by default, but without it, sorting out an error can be very tricky.
 
 ### Pointer usage
@@ -256,7 +269,11 @@ func mul(a, b int) int {
 #### terratest
 
 Note the existence of methods in terratest which are suffixed with the letter `E`, e.g.
+<<<<<<< Updated upstream
 [GetAccountIdE](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terratest/blob/master/modules/aws/account.go#L23). Methods that have the
+=======
+[GetAccountIdE](https://github.com/tnn-gruntwork-io/terratest/blob/master/modules/aws/account.go#L23). Methods that have the
+>>>>>>> Stashed changes
 suffix `E` return an error as the last return value; methods without `E` mark the test as failed
 (e.g., via calling `t.Fail()`) instead of returning an error.
 

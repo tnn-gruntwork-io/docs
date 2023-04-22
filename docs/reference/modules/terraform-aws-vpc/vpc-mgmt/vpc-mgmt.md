@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # \[DEPRECATED] VPC-Mgmt Terraform Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.5" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.22.5" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 **The `vpc-mgmt` module is now deprecated**. The main difference between `vpc-mgmt` and `vpc-app` was that `vpc-app`
 had three tiers of subnets (public, private-app, private-persistence) and `vpc-mgmt` had two (public, private). As of
@@ -27,7 +33,11 @@ aware that, in a future release, once we feel the new functionality in `vpc-app`
 `vpc-mgmt` entirely.
 
 This Terraform Module launches a single VPC meant to house DevOps and other management services. By contrast, the apps
+<<<<<<< Updated upstream
 that power your business should run in an "app" VPC. (See the [vpc-app](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-app) module.)
+=======
+that power your business should run in an "app" VPC. (See the [vpc-app](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-app) module.)
+>>>>>>> Stashed changes
 
 ## What's a VPC?
 
@@ -65,13 +75,21 @@ To summarize:
 
 ## VPC Peering
 
+<<<<<<< Updated upstream
 Learn more about VPC Peering in the [vpc-peering](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-peering) module.
+=======
+Learn more about VPC Peering in the [vpc-peering](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-peering) module.
+>>>>>>> Stashed changes
 
 ## SSH Access via the Bastion Host
 
 To SSH into any of your EC2 Instances in a private subnet, we recommend launching a single "Bastion Host" to use as
 an SSH jump host. For more info, see the [Bastion Host
+<<<<<<< Updated upstream
 examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/main/examples/bastion-host).
+=======
+examples](https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/main/examples/bastion-host).
+>>>>>>> Stashed changes
 
 ## Gotchas
 
@@ -79,7 +97,11 @@ examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-serv
 
 ## Other VPC Core Concepts
 
+<<<<<<< Updated upstream
 Learn about [Other VPC Core Concepts](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules//_docs/vpc-core-concepts.md) like subnets, NAT Gateways, and VPC Endpoints.
+=======
+Learn about [Other VPC Core Concepts](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules//_docs/vpc-core-concepts.md) like subnets, NAT Gateways, and VPC Endpoints.
+>>>>>>> Stashed changes
 
 ## Sample Usage
 
@@ -94,7 +116,11 @@ Learn about [Other VPC Core Concepts](https://github.com/tnn-tnn-tnn-tnn-tnn-gru
 
 module "vpc_mgmt" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt?ref=v0.22.7"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt?ref=v0.22.7"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -299,7 +325,11 @@ module "vpc_mgmt" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt?ref=v0.22.7"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-vpc.git//modules/vpc-mgmt?ref=v0.22.7"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -1007,9 +1037,15 @@ A null_resource that indicates that the VPC is ready, including all of its resou
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/v0.22.7/modules/vpc-mgmt/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "a40e8261df3007fa358b7f503d1d5fb5"

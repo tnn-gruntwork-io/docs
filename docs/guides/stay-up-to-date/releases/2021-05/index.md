@@ -33,15 +33,26 @@ Here are the repos that were updated:
 ## aws-sample-app
 
 
+<<<<<<< Updated upstream
 ### [v0.0.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/aws-sample-app/releases/tag/v0.0.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/25/2021 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/aws-sample-app/releases/tag/v0.0.4">Release notes</a></small>
+=======
+### [v0.0.4](https://github.com/tnn-gruntwork-io/aws-sample-app/releases/tag/v0.0.4)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/25/2021 | <a href="https://github.com/tnn-gruntwork-io/aws-sample-app/releases/tag/v0.0.4">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/aws-sample-app/pull/26: Fix bug where the node config was not loaded correctly for running migrations.
+=======
+  https://github.com/tnn-gruntwork-io/aws-sample-app/pull/26: Fix bug where the node config was not loaded correctly for running migrations.
+>>>>>>> Stashed changes
 
 </div>
 
@@ -50,15 +61,26 @@ Here are the repos that were updated:
 ## gruntkms
 
 
+<<<<<<< Updated upstream
 ### [v0.0.10](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms/releases/tag/v0.0.10)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/27/2021 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms/releases/tag/v0.0.10">Release notes</a></small>
+=======
+### [v0.0.10](https://github.com/tnn-gruntwork-io/gruntkms/releases/tag/v0.0.10)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/27/2021 | <a href="https://github.com/tnn-gruntwork-io/gruntkms/releases/tag/v0.0.10">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntkms/pull/30: We now publish binaries for Mac / ARM.
+=======
+  https://github.com/tnn-gruntwork-io/gruntkms/pull/30: We now publish binaries for Mac / ARM.
+>>>>>>> Stashed changes
 
 </div>
 
@@ -67,20 +89,35 @@ Here are the repos that were updated:
 ## infrastructure-live-multi-account-acme
 
 
+<<<<<<< Updated upstream
 ### [v0.0.1-20210527](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-live-multi-account-acme/releases/tag/v0.0.1-20210527)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/27/2021 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-live-multi-account-acme/releases/tag/v0.0.1-20210527">Release notes</a></small>
+=======
+### [v0.0.1-20210527](https://github.com/tnn-gruntwork-io/infrastructure-live-multi-account-acme/releases/tag/v0.0.1-20210527)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/27/2021 | <a href="https://github.com/tnn-gruntwork-io/infrastructure-live-multi-account-acme/releases/tag/v0.0.1-20210527">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
+<<<<<<< Updated upstream
   **NOTE: This repo will soon be archived in favor of the updated examples included in https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/for-production.**
+=======
+  **NOTE: This repo will soon be archived in favor of the updated examples included in https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/for-production.**
+>>>>>>> Stashed changes
 
 Since this repo is solely used for examples/demonstrations, and NOT meant for direct production use, we simply publish all changes at v0.0.1, with a date marker for when it was published.
 
 
+<<<<<<< Updated upstream
 * Updated all the Terragrunt configurations (`terragrunt.hcl` files) to point their sources at the [AWS Service Catalog](http://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/). This means they are no longer pointing to modules in the [`infrastructure-modules-multi-account-acme`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/infrastructure-live-multi-account-acme) repo.
+=======
+* Updated all the Terragrunt configurations (`terragrunt.hcl` files) to point their sources at the [AWS Service Catalog](http://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/). This means they are no longer pointing to modules in the [`infrastructure-modules-multi-account-acme`](https://github.com/tnn-gruntwork-io/infrastructure-live-multi-account-acme) repo.
+>>>>>>> Stashed changes
 * Bumped module versions to latest versions providing compatibility with Terraform 0.14.x. See https://gruntwork.io/guides/upgrades/how-to-update-to-terraform-14/ for more details.
 * Added migration guides for individual services. These are meant to be used along with the [Reference Architecture 2.0 Migration Guide](https://gruntwork.io/guides/upgrades/how-to-update-your-ref-arch/).
 * `refarch-folder-structure.zip` is included as an asset, which contains the folder structure, terragrunt configuration files, yaml files, and scripts required for smoothly upgrading from Reference Architecture 1.0 to 2.0. It is provided as a convenience so that you can copy the relevant files to your own `infrastructure-live` repository, as part of your migration process.
@@ -92,10 +129,17 @@ Since this repo is solely used for examples/demonstrations, and NOT meant for di
 ## terraform-aws-architecture-catalog
 
 
+<<<<<<< Updated upstream
 ### [v0.0.7](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.7)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/28/2021 | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.7">Release notes</a></small>
+=======
+### [v0.0.7](https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.7)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/28/2021 | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-architecture-catalog/releases/tag/v0.0.7">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -112,10 +156,17 @@ Since this repo is solely used for examples/demonstrations, and NOT meant for di
 ## terraform-aws-asg
 
 
+<<<<<<< Updated upstream
 ### [v0.14.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.14.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/7/2021 | Modules affected: asg-rolling-deploy | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.14.1">Release notes</a></small>
+=======
+### [v0.14.1](https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.14.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/7/2021 | Modules affected: asg-rolling-deploy | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-asg/releases/tag/v0.14.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -133,10 +184,17 @@ Since this repo is solely used for examples/demonstrations, and NOT meant for di
 ## terraform-aws-ci
 
 
+<<<<<<< Updated upstream
 ### [v0.36.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.36.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/27/2021 | Modules affected: ec2-backup, ecs-deploy-runner-invoke-iam-policy, ecs-deploy-runner-standard-configuration, ecs-deploy-runner | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.36.0">Release notes</a></small>
+=======
+### [v0.36.0](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.36.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/27/2021 | Modules affected: ec2-backup, ecs-deploy-runner-invoke-iam-policy, ecs-deploy-runner-standard-configuration, ecs-deploy-runner | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.36.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -153,10 +211,17 @@ Since this repo is solely used for examples/demonstrations, and NOT meant for di
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.35.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.35.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/13/2021 | Modules affected: ecs-deploy-runner | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.35.1">Release notes</a></small>
+=======
+### [v0.35.1](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.35.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/13/2021 | Modules affected: ecs-deploy-runner | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.35.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -170,10 +235,17 @@ This release bumps the versions of Terraform, Terragrunt, and this repo within t
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.35.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.35.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/13/2021 | Modules affected: ecs-deploy-runner-standard-configuration, ecs-deploy-runner, build-helpers, terraform-helpers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.35.0">Release notes</a></small>
+=======
+### [v0.35.0](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.35.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/13/2021 | Modules affected: ecs-deploy-runner-standard-configuration, ecs-deploy-runner, build-helpers, terraform-helpers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.35.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -188,17 +260,28 @@ This release bumps the versions of Terraform, Terragrunt, and this repo within t
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.34.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.34.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/12/2021 | Modules affected: ecs-deploy-runner, infrastructure-deploy-script, ecs-deploy-runner-standard-configuration | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.34.0">Release notes</a></small>
+=======
+### [v0.34.0](https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.34.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/12/2021 | Modules affected: ecs-deploy-runner, infrastructure-deploy-script, ecs-deploy-runner-standard-configuration | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.34.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
+<<<<<<< Updated upstream
 `infrastructure-deploy-script` and ECS Deploy Runner now has support for private repo authentication over HTTPS for terraform. Refer to the updated [documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/blob/master/modules/ecs-deploy-runner/core-concepts.md#using-https-based-git-urls) for more information. Note that you must update `ecs-deploy-runner` and `ecs-deploy-runner-standard-configuration` to this version to take advantage of the new feature.
+=======
+`infrastructure-deploy-script` and ECS Deploy Runner now has support for private repo authentication over HTTPS for terraform. Refer to the updated [documentation](https://github.com/tnn-gruntwork-io/terraform-aws-ci/blob/master/modules/ecs-deploy-runner/core-concepts.md#using-https-based-git-urls) for more information. Note that you must update `ecs-deploy-runner` and `ecs-deploy-runner-standard-configuration` to this version to take advantage of the new feature.
+>>>>>>> Stashed changes
 
 
 
@@ -209,10 +292,17 @@ This release bumps the versions of Terraform, Terragrunt, and this repo within t
 ## terraform-aws-cis-service-catalog
 
 
+<<<<<<< Updated upstream
 ### [v0.20.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.20.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/27/2021 | Modules affected: aws-config-multi-region, aws-securityhub, cleanup-expired-certs, cloudtrail | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.20.0">Release notes</a></small>
+=======
+### [v0.20.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.20.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/27/2021 | Modules affected: aws-config-multi-region, aws-securityhub, cleanup-expired-certs, cloudtrail | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.20.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -231,10 +321,17 @@ This release bumps the versions of Terraform, Terragrunt, and this repo within t
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.19.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.19.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/25/2021 | Modules affected: aws-config-multi-region, cloudtrail, cross-account-iam-roles, custom-iam-entity | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.19.1">Release notes</a></small>
+=======
+### [v0.19.1](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.19.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/25/2021 | Modules affected: aws-config-multi-region, cloudtrail, cross-account-iam-roles, custom-iam-entity | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.19.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -253,27 +350,45 @@ Update the underlying versions of the following modules:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.19.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.19.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/17/2021 | Modules affected: landingzone | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.19.0">Release notes</a></small>
+=======
+### [v0.19.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.19.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/17/2021 | Modules affected: landingzone | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.19.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
+<<<<<<< Updated upstream
 - Update example `landingzone` READMEs to mention parallelism when running applying with `terraform apply` (see [here](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/a5b42067f853bb6bc8657ba4772c76bbbc418f45/examples/for-learning-and-testing/landingzone/account-baseline-app/README.md) &amp; [here](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/a5b42067f853bb6bc8657ba4772c76bbbc418f45/examples/for-learning-and-testing/landingzone/account-baseline-security/README.md))
+=======
+- Update example `landingzone` READMEs to mention parallelism when running applying with `terraform apply` (see [here](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/a5b42067f853bb6bc8657ba4772c76bbbc418f45/examples/for-learning-and-testing/landingzone/account-baseline-app/README.md) &amp; [here](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/blob/a5b42067f853bb6bc8657ba4772c76bbbc418f45/examples/for-learning-and-testing/landingzone/account-baseline-security/README.md))
+>>>>>>> Stashed changes
 - Update `account-baseline-security` and `account-baseline-app` to expose and name the variables consistently across submodules
 
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.18.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.18.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/11/2021 | Modules affected: networking, landingzone | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.18.2">Release notes</a></small>
+=======
+### [v0.18.2](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.18.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/11/2021 | Modules affected: networking, landingzone | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.18.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -288,10 +403,17 @@ Update the underlying versions of the following modules:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.18.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.18.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/11/2021 | Modules affected: landingzone | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.18.1">Release notes</a></small>
+=======
+### [v0.18.1](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.18.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/11/2021 | Modules affected: landingzone | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.18.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -311,10 +433,17 @@ Update the underlying versions of the following modules:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.18.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.18.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/11/2021 | Modules affected: landingzone, networking, aws-config-multi-region, cloudtrail | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.18.0">Release notes</a></small>
+=======
+### [v0.18.0](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.18.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/11/2021 | Modules affected: landingzone, networking, aws-config-multi-region, cloudtrail | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.18.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -338,10 +467,17 @@ Update the underlying versions of the following modules:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.17.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.17.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/3/2021 | Modules affected: networking, aws-securityhub, cleanup-expired-certs, aws-config-multi-region | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.17.2">Release notes</a></small>
+=======
+### [v0.17.2](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.17.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/3/2021 | Modules affected: networking, aws-securityhub, cleanup-expired-certs, aws-config-multi-region | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.17.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -359,10 +495,17 @@ Update the version of the following underlying modules:
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.17.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.17.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/3/2021 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-security, cleanup-expired-certs, cloudtrail | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.17.1">Release notes</a></small>
+=======
+### [v0.17.1](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.17.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/3/2021 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-security, cleanup-expired-certs, cloudtrail | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/releases/tag/v0.17.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -384,10 +527,17 @@ It also adds new variables to the `cloudtrail` service: `kms_key_arn_is_alias` a
 ## terraform-aws-ecs
 
 
+<<<<<<< Updated upstream
 ### [v0.29.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.29.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/17/2021 | Modules affected: ecs-cluster, ecs-daemon-service, ecs-service | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.29.0">Release notes</a></small>
+=======
+### [v0.29.0](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.29.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/17/2021 | Modules affected: ecs-cluster, ecs-daemon-service, ecs-service | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.29.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -405,17 +555,28 @@ It also adds new variables to the `cloudtrail` service: `kms_key_arn_is_alias` a
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.28.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.28.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/10/2021 | Modules affected: ecs-deploy | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.28.3">Release notes</a></small>
+=======
+### [v0.28.3](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.28.3)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/10/2021 | Modules affected: ecs-deploy | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.28.3">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
+<<<<<<< Updated upstream
 The `run-ecs-task` command now supports overriding the task definition command. This is useful to run one off commands using the same task definition as your ECS service. Refer to [the command docs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/master/modules/ecs-deploy#override-the-container-command) for more info.
+=======
+The `run-ecs-task` command now supports overriding the task definition command. This is useful to run one off commands using the same task definition as your ECS service. Refer to [the command docs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/master/modules/ecs-deploy#override-the-container-command) for more info.
+>>>>>>> Stashed changes
 
 
 
@@ -426,10 +587,17 @@ The `run-ecs-task` command now supports overriding the task definition command. 
 ## terraform-aws-eks
 
 
+<<<<<<< Updated upstream
 ### [v0.40.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.40.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/28/2021 | Modules affected: eks-cluster-control-plane, eks-k8s-cluster-autoscaler | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.40.0">Release notes</a></small>
+=======
+### [v0.40.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.40.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/28/2021 | Modules affected: eks-cluster-control-plane, eks-k8s-cluster-autoscaler | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.40.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -444,10 +612,17 @@ The `run-ecs-task` command now supports overriding the task definition command. 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.39.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.39.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/28/2021 | Modules affected: eks-k8s-external-dns | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.39.2">Release notes</a></small>
+=======
+### [v0.39.2](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.39.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/28/2021 | Modules affected: eks-k8s-external-dns | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.39.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -462,10 +637,17 @@ The `run-ecs-task` command now supports overriding the task definition command. 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.39.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.39.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/27/2021 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.39.1">Release notes</a></small>
+=======
+### [v0.39.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.39.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/27/2021 | Modules affected: eks-cluster-control-plane | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.39.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -480,10 +662,17 @@ The `run-ecs-task` command now supports overriding the task definition command. 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.39.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.39.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/26/2021 | Modules affected: eks-k8s-cluster-autoscaler, eks-cluster-control-plane | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.39.0">Release notes</a></small>
+=======
+### [v0.39.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.39.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/26/2021 | Modules affected: eks-k8s-cluster-autoscaler, eks-cluster-control-plane | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.39.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -498,27 +687,45 @@ The `run-ecs-task` command now supports overriding the task definition command. 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.38.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.38.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/7/2021 | Modules affected: eks-cluster-workers, eks-scripts | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.38.0">Release notes</a></small>
+=======
+### [v0.38.0](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.38.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/7/2021 | Modules affected: eks-cluster-workers, eks-scripts | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.38.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
+<<<<<<< Updated upstream
 - Expose ability to filter tags by prefix in `map-ec2-tags-to-node-labels`. You can read more about this feature in [the README](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-scripts#prefix).
+=======
+- Expose ability to filter tags by prefix in `map-ec2-tags-to-node-labels`. You can read more about this feature in [the README](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/master/modules/eks-scripts#prefix).
+>>>>>>> Stashed changes
 - The `eks-cluster-workers` module now relies on launch templates instead of launch configuration to manage the Auto Scaling Group. This means that you can now take advantage of advanced features like multi instances policy for mixed workload ASGs. (This is a **backward incompatible** change. Please read the migration guide below for more info!)
 
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.37.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.37.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/4/2021 | Modules affected: eks-alb-ingress-controller, eks-cluster-control-plane, eks-cluster-managed-workers, eks-cluster-workers | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.37.2">Release notes</a></small>
+=======
+### [v0.37.2](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.37.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/4/2021 | Modules affected: eks-alb-ingress-controller, eks-cluster-control-plane, eks-cluster-managed-workers, eks-cluster-workers | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.37.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -532,10 +739,17 @@ You can now specify the AWS partition (using the `aws_partition` input variable)
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.37.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.37.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/4/2021 | Modules affected: eks-k8s-external-dns | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.37.1">Release notes</a></small>
+=======
+### [v0.37.1](https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.37.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/4/2021 | Modules affected: eks-k8s-external-dns | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.37.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -553,10 +767,17 @@ You can now customize the helm release name and the service account annotations 
 ## terraform-aws-lambda
 
 
+<<<<<<< Updated upstream
 ### [v0.11.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.11.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/20/2021 | Modules affected: lambda | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.11.1">Release notes</a></small>
+=======
+### [v0.11.1](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.11.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/20/2021 | Modules affected: lambda | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.11.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -577,10 +798,17 @@ You can now customize the helm release name and the service account annotations 
 ## terraform-aws-monitoring
 
 
+<<<<<<< Updated upstream
 ### [v0.27.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.27.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/25/2021 | Modules affected: alarms, logs, metrics | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.27.0">Release notes</a></small>
+=======
+### [v0.27.0](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.27.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/25/2021 | Modules affected: alarms, logs, metrics | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.27.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -599,10 +827,17 @@ You can now customize the helm release name and the service account annotations 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.26.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.26.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/14/2021 | Modules affected: alarms | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.26.2">Release notes</a></small>
+=======
+### [v0.26.2](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.26.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/14/2021 | Modules affected: alarms | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/releases/tag/v0.26.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -624,10 +859,17 @@ You can now customize the helm release name and the service account annotations 
 ## terraform-aws-openvpn
 
 
+<<<<<<< Updated upstream
 ### [v0.15.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.15.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/4/2021 | Modules affected: openvpn-admin | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.15.2">Release notes</a></small>
+=======
+### [v0.15.2](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.15.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/4/2021 | Modules affected: openvpn-admin | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.15.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -641,10 +883,17 @@ The search algorithm for finding the optimal mssfix value when `--mssfix` is omi
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.15.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.15.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/4/2021 | Modules affected: openvpn-admin | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.15.1">Release notes</a></small>
+=======
+### [v0.15.1](https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.15.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/4/2021 | Modules affected: openvpn-admin | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-openvpn/releases/tag/v0.15.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -662,10 +911,17 @@ You can now specify the host used for conducting the ping test to identify the o
 ## terraform-aws-sam
 
 
+<<<<<<< Updated upstream
 ### [v0.5.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.5.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/25/2021 | Modules affected: api-gateway-account-settings, gruntsam | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.5.0">Release notes</a></small>
+=======
+### [v0.5.0](https://github.com/tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.5.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/25/2021 | Modules affected: api-gateway-account-settings, gruntsam | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-sam/releases/tag/v0.5.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -688,27 +944,45 @@ You can now specify the host used for conducting the ping test to identify the o
 ## terraform-aws-security
 
 
+<<<<<<< Updated upstream
 ### [v0.49.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.49.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/28/2021 | Modules affected: account-baseline-app, account-baseline-root, account-baseline-security | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.49.0">Release notes</a></small>
+=======
+### [v0.49.0](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.49.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/28/2021 | Modules affected: account-baseline-app, account-baseline-root, account-baseline-security | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.49.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
+<<<<<<< Updated upstream
 All of the `account-baseline-*` modules have been moved to [the service catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/landingzone). See the migration guide below.
+=======
+All of the `account-baseline-*` modules have been moved to [the service catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/modules/landingzone). See the migration guide below.
+>>>>>>> Stashed changes
 
 
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.48.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/27/2021 | Modules affected: aws-config-multi-region, aws-config | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.5">Release notes</a></small>
+=======
+### [v0.48.5](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.5)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/27/2021 | Modules affected: aws-config-multi-region, aws-config | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.5">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -723,10 +997,17 @@ All of the `account-baseline-*` modules have been moved to [the service catalog]
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.48.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/26/2021 | Modules affected: private-s3-bucket, aws-config | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.4">Release notes</a></small>
+=======
+### [v0.48.4](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.4)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/26/2021 | Modules affected: private-s3-bucket, aws-config | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.4">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -741,10 +1022,17 @@ All of the `account-baseline-*` modules have been moved to [the service catalog]
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.48.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/21/2021 | Modules affected: private-s3-bucket | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.3">Release notes</a></small>
+=======
+### [v0.48.3](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.3)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/21/2021 | Modules affected: private-s3-bucket | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.3">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -760,10 +1048,17 @@ All of the `account-baseline-*` modules have been moved to [the service catalog]
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.48.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/14/2021 | Modules affected: custom-iam-entity, aws-config-rules | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.2">Release notes</a></small>
+=======
+### [v0.48.2](https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/14/2021 | Modules affected: custom-iam-entity, aws-config-rules | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.48.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -783,10 +1078,17 @@ All of the `account-baseline-*` modules have been moved to [the service catalog]
 ## terraform-aws-server
 
 
+<<<<<<< Updated upstream
 ### [v0.12.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.12.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/6/2021 | Modules affected: single-server | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.12.1">Release notes</a></small>
+=======
+### [v0.12.1](https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.12.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/6/2021 | Modules affected: single-server | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.12.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -804,10 +1106,17 @@ All of the `account-baseline-*` modules have been moved to [the service catalog]
 ## terraform-aws-service-catalog
 
 
+<<<<<<< Updated upstream
 ### [v0.39.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.39.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/28/2021 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-root, landingzone/account-baseline-security | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.39.0">Release notes</a></small>
+=======
+### [v0.39.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.39.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/28/2021 | Modules affected: landingzone/account-baseline-app, landingzone/account-baseline-root, landingzone/account-baseline-security | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.39.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -820,10 +1129,17 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.38.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.38.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/28/2021 | Modules affected: data-stores | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.38.1">Release notes</a></small>
+=======
+### [v0.38.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.38.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/28/2021 | Modules affected: data-stores | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.38.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -839,10 +1155,17 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.38.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.38.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/28/2021 | Modules affected: base, data-stores, landingzone, mgmt | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.38.0">Release notes</a></small>
+=======
+### [v0.38.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.38.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/28/2021 | Modules affected: base, data-stores, landingzone, mgmt | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.38.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -868,17 +1191,28 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.37.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.37.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/27/2021 | Modules affected: services/ecs-cluster, services/ecs-service, mgmt, data-stores | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.37.0">Release notes</a></small>
+=======
+### [v0.37.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.37.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/27/2021 | Modules affected: services/ecs-cluster, services/ecs-service, mgmt, data-stores | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.37.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
+<<<<<<< Updated upstream
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs to v0.29.0 (NOTE: This is **backward incompatible** - Please see [the migration guide included with release v0.29.0 of tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.29.0)).
+=======
+- Update dependency tnn-gruntwork-io/terraform-aws-ecs to v0.29.0 (NOTE: This is **backward incompatible** - Please see [the migration guide included with release v0.29.0 of tnn-gruntwork-io/terraform-aws-ecs](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.29.0)).
+>>>>>>> Stashed changes
 - Update for-production examples
 -  Add security_group_id output to RDS module
 
@@ -887,10 +1221,17 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.36.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/27/2021 | Modules affected: services, mgmt, base, data-stores | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.5">Release notes</a></small>
+=======
+### [v0.36.5](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.5)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/27/2021 | Modules affected: services, mgmt, base, data-stores | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.5">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -898,19 +1239,32 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
   
 
 - You can now enable storage autoscaling in the `rds` module using the new `max_allocated_storage` input variable.
+<<<<<<< Updated upstream
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-kubernetes-namespace to v0.3.0.
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt to v0.29.6.
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring to v0.27.0.
+=======
+- Update dependency tnn-gruntwork-io/terraform-kubernetes-namespace to v0.3.0.
+- Update dependency tnn-gruntwork-io/terragrunt to v0.29.6.
+- Update dependency tnn-gruntwork-io/terraform-aws-monitoring to v0.27.0.
+>>>>>>> Stashed changes
 
 
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.36.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/24/2021 | Modules affected: networking, services | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.4">Release notes</a></small>
+=======
+### [v0.36.4](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.4)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/24/2021 | Modules affected: networking, services | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.4">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -931,10 +1285,17 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.36.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/21/2021 | Modules affected: services, landingzone, base, data-stores | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.3">Release notes</a></small>
+=======
+### [v0.36.3](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.3)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/21/2021 | Modules affected: services, landingzone, base, data-stores | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.3">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -943,7 +1304,11 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 
 - New Service: Lambda
 - [BUG FIX] Account Baseline Root: Search logs account by email
+<<<<<<< Updated upstream
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security to v0.48.2
+=======
+- Update dependency tnn-gruntwork-io/terraform-aws-security to v0.48.2
+>>>>>>> Stashed changes
 
 
 
@@ -951,10 +1316,17 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.36.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/14/2021 | Modules affected: mgmt, services | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.2">Release notes</a></small>
+=======
+### [v0.36.2](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/14/2021 | Modules affected: mgmt, services | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -962,28 +1334,47 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
   
 
 - Update dependency helm/helm to v3.5.4 in jenkins.
+<<<<<<< Updated upstream
 - `k8s-service` module now supports configuring Ingress grouping. Refer to the [documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/blob/master/modules/services/k8s-service/core-concepts.md#ingress-groups) for more information.
+=======
+- `k8s-service` module now supports configuring Ingress grouping. Refer to the [documentation](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/blob/master/modules/services/k8s-service/core-concepts.md#ingress-groups) for more information.
+>>>>>>> Stashed changes
 
 
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.36.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/14/2021 | Modules affected: networking, mgmt, services, base | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.1">Release notes</a></small>
+=======
+### [v0.36.1](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/14/2021 | Modules affected: networking, mgmt, services, base | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
+<<<<<<< Updated upstream
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc to v0.15.2
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt to v0.6.16
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg to v0.14.1
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server to v0.12.1
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-openvpn to v0.15.2
+=======
+- Update dependency tnn-gruntwork-io/terraform-aws-vpc to v0.15.2
+- Update dependency tnn-gruntwork-io/kubergrunt to v0.6.16
+- Update dependency tnn-gruntwork-io/terraform-aws-asg to v0.14.1
+- Update dependency tnn-gruntwork-io/terraform-aws-server to v0.12.1
+- Update dependency tnn-gruntwork-io/terraform-aws-openvpn to v0.15.2
+>>>>>>> Stashed changes
 - Exposes alternate SSH interfaces in all packer templates
 
 
@@ -991,26 +1382,44 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.36.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/13/2021 | Modules affected: mgmt/ecs-deploy-runner | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.0">Release notes</a></small>
+=======
+### [v0.36.0](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/13/2021 | Modules affected: mgmt/ecs-deploy-runner | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.36.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
+<<<<<<< Updated upstream
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci to v0.35.0. As a result of this, the `ecs-deploy-runner` now supports authenticating to git repositories over HTTPS.
+=======
+- Update dependency tnn-gruntwork-io/terraform-aws-ci to v0.35.0. As a result of this, the `ecs-deploy-runner` now supports authenticating to git repositories over HTTPS.
+>>>>>>> Stashed changes
 
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.35.5](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.35.5)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/10/2021 | Modules affected: networking, base, services | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.35.5">Release notes</a></small>
+=======
+### [v0.35.5](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.35.5)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/10/2021 | Modules affected: networking, base, services | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.35.5">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -1021,33 +1430,56 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 - `services`
 
 
+<<<<<<< Updated upstream
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc to v0.15.1
+=======
+- Update dependency tnn-gruntwork-io/terraform-aws-vpc to v0.15.1
+>>>>>>> Stashed changes
 - `vpc` module now supports configuring direct client IP access to the private app tier on privileged ports (&lt; 1024). This is necessary for configuring access to apps in the private app tier with an NLB in the public access tier.
 - Update `for-production/` examples to the latest versions of the modules.
 - Make `worker_name_prefix` configurable (for EKS workers), so that old versions of the reference architecture can upgrade to the service catalog version of the ref arch without having to recreate resources in the `eks-workers` module. Also correct the descriptions for ami/ami_filters, which were slightly misleading.
 
 
+<<<<<<< Updated upstream
 - https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/pull/648
 - https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/pull/476
 - https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/pull/662
+=======
+- https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/pull/648
+- https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/pull/476
+- https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/pull/662
+>>>>>>> Stashed changes
 
 
 
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.35.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.35.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/4/2021 | Modules affected: base, data-stores, landingzone, mgmt | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.35.4">Release notes</a></small>
+=======
+### [v0.35.4](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.35.4)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/4/2021 | Modules affected: base, data-stores, landingzone, mgmt | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases/tag/v0.35.4">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
+<<<<<<< Updated upstream
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security to v0.48.1
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt to v0.29.2
 - Update dependency tnn-tnn-tnn-tnn-tnn-gruntwork-io/kubergrunt to v0.6.15
+=======
+- Update dependency tnn-gruntwork-io/terraform-aws-security to v0.48.1
+- Update dependency tnn-gruntwork-io/terragrunt to v0.29.2
+- Update dependency tnn-gruntwork-io/kubergrunt to v0.6.15
+>>>>>>> Stashed changes
 - `kubernetes_role_binding` resources for full-access and read-only access have been added to the `k8s-namespace` module.
 
 
@@ -1059,10 +1491,17 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 ## terraform-aws-static-assets
 
 
+<<<<<<< Updated upstream
 ### [v0.10.0](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.10.0)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/3/2021 | Modules affected: s3-static-website | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.10.0">Release notes</a></small>
+=======
+### [v0.10.0](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.10.0)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/3/2021 | Modules affected: s3-static-website | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.10.0">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -1079,10 +1518,17 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 ## terraform-aws-vpc
 
 
+<<<<<<< Updated upstream
 ### [v0.15.4](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.4)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/27/2021 | Modules affected: vpc-flow-logs | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.4">Release notes</a></small>
+=======
+### [v0.15.4](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.4)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/27/2021 | Modules affected: vpc-flow-logs | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.4">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -1096,17 +1542,28 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.15.3](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.3)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/17/2021 | Modules affected: vpc-peering-cross-accounts-accepter, vpc-peering-cross-accounts-requester, network-acl-inbound, network-acl-outbound | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.3">Release notes</a></small>
+=======
+### [v0.15.3](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.3)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/17/2021 | Modules affected: vpc-peering-cross-accounts-accepter, vpc-peering-cross-accounts-requester, network-acl-inbound, network-acl-outbound | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.3">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
+<<<<<<< Updated upstream
 - Added new modules for doing VPC peering across two AWS accounts that you own: use `vpc-peering-cross-accounts-requester` to send a peering request and `vpc-peering-cross-accounts-accepter` to accept it. See [`vpc-peering-cross-accounts`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/master/examples/vpc-peering-cross-accounts) for example usage.
+=======
+- Added new modules for doing VPC peering across two AWS accounts that you own: use `vpc-peering-cross-accounts-requester` to send a peering request and `vpc-peering-cross-accounts-accepter` to accept it. See [`vpc-peering-cross-accounts`](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/master/examples/vpc-peering-cross-accounts) for example usage.
+>>>>>>> Stashed changes
 - Rename deprecated patterns: rename all `vars.tf` files to `variables.tf`. There should be no impact on behavior.
 
 
@@ -1117,10 +1574,17 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.15.2](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.2)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/6/2021 | Modules affected: vpc-app | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.2">Release notes</a></small>
+=======
+### [v0.15.2](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.2)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/6/2021 | Modules affected: vpc-app | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.2">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
@@ -1136,17 +1600,28 @@ The `account-baseline-app`, `account-baseline-security`, and `account-baseline-r
 </div>
 
 
+<<<<<<< Updated upstream
 ### [v0.15.1](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.1)
 
 <p style={{marginTop: "-20px", marginBottom: "10px"}}>
   <small>Published: 5/4/2021 | Modules affected: vpc-app-network-acls | <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.1">Release notes</a></small>
+=======
+### [v0.15.1](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.1)
+
+<p style={{marginTop: "-20px", marginBottom: "10px"}}>
+  <small>Published: 5/4/2021 | Modules affected: vpc-app-network-acls | <a href="https://github.com/tnn-gruntwork-io/terraform-aws-vpc/releases/tag/v0.15.1">Release notes</a></small>
+>>>>>>> Stashed changes
 </p>
 
 <div style={{"overflow":"hidden","textOverflow":"ellipsis","display":"-webkit-box","WebkitLineClamp":10,"lineClamp":10,"WebkitBoxOrient":"vertical"}}>
 
   
 
+<<<<<<< Updated upstream
 Add support for exposing client access directly in the nacls for the private app tier for NLB access. You can learn more about this feature in [the updated README](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-vpc/tree/master/modules/vpc-app-network-acls#how-do-i-configure-the-network-acls-for-public-elb-access).
+=======
+Add support for exposing client access directly in the nacls for the private app tier for NLB access. You can learn more about this feature in [the updated README](https://github.com/tnn-gruntwork-io/terraform-aws-vpc/tree/master/modules/vpc-app-network-acls#how-do-i-configure-the-network-acls-for-public-elb-access).
+>>>>>>> Stashed changes
 
 
 

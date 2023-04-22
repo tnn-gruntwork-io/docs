@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # AWS Auth Helper
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.9" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.9" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module is a small wrapper script for the [AWS CLI](https://aws.amazon.com/cli/) that makes it much easier to
 authenticate to AWS when:
@@ -91,10 +97,17 @@ With this script, all of this can be done in a single command!
 ### Install aws-auth
 
 To install the script, you can either copy it manually to a location on your `PATH` or use the
+<<<<<<< Updated upstream
 [gruntwork-install](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/gruntwork-installer) command:
 
 ```bash
 gruntwork-install --module-name 'aws-auth' --repo 'https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security' --tag 'v0.6.5'
+=======
+[gruntwork-install](https://github.com/tnn-gruntwork-io/gruntwork-installer) command:
+
+```bash
+gruntwork-install --module-name 'aws-auth' --repo 'https://github.com/tnn-gruntwork-io/terraform-aws-security' --tag 'v0.6.5'
+>>>>>>> Stashed changes
 ```
 
 ### Usage
@@ -175,7 +188,11 @@ eval $(aws-auth --serial-number arn:aws:iam::123456789011:mfa/jondoe --token-cod
 
 If you store your secrets in a CLI-friendly password manager, such as [pass](https://www.passwordstore.org/),
 [lpass](https://github.com/lastpass/lastpass-cli) or
+<<<<<<< Updated upstream
 [1Password CLI](https://support.1password.com/command-line-getting-started/), then you can reduce this even further! Instructions on how to set this up for Lastpass / `lpass` can be found [here](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth/AWS-AUTH-LASTPASS.md) and 1Password / `op` [here](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth/AWS-AUTH-1PASSWORD.md).
+=======
+[1Password CLI](https://support.1password.com/command-line-getting-started/), then you can reduce this even further! Instructions on how to set this up for Lastpass / `lpass` can be found [here](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth/AWS-AUTH-LASTPASS.md) and 1Password / `op` [here](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth/AWS-AUTH-1PASSWORD.md).
+>>>>>>> Stashed changes
 
 First, store your permanent AWS credentials in `pass`:
 
@@ -250,9 +267,15 @@ If you you need to run `aws-auth` with a cronjob, you may want to set the `$USER
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/aws-auth/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "33dfa594e2d6a9d15a42d12d5447fd96"

@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # EC2 Backup Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/ec2-backup" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/ec2-backup" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-server/releases/tag/v0.15.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module makes it easy to deploy a [data lifecycle manager policy](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html) that will automatically create snapshots of EBS volumes whose tags match the target you configure. This is ideal for managing automatic backups of your EC2 instances' EBS volumes.
 
@@ -32,7 +38,11 @@ This module makes it easy to deploy a [data lifecycle manager policy](https://do
 
 module "ec_2_backup" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server.git//modules/ec2-backup?ref=v0.15.3"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-server.git//modules/ec2-backup?ref=v0.15.3"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -97,7 +107,11 @@ module "ec_2_backup" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server.git//modules/ec2-backup?ref=v0.15.3"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-server.git//modules/ec2-backup?ref=v0.15.3"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -303,9 +317,15 @@ The name of the IAM role associated with the data lifecycle manager
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/ec2-backup/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/ec2-backup/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/ec2-backup/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/ec2-backup/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/ec2-backup/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-server/tree/v0.15.3/modules/ec2-backup/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "75fbca15fc39dbbe7f08b0738a10807b"

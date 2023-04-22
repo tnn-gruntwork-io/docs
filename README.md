@@ -9,7 +9,11 @@ static website generator.
 
 All of the content that we see on the docs site is rendered to the top level
 `docs/` folder by the
+<<<<<<< Updated upstream
 [docs-sourcer](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/docs-sourcer). `docs-sourcer` is
+=======
+[docs-sourcer](https://github.com/tnn-gruntwork-io/docs-sourcer). `docs-sourcer` is
+>>>>>>> Stashed changes
 a process which can pull content from our GitHub repos as well as pre-process
 the MarkDown files which comprise the docs site's manually authored content (in
 `_docs-sources/`). At present, `docs-sourcer` isn't augmenting the content all

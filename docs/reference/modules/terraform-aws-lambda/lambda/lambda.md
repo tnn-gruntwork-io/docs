@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Lambda Function Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.8" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-lambda/releases/tag/v0.21.8" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module makes it easy to deploy and manage an [AWS Lambda](https://aws.amazon.com/lambda/) function. Lambda gives
 you a way to run code on-demand in AWS without having to manage servers.
@@ -36,7 +42,11 @@ exported as the output `function_arn`, so you can add custom rules using the `aw
 
 ```hcl
 module "my_lambda_function" {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda?ref=v1.0.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda?ref=v1.0.8"
+>>>>>>> Stashed changes
   # (params omitted)
 }
 
@@ -64,7 +74,11 @@ Here's an example:
 
 ```hcl
 module "my_lambda_function" {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda?ref=v1.0.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda?ref=v1.0.8"
+>>>>>>> Stashed changes
   
   run_in_vpc = true
   vpc_id = "${data.terraform_remote_state.vpc.id}"
@@ -81,7 +95,11 @@ output variable `security_group_id`):
 
 ```hcl
 module "my_lambda_function" {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda?ref=v1.0.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda?ref=v1.0.8"
+>>>>>>> Stashed changes
   
   run_in_vpc = true
   vpc_id = "${data.terraform_remote_state.vpc.id}"
@@ -105,7 +123,11 @@ Lambda function are still in use. If necessary, the variable `enable_eni_cleanup
 of the function from the VPC during `terraform destroy` and unblock the Security Group for destruction. Note: this
 requires the [`aws` cli tool](https://aws.amazon.com/cli/) to be installed.
 
+<<<<<<< Updated upstream
 Check out the [lambda-vpc example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples/lambda-vpc) for working sample code. Make sure to note the Known Issues
+=======
+Check out the [lambda-vpc example](https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/examples/lambda-vpc) for working sample code. Make sure to note the Known Issues
+>>>>>>> Stashed changes
 section in that example's README.
 
 ## How do you share Lambda functions across multiple AWS accounts?
@@ -137,7 +159,11 @@ If you want to have a central S3 bucket that you use as a repository for your La
     }
     ```
     `s3:GetObjectVersion` is only required if you want to use `s3 object versioning` when deploying `lambdas`. You also need to enable `bucket versioning` in such case.
+<<<<<<< Updated upstream
 2.  If you want to enable `encryption` for `S3 objects` you must use a customer master key, or CMK (see the [kms-master-key](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/main/modules/kms-master-key) module) rather than the default key, and ensure that both the `shared-services` account and all the other accounts (`dev`, `stage`, `prod`) have access to that CMK.
+=======
+2.  If you want to enable `encryption` for `S3 objects` you must use a customer master key, or CMK (see the [kms-master-key](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/main/modules/kms-master-key) module) rather than the default key, and ensure that both the `shared-services` account and all the other accounts (`dev`, `stage`, `prod`) have access to that CMK.
+>>>>>>> Stashed changes
 3.  The IAM User or IAM Role which will be running `terraform apply` for the other accounts (`dev`, `stage`, `prod`) must also be explicitly granted access to the S3 bucket in (1) and the CMK in (2).
 
 ## Sample Usage
@@ -153,7 +179,11 @@ If you want to have a central S3 bucket that you use as a repository for your La
 
 module "lambda" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda?ref=v0.21.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda?ref=v0.21.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -443,7 +473,11 @@ module "lambda" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda?ref=v0.21.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-lambda.git//modules/lambda?ref=v0.21.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -1296,9 +1330,15 @@ Name of the (optionally) created CloudWatch log group for the lambda function.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-lambda/tree/v0.21.8/modules/lambda/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "af23323bc30fc6a07c9cb641b48dfc7b"

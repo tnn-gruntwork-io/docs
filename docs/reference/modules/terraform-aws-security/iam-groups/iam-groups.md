@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # A Best-Practices Set of IAM Groups
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-groups" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.9" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-groups" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.65.9" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This Gruntwork Terraform Module sets up a set of IAM Groups that will make sense for most organizations and attaches to
 them a set of IAM Policies (permissions) that make it easier to manage different permissions levels in your AWS account.
@@ -52,7 +58,11 @@ This module optionally creates the following IAM Groups:
     since users can grant arbitrary permissions!
 *   **use-existing-iam-roles:** IAM Users in this group can pass *existing* IAM Roles to AWS resources to which they have
     been granted access. These IAM Users cannot create *new* IAM Roles, only use existing ones. See
+<<<<<<< Updated upstream
     [the three levels of IAM permissions](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies#the-three-levels-of-iam-permissions) for more information.
+=======
+    [the three levels of IAM permissions](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies#the-three-levels-of-iam-permissions) for more information.
+>>>>>>> Stashed changes
 *   **ssh-grunt-sudo-users:** IAM Users in this group have SSH access with `sudo` privileges to any EC2 Instance configured
     to use this group to manage SSH logins.
 *   **ssh-grunt-users:** IAM Users in this group have SSH access without `sudo` privileges to any EC2 Instance configured
@@ -83,7 +93,11 @@ own account unless this IAM Policy is attached to his account.
 
 ### IAM Users
 
+<<<<<<< Updated upstream
 This module does not create any IAM Users, nor assign any existing IAM Users to IAM Groups. You can use the [iam-users module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users) to create users.
+=======
+This module does not create any IAM Users, nor assign any existing IAM Users to IAM Groups. You can use the [iam-users module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users) to create users.
+>>>>>>> Stashed changes
 
 ### IAM Roles
 
@@ -108,7 +122,11 @@ otherwise enable IAM Users to access the billing console:
 ## Background Information
 
 For background information on IAM, IAM users, IAM policies, and more, check out the [background information docs in
+<<<<<<< Updated upstream
 the iam-policies module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies#background-information).
+=======
+the iam-policies module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies#background-information).
+>>>>>>> Stashed changes
 
 ## Sample Usage
 
@@ -123,7 +141,11 @@ the iam-policies module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/ter
 
 module "iam_groups" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-groups?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-groups?ref=v0.67.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -325,7 +347,11 @@ module "iam_groups" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/iam-groups?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/iam-groups?ref=v0.67.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -1046,9 +1072,15 @@ Should we create the IAM Group for user self-management? Allows users to manage 
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-groups/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-groups/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-groups/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-groups/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-groups/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-groups/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "ea1d32ca704dc82da58302553408433d"

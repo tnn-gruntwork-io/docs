@@ -13,6 +13,7 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # EKS K8S Role Mapping Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-role-mapping" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.56.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
@@ -20,6 +21,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 **NOTE: This module manages a single ConfigMap to use with Kubernetes AWS IAM authentication. If you wish to break up
 the ConfigMap across multiple smaller ConfigMaps to manage entries in isolated modules (e.g., when you add a new IAM
 role in a separate module from the EKS cluster), refer to the [eks-aws-auth-merger](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-aws-auth-merger).**
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-role-mapping" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.56.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+
+**NOTE: This module manages a single ConfigMap to use with Kubernetes AWS IAM authentication. If you wish to break up
+the ConfigMap across multiple smaller ConfigMaps to manage entries in isolated modules (e.g., when you add a new IAM
+role in a separate module from the EKS cluster), refer to the [eks-aws-auth-merger](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-aws-auth-merger).**
+>>>>>>> Stashed changes
 
 This Module can be used to manage the mapping of AWS IAM roles and users to Kubernetes RBAC groups for finer grained
 access control of your EKS Cluster.
@@ -59,7 +69,11 @@ as much or as little permissions as necessary when accessing resources in the AW
 
 This Module provides code for you to manage the mapping between AWS IAM roles and Kubernetes RBAC roles so that you can
 maintain a consistent set of mappings between the two systems. This works hand in hand with the [EKS authentication
+<<<<<<< Updated upstream
 system](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/core-concepts.md#how-do-i-authenticate-kubectl-to-the-eks-cluster), providing the information to Kubernetes to resolve the user to the right RBAC group based on the provided IAM role credentials.
+=======
+system](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/core-concepts.md#how-do-i-authenticate-kubectl-to-the-eks-cluster), providing the information to Kubernetes to resolve the user to the right RBAC group based on the provided IAM role credentials.
+>>>>>>> Stashed changes
 
 ## Examples
 
@@ -335,7 +349,11 @@ ConfigMap and as such does not have the cyclic dependency problem of Helm.
 
 module "eks_k_8_s_role_mapping" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-role-mapping?ref=v0.57.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-role-mapping?ref=v0.57.0"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -388,7 +406,11 @@ module "eks_k_8_s_role_mapping" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-role-mapping?ref=v0.57.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-role-mapping?ref=v0.57.0"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -543,9 +565,15 @@ The name of the ConfigMap created to store the mapping. This exists so that down
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-role-mapping/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-role-mapping/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-role-mapping/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-role-mapping/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-role-mapping/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-role-mapping/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "aa78b6f9825527e0c9326b0a4370f48d"

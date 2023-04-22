@@ -14,7 +14,11 @@ Let’s unpack this a bit.
 
 Core modules are broadly applicable and can be used with or without compliance requirements. For example,
 the [`iam-groups`
+<<<<<<< Updated upstream
 core module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/blob/master/modules/iam-groups/README.md) creates a best practices set of IAM groups. The groups are configurable according to your needs.
+=======
+core module](https://github.com/tnn-gruntwork-io/terraform-aws-security/blob/master/modules/iam-groups/README.md) creates a best practices set of IAM groups. The groups are configurable according to your needs.
+>>>>>>> Stashed changes
 You could, for example, choose to create a group with read-only access, another group with full administrator
 access, and no other groups. All Gruntwork subscribers have access to the core modules, which reside in
 Gruntwork’s [infrastructure as code repositories](https://gruntwork.io/repos).
@@ -22,8 +26,13 @@ Gruntwork’s [infrastructure as code repositories](https://gruntwork.io/repos).
 ## Standalone Compliance modules
 
 The standalone compliance modules complement the modules available in the IaC Library. They have the CIS compliance requirements built right in and may combine multiple modules including Core modules for a
+<<<<<<< Updated upstream
 specific use case. For example, the [`cleanup-expired-certs` standalone module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/security/cleanup-expired-certs) deploys a Lambda function that runs regularly and automatically removes all expired SSL/TLS certificates stored in AWS IAM in compliance with recommendation 1.19 of the CIS AWS Foundations Benchmark. These modules are in the [`terraform-aws-cis-service-catalog`
 repository](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog) (accessible to Gruntwork Compliance subscribers).
+=======
+specific use case. For example, the [`cleanup-expired-certs` standalone module](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog/tree/master/modules/security/cleanup-expired-certs) deploys a Lambda function that runs regularly and automatically removes all expired SSL/TLS certificates stored in AWS IAM in compliance with recommendation 1.19 of the CIS AWS Foundations Benchmark. These modules are in the [`terraform-aws-cis-service-catalog`
+repository](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog) (accessible to Gruntwork Compliance subscribers).
+>>>>>>> Stashed changes
 
 ## Compliance wrapper modules
 
@@ -31,16 +40,28 @@ The compliance wrapper modules are an extension of the IaC Library. They use the
 [`source` argument in a Terraform module block](https://www.terraform.io/docs/modules/sources.html) to invoke
 the core module with a configuration that is customized for compliance with the CIS AWS Foundations Benchmark.
 These modules are in the [`terraform-aws-cis-service-catalog`
+<<<<<<< Updated upstream
 repository](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog) (accessible to Gruntwork Compliance subscribers).
 
 ## infrastructure-live
 
 `infrastructure-live` uses [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt) to make it easier to
+=======
+repository](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog) (accessible to Gruntwork Compliance subscribers).
+
+## infrastructure-live
+
+`infrastructure-live` uses [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt) to make it easier to
+>>>>>>> Stashed changes
 work with Terraform modules in multiple environments. `infrastructure-live` is optional - you can use all of the modules
 with or without Terragrunt.
 
 If you’re not using Terragrunt, you can use Terraform modules to call the compliance wrapper modules directly. Subscribers can refer to the
+<<<<<<< Updated upstream
 [Create your own service catalog section](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/blob/master/core-concepts.md#create-your-own-service-catalog)
+=======
+[Create your own service catalog section](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/blob/master/core-concepts.md#create-your-own-service-catalog)
+>>>>>>> Stashed changes
 in the Gruntwork Service Catalog documentation for more information on how you might use `infrastructure-live`.
 
 ## Benefits

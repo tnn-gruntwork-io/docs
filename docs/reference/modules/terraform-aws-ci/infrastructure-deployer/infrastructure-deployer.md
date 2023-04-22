@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Infrastructure Pipeline: Infrastructure Deployer CLI
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.8" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.8" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module contains a CLI that can be used to set up a secure CI/CD pipeline for your infrastructure code ([Terraform](https://www.terraform.io), [Terragrunt](https://terragrunt.gruntwork.io), [Packer](https://www.packer.io/), [Docker](https://www.docker.com/), etc). This CLI can be used to in existing CI servers (e.g Jenkins, CircleCI, GitLab) to set up workflows that:
 
@@ -27,9 +33,15 @@ This module contains a CLI that can be used to set up a secure CI/CD pipeline fo
 
 *   Automatically update infrastructure configurations and deploying them
 
+<<<<<<< Updated upstream
 These workflows can be invoked on an isolated ECS task setup by the [ecs-deploy-runner module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner).
 
 Refer to the [ecs-deploy-runner module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner) for more information on the ECS task.
+=======
+These workflows can be invoked on an isolated ECS task setup by the [ecs-deploy-runner module](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner).
+
+Refer to the [ecs-deploy-runner module](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner) for more information on the ECS task.
+>>>>>>> Stashed changes
 
 ## Features
 
@@ -51,6 +63,7 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 ### Core concepts
 
+<<<<<<< Updated upstream
 *   [Overview](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/core-concepts.md#overview): An overview of the CLI and how to use it within CI jobs to implement an automated workflow for infrastructure code.
 
 ### Repo organization
@@ -60,6 +73,17 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 *   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples): This folder contains working examples of how to use the submodules.
 
 *   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/test): Automated tests for the modules and examples.
+=======
+*   [Overview](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/core-concepts.md#overview): An overview of the CLI and how to use it within CI jobs to implement an automated workflow for infrastructure code.
+
+### Repo organization
+
+*   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+
+*   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples): This folder contains working examples of how to use the submodules.
+
+*   [test](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/test): Automated tests for the modules and examples.
+>>>>>>> Stashed changes
 
 ## Deploy
 
@@ -67,6 +91,7 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 If you just want to try this repo out for experimenting and learning, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [examples folder](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
 
 ## Manage
@@ -76,14 +101,31 @@ If you just want to try this repo out for experimenting and learning, check out 
 *   [What are the IAM permissions](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/core-concepts.md#what-are-the-iam-permissions-necessary-to-trigger-a-deployment)
 
 *   [How do I invoke the ECS deploy runner?](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/core-concepts.md#how-do-i-invoke-the-ecs-deploy-runner)
+=======
+*   [examples folder](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+
+## Manage
+
+*   [How do I install the infrastructure-deployer CLI?](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/core-concepts.md#how-do-i-install-the-infrastructure-deployer-cli)
+
+*   [What are the IAM permissions](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/core-concepts.md#what-are-the-iam-permissions-necessary-to-trigger-a-deployment)
+
+*   [How do I invoke the ECS deploy runner?](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/core-concepts.md#how-do-i-invoke-the-ecs-deploy-runner)
+>>>>>>> Stashed changes
 
 
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/readme.adoc",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/readme.adoc",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "ef7c5b6386d2d6cbf9783ddc295d3a0c"

@@ -13,11 +13,19 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Custom IAM Entity
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/custom-iam-entity" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This Gruntwork Terraform Module creates an IAM group and/or role and attaches a provided set of IAM managed policies to the group. This can be used in conjunction with the [iam-groups](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-groups), [cross-account-iam-roles](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/cross-account-iam-roles), and [saml-iam-roles](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles) modules which create a set of groups and roles with smart defaults. Use this module to easily create IAM groups and roles with a defined set of permissions.
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/custom-iam-entity" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+
+This Gruntwork Terraform Module creates an IAM group and/or role and attaches a provided set of IAM managed policies to the group. This can be used in conjunction with the [iam-groups](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-groups), [cross-account-iam-roles](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/cross-account-iam-roles), and [saml-iam-roles](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/saml-iam-roles) modules which create a set of groups and roles with smart defaults. Use this module to easily create IAM groups and roles with a defined set of permissions.
+>>>>>>> Stashed changes
 
 ### Requirements
 
@@ -25,7 +33,11 @@ This Gruntwork Terraform Module creates an IAM group and/or role and attaches a 
 
 ### Instructions
 
+<<<<<<< Updated upstream
 Check out the [custom-iam-entity example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/custom-iam-entity) for a working example.
+=======
+Check out the [custom-iam-entity example](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/examples/custom-iam-entity) for a working example.
+>>>>>>> Stashed changes
 
 #### Resources Created
 
@@ -36,14 +48,22 @@ If neither role nor group are provided, this module does nothing.
 
 #### Resources NOT Created
 
+<<<<<<< Updated upstream
 *   **IAM users** - This module does not create any IAM Users, nor assign any existing IAM Users to IAM Groups. You can use the [iam-users module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users) to create users.
+=======
+*   **IAM users** - This module does not create any IAM Users, nor assign any existing IAM Users to IAM Groups. You can use the [iam-users module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-users) to create users.
+>>>>>>> Stashed changes
 *   **IAM policies** - This module only attaches policies by ARN or by name. It does not create any new policies.
 
 #### MFA support
 
 This module includes the `should_require_mfa` variable which controls whether MFA should be required for the created IAM group and/or role. The implementation of how MFA is enforced differs between IAM groups and IAM roles.
 
+<<<<<<< Updated upstream
 *   For IAM groups, we attach the `require_mfa_policy` from the [`iam-policies` module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/blob/main/modules/iam-policies/README.md). This policy denies access to all AWS APIs unless MFA is being used, except those allowing a member of the group to manage their own MFA devices.
+=======
+*   For IAM groups, we attach the `require_mfa_policy` from the [`iam-policies` module](https://github.com/tnn-gruntwork-io/terraform-aws-security/blob/main/modules/iam-policies/README.md). This policy denies access to all AWS APIs unless MFA is being used, except those allowing a member of the group to manage their own MFA devices.
+>>>>>>> Stashed changes
 *   For IAM roles, we use the `aws:MultiFactorAuthPresent` condition key on the role's trust policy, ensuring that MFA is present when assuming the role.
 
 The reason for this difference is difficult to explain, but boils down to limitations imposed by [role chaining](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html#iam-term-role-chaining) in combination with the presence of the `aws:MultiFactorAuthPresent` condition key under various authentication scenarios. For more information, refer to the AWS docs on [Configuring MFA-protected API access](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_configure-api-require.html#MFAProtectedAPI-cross-account-delegation).
@@ -51,7 +71,11 @@ The reason for this difference is difficult to explain, but boils down to limita
 ## Background Information
 
 For background information on IAM, IAM users, IAM policies, and more, check out the [background information docs in
+<<<<<<< Updated upstream
 the iam-policies module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies#background-information).
+=======
+the iam-policies module](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/iam-policies#background-information).
+>>>>>>> Stashed changes
 
 ## Sample Usage
 
@@ -66,7 +90,11 @@ the iam-policies module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/ter
 
 module "custom_iam_entity" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/custom-iam-entity?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/custom-iam-entity?ref=v0.67.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -165,7 +193,11 @@ module "custom_iam_entity" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/custom-iam-entity?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/custom-iam-entity?ref=v0.67.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -486,9 +518,15 @@ The name of the IAM role.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/custom-iam-entity/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/custom-iam-entity/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/custom-iam-entity/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/custom-iam-entity/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/custom-iam-entity/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/custom-iam-entity/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "23ce754af42de8faa5a72cff55eb85a5"

@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # IAM Role for GitHub Actions
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/github-actions-iam-role" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/github-actions-iam-role" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-security/releases/tag/v0.67.3" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This Terraform module can be used to create Assume Role policies and IAM Roles such that they can be used with
 GitHub Actions. This requires you to provision an IAM OpenID Connect Provider for GitHub Actions in your account. By
@@ -23,9 +29,15 @@ using OpenID Connect, GitHub Actions can directly exchange credentials to access
 GitHub with permanent AWS access credentials. This is useful to prevent credential leaks from progressing undetected.
 
 You can either use the
+<<<<<<< Updated upstream
 [account-baseline-app](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/main/modules/landingzone/account-baseline-app)
 or
 [account-baseline-security](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/main/modules/landingzone/account-baseline-security)
+=======
+[account-baseline-app](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/main/modules/landingzone/account-baseline-app)
+or
+[account-baseline-security](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/main/modules/landingzone/account-baseline-security)
+>>>>>>> Stashed changes
 modules (setting `enable_github_actions_access = true`) or by adding the following resource to your Terraform module:
 
 ```hcl
@@ -45,13 +57,21 @@ data "tls_certificate" "oidc_thumbprint" {
 ```hcl
 module "iam_role" {
   # Update <VERSION> with latest version of the module
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/github-actions-iam-role?ref=<VERSION>"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/github-actions-iam-role?ref=<VERSION>"
+>>>>>>> Stashed changes
 
   github_actions_openid_connect_provider_arn = aws_iam_openid_connect_provider.github_actions.arn
   github_actions_openid_connect_provider_url = aws_iam_openid_connect_provider.github_actions.url
 
   allowed_sources = {
+<<<<<<< Updated upstream
     "tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security" = ["main"]
+=======
+    "tnn-gruntwork-io/terraform-aws-security" = ["main"]
+>>>>>>> Stashed changes
   }
 
   iam_role_name                  = "example-iam-role"
@@ -60,7 +80,11 @@ module "iam_role" {
 ```
 
 The above example will configure the IAM role `example-iam-role` such that it is available to be assumed by GitHub
+<<<<<<< Updated upstream
 Actions if it is run from the `main` branch of the `tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security` repository. The IAM role would then
+=======
+Actions if it is run from the `main` branch of the `tnn-gruntwork-io/terraform-aws-security` repository. The IAM role would then
+>>>>>>> Stashed changes
 have the ability to call any API in the `ec2` namespace.
 
 You can further customize the IAM role using the following variables:
@@ -78,14 +102,23 @@ allow the `dev` branch on `terraform-aws-security`, as well as the `main` branch
 ```hcl
 module "iam_role" {
   # Update <VERSION> with latest version of the module
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/github-actions-iam-role?ref=<VERSION>"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/github-actions-iam-role?ref=<VERSION>"
+>>>>>>> Stashed changes
 
   github_actions_openid_connect_provider_arn = aws_iam_openid_connect_provider.github_actions.arn
   github_actions_openid_connect_provider_url = aws_iam_openid_connect_provider.github_actions.url
 
   allowed_sources = {
+<<<<<<< Updated upstream
     "tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security"              = ["main", "dev"]
     "tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog" = ["main"]
+=======
+    "tnn-gruntwork-io/terraform-aws-security"              = ["main", "dev"]
+    "tnn-gruntwork-io/terraform-aws-service-catalog" = ["main"]
+>>>>>>> Stashed changes
   }
 
   iam_role_name                  = "example-iam-role"
@@ -99,14 +132,23 @@ role creation. For example:
 ```hcl
 module "assume_role_policy" {
   # Update <VERSION> with latest version of the module
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/github-actions-iam-role?ref=<VERSION>"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/github-actions-iam-role?ref=<VERSION>"
+>>>>>>> Stashed changes
 
   github_actions_openid_connect_provider_arn = aws_iam_openid_connect_provider.github_actions.arn
   github_actions_openid_connect_provider_url = aws_iam_openid_connect_provider.github_actions.url
 
   allowed_sources = {
+<<<<<<< Updated upstream
     "tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security"              = ["main", "dev"]
     "tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog" = ["main"]
+=======
+    "tnn-gruntwork-io/terraform-aws-security"              = ["main", "dev"]
+    "tnn-gruntwork-io/terraform-aws-service-catalog" = ["main"]
+>>>>>>> Stashed changes
   }
 
   create_iam_role = false
@@ -182,7 +224,11 @@ jobs:
 
 module "github_actions_iam_role" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/github-actions-iam-role?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/github-actions-iam-role?ref=v0.67.8"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -190,7 +236,11 @@ module "github_actions_iam_role" {
 
   # Map of github repositories to the list of branches that are allowed to assume
   # the IAM role. The repository should be encoded as org/repo-name (e.g.,
+<<<<<<< Updated upstream
   # tnn-tnn-tnn-tnn-tnn-gruntwork-io/terrraform-aws-ci).
+=======
+  # tnn-gruntwork-io/terrraform-aws-ci).
+>>>>>>> Stashed changes
   allowed_sources = <map(list(string))>
 
   # ARN of the OpenID Connect Provider provisioned for GitHub Actions.
@@ -260,7 +310,11 @@ module "github_actions_iam_role" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security.git//modules/github-actions-iam-role?ref=v0.67.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-security.git//modules/github-actions-iam-role?ref=v0.67.8"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -271,7 +325,11 @@ inputs = {
 
   # Map of github repositories to the list of branches that are allowed to assume
   # the IAM role. The repository should be encoded as org/repo-name (e.g.,
+<<<<<<< Updated upstream
   # tnn-tnn-tnn-tnn-tnn-gruntwork-io/terrraform-aws-ci).
+=======
+  # tnn-gruntwork-io/terrraform-aws-ci).
+>>>>>>> Stashed changes
   allowed_sources = <map(list(string))>
 
   # ARN of the OpenID Connect Provider provisioned for GitHub Actions.
@@ -347,7 +405,11 @@ inputs = {
 <HclListItem name="allowed_sources" requirement="required" type="map(list(…))">
 <HclListItemDescription>
 
+<<<<<<< Updated upstream
 Map of github repositories to the list of branches that are allowed to assume the IAM role. The repository should be encoded as org/repo-name (e.g., tnn-tnn-tnn-tnn-tnn-gruntwork-io/terrraform-aws-ci).
+=======
+Map of github repositories to the list of branches that are allowed to assume the IAM role. The repository should be encoded as org/repo-name (e.g., tnn-gruntwork-io/terrraform-aws-ci).
+>>>>>>> Stashed changes
 
 </HclListItemDescription>
 <HclListItemTypeDetails>
@@ -535,9 +597,15 @@ The name of the IAM role.
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/github-actions-iam-role/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/github-actions-iam-role/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/github-actions-iam-role/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/github-actions-iam-role/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/github-actions-iam-role/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/v0.67.8/modules/github-actions-iam-role/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "1a2e5f42d304bff2ca08c4ffb932008e"

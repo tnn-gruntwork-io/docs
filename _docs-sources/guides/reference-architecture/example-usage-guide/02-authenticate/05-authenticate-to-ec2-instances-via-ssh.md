@@ -4,7 +4,11 @@ You can SSH to any of your EC2 Instances as follows:
 
 ## (Recommended) ssh-grunt
 
+<<<<<<< Updated upstream
 Every EC2 instance has [`ssh-grunt`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt)
+=======
+Every EC2 instance has [`ssh-grunt`](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt)
+>>>>>>> Stashed changes
 installed, which allows you to manage SSH access using IAM groups. Here's how it works:
 
 ### Add users to SSH IAM Groups
@@ -27,7 +31,11 @@ IAM users](setting-up-initial-access#configure-other-iam-users) for instructions
 Your username for SSH is typically the same as your IAM user name. However, if your IAM user name has special
 characters that are not allowed by operating systems (e.g., most punctuation is not allowed), your SSH username may be a
 bit different, as specified in the [`ssh-grunt`
+<<<<<<< Updated upstream
 documentation](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt#syncing-users-from-iam).
+=======
+documentation](https://github.com/tnn-gruntwork-io/terraform-aws-security/tree/master/modules/ssh-grunt#syncing-users-from-iam).
+>>>>>>> Stashed changes
 For example:
 
 - If your IAM User name is `josh`, your SSH username will also be `josh`.

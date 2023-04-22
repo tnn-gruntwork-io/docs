@@ -56,7 +56,11 @@ branch where infrastructure is deployed from.
 
 :::info
 
+<<<<<<< Updated upstream
 This guide will use [Terragrunt](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terragrunt) and its associated file and folder
+=======
+This guide will use [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt) and its associated file and folder
+>>>>>>> Stashed changes
 structure to deploy Terraform modules. Please note that **Terragrunt is NOT required for using Terraform modules from
 the Gruntwork Infrastructure as Code Library.** Check out
 our [Introduction to Gruntwork](/intro/overview/intro-to-gruntwork) for instructions

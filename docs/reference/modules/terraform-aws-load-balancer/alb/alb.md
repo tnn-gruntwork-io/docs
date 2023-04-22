@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Application Load Balancer (ALB) Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/alb" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/alb" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/releases/tag/v0.29.4" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This Terraform Module creates an [Application Load Balancer](http://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html)
 that you can use as a load balancer for any [ALB Target Group](http://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html).
@@ -136,11 +142,19 @@ stats.acme.com, both on port 443). But it also led to low utilization among all 
 consequently higher costs.
 
 With the ALB, a single ALB is shared among multiple ECS Services. For that reason, after you've created an ALB using this
+<<<<<<< Updated upstream
 module, you may wish to create an ECS Cluster using the [ecs-cluster](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/main/modules/ecs-cluster) module, where you'll pass in the Security
 Group ID of the newly created ALB to permit the ALB to forward traffic to the ECS Cluster.
 
 With an ECS Cluster and ALB in place, you can now use the \[ecs-service-with-alb]
 (https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/main/modules/ecs-service-with-alb) module to create a new ECS Service
+=======
+module, you may wish to create an ECS Cluster using the [ecs-cluster](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/main/modules/ecs-cluster) module, where you'll pass in the Security
+Group ID of the newly created ALB to permit the ALB to forward traffic to the ECS Cluster.
+
+With an ECS Cluster and ALB in place, you can now use the \[ecs-service-with-alb]
+(https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/main/modules/ecs-service-with-alb) module to create a new ECS Service
+>>>>>>> Stashed changes
 that contains an ALB Target Group you can configure to receive traffic from an ALB. To do that, you need to add one
 or more [aws_alb_listener_rule](https://www.terraform.io/docs/providers/aws/r/alb_listener_rule.html) resources to
 map which of the ALB listeners should send their traffic to the ECS service's Target Group.
@@ -150,7 +164,11 @@ map which of the ALB listeners should send their traffic to the ECS service's Ta
 To use the ALB with multiple services, you each service should create
 [aws_alb_listener_rule](https://www.terraform.io/docs/providers/aws/r/alb_listener_rule.html) resources to specify
 which paths or domain names should be routed to that service. For working sample code, check out the
+<<<<<<< Updated upstream
 [docker-service-with-alb example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/main/examples/docker-service-with-alb).
+=======
+[docker-service-with-alb example](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/main/examples/docker-service-with-alb).
+>>>>>>> Stashed changes
 
 ## Gotcha's
 
@@ -191,7 +209,11 @@ There are two ways for you to override this behavior:
 
 module "alb" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/alb?ref=v0.29.4"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/alb?ref=v0.29.4"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -246,7 +268,11 @@ module "alb" {
   # The S3 Bucket name where ALB logs should be stored. If left empty, no ALB logs
   # will be captured. Tip: It's easiest to create the S3 Bucket using the Gruntwork
   # Module
+<<<<<<< Updated upstream
   # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/main/modules/logs/
+=======
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/main/modules/logs/
+>>>>>>> Stashed changes
   # oad-balancer-access-logs.
   alb_access_logs_s3_bucket_name = null
 
@@ -400,7 +426,11 @@ module "alb" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/alb?ref=v0.29.4"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-load-balancer.git//modules/alb?ref=v0.29.4"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -458,7 +488,11 @@ inputs = {
   # The S3 Bucket name where ALB logs should be stored. If left empty, no ALB logs
   # will be captured. Tip: It's easiest to create the S3 Bucket using the Gruntwork
   # Module
+<<<<<<< Updated upstream
   # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/main/modules/logs/
+=======
+  # https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/main/modules/logs/
+>>>>>>> Stashed changes
   # oad-balancer-access-logs.
   alb_access_logs_s3_bucket_name = null
 
@@ -712,7 +746,11 @@ map(list(object({
 <HclListItem name="alb_access_logs_s3_bucket_name" requirement="optional" type="string">
 <HclListItemDescription>
 
+<<<<<<< Updated upstream
 The S3 Bucket name where ALB logs should be stored. If left empty, no ALB logs will be captured. Tip: It's easiest to create the S3 Bucket using the Gruntwork Module https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring/tree/main/modules/logs/load-balancer-access-logs.
+=======
+The S3 Bucket name where ALB logs should be stored. If left empty, no ALB logs will be captured. Tip: It's easiest to create the S3 Bucket using the Gruntwork Module https://github.com/tnn-gruntwork-io/terraform-aws-monitoring/tree/main/modules/logs/load-balancer-access-logs.
+>>>>>>> Stashed changes
 
 </HclListItemDescription>
 <HclListItemDefaultValue defaultValue="null"/>
@@ -1080,9 +1118,15 @@ A map from port to the AWS ARNs of the listeners for the ALB that has been deplo
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/alb/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/alb/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/alb/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/alb/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/alb/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-load-balancer/tree/v0.29.4/modules/alb/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "e404ff27b09eac1c205f3a8570056221"

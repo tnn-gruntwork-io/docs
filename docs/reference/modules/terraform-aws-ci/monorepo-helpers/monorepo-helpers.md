@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # Infrastructure Pipeline: Monorepo Helpers
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.8" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.8" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module contains scripts that help with adapting CI/CD pipelines for infrastructure code to monorepo setups. These scripts can be used to setup pipelines that only run tests on the infrastructure modules that changed, as opposed to always running all tests on every change. By only running the relevant tests for each commit, you can drastically reduce the runtime of your CI/CD pipelines (as only a subset of the tests run each time).
 
@@ -41,6 +47,7 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 ### Core concepts
 
+<<<<<<< Updated upstream
 *   [Overview of scripts](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/core-concepts.md#overview): An overview of the scripts included in this module, including how they work.
 
 ### Repo organization
@@ -50,6 +57,17 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 *   [examples](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples): This folder contains working examples of how to use the submodules.
 
 *   [test](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/test): Automated tests for the modules and examples.
+=======
+*   [Overview of scripts](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/core-concepts.md#overview): An overview of the scripts included in this module, including how they work.
+
+### Repo organization
+
+*   [modules](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+
+*   [examples](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/examples): This folder contains working examples of how to use the submodules.
+
+*   [test](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/test): Automated tests for the modules and examples.
+>>>>>>> Stashed changes
 
 ## Deploy
 
@@ -57,6 +75,7 @@ This repo is a part of [the Gruntwork Infrastructure as Code Library](https://gr
 
 If you just want to try this module out for experimenting and learning, check out the following resources:
 
+<<<<<<< Updated upstream
 *   [CircleCI Quickstart](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/core-concepts.md#circleci-quickstart): Quickstart guide for integrating the scripts into CircleCI to setup dynamic test selection.
 
 ### Production deployment
@@ -72,14 +91,37 @@ If you just want to try this module out for experimenting and learning, check ou
 *   [Adding a new module to a repo with validate-monorepo-test-mappings](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/core-concepts.md#adding-a-new-module-to-a-repo-with-validate-monorepo-test-mappings)
 
 *   [Adding a new file that has no tests to a repo with validate-monorepo-test-mappings](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/core-concepts.md#adding-a-new-file-that-has-no-tests-to-a-repo-with-validate-monorepo-test-mappings)
+=======
+*   [CircleCI Quickstart](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/core-concepts.md#circleci-quickstart): Quickstart guide for integrating the scripts into CircleCI to setup dynamic test selection.
+
+### Production deployment
+
+*   [terraform-aws-service-catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog): The `terraform-aws-service-catalog` module uses the scripts in this module to setup dynamic test selection.
+
+## Manage
+
+*   [How to configure direct test mappings](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/core-concepts.md#how-to-configure-direct-test-mappings)
+
+*   [How to override the files checked by validate-monorepo-test-mappings](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/core-concepts.md#how-to-override-the-files-checked-by-validate-monorepo-test-mappings)
+
+*   [Adding a new module to a repo with validate-monorepo-test-mappings](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/core-concepts.md#adding-a-new-module-to-a-repo-with-validate-monorepo-test-mappings)
+
+*   [Adding a new file that has no tests to a repo with validate-monorepo-test-mappings](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/core-concepts.md#adding-a-new-file-that-has-no-tests-to-a-repo-with-validate-monorepo-test-mappings)
+>>>>>>> Stashed changes
 
 
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/readme.adoc",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/readme.adoc",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/monorepo-helpers/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "6f4b19f936857928f5a8c976887f3be1"

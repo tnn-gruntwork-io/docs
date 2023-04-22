@@ -13,9 +13,15 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # K8S External DNS Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.56.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-eks/releases/tag/v0.56.1" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This Terraform Module installs and configures [the external-dns
 application](https://github.com/kubernetes-incubator/external-dns) on an EKS cluster, so that you can configure Route 53
@@ -35,7 +41,11 @@ work, you need to map the domain name to the `Ingress` endpoint, so that request
 been created and provisioned. However, this can be cumbersome due to the asynchronous nature of Kubernetes operations.
 
 For example, if you are using an `Ingress` controller that maps to actual physical loadbalancers in the cloud (e.g the
+<<<<<<< Updated upstream
 [ALB Ingress Controller deployed using the eks-alb-ingress-controller module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-alb-ingress-controller)), the
+=======
+[ALB Ingress Controller deployed using the eks-alb-ingress-controller module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-alb-ingress-controller)), the
+>>>>>>> Stashed changes
 endpoint may take several minutes before it is available. You will have to wait for that time, continuously polling the
 `Ingress` resource until the underlying resource is provisioned and the endpoint is available before you can configure the
 DNS setting.
@@ -61,7 +71,11 @@ This module uses [`helm` v3](https://helm.sh/docs/) to deploy the controller to 
 ### IAM permissions
 
 The container deployed in this module requires IAM permissions to manage Route 53 Hosted Zones. See [the
+<<<<<<< Updated upstream
 eks-k8s-external-dns-iam-policy module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy) for more information.
+=======
+eks-k8s-external-dns-iam-policy module](https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns-iam-policy) for more information.
+>>>>>>> Stashed changes
 
 ## How do I restrict which Hosted Zones the app should manage?
 
@@ -116,7 +130,11 @@ zones_cache_duration  = "3h"
 
 module "eks_k_8_s_external_dns" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-external-dns?ref=v0.57.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-external-dns?ref=v0.57.0"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -286,7 +304,11 @@ module "eks_k_8_s_external_dns" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-external-dns?ref=v0.57.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-eks.git//modules/eks-k8s-external-dns?ref=v0.57.0"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -456,9 +478,15 @@ inputs = {
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-eks/tree/v0.57.0/modules/eks-k8s-external-dns/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "04e59ddc8d0135f1821d95e9085f4fb0"

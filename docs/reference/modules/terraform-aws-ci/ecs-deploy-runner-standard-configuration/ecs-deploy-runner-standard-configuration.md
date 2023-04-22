@@ -13,12 +13,21 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # ECS Deploy Runner Standard Configuration module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-standard-configuration" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.6" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
 
 This Terraform Module provides a streamlined interface to configure the [ecs-deploy-runner
 module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner) for a standard infrastructure and applications pipeline. This includes:
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-standard-configuration" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ci/releases/tag/v0.50.6" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+
+This Terraform Module provides a streamlined interface to configure the [ecs-deploy-runner
+module](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner) for a standard infrastructure and applications pipeline. This includes:
+>>>>>>> Stashed changes
 
 *   Base pipeline of build image, update variables, deploy infrastructure with Terraform/Terragrunt.
 *   Restricting git repos that can deploy infrastructure.
@@ -32,13 +41,21 @@ This module will output a map that can be passed directly into the `container_im
 
 ```hcl
 module "standard_configuration" {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner-standard-configuration?ref=v1.0.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner-standard-configuration?ref=v1.0.8"
+>>>>>>> Stashed changes
 
   # ... other args omitted for brevity ...
 }
 
 module "ecs_deploy_runner" {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner?ref=v1.0.8"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner?ref=v1.0.8"
+>>>>>>> Stashed changes
 
   container_images = module.standard_configuration.container_images
 
@@ -100,8 +117,13 @@ for more information).
 
 ## How do I invoke scripts in a given container?
 
+<<<<<<< Updated upstream
 You can use the [infrastructure-deployer CLI](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer) to invoke a deployed ECS deploy runner. Refer
 to [How do I invoke the ECS deploy runner](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/core-concepts.md#how-do-i-invoke-the-ecs-deploy-runner)
+=======
+You can use the [infrastructure-deployer CLI](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer) to invoke a deployed ECS deploy runner. Refer
+to [How do I invoke the ECS deploy runner](https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/infrastructure-deployer/core-concepts.md#how-do-i-invoke-the-ecs-deploy-runner)
+>>>>>>> Stashed changes
 for more information.
 
 ## Sample Usage
@@ -117,7 +139,11 @@ for more information.
 
 module "ecs_deploy_runner_standard_configuration" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner-standard-configuration?ref=v0.51.6"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner-standard-configuration?ref=v0.51.6"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -220,7 +246,11 @@ module "ecs_deploy_runner_standard_configuration" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner-standard-configuration?ref=v0.51.6"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ci.git//modules/ecs-deploy-runner-standard-configuration?ref=v0.51.6"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -347,11 +377,19 @@ object({
     })
 
     # List of repositories that are allowed to build AMIs. These should be the SSH git URL of the repository
+<<<<<<< Updated upstream
     # (e.g., git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git).
     allowed_repos = list(string)
 
     # List of repositories (matching the regex) that are allowed to build AMIs. These should be the SSH git URL of the repository
     # (e.g., "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/.+" ).
+=======
+    # (e.g., git@github.com:tnn-gruntwork-io/terraform-aws-ci.git).
+    allowed_repos = list(string)
+
+    # List of repositories (matching the regex) that are allowed to build AMIs. These should be the SSH git URL of the repository
+    # (e.g., "git@github.com:tnn-gruntwork-io/.+" ).
+>>>>>>> Stashed changes
     # Note that this is a list of individual regex because HCL doesn't allow bitwise operator: https://github.com/hashicorp/terraform/issues/25326
     allowed_repos_regex = list(string)
 
@@ -393,7 +431,11 @@ object({
 ```hcl
 
      List of repositories that are allowed to build AMIs. These should be the SSH git URL of the repository
+<<<<<<< Updated upstream
      (e.g., git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git).
+=======
+     (e.g., git@github.com:tnn-gruntwork-io/terraform-aws-ci.git).
+>>>>>>> Stashed changes
 
 ```
 </details>
@@ -404,7 +446,11 @@ object({
 ```hcl
 
      List of repositories (matching the regex) that are allowed to build AMIs. These should be the SSH git URL of the repository
+<<<<<<< Updated upstream
      (e.g., "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/.+" ).
+=======
+     (e.g., "git@github.com:tnn-gruntwork-io/.+" ).
+>>>>>>> Stashed changes
      Note that this is a list of individual regex because HCL doesn't allow bitwise operator: https://github.com/hashicorp/terraform/issues/25326
 
 ```
@@ -487,11 +533,19 @@ object({
     })
 
     # List of repositories that are allowed to build docker images. These should be the https git URL of the repository
+<<<<<<< Updated upstream
     # (e.g., https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git).
     allowed_repos = list(string)
 
     # List of repositories (matching the regex) that are allowed to build AMIs. These should be the https git URL of the repository
     # (e.g., "https://github\.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/.+" ).
+=======
+    # (e.g., https://github.com/tnn-gruntwork-io/terraform-aws-ci.git).
+    allowed_repos = list(string)
+
+    # List of repositories (matching the regex) that are allowed to build AMIs. These should be the https git URL of the repository
+    # (e.g., "https://github\.com/tnn-gruntwork-io/.+" ).
+>>>>>>> Stashed changes
     # Note that this is a list of individual regex because HCL doesn't allow bitwise operator: https://github.com/hashicorp/terraform/issues/25326
     allowed_repos_regex = list(string)
 
@@ -518,7 +572,11 @@ object({
 ```hcl
 
      List of repositories that are allowed to build docker images. These should be the https git URL of the repository
+<<<<<<< Updated upstream
      (e.g., https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git).
+=======
+     (e.g., https://github.com/tnn-gruntwork-io/terraform-aws-ci.git).
+>>>>>>> Stashed changes
 
 ```
 </details>
@@ -529,7 +587,11 @@ object({
 ```hcl
 
      List of repositories (matching the regex) that are allowed to build AMIs. These should be the https git URL of the repository
+<<<<<<< Updated upstream
      (e.g., "https://github\.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/.+" ).
+=======
+     (e.g., "https://github\.com/tnn-gruntwork-io/.+" ).
+>>>>>>> Stashed changes
      Note that this is a list of individual regex because HCL doesn't allow bitwise operator: https://github.com/hashicorp/terraform/issues/25326
 
 ```
@@ -584,14 +646,22 @@ object({
 
     # List of Git repositories containing infrastructure live configuration (top level terraform or terragrunt
     # configuration to deploy infrastructure) that the deploy runner is allowed to deploy. These should be the SSH git
+<<<<<<< Updated upstream
     # URL of the repository (e.g., git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git).
+=======
+    # URL of the repository (e.g., git@github.com:tnn-gruntwork-io/terraform-aws-ci.git).
+>>>>>>> Stashed changes
     # NOTE: when only a single repository is provided, this will automatically be included as a hardcoded option such
     # that users of the pipeline do not need to specify the repo.
     infrastructure_live_repositories = list(string)
 
     # List of Git repositories (matching the regex) containing infrastructure live configuration (top level terraform or terragrunt
     # configuration to deploy infrastructure) that the deploy runner is allowed to deploy. These should be the SSH git
+<<<<<<< Updated upstream
     # URL of the repository (e.g., git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git).
+=======
+    # URL of the repository (e.g., git@github.com:tnn-gruntwork-io/terraform-aws-ci.git).
+>>>>>>> Stashed changes
     # Note that this is a list of individual regex because HCL doesn't allow bitwise operator: https://github.com/hashicorp/terraform/issues/25326
     infrastructure_live_repositories_regex = list(string)
 
@@ -652,7 +722,11 @@ object({
 
      List of Git repositories containing infrastructure live configuration (top level terraform or terragrunt
      configuration to deploy infrastructure) that the deploy runner is allowed to deploy. These should be the SSH git
+<<<<<<< Updated upstream
      URL of the repository (e.g., git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git).
+=======
+     URL of the repository (e.g., git@github.com:tnn-gruntwork-io/terraform-aws-ci.git).
+>>>>>>> Stashed changes
      NOTE: when only a single repository is provided, this will automatically be included as a hardcoded option such
      that users of the pipeline do not need to specify the repo.
 
@@ -666,7 +740,11 @@ object({
 
      List of Git repositories (matching the regex) containing infrastructure live configuration (top level terraform or terragrunt
      configuration to deploy infrastructure) that the deploy runner is allowed to deploy. These should be the SSH git
+<<<<<<< Updated upstream
      URL of the repository (e.g., git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git).
+=======
+     URL of the repository (e.g., git@github.com:tnn-gruntwork-io/terraform-aws-ci.git).
+>>>>>>> Stashed changes
      Note that this is a list of individual regex because HCL doesn't allow bitwise operator: https://github.com/hashicorp/terraform/issues/25326
 
 ```
@@ -786,14 +864,22 @@ object({
 
     # List of Git repository containing infrastructure live configuration (top level terraform or terragrunt
     # configuration to deploy infrastructure) that the deploy runner is allowed to run plan on. These should be the SSH
+<<<<<<< Updated upstream
     # git URL of the repository (e.g., git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git).
+=======
+    # git URL of the repository (e.g., git@github.com:tnn-gruntwork-io/terraform-aws-ci.git).
+>>>>>>> Stashed changes
     # NOTE: when only a single repository is provided, this will automatically be included as a hardcoded option such
     # that users of the pipeline do not need to specify the repo.
     infrastructure_live_repositories = list(string)
 
     # List of Git repositories (matching the regex) containing infrastructure live configuration (top level terraform or terragrunt
     # configuration to deploy infrastructure) that the deploy runner is allowed to deploy. These should be the SSH git
+<<<<<<< Updated upstream
     # URL of the repository (e.g., git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git).
+=======
+    # URL of the repository (e.g., git@github.com:tnn-gruntwork-io/terraform-aws-ci.git).
+>>>>>>> Stashed changes
     # Note that this is a list of individual regex because HCL doesn't allow bitwise operator: https://github.com/hashicorp/terraform/issues/25326
     infrastructure_live_repositories_regex = list(string)
 
@@ -819,7 +905,11 @@ object({
 
      List of Git repository containing infrastructure live configuration (top level terraform or terragrunt
      configuration to deploy infrastructure) that the deploy runner is allowed to run plan on. These should be the SSH
+<<<<<<< Updated upstream
      git URL of the repository (e.g., git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git).
+=======
+     git URL of the repository (e.g., git@github.com:tnn-gruntwork-io/terraform-aws-ci.git).
+>>>>>>> Stashed changes
      NOTE: when only a single repository is provided, this will automatically be included as a hardcoded option such
      that users of the pipeline do not need to specify the repo.
 
@@ -833,7 +923,11 @@ object({
 
      List of Git repositories (matching the regex) containing infrastructure live configuration (top level terraform or terragrunt
      configuration to deploy infrastructure) that the deploy runner is allowed to deploy. These should be the SSH git
+<<<<<<< Updated upstream
      URL of the repository (e.g., git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci.git).
+=======
+     URL of the repository (e.g., git@github.com:tnn-gruntwork-io/terraform-aws-ci.git).
+>>>>>>> Stashed changes
      Note that this is a list of individual regex because HCL doesn't allow bitwise operator: https://github.com/hashicorp/terraform/issues/25326
 
 ```
@@ -914,9 +1008,15 @@ Configuration map for the ecs-deploy-runner module that can be passed straight i
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-standard-configuration/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-standard-configuration/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-standard-configuration/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-standard-configuration/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-standard-configuration/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ci/tree/v0.51.6/modules/ecs-deploy-runner-standard-configuration/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "1d560605b3a15025632a97fb2dc49774"

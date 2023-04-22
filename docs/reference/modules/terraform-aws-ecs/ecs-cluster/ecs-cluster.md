@@ -13,6 +13,7 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # ECS Cluster Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.35.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
@@ -22,6 +23,17 @@ Cluster](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_clusters
 Docker containers and services (see the [ecs-service module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-service/README.adoc)).
 
 **WARNING: Launch Configurations:** [Launch configurations](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html) are being phased out in favor of [Launch Templates](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-templates.html). Before upgrading to the latest release please be sure to test and plan any changes to infrastructure that may be impacted. Launch templates are being introduced in [PR #371](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/pull/371)
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-ecs/releases/tag/v0.35.0" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+
+This Terraform Module launches an [EC2 Container Service
+Cluster](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_clusters.html) that you can use to run
+Docker containers and services (see the [ecs-service module](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-service/README.adoc)).
+
+**WARNING: Launch Configurations:** [Launch configurations](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html) are being phased out in favor of [Launch Templates](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-templates.html). Before upgrading to the latest release please be sure to test and plan any changes to infrastructure that may be impacted. Launch templates are being introduced in [PR #371](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/pull/371)
+>>>>>>> Stashed changes
 
 ## What is an ECS Cluster?
 
@@ -32,7 +44,11 @@ ECS and register itself as part of the right cluster.
 
 ## How do you run Docker containers on the cluster?
 
+<<<<<<< Updated upstream
 See the [service module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-service/README.adoc).
+=======
+See the [service module](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-service/README.adoc).
+>>>>>>> Stashed changes
 
 ## How do you add additional security group rules?
 
@@ -97,11 +113,19 @@ currently no way in ECS to manage IAM policies on a per-Docker-container basis.
 
 ## How do you make changes to the EC2 Instances in the cluster?
 
+<<<<<<< Updated upstream
 To deploy an update to an ECS Service, see the [ecs-service module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-service). To deploy an update to the
 EC2 Instances in your ECS cluster, such as a new AMI, read on.
 
 Terraform and AWS do not provide a way to automatically roll out a change to the Instances in an ECS Cluster. Due to
 Terraform limitations (see [here for a discussion](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/pull/29)), there is
+=======
+To deploy an update to an ECS Service, see the [ecs-service module](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-service). To deploy an update to the
+EC2 Instances in your ECS cluster, such as a new AMI, read on.
+
+Terraform and AWS do not provide a way to automatically roll out a change to the Instances in an ECS Cluster. Due to
+Terraform limitations (see [here for a discussion](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/pull/29)), there is
+>>>>>>> Stashed changes
 currently no way to implement this purely in Terraform code. Therefore, we've created a script called
 `roll-out-ecs-cluster-update.py` that can do a zero-downtime roll out for you.
 
@@ -122,8 +146,13 @@ To deploy a change such as rolling out a new AMI to all ECS Instances:
     python3 roll-out-ecs-cluster-update.py --asg-name ASG_NAME --cluster-name CLUSTER_NAME --aws-region AWS_REGION
     ```
 
+<<<<<<< Updated upstream
     If you have your output variables configured as shown in [outputs.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/examples/docker-service-with-elb/outputs.tf)
     of the [docker-service-with-elb example](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/examples/docker-service-with-elb), you can use the `terraform output`
+=======
+    If you have your output variables configured as shown in [outputs.tf](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/examples/docker-service-with-elb/outputs.tf)
+    of the [docker-service-with-elb example](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/examples/docker-service-with-elb), you can use the `terraform output`
+>>>>>>> Stashed changes
     command to fill in most of the arguments automatically:
 
     ```
@@ -207,7 +236,11 @@ enable Capacity Providers on an existing ECS cluster that did not have Capacity 
 instances to ensure all the instances get associated with the new Capacity Provider.
 
 To rotate the instances, you can run the
+<<<<<<< Updated upstream
 [roll-out-ecs-cluster-update.py](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster/roll-out-ecs-cluster-update.py)
+=======
+[roll-out-ecs-cluster-update.py](https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster/roll-out-ecs-cluster-update.py)
+>>>>>>> Stashed changes
 script in the `terraform-aws-ecs` module. Refer to the
 [documentation](#how-do-you-make-changes-to-the-ec2-instances-in-the-cluster)
 for more information on the script.
@@ -225,7 +258,11 @@ for more information on the script.
 
 module "ecs_cluster" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-cluster?ref=v0.35.1"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-cluster?ref=v0.35.1"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -476,7 +513,11 @@ module "ecs_cluster" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-cluster?ref=v0.35.1"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-ecs.git//modules/ecs-cluster?ref=v0.35.1"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -1297,9 +1338,15 @@ Set this variable to true to enable the use of Instance Metadata Service Version
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-ecs/tree/v0.35.1/modules/ecs-cluster/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "4b6bd7f2938c53aae6c289b98a796186"

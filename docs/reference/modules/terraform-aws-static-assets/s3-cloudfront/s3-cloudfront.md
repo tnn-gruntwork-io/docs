@@ -13,14 +13,21 @@ import { ModuleUsage } from "../../../../../src/components/ModuleUsage";
 
 # S3 CloudFront Module
 
+<<<<<<< Updated upstream
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
 
 <a href="https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.15.9" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+=======
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront" className="link-button" title="View the source code for this module in GitHub.">View Source</a>
+
+<a href="https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/releases/tag/v0.15.9" className="link-button" title="Release notes for only versions which impacted this module.">Release Notes</a>
+>>>>>>> Stashed changes
 
 This module deploys a [CloudFront](https://aws.amazon.com/cloudfront/) distribution as a Content Distribution Network
 (CDN) in front of an [S3 bucket](https://aws.amazon.com/s3/). This reduces latency for your users, by caching your
 static content in servers around the world. It also allows you to use SSL with the static content in an S3 bucket.
 
+<<<<<<< Updated upstream
 See the [s3-static-website module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website) for how to deploy static content in an S3 bucket.
 
 ## Quick Start
@@ -28,6 +35,15 @@ See the [s3-static-website module](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntw
 *   See the [cloudfront-s3-public](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/examples/cloudfront-s3-public) and
     [cloudfront-s3-private](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/examples/cloudfront-s3-private) examples for working sample code.
 *   Check out [vars.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront/vars.tf) for all parameters you can set for this module.
+=======
+See the [s3-static-website module](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-static-website) for how to deploy static content in an S3 bucket.
+
+## Quick Start
+
+*   See the [cloudfront-s3-public](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/examples/cloudfront-s3-public) and
+    [cloudfront-s3-private](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/examples/cloudfront-s3-private) examples for working sample code.
+*   Check out [vars.tf](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront/vars.tf) for all parameters you can set for this module.
+>>>>>>> Stashed changes
 
 ## Public vs private S3 buckets
 
@@ -130,7 +146,11 @@ most use cases, but is not particularly flexible. In particular, the limitations
 *   Only one default cache behavior is supported
     ([cache behaviors](https://www.terraform.io/docs/providers/aws/r/cloudfront_distribution.html#cache-behavior-arguments)
     is an inline block). You can control the default cache settings using a number of parameters, including
+<<<<<<< Updated upstream
     `cached_methods`, `default_ttl`, `min_ttl`, `max_ttl`, and many others (see [vars.tf](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront/vars.tf) for the full list).
+=======
+    `cached_methods`, `default_ttl`, `min_ttl`, `max_ttl`, and many others (see [vars.tf](https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront/vars.tf) for the full list).
+>>>>>>> Stashed changes
 
 *   Only two error responses are supported
     ([error responses](https://www.terraform.io/docs/providers/aws/r/cloudfront_distribution.html#custom-error-response-arguments)
@@ -162,7 +182,11 @@ into your own codebase, using it as a guide, and adding the tweaks you need.
 
 module "s_3_cloudfront" {
 
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets.git//modules/s3-cloudfront?ref=v0.16.1"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-static-assets.git//modules/s3-cloudfront?ref=v0.16.1"
+>>>>>>> Stashed changes
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -451,7 +475,11 @@ module "s_3_cloudfront" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets.git//modules/s3-cloudfront?ref=v0.16.1"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-static-assets.git//modules/s3-cloudfront?ref=v0.16.1"
+>>>>>>> Stashed changes
 }
 
 inputs = {
@@ -1405,9 +1433,15 @@ If you have specified whitelist in <a href="#forward_cookies"><code>forward_cook
 <!-- ##DOCS-SOURCER-START
 {
   "originalSources": [
+<<<<<<< Updated upstream
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront/readme.md",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront/variables.tf",
     "https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront/outputs.tf"
+=======
+    "https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront/readme.md",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront/variables.tf",
+    "https://github.com/tnn-gruntwork-io/terraform-aws-static-assets/tree/v0.16.1/modules/s3-cloudfront/outputs.tf"
+>>>>>>> Stashed changes
   ],
   "sourcePlugin": "module-catalog-api",
   "hash": "e1dd0e8ef15e2490ca605c3f8bc264b6"

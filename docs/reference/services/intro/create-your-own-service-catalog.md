@@ -23,7 +23,11 @@ the Gruntwork Service Catalog? There are two things to check:
 1. **Should the Service Catalog be updated to support it?** If the Service Catalog doesn't already support the
    functionality you need, the next question to ask is if it should. As a general rule, if your use case is fairly
    common and likely affects many companies, we should support it! If that's the case, please [file a GitHub issue in
+<<<<<<< Updated upstream
    this repo](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/issues/new), and the Gruntwork team may be able to implement it for you. Also, pull requests are VERY welcome! See
+=======
+   this repo](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/issues/new), and the Gruntwork team may be able to implement it for you. Also, pull requests are VERY welcome! See
+>>>>>>> Stashed changes
    [Contributing to the Gruntwork Service
    Catalog](/guides/working-with-code/contributing)
    for instructions.
@@ -70,8 +74,13 @@ One way to populate your Service Catalog is to extend Gruntwork Services. There 
    ```hcl
    module "vpc" {
      # Make sure to replace <VERSION> in this URL with the latest terraform-aws-service-catalog release from
+<<<<<<< Updated upstream
      # https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/releases
      source = "git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=<VERSION>"
+=======
+     # https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/releases
+     source = "git@github.com:tnn-gruntwork-io/terraform-aws-service-catalog.git//modules/networking/vpc?ref=<VERSION>"
+>>>>>>> Stashed changes
 
      # Fill in the arguments for this service
      aws_region       = "eu-west-1"
@@ -130,6 +139,7 @@ production:
 1. [Modules from the Gruntwork IaC Library](https://gruntwork.io/infrastructure-as-code-library/). We strongly
    recommend building your own services by combining modules from the Gruntwork IaC Library. For example, if your
    service runs in an Auto Scaling Group (ASG), you may want to use the modules from
+<<<<<<< Updated upstream
    [`terraform-aws-asg`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-asg) to create an ASG that can do zero-downtime rolling
    deployments; if your service needs custom CloudWatch metrics, log aggregation, or alerts, you may want to use
    modules from [`terraform-aws-monitoring`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-monitoring); if your service is
@@ -138,6 +148,16 @@ production:
    [`helm-kubernetes-services`](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/helm-kubernetes-servicesv); and so on.
 
 1. [The Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/). You can of course also use
+=======
+   [`terraform-aws-asg`](https://github.com/tnn-gruntwork-io/terraform-aws-asg) to create an ASG that can do zero-downtime rolling
+   deployments; if your service needs custom CloudWatch metrics, log aggregation, or alerts, you may want to use
+   modules from [`terraform-aws-monitoring`](https://github.com/tnn-gruntwork-io/terraform-aws-monitoring); if your service is
+   doing something related to Kubernetes, you may want to use modules from
+   [`terraform-aws-eks`](https://github.com/tnn-gruntwork-io/terraform-aws-eks) or
+   [`helm-kubernetes-services`](https://github.com/tnn-gruntwork-io/helm-kubernetes-servicesv); and so on.
+
+1. [The Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/). You can of course also use
+>>>>>>> Stashed changes
    the Gruntwork Service Catalog for inspiration and examples of how to build your own Service Catalog!
 
 ## Testing your Service Catalog
@@ -152,8 +172,13 @@ We strongly recommend writing automated tests for your Service Catalog. Here are
    write for use with tools such as Terraform, Kubernetes, Docker, and Packer. Topics covered include unit tests,
    integration tests, end-to-end tests, test parallelism, retries, error handling, static analysis, and more.
 
+<<<<<<< Updated upstream
 1. [The Gruntwork Service Catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/). The Gruntwork Service Catalog
    has [thorough automated tests](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/test), so you can use it for inspiration and examples of how to test your own
+=======
+1. [The Gruntwork Service Catalog](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/). The Gruntwork Service Catalog
+   has [thorough automated tests](https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/tree/master/test), so you can use it for inspiration and examples of how to test your own
+>>>>>>> Stashed changes
    Service Catalog!
 
 ## Deploying from your Service Catalog

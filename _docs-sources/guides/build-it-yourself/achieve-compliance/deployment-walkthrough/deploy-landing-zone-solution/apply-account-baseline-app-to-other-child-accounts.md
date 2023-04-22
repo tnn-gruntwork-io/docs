@@ -24,12 +24,20 @@ infrastructure-live
         └ terragrunt.hcl
 ```
 
+<<<<<<< Updated upstream
 Point the `source` URL in your `terragrunt.hcl` file to the `account-baseline-app` module in the [terraform-aws-cis-service-catalog](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog)
+=======
+Point the `source` URL in your `terragrunt.hcl` file to the `account-baseline-app` module in the [terraform-aws-cis-service-catalog](https://github.com/tnn-gruntwork-io/terraform-aws-cis-service-catalog)
+>>>>>>> Stashed changes
 repo, setting the `ref` param to the version you require:
 
 ```hcl title=infrastructure-live/stage/_global/account-baseline/terragrunt.hcl
 terraform {
+<<<<<<< Updated upstream
   source = "git::git@github.com:tnn-tnn-tnn-tnn-tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/landingzone/account-baseline-app?ref=v0.27.0"
+=======
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-cis-service-catalog.git//modules/landingzone/account-baseline-app?ref=v0.27.0"
+>>>>>>> Stashed changes
 }
 ```
 
@@ -286,7 +294,11 @@ On some operating systems, such as MacOS, you may also need to increase your ope
    one of the other child accounts using the AWS Web Console. For example, authenticate as one of the IAM users in the
    security account, and then assume the `allow-full-access-from-other-accounts` role in the dev account (you can find
    the default list of IAM roles created in each account
+<<<<<<< Updated upstream
    [here](https://github.com/tnn-tnn-tnn-tnn-tnn-gruntwork-io/module-security/tree/master/modules/cross-account-iam-roles#resources-created)).
+=======
+   [here](https://github.com/tnn-gruntwork-io/module-security/tree/master/modules/cross-account-iam-roles#resources-created)).
+>>>>>>> Stashed changes
 
 5. Alternatively, you can use the `aws-vault login xxx` command to login to the AWS Web Console for any profile `xxx`
    that you’ve configured in `aws-vault`. For example, `aws-vault login logs-from-root` will open up your web browser
