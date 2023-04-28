@@ -33,13 +33,13 @@ RUN curl -LsS https://raw.githubusercontent.com/gruntwork-io/gruntwork-installer
 
 # Install fetch 
 ARG FETCH_VERSION=0.4.5
-RUN gruntwork-install --repo "https://github.com/tnn-gruntwork-io/fetch" --binary-name "fetch" --tag v${FETCH_VERSION} --no-sudo true 
+RUN gruntwork-install --repo "https://github.com/gruntwork-io/fetch" --binary-name "fetch" --tag v${FETCH_VERSION} --no-sudo true 
 =======
 RUN curl -LsS https://raw.githubusercontent.com/gruntwork-io/gruntwork-installer/v0.0.38/bootstrap-gruntwork-installer.sh | bash /dev/stdin --version v0.0.38 --no-sudo true
 
 # Install fetch 
 ARG FETCH_VERSION=0.4.5
-RUN gruntwork-install --repo "https://github.com/tnn-gruntwork-io/fetch" --binary-name "fetch" --tag v${FETCH_VERSION} --no-sudo true 
+RUN gruntwork-install --repo "https://github.com/gruntwork-io/fetch" --binary-name "fetch" --tag v${FETCH_VERSION} --no-sudo true 
 >>>>>>> Stashed changes
 
 # Packer
